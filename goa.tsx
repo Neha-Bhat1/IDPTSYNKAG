@@ -476,19 +476,19 @@ export default function TamilNaduPage() {
           <div className="flex flex-col md:flex-row md:items-end gap-6">
             <div className="flex-1">
               <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
-                South India
+                West India
               </div>
               <h1
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Tamil Nadu
+                Goa
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Temples
+                Pearl of the Orient
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -497,11 +497,11 @@ export default function TamilNaduPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chennai" },
-                  { label: "Population", value: "7.21 Crore" },
-                  { label: "Area", value: "1,30,060 sq km" },
-                  { label: "Founded", value: "26 January 1950" },
-                  { label: "Language", value: "Tamil" },
+                  { label: "Capital", value: "Panaji" },
+                  { label: "Population", value: "14.58 Lakh" },
+                  { label: "Area", value: "3,702 sq km" },
+                  { label: "Founded", value: "30 May 1987" },
+                  { label: "Language", value: "Konkani, Marathi, English, Portuguese" },
                   { label: "Districts", value: "32 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
@@ -522,32 +522,32 @@ export default function TamilNaduPage() {
 
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
         {/* Capital */}
-        <Section title="Capital — Chennai" icon="🏛️">
+        <Section title="Capital — Panaji" icon="🏛️">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
             <div className="text-5xl mb-3">🌆</div>
             <h3
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chennai
+              Panaji
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The Detroit of Asia
+              Capital of Goa — Rome of the East
             </p>
           </div>
         </Section>
 
-        {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Tamil Nadu" icon="🗺️">
+        {/* Map of Goa — click to enlarge */}
+        <Section title="Map of Goa" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
+              onClick={() => openLightbox(goaMap, "Map of Goa")}
             >
               <img
-                src={tnMap}
-                alt="Map of Tamil Nadu"
+                src={goaMap}
+                alt="Map of Goa"
                 className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
@@ -570,44 +570,16 @@ export default function TamilNaduPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              The State of Tamil Nadu has a hoary antiquity. Though
-              early sangam classics throw historical references, we pass to
-              recorded history only from the Pallavas.
+              Goa is a state on the southwestern coast of India within the Konkan region. It is geographically separated from the Deccan highlands by the Western Ghats. It is bordered by the Indian states of Maharashtra to the north and Karnataka to the east and south, with the Arabian Sea forming its western coastline. It was the capital of the eastern Portuguese empire until 1961. Panaji (Panjim) is the state's capital, while Vasco da Gama is its largest city by population. The state's official language is Konkani, spoken by the majority of its inhabitants.
             </p>
             <p className="text-foreground">
-              The southern states of India were under the hegemony of the
-              Cholas, the Cheras and the Pandyas for centuries. The Pallavas
-              held supremacy from about the second quarter of the fourth century
-              A.D. They were the originators of the famous Dravidian style of
-              temple architecture. The last Pallava ruler was Aparajita, in
-              whose reign the later Cholas under Vijayalaya and Aditya asserted
-              themselves by about the 10th century. At the end of the
-              11th century, Tamil Nadu was ruled by several dynasties like the
-              Chalukyas, Cholas and Pandyas. In the two centuries that followed,
-              the imperial Cholas gained paramountcy over South India.
+              The Portuguese, who first voyaged to the subcontinent in the early 16th century as merchants, conquered it on request of Timoji shortly thereafter. Goa became an overseas territory of the Portuguese Empire and part of what was then known as Portuguese India, remaining under Portuguese rule for approximately 451 years until its annexation by India in December 1961. The historic city of Margão (Madgaon) still reflects the cultural legacy of colonisation.
             </p>
             <p className="text-foreground">
-              Muslims gradually strengthened their position, which led to the
-              establishment of the Bahamani Sultanate, by the middle of the
-              14th century. At the same time, the Vijayanagar Kingdom quickly
-              consolidated itself and extended its sway over the whole of South
-              India, and at the close of the century, Vijayanagar became the
-              supreme power in South. However, it crumbled at the battle of
-              Talikota in 1564 to the confederate forces of the Deccan Sultans.
+              Goa encompasses an area of 3,702 km2 (1,429 sq mi). The highest point is the Sonsogor Peak, with an altitude of 1,026 m (3,366 ft). Goa has a coastline of 160 km (99 mi). Goa's seven major rivers are the Mandovi, Zuari, Terekhol, Chapora, Galgibag, Cumbarjua canal, Talpona, and the Sal. The Zuari and the Mandovi are the most important rivers, interspaced by the Cumbarjua canal, forming a major estuarine complex. These rivers are fed by the Southwest monsoon rain and their basin covers 69% of the state's geographical area. These rivers are some of the busiest in India.
             </p>
             <p className="text-foreground">
-              Even during the period of the tumultuous confusion that followed
-              the battle of Talikota, European commercial interest had appeared
-              as rivals in the area of South India. The Portuguese, the Dutch,
-              the French and the English came in quick succession and
-              established trading centres known as 'Factories'. East India
-              Company, which had established its factory at Masulipatnam (now in
-              Andhra Pradesh) in 1611, gradually annexed territories by
-              encouraging enmity among the native rulers. Tamil Nadu was one of
-              the first of British settlements in India. The State is the
-              successor to the old Madras Presidency, which covered the bulk of
-              the southern peninsula in 1901. The composite Madras State was
-              later reorganised, and the present Tamil Nadu was formed.
+             The state is divided into two administrative districts—North Goa and South Goa. Panaji (Panjim) is the headquarters of North Goa district and is also the capital of Goa. North Goa is further divided into three subdivisions—Panaji, Mapusa, and Bicholim; and five talukas (subdistricts)—Tiswadi (Panaji), Bardez (Mapusa), Pernem, Bicholim, and Sattari (Valpoi). Margao (Madgaon) is the headquarters of the South Goa district. It is also the cultural and commercial capital of Goa. South Goa is further divided into five subdivisions—Ponda, Mormugao-Vasco, Margao, Quepem, and Dharbandora; and seven talukas—Ponda, Mormugao, Salcete (Margao), Quepem, and Canacona (Chaudi), Sanguem, and Dharbandora.Goa has a total number of 334 villages.
             </p>
             <p className="text-foreground">
               Tamil Nadu is bounded on north by Andhra Pradesh and Karnataka, on
@@ -615,23 +587,13 @@ export default function TamilNaduPage() {
               south by the Indian Ocean.
             </p>
             <p className="text-foreground">
-              Tamil Nadu covers total land area of 130,060 km2 and is divided
-              into 32 districts which are: Ariyalur, Chennai, Coimbatore,
-              Cuddalore, Dharmapuri, Dindigul, Erode, Kancheepuram, Kanyakumari,
-              Karur, Krishnagiri, Madurai, Nagapattinam, Namakkal, Perambalur,
-              Pudukkottai, Ramanathapuram, Salem, Sivaganga, Thanjavur, The
-              Nilgiris, Theni, Thiruvallur, Thiruvannamalai, Thiruvarur,
-              Tirunelveli, Tirupur, Tiruchirappalli(Trichy),
-              Tuticorin(Thoothukoodi), Vellore, Villupuram and Virudhunagar.
+              In ancient literature, Goa was known by many names, such as Gomanchala, Gopakapattana, Gopakapattam, Gopakapuri, Govapuri, Govem, and Gomantak. Other historical names for Goa are Sindapur, Sandabur, and Mahassapatam.
             </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the cradle of Dravidian culture with its
-              cultural paraphernalia speckled all across the state in the form
-              of magnificent temples, gateways, intricate carvings, and the
-              society seeped in tradition.
+              Goa is widely regarded as the "Beach Capital of India" and a premier "Party Capital" due to its vibrant nightlife, sandy coastlines, and laid-back atmosphere. As India's smallest state, it is recognized for its unique blend of Portuguese-Indian culture, rich heritage, and high quality of life.
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: govt of TN, mapsofindia.com)
+              (src: wikipedia, mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -665,7 +627,7 @@ export default function TamilNaduPage() {
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Goa" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div
@@ -687,7 +649,7 @@ export default function TamilNaduPage() {
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
           <p className="text-muted-foreground text-sm mb-4">
-            Scroll horizontally to explore Tamil Nadu's iconic foods, crafts,
+            Scroll horizontally to explore Goa's iconic foods, crafts,
             dance, and traditions.
           </p>
           <div className="overflow-x-auto pb-4">
@@ -778,89 +740,65 @@ export default function TamilNaduPage() {
 
 const festivals = [
   {
-    name: "Pongal",
-    tagline: "The Harvest Festival of Tamil Nadu",
+    name: "Viva Carnaval",
+    tagline: "The annual carnival of Goa (aka Entrado)",
     description:
-      'Pongal is the harvest festival celebrated by the farmers in January to worship the sun, the earth and the cattle as thanks giving for a bounteous harvest. It is followed by the Jallikattu. - Tamil Nadu celebrates a four day harvesting festival annually during the month of January, popularly known as “Pongal”. The celebration is held to praise the Sun God for nourishing the crops throughout the year. The four day celebration involves; Bhogi, Surya Pongal, Mattu Pongal and Kaanum Pongal.  The third day of the festival is Mattu Pongal, which features a significant ancient sport known as Jallikattu - the bull taming sport. Bhogi marks the first day of the Pongal festivities and is celebrated on the last day of the Tamil calendar month Marghazhi.On this day people discard old belongings and celebrate new possessions. The people assemble and light a bonfire in order to burn the heaps of discards. Houses are cleaned, painted and decorated to give a festive look. Thai Pongal is the main festive day, celebrated on the next day of Bhogi.[10][11] It is observed on the first day of the Tamil calendar month of Thai, and usually falls on 14 or 15 January. It is dedicated to the Sun deity Surya and corresponds to Makar Sankranti. According to tradition, the festival marks the end of winter solstice, and the start of the sun\'s six-month-long journey northwards when the sun enters the Capricorn, also called as Uttarayana. Dedicated to Surya, it is celebrated with family and friends with new clothes worn and the preparation of the traditional pongal dish in an earthen pot. The pot is typically decorated by tying a turmeric plant or flower garland and placed in the sun along with sugarcane stalks. The homes are decorated with banana and mango leaves, decorative florals and kolams. Relatives and friends are invited and when the pongal starts to boil and overflow out of the vessel,they blow a conch or make sounds while shouting "Pongalo Pongal" ("may this rice boil over"). In rural areas, people sing traditional songs while the pongal dish is cooking. The Pongal dish is first offered to Surya and Lord Ganesha, and then shared with the gathered friends and family. Mattu Pongal ("Madu" meaning cow in Tamil) is the third day of the festival meant for the celebration of cattle. The cattle is regarded as sources of wealth as it is a means for dairy products and fertilizers, used for transportation and agriculture. The cattle are bathed, their horns are polished and painted in bright colors with garlands of flowers placed around their necks and taken for processions. Kaanum Pongal, the fourth and final day of the Tamil harvest festival, signifies familial unity, social bonding, and gratitude towards nature. ‘Kanu Pidi’ is a ritual where women and young girls place leftover colored rice (often cooked from previous days), sugarcane, and vegetables on turmeric leaves in the open for birds, particularly crows (regarded as ancestors). They pray for the health and prosperity of their brothers and family. (src:Wikipedia)',
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
+      "The Goa Carnival is the largest in India and one of the few traditional celebrations of the Western Christian holiday in Asia. The current version of the Goa Carnival was modelled after the Rio Carnival by a local Goan musician named Timoteo Fernandes and imposed in 1965 to attract tourists. It has since turned into a major tourist attraction for the state. The urban parade includes floats from local villages, commercial entities, and cultural groups. It is still organised in a very traditional manner, including by the staging of streetside local plays called Khell tiatrs, in various villages, especially in the taluka of Salcete. Live bands play traditional Konkani, Latin, and EDM music throughout the festivities. Streets become open dance floors, where locals and visitors groove to the beat of lively tunes. The traditional mask dances and performances by local artists also add to the celebration. Beyond the parades, street performances, including acrobatics and fire-breathing shows are also held. According to the Government of Goa's Department of Tourism, the carnival is Goa's most famous festival and has been celebrated since the 18th century. The Carnival usually starts off on Fat Saturday (known as Sabado Gordo) and concludes on Fat Tuesday (known as Shrove Tuesday), just before Ash Wednesday and the first day of the Western Christian season of Lent, observed by Christians of the Roman Catholic, Lutheran and Anglican denominations, among others. In Panjim, the capital of Goa, the festival is complemented by Grape Escapade, a local wine festival, and a dance at Samba Square in the centrally located Garden of Garcia da Orta. According to local tradition, during Carnival Goa is taken over by King Momo, usually a local resident who presides over the festival during the four-day span. King Momo traditionally proclaims the Konkani message (English: 'Eat, drink and make merry').",
+    images: [goacarnival1, goacarnival2, goacarnival3],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Jallikattu — Bull Fight",
+    name: "Feast of St. Francis Xavier",
     tagline:
-      "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
+      "Honors the 16th-century Spanish Jesuit missionary and co-founder of the Society of Jesus known as the 'Apostle of the Indies' for his extensive efforts in spreading Christianity across Asia",
     description:
-      "Jallikattu-Bull fight, in some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu. - In ancient times, ‘Yeru thazhuvuthal’ or embracing the bull, was connected in displaying the men’s pride and victory for winning over a girl for marriage. The sport has prevailed in Tamil culture for over 2000 years now.   Manju Virattu is conducted every year in various regions of the state including Madurai, Sivagangai and Pudukottai. The event begins as the bulls are released to the arena via a small entrance known as “ Vaadi Vaasal”. The male players known to be bull tamers, amid loud whistles, applauses and cheers wait nearby to the entrance and try to grab the bull's hump, which needs a lot of courage and prudence. The person who clutches the hump and takes the pouch containing cash or presents without falling off the bull is deemed the winner. Besides being identified as a conquering sport, it is also associated with the good motive of preserving pure-breeding of native bulls which were bred exclusively for the purpose of mating. The native Kangayam, Pulikulam, Umbalachery , Bargur and Malai Maadu are the combative breeds which compete highly in this sport. The sport has become the emotion of Tamilians with its long rooted historical and cultural significance. Madurai and Jallikattu The festival of cattle-worship is much delighted in Madurai and its sub regions. The sport is considered as a celebration in these areas. Preparations for this festival start months before the day of the event. The invites are sent to various villages about the celebration where the bulls are registered to enter the arena after a physical health check up. The district administration, Public works department, Police department along with local event organizers work together to maintain the integrity and dignity of the sport. Every year the regions of Avaniyapuram, Alanganallur and Palamedu attract around 700 native breeds of bulls and about 300 bull tamers from all around the state for this competition. The event also attracts a swarm of people, both locally and globally, visiting these areas to watch this magnificent sport. The bull taming sport in these regions are also telecasted on National Television every year.",
-    images: [jalli1, jalli2],
-    source: "",
+      "The Feast of St. Francis Xavier is one of Goa’s most significant religious festivals, celebrated annually on December 3rd to honour the patron saint of the region. Held at the Basilica of Bom Jesus in Old Goa, where the saint's relics are enshrined, this event draws thousands of pilgrims and tourists from around the world. During this decennial event, the saint’s relics are displayed for public veneration, offering a unique spiritual experience. The celebration includes masses, processions, and novenas leading up to the feast day, creating a deep sense of faith and community. This festival, especially during an exposition year, is a profound way to experience Goa’s rich religious and cultural heritage. He is considered the protector of Goa, and the feast transcends religious boundaries, with many locals participating. Nine days of prayer (novena) precede the feast on December 3, attracting pilgrims who participate in a walking pilgrimage. A massive fair occurs concurrently, featuring local food, sweets, and handicrafts, making it a crucial social event.",
+    images: [FeastXavier1, FeastXavier2],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Chithirai Festival, Madurai",
+    name: "The Sunburn Festival",
     tagline:
-      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+      "Asia's largest three-day Electronic Dance Music (EDM) festival.",
     description:
-      "Chithirai festival, Madurai brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar. - A famous Vishnu Temple dedicated to Lord Alagar is located 21 kilometres north of Madurai. The temple is set on a hill with breathtaking views. Alagarkoil is the name of the shrine, and Solaimalai is the name of the hill. The temple also has some lovely carvings, making it a worthwhile visit. The Hill is home to Palamudirsolai, one of Lord Subramaniya's six abodes.       Chithirai Festival, also known as Chithirai Thiruvizha, Meenakshi Kalyanam or Meenakshi Thirukalyanam, is an annual Tamil Hindu celebration in the city of Madurai during the month of April. The festival, celebrated during the Tamil month of Chithirai, is associated with the Meenakshi Temple, dedicated to the goddess Meenakshi, a form of Parvati and her consort Sundareshwar, a form of Shiva. The festival lasts for one month. The first 15 days mark the celebrations of the coronation of Meenakshi as the divine ruler of Madurai and her marriage to Sundareshwar. The next 15 days mark the celebrations of the journey of Kallalagar or Alagar (a form of the god Vishnu) from his temple in Alagar Koyil to Madurai. (src:utsav.gov.in)",
-    images: [chith1, chith2],
-    source: "(src: utsav.gov.in)",
+      "The Sunburn Festival is Asia's largest electronic dance music (EDM) festival and a globally renowned beach festival in Goa. Known for its electrifying performances by top international DJs, immersive stage designs, and vibrant coastal atmosphere, it attracts music enthusiasts from across the world. With its fusion of music, dance, and the quintessential Goan beach vibe, the Sunburn Festival is a must-attend event for anyone looking to experience Goa’s energetic nightlife and festive spirit. The festival drives massive growth in hospitality, including hotels, guesthouses, and restaurants. Sunburn has evolved into a significant experiential event offering workshops (puppets, kite making) and nightlife experiences. It was held annually in Vagator, Goa from 2007 to 2015, and shifted to Pune, Maharashtra in 2016. In 2019, the festival returned to Vagator, Goa. According to a 2014 International Music Summit report, Sunburn was 'as big as Tomorrowland and Ultra'. It was ranked by CNN in 2009 as one of the Top 10 Festivals in the world.",
+    images: [sunburn1, sunburn2],
+    source: "(src: hindustantimes, sunburn.in)",
   },
   {
-    name: "Tamizh Puttandu — Tamil New Year",
+    name: "São João",
     tagline:
-      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+      "Festival honouring St.John - the Baptist.",
     description:
-      "Tamizh Puttandu  - meaning ‘Tamil new year’. is the first day of year on the Tamil calendar that is traditionally celebrated as a festival by Tamils. The festival date is set with the solar cycle of the solar Hindu calendar, as the first day of the month of Chittirai. It falls on or about 14 April every year. Households clean up the house, prepare a tray with fruits, flowers and auspicious items, light up the family puja altar and visit their local temples. People wear new clothes and children go to elders to pay their respects and seek their blessings, then the family sits down to a feast. On the eve of Puthandu, a tray is arranged with three fruits (mango, banana and jack fruit), betel leaves and arecanut, gold/silver jewellery, coins/money, flowers and a mirror. This is similar to the Vishu new year festival ceremonial tray in Kerala. According to the Tamil tradition, this festive tray is auspicious as the first sight upon waking on the new year day and is called ‘kani’. Home entrances are decorated elaborately with colored rice powder. These designs are called kolams. As soon as they wake up, they walk to the kani with their eyes closed and see it as the first scene of the year. This tradition is significant in both regions and is believed to bring good luck and prosperity for the coming year.",
-    images: [puth1, puth2],
-    source: "(src: boldskytamil.com)",
+      "is an annual Catholic religious festival celebrated on 24 June in Goa, India. According to tradition, after attending Mass, young Goan Catholics leap into and swim in local wells, streams, and ponds as a tribute to Saint John the Baptist. The feast of São João is a celebration of the birth anniversary of Saint John the Baptist. Saint John was the son of Saint Elizabeth, a relative of Mary, mother of Jesus. One day, when Mary visited Elizabeth, the baby Saint John 'leapt' in her womb upon hearing Mary's greeting (Luke 1:44) When Jesus was thirty years old, he was baptised by Saint John in the Jordan River. The Nativity of John the Baptist is known to be one of the oldest festivals of the Christian church, and records show that it was celebrated as a big feast in 506 AD. The feast of São João in Goa coincides with the time of the year when the monsoon in Goa has usually commenced, there are fresh greenery and flowers in the surroundings, and wells and other water bodies are full. Consequently, the celebration of the birth of Saint John in Goa apparently evolved to incorporate elements of celebration of the rainy season. Jumping in wells and ponds is symbolic of the baby Saint John leaping in the womb, and of the baptism of Jesus in the river Jordan. People wear kopels (transl. crowns) made of flowers and a creeper known locally as sanjuachi vaal (transl. creeper of São João). The creeper is found growing in wells during the early monsoons. It also has small red flowers that add to the beauty of the kopel. Some believe that the creeper was worn by Saint John himself. While the São João celebrations are 'centuries old', a more recent tradition is followed in the village of Siolim, in Bardez taluka, featuring colourful floats on boats. These festivities date back 175 years, when São João revellers from Chapora and Zhor villages of Anjuna, Badem in Assagao, and Siolim would come in boats to the chapel of São João in Pereira Vaddo, Siolim, every year, to pay homage to the saint. São João is also a celebration of thanksgiving for newly-weds, and for families with babies born during the preceding year. It is thus referred to as Zanvoiamchem fest (transl. - son-in-law's feast) locally. The newly married son-in-law is invited for lunch by his mother-in-law, following which the son-in-law is warmly welcomed with the bursting of firecrackers. This is meant to signify that a marriage is not just between two families but between two villages.",
+    images: [saojoao1, saojoao2, saojoao3],
+    source: "(src: stayvista.com, wikipedia, scroll.in)",
   },
   {
-    name: "Adipperukku",
+    name: "Shigmo",
     tagline:
-      "The festival of Padhinettam Perukku, also known as 'Aadi Perukku', held on the 18th day of the Tamil month of Aadi.",
+      "The spring festival of Goa (aka-Shishirotsava).",
     description:
-      'Adipperukku - The festival of Padhinettam Perukku also known as "Aadi Perukku" is held on the 18th day of the Tamil month of Aadi. "Perukku" means "raising" in Tamil. This festival is a reflection of the River Kaveri\'s rise due to the monsoon rains. - The Tamil calendar month of Aadi is marked by festivities and fervour honouring Water and other natural resources. Prayers and pujas are performed throughout this month to express gratitude to the mighty Goddesses for abundant natural resources. The River Palar flows through the village of Kodaiyanchi near the Vaniyambadi town of Thirupathur district. The banks of the river are home to a 1000-year-old temple dedicated to Lord Shiva- Arulmigu Kasi Viswanathar Temple and Lord Murugan - Arulmigu Murugan Temple. Hundreds of devotees gather on the day of “Padhinettam Perukku” to celebrate the occasion by offering sweet Pongal to the deity. Mulaipari, also known as the sprouting or germination of nine grains (Navadhanyam) in clay mud pots, is a crucial ceremony that is performed in the temples during this occasion. Nine different varieties of cultivated grains are packed in the earthen pots that the procession devotees carry on their heads as they move towards the river where the grains are dissolved. The newly wedded couples from the surrounding villages come to this festival to replace their "mangalya thread" tied on the day of their marriage with a new one along with gold coins and trinkets. Women make a lamp using rice and jaggery, set it upon plantain leaves, and let it float along the River Palar.',
-    images: [adi1, adi2],
-    source: "",
+      "It is one of the major festivals of the Hindu community. It is also celebrated by Konkani diaspora and Indian festival of Holi is part of it. It is Goa's vibrant 14-day Hindu spring festival, held annually in March or April to welcome spring and celebrate the harvest. It features spectacular, colorful street parades across Goa—particularly in Ponda, Panaji, and Margao—showcasing folk dances, traditional music, and massive, illuminated floats depicting Hindu mythology. Large crowds witness the spectacular performances. A float parade winds its way down the streets once the sun sets and the lights come on.The music is typically dhol, taasha and kasale. Usually the festivities revolve around the village Mand. The Mand-dev and folk dieties are an essential part of the traditions. Goa observes two varieties of Shigmo: Dhakla (younger) and Thorla (Elder). The first is celebrated in Tiswadi, Ponda, Calangute and Quepem while the other in Bardez, Sattari, Bicholim and Pernem. In dance, the rombat form is popular. Here groups of dancers join in dressed in colourful attire. The elaborate attire and variety of instruments make this form special.Historic and comic elements combine to impart a rich and unique flavor to this festival.. Both these elements are evident in the different dance forms like Veeramel, Gade, Ghodemodni that highlight the heroic aspect. The comic aspects come through in the Zagor, Ranmalyem, Khele and Romat.Given its nature worship, the dance is dedicated to the gods and goddesses Shantaguru-Kuti, Santeri, Ravalnath, Shantadurga-Damodar and others. The festival also showcases the varied cultural aspects of Goa. Most of these dances are performed at the various Shigmo parades in towns across Goa. It’s a wonderful experience to witness these first hand as Goa’s traditions come alive. All these celebrations culminate at the frenzied climax of Holi, the festival of colours.",
+    images: [shigmo1, shigmo2, shigmo3, shigmo4],
+    source: "(src: ItsGoa, Incredible Goa, NDTV, TOI)",
   },
   {
-    name: "Dance Festival, Mamallapuram",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
+    name: "Chovoth",
+    tagline: "Ganesh Chaturthi of Goa.",
     description:
-      "Dance Festival, Mamallapuram, which is set before an open air stage, created 13 centuries ago the incredible monolithic rock sculptures of the Pallavas, next to the sea in this ancient city of Mamallapuram. Bharatha Natyam, Kuchipudi, Kathakali, and Odissi are some dance forms presented by the very best exponents of the art besides folk dances. The Mamallapuram Dance Festival is organised by the Department of Tourism, Tamil Nadu, and is a 30-day festival held annually between December and January. Professional classical dance artists from all around the nation come together for this grand event to showcase their mesmerising performances in traditional dance forms like Bharathanattiyam, Kuchipudi, Kathakali, Mohini Attam, Assami Dance, Odissi, and Kathak. Also, folk dancers add to the festival's vibrant atmosphere with their spirited performances.Every year, the picturesque shore town of Mamallapuram hosts the “Indian Dance Festival” - A Festival of Our Culture and Tradition. The venue for the Mamallapuram- Indian Dance Festival is the front lawn of the Shore Temple. The artists perform on an open-air stage, which provides the finest ambience for the dancers to perform their best during the festival. Some of the most prominent classical dancers in the country perform at the event. This event is a vivid reminder of the ancient connection between people and the arts. This festival not only provides an amazing chance to become acquainted with many traditional dance styles of India, but it also serves as a networking opportunity for artists, dancers, musicians, and theatre professionals. The spectacular architecture, historic ambience, and enthralling performances entice tourists from all over the world to experience the festival.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
+      "The most important and almost the national festival for Goan’s is the Ganesh Chaturthi known as ‘Chovoth’. The festivities run into several days, but minimum at least for one and half days, when puja of Gouri and Mahadev along with Ganapati, is performed. On the Chovoth day, in the morning or evening, a clay idol of Ganapati is brought home. Before that a matov (a small pandal above the place where the idol is place) is prepared with bunches of betel nut, coconut, bananas and branches of mango-trees being necessary ingredients of it. The puja of Ganapati goes on until mid-day. The puja is performed with the help of the pandit. On the second day, in the evening or at night, after performing the uttar puja of the image of Ganapati, it is taken in procession and immersed into a water body be it the sea, creek, river, lake or well. Before the idol is removed from its stand for immersion, it is besought for the welfare of the household and its members. The villages of Cumbharjua, Marcel and St Estevan enjoy a just reputation for their giant images of Ganapati made from different raw materials.While the festival is celebrated for one-and-a-half days in most houses, it can stretch upto 11 days. In community celebrations, the idol is worshipped for 9 to 21 days.",
+    images: [chovoth1, chovoth2],
+    source: "(src: ItsGoa, Wikipedia)",
   },
   {
-    name: "Velankanni Festival",
+    name: "Bonderam Festival",
     tagline:
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
+      "Commemorates a historical protest against Portuguese territorial flags.",
     description:
-      "The Velankanni festival attracts thousands, clad in orange robes to the sacred spot where the ship landed. Equally famous are the Virgin Mary's miraculous healing powers, earning for the church the name 'Lourdes of the East'.  ",
-    images: [velanFest1, velanFest2],
-    source: "",
-  },
-  {
-    name: "Navarathiri Festival — Kolu",
-    tagline: "Literally means the festival of 'nine nights'.",
-    description:
-      "The Navarathiri Festival, literally means the festival of 'nine nights', taking unique and different forms in different states of India, all to propitiate the goddess Sakthi, for power, wealth and knowledge. - Celebrated in Tamil Nadu, Karnataka, and Andhra Pradesh, the festival includes placing dolls of a multitude of gods, goddesses, men, animals, and children on a steps-like set-up. In Tamil it is known as ‘Bommai Golu’. The Navratri Golu depicts scenes from ancient times – celebrated Indian stories that have been passed on from generation to generation like the Ramayana, Puranas, and the Dashavataram. This is the time of the year that you revisit those precious lessons from timeless, age-old stories. The steps may also be interpreted as the evolution ladder that we are all traversing in the journey of life. The dolls are placed on multiple steps in the house – in odd numbers. The numbers could vary from one to 11 depending on the number of dolls available for display. Many families place nine steps, each step representing the nine days of Navratri. Some keep three, five or seven steps as well. The steps are covered with a decorative cloth, and the dolls are placed on it. The first step is decorated with a kalash (ceremonial jar). The water-filled jar is decorated with a coronet of mango leaves, and a coconut is placed on top of it. It is considered to represent Goddess Durga. Idols of deities are placed on both sides of the kalash. According to tradition, the dolls of Goddesses Durga, Lakshmi, Saraswati and the wooden dolls called the Marapachi Bommai are always a part of the arrangement. The next few steps have idols of saints and heroes of the country. One of the steps represents human activities – depicting functions such as marriage, temples, and an orchestra or music band. Business is usually represented by the Chettiar set of dolls, with shop items and the Marapachi couple dressed in colorful clothes. It is a custom to add at least one new doll every year. The Golu could be a mode of telling ancient stories such as Ramayana or Bhagavad Gita or it could simply depict the evolution of life from animals to the sages and seers. On the tenth and last day, Vijayadasami, the day of victory, is celebrated. This is considered the most auspicious day of all – to start new ventures and journeys, and a day to start learning new skills. On this day, the Golu dolls are symbolically put to sleep, and then, packed the day after. Till they are brought out of their boxes the following year. Most people light lamps, draw colorful kolams (rangoli or floor decoration), perform aarti, recite shlokas (holy chants), and offer special dishes, especially a protein-rich dish called sundal (made of legumes), with some sweets and fruits every day. During the Golu set-up, women invite other women and honor them by gifting betel leaves, coconuts, fruits, flowers, bangles, turmeric, kumkum (vermilion powder) and prasadam (devotional offering of food made for the Divine and then distributed among people). It is an ideal time for families to display their creativity.",
-    images: [navar1, navar2],
-    source: "(Wikipedia)",
-  },
-  {
-    name: "Karthigai Deepam",
-    tagline: "An enchanting festival that illuminates the heart of Tamil Nadu.",
-    description:
-      "Karthigai Deepam is an enchanting festival that illuminates the heart of Tamil Nadu, with little clay lamps twinkling wherever you look like a million stars. The three-day festival, celebrated with great enthusiasm, is an integral part of Tamil culture. Devoted to Lord Karthikeya (also known as Lord Muruga), the lights of Karthigai Deepam are said to ward off darkness and evil spirits, spreading prosperity and joy. - As per ancient Hindu scriptures, the two great deities Lord Vishnu and Lord Brahma once started arguing with each other about who is superior. Each one claimed to be stronger than the other. At that point, Lord Shiva appeared to quell the fight. He took the shape of a huge fire and challenged the two Gods to find the end of the fire from the top and bottom. Lord Vishnu took the form of a boar and tried to reach the end of the fire beneath the earth, but he couldn’t and came back to Lord Shiva saying that he was unable to find it. Lord Brahma on the other hand, took the shape of a swan and flew to find the beginning of the fire on top. But his search too was in vain as he was unable to find the top of the fire. Thus, Lord Shiva proved his supremacy over the two Gods and managed to stop the fight. He then appeared in the form of a hill in Thiruvannamalai. A temple dedicated to Lord Shiva stands on the hill, where Karthigai Deepam celebrations include the lighting of a big fire. The Maha Deepam , which is lit on the hill as the culmination of the 10-day festival at the Arunachaleswarar Temple in Tiruvannamalai, is very famous.  This festival is celebrated during the months of November - December (Karthigai month) {src:incredibleindia.com}",
-    images: [karth1, karth2, karth3],
-    source: "(src: kalkionline.com, incredibleindia.com, tirthyatra.com)",
-  },
-  {
-    name: "Karadaiya Nombu",
-    tagline: "Marking the transition from the Tamil month of Maasi to Panguni.",
-    description:
-      "Karadaiya Nombu - marking the transition from the Tamil month of Maasi to Panguni. It is a significant festival where married women and young girls fast and pray to Goddess Kamakshi/Gowri for their husbands' longevity and prosperity, inspired by the story of Savitri and Satyavan. Celebrates the dedication of Savitri, who brought her husband back from Yama, embodying love and commitment. According to the legend, Savitri was a devoted princess who used her wit and devotion to reclaim the life of her husband, Satyavan, from Yama, the god of death. When Satyavan's destined time to die arrived, Savitri followed Yama as he carried her husband's soul away. Impressed by her persistence and eloquent arguments, Yama offered her several boons, excluding the life of her husband. For her final wish, Savitri requested that she be blessed with a hundred sons. When Yama granted the wish, Savitri pointed out that she could not fulfill this blessing without her husband being alive. Bound by his own word, Yama was forced to restore Satyavan to life. Women fast, and prepare special sweet and savory rice cakes called \"Karadai\" or \"Adai,\" served with butter.  Women tie a sacred yellow thread, often with a small flower piece, around their neck, symbolizing their prayer for their husband's long life.",
-    images: [karad1, karad2],
-    source: "(src: kannan's kitchen, veenas vegnation)",
+      "The Bonderam Festival takes place on the fourth Saturday of August each year on Divar Island, which lies about 10 kilometres from Panaji. Known for its rich blend of tradition, history, and creativity, Bonderam is celebrated with flag parades, colourful floats, and cultural performances. While the main festival is usually held in the last week of August, Malar kicks off the Bonderam celebrations a week earlier. It is popularly known as the “Festival of Flags” and is one of Goa’s most unique cultural events. It combines historical remembrance, traditional music, dance, and community spirit, transforming the peaceful island of Divar into a vibrant centre of festivity. The Bonderam Festival has its roots in the Portuguese colonial period in Goa. Historically, the villagers of Divar Island often engaged in disputes over land ownership and territorial boundaries between different wards (locally called vaddos). To resolve these conflicts, the Portuguese authorities introduced a system of placing flags to demarcate boundaries between properties. However, the villagers were dissatisfied with this imposed system and began protesting by knocking down or defacing the flags. Over time, these acts of resistance evolved into a symbolic and festive event. The word ‘Bonderam’ is derived from the Portuguese word bandeira, meaning “flag.” What began as a protest against colonial land demarcation eventually transformed into a joyful celebration of local unity and identity. The highlight of the festival is the ceremonial flag parade. Villagers from different vaddos (wards) of Divar Island carry bright, colourful flags and march through the village streets, re-enacting the historical protest against Portuguese rule in a cheerful and symbolic manner. There are also Float Parade, Mock fights and games, Music-Dance, Cuisine and Community gatherings.",
+    images: [bonderamt1, bonderam2, bonderam3],
+    source: "(src: Goan Festival, Goa tourism, Boldsky)",
   },
 ];
 
