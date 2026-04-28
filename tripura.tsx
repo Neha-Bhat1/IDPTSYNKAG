@@ -229,13 +229,13 @@ export default function Tripurapage() {
           <div className="flex flex-col md:flex-row md:items-end gap-6">
             <div className="flex-1">
               <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
-                South India
+               Northeast
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-3" style={{ fontFamily: "'Cinzel', serif" }}>
-                Tamil Nadu
+               Tripura
               </h1>
               <p className="text-white/80 text-xl italic" style={{ fontFamily: "'Lora', serif" }}>
-                The Land of Temples
+               One of the SEVEN SISTER STATES
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -274,7 +274,7 @@ export default function Tripurapage() {
           </div>
         </Section>
 
-        {/* Map of Tamil Nadu — click to enlarge */}
+        {/*Map of tripura — click to enlarge */}
         <Section title="Map of Tripura" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
@@ -302,7 +302,7 @@ export default function Tripurapage() {
           <Section title="Brief Introduction" icon="📜">
             <div className="space-y-4 text-base leading-relaxed" style={{ fontFamily: "'Lora', serif" }}>
               <p className="text-foreground">
-               Tripura, India's third-smallest state, derives its name from the goddess Tripura Sundari or the Kokborok words tüi (water) and pra (near). Historically, it was a powerful independent kingdom ruled for centuries by the Manikya Dynasty. 
+               Tripura, India's third-smallest state, derives its name from the goddess Tripura Sundari or the Kokborok words tüi (water) and pra (near).Tripura is a northeastern Indian state known as the "Land of Water" or "Land of Two Gods." One of the Seven Sister States, it shares a sibling identity with Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, and Nagaland due to their shared geographical isolation and cultural synergy under the historic Manikya Dynasty. 
               </p>
               <p className="text-foreground">
                 Following Indian independence, it merged with the Union of India in 1949, initially as a union territory before achieving full statehood in 1972. The post-independence period was characterized by significant demographic changes due to refugee influxes from East Pakistan, which led to decades of ethnic tension and insurgency that have since largely stabilized.
@@ -319,7 +319,7 @@ export default function Tripurapage() {
               <p className="text-foreground italic text-primary font-medium">
                 Tripura is a vibrant tapestry of royal legacy and indigenous spirit, where the majestic Neermahal and Ujjayanta Palace meet the ancient rock-cut wonders of Unakoti. It is a land defined by its nineteen tribes, storied princely history, and a society where sacred traditions and exquisite craftsmanship flourish amidst lush hills.
               </p>
-              <p className="text-xs text-muted-foreground">(src: govt of TN, mapsofindia.com)</p>
+              <p className="text-xs text-muted-foreground">(src:Wikipedia, mapsofindia.com)</p>
             </div>
           </Section>
 
@@ -342,7 +342,7 @@ export default function Tripurapage() {
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Tripura" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div key={i} className="flex items-start gap-3 bg-card border border-border rounded-xl p-4">
@@ -355,7 +355,7 @@ export default function Tripurapage() {
 
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
-          <p className="text-muted-foreground text-sm mb-4">Scroll horizontally to explore Tamil Nadu's iconic foods, crafts, dance, and traditions.</p>
+          <p className="text-muted-foreground text-sm mb-4">Scroll horizontally to explore Tripura's iconic foods, crafts, dance, and traditions.</p>
           <div className="overflow-x-auto pb-4">
             <div className="flex gap-4" style={{ minWidth: "max-content" }}>
               {artGallery.map((item, i) => {
@@ -433,268 +433,177 @@ const festivals = [
   {
     name: "Kharchi Puja",
     description:
-      "Kharchi Puja is one of the most significant festivals of Tripura, dedicated to the worship of fourteen deities called “Chaturdasha Devata.” It is celebrated to cleanse sins and purify the land after the symbolic menstruation period of Mother Earth. The festival is celebrated with grand rituals, processions, fairs, and traditional ceremonies performed by priests. Large gatherings, cultural programs, and community participation make it vibrant. It is important because it preserves ancient traditions and strengthens unity among people. This festival is mainly celebrated in Agartala, especially at the Chaturdasha Devata Temple in Old Agartala. (src:Wikipedia)",
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
-    source: "(src: Wikipedia)",
+      "Kharchi Puja is a significant week-long Hindu festival celebrated in Agartala, Tripura, primarily during July or August. The word "Kharchi" is derived from "Khya," meaning "Earth," as the festival is dedicated to worshipping Mother Earth and the fourteen dynasty deities of the Tripuri people.The celebration follows a unique mythological background centered on the cleansing of the Earth after "Ama Pechi" (the menstruation of the mother goddess). To begin the rituals, the fourteen deities are carried by the Chantai to the Saidra River, where they are bathed in holy water before being returned to the temple and decorated with flowers and vermillion. The festivities involve both tribal and non-tribal communities and are characterized by animal sacrifices, traditional offerings, and a large fair featuring various cultural programs.. (src:Wikipedia)",
+    images: [kharchi puja1,kharchi puja2,],
+    source: "(src:adivasilivesmatter.com)",
   },
   {
     name: "Garia Puja",
     description:
-      "Garia Puja is celebrated by the tribal communities to seek blessings from the deity Garia for a good harvest and prosperity. It is observed after sowing seeds. People celebrate it with traditional dances, folk songs, bamboo rituals, and offerings like rice beer. The celebrations continue for several days with joy and festivity. This festival is important as it reflects the agricultural lifestyle and strengthens community bonding. It is mainly celebrated in tribal regions such as Dhalai district, Gomati district, and North Tripura district.",
-    images: [jalli1, jalli2],
-    source: "",
+      "Garia Puja is celebrated by the tribal communities to seek blessings from the deity Garia for a good harvest and prosperity. It is observed after sowing seeds. People celebrate it with traditional dances, folk songs, bamboo rituals, and offerings like rice beer. The celebrations continue for several days with joy and festivity. This festival is important as it reflects the agricultural lifestyle and strengthens community bonding.In Garia puja devotees sacrifice chicken for ritual purpose in Tripuri community. All kokborok speaking tribes and Halam tribes worship their supreme God Baba Garia for prosperity and well-being. Jamatia Tribe have a unique mass celebration of Garia puja at State level. It is a seven day festival to honour the deity Baba Garia is held annually on the first day of Tripuri calendar/Bengali calendar month of Boishakh. It is mainly celebrated in tribal regions such as Dhalai district, Gomati district, and North Tripura district.",
+    images: [Garia Puja1, Garia Puja2],
+    source: "adivasilivesmatter.com,india-tours",
   },
   {
     name: "Ker Puja",
     description:
-      "Ker Puja is performed to protect people from calamities and ensure the well-being of society. It is celebrated shortly after Kharchi Puja. During this festival, a sacred boundary is created, and strict rules are followed—no one is allowed to enter or leave the area. Rituals are performed by priests to appease the guardian deity “Ker.” It is important because it symbolizes discipline, protection, and collective responsibility. This festival is mainly observed in and around Agartala. (src:utsav.gov.in)",
-    images: [chith1, chith2],
-    source: "(src: utsav.gov.in)",
+      "Ker puja is a festival held in Tripura, India. Performance of the puja, which is typically held in August,benefits the people and the state. The celebration occurs two weeks after the Kharchi Puja to honor Ker, the guardian deity of Vastu Devata. It includes offerings, sacrifices, and a prescribed boundary which both safeguards people from calamities and saves them from external aggression.The puja was initiated by the Tripura rajas. Participation in the puja is required for the Halam tribe. For 2.5 days during the festival, entrances to the capital are closed, and participants, including the reigning sovereign, are not allowed to wear shoes, light a fire, dance, or sing. (src:wikipedia)",
+    images: [Ker Puja1, Ker Puja2, Ker Puja3],
+    source: "(src:hindu-blog, safarmentor.com, northeastlivetv.com )",
   },
   {
     name: "Durga Puja",
     description:
-      "Durga Puja is celebrated to mark the victory of Goddess Durga over the demon Mahishasura, symbolizing good over evil. In Tripura, it is celebrated with decorated pandals, idol worship, cultural programs, music, and immersion ceremonies. People wear new clothes and participate in community feasts and rituals. It is important because it promotes unity, joy, and cultural harmony. This festival is widely celebrated across urban areas such as Agartala, Udaipur, and Dharmanagar.",
-    images: [puth1, puth2],
-    source: "(src: boldskytamil.com)",
+      "Durga Puja, also known as Durgotsava or Sharodotsava, is an annual Hindu festival originating in the Indian subcontinent which reveres and pays homage to the Hindu goddess Durga and is also celebrated because of Durga victory over Mahishasur. The over 500 years old Durga Puja, initiated by the then royal dynasty and sponsored by the Tripura government for the past over seven decades, continues to draw devotees from different parts of India and the neighbouring countries, including Bangladesh. Tripura, governed by the Left and non-Left parties since it merged with the Indian union 73 years ago, is possibly the only state in India where the government continues to sponsor an over five century-old Durga Puja, that is also closely overseen by the erstwhile royal family.With ‘Maha Sasthi’ or ‘Bodhan’-the welcoming of the Durga idols - the puja began on saturday at the famed Durgabari temple, located in front of the 121 year old ujjayanta palace , one of the biggest royal mansions in estern India. Jayanta Bhattacharjee (57) , the head priest of Durgabari temple , said a few years after the beginning of the royal era in Tripura, the kings started Durga puja over 500 years ago.",
+    images: [Durga puja1,Durga puja2],
+    source: "(src: src : tripuratourism.gov)",
   },
   {
     name: "Diwali",
     description:
-      "Diwali signifies the victory of light over darkness and good over evil. People celebrate it by lighting diyas, decorating homes, bursting firecrackers, and worshipping Goddess Lakshmi. Sweets are shared among family and friends. It is important because it spreads happiness and strengthens social bonds. Diwali is celebrated throughout Tripura, especially in cities like Agartala and other towns and villages across the state.",
-    images: [adi1, adi2],
-    source: "",
+      "Diwali signifies the victory of light over darkness and good over evil. People celebrate it by lighting diyas, decorating homes, bursting firecrackers, and worshipping Goddess Lakshmi. Sweets are shared among family and friends. It is important because it spreads happiness and strengthens social bonds.This festival is observed in Tripura Sundari Temple, Matabari, Udaipur, Gomati district. This is one of the fifty-one Hindu pithas of India which is recognised as a holy and sacred place in Tripura. Devotees from both tribals and non-tribals observe this festival with great enthusiasm and take bath in the lake of the temple paying their homage to Mother Kali. A grand fair is also organised during this festival for two days at the festive month October/ November. Diwali is celebrated throughout Tripura, especially in cities like Agartala and other towns and villages across the state.",
+    images: [Diwali1,Diwali2],
+    source: "dailyexcelsior.com,countryandpolitics.in",
   },
   {
     name: "Ashokastami Festival",
     tagline: "Ashokastami: Where Tripura’s History Meets Devotion.",
     description:
       "The Ashokastami Festival is one of the most significant and spiritually charged events in Tripura, celebrated with immense fervor during the month of Chaitra (typically March or April). While the festival is observed across India, its heart in Tripura lies at Unakoti, a historic Shaivite pilgrimage site famous for its colossal rock-cut carvings and waterfalls.Thousands of devotees from across the region gather at Unakoti to take a ritualistic holy dip in the Ashtami Kunda, a sacred water tank. It is widely believed that bathing in these waters during the auspicious tithi cleanses one of sins and brings spiritual merit. Following the ritual bath, pilgrims offer prayers to the massive stone images of Lord Shiva, known locally as Unakotiswara Kal Bhairava, and other deities carved into the hillistic landscape.The celebration is characterized by a vibrant mela (fair) that surrounds the archaeological site. The atmosphere is a blend of solemn devotion and festive joy, featuring traditional folk music, local handicrafts, and stalls offering regional delicacies. For the people of Tripura, Ashokastami is not merely a religious ritual but a profound cultural gathering that honors the state’s ancient heritage and the timeless legends associated with the sacred hills of Unakoti.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
+    images: [Ashokastami Festival1,Ashokastami Festival2,Ashokastami Festival3],
+    source: "(src:: pinterest.com,specialholidays.com)",
   },
   {
     name: "Buddha Purnima",
     tagline: "A Sacred Celebration of Peace, Enlightenment, and Universal Compassion.",
     description:
       "Buddha Purnima marks the birth, enlightenment, and death of Lord Buddha. It is celebrated by visiting monasteries, offering prayers, lighting lamps, and conducting peaceful processions. Acts of charity are also performed. This festival is important because it spreads peace, compassion, and moral values. It is mainly celebrated in areas with Buddhist populations such as South Tripura district and parts of North Tripura district.",
-    images: [velanFest1, velanFest2],
-    source: "",
+    images: [BuddhaPurnima1,BuddhaPurnima2],
+    source: " wikipedia.com,dailymotion.com",
   },
 ];
 
 const historicalPlaces = [
   {
-    name: "Six Abodes of Murugan (Arupadai Veedu)",
+    name: "Longtharai Mandir, Dhalai",
     description:
-      "Six abodes of murgan -- The Six Abodes of Murugan, known as ‘Arupadai Veedu’, are sacred temples in Tamil Nadu, India, celebrating different stages of Lord Murugan's life, victories, and legends. ",
-    images: [sixAbodes],
-    subPlaces: [
-      {
-        name: "Subramaniyaswamy Temple – Thiruparankundram",
-        location: "Madurai district",
-        description:
-          "Subramaniyaswamy Temple – Thiruparankundram, Madurai district – Located on a hillock, it is first of the Aarupadaiveedu. Murugan's marriage with Deivanai took place here.",
-        images: [thiruparankundram],
-        source: "(src: Tumblr)",
-      },
-      {
-        name: "Arulmigu Senthilnathar Temple – Tiruchendur",
-        location: "Thoothukudi district",
-        description:
-          "Arulmigu Senthilnathar Temple – Tiruchendur, Thoothukudi district - Located along the coast of Bay of Bengal, the temple commemorates the place where Murugan won a victory over the demon Surapadman. ",
-        images: [thiruchendur],
-        source: "(src: cottage9)",
-      },
-      {
-        name: "Arulmigu Dandayudhapani Temple – Palani",
-        location: "Dindigul district",
-        description:
-          "Arulmigu Dandayudhapani Temple – Palani, Dindigul district - Located at the foothills of a hillock, the deity known as 'Kulanthai Velayuthaswami' is depicted as a young form of Murugan, and said to have been worshipped by the goddess Lakshmi. In the temple on the hilltop where 'Dhandayuthapani' is the main deity, Murugan is depicted as a hermit carrying a staff ('danda'). This is the place where Murugan is said to have arrived after his feud with his family over a divine fruit. Divine story of how and why Murugan came to Palani ----  Once upon a time, the revered sage Devrishi Narad paid a visit to Lord Shiva and Maa Parvati. During his visit, he presented Maa Parvati with a unique mango, claiming that whoever consumed it would gain extraordinary qualities and powers. Being the loving mother she is, Mata Parvati wished to share this special fruit between her two sons, Lord Ganesha and Lord Kartikeya. Devarishi Narad proposed that the mango could only be consumed by one person, prompting them to organize a contest between the two brothers. The challenge was set: each had to complete three rounds of the world, and the one who returned first would be declared the winner. Eager to claim the mango, Lord Kartikeya swiftly mounted his peacock and soared into the skies to complete the three rounds. Meanwhile, Lord Ganesha, without a flying mount, contemplated his approach. Undeterred, he began walking around his seated parents, Lord Shiva and Maa Parvati, completing three rounds. When Lord Ganesha finished, he humbly claimed his reward. Perplexed, Lord Shiva and Maa Parvati reminded him that the competition was to encircle the entire world three times. In response, Ganesha, with a wise smile, declared that his parents are his world, and by encircling them, he had indeed completed three rounds of his world. Thus, he emerged as the true victor in the competition of devotion and wisdom.Upon Lord Kartikeya’s triumphant return, expectations of victory filled the air. With his peacock Vahana, he had swiftly traversed the world, confident of securing the divine mango. However, as he approached Lord Shiva and Maa Parvati, the atmosphere shifted. The revelation that Lord Ganesha was declared the winner, not due to physical prowess, but through a profound display of devotion. Due to this, Lord Murugan feeling betrayed and angry at his parents leaves to Palani. ",
-        images: [palani1, palani2],
-        source: "(src: Cottage9, southern travels)",
-      },
-      {
-        name: "Swaminatha Swamy Temple – Swamimalai",
-        location: "Thanjavur district",
-        description:
-          "Swaminatha Swamy Temple – Swamimalai, Thanjavur district - Located atop a small hillock, the temple commemorates the incident where Murugan is regarded to have explained the essence of the Pranava mantra \"Om\" to his father Shiva. Story ---- Once Brahma, the Lord of all creation, disrespected Murugan when he was visiting Mount Kailash. Then, the ever-playful Murugan boldly asked Brahma the meaning of the Pranava Mantra “OM”. Failing to answer the question, Brahma admitted his ignorance. Murugan knocked his forehead, and imprisoned Brahma, bringing the whole of creation to a standstill. The demigods prayed to Lord Shiva for the release of Brahma. But Murugan insisted the imprisonment was a just punishment for Brahma's ignorance. Lord Shiva then asked Murugan whether he Himself knew the meaning of Pranava “Aum”. Murugan said he knew its meaning, but would only explain it if Lord Shiva accepted him as a guru and listened to him as a devoted disciple. Shiva accepted the request, and the son became the teacher. He then imparted upon the father the meaning of the sacred Pranava mantra “Aum” and the divine father, proud of understanding the significance, conferred respect to Murugan for his wisdom. You will see in the main shrine in the temple complex in Swamimalai that Murugan is depicted as a teacher and Shiva is listening as a disciple and, in this temple, the son is on a higher pedestal than the father.",
-        images: [swamimalai],
-        source: "(src: casual walker)",
-      },
-      {
-        name: "Subramanya Swamy Temple – Tiruttani",
-        location: "Thiruvallur district",
-        description:
-          "Subramanya Swamy Temple - Tiruttani, Thiruvallur district - Located atop a hill, Murugan is said to have reclaimed his inner peace after winning a war over the Surapadman and married Valli here. Story ---- After the intensity of the war in Tiruchendur, Murugan needed a place to subdue his anger and seek inner peace, making Tiruttani a place of tranquility. Thanigai in Tamil means \"to pacify\" or \"to calm down,\" which is why the hill and town are named Tiruttani, where the deity grants mental peace and relieves devotees of anger and stress. Because he came to this spot for peace, the idol of Murugan here is often seen holding a Vajra Vel (thunderbolt weapon) rather than the standard spear, and he is often depicted with a calmer expression and has an elephant mount (vahana)instead of his usual peacock. Valli, a mortal daughter of a tribal chieftain (Kuravas) in Tamil Nadu, was born of a doe and destined to marry Lord Murugan. Valli, from a young age, fell in love with a divine figure (Murugan) and desired to marry him, avoiding all human suitors. Lord Murugan, attracted by her devotion, visited her in the millet fields. He approached her first as a hunter, then with the help of his brother Ganesha (appearing as a wild elephant), he frightened her into accepting his hand in marriage.",
-        images: [thiruttani],
-        source: "(src: Wikipedia)",
-      },
-      {
-        name: "Solaimalai Murugan Temple – Pazhamudircholai",
-        location: "Madurai district",
-        description:
-          "Solaimalai Murugan Temple - Pazhamudircholai, Madurai district – Located on a hillock near a stream called \"Nupura Gangai\", Murugan is seen here with both his consorts, Deivanai and Valli. - Story ---- Avvaiyar was a renowned and legendary Tamil poetess and a name behind one of the most famous and appreciated works ever written in Hindu folklore. Her exceptional vocabulary and dexterity in the language made her works stand apart, in the list of even the greatest of the poets. This had started to make her audacious over her abilities. According to the pages drenched in the antiquity of the Hindu folklore, Lord Murugan who was well-versed with his devotee wanted to teach her a lesson and took the shape of a ten-year-old boy in here in Solaimalai. After having achieved everything in her life, Avviayar was resting under a Naaval tree, trying to figure out what lied next for her. A small boy appeared out of nowhere and stood on the tree. The boy asked Avviayar if she would like some fruits. Driven by hunger and thirst, she agreed instantly. The boy asked if she wanted a hot fruit or a cold one, which confused Avviayar but was tired to argue and opted for the cold one. Smilingly, the boy shook the tree, as many fruits fell, all of which were collected by her. The fruits were coated with the sand, so Avviayar blew them to remove it. The boy asked innocently, why was she trying to cool down the fruit blowing, which was already cold. This incident left Avviayar humbled by the clever wordplay and the poetic knowledge of the little boy. However, She was skeptical of the boy’s true identity which was revealed to her as Lord Murugan himself. She bowed to the almighty and requested him to bestow her with his bountiful knowledge, for she had realized the power of infinite learning. She sought Lord Murugan’s blessings and embarked on her quest for endless knowledge.",
-        images: [pazhamudir],
-        source: "(src: TemplePurohit)",
-      },
-    ],
+      "The Longtharai Mandir is the most revered temple in the Dhalai district. Longtharai is the Kokborok name of Lord Shiva. The temple lies about 102 kilometres away from Agartala. It is believed that while Lord Shiva was travelling from Mount Kailash, his home, he rested in this area. Since he is believed to have stepped foot here, this area became famous and a temple was soon constructed. Today the temple and the adjoining hill area are highly regarded and people from all over visit the Longtharai Mandir. The word Longtharai also has another meaning—deep valley. Khumpi is a local flower that blooms on the roadside leading to the temple. Not only is the temple a pious place, but the area around the temple is worth a visit too. The enchanting natural beauty that seems to be tucked away from the world of commercialisation and rat race is definitely a must visit.",
+    images: [Longtharai Mandir],
+    source:"nativeplanet.com",
+    
   },
   {
-    name: "Pancha Bhootam Temples",
+    name: "Dumboor Lake",
     description:
-      "The Pancha Bhoota Stalam refers to five sacred Shiva temples in South India, each representing a natural element: Earth, Water, Fire, Air, and Ether (Space). Out of 5, 4 of these temples are  located in Tamil Nadu and 1 Is in Andhra Pradesh, embodying the Hindu philosophy that nature's elements are manifestations of Shiva. In the temples, Shiva is said to have manifested himself in the respective forms of the five elements.",
-    hasImage: false,
-    subPlaces: [
-      {
-        name: "Earth – Bhumi Lingam – Ekambareshwar Temple",
-        location: "Kanchipuram",
-        description:
-          "Earth – Bhumi Lingam – Ekambareshwar Temple – Kanchipuram - Shiva is worshipped as Ekambareswarar or Ekambaranathar, and is represented by the lingam, with his idol referred to as Prithvi (earth) lingam. The temple complex covers 25 acres and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the southern tower, with 11 stories and a height of 58.5216 metres (192 ft), making it one of the tallest temple towers in India. The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagara period. Legend has it that once Parvati, the consort of Shiva, wanted to expiate herself from sin by doing penance under the temple's ancient Mango tree near the Vegavati river. She created the lingam out of wet soil. This lingam is now covered with silver. ",
-        images: [bhumiLingam],
-        source: "",
-      },
-      {
-        name: "Water – Varuna/Jambu Lingam – Jambukeshwarar Temple",
-        location: "Thiruvanaikaval, near Trichy",
-        description:
-          "Water – Varuna/Jambu lingam – Jambukeshwarar Temple – Thiruvanaikaval, near Trichy - The sanctum of Jambukeswara has the copper plated lingam and an underground water stream, and despite draining the water out, it is always filled with water. Once, Parvati mocked Shiva's penance for the betterment of the world. Shiva wanted to condemn her act and banished her to the earth from Mount Kailash (Shiva's heavenly abode) to do penance. Parvati, in the form of Akhilandeshwari as per Shiva's wish, found the Jambu forest to conduct her penance. She made a lingam out of water of the river Kaveri (also called as river Ponni) under the Venn Naaval tree (the jambu tree on top of the saint Jambu) and commenced her worship. The lingam is known as Appu Lingam or Jala Lingam (Water Lingam). There are five enclosures inside the temple. The massive outer wall covering the fifth precinct, known as the Vibhuti Prakara, stretches over a mile and is two feet thick and over 25 feet high. Legend maintains that the wall was built by Shiva working with the labourers.[10] The fourth precinct contains a hall with 796 pillars and measures 2436 feet by 1493.",
-        images: [jambuLingam],
-        source: "",
-      },
-      {
-        name: "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple",
-        location: "Thiruvannamalai",
-        description:
-          "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple – Thiruvannamalai - Shiva is worshipped as Annamalaiyar or Arunachaleshwar, and is represented by a silver plated lingam, with his idol referred to as Agni lingam. The sanctum inside is always lit by fire lamps. The 9th-century Shaiva saint poet Manikkavacakar composed the Tiruvempaavai here. The temple complex covers 10 hectares and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the eastern tower, with 11 stories and a height of 66 metres (217 ft), making it one of the tallest temple towers in India built by Sevappa Nayakar (Nayakar dynasty). The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagar period. The Karthika Deepam festival is celebrated during the day of the full moon between November and December, and a huge beacon is lit atop the nearby Annamalai hill. It can be seen from miles around, and symbolises the Shiva lingam of fire joining the sky. The event is witnessed by three million pilgrims. On the day preceding each full moon, pilgrims circumnavigate the temple base and the Annamalai hills in a worship called Girivalam, a practice carried out by one million pilgrims yearly. ",
-        images: [jyothiLingam],
-        source: "",
-      },
-      {
-        name: "Ether/Space – Indra/Akasha Lingam – Thillai Natarajar Temple",
-        location: "Chidambaram",
-        description:
-          "Ether/ Space – Indra/Akasha Lingam – Thillai Natarajar Temple – Chidambaram - Chidambaram, the name of the city and the temple, literally means \"atmosphere of wisdom\" or \"clothed in consciousness\"; the temple architecture symbolises the connection between the arts and spirituality, creative activity and the divine.The temple wall carvings display all the 108 karanas from the Natya Shastra by Bharata Muni, and these postures form a foundation of Bharatanatyam, a classical Indian dance. The present temple was built in the 10th century when Chidambaram was the capital of the Chola dynasty, making it one of the oldest surviving active temple complexes in South India. After its 10th-century consecration by the Cholas who considered Nataraja as their family deity, Shiva himself is idolised in three forms, as a crystal lingam, as a formless space covered by curtains (Chidambaram rahasyam), and as the Nataraja performing the Ananda Tandava (\"Dance of Delight\") in the golden hall of the shrine Pon Ambalam. The temple is one of the five elemental lingas in the Shaivism pilgrimage tradition, and considered the subtlest of all Shiva temples (Kovil) in Hinduism. It is also a site for performance arts, including the annual Natyanjali dance festival on Maha Shivaratri.",
-        images: [akashaLingam],
-        source: "",
-      },
-      {
-        name: "Air – Vayu Lingam – Srikalahasti Temple",
-        location: "Srikalahasti, Andhra Pradesh",
-        description:
-          "The one Pancha Bhootam temple located outside Tamil Nadu. Shiva is worshipped as Srikalahastishvara — the lord of Vayu (wind). A lighted lamp inside the sanctum always flickers as if in a breeze, even though there is no air moving, symbolising the presence of Vayu (Air). It is one of the most celebrated Shiva temples in South India.",
-        hasImage: false,
-        source: "",
-      },
-    ],
+      "Dumboor Lake is a charming water body located in amarpur Sub Division 120 Km. away from Agartala. The look of the lake is like tabour shaped small drum, “Dumboor” of Lord Shiva from which the name “Dumboor” originates. A massive and breathtaking water body of 41 sq.km. with an unending spell of luxuriant green vegetation all around stands majestic for her exceedingly charming beauty and 48 islands in the midst of the lake. Migratory birds and water sports facilities are additional attractions. There is a Hydel Project near the lake from where River Gomati originates and this is called Tirthamukh where on 14th January every year famous ‘Pous Sankranti Mela’ takes place. The lake is the confluence of rivers Raima and Sarma. Various species of migratory birds are visible in the winter and it has rich reservoir of natural and cultured fishes. In one of the island “Narkel Kunja” has been developed.",
+    images: [Dumboor Lake],
+    source: "hindustanpioneer.com",
   },
   {
-    name: "1000-Pillar Temple — Madurai Meenakshi Temple",
+    name: "Udaipur",
     description:
-      "Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). Built around 1569 by Ariyanatha Mudaliyar, the minister of the Nayak dynasty, the hall is known for its structural beauty and detailed carvings. It is called the 1000-pillar temple because it houses a massive, 16th-century hall known as the Aayiram Kaal Mandapam, which contains a vast, intricately carved forest of pillars. Though often referred to as \"1000,\" the hall actually holds 985, not 1000, granite pillars arranged in rows. While the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries. While a few structural improvements were made during the 18th and 19th centuries CE, the temple condition degraded due to negligence during the British Raj. After the Indian independence in the mid 20th century, the temple was restored with donations collected from people. Further restoration and kumbhabhishekam of the temple was conducted in 1974, 1995, and 2009. The temple conducts six pujas everyday, each comprising four rituals namely abhisheka (sacred bath), alankaram (decoration), naivedanam (food offerings) and deepa aradanai (lamp ceremony) for both Meenakshi and Sundareswarar. The rituals and festivals are accompanied with music from instruments such as nadhaswaram (pipe instrument), davandai and tavil (percussion instrument), often along with the recitation of the Vedas. The Hindus circumambulate the shrines clockwise before entering the shrine for a darshana. The Meenakshi shrine is typically visited before the Sundareswarar shrine by the pilgrims, as she is considered the primary deity of the complex. The Meenakshi temple hosts a festival in each month of the Tamil calendar. The Meenakshi thirukalyanam, which celebrates the wedding of Meenakshi and Sundareswarar, is celebrated over 15 days, and is the most attended festival. The festival, celebrated during the month of Chithirai, is part of the ‘Chithirai Thiruvizha’. The festivities include number of events such as the ‘Ther Thiruvizha’ (temple car festival) and ‘Theppa Thiruvizha’ (float festival). The wedding of the divine couple is regarded as an instance of a South Indian wedding with matrilineal emphasis, an arrangement referred as \"Madurai marriage\", which is in contrast with the \"Chidambaram marriage\", with patrilineal emphasis, named after the rituals at the Nataraja temple at Chidambaram. The festival includes the wedding ritual, where Alagar (Vishnu) gives away his sister Meenakshi, the royal bride, in marriage to Shiva, and a procession, where the idols of Meenakshi and Sundareswarar are taken in a temple car, pulled by volunteering devotees.",
-    images: [meenakshi1, meenakshi2, meenakshi3, meenakshi4],
-    source: "(src: Wikipedia, National Geographic)",
+      "Udaipur, located in the Gomati district of Tripura, is a historic city often called the 'Lake City' or the 'City of Temples.' It was the former capital of the Tripura Kingdom and is primarily famous for its deep-rooted religious significance and architectural heritage",
+    images: [Udaipur],
+    source: "(src: )",
   },
   {
-    name: "Rameshwaram Temple",
+    name: "Nupilal Memorial Complex ",
     description:
-      "Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the Hindu god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is one of the twelve Jyotirlinga temples. According to tradition, the lingam (an aniconic form of Shiva) of the Ramanathaswamy Temple was established and worshipped by Rama before he crossed the bridge called Rama Setu to the island kingdom of Lanka, identified with Sri Lanka. It is one of the Char Dham pilgrimage sites. In the Yuddha Kanda of the Ramayana, on their journey back to Ayodhya, Rama narrates to Sita the appearance and worship of Shiva in the form of a lingam on the island of Rameswaram before the construction of his bridge to Lanka. He describes the spot to be supremely sacred and capable of expiating major sins. In the Shiva Purana, Rama propitiates Shiva on the shore of Rameswaram in the form of a lingam by the repetition of mantras, meditation, and dancing. Pleased, the deity appeared before Rama and granted his requested boon of victory over Ravana. Rama then requested the deity to remain on the island to sanctify the world and offer his grace to all people. There are sixty-four Tīrthas (holy water bodies) in and around the island of Rameswaram, Tamil Nadu, India. According to Skānda Purāṇa, twenty-four of them are important. Bathing in these Tīrthas is a major aspect of the pilgrimage to Rameswaram and is considered equivalent to penance. Twenty-two of the Tīrthas are within the Rāmanāthasvāmī Temple. The number 22 indicates the 22 arrows in Rama's quiver. is famous for its massive corridor, which features 1,212 intricately carved, symmetrical pillars. These sandstone pillars, standing approximately 30 feet tall, form the world's longest temple corridor. Some reports suggest the overall temple complex may have up to 4,000 pillars in total.",
-    images: [rames1, rames2, rames3],
-    source: "(src: Famous Tamil Nadu Temples, Wikimedia Commons, Intermiles)",
+      "This is one of the most significant historical markers in the district. It commemorates the 'Manipur Women’s War' of 1939, honoring the Manipuri women who fought against exploitation and artificial famine during the British era. It features a notable statue known as the Manipur Women War Statue.",
+    images: [Nupilal Memorial Complex],
+    source: "(src: forwardpress.in)",
   },
   {
-    name: "Dhanushkodi",
+    name: "Neermahal",
     description:
-      "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres (15 mi) west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath. Although devoid of inhabitants, Dhanushkodi remains a tourist attraction due to its historical and mythological relevance. An estimated 1,800 people died in the cyclonic storm on 22 December 1964 including 115 passengers on board the Pamban-Dhanushkodi passenger train. The entire town was marooned and the Government of Madras declared Dhanushkodi as a ghost town, unfit for living. Around the 40th anniversary of the deadly cyclone, the sea around Dhanushkodi receded about 500 metres (1,600 ft) from the coastline, briefly exposing the submerged part of the town before massive tsunami waves struck the coast on 26 December 2004. The name Dhanushkodi means \"end of the bow\".It is significant for its deep mythological roots to the Ramayana, having served as the site where Lord Rama is believed to have marked the starting point of the Ram Setu bridge to Lanka. It serves as the starting point for the legendary Ram Setu, a 50 km long chain of limestone shoals connecting India's Rameswaram Island to Sri Lanka's Mannar Island.",
-    images: [dhanush1, dhanush2],
-    source: "(src: Kiomoi Travels, Tusk Travels)",
+      "Neermahal (নীরমহল) (meaning “Water Palace”) is a former royal palace built by King Bir Bikram Kishore Manikya Bahadur of the erstwhile Kingdom of Tripura, India in the middle of the lake Rudrasagar in 1930 and was completed by 1938. It is situated in Melaghar, 53 kilometers away from the Agartala, the capital of Tripura. The palace is situated in the middle of Rudrasagar Lake and assimilates Hindu and Muslim architectural styles.The palace is the largest of its kind in India and the only one in Eastern India. There are only two water palace in India another one is the Jal Mahal in Rajasthan.Known as ‘lake palace’ of Tripura, Neer-Mahal was constructed as a summer residence. It was Maharaja Bir Bikram Manikya Bahadur’s idea to build a palace in the beautiful Rudrasagar lake and in 1921 he accredited the British company Martin and Burns to construct the palace for him. The company took nine years to complete the work. Maharaja Bir Bikram Manikya Bahadur belonged to the ‘Manikya Dynasty’ which is supposed to be the second from a single line in the world today.The palace is the establishment of Maharaja’s great taste and his fascinating idea of blending Hindu and Muslim traditions and cultures.The palace is divided into two parts. The western side of the palace is known as Andar Mahal. It was made for the royal family. The eastern side is an open-air theatre where drama, theatre, dance and other cultural events were organized for the enjoyment of Maharajas and their royal families. The palace has 24 rooms in total.Neer-Mahal has two stairways inside leading down to a landing on the water of Rudrasagar Lake. Maharajas used to go to the palace by hand powered boat from ‘Rajghat’."",
+    images: [Neermahal1,Neermahal2],
+    source: "(src:cdn.s3waas.gov.in, taleof2backpackers)",
   },
   {
-    name: "Pamban Bridge",
+    name: "Kasba Kali Temple",
     description:
-      "Pamban bridge was a railway bridge that connected the town of Rameswaram on Pamban Island with Mandapam in mainland India. Opened on 24 February 1914, it was India's first sea bridge. The Pamban bridge was the only surface transport link that connected Rameswaram to the mainland India until 1988, when a road bridge was constructed parallel to the railway bridge. In 2020, construction of a new bridge closer to the existing one began which was planned to eventually replace the existing bridge. The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025.",
-    images: [pamban1, pamban2, pamban3],
-    source: "",
+      "Kamalasagar Kali Temple, was built on a hill-top by Maharaja Dhanya Manikya in the late 15th century. It is situated just deside the Bangladesh border, The lake in front of this temple rightly enhances its beauty.The large ‘Kamala Sagar’ lake dug by king Dhanya Manikya (1490-1520) and the two wavy blue water lakes in front of the ‘Ujjayanta palace’, abode of Tripura’s erstwhile princely rulers in the heart of capital Agartala will form inevitable itinerary of trourists fond of waterscape. Princely Tripura’s erstwhile capital and present headquarter of south Tripura District, Udaipur is also known as a ‘lake-town’ because of the surfeit of large lakes, dug by different princely rulers, that dot the town. These lakes coupled with the river Gomati that flows by Udaipur will enthuse tourists to have a pleasant outing.",
+    images: [kasba kali temple1,kaba kali temple2],
+    source: "thumbs.dreamstime.com,",
   },
   {
-    name: "The Great Chola Temples (UNESCO World Heritage Site)",
+    name: "Unakoti Heritage Site - UNESCO world heritage site",
     description:
-      "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands. The site includes three great 11th- and 12th-century Temples: the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram and the Airavatesvara Temple at Darasuram. The Temple of Gangaikondacholisvaram, built by Rajendra I, was completed in 1035. Its 53-m vimana (sanctum tower) has recessed corners and a graceful upward curving movement, contrasting with the straight and severe tower at Thanjavur. The Airavatesvara temple complex, built by Rajaraja II, at Darasuram features a 24-m vimana and a stone image of Shiva. The temples testify to the brilliant achievements of the Chola in architecture, sculpture, painting and bronze casting.. The Thanjavur temple is also variously known as Thanjai Periya Kovil, the Thanjavur Big Temple or Rajarajeshwaram, temple of the God of Rajaraja. It is one of the largest Hindu temples and an exemplar of Tamil architecture. Rajaraja himself referred to his temple as Dakshina Meru or the southern abode of Lord Shiva. Construction of the temple began in about 1003-1004 CE, and it was consecrated by Rajaraja in 1010 CE. The Chola kingdom was economically prosperous – they not only controlled every important trading port in south India, but they also had a monopoly over production of the gold mines of Kolar, the pearl fisheries in the Gulf of Mannar, the diamond mines that lay between the rivers Krishna and Pennar on the Deccan plateau (the Golconda mines) and the gem production of Ceylon as well. They are recognized as one of the 44 unesco world heritage sites of india because of the following 4 criterias-\n\nCriterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the dravida type of temple.\n\nCriterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.\n\nCriterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilisation in Southern India.\n\nCriterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.",
-    images: [chola1, chola2, chola3],
-    source: "(src: Moneycontrol, Incredible India)",
+      "It is ‘Shaiba’ (Saivite) pilgrimage and dates back to 7th – 9th centuries if not earlier. The marvellous rock carvings, murals with their primitive beauty, waterfalls are not to be missed. Unakoti means one less than a crore and it is said that these many rock cut carvings are available here. As per Hindu mythology, when Lord Shiva was going to Kashi along with one crore gods and goddesses he made a night halt at this location. He asked all the gods and goddesses to wake up before sun rise and proceed for Kashi.It is said that in the morning, except Shiva himself, no one else could get up so Lord Shiva set out for Kashi himself cursing the others to become stone images. As a result we have one less than a crore stone images and carvings at Unakoti. These carvings are located at a beautifully landscaped forest area with green vegetation all around which add to the beauty of the carvings. The images found at Unakoti are of two types, namely rock-carved figures and stone images.Among the rock cut carvings, the central Shiva head and gigantic Ganesha figures deserve special mention. The central Shiva head known as ‘Unakotiswara Kal Bhairava’ is about 30 feet high including an embroidered head-dress which itself is 10 feet high. On each side of the head-dress of the central Shiva, there are two full size female figures – one of Durga standing on a lion and another female figure on the other side. In addition three enormous images of Nandi Bull are found half buried in the ground. There are various other stone as well as rock cut images at Unakoti. Every year a big fair popularly known as ‘Ashokastami Mela’ is held in the month of April which is visited by thousands of pilgrims.",
+    images: [Unakoti heritage site1,Unakoti heritage site2,Unakoti heritage site3,Unakoti heritage site4,Unakoti heritage site5,Unakoti heritage site6],
+    source: "(src:etvbharatimages.akamaized.net,thefloatingpebbles.com,)",
   },
   {
-    name: "Velankanni Church",
+    name: " Udayan Buddha Bihar",
     description:
-      "The Basilica of Our Lady of Good Health, also known as Sanctuary of Our Lady of Velankanni, is a Christian shrine located at the town of Velankanni, Tamil Nadu, India. The shrine is dedicated to the Blessed Virgin Mary. The devotion has existed since the mid-sixteenth century, it is attributed to three separate events which occurred at the site: The apparition of the Madonna and Child to a slumbering shepherd boy, the miraculous healing of a handicapped buttermilk vendor and the rescue of Portuguese sailors from a deadly sea storm. The basilica is built in the Gothic style of architecture. The southern side was extended in 1928 and the northern in 1933. The Shrine Basilica contains three chapels, as well as Our Lady's Tank, Church Museum, Priests' Residence, Offering Center, Stations of the Cross, mysteries of the rosary, Shrine Mega Mahal and Velankanni Beach. The building is painted in white, except for the roof that is made of red tiles. For Goan and Konkani people, she is called \"Shantadurga\" (most compassionate one). A major event is the procession, where only women are allowed to pull the first car and a statue of Mary is in the last and most decorated one. People of other religions also take part. The pilgrims sometimes shave their heads as an offering and perform ear-piercing ceremonies, both being Hindu traditions. Another ritual considered sacred is dipping oneself in the pond. There is a holy flag which is lowered to signal the end of the festival.",
-    images: [velan1, velan2, velan3],
-    source: "(src: Wikipedia)",
+      "Situated at Pecharthal market place adjacent to National Highway NH44. Established in the year 1933. The idol is made of “Osto Dhatu” 8 types of metals, 4.5 ft. height and weighs 300 Kg. Hundreds of devotees from nearby land assembles in the time Buddha Jayanti in Buddha Purnima in the month April/May.Location : At Pecharthal, 33 Km from District Head Quarter Kailashahar.",
+    images: [Udyan Buddha Bihar],
+    source: "(src:cdn.s3waas.gov.in)",
   },
   {
-    name: "Thiruvalluvar Statue, Kanyakumari",
+    name: "VANGHMUN – THE CLEANEST VILLAGE IN TRIPURA",
     description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
-    source: "(src: Wikipedia)",
+      "Vanghmun Village, perched atop the lush Jampui Hills in North Tripura, stands as a testament to community-driven cleanliness and environmental stewardship. Frequently recognized as the cleanest village in the entire state, it offers a serene escape characterized by its cool, temperate climate and impeccable civic organization. Situated at a high altitude, the village provides visitors with breathtaking panoramic views of the surrounding valleys and the distant misty hills of Mizoram. The local Mizo community, known for their warm hospitality and vibrant cultural heritage, plays a pivotal role in maintaining the village’s pristine condition through collective voluntary efforts.The region is also celebrated for its sprawling orange orchards; during the peak harvest season, the landscape is transformed by vibrant shades of orange, attracting nature lovers and agro-tourists alike. Beyond its aesthetic appeal, Vanghmun serves as a vital cultural hub where traditional music and dance thrive. Its well-maintained gardens, plastic-free streets, and disciplined lifestyle make it a model for sustainable rural tourism in Northeast India. Whether you are interested in trekking through the verdant trails of the Jampui Hills or simply experiencing a peaceful mountain retreat, Vanghmun offers a unique blend of natural beauty and social harmony that is rare to find.",
+    images: [city1,city2],
+    source: "(src:tse4.mm.bing.net/)",
   },
   {
-    name: "Vivekananda Rock Memorial",
+    name: "Kalibari temple",
     description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
-    images: [vive1, vive2, vive3],
-    source: "(src: Wikipedia)",
+      "The **Dharmanagar Kalibari**, situated in the North Tripura district, stands as a premier spiritual landmark and a cornerstone of the region's cultural heritage. Dedicated to Goddess Kali, this historic temple in Dharmanagar town draws numerous devotees who come to seek blessings and experience its serene atmosphere. The temple's architecture reflects traditional Bengali and Tripuri influences, featuring a vibrant sanctum and a spacious courtyard that hosts various religious ceremonies. It gains immense significance during **Kali Puja** and **Diwali**, when the entire complex is illuminated, and grand rituals are performed throughout the night. Beyond its religious role, the Kalibari serves as a vital community hub, often organizing social welfare programs and festive fairs that bring together people from diverse backgrounds. Its proximity to the Dharmanagar railway station makes it an accessible and essential stop for anyone exploring the rich architectural and spiritual landscape of North Tripura.",
+    images: [temple1],
+    source: "(src:honeymoonbug.com,)",
   },
   {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
+    name: "Border haat",
     description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
+      "Border Haat, is a special market place located exactly on the Zero line between India and Bangladesh, where both Indian and Bangladeshi citizens of nearby area can visit and purchase the goods from vendors, who are also from both countries in equal numbers. All the transactions here are Tax free. Both Bangladeshi and Indian currencies are in circulation in the market. Buyers can only purchase in reasonable family consumption quantities.Border Haat in South Tripura is located at Srinagar in Poang Bari Block of Sabroom Sub-Divison. Market is open on all Tuesdays from 10 A.M. to 3.30 P.M. commodities like Kitchen Utensil (steel), spices, tea leafs, vegetables, fruits, biscuits, bakery items, dry fish, plastics, onion garlic, pulses, addible oil etc. are available in the market.",
+    images: [border haat1,border haat2],
+    source: "(src:cdn.s3waas.gov.in)",
   },
   {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
+    name: "Bharat Bangla Maitree Uddyan",
     description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
-    source: "",
+      "India Bangla Moitree Udyan has been established in 2017. In the war of liberation of 1971, this beautiful garden was created to commemorate the victory of the brave soldiers of Bangladesh under the leadership of Sheikh Mujibur Rahman, the brave soldiers of Bangladesh and the brave courage of the Indian brave army led by the then Indian Prime Minister Smt. Indira Gandhi. Here the statue of the Liberation War has been established.",
+    images: [Uddyan1,Uddyan2],
+    source: "tse1.mm.bing.net,tripadvisor.com",
   },
   {
-    name: "Trichy Malaikottai (Rockfort)",
+    name: "Ujjayanta Palace",
     description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
+      "This royal house, which stands in the Capital city Agartala covering one sq.Km. area was built by Maharaja Radha Kishore Manikya during 1899-1901.It is a two storied mansion, having a mixed type of architecture with three high domes, the central one being 86′ high. The magnificent tile floor, curved wooden ceiling and beautifully crafted doors are particularly notable. The palace is set with huge Mughal style gardens,beautified by pools and gardens and tiled floors. Flood lighting and fountains have also added to its beauty.The magnificent tiles floors, ceiling of the Chinese room crafted by artisans brought from China, of the palace which now houses the State Legislative Assembly, may give some idea of the opulence and splendor of the original setting of the building. It has recently been adorned with a spectacular musical fountain at its fore yard.",
+    images: [palace1,palace2],
+    source: "(src:tse1.mm.bing.net)",
   },
   {
-    name: "Srirangam Ranganathaswamy Temple",
+    name: "Jagannath Temple",
     description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+      "The Jagannath Temple in Agartala, Tripura, is a stunning architectural landmark that serves as a vital spiritual hub in Northeast India. Built by the Maharaja of Tripura in the 19th century, the temple is renowned for its unique structural design, featuring a distinct octagonal base and an impressive pradakshina path (circumambulation path) surrounding the inner sanctum. The exterior is characterized by pillars crowned with square and pyramidal cones, blending traditional aesthetics with intricate craftsmanship.Beyond its architectural significance, the temple is a major center for pilgrims, particularly during the vibrant Rath Yatra festival, which draws thousands of devotees. Located near the Ujjayanta Palace, the temple's bright orange and white facade creates a striking visual against the city skyline. It stands not only as a place of worship dedicated to Lord Jagannath, Balabhadra, and Subhadra but also as a testament to the rich cultural and royal heritage of the Tripura kingdom.",
+    images: [jagannathtemple1,jagannathtemple2],
+    source: "(src:alamy.com,gosahin.com)",
   },
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "1.	The Oldest Continuous Dynasty: Before joining the Indian Union in 1949, Tripura was ruled by the Manikya Dynasty for several centuries. It is considered one of the longest-unbroken ruling lineages in the world.",
+  "2.	A 'Garland of Kings': Tripura has its own royal chronicle called the Rajmala. It is a unique historical record written in verse that lists 184 kings, blending myth with recorded history starting from the 15th century.",
+  "3.	The Tripurabda Era: Tripura has its own calendar era called Tring, which started in 590 CE. It is three years older than the Bengali calendar and is still celebrated every December 21st.",
+  "4.	Mahabharata Connection: Ancient texts and the Rajmala claim that the name "Tripura" comes from King Tripur, a descendant of the Lunar Dynasty mentioned in the Mahabharata, making the state's heritage thousands of years old.",
+  "5.	The 'Water Palace' of the East: Neermahal is one of only two water palaces in all of India (the other is in Rajasthan). Built in the middle of Lake Rudrasagar, it blends Hindu and Islamic architectural styles.",
+  "6.	 Chabimura’s Vertical Art: At Chabimura, giant images of deities like Durga are carved directly onto the steep vertical walls overlooking the Gomati River, accessible only by boat.",
+  "7.The Buddhist Corridor: While predominantly Hindu and Muslim, Tripura’s Pilak site reveals a 8th–12th century civilization where Hinduism and Buddhism flourished together, evidenced by unique terracotta plaques.",
+  "8.The Primate Capital: Tripura has the highest concentration of primate species in India. It is the only place where you can find the Spectacled Monkey (Phayre’s Leaf Monkey) in its natural habitat.",
+  "9.Land of Bamboo: Bamboo is so central to Tripura that it is often called the 'Green Gold' of the state. They have developed a 'Bamboo Mission' that produces everything from high-end furniture to eco-friendly water bottles.",
+  "10.The 'Eternal Spring Hills: Jampui Hills, the highest range in the state, is famous for its Orange Festival'and a climate that feels like spring all year round.",
+  "11.Floating Migration: Every winter, the Rudrasagar Lake becomes a massive hub for migratory birds from Siberia and Europe, turning the Water Palace into a birdwatcher’s paradise.",
+  "12.Literacy Leader: Despite its remote location, Tripura has consistently ranked among the states with the highest literacy rates in India, often surpassing even Kerala in certain census years.",
+  "13.The Queen Pineapple: The state produces a specific variety called the Queen Pineapple, which is so unique in flavor and sweetness that it has been granted a Geographical Indication (GI) tag.",
+  "14.Rubber Giant: Tripura is the second-largest rubber producer in India after Kerala, a fact that surprises many who associate the Northeast only with tea.",
+  "15.A Blend of Languages: While Bengali is widely spoken, the native Kokborok language belongs to the Tibeto-Burman family, giving the state a linguistic flavor entirely different from mainland India.",
+  "16.The 14 Goddesses: The Kharchi Puja is a unique festival where 14 deities are worshipped. Interestingly, the royal family's priest (Chantai) performs the rituals, even though the festival is now a major public event.",
+  "17.Hojagiri Grace: The Hojagiri dance of the Reang tribe is a world-class feat of balance where dancers perform intricate movements while standing on earthen pitchers with bottles balanced on their heads.",
+  "International Connectivity: Because it is surrounded on three sides by Bangladesh, the state capital, Agartala, is one of the few Indian cities where the international border is just a few kilometers from the city center, making it a vital gateway for Southeast Asian trade.",
 ];
 
 const artGallery = [
