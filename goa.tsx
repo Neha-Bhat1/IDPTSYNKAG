@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react";     /*only editing the picture part is left*/
 import { useLocation } from "wouter";
 import {
   ArrowLeft,
