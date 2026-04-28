@@ -436,7 +436,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function TamilNaduPage() {
+export default function GoaPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -804,45 +804,45 @@ const festivals = [
 
 const historicalPlaces = [
   {
-    name: "Six Abodes of Murugan (Arupadai Veedu)",
+    name: "Churches amd Convents of Goa (UNESCO World Heritage Site)",
     description:
-      "Six abodes of murgan -- The Six Abodes of Murugan, known as ‘Arupadai Veedu’, are sacred temples in Tamil Nadu, India, celebrating different stages of Lord Murugan's life, victories, and legends. ",
-    images: [sixAbodes],
+      "The Churches and Convents of Goa is a serial property located in the former capital of the Portuguese Indies, which is on the west coast of India about 10 km east of the state capital Panjim. These seven monuments exerted great influence in the 16th to 18th centuries on the development of architecture, sculpture, and painting by spreading forms of Manueline, Mannerist, and Baroque art and architecture throughout the countries of Asia where Catholic missions were established. The surviving churches and convents in Goa are the Chapel of St. Catherine (1510); the Church and Convent of St. Francis of Assisi (1517, rebuilt in 1521 and 1661); the Church of Our Lady of Rosary (1549); Sé Cathedral (1652); the Church of St. Augustine (1602; the Basilica of Bom Jesus (1605); and the Chapel of St. Cajetan (1661).",
+    images: [],
     subPlaces: [
       {
-        name: "Subramaniyaswamy Temple – Thiruparankundram",
-        location: "Madurai district",
+        name: "Basilica of Bom Jesus",
+        location: "Old Goa",
         description:
-          "Subramaniyaswamy Temple – Thiruparankundram, Madurai district – Located on a hillock, it is first of the Aarupadaiveedu. Murugan's marriage with Deivanai took place here.",
-        images: [thiruparankundram],
-        source: "(src: Tumblr)",
+          "The Basilica of Bom Jesus is a Catholic basilica in Goa, in the Konkan region of India. The church is a pilgrimage centre and recognised by UNESCO as a World Heritage Site.  It is located in Old Goa, the former capital of Portuguese India, and holds the body of St Francis Xavier. It is one of the Seven Wonders of Portuguese Origin in the World. Construction work on the church began in 1594. The church was consecrated in May 1605 by the archbishop, Aleixo de Menezes. This world heritage monument has emerged as a landmark in the history of Christianity.",
+        images: [basilica1, basilica2, basilica3],
+        source: "(src: wikipedia)",
       },
       {
-        name: "Arulmigu Senthilnathar Temple – Tiruchendur",
-        location: "Thoothukudi district",
+        name: "Chapel of St. Catherine",
+        location: "Old Goa",
         description:
-          "Arulmigu Senthilnathar Temple – Tiruchendur, Thoothukudi district - Located along the coast of Bay of Bengal, the temple commemorates the place where Murugan won a victory over the demon Surapadman. ",
-        images: [thiruchendur],
-        source: "(src: cottage9)",
+          "The Chapel of St. Catherine (Portuguese: Capela de Santa Catarina) is a UNESCO World Heritage Site located in Old Goa in the same compound as Se Cathedral and the Church and Convent of St. Francis of Assisi. It is the first catholic church built in Goa. It was built in 1510 in the Baroque architectural style, and has a brown and white facade. It faces the Mandovi River and is part of the World Heritage Site, Churches and convents of Goa. The chapel is not functional. It was erected by Afonso de Albuquerque, Portuguese conqueror, in 1510 to commemorate his victorious entry to the city of Goa on St Catherine's Day. Pope Paul III granted it status of cathedral in 1534 and it was rebuilt. The chapel was expanded in 1550 at the order of the governor Jorge Cabral, and a new altarpiece was installed as well..",
+        images: [chapelcatherine1],
+        source: "(src: wikipedia)",
       },
       {
-        name: "Arulmigu Dandayudhapani Temple – Palani",
-        location: "Dindigul district",
+        name: "Church and Convent of St. Francis of Assissi",
+        location: "Old Goa",
         description:
-          "Arulmigu Dandayudhapani Temple – Palani, Dindigul district - Located at the foothills of a hillock, the deity known as 'Kulanthai Velayuthaswami' is depicted as a young form of Murugan, and said to have been worshipped by the goddess Lakshmi. In the temple on the hilltop where 'Dhandayuthapani' is the main deity, Murugan is depicted as a hermit carrying a staff ('danda'). This is the place where Murugan is said to have arrived after his feud with his family over a divine fruit. Divine story of how and why Murugan came to Palani ----  Once upon a time, the revered sage Devrishi Narad paid a visit to Lord Shiva and Maa Parvati. During his visit, he presented Maa Parvati with a unique mango, claiming that whoever consumed it would gain extraordinary qualities and powers. Being the loving mother she is, Mata Parvati wished to share this special fruit between her two sons, Lord Ganesha and Lord Kartikeya. Devarishi Narad proposed that the mango could only be consumed by one person, prompting them to organize a contest between the two brothers. The challenge was set: each had to complete three rounds of the world, and the one who returned first would be declared the winner. Eager to claim the mango, Lord Kartikeya swiftly mounted his peacock and soared into the skies to complete the three rounds. Meanwhile, Lord Ganesha, without a flying mount, contemplated his approach. Undeterred, he began walking around his seated parents, Lord Shiva and Maa Parvati, completing three rounds. When Lord Ganesha finished, he humbly claimed his reward. Perplexed, Lord Shiva and Maa Parvati reminded him that the competition was to encircle the entire world three times. In response, Ganesha, with a wise smile, declared that his parents are his world, and by encircling them, he had indeed completed three rounds of his world. Thus, he emerged as the true victor in the competition of devotion and wisdom.Upon Lord Kartikeya’s triumphant return, expectations of victory filled the air. With his peacock Vahana, he had swiftly traversed the world, confident of securing the divine mango. However, as he approached Lord Shiva and Maa Parvati, the atmosphere shifted. The revelation that Lord Ganesha was declared the winner, not due to physical prowess, but through a profound display of devotion. Due to this, Lord Murugan feeling betrayed and angry at his parents leaves to Palani. ",
-        images: [palani1, palani2],
-        source: "(src: Cottage9, southern travels)",
+          "The Church of St. Francis of Assisi was built in 1661 by the Portuguese in the Portuguese Viceroyalty of India. The Church of St. Francis of Assisi, together with a convent, was established by eight Portuguese Franciscan friars who landed in Goa in 1517. It stands on the site of the principal mosque of the Adil Shahi city, later demolished. It is part of the UNESCO World Heritage Site, Churches and convents of Goa. The original shrine, constructed by the Fransican monks in 1521 and subsequently enlarged, was showing signs of decay, so a new church was constructed and dedicated to the Holy Spirit. Built in 1665, it retained the portal of the old structure which was in the Portuguese–Manueline style. It is a unique architectural specimen, of this style in the country.The façade of the church is built in the Tuscan style of architecture with only the portal being Manueline since it is a relic from the older structure. The façade is also distinctive in that it is flanked by octagonal towers. In 1517, eight Franciscan monks landed in Goa. They immediately set to work and built themselves a small chapel. This chapel was completed in 1521 and dedicated to the Holy Ghost. This building was later expanded upon and later consecrated as a church in 1602. However, it was not in good repair and it was later torn down and reconstructed in 1665.The church is built of laterite blocks, covered with lime plaster. The original Manueline entrance way is flanked by two octagonal towers. The façade of the church is three tiered and has a small niche which houses the statue of Our Lady of Miracles which was brought from Jaffna in Sri Lanka. In contrast to the simple outer façade the interiors of the church are unabashedly and lavishly decorated in the Baroque style using Corinthian influences. The highlight is the main altar, which has fine examples of this kind of work.The altar is dedicated to St. Francis of Assisi and has above it a huge statue of the saint, and another of Jesus. These statues display excellent features and attention to detail. Flanking the altar are superb paintings on wood depicting scenes from the life of St. Francis of Assisi and the history of the Seraphic Order.Although this church is not as large as the illustrious Se Cathedral, it is beautiful nonetheless. It is a single-nave church with three small chapels on either side of the nave. There are two altars besides the main one, which is dedicated to St. Francis of Assisi. Behind the altar are rooms which form the sacristy and there is a belfry to the north of the altar. The chapels and the gallery which runs around the top of the church are separated by internal buttresses. The main altar is carved and gilded, and beneath the statues of St. Francis of Assisi and Jesus is inscribed the vows of the saint “poverty, humility and obedience”. Beneath the main vault, is a richly carved niche containing the tabernacle, used for the repose of the Blessed Sacrament. The tabernacle is supported by sculptures of the Four Evangelists, Matthew, Mark, Luke and John.",
+        images: [assissi1, assissi2, assissi3],
+        source: "(src: wikipedia)",
       },
       {
-        name: "Swaminatha Swamy Temple – Swamimalai",
-        location: "Thanjavur district",
+        name: "The Church of Our Lady of Rosary",
+        location: "Old Goa",
         description:
-          'Swaminatha Swamy Temple – Swamimalai, Thanjavur district - Located atop a small hillock, the temple commemorates the incident where Murugan is regarded to have explained the essence of the Pranava mantra "Om" to his father Shiva. Story ---- Once Brahma, the Lord of all creation, disrespected Murugan when he was visiting Mount Kailash. Then, the ever-playful Murugan boldly asked Brahma the meaning of the Pranava Mantra “OM”. Failing to answer the question, Brahma admitted his ignorance. Murugan knocked his forehead, and imprisoned Brahma, bringing the whole of creation to a standstill. The demigods prayed to Lord Shiva for the release of Brahma. But Murugan insisted the imprisonment was a just punishment for Brahma\'s ignorance. Lord Shiva then asked Murugan whether he Himself knew the meaning of Pranava “Aum”. Murugan said he knew its meaning, but would only explain it if Lord Shiva accepted him as a guru and listened to him as a devoted disciple. Shiva accepted the request, and the son became the teacher. He then imparted upon the father the meaning of the sacred Pranava mantra “Aum” and the divine father, proud of understanding the significance, conferred respect to Murugan for his wisdom. You will see in the main shrine in the temple complex in Swamimalai that Murugan is depicted as a teacher and Shiva is listening as a disciple and, in this temple, the son is on a higher pedestal than the father.',
-        images: [swamimalai],
-        source: "(src: casual walker)",
+          "The Church of Our Lady of the Rosary is a Catholic church built between 1544 and 1547, in Old Goa, State of Goa, India. This church is part of the collection belonging to the World Heritage Site of churches and convents of Goa. According to the Portuguese historian Gaspar Correia, the Portuguese nobleman Afonso de Albuquerque ordered a small chapel to be built in honor of Our Lady of the Rosary on the spot where he was standing, when he had received the confirmation that his soldiers had completed the Portuguese conquest of Goa in 1510 and defeated the Sultan of Bijapur. The church of Our Lady of the Rosary is considered to be one of the oldest preserved buildings in Old Goa. Also, it is the only building that still has a (mainly) Renaissance construction and architectural elements. Gothic style and Manueline style are present in the exterior and interior. The church is an early testimony of the Christianization of Goa. Since it was located far outside the city centre, it was not subjected to any modernization. Other buildings from the same time period were eventually massively overbuilt and reshaped. The facade of the church has three floors and a two-storied portico flanked by cylindrical buttresses and cylindrical towers, each tower with cupolas crowned with crosses. The high windows, near the roof, give the impression of a fortress church with a cruciform plan. In addition, manual Indian designs are visible elements on the facade. Large cords are located at the cornice as well as the individual towers. The southern tower has a turning staircase to get to the upper choir on the second floor of the tower‑facade and the rood screen. The church's baptismal font is located on the ground floor of the northern tower. On the highest floor of the tower façade, there are light graceful columns in the corners, with window openings on all sides, and suspended bells. The church has two chapels and consists of only one nave with a main altar and two side altars. The main altar is dedicated to Our Lady of Rosary, with the influence of Gothic style seen in the rib vault of the Manueline style portico. The side chapels and the altar are arranged by a leaf-vein vault in the shape of a star.",
+        images: [rosary1, rosary2, rosary3, rosary4],
+        source: "(src: wikipedia)",
       },
       {
-        name: "Subramanya Swamy Temple – Tiruttani",
+        name: "Sé Cathedral ",
         location: "Thiruvallur district",
         description:
           'Subramanya Swamy Temple - Tiruttani, Thiruvallur district - Located atop a hill, Murugan is said to have reclaimed his inner peace after winning a war over the Surapadman and married Valli here. Story ---- After the intensity of the war in Tiruchendur, Murugan needed a place to subdue his anger and seek inner peace, making Tiruttani a place of tranquility. Thanigai in Tamil means "to pacify" or "to calm down," which is why the hill and town are named Tiruttani, where the deity grants mental peace and relieves devotees of anger and stress. Because he came to this spot for peace, the idol of Murugan here is often seen holding a Vajra Vel (thunderbolt weapon) rather than the standard spear, and he is often depicted with a calmer expression and has an elephant mount (vahana)instead of his usual peacock. Valli, a mortal daughter of a tribal chieftain (Kuravas) in Tamil Nadu, was born of a doe and destined to marry Lord Murugan. Valli, from a young age, fell in love with a divine figure (Murugan) and desired to marry him, avoiding all human suitors. Lord Murugan, attracted by her devotion, visited her in the millet fields. He approached her first as a hunter, then with the help of his brother Ganesha (appearing as a wild elephant), he frightened her into accepting his hand in marriage.',
