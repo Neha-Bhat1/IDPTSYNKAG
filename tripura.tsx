@@ -541,28 +541,28 @@ const festivals = [
     name: "Kharchi Puja",
     description:
       "Kharchi Puja is a significant week-long Hindu festival celebrated in Agartala, Tripura, primarily during July or August. The word "Kharchi" is derived from "Khya," meaning "Earth," as the festival is dedicated to worshipping Mother Earth and the fourteen dynasty deities of the Tripuri people.The celebration follows a unique mythological background centered on the cleansing of the Earth after "Ama Pechi" (the menstruation of the mother goddess). To begin the rituals, the fourteen deities are carried by the Chantai to the Saidra River, where they are bathed in holy water before being returned to the temple and decorated with flowers and vermillion. The festivities involve both tribal and non-tribal communities and are characterized by animal sacrifices, traditional offerings, and a large fair featuring various cultural programs.. (src:Wikipedia)",
-    images: [kharchi puja1,kharchi puja2,],
+    images: [kharchiPuja1,kharchiPuja2,],
     source: "(src:adivasilivesmatter.com)",
   },
   {
     name: "Garia Puja",
     description:
       "Garia Puja is celebrated by the tribal communities to seek blessings from the deity Garia for a good harvest and prosperity. It is observed after sowing seeds. People celebrate it with traditional dances, folk songs, bamboo rituals, and offerings like rice beer. The celebrations continue for several days with joy and festivity. This festival is important as it reflects the agricultural lifestyle and strengthens community bonding.In Garia puja devotees sacrifice chicken for ritual purpose in Tripuri community. All kokborok speaking tribes and Halam tribes worship their supreme God Baba Garia for prosperity and well-being. Jamatia Tribe have a unique mass celebration of Garia puja at State level. It is a seven day festival to honour the deity Baba Garia is held annually on the first day of Tripuri calendar/Bengali calendar month of Boishakh. It is mainly celebrated in tribal regions such as Dhalai district, Gomati district, and North Tripura district.",
-    images: [Garia Puja1, Garia Puja2],
+    images: [GariaPuja1, GariaPuja2],
     source: "adivasilivesmatter.com,india-tours",
   },
   {
     name: "Ker Puja",
     description:
       "Ker puja is a festival held in Tripura, India. Performance of the puja, which is typically held in August,benefits the people and the state. The celebration occurs two weeks after the Kharchi Puja to honor Ker, the guardian deity of Vastu Devata. It includes offerings, sacrifices, and a prescribed boundary which both safeguards people from calamities and saves them from external aggression.The puja was initiated by the Tripura rajas. Participation in the puja is required for the Halam tribe. For 2.5 days during the festival, entrances to the capital are closed, and participants, including the reigning sovereign, are not allowed to wear shoes, light a fire, dance, or sing. (src:wikipedia)",
-    images: [Ker Puja1, Ker Puja2, Ker Puja3],
+    images: [KerPuja1, KerPuja2, KerPuja3],
     source: "(src:hindu-blog, safarmentor.com, northeastlivetv.com )",
   },
   {
     name: "Durga Puja",
     description:
       "Durga Puja, also known as Durgotsava or Sharodotsava, is an annual Hindu festival originating in the Indian subcontinent which reveres and pays homage to the Hindu goddess Durga and is also celebrated because of Durga victory over Mahishasur. The over 500 years old Durga Puja, initiated by the then royal dynasty and sponsored by the Tripura government for the past over seven decades, continues to draw devotees from different parts of India and the neighbouring countries, including Bangladesh. Tripura, governed by the Left and non-Left parties since it merged with the Indian union 73 years ago, is possibly the only state in India where the government continues to sponsor an over five century-old Durga Puja, that is also closely overseen by the erstwhile royal family.With ‘Maha Sasthi’ or ‘Bodhan’-the welcoming of the Durga idols - the puja began on saturday at the famed Durgabari temple, located in front of the 121 year old ujjayanta palace , one of the biggest royal mansions in estern India. Jayanta Bhattacharjee (57) , the head priest of Durgabari temple , said a few years after the beginning of the royal era in Tripura, the kings started Durga puja over 500 years ago.",
-    images: [Durga puja1,Durga puja2],
+    images: [DurgaPuja1,DurgaPuja2],
     source: "(src: src : tripuratourism.gov)",
   },
   {
@@ -577,7 +577,7 @@ const festivals = [
     tagline: "Ashokastami: Where Tripura’s History Meets Devotion.",
     description:
       "The Ashokastami Festival is one of the most significant and spiritually charged events in Tripura, celebrated with immense fervor during the month of Chaitra (typically March or April). While the festival is observed across India, its heart in Tripura lies at Unakoti, a historic Shaivite pilgrimage site famous for its colossal rock-cut carvings and waterfalls.Thousands of devotees from across the region gather at Unakoti to take a ritualistic holy dip in the Ashtami Kunda, a sacred water tank. It is widely believed that bathing in these waters during the auspicious tithi cleanses one of sins and brings spiritual merit. Following the ritual bath, pilgrims offer prayers to the massive stone images of Lord Shiva, known locally as Unakotiswara Kal Bhairava, and other deities carved into the hillistic landscape.The celebration is characterized by a vibrant mela (fair) that surrounds the archaeological site. The atmosphere is a blend of solemn devotion and festive joy, featuring traditional folk music, local handicrafts, and stalls offering regional delicacies. For the people of Tripura, Ashokastami is not merely a religious ritual but a profound cultural gathering that honors the state’s ancient heritage and the timeless legends associated with the sacred hills of Unakoti.",
-    images: [Ashokastami Festival1,Ashokastami Festival2,Ashokastami Festival3],
+    images: [AshokastamiFestival1,AshokastamiFestival2,AshokastamiFestival3],
     source: "(src:: pinterest.com,specialholidays.com)",
   },
   {
@@ -595,7 +595,7 @@ const historicalPlaces = [
     name: "Longtharai Mandir, Dhalai",
     description:
       "The Longtharai Mandir is the most revered temple in the Dhalai district. Longtharai is the Kokborok name of Lord Shiva. The temple lies about 102 kilometres away from Agartala. It is believed that while Lord Shiva was travelling from Mount Kailash, his home, he rested in this area. Since he is believed to have stepped foot here, this area became famous and a temple was soon constructed. Today the temple and the adjoining hill area are highly regarded and people from all over visit the Longtharai Mandir. The word Longtharai also has another meaning—deep valley. Khumpi is a local flower that blooms on the roadside leading to the temple. Not only is the temple a pious place, but the area around the temple is worth a visit too. The enchanting natural beauty that seems to be tucked away from the world of commercialisation and rat race is definitely a must visit.",
-    images: [Longtharai Mandir],
+    images: [LongtharaiMandir],
     source:"nativeplanet.com",
     
   },
@@ -603,7 +603,7 @@ const historicalPlaces = [
     name: "Dumboor Lake",
     description:
       "Dumboor Lake is a charming water body located in amarpur Sub Division 120 Km. away from Agartala. The look of the lake is like tabour shaped small drum, “Dumboor” of Lord Shiva from which the name “Dumboor” originates. A massive and breathtaking water body of 41 sq.km. with an unending spell of luxuriant green vegetation all around stands majestic for her exceedingly charming beauty and 48 islands in the midst of the lake. Migratory birds and water sports facilities are additional attractions. There is a Hydel Project near the lake from where River Gomati originates and this is called Tirthamukh where on 14th January every year famous ‘Pous Sankranti Mela’ takes place. The lake is the confluence of rivers Raima and Sarma. Various species of migratory birds are visible in the winter and it has rich reservoir of natural and cultured fishes. In one of the island “Narkel Kunja” has been developed.",
-    images: [Dumboor Lake],
+    images: [DumboorLake],
     source: "hindustanpioneer.com",
   },
   {
@@ -617,7 +617,7 @@ const historicalPlaces = [
     name: "Nupilal Memorial Complex ",
     description:
       "This is one of the most significant historical markers in the district. It commemorates the 'Manipur Women’s War' of 1939, honoring the Manipuri women who fought against exploitation and artificial famine during the British era. It features a notable statue known as the Manipur Women War Statue.",
-    images: [Nupilal Memorial Complex],
+    images: [NupilalMemorialComplex],
     source: "(src: forwardpress.in)",
   },
   {
@@ -631,63 +631,63 @@ const historicalPlaces = [
     name: "Kasba Kali Temple",
     description:
       "Kamalasagar Kali Temple, was built on a hill-top by Maharaja Dhanya Manikya in the late 15th century. It is situated just deside the Bangladesh border, The lake in front of this temple rightly enhances its beauty.The large ‘Kamala Sagar’ lake dug by king Dhanya Manikya (1490-1520) and the two wavy blue water lakes in front of the ‘Ujjayanta palace’, abode of Tripura’s erstwhile princely rulers in the heart of capital Agartala will form inevitable itinerary of trourists fond of waterscape. Princely Tripura’s erstwhile capital and present headquarter of south Tripura District, Udaipur is also known as a ‘lake-town’ because of the surfeit of large lakes, dug by different princely rulers, that dot the town. These lakes coupled with the river Gomati that flows by Udaipur will enthuse tourists to have a pleasant outing.",
-    images: [kasba kali temple1,kaba kali temple2],
+    images: [KasbaKaliTemple1,KasbaKaliTemple2],
     source: "thumbs.dreamstime.com,",
   },
   {
     name: "Unakoti Heritage Site - UNESCO world heritage site",
     description:
       "It is ‘Shaiba’ (Saivite) pilgrimage and dates back to 7th – 9th centuries if not earlier. The marvellous rock carvings, murals with their primitive beauty, waterfalls are not to be missed. Unakoti means one less than a crore and it is said that these many rock cut carvings are available here. As per Hindu mythology, when Lord Shiva was going to Kashi along with one crore gods and goddesses he made a night halt at this location. He asked all the gods and goddesses to wake up before sun rise and proceed for Kashi.It is said that in the morning, except Shiva himself, no one else could get up so Lord Shiva set out for Kashi himself cursing the others to become stone images. As a result we have one less than a crore stone images and carvings at Unakoti. These carvings are located at a beautifully landscaped forest area with green vegetation all around which add to the beauty of the carvings. The images found at Unakoti are of two types, namely rock-carved figures and stone images.Among the rock cut carvings, the central Shiva head and gigantic Ganesha figures deserve special mention. The central Shiva head known as ‘Unakotiswara Kal Bhairava’ is about 30 feet high including an embroidered head-dress which itself is 10 feet high. On each side of the head-dress of the central Shiva, there are two full size female figures – one of Durga standing on a lion and another female figure on the other side. In addition three enormous images of Nandi Bull are found half buried in the ground. There are various other stone as well as rock cut images at Unakoti. Every year a big fair popularly known as ‘Ashokastami Mela’ is held in the month of April which is visited by thousands of pilgrims.",
-    images: [Unakoti heritage site1,Unakoti heritage site2,Unakoti heritage site3,Unakoti heritage site4,Unakoti heritage site5,Unakoti heritage site6],
+    images: [UnakotiHeritageSite1,UnakotiHeritageSite2,UnakotiHeritageSite3,UnakotiHeritageSite4,UnakotiHeritageSite5,UnakotiHeritageSite6],
     source: "(src:etvbharatimages.akamaized.net,thefloatingpebbles.com,)",
   },
   {
     name: " Udayan Buddha Bihar",
     description:
       "Situated at Pecharthal market place adjacent to National Highway NH44. Established in the year 1933. The idol is made of “Osto Dhatu” 8 types of metals, 4.5 ft. height and weighs 300 Kg. Hundreds of devotees from nearby land assembles in the time Buddha Jayanti in Buddha Purnima in the month April/May.Location : At Pecharthal, 33 Km from District Head Quarter Kailashahar.",
-    images: [Udyan Buddha Bihar],
+    images: [UdyanBuddhaBihar],
     source: "(src:cdn.s3waas.gov.in)",
   },
   {
     name: "VANGHMUN – THE CLEANEST VILLAGE IN TRIPURA",
     description:
       "Vanghmun Village, perched atop the lush Jampui Hills in North Tripura, stands as a testament to community-driven cleanliness and environmental stewardship. Frequently recognized as the cleanest village in the entire state, it offers a serene escape characterized by its cool, temperate climate and impeccable civic organization. Situated at a high altitude, the village provides visitors with breathtaking panoramic views of the surrounding valleys and the distant misty hills of Mizoram. The local Mizo community, known for their warm hospitality and vibrant cultural heritage, plays a pivotal role in maintaining the village’s pristine condition through collective voluntary efforts.The region is also celebrated for its sprawling orange orchards; during the peak harvest season, the landscape is transformed by vibrant shades of orange, attracting nature lovers and agro-tourists alike. Beyond its aesthetic appeal, Vanghmun serves as a vital cultural hub where traditional music and dance thrive. Its well-maintained gardens, plastic-free streets, and disciplined lifestyle make it a model for sustainable rural tourism in Northeast India. Whether you are interested in trekking through the verdant trails of the Jampui Hills or simply experiencing a peaceful mountain retreat, Vanghmun offers a unique blend of natural beauty and social harmony that is rare to find.",
-    images: [city1,city2],
+    images: [Vanghmun1,Vanghmun2],
     source: "(src:tse4.mm.bing.net/)",
   },
   {
     name: "Kalibari temple",
     description:
       "The **Dharmanagar Kalibari**, situated in the North Tripura district, stands as a premier spiritual landmark and a cornerstone of the region's cultural heritage. Dedicated to Goddess Kali, this historic temple in Dharmanagar town draws numerous devotees who come to seek blessings and experience its serene atmosphere. The temple's architecture reflects traditional Bengali and Tripuri influences, featuring a vibrant sanctum and a spacious courtyard that hosts various religious ceremonies. It gains immense significance during **Kali Puja** and **Diwali**, when the entire complex is illuminated, and grand rituals are performed throughout the night. Beyond its religious role, the Kalibari serves as a vital community hub, often organizing social welfare programs and festive fairs that bring together people from diverse backgrounds. Its proximity to the Dharmanagar railway station makes it an accessible and essential stop for anyone exploring the rich architectural and spiritual landscape of North Tripura.",
-    images: [temple1],
+    images: [Kalbaritemple1],
     source: "(src:honeymoonbug.com,)",
   },
   {
     name: "Border haat",
     description:
       "Border Haat, is a special market place located exactly on the Zero line between India and Bangladesh, where both Indian and Bangladeshi citizens of nearby area can visit and purchase the goods from vendors, who are also from both countries in equal numbers. All the transactions here are Tax free. Both Bangladeshi and Indian currencies are in circulation in the market. Buyers can only purchase in reasonable family consumption quantities.Border Haat in South Tripura is located at Srinagar in Poang Bari Block of Sabroom Sub-Divison. Market is open on all Tuesdays from 10 A.M. to 3.30 P.M. commodities like Kitchen Utensil (steel), spices, tea leafs, vegetables, fruits, biscuits, bakery items, dry fish, plastics, onion garlic, pulses, addible oil etc. are available in the market.",
-    images: [border haat1,border haat2],
+    images: [Borderhaat1,Borderhaat2],
     source: "(src:cdn.s3waas.gov.in)",
   },
   {
     name: "Bharat Bangla Maitree Uddyan",
     description:
       "India Bangla Moitree Udyan has been established in 2017. In the war of liberation of 1971, this beautiful garden was created to commemorate the victory of the brave soldiers of Bangladesh under the leadership of Sheikh Mujibur Rahman, the brave soldiers of Bangladesh and the brave courage of the Indian brave army led by the then Indian Prime Minister Smt. Indira Gandhi. Here the statue of the Liberation War has been established.",
-    images: [Uddyan1,Uddyan2],
+    images: [BharatBanglaMaitreeUddyan1, BharatBanglaMaitreeUddyan2],
     source: "tse1.mm.bing.net,tripadvisor.com",
   },
   {
     name: "Ujjayanta Palace",
     description:
       "This royal house, which stands in the Capital city Agartala covering one sq.Km. area was built by Maharaja Radha Kishore Manikya during 1899-1901.It is a two storied mansion, having a mixed type of architecture with three high domes, the central one being 86′ high. The magnificent tile floor, curved wooden ceiling and beautifully crafted doors are particularly notable. The palace is set with huge Mughal style gardens,beautified by pools and gardens and tiled floors. Flood lighting and fountains have also added to its beauty.The magnificent tiles floors, ceiling of the Chinese room crafted by artisans brought from China, of the palace which now houses the State Legislative Assembly, may give some idea of the opulence and splendor of the original setting of the building. It has recently been adorned with a spectacular musical fountain at its fore yard.",
-    images: [palace1,palace2],
+    images: [UjjayantaPalace1,UjjayantaPalace2],
     source: "(src:tse1.mm.bing.net)",
   },
   {
     name: "Jagannath Temple",
     description:
       "The Jagannath Temple in Agartala, Tripura, is a stunning architectural landmark that serves as a vital spiritual hub in Northeast India. Built by the Maharaja of Tripura in the 19th century, the temple is renowned for its unique structural design, featuring a distinct octagonal base and an impressive pradakshina path (circumambulation path) surrounding the inner sanctum. The exterior is characterized by pillars crowned with square and pyramidal cones, blending traditional aesthetics with intricate craftsmanship.Beyond its architectural significance, the temple is a major center for pilgrims, particularly during the vibrant Rath Yatra festival, which draws thousands of devotees. Located near the Ujjayanta Palace, the temple's bright orange and white facade creates a striking visual against the city skyline. It stands not only as a place of worship dedicated to Lord Jagannath, Balabhadra, and Subhadra but also as a testament to the rich cultural and royal heritage of the Tripura kingdom.",
-    images: [jagannathtemple1,jagannathtemple2],
+    images: [JagannathTemple1,JagannathTemple2],
     source: "(src:alamy.com,gosahin.com)",
   },
 ];
