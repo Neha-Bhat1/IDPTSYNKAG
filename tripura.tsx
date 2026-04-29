@@ -269,7 +269,7 @@ export default function Tripurapage() {
         <Section title="Capital — Agartala" icon="🏛️">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
             <div className="text-5xl mb-3">🌆</div>
-            <h3 className="text-2xl font-bold text-foreground mb-1" style={{ fontFamily: "'Cinzel', serif" }}>Chennai</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-1" style={{ fontFamily: "'Cinzel', serif" }}>Agartala</h3>
             <p className="text-muted-foreground text-sm">Capital of Tripura - Gateway to the northeast</p>
           </div>
         </Section>
