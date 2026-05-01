@@ -436,7 +436,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function TamilNaduPage() {
+export default function PunjabPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -476,19 +476,19 @@ export default function TamilNaduPage() {
           <div className="flex flex-col md:flex-row md:items-end gap-6">
             <div className="flex-1">
               <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
-                South India
+                North India
               </div>
               <h1
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Tamil Nadu
+                Punjab
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Temples
+                The Bread Basket of India
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -497,12 +497,12 @@ export default function TamilNaduPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chennai" },
-                  { label: "Population", value: "7.21 Crore" },
-                  { label: "Area", value: "1,30,060 sq km" },
-                  { label: "Founded", value: "26 January 1950" },
-                  { label: "Language", value: "Tamil" },
-                  { label: "Districts", value: "32 Districts" },
+                  { label: "Capital", value: "Chandigarh" },
+                  { label: "Population", value: "2.77 Crore" },
+                  { label: "Area", value: "50,362 sq km" },
+                  { label: "Founded", value: "1 November 1966" },
+                  { label: "Language", value: "Punjabi" },
+                  { label: "Districts", value: "23 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
@@ -522,23 +522,23 @@ export default function TamilNaduPage() {
 
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
         {/* Capital */}
-        <Section title="Capital — Chennai" icon="🏛️">
+        <Section title="Capital — Chandigarh" icon="🏛️">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
             <div className="text-5xl mb-3">🌆</div>
             <h3
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chennai
+              Chandigarh
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The Detroit of Asia
+              Capital of Punjab — City Beautiful
             </p>
           </div>
         </Section>
 
         {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Tamil Nadu" icon="🗺️">
+        <Section title="Map of Punjab" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
@@ -546,8 +546,8 @@ export default function TamilNaduPage() {
               onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
             >
               <img
-                src={tnMap}
-                alt="Map of Tamil Nadu"
+                src={punjabMap}
+                alt="Map of Punjab"
                 className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
@@ -570,68 +570,31 @@ export default function TamilNaduPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              The State of Tamil Nadu has a hoary antiquity. Though
-              early sangam classics throw historical references, we pass to
-              recorded history only from the Pallavas.
+              Punjab is a state in northwestern India. Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states and union territories of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, Rajasthan to the southwest, Jammu and Kashmir to the north and Chandigarh — which is also its state capital that it shares with the neighbouring state of Haryana — to the east. To the west, it shares an international border with the identically named Pakistani province of Punjab. The state covers an area of 50,362 square kilometres (19,445 square miles), which is 1.53% of India's total geographical area.
             </p>
             <p className="text-foreground">
-              The southern states of India were under the hegemony of the
-              Cholas, the Cheras and the Pandyas for centuries. The Pallavas
-              held supremacy from about the second quarter of the fourth century
-              A.D. They were the originators of the famous Dravidian style of
-              temple architecture. The last Pallava ruler was Aparajita, in
-              whose reign the later Cholas under Vijayalaya and Aditya asserted
-              themselves by about the 10th century. At the end of the
-              11th century, Tamil Nadu was ruled by several dynasties like the
-              Chalukyas, Cholas and Pandyas. In the two centuries that followed,
-              the imperial Cholas gained paramountcy over South India.
+              Punjabi, written in the Gurmukhi script, is the most widely spoken and the official language of the state. The main ethnic group are the Punjabis, with Sikhs (57.7%) and Hindus (38.5%) forming the dominant religious groups. Three of the five traditional Punjab rivers — the Sutlej, Beas, and Ravi — flow through the state.
             </p>
             <p className="text-foreground">
-              Muslims gradually strengthened their position, which led to the
-              establishment of the Bahamani Sultanate, by the middle of the
-              14th century. At the same time, the Vijayanagar Kingdom quickly
-              consolidated itself and extended its sway over the whole of South
-              India, and at the close of the century, Vijayanagar became the
-              supreme power in South. However, it crumbled at the battle of
-              Talikota in 1564 to the confederate forces of the Deccan Sultans.
+              Punjab was enriched during the height of the Vedic period, but declined in predominance with the rise of the Mahajanapadas. The region formed the frontier of initial empires during antiquity including Alexander's and the Maurya empires. It was subsequently conquered by the Kushan Empire, Gupta Empire, and then Harsha's Empire. Punjab came under Muslim rule c. 1000 CE, and was part of the Delhi Sultanate and the Mughal Empire.
             </p>
             <p className="text-foreground">
-              Even during the period of the tumultuous confusion that followed
-              the battle of Talikota, European commercial interest had appeared
-              as rivals in the area of South India. The Portuguese, the Dutch,
-              the French and the English came in quick succession and
-              established trading centres known as 'Factories'. East India
-              Company, which had established its factory at Masulipatnam (now in
-              Andhra Pradesh) in 1611, gradually annexed territories by
-              encouraging enmity among the native rulers. Tamil Nadu was one of
-              the first of British settlements in India. The State is the
-              successor to the old Madras Presidency, which covered the bulk of
-              the southern peninsula in 1901. The composite Madras State was
-              later reorganised, and the present Tamil Nadu was formed.
+              Sikhism, based on the teachings of Sikh Gurus, emerged between the 15th and 17th centuries. Conflicts between the Mughals and the later Sikh Gurus precipitated a militarisation of the Sikhs, resulting in the formation of a confederacy after the weakening of the Mughal Empire, which competed for control with the larger Durrani Empire. This confederacy was united in 1801 by Maharaja Ranjit Singh, forming the Sikh Empire.
             </p>
             <p className="text-foreground">
-              Tamil Nadu is bounded on north by Andhra Pradesh and Karnataka, on
-              the west by Kerala, on the east by the Bay of Bengal, and on the
-              south by the Indian Ocean.
+              The Punjab region is noted as the site of one of the earliest urban societies, the Indus Valley Civilisation that flourished from about 3000 B.C. and declined rapidly 1,000 years later, following the Indo-Aryan migrations that overran the region in waves between 1500 and 500 B.C. The rise of kingdoms and dynasties in Punjab is chronicled in the ancient Hindu epics, particularly the Mahabharata. The epic battles described in the Mahabharata are chronicled as being fought in what is now the state of Haryana and historic Punjab. The Gandharas, Kambojas, Trigartas, Andhra, Pauravas, Bahlikas (Bactrian settlers of the Punjab), Yaudheyas, and others sided with the Kauravas in the great battle fought at Kurukshetra. The bulk of the Rigveda was composed in the Punjab region between circa 1500 and 1200 BC.
             </p>
             <p className="text-foreground">
-              Tamil Nadu covers total land area of 130,060 km2 and is divided
-              into 32 districts which are: Ariyalur, Chennai, Coimbatore,
-              Cuddalore, Dharmapuri, Dindigul, Erode, Kancheepuram, Kanyakumari,
-              Karur, Krishnagiri, Madurai, Nagapattinam, Namakkal, Perambalur,
-              Pudukkottai, Ramanathapuram, Salem, Sivaganga, Thanjavur, The
-              Nilgiris, Theni, Thiruvallur, Thiruvannamalai, Thiruvarur,
-              Tirunelveli, Tirupur, Tiruchirappalli(Trichy),
-              Tuticorin(Thoothukoodi), Vellore, Villupuram and Virudhunagar.
+              A significant event in the late 15th century Punjab was the formation of Sikhism by Guru Nanak. The hymns composed by Guru Nanak were later collected in the Guru Granth Sahib, the central religious scripture of the Sikhs. The religion developed and evolved in times of religious persecution, gaining converts from both Hinduism and Islam. Mughal rulers of India tortured and executed two of the Sikh gurus—Guru Arjan (1563–1605) and Guru Tegh Bahadur (1621–1675)—after they refused to convert to Islam. The persecution of Sikhs triggered the founding of the Khalsa by Guru Gobind Singh in 1699 as an order to protect the freedom of conscience and religion, with members expressing the qualities of a Sant-Sipāhī ('saint-soldier').
+            </p>
+            <p className="text-foreground">
+              The Sikh Empire spanned a total of over 200,000 sq mi (520,000 km2) at its zenith. After Ranjit Singh's death in 1839, the empire was severely weakened by internal divisions and political mismanagement. This opportunity was used by the East India Company to launch the First and Second Anglo-Sikh Wars. The country was finally annexed and dissolved at the end of the Second Anglo-Sikh War in 1849 into separate princely states and the province of Punjab. Eventually, a Lieutenant Governorship was established in Lahore as a direct representative of the Crown.
             </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the cradle of Dravidian culture with its
-              cultural paraphernalia speckled all across the state in the form
-              of magnificent temples, gateways, intricate carvings, and the
-              society seeped in tradition.
+              It is regarded as the "Land of Five Rivers" and is known as the "Granary of India" due to its high agricultural fertility. It is widely celebrated as the sword arm of India and a land of brave warriors, holding a reputation for a vibrant culture, energetic music (bhangra), and immense hospitality.
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: govt of TN, mapsofindia.com)
+              (src: govt of Punjab, mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -778,21 +741,21 @@ export default function TamilNaduPage() {
 
 const festivals = [
   {
-    name: "Pongal",
-    tagline: "The Harvest Festival of Tamil Nadu",
+    name: "Lohri",
+    tagline: "The Harvest Festival of Punjab",
     description:
-      'Pongal is the harvest festival celebrated by the farmers in January to worship the sun, the earth and the cattle as thanks giving for a bounteous harvest. It is followed by the Jallikattu. - Tamil Nadu celebrates a four day harvesting festival annually during the month of January, popularly known as “Pongal”. The celebration is held to praise the Sun God for nourishing the crops throughout the year. The four day celebration involves; Bhogi, Surya Pongal, Mattu Pongal and Kaanum Pongal.  The third day of the festival is Mattu Pongal, which features a significant ancient sport known as Jallikattu - the bull taming sport. Bhogi marks the first day of the Pongal festivities and is celebrated on the last day of the Tamil calendar month Marghazhi.On this day people discard old belongings and celebrate new possessions. The people assemble and light a bonfire in order to burn the heaps of discards. Houses are cleaned, painted and decorated to give a festive look. Thai Pongal is the main festive day, celebrated on the next day of Bhogi.[10][11] It is observed on the first day of the Tamil calendar month of Thai, and usually falls on 14 or 15 January. It is dedicated to the Sun deity Surya and corresponds to Makar Sankranti. According to tradition, the festival marks the end of winter solstice, and the start of the sun\'s six-month-long journey northwards when the sun enters the Capricorn, also called as Uttarayana. Dedicated to Surya, it is celebrated with family and friends with new clothes worn and the preparation of the traditional pongal dish in an earthen pot. The pot is typically decorated by tying a turmeric plant or flower garland and placed in the sun along with sugarcane stalks. The homes are decorated with banana and mango leaves, decorative florals and kolams. Relatives and friends are invited and when the pongal starts to boil and overflow out of the vessel,they blow a conch or make sounds while shouting "Pongalo Pongal" ("may this rice boil over"). In rural areas, people sing traditional songs while the pongal dish is cooking. The Pongal dish is first offered to Surya and Lord Ganesha, and then shared with the gathered friends and family. Mattu Pongal ("Madu" meaning cow in Tamil) is the third day of the festival meant for the celebration of cattle. The cattle is regarded as sources of wealth as it is a means for dairy products and fertilizers, used for transportation and agriculture. The cattle are bathed, their horns are polished and painted in bright colors with garlands of flowers placed around their necks and taken for processions. Kaanum Pongal, the fourth and final day of the Tamil harvest festival, signifies familial unity, social bonding, and gratitude towards nature. ‘Kanu Pidi’ is a ritual where women and young girls place leftover colored rice (often cooked from previous days), sugarcane, and vegetables on turmeric leaves in the open for birds, particularly crows (regarded as ancestors). They pray for the health and prosperity of their brothers and family. (src:Wikipedia)',
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
-    source: "(src: Wikipedia)",
+      "Lohri is a midwinter folk and harvest festival that marks the passing of the winter solstice and the end of winter. It is a traditional welcome of longer days and the sun's journey to the Northern Hemisphere. It is one of the Indian harvest festivals observed on or near Makar Sankranti (in the month of Magha in the Indian calendar) and falls on the night before Maghi (in the month of Magh in the Punjabi calendar) which commonly falls on 13 January every year. A popular folklore in the Punjab region links Lohri to the tale of Dulla Bhatti. The central theme of many Lohri songs is the legend of Dulla Bhatti (Rai Abdullah Bhatti) whose father was a zamindar who lived in Punjab during the reign of Mughal Emperor Akbar. He was regarded as a hero in Punjab, for rescuing girls from being forcibly taken to be sold in slave markets of the Middle East. Among those he saved were two girls Sundri and Mundri, who gradually became a theme of Punjabi folklore. As a part of Lohri celebrations, children go around homes singing the traditional folk songs of Lohri with the 'Dulla Bhatti' name included. One person sings, while others end each line with a loud 'Ho!' sung in unison. After the song ends, the adult of the home is expected to give snacks and money to the singing troupe of youngsters. Lohri also marks the beginning of the harvest season and sunny days. The festival is celebrated by lighting bonfires, eating festive food, dancing and collecting gifts. In houses that have recently had a marriage or childbirth, Lohri celebrations will reach a higher pitch of excitement. In Punjab, people wear their brightest clothes and come to dance the bhangra and giddha to the beat of the dhol. Punjabi songs are sung, and everybody rejoices. Sarson da saag with makki di roti is usually served as the main course at a Lohri dinner. Lohri holds great importance for farmers. The bonfire is lit at sunset in the main village square. People toss sesame seeds, jaggery, sugar-candy and rewaries on the bonfire, sit around it, sing and dance till the fire dies out. Some people perform a prayer and go around the fire. This is to show respect to the natural element of fire, a tradition common in winter solstice celebrations. It is traditional to offer guests til, gajak, jaggery, peanuts and puffed rice or popcorn. Milk and water are also poured around the bonfire by Hindus to thank the Sun God and seek his continued protection.",
+    images: [lohri1, lohri2, lohri3, lohri4],
+    source: "(src: Wikipedia, Getty images)",
   },
   {
-    name: "Jallikattu — Bull Fight",
+    name: "Baisakhi",
     tagline:
-      "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
+      "Spring harvest festival of Punjab",
     description:
-      "Jallikattu-Bull fight, in some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu. - In ancient times, ‘Yeru thazhuvuthal’ or embracing the bull, was connected in displaying the men’s pride and victory for winning over a girl for marriage. The sport has prevailed in Tamil culture for over 2000 years now.   Manju Virattu is conducted every year in various regions of the state including Madurai, Sivagangai and Pudukottai. The event begins as the bulls are released to the arena via a small entrance known as “ Vaadi Vaasal”. The male players known to be bull tamers, amid loud whistles, applauses and cheers wait nearby to the entrance and try to grab the bull's hump, which needs a lot of courage and prudence. The person who clutches the hump and takes the pouch containing cash or presents without falling off the bull is deemed the winner. Besides being identified as a conquering sport, it is also associated with the good motive of preserving pure-breeding of native bulls which were bred exclusively for the purpose of mating. The native Kangayam, Pulikulam, Umbalachery , Bargur and Malai Maadu are the combative breeds which compete highly in this sport. The sport has become the emotion of Tamilians with its long rooted historical and cultural significance. Madurai and Jallikattu The festival of cattle-worship is much delighted in Madurai and its sub regions. The sport is considered as a celebration in these areas. Preparations for this festival start months before the day of the event. The invites are sent to various villages about the celebration where the bulls are registered to enter the arena after a physical health check up. The district administration, Public works department, Police department along with local event organizers work together to maintain the integrity and dignity of the sport. Every year the regions of Avaniyapuram, Alanganallur and Palamedu attract around 700 native breeds of bulls and about 300 bull tamers from all around the state for this competition. The event also attracts a swarm of people, both locally and globally, visiting these areas to watch this magnificent sport. The bull taming sport in these regions are also telecasted on National Television every year.",
-    images: [jalli1, jalli2],
-    source: "",
+      "Also called Mesadi or Basoa, marks the first day of the month of Vaisakh and is traditionally celebrated annually on 13 April or 14 April. It is seen as a spring harvest celebration primarily in Punjab and Northern India. Whilst it is culturally significant in many parts of India as a festival of harvest, Vaisakhi is also the date for the Indian Solar New Year. Historically, the festival of Vaisakhi was north India’s most important annual market. Although Vaisakhi began as a grain harvest festival for Hindus and its observance predates the creation of Sikhism, it gained historical association with the Sikhs following the inauguration of the Khalsa. People start the day with a holy bath in rivers, followed by special prayers and kirtans (hymns) at Gurdwaras. Key festivities include Nagar Kirtan processions, vibrant Bhangra/Giddha dances, and community feasts (langar). For Sikhs, in addition to its significance as the harvest festival, during which Sikhs hold kirtans, visit local gurdwaras, community fairs, hold nagar kirtan processions, raise the Nishan Sahib flag, and gather to socialize and share festive foods, Vaisakhi observes major events in the history of Sikhism and the Indian subcontinent that happened in the Punjab region. Vaisakhi as a major Sikh festival marks the birth of the Khalsa order by Guru Gobind Singh, the tenth Guru of Sikhism, on 13 April 1699. Later, Ranjit Singh was proclaimed as Maharaja of the Sikh Empire on 12 April 1801 (to coincide with Vaisakhi), creating a unified political state. Vaisakhi was also the day when British Indian Army officer Reginald Dyer ordered his troops to shoot into a protesting crowd in Amritsar, an event which would come to be known the Jallianwala Bagh massacre; the massacre proved influential to the history of the Indian independence movement.",
+    images: [baisakhi1, baisakhi2],
+    source: "(src: Wikipedia)",
   },
   {
     name: "Chithirai Festival, Madurai",
