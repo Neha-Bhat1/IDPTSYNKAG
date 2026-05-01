@@ -609,8 +609,8 @@ const historicalPlaces = [
   {
     name: "Udaipur",
     description:
-      "Udaipur, located in the Gomati district of Tripura, is a historic city often called the 'Lake City' or the 'City of Temples.' It was the former capital of the Tripura Kingdom and is primarily famous for its deep-rooted religious significance and architectural heritage",
-    images: [Udaipur],
+      "Udaipur, located in the Gomati district of Tripura, is a historic city often called the 'Lake City' or the 'City of Temples.' It was the former capital of the Tripura Kingdom and is primarily famous for its deep-rooted religious significance and architectural heritage. In tripura one of the most prominent temple is Tripura Sundari Temple.Tripura Sundari Temple is a Hindu temple of the Goddess Tripura Sundari, better known locally as Devi Tripureshwari the third mahavidya and main form of Parvati. The temple is situated in the ancient city of Udaipur, about 55 km from Agartala, Tripura and can be reached by train and road from Agartala. It is believed to be one of the holiest Hindu shrines in this part of the country and witnesses the highest number of visitors for a temple in North-East India, after Kamakhya Temple in Assam. The state of Tripura is named after this temple. Popularly known as Matabari, the shrine is set upon a small hillock that resembles the hump of a tortoise (Kurma). This shape called Kurmapṛṣṭhākṛti is considered the holiest possible site for a Shakti temple, hence also bestowing the name of Kurma Pīṭha.[1] The Goddess is served by traditional Brahmin priests.The temple is one of the 51 Shakta pithas; legend says that a part of the right foot (Dakshin Charan) of Sati including the big toe fell here. Here, Shakti is worshipped as Tripurasundarī and the accompanying Bhairava is Tripuresh. The main shrine, a cubical edifice with a three-tier roof with a finial, erected by Maharaja of Tripura Dhanya Manikya in 1501 CE, is constructed in the Bengali Ek-ratna style.",
+    images: [Udaipur1,Udaipur2,Udaipur3],
     source: "(src: )",
   },
   {
@@ -724,9 +724,6 @@ const artGallery = [
   { title: "Mach Bhat", emoji: "🐠", color: "#7098B8", desc: "Fish and rice — the quintessential everyday meal of Tripura", image: gMachBhat },
   { title: "Wak Bahan", emoji: "🐗", color: "#D4804A", desc: "Pork cooked with bamboo shoots, raw papaya & jackfruit — bold tribal flavours", image: gWakBahan },
   { title: "Mosdeng Serma", emoji: "🌶️", color: "#C83828", desc: "Small fish marinated in red chilli paste, turmeric & mustard oil — a fiery Tripuri classic", image: gModsengSerma },
-  { title: "Awan Bangwi", emoji: "🫘", color: "#90B870", desc: "Spiced bamboo shoot mix wrapped in banana leaf & roasted — smoky, rustic Tripuri snack", image: gAwanBangwi },
-  { title: "Muitru", emoji: "🥘", color: "#C89860", desc: "Bamboo shoot & pork slow-cooked in earthen pot with ginger, turmeric & chilli", image: gMuitru },
-  { title: "Mui Borok Shak", emoji: "🥬", color: "#78A860", desc: "Hill-foraged leafy greens sautéed with garlic and berma — wholesome tribal daily green", image: gMuiBorokShak },
   { title: "Matabari Pera", emoji: "🍮", color: "#F4D890", desc: "GI-tagged dairy-based sweet confection — traditional prasad of Tripurasundari temple, Matabari", image: gMatabariPera },
   { title: "Bamboo Shoot Pickle", emoji: "🫙", color: "#C8C870", desc: "Tangy fermented bamboo shoot pickle — iconic condiment sold at every Tripura market", image: gBambooPickle },
 
@@ -736,9 +733,7 @@ const artGallery = [
   { title: "Rignai Pachra (GI-tagged)", emoji: "🥻", color: "#D4709C", desc: "GI-tagged traditional wraparound skirt-cloth of tribal women — vibrant horizontal stripes", image: gRignaiPachra },
 
   // ── TEXTILES & CRAFTS ──────────────────────────────────────────────────
-  { title: "Riha (Traditional Wrap)", emoji: "🧶", color: "#E890B8", desc: "Traditional upper-body cloth worn by Tripuri tribal women — hand-woven with intricate motifs", image: gRiha },
   { title: "Bamboo & Cane Crafts", emoji: "🎋", color: "#A8C870", desc: "Tripura's most iconic craft — 16–18 bamboo species used to weave baskets, mats, lamps, furniture & jewellery", image: gBambooCane },
-  { title: "Tripura Handloom Textiles", emoji: "🪡", color: "#C8A8D8", desc: "Bold vertical & horizontal stripe weaves with embroidery — woven on lion looms in Khowai, Kailashahar & Belonia", image: gHandloom },
   { title: "Traditional Silver Jewellery", emoji: "💍", color: "#E8E8F0", desc: "Intricate tribal silver ornaments — necklaces, earrings & bangles crafted by Tripuri artisans", image: gSilverJewellery },
   { title: "Black Pottery", emoji: "🏺", color: "#484840", desc: "Unique black-glazed pottery fired with special clay — smooth finish; makes pots, bowls, lamps & figurines", image: gBlackPottery },
   { title: "Wood Carving", emoji: "🪵", color: "#B87840", desc: "Intricate sculptures, masks & decorative panels depicting mythological figures — traditional tribal art form", image: gWoodCarving },
@@ -749,12 +744,8 @@ const artGallery = [
   { title: "Hojagiri Dance", emoji: "🏺", color: "#E8B870", desc: "Extraordinary balancing dance of Reang (Bru) women — performed standing atop earthen pitchers", image: gHojagiri },
   { title: "Garia Dance", emoji: "💃", color: "#90C870", desc: "Tripuri harvest dance dedicated to Lord Garia — celebrated during Garia Puja in April", image: gGariaDance },
   { title: "Lebang Dance", emoji: "🦗", color: "#78B858", desc: "Folk dance inspired by insect (lebang bug) hunting — performed with colourful costumes & synchronized steps", image: gLebangDance },
-  { title: "Jhum Dance (Tangbiti)", emoji: "🌾", color: "#C8B860", desc: "Harvest season folk dance of the Tripuri people — celebrates the jhum shifting cultivation cycle", image: gJhumDance },
-  { title: "Mamita Dance", emoji: "🎊", color: "#F0A8C8", desc: "Tripuri dance performed after the first crops are harvested — worship of Ama Mailuma deity", image: gMamitaDance },
   { title: "Bizhu Dance (Chakma)", emoji: "🎉", color: "#F4C860", desc: "Energetic dance of the Chakma tribe performed during Bizhu festival — last day of Chaitra month", image: gBizhuDance },
-  { title: "Mosak Sulmani Dance", emoji: "🕺", color: "#A8D0E8", desc: "Traditional Tripuri folk dance performed at community celebrations and tribal festivals", image: gMosakDance },
-  { title: "Hai-Hak Dance (Halam)", emoji: "🌿", color: "#A8D8A8", desc: "Folk dance of the Halam (Kuki) tribe of Tripura — performed at harvest and community festivals", image: gHaiHak },
-
+ 
   // ── MUSIC & INSTRUMENTS ────────────────────────────────────────────────
   { title: "Chongpreng", emoji: "🎸", color: "#C8A860", desc: "Traditional bamboo string instrument of Tripura — hollow bamboo with attached strings, similar to a guitar", image: gChongpreng },
   { title: "Sumui (Bamboo Flute)", emoji: "🎵", color: "#90B870", desc: "Traditional bamboo flute played by Tripuri tribal communities during festivals and folk performances", image: gSumui },
