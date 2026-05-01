@@ -8,104 +8,84 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import tnMap from "@assets/TN_map_1776628923935.jpg";
-import pongal1 from "@assets/image_1776788355951.png";
-import pongal2 from "@assets/image_1776788364481.png";
-import pongal3 from "@assets/image_1776788370635.png";
-import pongal4 from "@assets/image_1776788376290.png";
-import pongal5 from "@assets/image_1776788390385.png";
-import jalli1 from "@assets/image_1776788400543.png";
-import jalli2 from "@assets/image_1776788406884.png";
-import chith1 from "@assets/image_1776788416217.png";
-import chith2 from "@assets/image_1776788422339.png";
-import puth1 from "@assets/image_1776788430140.png";
-import puth2 from "@assets/image_1776788437438.png";
-import adi1 from "@assets/image_1776788476146.png";
-import adi2 from "@assets/image_1776788482041.png";
-import dance1 from "@assets/image_1776788764847.png";
-import dance2 from "@assets/image_1776788772553.png";
-import navar1 from "@assets/image_1776788788721.png";
-import navar2 from "@assets/image_1776788797545.png";
-import karth1 from "@assets/image_1776788805779.png";
-import karth2 from "@assets/image_1776788811412.png";
-import karth3 from "@assets/image_1776788817244.png";
-import karad1 from "@assets/image_1776788825797.png";
-import karad2 from "@assets/image_1776788831894.png";
-import sixAbodes from "@assets/image_1776788840602.png";
-import thiruparankundram from "@assets/image_1776788847901.png";
-import thiruchendur from "@assets/image_1776788856768.png";
-import palani1 from "@assets/image_1776788865143.png";
-import palani2 from "@assets/image_1776788870905.png";
-import swamimalai from "@assets/image_1776788878018.png";
-import thiruttani from "@assets/image_1776788887081.png";
-import pazhamudir from "@assets/image_1776788895857.png";
-import bhumiLingam from "@assets/image_1776788902350.png";
-import jambuLingam from "@assets/image_1776788909064.png";
-import jyothiLingam from "@assets/image_1776788916164.png";
-import akashaLingam from "@assets/image_1776789530181.png";
-import meenakshi1 from "@assets/image_1776789548589.png";
-import meenakshi2 from "@assets/image_1776789554420.png";
-import meenakshi3 from "@assets/image_1776789558971.png";
-import meenakshi4 from "@assets/image_1776789565292.png";
-import rames1 from "@assets/image_1776789575242.png";
-import rames2 from "@assets/image_1776789580153.png";
-import rames3 from "@assets/image_1776789590790.png";
-import dhanush1 from "@assets/image_1776789610085.png";
-import dhanush2 from "@assets/image_1776789615338.png";
-import pamban1 from "@assets/image_1776789624415.png";
-import pamban2 from "@assets/image_1776789631296.png";
-import pamban3 from "@assets/image_1776789638782.png";
-import chola1 from "@assets/download_1777100508255.png";
-import chola2 from "@assets/download_1777100514323.png";
-import chola3 from "@assets/download_1777100516025.png";
-import velan1 from "@assets/download_1777100518481.png";
-import velan2 from "@assets/download_1777100520664.png";
-import velan3 from "@assets/download_1777100523842.png";
-import velanFest1 from "@assets/image_1777102241686.png";
-import velanFest2 from "@assets/image_1777102257711.png";
-import thiruv1 from "@assets/download_1777100525385.png";
-import thiruv2 from "@assets/download_1777100526870.png";
-import vive1 from "@assets/download_1777100529380.png";
-import vive2 from "@assets/download_1777100531237.png";
-import vive3 from "@assets/download_1777100532535.png";
-import mahab1 from "@assets/download_1777100537305.png";
-import mahab2 from "@assets/download_1777100539158.png";
-import mahab3 from "@assets/download_1777100541720.png";
-import mahab4 from "@assets/download_1777100543112.png";
-import nilgiri1 from "@assets/download_1777100544581.png";
-import nilgiri2 from "@assets/download_1777100547931.png";
-import malai1 from "@assets/download_1777100551195.png";
-import malai2 from "@assets/download_1777100558868.png";
-import sri1 from "@assets/image_1777100897996.png";
-import sri2 from "@assets/image_1777100906255.png";
-import sri3 from "@assets/image_1777100911861.png";
-import gAmbur from "@assets/image_1777100917162.png";
-import gTirunelveliHalva from "@assets/image_1777100921467.png";
-import gDindigul from "@assets/image_1777100927953.png";
-import gMalli from "@assets/image_1777100932602.png";
-import gButterBun from "@assets/image_1777100937948.png";
-import gJigarthanda from "@assets/image_1777100946447.png";
-import gUthukuli from "@assets/image_1777100950953.png";
-import gMuthu from "@assets/image_1777100955650.png";
-import gSalemMango from "@assets/image_1777100960783.png";
-import gErodeTurmeric from "@assets/image_1777100965689.png";
-import gTiruppur from "@assets/image_1777100975810.png";
-import gKanchiSilk from "@assets/image_1777100982364.png";
-import gSungdi from "@assets/image_1777100987731.png";
-import gBharatanatyam from "@assets/image_1777100994118.png";
-import gDosaIdli from "@assets/image_1777101000988.png";
-import gVenPongal from "@assets/image_1777101005896.png";
-import gVadaSambar from "@assets/image_1777101012951.png";
-import gRasam from "@assets/image_1777101457846.png";
-import gPanniyaram from "@assets/image_1777101463186.png";
-import gNeyiAppam from "@assets/image_1777101468204.png";
-import gPoiKaal from "@assets/image_1777101472285.png";
-import gKaragattam from "@assets/image_1777101478099.png";
-import gThanjavur1 from "@assets/image_1777101487729.png";
-import gThanjavur2 from "@assets/image_1777101493885.png";
-import gSilambattam from "@assets/image_1777101502689.png";
-import gThalaiyaati from "@assets/image_1777101507013.png";
-import gFeast from "@assets/image_1777101512605.png";
+import punjabMap from "@assets/TN_map_1776628923935.jpg";
+import lohri1 from "@assets/image_1776788355951.png";
+import lohri2 from "@assets/image_1776788364481.png";
+import lohri3 from "@assets/image_1776788370635.png";
+import lohri4 from "@assets/image_1776788376290.png";
+import baisakhi1 from "@assets/image_1776788390385.png";
+import baisakhi2 from "@assets/image_1776788400543.png";
+import holamoh1 from "@assets/image_1776788406884.png";
+import holamoh2 from "@assets/image_1776788416217.png";
+import holamoh3 from "@assets/image_1776788422339.png";
+import holamoh4 from "@assets/image_1776788430140.png";
+import gurupurab1 from "@assets/image_1776788437438.png";
+import gurupurab2 from "@assets/image_1776788476146.png";
+import gurupurab3 from "@assets/image_1776788482041.png";
+import teej1 from "@assets/image_1776788764847.png";
+import teej2 from "@assets/image_1776788772553.png";
+import teej3 from "@assets/image_1776788788721.png";
+import bandi1 from "@assets/image_1776788797545.png";
+import bandi2 from "@assets/image_1776788805779.png";
+import shaheedi1 from "@assets/image_1776788811412.png";
+import rakhi1 from "@assets/image_1776788817244.png";
+import rakhi2 from "@assets/image_1776788825797.png";
+import maghi1 from "@assets/image_1776788831894.png";
+import maghi2 from "@assets/image_1776788840602.png";
+import karva1 from "@assets/image_1776788847901.png";
+import karva2 from "@assets/image_1776788856768.png";
+import golden1 from "@assets/image_1776788865143.png";
+import golden2 from "@assets/image_1776788870905.png";
+import golden3 from "@assets/image_1776788878018.png";
+import jallian1 from "@assets/image_1776788887081.png";
+import jallian2 from "@assets/image_1776788895857.png";
+import jallian3 from "@assets/image_1776788902350.png";
+import wagah1 from "@assets/image_1776788909064.png";
+import wagah2 from "@assets/image_1776788916164.png";
+import wagah3 from "@assets/image_1776789530181.png";
+import wagah4 from "@assets/image_1776789548589.png";
+import qila1 from "@assets/image_1776789554420.png";
+import qila2 from "@assets/image_1776789558971.png";
+import qila3 from "@assets/image_1776789565292.png";
+import ranjit1 from "@assets/image_1776789575242.png";
+import ranjit2 from "@assets/image_1776789580153.png";
+import ranjit3 from "@assets/image_1776789590790.png";
+import gobindgarh1 from "@assets/image_1776789610085.png";
+import gobindgarh2 from "@assets/image_1776789615338.png";
+import anandpur1 from "@assets/image_1776789624415.png";
+import anandpur2 from "@assets/image_1776789631296.png";
+import partition1 from "@assets/image_1776789638782.png";
+import partition2 from "@assets/download_1777100508255.png";
+import partition3 from "@assets/download_1777100514323.png";
+import guru1 from "@assets/download_1777100516025.png";
+import guru2 from "@assets/download_1777100518481.png";
+import guru3 from "@assets/download_1777100520664.png";
+import durgiana1 from "@assets/download_1777100523842.png";
+import durgiana2 from "@assets/image_1777102241686.png";
+import durgiana3 from "@assets/image_1777102257711.png";
+import akaltakht1 from "@assets/download_1777100525385.png";
+import akaltakht2 from "@assets/download_1777100526870.png";
+import akaltakht3 from "@assets/download_1777100529380.png";
+import jang1 from "@assets/download_1777100531237.png";
+import jang2 from "@assets/download_1777100532535.png";
+import jang3 from "@assets/download_1777100537305.png";
+import gJutti from "@assets/image_1777100917162.png";
+import gBhangra from "@assets/image_1777100921467.png";
+import gPhulkari from "@assets/image_1777100927953.png";
+import gGiddha from "@assets/image_1777100932602.png";
+import gFields1 from "@assets/image_1777100937948.png";
+import gFields2 from "@assets/image_1777100946447.png";
+import gSarson from "@assets/image_1777100950953.png";
+import gKulcha from "@assets/image_1777100955650.png";
+import gLassi from "@assets/image_1777100960783.png";
+import gAlooparatha from "@assets/image_1777100965689.png";
+import gBharwamirch from "@assets/image_1777100975810.png";
+import gButterchicken from "@assets/image_1777100982364.png";
+import gCholebhature from "@assets/image_1777100987731.png";
+import gDalmakhni from "@assets/image_1777100994118.png";
+import gThali from "@assets/image_1777101000988.png";
+import gFishfry from "@assets/image_1777101005896.png";
+import gParandha from "@assets/image_1777101012951.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -830,8 +810,8 @@ const festivals = [
     tagline: "",
     description:
       "Other Important festivals that are celebrated in Punjab are – Krishna Janmashtami, Mahashivratri, Sanjhi, Ram Navami, Dussehra, Diwali.",
-    images: [karva1, karva2],
-    source: "(src: wikipedia)",
+    images: [],
+    source: "",
   },
 ];
 
@@ -841,298 +821,223 @@ const historicalPlaces = [
     description:
       "The Golden Temple / Sri Harmandir Sahib is a Gurdwara located in Amritsar, Punjab. It is the pre-eminent spiritual site of Sikhism and is one of its holiest sites, alongside the Gurdwara Darbar Sahib in Kartarpur and the Gurdwara Janam Asthan in Nankana Sahib, both in Punjab, Pakistan. The sarovar (holy pool) on the site of the gurdwara was completed by the fourth Sikh Guru, Guru Ram Das, in 1577. In 1604, Guru Arjan, the fifth Sikh Guru, placed a copy of the Adi Granth in the Golden Temple and played a prominent role in its development. The gurdwara was repeatedly rebuilt by the Sikhs after they became a target of persecution and was destroyed several times by the Mughal and invading Afghan armies. Maharaja Ranjit Singh, after founding the Sikh Empire, rebuilt it in marble and copper in 1809, and overlaid the sanctum with 24-karat gold leaf in 1830. This has led to the name the Golden Temple. Over 500 kg of gold was used during its 19th-century restoration and subsequent renovations in the 1990s. In 1984, Prime Minister Indira Gandhi sent in the Indian Army as part of Operation Blue Star, leading to the deaths of thousands of soldiers, militants and civilians, as well as causing significant damage to the gurdwara and the destruction of the nearby Akal Takht — the prime seat of authority for the Sikhs. The gurdwara complex was again rebuilt after the 1984 attack. The Golden Temple is an open house of worship for all people, from all walks of life and faiths. It has a square plan with four entrances, and a circumambulation path around the pool. The four entrances of the gurdwara symbolise the Sikh belief in equality and the Sikh view that people from all groups, castes and ethnicities are welcome at their holy place. Harmandir Sahib complex has a langar, a community-run free kitchen and dining hall. It is attached to the east side of the courtyard near the Dukh Bhanjani Ber, outside of the entrance. Food is served here to all visitors who want it, regardless of faith, gender or economic background. Vegetarian food is served and all people eat together as equals. Everyone sits on the floor in rows, which is called sangat. The meal is served by volunteers as part of their kar seva ethos. Over 100,000 meals are served at the langar every day. The gurdwara complex has been nominated as a UNESCO World Heritage Site, and its application is pending on the tentative list of UNESCO.",
     images: [golden1, golden2, golden3],
-    source: "(src: Wikipedia, )",
+    source: "(src: Wikipedia, tripadvisor)",
   },
   {
-    name: "Rameshwaram Temple",
+    name: "Jallianwala Bagh",
     description:
-      "Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the Hindu god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is one of the twelve Jyotirlinga temples. According to tradition, the lingam (an aniconic form of Shiva) of the Ramanathaswamy Temple was established and worshipped by Rama before he crossed the bridge called Rama Setu to the island kingdom of Lanka, identified with Sri Lanka. It is one of the Char Dham pilgrimage sites. In the Yuddha Kanda of the Ramayana, on their journey back to Ayodhya, Rama narrates to Sita the appearance and worship of Shiva in the form of a lingam on the island of Rameswaram before the construction of his bridge to Lanka. He describes the spot to be supremely sacred and capable of expiating major sins. In the Shiva Purana, Rama propitiates Shiva on the shore of Rameswaram in the form of a lingam by the repetition of mantras, meditation, and dancing. Pleased, the deity appeared before Rama and granted his requested boon of victory over Ravana. Rama then requested the deity to remain on the island to sanctify the world and offer his grace to all people. There are sixty-four Tīrthas (holy water bodies) in and around the island of Rameswaram, Tamil Nadu, India. According to Skānda Purāṇa, twenty-four of them are important. Bathing in these Tīrthas is a major aspect of the pilgrimage to Rameswaram and is considered equivalent to penance. Twenty-two of the Tīrthas are within the Rāmanāthasvāmī Temple. The number 22 indicates the 22 arrows in Rama's quiver. is famous for its massive corridor, which features 1,212 intricately carved, symmetrical pillars. These sandstone pillars, standing approximately 30 feet tall, form the world's longest temple corridor. Some reports suggest the overall temple complex may have up to 4,000 pillars in total.",
-    images: [rames1, rames2, rames3],
-    source: "(src: Famous Tamil Nadu Temples, Wikimedia Commons, Intermiles)",
+      "It is a historic garden and memorial of national importance close to the Golden Temple complex in Amritsar, Punjab, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that took place on the site on the festival of Baisakhi Day, 13 April 1919. The 7-acre (28,000 m2) site houses a museum, gallery and several memorial structures. The Bagh was founded by Sardar Himmat Singh Bains, Jagirdar of Alawalpur, Dhogri and other villages in the area, as well as additional villages in Gurdaspur, Multan, Kohat, and Peshawar amounting to an annual income of RS 3,00,000. Jallianwala Bagh Massacare - In 1919, in response to excluding Mahatma Gandhi from visiting Punjab, the secret deportation of Saifuddin Kitchlew and Satyapal on 10 April and the reactions to the Rowlatt Act, Punjab had witnessed attempts of Indians to gather and protest. On the morning of Baisakhi, 13 April 1919, to the sound of military drums by the cities town criers, Punjab Brigadier General R.E.H. Dyer's new rules were proclaimed. He had placed restrictions on leaving the city without a permit, banned all 'processions of any kind' and any congregation of more than four people, and announced around the city that 'any person found in the streets after 8 pm will be shot'. The announcements came at a time of noise and unusual heat, and missed key locations around the city, so that they were not widely disseminated. Dyer was subsequently informed at 12.40 pm that day that a political gathering was to be held at Jallianwala Bagh. By the time Dyer arrived with 90 Sikh, Gurkha, Baloch, Rajput troops from 2-9th Gurkhas, the 54th Sikhs and the 59th Sind Rifles, there was a crowd of 20,000; a mix of speakers, listeners, picnic-makers, men, women and children of all ages, including Hindus, Sikhs, Muslims and Christians. Dyer then ordered his troops to fire at the crowds. Approximately 1,650 rounds were fired and the number, killing and injuring many; the numbers are disputed.",
+    images: [jallian1, jallian2, jallian3],
+    source: "(src: wikipedia)",
   },
   {
-    name: "Dhanushkodi",
+    name: "Wagh Border",
     description:
-      "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres (15 mi) west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath. Although devoid of inhabitants, Dhanushkodi remains a tourist attraction due to its historical and mythological relevance. An estimated 1,800 people died in the cyclonic storm on 22 December 1964 including 115 passengers on board the Pamban-Dhanushkodi passenger train. The entire town was marooned and the Government of Madras declared Dhanushkodi as a ghost town, unfit for living. Around the 40th anniversary of the deadly cyclone, the sea around Dhanushkodi receded about 500 metres (1,600 ft) from the coastline, briefly exposing the submerged part of the town before massive tsunami waves struck the coast on 26 December 2004. The name Dhanushkodi means \"end of the bow\".It is significant for its deep mythological roots to the Ramayana, having served as the site where Lord Rama is believed to have marked the starting point of the Ram Setu bridge to Lanka. It serves as the starting point for the legendary Ram Setu, a 50 km long chain of limestone shoals connecting India's Rameswaram Island to Sri Lanka's Mannar Island.",
-    images: [dhanush1, dhanush2],
-    source: "(src: Kiomoi Travels, Tusk Travels)",
+      "The ceremony at the Attari–Wagah border is a daily ceremony that the security forces of India (Border Security Force) and Pakistan (Pakistan Rangers) have jointly followed since 1959. The drill is characterized by elaborate and rapid dance-like manoeuvres and raising legs as high as possible. It is symbolic of the brotherhood as well as the rivalry that these two nations share. The border troops exchange sweets with the opposing side during the Muslim holidays of Eid and Hindu holiday of Diwali. The flag lowering ceremony at the village of Wagah is held each evening immediately before sunset. The ceremony begins with battle calls from both sides in the form of loud screaming by the border guards. This is followed by a series of organized high kicks, stomps, and dance moves during which the opposing forces stare each other down. The event ends with a handshake of good faith being exchanged by the head guards along with the lowering of the flags. It has been a peaceful gathering with the exception of the 2014 Wagah border suicide attack claimed by three outlawed rival Islamist groups in which 60 people were killed and over 110 people were left injured. It has also been cancelled on occasion such as when Pakistan returned Wing Commander Abhinandan Varthaman back to India after his plane was shot down by the Pakistan Air Force (PAF) during the 2019 India–Pakistan standoff. It was also stalled for several days from 8 May 2025 due to the 2025 Pahalgam terrorist attack which killed 26 civilians.",
+    images: [wagah1, wagah2, wagah3, wagah4],
+    source: "(src: wikipedia)",
   },
   {
-    name: "Pamban Bridge",
+    name: "Qila Mubarak",
     description:
-      "Pamban bridge was a railway bridge that connected the town of Rameswaram on Pamban Island with Mandapam in mainland India. Opened on 24 February 1914, it was India's first sea bridge. The Pamban bridge was the only surface transport link that connected Rameswaram to the mainland India until 1988, when a road bridge was constructed parallel to the railway bridge. In 2020, construction of a new bridge closer to the existing one began which was planned to eventually replace the existing bridge. The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025.",
-    images: [pamban1, pamban2, pamban3],
-    source: "",
+      "Qila Mubarak is a fortress of Sikh architecture in Patiala, Punjab, India. It was the residential palace of the Maharaja of Patiala. Much of the fortress is closed-off to public access, including its Shish Mahal. However, there is public access to the Darbar Hall (now a museum), Sarad Khana, Jalau Khana, and cannon-barrels on-display. Qila Mubarak was first built as a 'Kachigarhi' (Mud fortress) by Sidhu Jat ruler Baba Ala Singh in 1763, who was the founder of the Patiala branch of the Phulkian dynasty. Later, it was reconstructed in baked bricks. It is said that the original fort created in 1763 was an extension built on top of an already existing Mughal fortress built by governor Hussain Khan in Patiala. The interior portion of Qila, which is known as Qila Androon is built by Maharaja Amar Singh. Qila Mubarak was first built as a 'Kachigarhi' (Mud fortress) by Sidhu Jat ruler Baba Ala Singh in 1763, who was the founder of the Patiala branch of the Phulkian dynasty. Later, it was reconstructed in baked bricks. It is said that the original fort created in 1763 was an extension built on top of an already existing Mughal fortress built by governor Hussain Khan in Patiala. The interior portion of Qila, which is known as Qila Androon is built by Maharaja Amar Singh.",
+    images: [qila1, qila2, qila3],
+    source: "(src: wikipedia)",
   },
   {
-    name: "The Great Chola Temples (UNESCO World Heritage Site)",
+    name: "Maharaja Ranjit Singh War Museum",
     description:
-      "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands. The site includes three great 11th- and 12th-century Temples: the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram and the Airavatesvara Temple at Darasuram. The Temple of Gangaikondacholisvaram, built by Rajendra I, was completed in 1035. Its 53-m vimana (sanctum tower) has recessed corners and a graceful upward curving movement, contrasting with the straight and severe tower at Thanjavur. The Airavatesvara temple complex, built by Rajaraja II, at Darasuram features a 24-m vimana and a stone image of Shiva. The temples testify to the brilliant achievements of the Chola in architecture, sculpture, painting and bronze casting.. The Thanjavur temple is also variously known as Thanjai Periya Kovil, the Thanjavur Big Temple or Rajarajeshwaram, temple of the God of Rajaraja. It is one of the largest Hindu temples and an exemplar of Tamil architecture. Rajaraja himself referred to his temple as Dakshina Meru or the southern abode of Lord Shiva. Construction of the temple began in about 1003-1004 CE, and it was consecrated by Rajaraja in 1010 CE. The Chola kingdom was economically prosperous – they not only controlled every important trading port in south India, but they also had a monopoly over production of the gold mines of Kolar, the pearl fisheries in the Gulf of Mannar, the diamond mines that lay between the rivers Krishna and Pennar on the Deccan plateau (the Golconda mines) and the gem production of Ceylon as well. They are recognized as one of the 44 unesco world heritage sites of india because of the following 4 criterias-\n\nCriterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the dravida type of temple.\n\nCriterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.\n\nCriterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilisation in Southern India.\n\nCriterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.",
-    images: [chola1, chola2, chola3],
-    source: "(src: Moneycontrol, Incredible India)",
+      "The largest city in the state of Punjab, Ludhiana boasts of housing one of the most popular places to see in the state – Maharaja Ranjit Singh War Museum. Spreading across four acres in area, this museum came into existence in the year 1999. The Punjab Government constructed the museum as a gesture of tribute to the courageous soldiers who struggled and laid their lives during various wars and battles that have been fought so far. Keeping up the museum with the International standards was the prime focus of the Government of Punjab. A majestic statue of Maharaja Ranjit Singh sitting proudly on a throne welcomes you as you enter the museum. It has 12 galleries with exhibits of different divisions like the Ancient History Gallery, Post Independence History Gallery, War Hero Gallery, Air Force and Navy Gallery etc. The main hall displays pictures of the various Chakra winners, Chief Marshals, Generals and Admirals of Punjab. Two glorious lawns exhibit trophies of the Navy, Army and Air Force. A major attraction of this museum is the light and sound show which narrates the story of war of independence and the role of the gallant soldiers of Punjab in it. The show also creates a sense of nationalism among the people. You can also have a look at the number of battle tanks, Anti-aircraft guns, an old Sukhoi and an INS Vikrant model placed around the museum for the visitors to see. The Government of Punjab has been spending a good amount of money for the maintenance of the Maharaja Ranjit Singh War Museum to immortalize the memories of independence. This conscientious effort definitely calls for a visit to this honorable museum.",
+    images: [ranjit1, ranjit2, ranjit3],
+    source: "(src: wikipedia, Incredible India)",
   },
   {
-    name: "Velankanni Church",
+    name: "Gobindgarh Fort",
     description:
-      "The Basilica of Our Lady of Good Health, also known as Sanctuary of Our Lady of Velankanni, is a Christian shrine located at the town of Velankanni, Tamil Nadu, India. The shrine is dedicated to the Blessed Virgin Mary. The devotion has existed since the mid-sixteenth century, it is attributed to three separate events which occurred at the site: The apparition of the Madonna and Child to a slumbering shepherd boy, the miraculous healing of a handicapped buttermilk vendor and the rescue of Portuguese sailors from a deadly sea storm. The basilica is built in the Gothic style of architecture. The southern side was extended in 1928 and the northern in 1933. The Shrine Basilica contains three chapels, as well as Our Lady's Tank, Church Museum, Priests' Residence, Offering Center, Stations of the Cross, mysteries of the rosary, Shrine Mega Mahal and Velankanni Beach. The building is painted in white, except for the roof that is made of red tiles. For Goan and Konkani people, she is called \"Shantadurga\" (most compassionate one). A major event is the procession, where only women are allowed to pull the first car and a statue of Mary is in the last and most decorated one. People of other religions also take part. The pilgrims sometimes shave their heads as an offering and perform ear-piercing ceremonies, both being Hindu traditions. Another ritual considered sacred is dipping oneself in the pond. There is a holy flag which is lowered to signal the end of the festival.",
-    images: [velan1, velan2, velan3],
+      "Gobindgarh Fort is a historic military fort located in the center of the city of Amritsar in the Indian state of Punjab. The Fort was until recently under the Indian Army, but was opened to the public on 10 February 2017. Today the fort is being developed as a museum and theme park, as a repository of Punjab’s history. Popularly known as the Bhangian da Killa (fort of the Bhangis) after its 18th- century founder belonging to Bhangi Misl of Dhillon Jats rulers. Maharaja Ranjit Singh renamed it in the early 19th-century after the 10th Sikh guru, Guru Gobind Singh. Gobindgarh Fort is located on the south west fringe of Amritsar, in a square pattern, with a perimeter of 1,000 m and made up entirely of bricks and lime. The fort had 25 cannons mounted on its ramparts and it remained with the Bhangi rulers till 1805. From the middle of the 19th century until Indian independence in 1947, it was occupied by the British army who made numerous defensive improvements to the fort to take account of technological advances in weaponry. The fort was originally built by Dhillon Jat Misldar (militia chief) Gujjar Singh Banghi of Bhangi Misl, the local chieftain in the 18th century. Bhangi Misl was conquered and enhanced in the early 19th century by Maharaja Ranjit Singh who renamed it after the 10th Sikh guru, Guru Gobind Singh. It is made of bricks and lime and is laid out in a square. Each of its corners has a parapet and two doors. It had 25 cannons mounted on its ramparts and has four bastions. The main entrance, Nalwa Gate, is named after Hari Singh Nalwa. Keller Gate is the back entrance. A tunnel runs towards Lahore. There were 25 cannons, originally, in the fort. The three bastions connected through a rampart depict positive values in the structure of a common thread. These include the spiritual basis for martial traditions, a multi-cultural ethos, progressive, creative and pragmatic perspective, resistance to tyranny and protection to weak.",
+    images: [gobindgarh1, gobindgarh2],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Thiruvalluvar Statue, Kanyakumari",
+    name: "Anandpur Sahib",
     description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
+      "Anandpur Sahib, also referred simply as Anandpur (lit. 'city of bliss'), is a city on the edge of the Shivalik Hills, in the Rupnagar district (Ropar) of Punjab, India. Located near the Sutlej River, the city is one of the most sacred religious places in Sikhism, being the place where the last two Sikh Gurus, Guru Tegh Bahadur and Guru Gobind Singh, lived. It is also the place where Guru Gobind Singh founded the Khalsa Panth in 1699. The city is home to Takhat Sri Kesgarh Sahib, the third of the five Takhts in Sikhism. The town was founded by the ninth Sikh guru, Guru Tegh Bahadur. The city is a pilgrimage site in Sikhism. It is the venue of the largest annual Sikh gathering and festivities during the Hola Mohalla in the spring season. Anandpur Sahib was founded in June 1665 by the ninth Sikh Guru, Guru Tegh Bahadur. Gurinder Singh Mann states that Guru Tegh Bahadur established Anandpur in 1684. He previously lived in Kiratpur, but given the disputes with Ram Rai – the elder son of Guru Har Rai and other sects of Sikhism, he moved to village in Makhoval. He named it Chakk Nanaki after his mother, and became a prominent Dharamshal (Gurdwara plus self-sufficient village), consisting of tent encampments, vernacular clay/adobe straw-thatched round hutments (Bunga) and small orchards and gardens in between the heavily forested hilly area and besides a stream and waterfall, (located in the area currently marked by Gurdwara Bhora Sahib). In 1675, Guru Tegh Bahadur was tortured and beheaded for refusing to convert to Islam under the orders of the Mughal Emperor Aurangzeb, a martyrdom that led Sikhs to rename the town to Anandpur and crown his son Gobind Das as per his orders (also known as Gobind Rai) as his successor and famous as Guru Gobind Singh. On the Vaisakhi day of 1699, the Guru sent out invitations across the land to distant and nearby Sikh congregations to convene at Anandpur for the upcoming festival. It was normal for the Guru to celebrate Vaisakhi at Anandpur with Sikh congregations annually but this time much more importance was placed on attendance than usual and more stringently. Guru Gobind Singh founded the Khalsa Panth in Anandpur on the day of the 1699 Vaisakhi festival after an elaborate ceremony and gathered a large armed militia.",
+    images: [anandpur1, anandpur2],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Vivekananda Rock Memorial",
+    name: "Partition Museum",
     description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
-    images: [vive1, vive2, vive3],
+      "The Partition Museum is a public museum located in the town hall of Amritsar, Punjab, India. The museum aims to become the central repository of stories, materials, and documents related to the post-partition riots that followed the division of British India into two independent dominions: India and Pakistan. The museum also focuses on the history of the “anti-colonial movement, the Jallianwala Bagh massacre, the Komagata Maru incident, the All India Muslim League and the Indian National Congress, and the journey of resilience and recuperation for women”. The building wherein the museum is located in Amritsar was also “once the British headquarters and a jail”. The museum was inaugurated on 25 August 2017. In 1947, British India was divided into India and Pakistan. The partition lines, drawn on a map by the British lawyer Cyril Radcliffe, divided the province of Punjab and Bengal into two parts on the basis of religion. As a result, millions of people found themselves on the wrong side of the border overnight. According to various estimates, more than 800,000 Muslims, Hindus, and Sikhs were killed in the riots that followed the partition between August 1947 to January 1948. Additionally, more than 1,400,000 people became refugees. The Government of Punjab founded this museum with The Arts and Cultural Heritage Trust of the United Kingdom as a way to memorialize those who were affected by the partition. Therefore, the museum documents the catastrophic history of migration, loss of life and livelihood through testimonies of the first-generation partition survivors and their lived experiences. Based on extensive oral testimonies from individuals who witnessed the partition, the experiences of their family members, and material memories (the various objects that individuals managed to migrate with - be it jewelleries, clothes, or cooking utensils), the museum provides a platform for the younger generations to know the aftermath of what has been dubbed as one of the cataclysmic events in the recent history of the Indian subcontinent.",
+    images: [partition1, partition2, partition3],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
+    name: "Guru ke Mahal",
     description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
+      "Nestled in the heart of Amritsar, just a short distance from the iconic Golden Temple lies Gurudwara Guru Ka Mahal – a treasure trove of Sikh history and spiritual significance. Step inside this revered shrine and embark on a journey through the lives of the Gurus. Built in 1573 AD by Guru Ram Das Ji, the fourth Sikh Guru, Gurudwara Guru Ka Mahal, was originally a humble dwelling. This historic site served not only as the residence of Guru Ram Das Ji, the founder of Amritsar but also witnessed several pivotal moments in Sikh history. Here, Guru Arjan Dev Ji, the fifth Guru, was married and later appointed as the spiritual leader. This very place also holds the distinction of being the birthplace of Baba Atal Rai and Guru Tegh Bahadur Ji, the ninth Guru. Over time, the residence was expanded and transformed into the revered Gurudwara we see today, a testament to the enduring legacy of the Gurus. More than just a historical site, Gurudwara Guru Ka Mahal is a vibrant hub of faith and community. Observe the daily rituals, or join in the special divan (religious gatherings) and langar (community kitchen) held on the first Sunday of every Bikrami month. The gurudwara also commemorates the birth anniversary of Guru Tegh Bahadur Ji with great enthusiasm on Baisakhi, a lively harvest festival. These community activities make the gurudwara a place of shared faith and celebration, fostering a sense of belonging and unity.",
+    images: [guru1, guru2, guru3],
+    source: "(src: Wikipedia, NDTV)",
   },
   {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
+    name: "Shri Durgiana Temple",
     description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
-    source: "",
+      "Durgiana Temple or Shri Durgiana Mandir is a Hindu temple situated in the city of Amritsar in Punjab, India. Though a Hindu temple, its architecture is similar to the Sikh Harmandir Sahib (Golden Temple). The temple derives its name from the Goddess Durga, the chief Goddess who is worshipped here. Murtis of Lakshmi and Vishnu are also located and worshipped in the temple. Although it is believed that Durgiana Mandir was built in 1921, the temple existed before it was rebuilt in 1921. It is confirmed by record in Amritsar District Gazetteer of 1893, which spoke about the Durgiana Sarovar and "Devi dwara" surrounding it which was visited by Hindu pilgrims. The architecture of Sri Durgiana Temple is similar to Shri Harmandir Sahib. It was built in 1921 by Guru Harsai Mal Kapoor in the architectural style of the Sikh Shri Harmandir Sahib (Golden Temple). Harsai Mal was a descendant of Prithi Chand and hence Guru Ram Das. The grandchildren of Harsai Mal Kapoor is currently living in amritsar and one of caretakers of the idol of Harsai mal Kapoor. The temple is built in the middle of a sacred lake, which measures 160 metres (520 ft) × 130 metres (430 ft). Its dome and canopies are similar to that of the Golden temple of Sikh religion, also located in Amritsar. A bridge provides the approach to the temple. The dome of the temple is gilded. Marble is used extensively in the temple's features. The dome is illuminated with colourful lights. The temple is sometimes called Silver temple because of its large exquisitely designed silver doors. It has a rich collection of Hindu scriptures. The temple complex also has some historic subsidiary temples such as Seetla Mata and Bara Hanuman.",
+    images: [durgiana1, durgiana2, durgiana3],
+    source: "(src: wikipedia, shri durgiana tirth(amitsar))",
   },
   {
-    name: "Trichy Malaikottai (Rockfort)",
+    name: "Sri Akal Takht Sahib",
     description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
+      "Akal Takht means ‘Throne of the Timeless’, also historically known as ‘Akal Bunga’, is the most prominent of the five takhts (seats of authority) of the Sikhs. Located within the Darbar Sahib (Golden Temple) complex in Amritsar, Punjab, India, it was established by Guru Hargobind in 1606 as a place to uphold justice and address temporal matters. The Akal Takht represents the highest seat of earthly authority for the Khalsa, the collective body of initiated Sikhs and serves as the official seat of the jathedar, the supreme spokesperson and head of the Sikhs worldwide. The position of the jathedar is currently disputed between two factions. The Shiromani Gurdwara Parbandhak Committee (SGPC) appointed Giani Kuldip Singh Gargaj as the acting jathedar in 2025. However, the Sarbat Khalsa, organised by several Sikh organisations in 2015, had earlier declared Jagtar Singh Hawara as the jathedar. Originally known as the Akal Bunga,[7] the building directly opposite the Harmandir Sahib was founded by the sixth Sikh Guru, Guru Hargobind, as a symbol of political sovereignty, and where the spiritual and temporal concerns of the Sikh people could be addressed. Along with Baba Buddha and Bhai Gurdas, the sixth Sikh Guru built a 9-foot-high concrete slab. When Guru Hargobind revealed the platform on 15 June 1606, he put on two swords: one indicated his spiritual authority (piri) and the other, his temporal authority (miri). According to Kanwarjit Singh Kang, the platform raised by Guru Hargobind was built in 1609, a later dating.",
+    images: [akaltakht1, akaltakht2, akaltakht3],
+    source: "(src: wikipedia)",
   },
   {
-    name: "Srirangam Ranganathaswamy Temple",
+    name: "Jang-e-aazadi memorial",
     description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+      "Jang-e-Azadi Memorial (lit. 'Battle for Freedom Memorial') is a memorial and museum in Kartarpur town (near the city of Jalandhar) in Jalandhar district of Punjab, India, in memory of contribution and sacrifices made by the Punjabi community in Indian independence movement. The memorial was built over an area of 25 acres at the cost of ₹300 crore. Punjab chief minister Parkash Singh Badal laid the foundation stone of the Jang-e-Azadi memorial on 19 October 2014, and actual work started on 26 March 2015. A committee of historians, journalists and intellectuals was constituted to finalize the action plan and concept of the memorial to be built up.",
+    images: [jang1, jang2, jang3],
+    source: "(src: Wikipedia)",
   },
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "It is the 19th-largest Indian state by area out of 28 Indian states.",
+  "Punjab is the 16th-largest Indian state by population, comprising 23 districts.",
+  "At present, the economy of Punjab is the 15th-largest state economy in India with ₹8.02 trillion (US$95 billion) in gross domestic product and a per capita GDP of ₹264,000 (US$3,100), ranking 17th among Indian states.",
+  "It is the ninth-highest ranking among Indian states in human development index.",
+  "Punjabi is the native and sole official language of Punjab and, as of the 2011 census, was spoken as a first language by 24.9 million people, or roughly 90% of the state's population.[2] Hindi is spoken by 2.18 million, or 7.9% of the population, Bagri has 234,000 speakers (or 0.8%), while the remaining 413,000 (or 1.5%) spoke other languages.",
+  "The largest cultivated crop is wheat. Other important crops are rice, cotton, sugarcane, pearl millet, maize, barley and fruit.",
+  "Punjab makes up for about 15–20% of India's wheat production, around 12% of its rice production, and around 5% of its milk production, being known as India's breadbasket.",
+  "The state has been awarded the National Productivity Award for agriculture extension services for ten years, from 1991 to 1992 to 1998–99 and from 2001 to 2003–04.",
+  "The city of Amritsar is home to the craft of brass and copper metalwork done by the Thatheras of Jandiala Guru, which is enlisted on the UNESCO's List of Intangible Cultural Heritage.",
+  "Punjab, known as the 'Land of Five Rivers' (Sutlej, Beas, Ravi, Chenab, and Jhelum).",
+  "Chandigarh is the joint capital of Punjab and Haryana.",
+  "Kapurthala is known for its historic, European-style architecture, often referred to as the 'Paris of Punjab'.",
+  "The city of Ludhiana is a major hub for the bicycle industry and is often called the 'Manchester of India'.",
+  "The Harike Wetland is a significant Ramsar site, providing a home to many bird species, including the endangered Siberian crane.",
+  "In the Rig-Veda, Punjab was referred to as Sapta Sindhu (Land of Seven Rivers).",
 ];
 
 const artGallery = [
   {
-    title: "Ambur Biriyani",
+    title: "Jutti",
     emoji: "🍛",
     color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
+    desc: "Traditional Footwear",
+    image: gJutti,
   },
   {
-    title: "Tirunelveli Halva",
+    title: "Bhangra",
     emoji: "🍮",
     color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
+    desc: "Folk Dance",
+    image: gBhangra,
   },
   {
-    title: "Dindigul Talapakatti Biriyani",
+    title: "Phulkari Dupatta",
     emoji: "🍚",
     color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
+    desc: "Traditional wear",
+    image: gPhulkari,
   },
   {
-    title: "Madurai Malli",
+    title: "Giddha Dance",
     emoji: "🌸",
     color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
+    desc: "A Folk dance",
+    image: gGiddha,
   },
   {
-    title: "Madurai Butter Bun",
+    title: "Fields of Punjab",
     emoji: "🥐",
     color: "#F4E884",
-    desc: "Iconic local bun with butter",
-    image: gButterBun,
+    desc: "",
+    image: gFields1,
   },
   {
-    title: "Madurai Jigurthanda",
+    title: "Fields of Punjab",
     emoji: "🍨",
     color: "#E8C8E8",
     desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
+    image: gFields2,
   },
   {
-    title: "Uthukuli Venne (Butter)",
+    title: "Sarson da saag, Makki di roti",
     emoji: "🧈",
     color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
+    desc: "A traditional Punjabi dish featuring spiced mustard greens (saag) and flatbread made from maize flour (roti)",
+    image: gSarson,
   },
   {
-    title: "Thoothukoodi Muthu (Pearl)",
+    title: "Amritsari Kulcha",
     emoji: "🔮",
     color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
+    desc: "It is crisp as well as soft leavened bread which is stuffed with boiled and mashed potatoes and spices",
+    image: gKulcha,
   },
   {
-    title: "Salem Mango (Malgova)",
+    title: "Amritsari lassi",
     emoji: "🥭",
     color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
+    desc: "It is a thick, creamy, and refreshing yogurt-based drink from Punjab, served chilled, often garnished with saffron and chopped nuts",
+    image: gLassi,
   },
   {
-    title: "Erode Turmeric",
+    title: "Aloo Paratha",
     emoji: "🌿",
     color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
+    desc: "",
+    image: gAlooparatha,
   },
   {
-    title: "Tiruppur Garments",
+    title: "Bharwa Shimla Mirch",
     emoji: "👕",
     color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
+    desc: "Consists of whole green bell peppers (capsicums) stuffed with a savory, spiced filling—commonly mashed potatoes (aloo), paneer, or minced meat—and then pan-fried or roasted until tender",
+    image: gBharwamirch,
   },
   {
-    title: "Kanchipuram Silk Sarees",
+    title: "Butter Chicken",
     emoji: "🥻",
     color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
+    desc: "",
+    image: gButterchicken,
   },
   {
-    title: "Madurai Sungdi Sarees",
+    title: "Chole Bhature",
     emoji: "🧣",
     color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
+    desc: "",
+    image: gCholebhature,
   },
   {
-    title: "Bharatanatyam",
+    title: "Dal Makhni",
     emoji: "💃",
     color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
+    desc: "Modern variation of traditional lentil dishes, it is made with urad dal (black beans) and other pulses, and includes butter and cream (makhani is a Punjabi word for butter",
+    image: gDalmakhni,
   },
   {
-    title: "Dosa & Idli",
+    title: "Punjabi Thali",
     emoji: "🥞",
     color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
+    desc: "",
+    image: gThali,
   },
   {
-    title: "Ven Pongal",
+    title: "Amritsari Fish Fry",
     emoji: "🍲",
     color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
+    desc: "",
+    image: gFishfry,
   },
   {
-    title: "Vada Sambar",
+    title: "Parandha",
     emoji: "🥣",
     color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
-    color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
-  },
-  {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
-  },
-  {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
-  },
-  {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
-  },
-  {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    desc: "It is a traditional hair accessory from Punjab—often made of silk threads, beads, and tassels—that is braided into the end of a long plait to add length, volume, and decoration. It acts as a colorful, decorative hair extension worn during weddings, festivals, and folk dances",
+    image: gParandha,
   },
 ];
