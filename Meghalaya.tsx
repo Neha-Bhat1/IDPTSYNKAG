@@ -8,20 +8,20 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import MeghalayaMap from "@assets/TN_map_1776628923935.jpg";
-import pongal1 from "@assets/image_1776788355951.png";
-import pongal2 from "@assets/image_1776788364481.png";
-import pongal3 from "@assets/image_1776788370635.png";
-import pongal4 from "@assets/image_1776788376290.png";
-import pongal5 from "@assets/image_1776788390385.png";
-import jalli1 from "@assets/image_1776788400543.png";
-import jalli2 from "@assets/image_1776788406884.png";
-import chith1 from "@assets/image_1776788416217.png";
-import chith2 from "@assets/image_1776788422339.png";
-import puth1 from "@assets/image_1776788430140.png";
-import puth2 from "@assets/image_1776788437438.png";
-import adi1 from "@assets/image_1776788476146.png";
-import adi2 from "@assets/image_1776788482041.png";
+import MeghalayaMap from "https://i.postimg.cc/rmNsMn4z/image.png";
+import WangalaFestival1 from "https://i.postimg.cc/pr7HHzsf/image.png";
+import WangalaFestival2 from "https://i.postimg.cc/gkZ9hwSb/image.png";
+import WangalaFestival3 from "https://i.postimg.cc/cHbjgZfL/image.png";
+import ShadSukMynsiem1 from "https://i.postimg.cc/6QhW2HWr/image.png";
+import ShadSukMynsiem2 from "https://i.postimg.cc/2SRrHpVR/image.png";
+import ShillongWinterFestival1 from "https://i.postimg.cc/pV3mt6pX/image.png";
+import StrawberryFestival from "https://i.postimg.cc/qRzvPsrS/image.png";
+import DurgaPuja1 from "https://i.postimg.cc/g2scrSkC/image.png";
+import DurgaPuja2 from "https://i.postimg.cc/FsgNnWcs/image.png";
+import Behdeinkhlam1 from "https://i.postimg.cc/CKZyYmZM/image.png";
+import Behdeinkhlam2 from "https://i.postimg.cc/LXzb672c/image.png";
+import Behdeinkhlam3 from "https://i.postimg.cc/9FXnCJK2/image.png";
+import LahoDanceFestival from "https://i.postimg.cc/q7KmjYh5/image.png";
 import dance1 from "@assets/image_1776788764847.png";
 import dance2 from "@assets/image_1776788772553.png";
 import navar1 from "@assets/image_1776788788721.png";
@@ -843,267 +843,208 @@ const historicalPlaces = [
   {
     name: "Kiang Nongbah Monument (Jowai)",
     description:
-      "The Kiang Nangbah Monument in Jowai, Meghalaya, stands as a profound tribute to U Kiang Nangbah, a legendary Jaintia freedom fighter who led an armed rebellion against British colonial expansion in the 19th century. Located in the picturesque West Jaintia Hills district, the monument is situated on the banks of the Myntdu River in a serene area known as Syntu Ksiar.
-The structure itself is an elegant, hollow tower-like monument designed with traditional Jaintia architectural aesthetics. It serves as a symbolic reminder of Nangbah’s courage and his ultimate sacrifice; he was hanged by the British on December 30, 1862. According to local lore, his last words prophesied that if his head turned toward the east when he died, his country would eventually regain its freedom. Today, the memorial is a major historical landmark, drawing visitors who wish to honor the martyr’s legacy amidst the tranquil natural beauty of the Jaintia Hills.
+      "The Kiang Nangbah Monument in Jowai, Meghalaya, stands as a profound tribute to U Kiang Nangbah, a legendary Jaintia freedom fighter who led an armed rebellion against British colonial expansion in the 19th century. Located in the picturesque West Jaintia Hills district, the monument is situated on the banks of the Myntdu River in a serene area known as Syntu Ksiar.The structure itself is an elegant, hollow tower-like monument designed with traditional Jaintia architectural aesthetics. It serves as a symbolic reminder of Nangbah’s courage and his ultimate sacrifice; he was hanged by the British on December 30, 1862. According to local lore, his last words prophesied that if his head turned toward the east when he died, his country would eventually regain its freedom. Today, the memorial is a major historical landmark, drawing visitors who wish to honor the martyr’s legacy amidst the tranquil natural beauty of the Jaintia Hills.
 ",
-    images: [velan1, velan2, velan3],
-    source: "(src: Wikipedia)",
+    images: [Kiang1,Kiang2,Kiang3,Kiang4],
+    source: "(src:team-bhp.com,facebook.com,seawatersports.com,solitarytraveller.com)",
   },
   {
-    name: "Thiruvalluvar Statue, Kanyakumari",
+    name: "U Tirot Sing Memorial (Mairang)",
     description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
-    source: "(src: Wikipedia)",
+      "The U Tirot Sing Memorial serves as a profound tribute to one of India’s most valiant freedom fighters, U Tirot Sing Syiem, a Khasi chief who led a fierce resistance against British colonial expansion in the early 19th century. While his legacy is deeply rooted in the soil of Meghalaya, his memorial presence has expanded significantly in recent years, symbolizing a bridge of shared history between India and Bangladesh. A major landmark is the memorial located at the Indira Gandhi Cultural Centre (IGCC) in Dhaka, inaugurated in February 2024. This site features a prominent bust of the 'Hero of the Khasi Hills,' commemorating the location where he breathed his last in 1835 after years of imprisonment.Back in his homeland, the Madan Mot Tirot in Mairang, Meghalaya, stands as a central site of pilgrimage and pride. Its foundation stone was laid in 1952, and it continues to host annual floral tributes and state ceremonies every July 17th to mark his death anniversary. Newer additions to his honors include a 25-foot tall statue unveiled in Laitarted in 2025, emphasizing his enduring stature in the collective memory of the Northeast. These monuments do more than just mark a spot; they celebrate Tirot Sing’s refusal to submit to foreign rule, ensuring that his sacrifice for tribal sovereignty and national dignity inspires future generations.
+",
+    images: [Memorial],
+    source: "(src:highlandpost.com)",
   },
   {
-    name: "Vivekananda Rock Memorial",
+    name: "Pa Togan Sangma Memorial",
     description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
-    images: [vive1, vive2, vive3],
-    source: "(src: Wikipedia)",
+      "Pa Togan Nengminza Sangma stands as one of the most revered figures in the history of Northeast India, embodying the fierce spirit of resistance against colonial subjugation. A legendary military leader of the Garo (A·chik) people, he is primarily remembered for his valiant role in the Battle of Matcha Rongkrek in 1872. During this period, the British Empire sought to expand its administrative grip over the Garo Hills, met by the staunch defiance of tribal leaders who viewed the foreign intrusion as a direct threat to their sovereignty, customary laws, and ancestral lands. Pa Togan, characterized by his imposing physical stature and tactical brilliance, rose to the occasion, organizing local warriors to defend their territory with traditional weaponry against an adversary equipped with superior modern firearms.The defining moment of his legacy occurred in the early hours of December 12, 1872. While the British troops were encamped at Chisobibra, near the banks of the Simsang River, Pa Togan led a daring surprise attack. Legend tells of his incredible bravery and the psychological warfare he employed; it is said that he and his men used large wooden shields (Danil) to deflect the initial volleys of British fire, believing they could withstand the bullets. Despite the sheer disparity in technology, the Garo warriors fought with unmatched ferocity. However, the advanced weaponry of the British eventually took its toll. Pa Togan Sangma fell on the battlefield that day, attaining martyrdom alongside many of his brave companions. His sacrifice marked a pivotal chapter in the resistance movement, signaling that the Garo people would rather perish than live under the yoke of foreign rule.Today, the Pa Togan Sangma Memorial at Chisobibra serves as a solemn site of pilgrimage and pride for the people of Meghalaya. A towering statue commemorates his heroism, overlooking the lands he fought to protect. The Government of Meghalaya observes December 12th as a state-wide tribute to his memory, ensuring that his story is passed down through generations. Beyond his military exploits, Pa Togan is celebrated as a symbol of cultural identity and land rights, reminding the world of the indigenous struggle for self-governance. His life remains a testament to the fact that the spirit of freedom cannot be extinguished by force, making him an eternal icon of the Indian freedom struggle in the Northeast.",
+    images: [Sangma1,Sangma2],
+    source: "(src:syllad.com,hubnetwork.in)",
   },
   {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
+    name: "Nartiang Durga Temple",
     description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
+      "The Nartiang Durga Temple, located in the West Jaintia Hills of Meghalaya, is a 600-year-old structure revered as one of the 51 Shakta Pithas. It is believed to be the site where Goddess Sati’s left thigh fell, earning her the local name Jainteshwari. Historically, the temple served as a spiritual hub for the Jaintia Kings, particularly after King Jaso Manik embraced Shaktism under the influence of his wife, Lakshmi Narayana.What makes this temple truly distinct is its fusion of Hinduism and Khasi-Jaintia traditions. In accordance with local customs that avoid figurine images, Goddess Durga is represented by a banana trunk adorned with marigolds. During the annual Durga Puja, the most significant festival here, the rituals culminate in the ceremonial immersion of this plant in the Myntdu River. Nearby, an ancient Shiva temple houses historic cannons, further highlighting the site's royal heritage. Today, the temple remains a vital pilgrimage site, managed by the Central Puja Committee and recognized for its cultural and historical significance.",
+    images: [Temple1,Temple2],
+    source: "(src: Wikipedia,alightindia.com)",
   },
   {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
+    name: "Thadlaskein Lake",
     description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
-    source: "",
+      "Thadlaskein Lake, also known as Pung Sajar Nangli, is a significant man-made historical landmark situated in the West Jaintia Hills of Meghalaya, India. Located conveniently along National Highway 6 near the village of Mukhla, the lake serves as a serene retreat for travelers and locals alike. Its origin is steeped in fascinating local folklore, attributed to a medieval chieftain named Sajar Nangli. Legend tells that Nangli and his loyal followers dug the lake using the ends of their bows to commemorate their departure from the Kingdom of Jaintiapur, creating a lasting legacy in the landscape. Today, the lake is a popular picnic spot characterized by its calm, emerald waters and the surrounding lush greenery of pine groves. It is revered by the local community as a sacred site, embodying the rich cultural heritage and oral traditions of the Jaintia people while providing a peaceful natural escape.",
+    images: [Lake1,Lake2],
+    source: " Wikipedia,trawell.com",
   },
   {
-    name: "Trichy Malaikottai (Rockfort)",
+    name: "All Saints' Cathedral (Shillong)",
     description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
+      "All Saints' Cathedral stands as a serene testament to colonial-era architecture and spiritual heritage in the heart of Meghalaya. Located near Barik Point and opposite the State Central Library, it is widely recognized as the oldest church in Shillong. The original structure, dating back to the British Raj, was unfortunately destroyed during the devastating earthquake of 1897. However, it was meticulously rebuilt in 1902, adopting a distinct wooden-framed style specifically designed to withstand the seismic activity of the region.The cathedral's aesthetic is characterized by its elegant timber-heavy design and classic colonial finesse, featuring beautiful stained-glass windows that filter soft light into its tranquil interior. Surrounded by towering pine trees and well-manicured gardens, the church offers a peaceful escape from the bustling atmosphere of the nearby Police Bazaar. As a prominent Anglican place of worship under the Church of North India, it remains a vital center for the local community, especially during its vibrant Sunday masses. Its historical significance and picturesque charm make it a must-visit landmark for those exploring the cultural landscape of Northeast India.",
+    images: [Cathedral1,Cathedral2,Cathedral3],
+    source: "(src: incredibleindia.gov.in,kiomoi.com,makemytip.com)",
   },
   {
-    name: "Srirangam Ranganathaswamy Temple",
+    name: "Don Bosco Museum (Shillong)",
     description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+      "The Don Bosco Centre for Indigenous Cultures in Shillong, Meghalaya, stands as a premier architectural and cultural landmark dedicated to the preservation of North East India's rich heritage. Often referred to as the Don Bosco Museum, this seven-story hexagonal structure features seventeen specialized galleries that provide an immersive journey through the diverse traditions, languages, and lifestyles of the region’s indigenous tribes. Visitors can explore a vast collection of artifacts, including traditional attire, weaponry, musical instruments, and rare photographs, all meticulously curated to highlight the unique identity of the 'Seven Sister States' and neighboring regions. Beyond its ethnographic displays, the museum serves as a vibrant research hub through the North Eastern Institute for Research in Anthropology. One of its most captivating features is the Skywalk at the summit, offering a breathtaking panoramic view of Shillong’s verdant landscape. Open Monday through Saturday, the museum is widely regarded as a 'mirror of the North East,'bridging the gap between ancient tribal history and modern scholarship, making it an essential destination for students, historians, and tourists seeking to understand India’s cultural mosaic.",
+    images: [Don1,Don2,Don3],
+    source: "(src: dbcic.com,alamy.com,hoidify.com)",
   },
+  {
+    name:"Ward’s Lake (Shillong)",
+    description:  "Ward's Lake, an iconic landmark nestled in the heart of Shillong, Meghalaya, is a mesmerizing artificial water body that serves as a tranquil escape for locals and tourists alike. Locally known as Nan Polok or Pollock Lake, it was established in 1894 by Sir William Ward and designed by Fitzwilliam Thomas Pollok. The lake is uniquely horse-shoe-shaped and is famously centered around a charming, white-painted wooden bridge that offers panoramic views of the shimmering water and the lush greenery surrounding it. A meticulously maintained botanical garden encircles the lake, featuring a vibrant collection of orchids and diverse floral species, all accessible via winding cobblestone footpaths. Visitors can enjoy leisurely boating on the calm waters, watch the graceful swans and ducks, or relax at the lakeside cafeteria. Often praised for its serene atmosphere, the site is especially breathtaking during the autumn months when cherry blossoms paint the landscape in soft pink hues. Whether for a peaceful morning walk or a romantic evening stroll, the lake remains a quintessential part of the Shillong experience.",
+    images:[ward1,ward2,ward3],
+    src:" Wikipedia,kajaawa.com,trawell.com,
+  },  
 ];
 
-const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+const facts = [ 
+"A Matrilineal Society: Unlike most of India, the dominant tribes (Khasi, Garo, and Jaintia) follow a matrilineal system. Lineage and inheritance are traced through women, and the youngest daughter typically inherits the family wealth and cares for the parents." 
+"Living Root Bridges: Meghalaya is world-famous for its 'Living Root Bridges.' These are handmade from the aerial roots of Ficus elastica trees by the Khasi and Jaintia people. They can take decades to 'grow'but last for centuries." 
+"Cleanest Village in Asia: Mawlynnong, a small village in the East Khasi Hills, was awarded the title of the cleanest village in Asia. It is a model for community-based eco-tourism and sanitation." 
+"The Scotland of the East: During British rule, the capital city Shillong was nicknamed the 'Scotland of the East' because the rolling hills reminded European settlers of the Scottish Highlands." 
+"India’s Highest Plunge Waterfall: Nohkalikai Falls, located near Cherrapunji, is the tallest plunge waterfall in India, dropping from a height of approximately 340 meters (1,115 feet)." 
+"The Cave Capital: Meghalaya has over 1,500 caves, including the longest (Krem Liat Prah) and the deepest in the Indian subcontinent. Many of these are still being explored by international cavers."
+"Whistling Village: In the village of Kongthong, mothers compose a unique tune (a 'musical name') for each child. This tradition is known as Jingrwai Iawbei, and villagers communicate across hills using these whistles." 
+"Giant Monoliths: The town of Nartiang houses a collection of ancient monoliths (giant upright stones) erected by Jaintia kings centuries ago to mark their victories and important events." 
+"Crystal Clear Rivers: The Umngot River in Dawki is so clear during the winter months that boats floating on it often look like they are hovering in mid-air." 
+"The 'Meghalayan Age': Geologists recently named a specific stage in Earth's history the 'Meghalayan Age' (starting 4,200 years ago) based on stalagmite samples found in Mawmluh Cave."
+"Asia's Largest River Island (Shared History): While Majuli is in Assam, the Garo hills share deep historical and ecological ties with the Brahmaputra basin, contributing significantly to the region's riverine culture."
+"High Literacy Rates: Meghalaya has a consistently high literacy rate (around 75%), with a significant focus on English-medium education, making its workforce highly skilled in service sectors." 
+"Organic Powerhouse: The state is a major producer of Lakadong Turmeric, which is world-renowned for having the highest curcumin content, making it a valuable export for India’s spice market."
+"Mineral Resources: Meghalaya is rich in limestone and coal. It supplies a massive portion of the limestone used by cement industries across Eastern and North-Eastern India." 
+"Power Generation: With its numerous rivers and high rainfall, the state has immense hydroelectric potential, contributing to the power grid of the North-Eastern region."
+"Agricultural Quality: Meghalaya contributes high-value organic produce like Lakadong turmeric, ginger, and pineapples to India’s agricultural exports"
+"Laitlum Canyons: Often called the 'End of the Hills,' offering breathtaking views of deep gorges and valleys." 
+"Umiam Lake: A massive, picturesque man-made reservoir often compared to the lakes of Switzerland." 
+"Elephant Falls: A three-step waterfall in Shillong that is easily accessible and stunning."
+"Krang Suri Falls: Known for its magical turquoise blue water, located in the Jaintia Hills." 
+
 ];
 
 const artGallery = [
   {
-    title: "Ambur Biriyani",
-    emoji: "🍛",
-    color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
-  },
+   const artGallery = [
   {
-    title: "Tirunelveli Halva",
-    emoji: "🍮",
-    color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
-  },
-  {
-    title: "Dindigul Talapakatti Biriyani",
-    emoji: "🍚",
-    color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
-  },
-  {
-    title: "Madurai Malli",
-    emoji: "🌸",
-    color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
-  },
-  {
-    title: "Madurai Butter Bun",
-    emoji: "🥐",
-    color: "#F4E884",
-    desc: "Iconic local bun with butter",
-    image: gButterBun,
-  },
-  {
-    title: "Madurai Jigurthanda",
-    emoji: "🍨",
-    color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
-  },
-  {
-    title: "Uthukuli Venne (Butter)",
-    emoji: "🧈",
-    color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
-  },
-  {
-    title: "Thoothukoodi Muthu (Pearl)",
-    emoji: "🔮",
-    color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
-  },
-  {
-    title: "Salem Mango (Malgova)",
-    emoji: "🥭",
-    color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
-  },
-  {
-    title: "Erode Turmeric",
+    title: "Lakadong Turmeric",
     emoji: "🌿",
-    color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
+    color: "#F4C430",
+    desc: "GI-tagged turmeric from Jaintia Hills — highest curcumin content in the world",
+    image: gLakadongTurmeric,
   },
   {
-    title: "Tiruppur Garments",
-    emoji: "👕",
-    color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
-  },
-  {
-    title: "Kanchipuram Silk Sarees",
-    emoji: "🥻",
-    color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
-  },
-  {
-    title: "Madurai Sungdi Sarees",
-    emoji: "🧣",
-    color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
-  },
-  {
-    title: "Bharatanatyam",
-    emoji: "💃",
-    color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
-  },
-  {
-    title: "Dosa & Idli",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
-  },
-  {
-    title: "Ven Pongal",
-    emoji: "🍲",
-    color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
-  },
-  {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
-    color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
-  },
-  {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
-  },
-  {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
+    title: "Larnai Pottery",
     emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
+    color: "#3A2A1A",
+    desc: "GI-tagged black clay pottery from Larnai, made with serpentine stone — ancient craft",
+    image: gLarnaiPottery,
   },
   {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
+    title: "Garo Dakmanda (Textile)",
+    emoji: "🥻",
+    color: "#C84848",
+    desc: "GI-tagged Garo wraparound skirt woven from long-staple khidig cotton",
+    image: gDakmanda,
   },
   {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
+    title: "Chubitchi (Rice Beer)",
+    emoji: "🍺",
+    color: "#F4F0C8",
+    desc: "GI-tagged traditional Garo home-brewed rice beer — integral to festivals & rituals",
+    image: gChubitchi,
   },
   {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
+    title: "Jadoh",
     emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    color: "#D4884A",
+    desc: "Iconic Khasi one-pot rice cooked with pork blood and spices — festive staple",
+    image: gJadoh,
+  },
+  {
+    title: "Dohneiiong",
+    emoji: "🍖",
+    color: "#4A2A18",
+    desc: "Khasi pork curry cooked with black sesame — a signature Meghalayan dish",
+    image: gDohneiiong,
+  },
+  {
+    title: "Tungrymbai",
+    emoji: "🫘",
+    color: "#8A6A40",
+    desc: "Fermented soybean paste — a pungent winter staple of the Khasi people",
+    image: gTungrymbai,
+  },
+  {
+    title: "Pumaloi",
+    emoji: "🍚",
+    color: "#F4ECD8",
+    desc: "Powdered rice steamed in earthen pot (Khiew Ranei) — traditional Khasi dish",
+    image: gPumaloi,
+  },
+  {
+    title: "Nakham Bitchi",
+    emoji: "🐟",
+    color: "#B8A870",
+    desc: "Dried fish chutney — a pungent condiment beloved across Meghalayan tribes",
+    image: gNakhamBitchi,
+  },
+  {
+    title: "Nongkrem Dance",
+    emoji: "💃",
+    color: "#D4A8E8",
+    desc: "Sacred Khasi dance festival — women in silver crowns & silk robes give thanks to God",
+    image: gNongkrem,
+  },
+  {
+    title: "Bamboo & Cane Crafts",
+    emoji: "🧺",
+    color: "#A8C870",
+    desc: "Intricate baskets, hats, mats & furniture — prime craft of all three Meghalayan tribes",
+    image: gBambooCane,
+  },
+  {
+    title: "Khasi Umbrella",
+    emoji: "☂️",
+    color: "#E8D8A8",
+    desc: "Traditional bamboo & cane Khasi umbrella — iconic handcrafted utility item",
+    image: gKhasiUmbrella,
+  },
+  {
+    title: "Eri Silk",
+    emoji: "🧵",
+    color: "#F4E8D4",
+    desc: "Peace silk from Meghalaya — woven without harming the silkworm, an Eri weaving tradition",
+    image: gEriSilk,
+  },
+  {
+    title: "Wild Forest Honey",
+    emoji: "🍯",
+    color: "#D4880A",
+    desc: "Raw honey harvested from Meghalaya's dense forests — prized for purity and richness",
+    image: gForestHoney,
+  },
+  {
+    title: "Shillong Café Culture",
+    emoji: "☕",
+    color: "#C8A888",
+    desc: "Shillong's vibrant café & rock music scene — the 'Scotland of the East' blend of British & tribal culture",
+    image: gShillongCafe,
+  },
+  {
+    title: "Ka Shad Mastieh (Betel Nut)",
+    emoji: "🌰",
+    color: "#A85A38",
+    desc: "Betel nut offering — an important social & ceremonial gesture in Khasi and Jaintia culture",
+    image: gBetelNut,
+  },
+  {
+    title: "Meghalaya Black Rice",
+    emoji: "🍚",
+    color: "#3A2850",
+    desc: "Nutritious heirloom black rice grown in Meghalaya's hills — rich in antioxidants",
+    image: gBlackRice,
+  },
+];
   },
 ];
