@@ -522,7 +522,7 @@ export default function TamilNaduPage() {
 
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
         {/* Capital */}
-        <Section title="Capital — Chennai" icon="🏛️">
+        <Section title="Capital" icon="🏛️">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
             <div className="text-5xl mb-3">🌆</div>
             <h3
