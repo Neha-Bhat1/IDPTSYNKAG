@@ -8,7 +8,7 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
+import mpMap from "@assets/punjabMap.jpg";
 const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
 const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
 const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
@@ -416,7 +416,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function TamilNaduPage() {
+export default function MadhyaPradeshPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -456,19 +456,19 @@ export default function TamilNaduPage() {
           <div className="flex flex-col md:flex-row md:items-end gap-6">
             <div className="flex-1">
               <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
-                South India
+                Central India
               </div>
               <h1
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Tamil Nadu
+                Madhya Pradesh
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Temples
+                Heart of India
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -477,12 +477,12 @@ export default function TamilNaduPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chennai" },
-                  { label: "Population", value: "7.21 Crore" },
-                  { label: "Area", value: "1,30,060 sq km" },
-                  { label: "Founded", value: "26 January 1950" },
-                  { label: "Language", value: "Tamil" },
-                  { label: "Districts", value: "32 Districts" },
+                  { label: "Capital", value: "Bhopal" },
+                  { label: "Population", value: " Crore" },
+                  { label: "Area", value: " sq km" },
+                  { label: "Founded", value: "1 November 1956" },
+                  { label: "Language", value: "Hindi, Bundeli, Malwi" },
+                  { label: "Districts", value: "55 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
@@ -509,16 +509,16 @@ export default function TamilNaduPage() {
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chennai
+              Bhopal
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The Detroit of Asia
+              Capital of Madhya Pradesh — City of Lakes
             </p>
           </div>
         </Section>
 
         {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Tamil Nadu" icon="🗺️">
+        <Section title="Map of Madhya Pradesh" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
@@ -526,8 +526,8 @@ export default function TamilNaduPage() {
               onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
             >
               <img
-                src={tnMap}
-                alt="Map of Tamil Nadu"
+                src={mpMap}
+                alt="Map of Madhya Pradesh"
                 className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
@@ -550,68 +550,25 @@ export default function TamilNaduPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              The State of Tamil Nadu has a hoary antiquity. Though
-              early sangam classics throw historical references, we pass to
-              recorded history only from the Pallavas.
+              Known as the "Heart of India," Madhya Pradesh was formed in its modern version on November 1, 1956, by merging the former states of Madhya Bharat, Vindhya Pradesh, and Bhopal. Its history spans from the prehistoric rock paintings of Bhimbetka to the reign of the Chandela kings who built the Khajuraho temples. Hindi is the primary language spoken across the state. It remained the largest state in India by area until 2000. The region has transitioned from a collection of princely states to a major hub for diamonds, forest reserves, and diverse tribal cultures.
             </p>
             <p className="text-foreground">
-              The southern states of India were under the hegemony of the
-              Cholas, the Cheras and the Pandyas for centuries. The Pallavas
-              held supremacy from about the second quarter of the fourth century
-              A.D. They were the originators of the famous Dravidian style of
-              temple architecture. The last Pallava ruler was Aparajita, in
-              whose reign the later Cholas under Vijayalaya and Aditya asserted
-              themselves by about the 10th century. At the end of the
-              11th century, Tamil Nadu was ruled by several dynasties like the
-              Chalukyas, Cholas and Pandyas. In the two centuries that followed,
-              the imperial Cholas gained paramountcy over South India.
+              Madhya Pradesh acts as a geographical and cultural bridge between North and South India. From the meticulously planned stupas of Sanchi to the complex urban management of Indore today, MP is a blend of antiquity and modernization. The state's landscape is defined by the Narmada River, the Satpura and Vindhya mountain ranges, and dense teak forests that inspired literary classics. Whether it is the spiritual energy of Ujjain or the architectural precision of Gwalior, every corner of this state tells a story of resilience and artistic brilliance.
             </p>
             <p className="text-foreground">
-              Muslims gradually strengthened their position, which led to the
-              establishment of the Bahamani Sultanate, by the middle of the
-              14th century. At the same time, the Vijayanagar Kingdom quickly
-              consolidated itself and extended its sway over the whole of South
-              India, and at the close of the century, Vijayanagar became the
-              supreme power in South. However, it crumbled at the battle of
-              Talikota in 1564 to the confederate forces of the Deccan Sultans.
+              The area covered by the present-day Madhya Pradesh includes the area of the ancient Avanti Mahajanapada, whose capital Ujjain (also known as Avantika) arose as a major city during the second wave of Indian urbanisation in the sixth century BCE. Subsequently, the region was ruled by the major dynasties of India. The Maratha Empire dominated the majority of the 18th century.
             </p>
             <p className="text-foreground">
-              Even during the period of the tumultuous confusion that followed
-              the battle of Talikota, European commercial interest had appeared
-              as rivals in the area of South India. The Portuguese, the Dutch,
-              the French and the English came in quick succession and
-              established trading centres known as 'Factories'. East India
-              Company, which had established its factory at Masulipatnam (now in
-              Andhra Pradesh) in 1611, gradually annexed territories by
-              encouraging enmity among the native rulers. Tamil Nadu was one of
-              the first of British settlements in India. The State is the
-              successor to the old Madras Presidency, which covered the bulk of
-              the southern peninsula in 1901. The composite Madras State was
-              later reorganised, and the present Tamil Nadu was formed.
+              After the Third Anglo-Maratha War in the 19th century, the region was divided into several princely states under the British and incorporated into Central Provinces and Berar and the Central India Agency. After India's independence, the Central Provinces and Berar was renamed as Madhya Pradesh with Nagpur as its capital, this state included the southern parts of the present-day Madhya Pradesh and northeastern portion of today's Maharashtra while Central India Agency was renamed as Madhya Bharat which includes parts of present day north western Madhya Pradesh became a separate state with Gwalior as its capital and Jiwajirao Scindia as Rajpramukh (Governor). 
             </p>
             <p className="text-foreground">
-              Tamil Nadu is bounded on north by Andhra Pradesh and Karnataka, on
-              the west by Kerala, on the east by the Bay of Bengal, and on the
-              south by the Indian Ocean.
-            </p>
-            <p className="text-foreground">
-              Tamil Nadu covers total land area of 130,060 km2 and is divided
-              into 32 districts which are: Ariyalur, Chennai, Coimbatore,
-              Cuddalore, Dharmapuri, Dindigul, Erode, Kancheepuram, Kanyakumari,
-              Karur, Krishnagiri, Madurai, Nagapattinam, Namakkal, Perambalur,
-              Pudukkottai, Ramanathapuram, Salem, Sivaganga, Thanjavur, The
-              Nilgiris, Theni, Thiruvallur, Thiruvannamalai, Thiruvarur,
-              Tirunelveli, Tirupur, Tiruchirappalli(Trichy),
-              Tuticorin(Thoothukoodi), Vellore, Villupuram and Virudhunagar.
+             In 1956, these states were reorganised and its parts were combined with the states of Vindhya Pradesh and Bhopal to form the new Madhya Pradesh state, the Marathi-speaking Vidarbha region was removed and merged with the Bombay State. This state was the largest in India by area until 2000, when its southeastern Chhattisgarh region was designated a separate state.
             </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the cradle of Dravidian culture with its
-              cultural paraphernalia speckled all across the state in the form
-              of magnificent temples, gateways, intricate carvings, and the
-              society seeped in tradition.
+              It is regarded as the "Heart of Incredible India" due to its central geographical location. It is also widely known as the "Tiger State of India" because it boasts the highest tiger population in the country, with 785 tigers recorded in the 2022 census..
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: govt of TN, mapsofindia.com)
+              (src: govt of MP, mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -645,7 +602,7 @@ export default function TamilNaduPage() {
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Madhya Pradesh" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div
@@ -667,7 +624,7 @@ export default function TamilNaduPage() {
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
           <p className="text-muted-foreground text-sm mb-4">
-            Scroll horizontally to explore Tamil Nadu's iconic foods, crafts,
+            Scroll horizontally to explore Madhya Pradesh's iconic foods, crafts,
             dance, and traditions.
           </p>
           <div className="overflow-x-auto pb-4">
@@ -758,21 +715,21 @@ export default function TamilNaduPage() {
 
 const festivals = [
   {
-    name: "Pongal",
-    tagline: "The Harvest Festival of Tamil Nadu",
+    name: "Khajuraho Dance Festival",
+    tagline: "Mainly celebrated in Chattarpur district",
     description:
-      'Pongal is the harvest festival celebrated by the farmers in January to worship the sun, the earth and the cattle as thanks giving for a bounteous harvest. It is followed by the Jallikattu. - Tamil Nadu celebrates a four day harvesting festival annually during the month of January, popularly known as “Pongal”. The celebration is held to praise the Sun God for nourishing the crops throughout the year. The four day celebration involves; Bhogi, Surya Pongal, Mattu Pongal and Kaanum Pongal.  The third day of the festival is Mattu Pongal, which features a significant ancient sport known as Jallikattu - the bull taming sport. Bhogi marks the first day of the Pongal festivities and is celebrated on the last day of the Tamil calendar month Marghazhi.On this day people discard old belongings and celebrate new possessions. The people assemble and light a bonfire in order to burn the heaps of discards. Houses are cleaned, painted and decorated to give a festive look. Thai Pongal is the main festive day, celebrated on the next day of Bhogi.[10][11] It is observed on the first day of the Tamil calendar month of Thai, and usually falls on 14 or 15 January. It is dedicated to the Sun deity Surya and corresponds to Makar Sankranti. According to tradition, the festival marks the end of winter solstice, and the start of the sun\'s six-month-long journey northwards when the sun enters the Capricorn, also called as Uttarayana. Dedicated to Surya, it is celebrated with family and friends with new clothes worn and the preparation of the traditional pongal dish in an earthen pot. The pot is typically decorated by tying a turmeric plant or flower garland and placed in the sun along with sugarcane stalks. The homes are decorated with banana and mango leaves, decorative florals and kolams. Relatives and friends are invited and when the pongal starts to boil and overflow out of the vessel,they blow a conch or make sounds while shouting "Pongalo Pongal" ("may this rice boil over"). In rural areas, people sing traditional songs while the pongal dish is cooking. The Pongal dish is first offered to Surya and Lord Ganesha, and then shared with the gathered friends and family. Mattu Pongal ("Madu" meaning cow in Tamil) is the third day of the festival meant for the celebration of cattle. The cattle is regarded as sources of wealth as it is a means for dairy products and fertilizers, used for transportation and agriculture. The cattle are bathed, their horns are polished and painted in bright colors with garlands of flowers placed around their necks and taken for processions. Kaanum Pongal, the fourth and final day of the Tamil harvest festival, signifies familial unity, social bonding, and gratitude towards nature. ‘Kanu Pidi’ is a ritual where women and young girls place leftover colored rice (often cooked from previous days), sugarcane, and vegetables on turmeric leaves in the open for birds, particularly crows (regarded as ancestors). They pray for the health and prosperity of their brothers and family. (src:Wikipedia)',
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
-    source: "(src: Wikipedia)",
+      "This world-renowned festival takes place every February against the stunning backdrop of the illuminated Khajuraho temples. It is a week-long celebration of Indian classical dance forms like Kathak, Bharatanatyam, Odissi, and Kuchipudi. Top dancers from across the country perform in an open-air auditorium to honor the temple’s architectural beauty. For someone like you who enjoys dancing, it is the ultimate destination to see 'Art in Motion.' The atmosphere is filled with the sound of ghungroos and traditional music, creating a magical experience. It truly bridges the gap between ancient stone carvings and living traditions. Visitors can also explore the Hunar craft bazaar, an initiative that supports local artisans by showcasing indigenous pottery, metalwork, and hand-woven textiles from the Bundelkhand region. The festival has expanded its repertoire over the years to include rarer dance forms like Mohiniyattam and Gaudiya Nritya, ensuring a diverse representation of India’s rhythmic heritage. To engage the audience further, the Lay Shala sessions offer a rare opportunity for students and enthusiasts to interact directly with master performers in a workshop setting. Additionally, the Natraja exhibition focuses specifically on the cosmic iconography of Lord Shiva, bridging the spiritual significance of the temples with the physical beauty of the performances. Finally, the experience is rounded out by the Swaad food festival, which allows guests to sample authentic regional delicacies, making the week-long celebration a complete immersion into the heart of Indian culture.",
+    images: [khajuraho1, khajuraho2],
+    source: "(src: Wikipedia, Safari Plus)",
   },
   {
-    name: "Jallikattu — Bull Fight",
+    name: "Tansen Music Festival ",
     tagline:
-      "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
+      "Mainly celebrated in Gwalior",
     description:
-      "Jallikattu-Bull fight, in some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu. - In ancient times, ‘Yeru thazhuvuthal’ or embracing the bull, was connected in displaying the men’s pride and victory for winning over a girl for marriage. The sport has prevailed in Tamil culture for over 2000 years now.   Manju Virattu is conducted every year in various regions of the state including Madurai, Sivagangai and Pudukottai. The event begins as the bulls are released to the arena via a small entrance known as “ Vaadi Vaasal”. The male players known to be bull tamers, amid loud whistles, applauses and cheers wait nearby to the entrance and try to grab the bull's hump, which needs a lot of courage and prudence. The person who clutches the hump and takes the pouch containing cash or presents without falling off the bull is deemed the winner. Besides being identified as a conquering sport, it is also associated with the good motive of preserving pure-breeding of native bulls which were bred exclusively for the purpose of mating. The native Kangayam, Pulikulam, Umbalachery , Bargur and Malai Maadu are the combative breeds which compete highly in this sport. The sport has become the emotion of Tamilians with its long rooted historical and cultural significance. Madurai and Jallikattu The festival of cattle-worship is much delighted in Madurai and its sub regions. The sport is considered as a celebration in these areas. Preparations for this festival start months before the day of the event. The invites are sent to various villages about the celebration where the bulls are registered to enter the arena after a physical health check up. The district administration, Public works department, Police department along with local event organizers work together to maintain the integrity and dignity of the sport. Every year the regions of Avaniyapuram, Alanganallur and Palamedu attract around 700 native breeds of bulls and about 300 bull tamers from all around the state for this competition. The event also attracts a swarm of people, both locally and globally, visiting these areas to watch this magnificent sport. The bull taming sport in these regions are also telecasted on National Television every year.",
-    images: [jalli1, jalli2],
-    source: "",
+      "As a fan of singing, the Tansen Samaroh is a festival you shouldn't miss. Held annually in December near the tomb of the legendary musician Tansen, it is one of India's oldest and most prestigious music festivals. For four days, the city of Gwalior resonates with the soul-stirring melodies of Hindustani classical vocalists and instrumentalists. Musicians from all over the world gather here to pay tribute to the 'Music Maestro' of Akbar's court. The festival also features the prestigious 'Tansen Samman' award given to legendary artists. It is a perfect place to experience the 'Gwalior Gharana' style of music in its purest form. It is organized by the Academy of Culture under the Department of Culture, ensuring that only the highest caliber of Dhrupad and Hindustani classical vocalists and instrumentalists are invited. A unique tradition of the festival is the Tansen Samman, a national-level award conferred upon great exponents of Indian classical music during the event. The festival begins with a traditional 'Harikatha' and 'Milad', symbolizing the communal harmony that Tansen himself represented through his music. To accommodate the growing global audience, the stage is often designed as a replica of historic Gwalior landmarks, such as the Man Singh Palace or local temples. Beyond the music, the event serves as a pilgrimage for students of the Gwalior Gharana, who gather to pay homage to the 'Sangeet Samrat'. The morning and evening sessions are timed according to specific 'Ragas' meant to be performed at those hours, aligning the music with the natural rhythm of the day.",
+    images: [tansen1, tansen2],
+    source: "(src: )",
   },
   {
     name: "Chithirai Festival, Madurai",
