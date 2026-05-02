@@ -8,11 +8,76 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import tripuramap from "https://i.postimg.cc/RFtY7fS5/image.png";
-import KharchiPuja1 from "https://i.postimg.cc/pdzQkBjd/Picture2.jpg";
-import GariaPuja1 from "https://i.postimg.cc/6QJn7GmM/Picture3.jpg";
-
-
+const tripuramap = "https://i.postimg.cc/RFtY7fS5/image.png";
+const KharchiPuja1 = "https://i.postimg.cc/pdzQkBjd/Picture2.jpg";
+const KharchiPuja2 = "https://i.postimg.cc/6QJn7GmM/Picture3.jpg";
+const GariaPuja1 = "https://i.postimg.cc/zDbhk7Ys/Picture4.jpg";
+const GariaPuja2 = "https://i.postimg.cc/DzRvfqpw/Picture5.jpg";
+const KerPuja1 = "https://i.postimg.cc/JnQ2Y8k9/Picture6.jpg";
+const KerPuja2 = "https://i.postimg.cc/zfCt3N0W/Picture7.jpg";
+const KerPuja3 = "https://i.postimg.cc/136MYPhs/Picture8.jpg";
+const DurgaPuja1 = "https://i.postimg.cc/kXyxpyf2/image.png";
+const DurgaPuja2 = "https://i.postimg.cc/hvsfp2cW/Picture10.jpg";
+const Diwali1 = "https://i.postimg.cc/gJPjpC06/Picture11.jpg";
+const Diwali2 = "https://i.postimg.cc/sXcjr18t/Picture12.jpg";
+const AshokastamiFestival1 = "https://i.postimg.cc/L4QS3dM1/Picture13.jpg";
+const AshokastamiFestival2 = "https://i.postimg.cc/02KTGbn8/Picture14.jpg";
+const AshokastamiFestival3= "https://i.postimg.cc/zXWJzd9T/Picture15.jpg";
+const BuddhaPurnima1 = "https://i.postimg.cc/vTZVRJPg/Picture16.jpg";
+const BuddhaPurnima2 = "https://i.postimg.cc/7hhftg67/Picture17.jpg";
+const LongtharaiMandir = "https://i.postimg.cc/WtRTmrJj/picture-18-mandir.jpg";
+const DumboorLake1 = "https://i.postimg.cc/L8Y0K77G/image.png";
+const DumboorLake2 = "https://i.postimg.cc/wjXLmQsc/image.png";
+const Udaipur1 = "https://i.postimg.cc/L82BvWSk/OIP.jpg";
+const Udaipur2 = "https://i.postimg.cc/HL5Yx6Jv/image.png";
+const Udaipur3 = "https://i.postimg.cc/HsVCn6Rj/image.png";
+const NupilalMemorialComplex = "https://i.postimg.cc/1tjJjrHL/nupi-len-feature-image-1-e1559130783821.jpg";
+const Neeramahal1 = "https://i.postimg.cc/tCh8Y8Ds/Neermahal-in-tripura.webp";
+const Neermahal2 = "https://i.postimg.cc/2StdmSvg/image.png";
+const KasbaKaliTemple1 = "https://i.postimg.cc/9fFfxdzZ/kasba-kali-tample-popular-sakti-shirne-temple-besides-international-border-india-bangladesh-tripura.webp";
+const KasbaKaliTemple2 = "https://i.postimg.cc/MpzZT77C/kasba-kali-2.jpg";
+const UnakotiHeritageSite1 = "https://i.postimg.cc/zBrxZfZT/unakoti1.jpg";
+const UnakotiHeritageSite2 = "https://i.postimg.cc/3wHXWbSW/unakoti2.jpg";
+const UnakotiHeritageSite3 = "https://i.postimg.cc/sx8SznG5/unakoti3.jpg";
+const UnakotiHeritageSite4 = "https://i.postimg.cc/9XSqrnz3/unakoti4.jpg";
+const UnakotiHeritageSite5 = "https://i.postimg.cc/BnfLCPxk/unakoti6.jpg";
+const UdayanBuddhaBihar = "https://i.postimg.cc/zByKQZ3s/buddha.jpg";
+const Vanghmun1 = "https://i.postimg.cc/wxcjd4Ld/city1.jpg";
+const Vanghmun2 = "https://i.postimg.cc/nhsxM3sw/city2.jpg";
+const Kalibaritemple = "https://i.postimg.cc/CLkddMWr/Kali-Bari-Temple-Shimla.jpg";
+const Borderhaat1 = "https://i.postimg.cc/TYgSsBD3/border-haat1.jpg";
+const Borderhaat2 = "https://i.postimg.cc/YCtXs07R/border-haat2.jpg";
+const BharatBanglaMaitreeUddyan1 = "https://i.postimg.cc/j5WKnvkC/uddyan1.jpg";
+const BharatBanglaMaitreeUddyan2 = "https://i.postimg.cc/WbmVZdSf/uddyan2.jpg";
+const JagannathTemple = "https://i.postimg.cc/Gtr7nmYr/1522822584-Jagannath-Temple-Agartala3.jpg";
+const gMuiBorok = "https://i.postimg.cc/tTdkkGfb/mui-borok.png";
+const gBerma = "https://i.postimg.cc/fbmfWhMY/berma.jpg";
+const gGudok = "https://i.postimg.cc/05MD9snT/gudok.jpg";
+const gWahanMosdeng = "https://i.postimg.cc/RhLMvhDQ/wahan-2.jpg";
+const gChikhvi = "https://i.postimg.cc/6540bZFM/image.png";
+const gMuyaAwandru = "https://i.postimg.cc/rwCHVbMr/muya-awandru.jpg";
+const gMachBhat = "https://i.postimg.cc/cJLFsLFc/maach-baat.jpg";
+const gWakBahan = "https://i.postimg.cc/9f0Y6Nfk/WAK-BAHAN.png";
+const gMosdengSerma = "https://i.postimg.cc/Qd4pJkq4/mosdeng-serma.jpg";
+const gMathariPera = "https://i.postimg.cc/FRQ1y7wb/image.png";
+const gBambooShootPickle = "https://i.postimg.cc/KzZxcL6G/image.png";
+const gQueenPineapple = "https://i.postimg.cc/Gt8Nbmmn/queen-pineapple-annies-farm.webp";
+const gRisa = "https://i.postimg.cc/6QHt3Tt9/risa.jpg";
+const gRignaiPachra = "https://i.postimg.cc/5yLhwtd8/rignai.png";
+const gBambooandCaneCraft = "https://i.postimg.cc/mrP6Yr7c/image.png";
+const gTraditionalSilverJewellery = "https://i.postimg.cc/P5PMcRJS/silver.jpg";
+const gBlackPottery = "https://i.postimg.cc/tTXn0sDb/black-pottery.jpg";
+const gWoodCarving = "https://i.postimg.cc/hjPvyHP9/image.png";
+const gJamatiaFirewoodBasket = "https://i.postimg.cc/J7SJ0zzJ/basket.jpg";
+const gTripuraTribalJewellery = "https://i.postimg.cc/x1p9jc0d/image.png";
+const gHojagiriDance = "https://i.postimg.cc/mrqZjhqX/hojgari.jpg";
+const gGariaDance = "https://i.postimg.cc/rpgxwGD0/image.png";
+const gLebangDance = "https://i.postimg.cc/Kv4pDc6q/image.png";
+const gBizhuDance = "https://i.postimg.cc/k4Fzzjw4/image.png";
+const gChongpreng = "https://i.postimg.cc/hG42hS13/image.png";
+const gSumui = "https://i.postimg.cc/7LLNwKqW/sumui-64d480b1b419e.jpg";
+const gSarinda = "https://i.postimg.cc/fThjJzwv/sarinda.jpg";
+const gTribalDrum = "https://i.postimg.cc/cJybpfYd/tripura-tribal-drum.jpg";
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({ src, alt, onClose }: { src: string; alt: string; onClose: () => void }) {
   return (
@@ -279,7 +344,7 @@ export default function Tripurapage() {
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
 
         {/* Capital */}
-        <Section title="Capital — Agartala" icon="🏛️">
+        <Section title="Capital" icon="🏛️">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
             <div className="text-5xl mb-3">🌆</div>
             <h3 className="text-2xl font-bold text-foreground mb-1" style={{ fontFamily: "'Cinzel', serif" }}>Agartala</h3>
@@ -296,7 +361,7 @@ export default function Tripurapage() {
               onClick={() => openLightbox(tripuramap, "Map of Tripura")}
             >
               <img
-                src={tripuraMap}
+                src={tripuramap}
                 alt="Map of Tripura"
                 className="w-full h-auto object-contain"
               />
@@ -447,13 +512,13 @@ const festivals = [
     name: "Kharchi Puja",
     description:
       "Kharchi Puja is a significant week-long Hindu festival celebrated in Agartala, Tripura, primarily during July or August. The word "Kharchi" is derived from "Khya," meaning "Earth," as the festival is dedicated to worshipping Mother Earth and the fourteen dynasty deities of the Tripuri people.The celebration follows a unique mythological background centered on the cleansing of the Earth after "Ama Pechi" (the menstruation of the mother goddess). To begin the rituals, the fourteen deities are carried by the Chantai to the Saidra River, where they are bathed in holy water before being returned to the temple and decorated with flowers and vermillion. The festivities involve both tribal and non-tribal communities and are characterized by animal sacrifices, traditional offerings, and a large fair featuring various cultural programs.. (src:Wikipedia)",
-    images: [kharchiPuja1,kharchiPuja2,],
+    images: [kharchiPuja1,KharchiPuja2,],
     source: "(src:adivasilivesmatter.com)",
   },
   {
     name: "Garia Puja",
     description:
-      "Garia Puja is celebrated by the tribal communities to seek blessings from the deity Garia for a good harvest and prosperity. It is observed after sowing seeds. People celebrate it with traditional dances, folk songs, bamboo rituals, and offerings like rice beer. The celebrations continue for several days with joy and festivity. This festival is important as it reflects the agricultural lifestyle and strengthens community bonding.In Garia puja devotees sacrifice chicken for ritual purpose in Tripuri community. All kokborok speaking tribes and Halam tribes worship their supreme God Baba Garia for prosperity and well-being. Jamatia Tribe have a unique mass celebration of Garia puja at State level. It is a seven day festival to honour the deity Baba Garia is held annually on the first day of Tripuri calendar/Bengali calendar month of Boishakh. It is mainly celebrated in tribal regions such as Dhalai district, Gomati district, and North Tripura district.",
+      "Garia Puja is celebrated by the tribal communities to seek blessings from the deity Garia for a good harvest and prosperity. It is observed after sowing seeds. People celebrate it with traditional dances, folk songs, bamboo rituals, and offerings like rice beer. The celebrations continue for several days with joy and festivity. This festival is important as it reflects the agricultural lifestyle and strengthens community bonding.In Garia puja devotees sacrifice chicken for ritual purpose in Tripuri community.All kokborok speaking tribes and Halam tribes worship their supreme God Baba Garia for prosperity and well-being. Jamatia Tribe have a unique mass celebration of Garia puja at State level. It is a seven day festival to honour the deity Baba Garia is held annually on the first day of Tripuri calendar/Bengali calendar month of Boishakh. It is mainly celebrated in tribal regions such as Dhalai district, Gomati district, and North Tripura district.",
     images: [GariaPuja1, GariaPuja2],
     source: "adivasilivesmatter.com,india-tours",
   },
@@ -498,7 +563,7 @@ const festivals = [
 
 const historicalPlaces = [
   {
-    name: "Longtharai Mandir, Dhalai",
+    name: "Longtharai Mandir",
     description:
       "The Longtharai Mandir is the most revered temple in the Dhalai district. Longtharai is the Kokborok name of Lord Shiva. The temple lies about 102 kilometres away from Agartala. It is believed that while Lord Shiva was travelling from Mount Kailash, his home, he rested in this area. Since he is believed to have stepped foot here, this area became famous and a temple was soon constructed. Today the temple and the adjoining hill area are highly regarded and people from all over visit the Longtharai Mandir. The word Longtharai also has another meaning—deep valley. Khumpi is a local flower that blooms on the roadside leading to the temple. Not only is the temple a pious place, but the area around the temple is worth a visit too. The enchanting natural beauty that seems to be tucked away from the world of commercialisation and rat race is definitely a must visit.",
     images: [LongtharaiMandir],
@@ -509,7 +574,7 @@ const historicalPlaces = [
     name: "Dumboor Lake",
     description:
       "Dumboor Lake is a charming water body located in amarpur Sub Division 120 Km. away from Agartala. The look of the lake is like tabour shaped small drum, “Dumboor” of Lord Shiva from which the name “Dumboor” originates. A massive and breathtaking water body of 41 sq.km. with an unending spell of luxuriant green vegetation all around stands majestic for her exceedingly charming beauty and 48 islands in the midst of the lake. Migratory birds and water sports facilities are additional attractions. There is a Hydel Project near the lake from where River Gomati originates and this is called Tirthamukh where on 14th January every year famous ‘Pous Sankranti Mela’ takes place. The lake is the confluence of rivers Raima and Sarma. Various species of migratory birds are visible in the winter and it has rich reservoir of natural and cultured fishes. In one of the island “Narkel Kunja” has been developed.",
-    images: [DumboorLake],
+    images: [DumboorLake1,DuboorLake2],
     source: "hindustanpioneer.com",
   },
   {
@@ -517,7 +582,7 @@ const historicalPlaces = [
     description:
       "Udaipur, located in the Gomati district of Tripura, is a historic city often called the 'Lake City' or the 'City of Temples.' It was the former capital of the Tripura Kingdom and is primarily famous for its deep-rooted religious significance and architectural heritage. In tripura one of the most prominent temple is Tripura Sundari Temple.Tripura Sundari Temple is a Hindu temple of the Goddess Tripura Sundari, better known locally as Devi Tripureshwari the third mahavidya and main form of Parvati. The temple is situated in the ancient city of Udaipur, about 55 km from Agartala, Tripura and can be reached by train and road from Agartala. It is believed to be one of the holiest Hindu shrines in this part of the country and witnesses the highest number of visitors for a temple in North-East India, after Kamakhya Temple in Assam. The state of Tripura is named after this temple. Popularly known as Matabari, the shrine is set upon a small hillock that resembles the hump of a tortoise (Kurma). This shape called Kurmapṛṣṭhākṛti is considered the holiest possible site for a Shakti temple, hence also bestowing the name of Kurma Pīṭha.[1] The Goddess is served by traditional Brahmin priests.The temple is one of the 51 Shakta pithas; legend says that a part of the right foot (Dakshin Charan) of Sati including the big toe fell here. Here, Shakti is worshipped as Tripurasundarī and the accompanying Bhairava is Tripuresh. The main shrine, a cubical edifice with a three-tier roof with a finial, erected by Maharaja of Tripura Dhanya Manikya in 1501 CE, is constructed in the Bengali Ek-ratna style.",
     images: [Udaipur1,Udaipur2,Udaipur3],
-    source: "(src: )",
+    source: "(src: talesof2backpackers.com )",
   },
   {
     name: "Nupilal Memorial Complex ",
@@ -551,7 +616,7 @@ const historicalPlaces = [
     name: " Udayan Buddha Bihar",
     description:
       "Situated at Pecharthal market place adjacent to National Highway NH44. Established in the year 1933. The idol is made of “Osto Dhatu” 8 types of metals, 4.5 ft. height and weighs 300 Kg. Hundreds of devotees from nearby land assembles in the time Buddha Jayanti in Buddha Purnima in the month April/May.Location : At Pecharthal, 33 Km from District Head Quarter Kailashahar.",
-    images: [UdyanBuddhaBihar],
+    images: [UdayanBuddhaBihar],
     source: "(src:cdn.s3waas.gov.in)",
   },
   {
@@ -565,7 +630,7 @@ const historicalPlaces = [
     name: "Kalibari temple",
     description:
       "The **Dharmanagar Kalibari**, situated in the North Tripura district, stands as a premier spiritual landmark and a cornerstone of the region's cultural heritage. Dedicated to Goddess Kali, this historic temple in Dharmanagar town draws numerous devotees who come to seek blessings and experience its serene atmosphere. The temple's architecture reflects traditional Bengali and Tripuri influences, featuring a vibrant sanctum and a spacious courtyard that hosts various religious ceremonies. It gains immense significance during **Kali Puja** and **Diwali**, when the entire complex is illuminated, and grand rituals are performed throughout the night. Beyond its religious role, the Kalibari serves as a vital community hub, often organizing social welfare programs and festive fairs that bring together people from diverse backgrounds. Its proximity to the Dharmanagar railway station makes it an accessible and essential stop for anyone exploring the rich architectural and spiritual landscape of North Tripura.",
-    images: [Kalbaritemple1],
+    images: [Kalibaritemple],
     source: "(src:honeymoonbug.com,)",
   },
   {
@@ -593,7 +658,7 @@ const historicalPlaces = [
     name: "Jagannath Temple",
     description:
       "The Jagannath Temple in Agartala, Tripura, is a stunning architectural landmark that serves as a vital spiritual hub in Northeast India. Built by the Maharaja of Tripura in the 19th century, the temple is renowned for its unique structural design, featuring a distinct octagonal base and an impressive pradakshina path (circumambulation path) surrounding the inner sanctum. The exterior is characterized by pillars crowned with square and pyramidal cones, blending traditional aesthetics with intricate craftsmanship.Beyond its architectural significance, the temple is a major center for pilgrims, particularly during the vibrant Rath Yatra festival, which draws thousands of devotees. Located near the Ujjayanta Palace, the temple's bright orange and white facade creates a striking visual against the city skyline. It stands not only as a place of worship dedicated to Lord Jagannath, Balabhadra, and Subhadra but also as a testament to the rich cultural and royal heritage of the Tripura kingdom.",
-    images: [JagannathTemple1,JagannathTemple2],
+    images: [JagannathTemple],
     source: "(src:alamy.com,gosahin.com)",
   },
 ];
