@@ -523,7 +523,7 @@ export default function MadhyaPradeshPage() {
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
+              onClick={() => openLightbox(tnMap, "Map of Madhya Pradesh")}
             >
               <img
                 src={mpMap}
@@ -729,480 +729,280 @@ const festivals = [
     description:
       "As a fan of singing, the Tansen Samaroh is a festival you shouldn't miss. Held annually in December near the tomb of the legendary musician Tansen, it is one of India's oldest and most prestigious music festivals. For four days, the city of Gwalior resonates with the soul-stirring melodies of Hindustani classical vocalists and instrumentalists. Musicians from all over the world gather here to pay tribute to the 'Music Maestro' of Akbar's court. The festival also features the prestigious 'Tansen Samman' award given to legendary artists. It is a perfect place to experience the 'Gwalior Gharana' style of music in its purest form. It is organized by the Academy of Culture under the Department of Culture, ensuring that only the highest caliber of Dhrupad and Hindustani classical vocalists and instrumentalists are invited. A unique tradition of the festival is the Tansen Samman, a national-level award conferred upon great exponents of Indian classical music during the event. The festival begins with a traditional 'Harikatha' and 'Milad', symbolizing the communal harmony that Tansen himself represented through his music. To accommodate the growing global audience, the stage is often designed as a replica of historic Gwalior landmarks, such as the Man Singh Palace or local temples. Beyond the music, the event serves as a pilgrimage for students of the Gwalior Gharana, who gather to pay homage to the 'Sangeet Samrat'. The morning and evening sessions are timed according to specific 'Ragas' meant to be performed at those hours, aligning the music with the natural rhythm of the day.",
     images: [tansen1, tansen2],
-    source: "(src: )",
+    source: "(src: wikipedia)",
   },
   {
-    name: "Chithirai Festival, Madurai",
+    name: "Bhagoria Haat Festival ",
     tagline:
-      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+      "Celebrated in West MP.",
     description:
-      "Chithirai festival, Madurai brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar. - A famous Vishnu Temple dedicated to Lord Alagar is located 21 kilometres north of Madurai. The temple is set on a hill with breathtaking views. Alagarkoil is the name of the shrine, and Solaimalai is the name of the hill. The temple also has some lovely carvings, making it a worthwhile visit. The Hill is home to Palamudirsolai, one of Lord Subramaniya's six abodes.       Chithirai Festival, also known as Chithirai Thiruvizha, Meenakshi Kalyanam or Meenakshi Thirukalyanam, is an annual Tamil Hindu celebration in the city of Madurai during the month of April. The festival, celebrated during the Tamil month of Chithirai, is associated with the Meenakshi Temple, dedicated to the goddess Meenakshi, a form of Parvati and her consort Sundareshwar, a form of Shiva. The festival lasts for one month. The first 15 days mark the celebrations of the coronation of Meenakshi as the divine ruler of Madurai and her marriage to Sundareshwar. The next 15 days mark the celebrations of the journey of Kallalagar or Alagar (a form of the god Vishnu) from his temple in Alagar Koyil to Madurai. (src:utsav.gov.in)",
-    images: [chith1, chith2],
-    source: "(src: utsav.gov.in)",
+      "Bhagoria is a vibrant tribal festival celebrated by the Bhil and Bhilala tribes just before the Holi festival. It is primarily held in districts like Jhabua and Alirajpur and serves as a grand fair (Haat) for social bonding and match-making. Young men and women dress in their most colorful traditional attire and perform energetic folk dances to the beat of massive drums. A unique custom involves the 'Paan' (betel leaf) ceremony, which is a traditional way of expressing mutual affection. The festival is a riot of colors, traditional silver jewelry, and joyous tribal music. It marks the end of the harvest season and the beginning of spring celebrations. Primarily celebrated by the Bhil and Bhilala tribes, the Bhagoria Haat is a vibrant pre-Holi carnival that acts as a massive cultural fair and a traditional matchmaking ground. The festival is famous for its unique 'Gulal' tradition, where young men and women express interest in one another by applying red powder on each other's faces. It is held in various local markets, or 'Haat, across districts like Jhabua and West Nimar, turning the entire region into a kaleidoscope of traditional silver jewelry and colorful attire. Music plays a central role, featuring the deep, rhythmic sounds of the 'Dhol' and the high-pitched melodies of bamboo flutes that lead massive tribal dance circles. Historically, the festival also allowed couples to elope with the community's eventual blessing, though today it has evolved more into a grand social gathering for migrant workers returning home. Visitors can find unique tribal delicacies and indigenous beverages like 'Mahua', which are integral to the festive spirit. The 'Haat' also serves as an open-air museum for 'Pithora' paintings, which are often displayed or sold by local tribal artists during this week. It is a rare opportunity to witness an ancient socio-economic system where trade and tradition are seamlessly intertwined.",
+    images: [bhagoria1],
+    source: "(src: wikipedia)",
   },
   {
-    name: "Tamizh Puttandu — Tamil New Year",
+    name: "Lokrang Festival",
     tagline:
-      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+      "Celebrated in Bhopal",
     description:
-      "Tamizh Puttandu  - meaning ‘Tamil new year’. is the first day of year on the Tamil calendar that is traditionally celebrated as a festival by Tamils. The festival date is set with the solar cycle of the solar Hindu calendar, as the first day of the month of Chittirai. It falls on or about 14 April every year. Households clean up the house, prepare a tray with fruits, flowers and auspicious items, light up the family puja altar and visit their local temples. People wear new clothes and children go to elders to pay their respects and seek their blessings, then the family sits down to a feast. On the eve of Puthandu, a tray is arranged with three fruits (mango, banana and jack fruit), betel leaves and arecanut, gold/silver jewellery, coins/money, flowers and a mirror. This is similar to the Vishu new year festival ceremonial tray in Kerala. According to the Tamil tradition, this festive tray is auspicious as the first sight upon waking on the new year day and is called ‘kani’. Home entrances are decorated elaborately with colored rice powder. These designs are called kolams. As soon as they wake up, they walk to the kani with their eyes closed and see it as the first scene of the year. This tradition is significant in both regions and is believed to bring good luck and prosperity for the coming year.",
-    images: [puth1, puth2],
-    source: "(src: boldskytamil.com)",
+      "Celebrated every year starting on Republic Day (January 26th), Lokrang is Bhopal’s tribute to the folk and tribal arts of India. The festival aims to preserve and showcase the vanishing traditions of various ethnic groups through dance, music, and theater. Artists from different states perform their indigenous dances, making it a 'Mini India' on a single stage. Since you are in your first year of engineering, you might also appreciate the 'Shilp Gram' (craft village) where traditional artisans display their handmade works. It is a five-day event that fills the capital city with energy, lights, and cultural pride. The festival is organized by the Adivasi Lok Kala Academy to keep tribal heritage alive. The Lokrang Festival is a five-day cultural feast that begins every year on Republic Day to celebrate the diverse folk and tribal traditions of India. Organized by the Madhya Pradesh Adivasi Lok Kala Academy, the festival’s primary goal is to prevent the extinction of rare folk art forms by giving them a grand national stage. Each year, the festival adopts a specific theme, such as 'Dharti' (Earth) or 'Panchatantra', and invites performers from across the country to showcase regional dances like Lavani, Bihu, or Garba. A major highlight is the 'Shilpgram', a dedicated craft village where master craftsmen demonstrate live techniques of terracotta, weaving, and bell-metal casting. The festival also features 'Puroo' and 'Aparajita', segments dedicated to tribal heritage and the empowerment of women artists respectively. For children, the 'Bal-Rang' section provides a platform for young students to perform and learn about their cultural roots through storytelling and puppet shows. The evening performances at the Ravindra Bhavan open-air auditorium use sophisticated lighting and sound to bring ancient tribal myths to life. It is widely considered the most comprehensive event in Central India for those wishing to study the anthropological diversity of the subcontinent in one location.",
+    images: [lokrang1],
+    source: "(src: wikipedia)",
   },
   {
-    name: "Adipperukku",
+    name: "Ujjain Simhastha Kumbh Mela",
     tagline:
-      "The festival of Padhinettam Perukku, also known as 'Aadi Perukku', held on the 18th day of the Tamil month of Aadi.",
+      "Celebrated in Ujjain",
     description:
-      'Adipperukku - The festival of Padhinettam Perukku also known as "Aadi Perukku" is held on the 18th day of the Tamil month of Aadi. "Perukku" means "raising" in Tamil. This festival is a reflection of the River Kaveri\'s rise due to the monsoon rains. - The Tamil calendar month of Aadi is marked by festivities and fervour honouring Water and other natural resources. Prayers and pujas are performed throughout this month to express gratitude to the mighty Goddesses for abundant natural resources. The River Palar flows through the village of Kodaiyanchi near the Vaniyambadi town of Thirupathur district. The banks of the river are home to a 1000-year-old temple dedicated to Lord Shiva- Arulmigu Kasi Viswanathar Temple and Lord Murugan - Arulmigu Murugan Temple. Hundreds of devotees gather on the day of “Padhinettam Perukku” to celebrate the occasion by offering sweet Pongal to the deity. Mulaipari, also known as the sprouting or germination of nine grains (Navadhanyam) in clay mud pots, is a crucial ceremony that is performed in the temples during this occasion. Nine different varieties of cultivated grains are packed in the earthen pots that the procession devotees carry on their heads as they move towards the river where the grains are dissolved. The newly wedded couples from the surrounding villages come to this festival to replace their "mangalya thread" tied on the day of their marriage with a new one along with gold coins and trinkets. Women make a lamp using rice and jaggery, set it upon plantain leaves, and let it float along the River Palar.',
-    images: [adi1, adi2],
+      "The Simhastha Kumbh Mela is one of the largest religious gatherings in the world, held every 12 years on the banks of the Shipra River. It occurs when the planet Jupiter enters the zodiac sign of Leo (Simha), which is why it is called 'Simhastha'. Millions of devotees and sadhus (saints) gather to take a holy dip in the river, believing it washes away sins. The city of Ujjain transforms into a massive spiritual camp filled with chanting, devotional singing, and religious discourses. Even if you aren't there for the religious aspect, the sheer scale of management and human connection is a great study for a data science student. It is a spectacular display of faith, tradition, and ancient Indian astronomy. The Ujjain Simhastha is one of the four Great Kumbh Melas, occurring only once every twelve years when Jupiter enters Leo (Simha) and the Sun is in Aries. It is held on the banks of the sacred Shipra River, where millions of devotees congregate for the 'Shahi Snan' or royal bath, believed to cleanse the soul of all sins. The festival is unique because it is the only Kumbh where the 'Panch Kroshi Yatra', a 118-kilometer barefoot pilgrimage around the holy city, takes place simultaneously. The riverfront is divided into various 'Akharas', where Naga Sadhus and various sects of ascetics set up temporary camps to provide spiritual discourses and yoga demonstrations. The night sky over Ujjain is illuminated by massive evening 'Aartis', where hundreds of lamps are floated down the Shipra in a breathtaking display of faith. Unlike other festivals, Simhastha turns Ujjain into a temporary 'Pop-up City', complete with its own hospitals, police stations, and massive communal kitchens called 'Langars'. It is a site of intense intellectual exchange, as it hosts 'Vaicharik Kumbhs' where leaders discuss global peace, ecology, and social issues. The event is deeply tied to the Mahakaleshwar Temple, one of the twelve Jyotirlingas, making it a pinnacle event for both spiritual seekers and cultural historians.",
+    images: [kumbhmela1],
     source: "",
   },
   {
-    name: "Dance Festival, Mamallapuram",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
+    name: "Mandu Festival",
+    tagline: "Celebrated in Dhar district of MP",
     description:
-      "Dance Festival, Mamallapuram, which is set before an open air stage, created 13 centuries ago the incredible monolithic rock sculptures of the Pallavas, next to the sea in this ancient city of Mamallapuram. Bharatha Natyam, Kuchipudi, Kathakali, and Odissi are some dance forms presented by the very best exponents of the art besides folk dances. The Mamallapuram Dance Festival is organised by the Department of Tourism, Tamil Nadu, and is a 30-day festival held annually between December and January. Professional classical dance artists from all around the nation come together for this grand event to showcase their mesmerising performances in traditional dance forms like Bharathanattiyam, Kuchipudi, Kathakali, Mohini Attam, Assami Dance, Odissi, and Kathak. Also, folk dancers add to the festival's vibrant atmosphere with their spirited performances.Every year, the picturesque shore town of Mamallapuram hosts the “Indian Dance Festival” - A Festival of Our Culture and Tradition. The venue for the Mamallapuram- Indian Dance Festival is the front lawn of the Shore Temple. The artists perform on an open-air stage, which provides the finest ambience for the dancers to perform their best during the festival. Some of the most prominent classical dancers in the country perform at the event. This event is a vivid reminder of the ancient connection between people and the arts. This festival not only provides an amazing chance to become acquainted with many traditional dance styles of India, but it also serves as a networking opportunity for artists, dancers, musicians, and theatre professionals. The spectacular architecture, historic ambience, and enthralling performances entice tourists from all over the world to experience the festival.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
+      "The Mandu Festival is a five-day celebration of heritage and romance held in the medieval hilltop fortress of Mandu, often referred to as the 'City of Joy'. It is unique for its 'eco-tourism' approach, offering visitors the chance to stay in luxurious tent cities and explore the rugged Malwa plateau through hot air balloon rides and sunrise cycling tours. The festival creates a living narrative of the legendary love story between Sultan Baz Bahadur and Rani Roopmati through specialized light and sound shows projected against the Jahaz Mahal. Beyond history, it hosts an Adventure Sports Zone where travelers can engage in paragliding and rock climbing amidst ancient ruins. The local 'Instagrammable' spots are enhanced by curated art installations that blend contemporary design with the town’s Afghan architectural style. Foodies can enjoy the Malwa Food Court, which features the famous 'Mandu ki Imli' (baobab fruit) and traditional tribal cuisines. The evenings are dedicated to 'Music in the Fort', where independent folk-fusion bands perform in open-air courtyards. It is essentially a bridge between the 15th-century stone structures and 21st-century adventure tourism",
+    images: [mandufest1],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Velankanni Festival",
+    name: "Namaste Orchha ",
     tagline:
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
+      "Celebrated in Niwari district of MP",
     description:
-      "The Velankanni festival attracts thousands, clad in orange robes to the sacred spot where the ship landed. Equally famous are the Virgin Mary's miraculous healing powers, earning for the church the name 'Lourdes of the East'.  ",
-    images: [velanFest1, velanFest2],
-    source: "",
+      "Namaste Orchha is a contemporary cultural festival designed to showcase the architectural grandeur of the Bundela era to a global audience. One of its most distinctive features is the 'Maha Aarti' held at the Kanchan Ghat of the Betwa River, which uses theatrical lighting and choreography to create a spiritual spectacle. The festival is famous for its 'Farm-to-Fork' initiative, where visitors can enjoy meals prepared by local villagers, promoting rural entrepreneurship and authentic Bundelkhandi flavors. Unlike traditional fairs, it includes 'Photography and Filmmaking Workshops' led by industry experts, using the palaces and cenotaphs as a cinematic backdrop. The town’s narrow lanes are transformed into an open-air gallery for 'Nail Art' and 3D street paintings that tell stories of the town’s hidden history. It also features high-octane performances by fusion-rock bands and classical vocalists on floating stages on the river. The event is curated to feel like a boutique experience, blending wellness sessions like 'Yoga by the River' with heritage walks through the Orchha Wildlife Sanctuary.",
+    images: [orchha1],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Navarathiri Festival — Kolu",
-    tagline: "Literally means the festival of 'nine nights'.",
+    name: "Pachmarhi Utsav",
+    tagline: "Celebrated in Narmadapuram district of MP",
     description:
-      "The Navarathiri Festival, literally means the festival of 'nine nights', taking unique and different forms in different states of India, all to propitiate the goddess Sakthi, for power, wealth and knowledge. - Celebrated in Tamil Nadu, Karnataka, and Andhra Pradesh, the festival includes placing dolls of a multitude of gods, goddesses, men, animals, and children on a steps-like set-up. In Tamil it is known as ‘Bommai Golu’. The Navratri Golu depicts scenes from ancient times – celebrated Indian stories that have been passed on from generation to generation like the Ramayana, Puranas, and the Dashavataram. This is the time of the year that you revisit those precious lessons from timeless, age-old stories. The steps may also be interpreted as the evolution ladder that we are all traversing in the journey of life. The dolls are placed on multiple steps in the house – in odd numbers. The numbers could vary from one to 11 depending on the number of dolls available for display. Many families place nine steps, each step representing the nine days of Navratri. Some keep three, five or seven steps as well. The steps are covered with a decorative cloth, and the dolls are placed on it. The first step is decorated with a kalash (ceremonial jar). The water-filled jar is decorated with a coronet of mango leaves, and a coconut is placed on top of it. It is considered to represent Goddess Durga. Idols of deities are placed on both sides of the kalash. According to tradition, the dolls of Goddesses Durga, Lakshmi, Saraswati and the wooden dolls called the Marapachi Bommai are always a part of the arrangement. The next few steps have idols of saints and heroes of the country. One of the steps represents human activities – depicting functions such as marriage, temples, and an orchestra or music band. Business is usually represented by the Chettiar set of dolls, with shop items and the Marapachi couple dressed in colorful clothes. It is a custom to add at least one new doll every year. The Golu could be a mode of telling ancient stories such as Ramayana or Bhagavad Gita or it could simply depict the evolution of life from animals to the sages and seers. On the tenth and last day, Vijayadasami, the day of victory, is celebrated. This is considered the most auspicious day of all – to start new ventures and journeys, and a day to start learning new skills. On this day, the Golu dolls are symbolically put to sleep, and then, packed the day after. Till they are brought out of their boxes the following year. Most people light lamps, draw colorful kolams (rangoli or floor decoration), perform aarti, recite shlokas (holy chants), and offer special dishes, especially a protein-rich dish called sundal (made of legumes), with some sweets and fruits every day. During the Golu set-up, women invite other women and honor them by gifting betel leaves, coconuts, fruits, flowers, bangles, turmeric, kumkum (vermilion powder) and prasadam (devotional offering of food made for the Divine and then distributed among people). It is an ideal time for families to display their creativity.",
-    images: [navar1, navar2],
-    source: "(Wikipedia)",
+      "Pachmarhi Utsav is a six-day cultural carnival that begins on December 25th, turning the 'Queen of Satpura' into a hub of folk festivities during the peak winter season. The festival is unique for its heavy focus on the indigenous Gond and Korku tribal cultures, featuring rare dance forms like the 'Ahirai' and 'Matki' that are seldom seen elsewhere. A highlight of the event is the exhibition of 'Pithora' paintings, where tribal artists demonstrate their sacred art of storytelling through vibrant wall murals. It also serves as a platform for regional school and college talents through the 'Bal-Rang' segment, encouraging the younger generation to preserve their heritage. Because it takes place in a hill station, the festival integrates nature walks and eco-tours to the Pandava Caves and Jata Shankar temples as part of the official itinerary. The local craft bazaar is particularly famous for its medicinal honey and bamboo artifacts harvested from the surrounding Satpura forests. The cool mountain air filled with the scent of pine and the sound of tribal drums creates an atmosphere that feels both festive and serene.",
+    images: [pachmarhi1],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Karthigai Deepam",
-    tagline: "An enchanting festival that illuminates the heart of Tamil Nadu.",
+    name: "Chethiyagiri Vihara Festival",
+    tagline: "Celebrated in Sanchi district of MP",
     description:
-      "Karthigai Deepam is an enchanting festival that illuminates the heart of Tamil Nadu, with little clay lamps twinkling wherever you look like a million stars. The three-day festival, celebrated with great enthusiasm, is an integral part of Tamil culture. Devoted to Lord Karthikeya (also known as Lord Muruga), the lights of Karthigai Deepam are said to ward off darkness and evil spirits, spreading prosperity and joy. - As per ancient Hindu scriptures, the two great deities Lord Vishnu and Lord Brahma once started arguing with each other about who is superior. Each one claimed to be stronger than the other. At that point, Lord Shiva appeared to quell the fight. He took the shape of a huge fire and challenged the two Gods to find the end of the fire from the top and bottom. Lord Vishnu took the form of a boar and tried to reach the end of the fire beneath the earth, but he couldn’t and came back to Lord Shiva saying that he was unable to find it. Lord Brahma on the other hand, took the shape of a swan and flew to find the beginning of the fire on top. But his search too was in vain as he was unable to find the top of the fire. Thus, Lord Shiva proved his supremacy over the two Gods and managed to stop the fight. He then appeared in the form of a hill in Thiruvannamalai. A temple dedicated to Lord Shiva stands on the hill, where Karthigai Deepam celebrations include the lighting of a big fire. The Maha Deepam , which is lit on the hill as the culmination of the 10-day festival at the Arunachaleswarar Temple in Tiruvannamalai, is very famous.  This festival is celebrated during the months of November - December (Karthigai month) {src:incredibleindia.com}",
-    images: [karth1, karth2, karth3],
+      "The Chethiyagiri Vihara Festival is a significant international Buddhist event held in November at the UNESCO World Heritage site of Sanchi. Its most sacred and unique aspect is the public viewing of the 2,500-year-old relics of Sariputta and Mahamoggallana, the two chief disciples of Lord Buddha, which are otherwise kept in a high-security vault. Thousands of monks in saffron robes and pilgrims from Sri Lanka, Japan, and Thailand descend upon the town, turning Sanchi into a global center of peace and meditation. The festival is characterized by a grand procession where the relics are carried through the town, accompanied by traditional chants and Buddhist hymns. Unlike other loud festivals, this event focuses on 'Dhamma Talks' and silent meditation sessions led by revered international scholars. The surrounding stalls offer a unique glimpse into Buddhist literature and handicrafts from across Southeast Asia, creating a rare cross-cultural exchange. It is a deeply spiritual experience that emphasizes the 'Maha Karuna' (Great Compassion) and the architectural legacy of Emperor Ashoka.",
+    images: [chethiyagiri1],
     source: "(src: kalkionline.com, incredibleindia.com, tirthyatra.com)",
   },
   {
-    name: "Karadaiya Nombu",
-    tagline: "Marking the transition from the Tamil month of Maasi to Panguni.",
+    name: "Malwa Utsav",
+    tagline: "Celebrated in Indore & Ujjain district of MP",
     description:
-      "Karadaiya Nombu - marking the transition from the Tamil month of Maasi to Panguni. It is a significant festival where married women and young girls fast and pray to Goddess Kamakshi/Gowri for their husbands' longevity and prosperity, inspired by the story of Savitri and Satyavan. Celebrates the dedication of Savitri, who brought her husband back from Yama, embodying love and commitment. According to the legend, Savitri was a devoted princess who used her wit and devotion to reclaim the life of her husband, Satyavan, from Yama, the god of death. When Satyavan's destined time to die arrived, Savitri followed Yama as he carried her husband's soul away. Impressed by her persistence and eloquent arguments, Yama offered her several boons, excluding the life of her husband. For her final wish, Savitri requested that she be blessed with a hundred sons. When Yama granted the wish, Savitri pointed out that she could not fulfill this blessing without her husband being alive. Bound by his own word, Yama was forced to restore Satyavan to life. Women fast, and prepare special sweet and savory rice cakes called \"Karadai\" or \"Adai,\" served with butter.  Women tie a sacred yellow thread, often with a small flower piece, around their neck, symbolizing their prayer for their husband's long life.",
-    images: [karad1, karad2],
-    source: "(src: kannan's kitchen, veenas vegnation)",
+      "Malwa Utsav is a massive seven-day traveling festival that splits its time between the historic cities of Indore and Ujjain to celebrate the vibrant lifestyle of the Malwa region. It is most famous for hosting one of the largest 'Shilp Hatt' (craft fairs) in Central India, where over 400 craftsmen from across the country display everything from Chanderi silks to Bastar bell-metal art. The festival is a paradise for street-food lovers, as it features dedicated zones for Indore’s world-famous 'Chappan Dukan' style snacks like Garadu and Bhutte Ka Kees. The cultural evenings are a grand display of 'Gharana' music and classical dances, often held at the magnificent Rajwada Palace in Indore or the ghats of Ujjain. A unique feature is the 'Traditional Costume Parade', where participants dress in historical Malwi attire to recreate the era of Devi Ahilya Bai Holkar. The festival also includes a 'Kavi Sammelan', where renowned Hindi poets engage the audience with wit and satire, a staple of the local culture. It is an event that perfectly captures the 'Indori' spirit of hospitality, food, and deep-rooted respect for traditional arts.",
+    images: [malwautsav1],
+    source: "(src: wikipedia)",
   },
 ];
 
 const historicalPlaces = [
   {
-    name: "Six Abodes of Murugan (Arupadai Veedu)",
+    name: "Khajuraho Group of Temples - Chhatarpur",
     description:
-      "Six abodes of murgan -- The Six Abodes of Murugan, known as ‘Arupadai Veedu’, are sacred temples in Tamil Nadu, India, celebrating different stages of Lord Murugan's life, victories, and legends. ",
-    images: [sixAbodes],
-    subPlaces: [
-      {
-        name: "Subramaniyaswamy Temple – Thiruparankundram",
-        location: "Madurai district",
-        description:
-          "Subramaniyaswamy Temple – Thiruparankundram, Madurai district – Located on a hillock, it is first of the Aarupadaiveedu. Murugan's marriage with Deivanai took place here.",
-        images: [thiruparankundram],
-        source: "(src: Tumblr)",
-      },
-      {
-        name: "Arulmigu Senthilnathar Temple – Tiruchendur",
-        location: "Thoothukudi district",
-        description:
-          "Arulmigu Senthilnathar Temple – Tiruchendur, Thoothukudi district - Located along the coast of Bay of Bengal, the temple commemorates the place where Murugan won a victory over the demon Surapadman. ",
-        images: [thiruchendur],
-        source: "(src: cottage9)",
-      },
-      {
-        name: "Arulmigu Dandayudhapani Temple – Palani",
-        location: "Dindigul district",
-        description:
-          "Arulmigu Dandayudhapani Temple – Palani, Dindigul district - Located at the foothills of a hillock, the deity known as 'Kulanthai Velayuthaswami' is depicted as a young form of Murugan, and said to have been worshipped by the goddess Lakshmi. In the temple on the hilltop where 'Dhandayuthapani' is the main deity, Murugan is depicted as a hermit carrying a staff ('danda'). This is the place where Murugan is said to have arrived after his feud with his family over a divine fruit. Divine story of how and why Murugan came to Palani ----  Once upon a time, the revered sage Devrishi Narad paid a visit to Lord Shiva and Maa Parvati. During his visit, he presented Maa Parvati with a unique mango, claiming that whoever consumed it would gain extraordinary qualities and powers. Being the loving mother she is, Mata Parvati wished to share this special fruit between her two sons, Lord Ganesha and Lord Kartikeya. Devarishi Narad proposed that the mango could only be consumed by one person, prompting them to organize a contest between the two brothers. The challenge was set: each had to complete three rounds of the world, and the one who returned first would be declared the winner. Eager to claim the mango, Lord Kartikeya swiftly mounted his peacock and soared into the skies to complete the three rounds. Meanwhile, Lord Ganesha, without a flying mount, contemplated his approach. Undeterred, he began walking around his seated parents, Lord Shiva and Maa Parvati, completing three rounds. When Lord Ganesha finished, he humbly claimed his reward. Perplexed, Lord Shiva and Maa Parvati reminded him that the competition was to encircle the entire world three times. In response, Ganesha, with a wise smile, declared that his parents are his world, and by encircling them, he had indeed completed three rounds of his world. Thus, he emerged as the true victor in the competition of devotion and wisdom.Upon Lord Kartikeya’s triumphant return, expectations of victory filled the air. With his peacock Vahana, he had swiftly traversed the world, confident of securing the divine mango. However, as he approached Lord Shiva and Maa Parvati, the atmosphere shifted. The revelation that Lord Ganesha was declared the winner, not due to physical prowess, but through a profound display of devotion. Due to this, Lord Murugan feeling betrayed and angry at his parents leaves to Palani. ",
-        images: [palani1, palani2],
-        source: "(src: Cottage9, southern travels)",
-      },
-      {
-        name: "Swaminatha Swamy Temple – Swamimalai",
-        location: "Thanjavur district",
-        description:
-          'Swaminatha Swamy Temple – Swamimalai, Thanjavur district - Located atop a small hillock, the temple commemorates the incident where Murugan is regarded to have explained the essence of the Pranava mantra "Om" to his father Shiva. Story ---- Once Brahma, the Lord of all creation, disrespected Murugan when he was visiting Mount Kailash. Then, the ever-playful Murugan boldly asked Brahma the meaning of the Pranava Mantra “OM”. Failing to answer the question, Brahma admitted his ignorance. Murugan knocked his forehead, and imprisoned Brahma, bringing the whole of creation to a standstill. The demigods prayed to Lord Shiva for the release of Brahma. But Murugan insisted the imprisonment was a just punishment for Brahma\'s ignorance. Lord Shiva then asked Murugan whether he Himself knew the meaning of Pranava “Aum”. Murugan said he knew its meaning, but would only explain it if Lord Shiva accepted him as a guru and listened to him as a devoted disciple. Shiva accepted the request, and the son became the teacher. He then imparted upon the father the meaning of the sacred Pranava mantra “Aum” and the divine father, proud of understanding the significance, conferred respect to Murugan for his wisdom. You will see in the main shrine in the temple complex in Swamimalai that Murugan is depicted as a teacher and Shiva is listening as a disciple and, in this temple, the son is on a higher pedestal than the father.',
-        images: [swamimalai],
-        source: "(src: casual walker)",
-      },
-      {
-        name: "Subramanya Swamy Temple – Tiruttani",
-        location: "Thiruvallur district",
-        description:
-          'Subramanya Swamy Temple - Tiruttani, Thiruvallur district - Located atop a hill, Murugan is said to have reclaimed his inner peace after winning a war over the Surapadman and married Valli here. Story ---- After the intensity of the war in Tiruchendur, Murugan needed a place to subdue his anger and seek inner peace, making Tiruttani a place of tranquility. Thanigai in Tamil means "to pacify" or "to calm down," which is why the hill and town are named Tiruttani, where the deity grants mental peace and relieves devotees of anger and stress. Because he came to this spot for peace, the idol of Murugan here is often seen holding a Vajra Vel (thunderbolt weapon) rather than the standard spear, and he is often depicted with a calmer expression and has an elephant mount (vahana)instead of his usual peacock. Valli, a mortal daughter of a tribal chieftain (Kuravas) in Tamil Nadu, was born of a doe and destined to marry Lord Murugan. Valli, from a young age, fell in love with a divine figure (Murugan) and desired to marry him, avoiding all human suitors. Lord Murugan, attracted by her devotion, visited her in the millet fields. He approached her first as a hunter, then with the help of his brother Ganesha (appearing as a wild elephant), he frightened her into accepting his hand in marriage.',
-        images: [thiruttani],
-        source: "(src: Wikipedia)",
-      },
-      {
-        name: "Solaimalai Murugan Temple – Pazhamudircholai",
-        location: "Madurai district",
-        description:
-          'Solaimalai Murugan Temple - Pazhamudircholai, Madurai district – Located on a hillock near a stream called "Nupura Gangai", Murugan is seen here with both his consorts, Deivanai and Valli. - Story ---- Avvaiyar was a renowned and legendary Tamil poetess and a name behind one of the most famous and appreciated works ever written in Hindu folklore. Her exceptional vocabulary and dexterity in the language made her works stand apart, in the list of even the greatest of the poets. This had started to make her audacious over her abilities. According to the pages drenched in the antiquity of the Hindu folklore, Lord Murugan who was well-versed with his devotee wanted to teach her a lesson and took the shape of a ten-year-old boy in here in Solaimalai. After having achieved everything in her life, Avviayar was resting under a Naaval tree, trying to figure out what lied next for her. A small boy appeared out of nowhere and stood on the tree. The boy asked Avviayar if she would like some fruits. Driven by hunger and thirst, she agreed instantly. The boy asked if she wanted a hot fruit or a cold one, which confused Avviayar but was tired to argue and opted for the cold one. Smilingly, the boy shook the tree, as many fruits fell, all of which were collected by her. The fruits were coated with the sand, so Avviayar blew them to remove it. The boy asked innocently, why was she trying to cool down the fruit blowing, which was already cold. This incident left Avviayar humbled by the clever wordplay and the poetic knowledge of the little boy. However, She was skeptical of the boy’s true identity which was revealed to her as Lord Murugan himself. She bowed to the almighty and requested him to bestow her with his bountiful knowledge, for she had realized the power of infinite learning. She sought Lord Murugan’s blessings and embarked on her quest for endless knowledge.',
-        images: [pazhamudir],
-        source: "(src: TemplePurohit)",
-      },
-    ],
-  },
-  {
-    name: "Pancha Bhootam Temples",
-    description:
-      "The Pancha Bhoota Stalam refers to five sacred Shiva temples in South India, each representing a natural element: Earth, Water, Fire, Air, and Ether (Space). Out of 5, 4 of these temples are  located in Tamil Nadu and 1 Is in Andhra Pradesh, embodying the Hindu philosophy that nature's elements are manifestations of Shiva. In the temples, Shiva is said to have manifested himself in the respective forms of the five elements.",
-    hasImage: false,
-    subPlaces: [
-      {
-        name: "Earth – Bhumi Lingam – Ekambareshwar Temple",
-        location: "Kanchipuram",
-        description:
-          "Earth – Bhumi Lingam – Ekambareshwar Temple – Kanchipuram - Shiva is worshipped as Ekambareswarar or Ekambaranathar, and is represented by the lingam, with his idol referred to as Prithvi (earth) lingam. The temple complex covers 25 acres and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the southern tower, with 11 stories and a height of 58.5216 metres (192 ft), making it one of the tallest temple towers in India. The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagara period. Legend has it that once Parvati, the consort of Shiva, wanted to expiate herself from sin by doing penance under the temple's ancient Mango tree near the Vegavati river. She created the lingam out of wet soil. This lingam is now covered with silver. ",
-        images: [bhumiLingam],
-        source: "",
-      },
-      {
-        name: "Water – Varuna/Jambu Lingam – Jambukeshwarar Temple",
-        location: "Thiruvanaikaval, near Trichy",
-        description:
-          "Water – Varuna/Jambu lingam – Jambukeshwarar Temple – Thiruvanaikaval, near Trichy - The sanctum of Jambukeswara has the copper plated lingam and an underground water stream, and despite draining the water out, it is always filled with water. Once, Parvati mocked Shiva's penance for the betterment of the world. Shiva wanted to condemn her act and banished her to the earth from Mount Kailash (Shiva's heavenly abode) to do penance. Parvati, in the form of Akhilandeshwari as per Shiva's wish, found the Jambu forest to conduct her penance. She made a lingam out of water of the river Kaveri (also called as river Ponni) under the Venn Naaval tree (the jambu tree on top of the saint Jambu) and commenced her worship. The lingam is known as Appu Lingam or Jala Lingam (Water Lingam). There are five enclosures inside the temple. The massive outer wall covering the fifth precinct, known as the Vibhuti Prakara, stretches over a mile and is two feet thick and over 25 feet high. Legend maintains that the wall was built by Shiva working with the labourers.[10] The fourth precinct contains a hall with 796 pillars and measures 2436 feet by 1493.",
-        images: [jambuLingam],
-        source: "",
-      },
-      {
-        name: "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple",
-        location: "Thiruvannamalai",
-        description:
-          "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple – Thiruvannamalai - Shiva is worshipped as Annamalaiyar or Arunachaleshwar, and is represented by a silver plated lingam, with his idol referred to as Agni lingam. The sanctum inside is always lit by fire lamps. The 9th-century Shaiva saint poet Manikkavacakar composed the Tiruvempaavai here. The temple complex covers 10 hectares and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the eastern tower, with 11 stories and a height of 66 metres (217 ft), making it one of the tallest temple towers in India built by Sevappa Nayakar (Nayakar dynasty). The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagar period. The Karthika Deepam festival is celebrated during the day of the full moon between November and December, and a huge beacon is lit atop the nearby Annamalai hill. It can be seen from miles around, and symbolises the Shiva lingam of fire joining the sky. The event is witnessed by three million pilgrims. On the day preceding each full moon, pilgrims circumnavigate the temple base and the Annamalai hills in a worship called Girivalam, a practice carried out by one million pilgrims yearly. ",
-        images: [jyothiLingam],
-        source: "",
-      },
-      {
-        name: "Ether/Space – Indra/Akasha Lingam – Thillai Natarajar Temple",
-        location: "Chidambaram",
-        description:
-          'Ether/ Space – Indra/Akasha Lingam – Thillai Natarajar Temple – Chidambaram - Chidambaram, the name of the city and the temple, literally means "atmosphere of wisdom" or "clothed in consciousness"; the temple architecture symbolises the connection between the arts and spirituality, creative activity and the divine.The temple wall carvings display all the 108 karanas from the Natya Shastra by Bharata Muni, and these postures form a foundation of Bharatanatyam, a classical Indian dance. The present temple was built in the 10th century when Chidambaram was the capital of the Chola dynasty, making it one of the oldest surviving active temple complexes in South India. After its 10th-century consecration by the Cholas who considered Nataraja as their family deity, Shiva himself is idolised in three forms, as a crystal lingam, as a formless space covered by curtains (Chidambaram rahasyam), and as the Nataraja performing the Ananda Tandava ("Dance of Delight") in the golden hall of the shrine Pon Ambalam. The temple is one of the five elemental lingas in the Shaivism pilgrimage tradition, and considered the subtlest of all Shiva temples (Kovil) in Hinduism. It is also a site for performance arts, including the annual Natyanjali dance festival on Maha Shivaratri.',
-        images: [akashaLingam],
-        source: "",
-      },
-      {
-        name: "Air – Vayu Lingam – Srikalahasti Temple",
-        location: "Srikalahasti, Andhra Pradesh",
-        description:
-          "The one Pancha Bhootam temple located outside Tamil Nadu. Shiva is worshipped as Srikalahastishvara — the lord of Vayu (wind). A lighted lamp inside the sanctum always flickers as if in a breeze, even though there is no air moving, symbolising the presence of Vayu (Air). It is one of the most celebrated Shiva temples in South India.",
-        hasImage: false,
-        source: "",
-      },
-    ],
-  },
-  {
-    name: "1000-Pillar Temple — Madurai Meenakshi Temple",
-    description:
-      'Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). Built around 1569 by Ariyanatha Mudaliyar, the minister of the Nayak dynasty, the hall is known for its structural beauty and detailed carvings. It is called the 1000-pillar temple because it houses a massive, 16th-century hall known as the Aayiram Kaal Mandapam, which contains a vast, intricately carved forest of pillars. Though often referred to as "1000," the hall actually holds 985, not 1000, granite pillars arranged in rows. While the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries. While a few structural improvements were made during the 18th and 19th centuries CE, the temple condition degraded due to negligence during the British Raj. After the Indian independence in the mid 20th century, the temple was restored with donations collected from people. Further restoration and kumbhabhishekam of the temple was conducted in 1974, 1995, and 2009. The temple conducts six pujas everyday, each comprising four rituals namely abhisheka (sacred bath), alankaram (decoration), naivedanam (food offerings) and deepa aradanai (lamp ceremony) for both Meenakshi and Sundareswarar. The rituals and festivals are accompanied with music from instruments such as nadhaswaram (pipe instrument), davandai and tavil (percussion instrument), often along with the recitation of the Vedas. The Hindus circumambulate the shrines clockwise before entering the shrine for a darshana. The Meenakshi shrine is typically visited before the Sundareswarar shrine by the pilgrims, as she is considered the primary deity of the complex. The Meenakshi temple hosts a festival in each month of the Tamil calendar. The Meenakshi thirukalyanam, which celebrates the wedding of Meenakshi and Sundareswarar, is celebrated over 15 days, and is the most attended festival. The festival, celebrated during the month of Chithirai, is part of the ‘Chithirai Thiruvizha’. The festivities include number of events such as the ‘Ther Thiruvizha’ (temple car festival) and ‘Theppa Thiruvizha’ (float festival). The wedding of the divine couple is regarded as an instance of a South Indian wedding with matrilineal emphasis, an arrangement referred as "Madurai marriage", which is in contrast with the "Chidambaram marriage", with patrilineal emphasis, named after the rituals at the Nataraja temple at Chidambaram. The festival includes the wedding ritual, where Alagar (Vishnu) gives away his sister Meenakshi, the royal bride, in marriage to Shiva, and a procession, where the idols of Meenakshi and Sundareswarar are taken in a temple car, pulled by volunteering devotees.',
-    images: [meenakshi1, meenakshi2, meenakshi3, meenakshi4],
-    source: "(src: Wikipedia, National Geographic)",
-  },
-  {
-    name: "Rameshwaram Temple",
-    description:
-      "Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the Hindu god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is one of the twelve Jyotirlinga temples. According to tradition, the lingam (an aniconic form of Shiva) of the Ramanathaswamy Temple was established and worshipped by Rama before he crossed the bridge called Rama Setu to the island kingdom of Lanka, identified with Sri Lanka. It is one of the Char Dham pilgrimage sites. In the Yuddha Kanda of the Ramayana, on their journey back to Ayodhya, Rama narrates to Sita the appearance and worship of Shiva in the form of a lingam on the island of Rameswaram before the construction of his bridge to Lanka. He describes the spot to be supremely sacred and capable of expiating major sins. In the Shiva Purana, Rama propitiates Shiva on the shore of Rameswaram in the form of a lingam by the repetition of mantras, meditation, and dancing. Pleased, the deity appeared before Rama and granted his requested boon of victory over Ravana. Rama then requested the deity to remain on the island to sanctify the world and offer his grace to all people. There are sixty-four Tīrthas (holy water bodies) in and around the island of Rameswaram, Tamil Nadu, India. According to Skānda Purāṇa, twenty-four of them are important. Bathing in these Tīrthas is a major aspect of the pilgrimage to Rameswaram and is considered equivalent to penance. Twenty-two of the Tīrthas are within the Rāmanāthasvāmī Temple. The number 22 indicates the 22 arrows in Rama's quiver. is famous for its massive corridor, which features 1,212 intricately carved, symmetrical pillars. These sandstone pillars, standing approximately 30 feet tall, form the world's longest temple corridor. Some reports suggest the overall temple complex may have up to 4,000 pillars in total.",
-    images: [rames1, rames2, rames3],
-    source: "(src: Famous Tamil Nadu Temples, Wikimedia Commons, Intermiles)",
-  },
-  {
-    name: "Dhanushkodi",
-    description:
-      "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres (15 mi) west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath. Although devoid of inhabitants, Dhanushkodi remains a tourist attraction due to its historical and mythological relevance. An estimated 1,800 people died in the cyclonic storm on 22 December 1964 including 115 passengers on board the Pamban-Dhanushkodi passenger train. The entire town was marooned and the Government of Madras declared Dhanushkodi as a ghost town, unfit for living. Around the 40th anniversary of the deadly cyclone, the sea around Dhanushkodi receded about 500 metres (1,600 ft) from the coastline, briefly exposing the submerged part of the town before massive tsunami waves struck the coast on 26 December 2004. The name Dhanushkodi means \"end of the bow\".It is significant for its deep mythological roots to the Ramayana, having served as the site where Lord Rama is believed to have marked the starting point of the Ram Setu bridge to Lanka. It serves as the starting point for the legendary Ram Setu, a 50 km long chain of limestone shoals connecting India's Rameswaram Island to Sri Lanka's Mannar Island.",
-    images: [dhanush1, dhanush2],
-    source: "(src: Kiomoi Travels, Tusk Travels)",
-  },
-  {
-    name: "Pamban Bridge",
-    description:
-      "Pamban bridge was a railway bridge that connected the town of Rameswaram on Pamban Island with Mandapam in mainland India. Opened on 24 February 1914, it was India's first sea bridge. The Pamban bridge was the only surface transport link that connected Rameswaram to the mainland India until 1988, when a road bridge was constructed parallel to the railway bridge. In 2020, construction of a new bridge closer to the existing one began which was planned to eventually replace the existing bridge. The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025.",
-    images: [pamban1, pamban2, pamban3],
-    source: "",
-  },
-  {
-    name: "The Great Chola Temples (UNESCO World Heritage Site)",
-    description:
-      "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands. The site includes three great 11th- and 12th-century Temples: the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram and the Airavatesvara Temple at Darasuram. The Temple of Gangaikondacholisvaram, built by Rajendra I, was completed in 1035. Its 53-m vimana (sanctum tower) has recessed corners and a graceful upward curving movement, contrasting with the straight and severe tower at Thanjavur. The Airavatesvara temple complex, built by Rajaraja II, at Darasuram features a 24-m vimana and a stone image of Shiva. The temples testify to the brilliant achievements of the Chola in architecture, sculpture, painting and bronze casting.. The Thanjavur temple is also variously known as Thanjai Periya Kovil, the Thanjavur Big Temple or Rajarajeshwaram, temple of the God of Rajaraja. It is one of the largest Hindu temples and an exemplar of Tamil architecture. Rajaraja himself referred to his temple as Dakshina Meru or the southern abode of Lord Shiva. Construction of the temple began in about 1003-1004 CE, and it was consecrated by Rajaraja in 1010 CE. The Chola kingdom was economically prosperous – they not only controlled every important trading port in south India, but they also had a monopoly over production of the gold mines of Kolar, the pearl fisheries in the Gulf of Mannar, the diamond mines that lay between the rivers Krishna and Pennar on the Deccan plateau (the Golconda mines) and the gem production of Ceylon as well. They are recognized as one of the 44 unesco world heritage sites of india because of the following 4 criterias-\n\nCriterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the dravida type of temple.\n\nCriterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.\n\nCriterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilisation in Southern India.\n\nCriterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.",
-    images: [chola1, chola2, chola3],
-    source: "(src: Moneycontrol, Incredible India)",
-  },
-  {
-    name: "Velankanni Church",
-    description:
-      "The Basilica of Our Lady of Good Health, also known as Sanctuary of Our Lady of Velankanni, is a Christian shrine located at the town of Velankanni, Tamil Nadu, India. The shrine is dedicated to the Blessed Virgin Mary. The devotion has existed since the mid-sixteenth century, it is attributed to three separate events which occurred at the site: The apparition of the Madonna and Child to a slumbering shepherd boy, the miraculous healing of a handicapped buttermilk vendor and the rescue of Portuguese sailors from a deadly sea storm. The basilica is built in the Gothic style of architecture. The southern side was extended in 1928 and the northern in 1933. The Shrine Basilica contains three chapels, as well as Our Lady's Tank, Church Museum, Priests' Residence, Offering Center, Stations of the Cross, mysteries of the rosary, Shrine Mega Mahal and Velankanni Beach. The building is painted in white, except for the roof that is made of red tiles. For Goan and Konkani people, she is called \"Shantadurga\" (most compassionate one). A major event is the procession, where only women are allowed to pull the first car and a statue of Mary is in the last and most decorated one. People of other religions also take part. The pilgrims sometimes shave their heads as an offering and perform ear-piercing ceremonies, both being Hindu traditions. Another ritual considered sacred is dipping oneself in the pond. There is a holy flag which is lowered to signal the end of the festival.",
-    images: [velan1, velan2, velan3],
+      "These temples were built by the Chandela Dynasty between 950 and 1050 AD. Originally a complex of 85 temples (only 22 survive), they are famous for their Nagara-style architecture and intricate erotic sculptures. They were 'rediscovered' by British officer T.S. Burt in 1838. The temples represent a high point of North Indian temple art, emphasizing the four goals of life in Hinduism: dharma, artha, kama, and moksha. The temples are divided into three groups: Western, Eastern, and Southern. The Kandariya Mahadeva Temple is the largest and most ornate. The sculptures are not merely erotic; they depict everyday life, music, dance, and celestial beings. Beyond the famous carvings, the temples are engineered with a sophisticated 'sand-box' foundation technique to withstand earthquakes, explaining why they remain standing after 1,000 years. The Kandariya Mahadeva temple alone features 872 statues, each meticulously placed to create a fractal-like appearance that mimics a mountain range. Interestingly, the temples were dedicated to both Hinduism and Jainism side-by-side, reflecting a high degree of religious harmony during the Chandela reign. The site is now a UNESCO World Heritage treasure, preserved for its 'expressiveness' and technical mastery in stone. The name Khajuraho, or Kharjuravāhaka, is derived from ancient Sanskrit (kharjura, खर्जूर means date palm, and vāhaka, वाहक means 'one who carries' or bearer). Local legends state that the temples had two golden date-palm trees as their gate (missing when they were rediscovered). Desai states that Kharjuravāhaka also means scorpion bearer, which is another symbolic name for deity Shiva (who wears snakes and scorpion garlands in his fierce form). Cunningham's nomenclature and systematic documentation work in 1850s and 1860s have been widely adopted and continue to be in use. He grouped the temples into the Western group around Lakshmana, Eastern group around Javeri, and Southern group around Duladeva.",
+    images: [khajurahotemple1, khajurahotemple2, khajurahotemple3],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Thiruvalluvar Statue, Kanyakumari",
+    name: "Sanchi Stupa - Raisen",
     description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
+      "Commissioned by Emperor Ashoka in the 3rd century BC, Sanchi is one of the oldest stone structures in India. It was formed to house the relics of Lord Buddha. The Great Stupa was later expanded during the Shunga and Satavahana periods with ornate gateways (Toranas) depicting Jataka tales. It was found in ruins in 1818 by General Taylor. It serves as a symbol of the spread of Buddhism across Asia. The four 'Toranas' (gateways) are considered the finest specimens of early Indian stone carving, depicting over 50 stories from the Jataka tales. Unlike later Buddhist art, the Buddha is never shown in human form here; instead, he is represented by symbols like a footprint, a throne, or a Bodhi tree. The Ashoka Pillar located near the main stupa is famous for its 'Mauryan Polish', a glass-like finish on stone that scientists still find difficult to replicate today. The site also includes the ruins of a 7th-century temple, proving Sanchi remained a living religious center for over 1,300 years. The Great Stupa at Sanchi is one of the oldest stone structures in India, and an important monument to the historical architecture of India. It was originally commissioned by the Mauryan emperor Ashoka in the 3rd century BCE. Its nucleus was a simple hemispherical brick structure built over the relics of the Buddha. It was crowned by the chatra, a parasol-like structure symbolising high rank, which was intended to honour and shelter the relics. The original construction work of this stupa was overseen by Ashoka, whose wife Devi was the daughter of a merchant of nearby Vidisha. Sanchi was also her birthplace as well as the venue of her and Ashoka's wedding. In the 1st century BCE, four elaborately carved toranas (ornamental gateways) and a balustrade encircling the entire structure were added. The stupa at Sanchi built during the Mauryan period was made of bricks. The composite flourished until the 11th century.",
+    images: [sanchi1, sanchi2, sanchi3],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Vivekananda Rock Memorial",
+    name: "Bhimbetka Rock Shelters - Raisen",
     description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
-    images: [vive1, vive2, vive3],
+      "These are prehistoric caves discovered by V.S. Wakankar in 1957. They contain paintings that are over 30,000 years old, showing the earliest traces of human life on the Indian subcontinent. The paintings depict scenes of hunting, dancing, and daily life using natural pigments like red and white. These natural sandstone formations provided shelter to humans from the Paleolithic to the Mesolithic ages. These shelters are not just 'caves' but a massive open-air gallery spanning 10 km, containing the 'Zoo Rock' which depicts 252 animals of 16 different species. Excavations here revealed stone tools from the Acheulian period, suggesting that human ancestors lived here nearly 100,000 years ago. The paintings were made using a mixture of colored earth, vegetable dyes, and even animal fat, which has chemically bonded with the rock to survive the elements. It is one of the few places on Earth where you can see a continuous record of human evolution from the Stone Age to the Medieval era. Bhimbetka meaning 'Bhima's resting place' or 'Bhima's lounge', is compound word made of Bhima (second brother among the five Pandavas of Mahabharata) and Baithaka (seat or lounge). According to the native belief, Bhima during his exile used to rest here to interact with the locals. Bhima Worshiped Mata Vaishavi at this location and blessed for concurring the forthcoming war. There is a famous Mata Vaishavi Temple existing at this place since long.",
+    images: [bhimbetka1, bhimbetka2, bhimbetka3],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Gwalior Fort",
+    description:
+      "Known as the ""Gibraltar of India,"" its foundations date back to the 6th century AD. It was built and expanded by various rulers, most notably Raja Man Singh Tomar in the 15th century. The fort houses the Teli Ka Mandir and the Saas-Bahu Temple. It witnessed numerous sieges by the Mughals, Marathas, and the British. The architecture is a stunning blend of Hindu and Islamic styles, featuring blue ceramic tiles on the outer walls. The fort is home to the 'Gujari Mahal', a palace built by Raja Man Singh specifically for his queen Mrignayani, who demanded her own palace with a continuous supply of water from the Rai River. Emperor Babur was so impressed by its grandeur that he famously called it 'the pearl amongst fortresses in Hind'. The fort also holds a deep mathematical secret: a small 9th-century temple inside contains one of the oldest inscribed 'zeros' in the world. Its blue-painted outer walls, decorated with yellow ducks and elephants, were intended to make the fort look like a 'living palace' from a distance. Gwalior derived its name from the Gwalior Fort itself, which was earlier known as Gopgiri, Gop Parvat (Shepherd's Hill) or Gopachal during Gupta period. In ancient time this region was known as Gopashetra roughly translated to 'the land of Gopis' or 'the land associated to Cowherds'. The name is believed to have connections with the Gopis (the cow herdesses or cowherds girls) of the Lord Krishna mythology. It is said that the area was once inhabited by cowherds and associated with pastoral activities, especially in the times of Mahabharata. This may refer to the cultural or historical ties with Lord Krishna worship, which had an influence on the region. Gwalior was the major commercial and trade route during Samudragupta reign. According to some legends, Gwalior was founded in 600 CE (early 5th Century) after a local chieftain, Suraj Sen, who was cured of leprosy from a drink given to him by a hermit named Gwalipa. Suraj subsequently set up a city and fort and named them after Gwalipa.",
+    images: [gwalior1, gwalior2, gwalior3],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Jahaz Mahal (Mandu) - Dhar",
+    description:
+      "Built during the reign of Sultan Ghiyas-ud-din Khalji in the late 15th century, this ""Ship Palace"" is situated between two artificial lakes, Munj and Kapur. It was designed to resemble a ship floating in water, serving as a harem for the Sultan. Mandu’s architecture influenced the later Mughal style, particularly the Taj Mahal. The structures are made of local stone and exhibit refined Afghan architectural features. The palace is an engineering feat of the 15th century, featuring a sophisticated 'water-cooling' system where air was passed over the surrounding lakes to act as natural air conditioning. It contains two star-shaped swimming pools and a complex network of spiral aqueducts that filtered rainwater for the palace residents. Mandu was once known as 'Shadiabad' (The City of Joy), and its architecture served as a direct prototype for the tomb of I’timād-ud-Daulah and the Taj Mahal. The 'Ship Palace' is uniquely designed with no defensive walls, as it was built purely for aesthetic pleasure and royal retreats.Jahaj Mahal is the venue of the annual colorful festival of the Phool Walon Ki Sair (means a procession of the florists) or 'Sair-i-Gulfaroshan' held in October. A procession of flower bedecked pankhas (fans) made and carried by the flower vendors starts from Mehrauli at the overflow outlet of the Hauz-i-Shamsi tank, called 'Jharna', stops at the Yogmaya Temple for the first offering of the flower fan as mark of reverence, moves to the Jahaj Mahal and finally ends at the famous dargah of Hazrat Qutbuddin Bakhtiar Kaki for the presentation of the fans and chaddar at Kaki's dargha. It marks the syncretic Hindu-Muslim composite culture. The festival was started by Emperor Akbar Shah II in 1820. It was popularised by Emperor Bahadur Shah II. It was discontinued from 1942 for a time during the British period but was restarted in 1961 at the initiative of Pandit Jawaharlal Nehru, the first Prime Minister of India. The three-day festival is held at the Jahaj Mahal where elaborate cultural programmes are organised. Cultural troupes from several States of India perform dances, drama programmes and hold musical soirees (particularly Qawwalis), in their colourful regional costumes and aspire for honours recognising their talent.",
+    images: [jahaz1, jahaz2, jahaz3],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
+    name: "Mahakaleshwar Temple - Ujjain",
     description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
+      "One of the 12 Jyotirlingas, its history dates back to the prehistoric period, but the current structure was rebuilt by the Marathas in the 18th century. It is the only Jyotirlinga that faces south (Dakshinmukhi). The temple complex was famously destroyed by Iltutmish in 1234 AD and lay in ruins for centuries. The temple is unique because the idol of Omkareshwar is consecrated above the Mahakal shrine, and the idol of Nagchandreshwar is on the third floor, opened for public viewing only once a year during Nag Panchami. Historical coins from the 4th century BC found in Ujjain already featured the image of Lord Shiva, proving the temple’s ancient roots. The current structure exhibits a rare 'Bhumija' architectural style, characterized by a star-shaped plan and a tapering spire. It serves as the spiritual heart of the city, which was once the Prime Meridian for ancient Indian astronomers and geographers. According to the Puranas, the city of Ujjain was called Avantika and was famous for its beauty and its status as a devotional epicenter. It was also one of the primary cities where students went to study holy scriptures. According to legend, there was a ruler of Ujjain called Chandrasena, who was a pious devotee of Shiva and worshiped him all the time. One day, a farmer's boy named Shrikhar was walking on the grounds of the palace and heard the King chanting Shiva's name and rushed to the temple to start praying with him. However, the guards removed him by force and sent him to the outskirts of the city near the river Kshipra. Rivals of Ujjain, primarily King Ripudamana and King Singhaditya of the neighboring kingdoms decided to attack the Kingdom and take over its treasures around this time. Hearing this, Shrikhar started to pray and the news spread to a priest named Vridhi. He was shocked to hear this and upon the urgent pleas of his sons, started to pray to Shiva at the river Kshipra. The Kings chose to attack and were successful; with the help of the powerful demon Dushan, who was blessed by Brahma to be invisible, they plundered the city and attacked all the devotees of Lord Shiva. Ujjain is the only Jyotirlinga where the sacred Bhasma Aarti is performed on the Shiv Lingam.",
+    images: [ujjain1, ujjain2, ujjain3],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
+    name: "Omkareshwar Temple",
     description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
-    source: "",
+      "It is a Hindu temple dedicated to Shiva, located in Mandhata, nearby Khandwa city in Khandwa district of the Indian state of Madhya Pradesh. It is one of the 12 revered Jyotirlinga shrines of Shiva.[1] It is on an island called Mandhata, near Khandwa city in the Narmada River at Khandwa district in Madhya Pradesh, India; the shape of the island is said to be like the Devanagari ॐ symbol. There are two main temples of Shiva here, one to Omkareshwar (whose name means 'Lord of Omkara or the Lord of the Om sound') located in the island and one to Mamleshwar (Amaleshwar) (whose name means 'Immortal Lord' or 'lord of the Immortals or Devas') located on the southern bank of the Narmada River on the mainland. Madhya Pradesh has two Jyotirlingas, the second one, Mahakaleshwar Jyotirlinga, is situated about 140 km north of Omkareshwar Jyotirlinga. The idol of Mahakaleshwar is Dakshinamurti, meaning it faces south. This is a unique feature, upheld by the tantric shivnetra tradition to be found only in Mahakaleshwar among the 12 Jyotirlingas. The idol of Omkareshwar Mahadevji is consecrated in the sanctum above the Mahakal shrine. The images of Ganesh, Parvati and Karttikeya are installed in the west, north, and east of the sanctum sanctorum. To the south is the image of Nandi, the vehicle of Shiva. The idol of Nagchandreshwar on the third storey is open for darshan only on the day of Nag Panchami. The temple has five levels, one of which is underground. The temple itself is located in a spacious courtyard surrounded by massive walls near a lake. The shikhar or the spire is adorned with sculptural finery. Brass lamps light the way to the underground sanctum. It is believed that prasada (holy offering) offered here to the deity can be re-offered unlike all other shrines.",
+    images: [omkareshwar1, omkareshwar2],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Trichy Malaikottai (Rockfort)",
+    name: "Asirgarh Fort - Burhanpur",
     description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
+      "Built by Asa Ahir of the Ahir dynasty in the 14th century, it was known as the 'Gateway to the Deccan'. It is perched on the Satpura Range. The fort was captured by Akbar in 1601 after a long siege. It houses a unique 10th-century Shiva temple and several Mughal-era structures. Known as the 'Key to the Deccan', the fort’s three-layered defense (Asirgarh, Kamargarh, and Malaygarh) made it practically invincible to direct military assault. It is home to the 10th-century Gupteshwar Mahadev Temple, where local legend claims Ashwatthama from the Mahabharata still offers fresh flowers to Shiva every morning. The fort also features a massive 'Jami Masjid' built by the Faruqi dynasty, which has unique Sanskrit inscriptions alongside Arabic ones. Even the British were so impressed by its location that they maintained a garrison here until the early 20th century. The architecture of the fort is mainly influenced by the Indian architecture, some parts also show Faroqi and Mughal architecture, an amalgamation of Islamic, Persian, Turkish and Indian styles. There are three man made ponds to provide a water supply. There is a temple known as Gupteshwar Mahadev Mandir, dedicated to the Hindu deity Shiva. There is a local legend that Ashwatthama, a character in the Indian epic Mahābhārata, used to come to this temple to worship and offer flowers each morning to Lord Shiva. There is a ruined mosque of faroqi era with minarets known as Asir Masjid inside the Fort. Apart from the Hindu and Muslim architecture, some ruins are of British origin and there are also British graves. This fort has been deserted following the departure of the British.",
+    images: [asirgarh1, asirgarh2, asirgarh3],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Srirangam Ranganathaswamy Temple",
+    name: "Jahangir Mahal (Orchha) - Nihari",
     description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+      "Built by Raja Bir Singh Deo in the 17th century to welcome Mughal Emperor Jahangir. It is a classic example of Bundela architecture combined with Mughal influence. The palace has 136 rooms and numerous courtyards. It was formed using local stone and lime, featuring delicate latticework and domes. This palace is a masterpiece of 'Bundela' architecture, defined by its massive stone domes (chhatris) and delicate turquoise tilework that still shimmers today. The building is perfectly symmetrical, with 136 rooms arranged around a central square courtyard that was once filled with fountains and music. It was built using a robust lime-based mortar that has kept the structure sound for over 400 years with very little restoration. The palace’s entrance is flanked by two large stone elephants, symbolizing the royal hospitality of Raja Bir Singh Deo for his friend, Emperor Jahangir. The ruler of the region Vir Singh Deo built the structure as a symbol of warm reception of the Mughal Emperor Jahangir, during the latter’s first visit to the city. The entrance of the palace is marked by an artistic and traditional gateway. The front wall of the structure faces to the east and is covered with turquoise tiles. Jahangir Mahal is a three-storied structure that is marked by stylishly hanging balconies, porches, and apartments. The domes of the Jahangir Mahal, were built according to Timurid customs; its grand Iwans are large enough to accommodate the entry of war elephants, and its high position over the landscape allowed cannons superior range.",
+    images: [jahangir1, jahangir2],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Rajwada Palace - Indore",
+    description:
+      "Built by the Holkars of the Maratha Empire over 200 years ago. It is a unique seven-story structure; the lower three floors are stone, and the upper four are wood. It represents a fusion of Maratha, Mughal, and French styles. It has survived three major fires, the most recent being in 1984. The palace is a rare example of a 'living' royal residence that has been rebuilt multiple times, blending Maratha architectural strength with French interior elegance. Its seven-story 'Gopuram-style' entrance is the tallest in the state and features a central courtyard with a beautiful Maratha-arched Ganesha hall. The palace faces a lush garden named 'Ahilya Vatika', featuring a statue of the legendary Queen Ahilya Bai Holkar. Despite the upper floors being made of wood, the palace has survived major historical fires, becoming a symbol of Indore's resilience and heritage. The structure comprises two parts with one near the center of the city and the other in an older section. Both parts utilize Maratha architectural styles. The entrance itself is marked with a large wooden door, supported by iron studs. Inside the entryway, there is a courtyard that consists of a Maratha arched Ganesha hall and a number of balconies, windows, and corridors that link to galleried rooms. The lower three floors are made of stone and the upper floors are made of wood.",
+    images: [rajwada1, rajwada2],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Heliodorus Pillar - Vidisha",
+    description:
+      "A stone column erected around 113 BC by Heliodorus, a Greek ambassador to the court of King Bhagabhadra. It is locally known as Khamba Baba. It is historically significant because it proves the early Greek connection to Vaishnavism. It was rediscovered by Alexander Cunningham in 1877. This pillar is the first archaeological evidence of a foreigner (a Greek ambassador) becoming a devotee of Vishnu, marking a major milestone in global religious history. The pillar is carved from a single piece of pinkish-brown sandstone and features ornamental bands of pigeons and floral festoons that are distinct from Mauryan art. Excavations in the 1960s revealed that the pillar was originally part of a massive temple complex with an elliptical plan, a rare shape in ancient Indian architecture. Locally called 'Khamba Baba', it is still worshipped by local farmers today as a protector of their crops. The Heliodorus Pillar is a stone column, which was constructed in about 150 BCE. This stone column was erected by the Greek ambassador of the Indo-Greek King Antialcidas, who came to the court of Bhagabhadra, a possible Sunga king. Dedicated to Lord Vāsudeva, this column was constructed in front of the temple of Vāsudeva. The pillar is situated about four kilometers away from the city on Vidisha-Ganj Basoda SH-14, located on the northern bank of the Vais River. It is a 20 feet and 7 inches tall stone pillar, commonly called Kham Baba. The script used in the inscription is Brahmi but the language is Prakrit, recording that Heliodorus erected the pillar as a Garuda Stambha to pay homage to Lord Vasudeva, who was later integrated as a manifestation of Lord Vishnu.",
+    images: [khamba1, khamba2],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Badal Mahal Gate - Ashoknagar",
+    description:
+      "Located in Chanderi, it was built by Sultan Mehmood Shah Khilji in the 15th century. It is not a palace but a standalone ceremonial gateway. The gate features intricate carvings and double arches. It is a landmark of the Malwa Sultanate's architectural prowess. The Badal Mahal Gate is a 'triumphal arch' that stands 50 feet high, featuring two tapering minarets and a double-arched entrance that creates a beautiful framing effect. It is a prime example of the 'Malwa Sultanate' style, which avoided the heavy carvings of the North in favor of clean lines and elegant geometric proportions. The gate was strategically placed to overlook the Chanderi fort, serving as a landmark for travelers entering the city from the hills. Today, the gate’s image is so famous that it is often used as a background for Chanderi’s world-renowned silk weaving industry. This imposing gate has a height of 100 feet, and bears intricate designs and netted windows that portray inferences of Mughal architecture. The upper portion of the gate shows four beautifully carved windows, each with a different design motif. On the other side of the gate is a hanging balcony where the musicians used to sit to entertain guests. This balcony was also used to shower flower petals on the guests as they passed under. At best, Badal Mahal is a facade, which looks stunning against the backdrop of a hill and the Kirti Durg Fort.",
+    images: [badal1, badal2, badal3],
+    source: "(src: Wikipedia)",
   },
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "Madhya Pradesh is the only place in India where you can find both the Royal Bengal Tiger and the newly reintroduced Cheetahs (at Kuno National Park). It has the highest tiger population in the country, earning it the official title of the Tiger State.",
+  "MP is the only state in India that produces diamonds. The Panna Diamond Mines are famous worldwide, and every year, people still find high-quality diamonds in the shallow mines there.",
+  "Geographically, the exact center point of undivided India is located in the Katni district (Karondi village). If you look at a map, MP sits perfectly in the middle, balancing the north, south, east, and west of the country.",
+  "Indore has been ranked as India’s Cleanest City for seven consecutive years (as of 2024-2025). This is a massive achievement in urban data management and civic sense.",
+  "The Bhimbetka Rock Shelters contain paintings that are over 30,000 years old. These are some of the oldest records of human life in the world, showing that people were singing, dancing, and hunting in MP since the Stone Age.",
+  "The famous story of Mowgli in 'The Jungle Book' by Rudyard Kipling was inspired by the real forests and landscapes of Pench National Park and Seoni in Madhya Pradesh.",
+  "Ujjain was historically the 'Prime Meridian' for Hindu geographers, used for time calculations long before Greenwich.",
+  "Gwalior is recognized by UNESCO as a 'City of Music' due to its deep-rooted history with the Gwalior Gharana and Tansen.",
+  "While Madhya Pradesh is the 'Tiger State', it holds a more specific distinction: Rewa is the ancestral home of all known White Tigers in the world. The first white tiger, named Mohan, was captured here in 1951, and almost every white tiger in captivity today is a descendant of the Rewa line.",
+  "The Singrauli district is not just the energy capital of India; it houses the Jhingurda coal seam, which is the second thickest in the world and the thickest in Asia. From a resource management perspective, this single area powers a massive portion of the Indian national grid.",
+  "Beyond being a time-keeping hub, Ujjain is home to the Sandipani Ashram. According to ancient texts, this is where Lord Krishna and Sudama received their education. This makes the city one of the oldest recorded 'educational hubs' in human history.",
+  "The Narmada Valley is one of the few places in the world where you can find dinosaur fossils and eggs in abundance. The Rajasaurus narmadensis (the 'Princely Lizard of the Narmada') was a species of carnivorous dinosaur that roamed this specific region millions of years ago.",
+  "The Gol Gumbaz style isn't the only place with unique acoustics. The Jami Masjid in Mandu is built in such a way that it has incredible sound echoing properties. Furthermore, the Hoshang Shah’s Tomb in Mandu is India’s first marble structure; it was so influential that it reportedly served as a template for the designers of the Taj Mahal.",
+  "The Great Stupa at Sanchi is the oldest stone structure in India. Originally commissioned by Emperor Ashoka in the 3rd century BCE, its design (a hemispherical dome) actually represents the curve of the universe in ancient cosmology.",
+  "The Dharmarajeshwar temple in Mandsaur is often compared to the famous Kailasa Temple at Ellora. It is a massive structure carved out of a single solid natural rock, moving from top to bottom, showcasing incredible ancient precision engineering.",
 ];
 
 const artGallery = [
   {
-    title: "Ambur Biriyani",
+    title: "Rajwada Palace",
     emoji: "🍛",
     color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
+    desc: "Located in Indore",
+    image: gRajwada,
   },
   {
-    title: "Tirunelveli Halva",
+    title: "Inside Lal Bagh Palace",
     emoji: "🍮",
     color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
+    desc: "Located in Indore",
+    image: gLalbagh,
   },
   {
-    title: "Dindigul Talapakatti Biriyani",
+    title: "Chappan Dukan",
     emoji: "🍚",
     color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
+    desc: "Chappan (56) food stalls located in Indore",
+    image: gChappan,
   },
   {
-    title: "Madurai Malli",
+    title: "Taj-ul-Masajid",
     emoji: "🌸",
     color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
+    desc: "One of the largest mosques of India, located in Bhopal",
+    image: gTaj,
   },
   {
-    title: "Madurai Butter Bun",
+    title: "Bhojtal - Bhopal",
     emoji: "🥐",
     color: "#F4E884",
-    desc: "Iconic local bun with butter",
+    desc: "Famous lake of Bhopal, also known as Upper lake/Bada Talab",
     image: gButterBun,
   },
   {
-    title: "Madurai Jigurthanda",
+    title: "Poha Jalebi",
     emoji: "🍨",
     color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
+    desc: "very famous breakfast in MP, especially Indore",
+    image: gPoha,
   },
   {
-    title: "Uthukuli Venne (Butter)",
+    title: "Dal Bafla",
     emoji: "🧈",
     color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
+    desc: "Traditional main dish of MP",
+    image: gDalbafla,
   },
   {
-    title: "Thoothukoodi Muthu (Pearl)",
+    title: "Bhutte ka Kees",
     emoji: "🔮",
     color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
+    desc: "Unique sweet + spicy taste, Common street food of MP",
+    image: gBhuttakees,
   },
   {
-    title: "Salem Mango (Malgova)",
+    title: "Bhedaghat (Marble Rocks)",
     emoji: "🥭",
     color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
+    desc: "Very popular tourist spot in MP, located in Jabalpur",
+    image: gBedaghat,
   },
   {
-    title: "Erode Turmeric",
+    title: "Dhuandhar Falls",
     emoji: "🌿",
     color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
+    desc: "Powerful waterfall on the Narmada River, famous for its smoky mist (“dhuan”) effect.",
+    image: gDhuandhar,
   },
   {
-    title: "Tiruppur Garments",
+    title: "Matki Dance",
     emoji: "👕",
     color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
+    desc: "Traditional folk dance where women balance pots (matkis) on their heads while performing graceful movements.",
+    image: gMatki,
   },
   {
-    title: "Kanchipuram Silk Sarees",
+    title: "Bhedaghat Marble Rocks",
     emoji: "🥻",
     color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
+    desc: "Stunning white marble cliffs along the Narmada River, famous for scenic boat rides.",
+    image: gBedaghatrocks,
   },
   {
-    title: "Madurai Sungdi Sarees",
+    title: "Bengal Tiger",
     emoji: "🧣",
     color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
+    desc: "They are India’s national animal and a powerful big cat widely found in Madhya Pradesh’s forests.",
+    image: gBengaltiger,
   },
   {
-    title: "Bharatanatyam",
+    title: "Barasingha",
     emoji: "💃",
     color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
-  },
-  {
-    title: "Dosa & Idli",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
-  },
-  {
-    title: "Ven Pongal",
-    emoji: "🍲",
-    color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
-  },
-  {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
-    color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
-  },
-  {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
-  },
-  {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
-  },
-  {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
-  },
-  {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    desc: "It is a rare Indian deer known for its many-branched antlers and found in grasslands of Madhya Pradesh.",
+    image: gBarasingha,
   },
 ];
