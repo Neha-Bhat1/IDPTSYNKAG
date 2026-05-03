@@ -786,9 +786,8 @@ const festivals = [
   },
   {
     name: "Laho Dance Festival",
-    tagline:"The Joyful Pulse of Behdienkhlam
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
-    description:
+    tagline:"The Joyful Pulse of Behdienkhlam",
+      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",           description:
       "The Laho Dance of Meghalaya is a profound cultural tradition of the Pnar community, primarily celebrated during the Behdienkhlam festival. This social dance serves as a vibrant expression of communal unity and gratitude for a successful harvest. Distinguishing itself from many Indian folk traditions, the Laho Dance is performed without any musical instruments; instead, it relies on the rhythmic recitation of witty and satirical couplets that set the pace for the performers. The choreography typically features a woman linked between two men, moving in synchronized harmony to the melodic verses. Dancers are adorned in colorful traditional Khasi-Pnar attire, with women wearing elaborate gold and silver jewelry. Despite its significance, the dance faces modern challenges such as urbanization and a lack of institutional support.  ",
     images: [LahoDanceFestival],
     source: "auchitya.com",
@@ -808,15 +807,15 @@ const historicalPlaces = [
     name: "Megalithic Bridge on the Um-Nyankanah",
     description:
       "The Megalithic Bridge at Thlumuwi is a remarkable 18th-century structure located in the West Jaintia Hills of Meghalaya, India. Spanning across the Um-Nyakanah (or Um-Nyankanah) River, this ancient engineering marvel was constructed using massive, single-stone slabs supported by tall, sturdy stone pillars. According to local history, it was built by Mar Phalangki and U Luh Lyngskor Lamare under the directive of a Jaintia King to facilitate travel after the capital was shifted from Sutnga to Nartiang.The bridge exemplifies the region's rich megalithic culture, where stone was not just a building material but a medium of historical record and utility. Designed to withstand the heavy monsoon rains of the Khasi-Jaintia Hills, the bridge remains a Monuments of National Importance under the protection of the Archaeological Survey of India. Its primitive yet effective design highlights the sophisticated architectural knowledge of the Jaintia people long before modern construction techniques.",
-    images: [],
-    source: "(src: Wikipedia, National Geographic)",
+    images: [Megalithic1,Megalithic2],
+    source: "(src: tusktravel.com)",
   },
   {
     name: "Megalithic Bridge on the Um-Kumbeh",
     description:
       "Built using colossal stone slabs, this megalithic bridge across Um-Kumbeh River is said to be constructed by Mar Phalangki and U Luh Lyngskor Lamare as per the local tradition. It was supposedly built by order of the Jaintia king when he shifted his capital to Nartiang in order to carry out trade between the new capital and his old capital of Sutnga. The stones used are dated to be from the 18th century CE.",
-    images: [Bridge1,Bridge2],
-    source: "(src: megalithic.co.uk)",
+    images: [Bridge],
+    source: "(src: asiguwhaticircle.gov.in)",
   },
   {
     name: "Caves of Meghalaya",
@@ -837,7 +836,7 @@ const historicalPlaces = [
     name: "Nongriat Living Root Bridge",
     description:
       "The Double Decker Living Root Bridge in Nongriat, Meghalaya, is a masterpiece of ancient bioengineering, uniquely characterized by its two functional levels of intertwined tree roots. Crafted by the indigenous Khasi people, these bridges are grown rather than built, using the aerial roots of the Ficus elastica (rubber tree). Over several decades, roots are painstakingly guided across the Umshiang River until they take hold on the opposite bank, creating a structure that actually grows stronger as it ages.The bridge is renowned for its incredible durability, capable of supporting dozens of people and withstanding the intense monsoons of one of the wettest places on earth. Surrounded by vibrant subtropical rainforests and turquoise natural pools, it represents a perfect harmony between human utility and nature. Reaching this site requires a challenging trek of roughly 3,500 stone steps from Tyrna village, making it a symbol of both endurance and the sustainable ingenuity of Meghalaya’s mountain communities.",
-    images: [Bridge1,Bridge2,Bridge3],
+    images: [Root1,Root2,Root3],
     source: "(src: gosomewhere.in,lostwithpurpose.com,cntraveller.in)",
   },
   {
@@ -894,7 +893,7 @@ const historicalPlaces = [
   {
     name:"Ward’s Lake (Shillong)",
     description:  "Ward's Lake, an iconic landmark nestled in the heart of Shillong, Meghalaya, is a mesmerizing artificial water body that serves as a tranquil escape for locals and tourists alike. Locally known as Nan Polok or Pollock Lake, it was established in 1894 by Sir William Ward and designed by Fitzwilliam Thomas Pollok. The lake is uniquely horse-shoe-shaped and is famously centered around a charming, white-painted wooden bridge that offers panoramic views of the shimmering water and the lush greenery surrounding it. A meticulously maintained botanical garden encircles the lake, featuring a vibrant collection of orchids and diverse floral species, all accessible via winding cobblestone footpaths. Visitors can enjoy leisurely boating on the calm waters, watch the graceful swans and ducks, or relax at the lakeside cafeteria. Often praised for its serene atmosphere, the site is especially breathtaking during the autumn months when cherry blossoms paint the landscape in soft pink hues. Whether for a peaceful morning walk or a romantic evening stroll, the lake remains a quintessential part of the Shillong experience.",
-    images:[ward1,ward2,ward3],
+    images:[Ward1,Ward2,Ward3],
     src:" Wikipedia,kajaawa.com,trawell.com,
   },  
 ];
