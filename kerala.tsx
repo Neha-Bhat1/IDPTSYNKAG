@@ -8,7 +8,7 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
+import punjabMap from "@assets/keralaMap.jpg";
 const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
 const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
 const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
@@ -416,7 +416,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function TamilNaduPage() {
+export default function KeralaPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -462,13 +462,13 @@ export default function TamilNaduPage() {
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Tamil Nadu
+                Kerala
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Temples
+                God's Own Country
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -477,12 +477,12 @@ export default function TamilNaduPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chennai" },
-                  { label: "Population", value: "7.21 Crore" },
-                  { label: "Area", value: "1,30,060 sq km" },
+                  { label: "Capital", value: "Thiruvananthapuram" },
+                  { label: "Population", value: " Crore" },
+                  { label: "Area", value: " sq km" },
                   { label: "Founded", value: "26 January 1950" },
-                  { label: "Language", value: "Tamil" },
-                  { label: "Districts", value: "32 Districts" },
+                  { label: "Language", value: "Malayalam" },
+                  { label: "Districts", value: "14 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
@@ -509,25 +509,25 @@ export default function TamilNaduPage() {
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chennai
+              Thiruvananthapuram
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The Detroit of Asia
+              Capital of Kerala — Evergreen City of India
             </p>
           </div>
         </Section>
 
-        {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Tamil Nadu" icon="🗺️">
+        {/* Map of Kerala — click to enlarge */}
+        <Section title="Map of Kerala" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
+              onClick={() => openLightbox(keralaMap, "Map of Kerala")}
             >
               <img
                 src={tnMap}
-                alt="Map of Tamil Nadu"
+                alt="Map of Kerala"
                 className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
