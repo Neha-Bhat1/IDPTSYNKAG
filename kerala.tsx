@@ -480,7 +480,7 @@ export default function KeralaPage() {
                   { label: "Capital", value: "Thiruvananthapuram" },
                   { label: "Population", value: " Crore" },
                   { label: "Area", value: " sq km" },
-                  { label: "Founded", value: "26 January 1950" },
+                  { label: "Founded", value: "1 November 1956" },
                   { label: "Language", value: "Malayalam" },
                   { label: "Districts", value: "14 Districts" },
                 ].map(({ label, value }) => (
@@ -526,7 +526,7 @@ export default function KeralaPage() {
               onClick={() => openLightbox(keralaMap, "Map of Kerala")}
             >
               <img
-                src={tnMap}
+                src={keralaMap}
                 alt="Map of Kerala"
                 className="w-full h-auto object-contain"
               />
@@ -550,65 +550,25 @@ export default function KeralaPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              The State of Tamil Nadu has a hoary antiquity. Though
-              early sangam classics throw historical references, we pass to
-              recorded history only from the Pallavas.
+              Kerala, located in the southwest corner of India, is known as the "Land of coconut" due to its abundant coconut palms. It is bordered by the Arabian Sea to the west and the Western Ghats to the east, featuring a unique landscape of lush greenery and interconnected rivers.
             </p>
             <p className="text-foreground">
-              The southern states of India were under the hegemony of the
-              Cholas, the Cheras and the Pandyas for centuries. The Pallavas
-              held supremacy from about the second quarter of the fourth century
-              A.D. They were the originators of the famous Dravidian style of
-              temple architecture. The last Pallava ruler was Aparajita, in
-              whose reign the later Cholas under Vijayalaya and Aditya asserted
-              themselves by about the 10th century. At the end of the
-              11th century, Tamil Nadu was ruled by several dynasties like the
-              Chalukyas, Cholas and Pandyas. In the two centuries that followed,
-              the imperial Cholas gained paramountcy over South India.
+              The state is defined by its unique geography, wedged between the mist-covered peaks of the Western Ghats and the turquoise waters of the Arabian Sea. This narrow strip of land is world-renowned for its palm-fringed backwaters—a sprawling network of interconnected canals and lagoons that serve as the lifeline for local communities and a sanctuary for travelers. Historically, Kerala was the gateway of the Spice Coast, attracting seafaring traders from Rome, Arabia, and China, which fostered a remarkable pluralistic culture where various religions and customs have coexisted harmoniously for centuries. The state’s cultural identity is deeply rooted in its classical arts, most notably Kathakali, a stylized dance-drama characterized by intricate makeup and vivid costumes, and Kalaripayattu, widely regarded as the mother of all martial arts.
             </p>
             <p className="text-foreground">
-              Muslims gradually strengthened their position, which led to the
-              establishment of the Bahamani Sultanate, by the middle of the
-              14th century. At the same time, the Vijayanagar Kingdom quickly
-              consolidated itself and extended its sway over the whole of South
-              India, and at the close of the century, Vijayanagar became the
-              supreme power in South. However, it crumbled at the battle of
-              Talikota in 1564 to the confederate forces of the Deccan Sultans.
+              Beyond its aesthetic beauty, Kerala stands as a beacon of social development in India, boasting the nation’s highest literacy rate and a unique "Kerala Model" of development that prioritizes healthcare and education. From the aromatic tea plantations of Munnar to the rhythmic beats of the Chenda Melam during the Onam harvest festival, every corner of the state offers a sensory celebration. Whether it is the healing touch of authentic Ayurveda or the flavors of a traditional Sadhya served on a banana leaf, Kerala represents a perfect equilibrium between preserving heritage and embracing the future.
             </p>
             <p className="text-foreground">
-              Even during the period of the tumultuous confusion that followed
-              the battle of Talikota, European commercial interest had appeared
-              as rivals in the area of South India. The Portuguese, the Dutch,
-              the French and the English came in quick succession and
-              established trading centres known as 'Factories'. East India
-              Company, which had established its factory at Masulipatnam (now in
-              Andhra Pradesh) in 1611, gradually annexed territories by
-              encouraging enmity among the native rulers. Tamil Nadu was one of
-              the first of British settlements in India. The State is the
-              successor to the old Madras Presidency, which covered the bulk of
-              the southern peninsula in 1901. The composite Madras State was
-              later reorganised, and the present Tamil Nadu was formed.
+              According to Hindu mythology, the land of Kerala is believed to have been created by Parashurama, who threw his axe into the sea, causing the waters to recede and reveal land from Gokarna to Kanyakumari. This region came to be known as Parashurama Kshetram (the Land of Parashurama). The newly formed land was initially saline and unfit for habitation, but the serpent king Vasuki purified it, making it fertile and suitable for settlement. These legends were later recorded in texts like the Keralolpathi, which also links them to the origin of Kerala’s early social and administrative systems. 
+Another important legend is that of Mahabali, a just and powerful ruler associated with Kerala. After he defeated the devas, Vishnu took the form of Vamana and sent him to the netherworld. It is believed that Mahabali returns to Kerala once every year, an event celebrated as the Onam. Additionally, the Matsya Purana associates the region with the story of Matsya, the first avatar of Vishnu, and King Manu, linking Kerala to early mythological traditions.
             </p>
             <p className="text-foreground">
-              Tamil Nadu is bounded on north by Andhra Pradesh and Karnataka, on
-              the west by Kerala, on the east by the Bay of Bengal, and on the
-              south by the Indian Ocean.
+              Before the lush green state we know today existed, the land was a patchwork of different administrations. In the early 20th century, the region was split into the princely states of Travancore and Cochin in the south and center, while the Malabar region in the north was a district under the British-run Madras Presidency. Despite these political borders, the people were tied together by a common thread: the Malayalam language. This shared identity sparked the Aikya Kerala (United Kerala) movement, a passionate campaign led by thinkers, writers, and students who dreamed of a single home for all Malayalis.
             </p>
             <p className="text-foreground">
-              Tamil Nadu covers total land area of 130,060 km2 and is divided
-              into 32 districts which are: Ariyalur, Chennai, Coimbatore,
-              Cuddalore, Dharmapuri, Dindigul, Erode, Kancheepuram, Kanyakumari,
-              Karur, Krishnagiri, Madurai, Nagapattinam, Namakkal, Perambalur,
-              Pudukkottai, Ramanathapuram, Salem, Sivaganga, Thanjavur, The
-              Nilgiris, Theni, Thiruvallur, Thiruvannamalai, Thiruvarur,
-              Tirunelveli, Tirupur, Tiruchirappalli(Trichy),
-              Tuticorin(Thoothukoodi), Vellore, Villupuram and Virudhunagar.
-            </p>
+              The first major breakthrough happened shortly after India’s independence. On July 1, 1949, the two princely states merged to form Thiru-Kochi, proving that unification was possible. However, the dream wasn't complete until the central government passed the States Reorganisation Act of 1956. This law aimed to redraw India’s internal boundaries based on linguistic lines. Through this process, the Malabar district and the Kasaragod area were integrated with Thiru-Kochi, while some Tamil-speaking areas in the south were moved to what is now Tamil Nadu.                      </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the cradle of Dravidian culture with its
-              cultural paraphernalia speckled all across the state in the form
-              of magnificent temples, gateways, intricate carvings, and the
-              society seeped in tradition.
+              On November 1, 1956, the modern state of Kerala was officially born. This day is now celebrated globally by the Malayali community as Kerala Piravi. The state immediately stood out on the world stage, not just for its beauty, but for its political boldness; in 1957, it became one of the first places in the world to democratically elect a Communist government. From a collection of divided territories to a global model for education and healthcare, Kerala’s formation remains a powerful example of how a common culture can unite a people.
             </p>
             <p className="text-xs text-muted-foreground">
               (src: govt of TN, mapsofindia.com)
