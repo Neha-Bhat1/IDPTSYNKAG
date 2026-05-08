@@ -8,7 +8,7 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/TN_map_1776628923935.jpg";
+import punjabMap from "@assets/punjabMap.jpg";
 import lohri1 from "@assets/image_1776788355951.png";
 import lohri2 from "@assets/image_1776788364481.png";
 import lohri3 from "@assets/image_1776788370635.png";
