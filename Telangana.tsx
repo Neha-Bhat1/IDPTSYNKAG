@@ -8,84 +8,86 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-const gurupurab3 = "@assets/image_1776788482041.png";
-const teej1 = "@assets/image_1776788764847.png";
-const teej2 = "@assets/image_1776788772553.png";
-const teej3 = "@assets/image_1776788788721.png";
-const bandi1 = "@assets/image_1776788797545.png";
-const bandi2 = "@assets/image_1776788805779.png";
-const shaheedi1 = "@assets/image_1776788811412.png";
-const rakhi1 = "@assets/image_1776788817244.png";
-const rakhi2 = "@assets/image_1776788825797.png";
-const maghi1 = "@assets/image_1776788831894.png";
-const maghi2 = "@assets/image_1776788840602.png";
-const karva1 = "@assets/image_1776788847901.png";
-const karva2 = "@assets/image_1776788856768.png";
-const golden1 = "@assets/image_1776788865143.png";
-const golden2 = "@assets/image_1776788870905.png";
-const golden3 = "@assets/image_1776788878018.png";
-const jallian1 = "@assets/image_1776788887081.png";
-const jallian2 = "@assets/image_1776788895857.png";
-const jallian3 = "@assets/image_1776788902350.png";
-const wagah1 = "@assets/image_1776788909064.png";
-const wagah2 = "@assets/image_1776788916164.png";
-const wagah3 = "@assets/image_1776789530181.png";
-const wagah4 = "@assets/image_1776789548589.png";
-const qila1 = "@assets/image_1776789554420.png";
-const qila2 = "@assets/image_1776789558971.png";
-const qila3 = "@assets/image_1776789565292.png";
-const ranjit1 = "@assets/image_1776789575242.png";
-const ranjit2 = "@assets/image_1776789580153.png";
-const ranjit3 = "@assets/image_1776789590790.png";
-const gobindgarh1 = "@assets/image_1776789610085.png";
-const gobindgarh2 = "@assets/image_1776789615338.png";
-const anandpur1 = "@assets/image_1776789624415.png";
-const anandpur2 = "@assets/image_1776789631296.png";
-const partition1 = "@assets/image_1776789638782.png";
-const partition2 = "@assets/download_1777100508255.png";
-const partition3 = "@assets/download_1777100514323.png";
-const guru1 = "@assets/download_1777100516025.png";
-const guru2 = "@assets/download_1777100518481.png";
-const guru3 = "@assets/download_1777100520664.png";
-const durgiana1 = "@assets/download_1777100523842.png";
-const durgiana2 = "@assets/image_1777102241686.png";
-const durgiana3 = "@assets/image_1777102257711.png";
-const akaltakht1 = "@assets/download_1777100525385.png";
-const akaltakht2 = "@assets/download_1777100526870.png";
-const akaltakht3 = "@assets/download_1777100529380.png";
-const jang1 = "@assets/download_1777100531237.png";
-const jang2 = "@assets/download_1777100532535.png";
-const jang3 = "@assets/download_1777100537305.png";
-const gJutti = "@assets/image_1777100917162.png";
-const gBhangra = "@assets/image_1777100921467.png";
-const gPhulkari = "@assets/image_1777100927953.png";
-const gGiddha = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
+import TelanganaMap from "@assets/punjabMap.jpg";
+const Bathukamma1 = "https://i.postimg.cc/Gt12ckgn/image.png";
+const Bathukamma2 = "https://i.postimg.cc/Mprpckr2/image.png";
+const Bathukamma3 = "https://i.postimg.cc/C1bh6RhX/image.png";
+const Bonalu1 = "https://i.postimg.cc/nc3H5bxj/image.png";
+const Bonalu2 = "https://i.postimg.cc/YC4wsv89/image.png";
+const Bonalu3 = "https://i.postimg.cc/mkZvNktt/image.png";
+const Bonalu4 = "";
+const SammakkaSaralammaJathara1 = "";
+const SammakkaSaralammaJathara2 = "";
+const SammakkaSaralammaJathara3 = "";
+const SammakkaSaralammaJathara4 = "";
+const Sankranti1 = "";
+const Sankranti2 = "@assets/image_1776788482041.png";
+const Sankranti3 = "@assets/image_1776788764847.png";
+const Sankranti4 = "@assets/image_1776788772553.png";
+const Sankranti5 = "@assets/image_1776788788721.png";
+const Ugadi1 = "@assets/image_1776788797545.png";
+const Ugadi2 = "@assets/image_1776788805779.png";
+const Deepavali1 = "@assets/image_1776788811412.png";
+const Deepavali2 = "@assets/image_1776788817244.png";
+const Deepavali3 = "@assets/image_1776788825797.png";
+const Deepavali4 = "@assets/image_1776788831894.png";
+const Deepavali4 = "@assets/image_1776788840602.png";
+const Deepavali5 = "@assets/image_1776788847901.png";
+const Dasara1 = "@assets/image_1776788856768.png";
+const Dasara2 = "@assets/image_1776788865143.png";
+const Dasara3 = "@assets/image_1776788865143.png";
+const Charminar1 = "@assets/image_1776788870905.png";
+const Charminar2 = "@assets/image_1776788878018.png";
+const Charminar3 = "@assets/image_1776788887081.png";
+const Charminar4 = "@assets/image_1776788895857.png";
+const GolcondaFort1 = "@assets/image_1776788902350.png";
+const GolcondaFort2 = "@assets/image_1776788909064.png";
+const GolcondaFort3 = "@assets/image_1776788916164.png";
+const GolcondaFort4 = "@assets/image_1776789530181.png";
+const GolcondaFort5 = "@assets/image_1776789548589.png";
+const Chowmahallapalace1 = "@assets/image_1776789554420.png";
+const Chowmahallapalace2 = "@assets/image_1776789558971.png";
+const Chowmahallapalace3 = "@assets/image_1776789565292.png";
+const Chowmahallapalace4 = "@assets/image_1776789575242.png";
+const RamappaTemple1 = "@assets/image_1776789580153.png";
+const RamappaTemple2 = "@assets/image_1776789590790.png";
+const WarangalFort1 = "@assets/image_1776789610085.png";
+const WarangalFort2 = "@assets/image_1776789615338.png";
+const WarangalFort3 = "@assets/image_1776789624415.png";
+const WarangalFort4 = "@assets/image_1776789631296.png";
+const ThousandPillarTemple1 = "@assets/image_1776789638782.png";
+const ThousandPillarTemple2 = "@assets/download_1777100508255.png";
+const LaknavaramLake1 = "@assets/download_1777100514323.png";
+const LaknavaramLake2 = "@assets/download_1777100516025.png";
+const KuntalaWaterfalls1 = "@assets/download_1777100518481.png";
+const KuntalaWaterfalls2 = "@assets/download_1777100520664.png";
+const BasaraSaraswathiTemple1 = "@assets/download_1777100523842.png";
+const BasaraSaraswathiTemple2 = "@assets/image_1777102241686.png";
+const BasaraSaraswathiTemple3 = "@assets/image_1777102257711.png";
+const NirmalFort1 = "@assets/download_1777100525385.png";
+const yadagiriguttatemple1 = "@assets/download_1777100526870.png";
+const yadagiriguttatemple2 = "@assets/download_1777100529380.png";
+const BhongirFort1 = "@assets/download_1777100531237.png";
+const BhongirFort2 = "@assets/download_1777100532535.png";
+const Pillalamarri = "@assets/download_1777100537305.png";
+const BhadrachalamTemple1 = "@assets/image_1777100917162.png";
+const BhadrachalamTemple2 = "@assets/image_1777100921467.png";
+const BhadrachalamTemple3 = "@assets/image_1777100927953.png";
+const BhadrachalamTemple4 = "@assets/image_1777100932602.png";
+const NagarjunaSagarDam1 = "@assets/image_1777100937948.png";
+const NagarjunaSagarDam2 = "@assets/image_1777100946447.png";
+const NagarjunaSagarDam3 = "@assets/image_1777100950953.png";
+const gHyderabadiBiryani = "@assets/image_1777100955650.png";
+const gSarvaPindi = "@assets/image_1777101000988.png";
+const gSakinalu = "@assets/image_1777100960783.png";
+const gTelanganaFolk = "@assets/image_1777100965689.png";
+const gOgguKatha = "@assets/image_1777100975810.png";
+const gDappu = "@assets/image_1777100982364.png";
+const gNadaswaram= "@assets/image_1777100987731.png";
+const gPonchamallyIkat = "@assets/image_1777100994118.png";
+const gGadwaSaree = "@assets/image_1777101000988.png";
+const gLangaVoni = "@assets/image_1777101005896.png";
+const gDhotiKurta = "@assets/image_1777101012951.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -875,11 +877,18 @@ const historicalPlaces = [
     source: "(src: sannidhiemerald.com )",
   },
   {
-    name: ".Bhadrachalam Temple",
+    name: "Bhadrachalam Temple",
     description:
       "The Bhadrachalam Temple, officially known as the Sri Sita Ramachandra Swamy Temple, is one of the most revered pilgrimage centers in Telangana, located on the banks of the Godavari River in Bhadradri Kothagudem district. Dedicated to Lord Rama, the temple is deeply rooted in legend and devotion, earning it the title “Dakshina Ayodhya” (Ayodhya of the South). According to mythology, this is the place where Lord Rama, Sita, and Lakshmana stayed during their exile, and it is also associated with the devotee Kancharla Gopanna, popularly known as Bhakta Ramadasu. In the 17th century, Ramadasu, who was a revenue officer under the Qutb Shahi rulers, diverted state funds to construct the temple. For this act, he was imprisoned, but legend says Lord Rama and Lakshmana appeared in the Sultan’s dream, repaid the money with golden coins, and secured Ramadasu’s release. This story adds immense spiritual significance to the temple, making it a symbol of unwavering devotion and divine intervention.Architecturally, the temple is a fine example of South Indian style, with a towering Rajagopuram, intricately carved mandapas, and sanctums dedicated to Lord Rama, Sita, and Lakshmana. The temple complex also houses shrines for Hanuman and other deities, reinforcing its spiritual aura. The annual Sri Rama Navami festival is the grandest celebration here, marked by the celestial wedding of Rama and Sita, which attracts thousands of devotees from across India. The temple is also known for its musical heritage, as the devotional songs composed by Bhakta Ramadasu continue to be sung during rituals and festivals.Beyond its religious importance, Bhadrachalam Temple is a cultural and historical landmark, symbolizing the synthesis of devotion, art, and architecture. The serene setting on the Godavari River enhances its spiritual atmosphere, offering pilgrims peace and solace. Today, the temple is managed by the Endowments Department of Telangana and remains a major destination for devotees, scholars, and tourists alike. In essence, Bhadrachalam Temple is not just a shrine but a living embodiment of faith, history, and cultural pride, standing as one of the most treasured spiritual centers in South India.",
     images: [BhadrachalamTemple1,BhadrachalamTemple2,BhadrachalamTemple3,BhadrachalamTemple4],
     source: "Wikipedia,ar.inspiredpencil.com",
+  },
+   {
+    name: "Nagarjuna Sagar Dam",
+    description:
+      "The Nagarjuna Sagar Dam, located on the Krishna River at the border of Nalgonda district in Telangana and Guntur district in Andhra Pradesh, is one of the largest masonry dams in the world and a monumental achievement of modern India. Constructed in the 1960s, the dam was named after the great Buddhist scholar Nagarjuna, reflecting the region’s rich cultural heritage. Rising to a height of about 124 meters and stretching over 1.6 kilometers, the dam creates a massive reservoir known as Nagarjuna Sagar Lake, which has a storage capacity of nearly 11,472 million cubic meters. This reservoir not only provides irrigation to millions of acres of farmland across Telangana and Andhra Pradesh but also serves as a crucial source of drinking water for nearby towns and cities. The dam has been instrumental in transforming the semi-arid landscape into fertile agricultural land, supporting crops like paddy, cotton, and sugarcane. Beyond irrigation, it also generates hydroelectric power, contributing significantly to the region’s energy supply. The scenic beauty of the dam and its surroundings, with lush greenery and the vast expanse of water, makes it a popular tourist destination. Nearby attractions include the Nagarjuna Konda island, which houses ancient Buddhist relics, adding historical depth to the site. Symbolizing engineering brilliance and socio-economic progress, the Nagarjuna Sagar Dam stands as a testament to India’s vision of harnessing rivers for development while preserving cultural heritage.",
+    images: [NagarjunaSagarDam1,NagarjunaSagarDam2,NagarjunaSagarDam3],
+    source: "(src: Wikipedia )",
   },
 ];
 
@@ -895,192 +904,80 @@ const facts = [
 
 const artGallery = [
   {
-    title: "Ambur Biriyani",
+    title: "Hyderabadi Biryani",
     emoji: "🍛",
     color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
+    desc: "World-famous aromatic rice dish cooked with spices and meat",
+    image: gHyderabadiBiryani,
   },
   {
-    title: "Tirunelveli Halva",
-    emoji: "🍮",
-    color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
+    title: "Sarva Pindi",
+    emoji: "🥘",
+    color: "#E8A84A",
+    desc: "Spicy rice flour pancake with peanuts and traditional spices",
+    image: gSarvaPindi,
   },
   {
-    title: "Dindigul Talapakatti Biriyani",
-    emoji: "🍚",
-    color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
-  },
-  {
-    title: "Madurai Malli",
-    emoji: "🌸",
-    color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
-  },
-  {
-    title: "Madurai Butter Bun",
-    emoji: "🥐",
-    color: "#F4E884",
-    desc: "Iconic local bun with butter",
-    image: gButterBun,
-  },
-  {
-    title: "Madurai Jigurthanda",
-    emoji: "🍨",
-    color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
-  },
-  {
-    title: "Uthukuli Venne (Butter)",
-    emoji: "🧈",
-    color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
-  },
-  {
-    title: "Thoothukoodi Muthu (Pearl)",
-    emoji: "🔮",
-    color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
-  },
-  {
-    title: "Salem Mango (Malgova)",
-    emoji: "🥭",
-    color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
-  },
-  {
-    title: "Erode Turmeric",
-    emoji: "🌿",
-    color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
-  },
-  {
-    title: "Tiruppur Garments",
-    emoji: "👕",
-    color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
-  },
-  {
-    title: "Kanchipuram Silk Sarees",
-    emoji: "🥻",
-    color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
-  },
-  {
-    title: "Madurai Sungdi Sarees",
-    emoji: "🧣",
-    color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
-  },
-  {
-    title: "Bharatanatyam",
-    emoji: "💃",
-    color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
-  },
-  {
-    title: "Dosa & Idli",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
-  },
-  {
-    title: "Ven Pongal",
-    emoji: "🍲",
+    title: "Sakinalu",
+    emoji: "🥨",
     color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
+    desc: "Crispy deep-fried snack traditionally made during festivals",
+    image: gSakinalu,
   },
   {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
+    title: "Folk Music of Telangana",
+    emoji: "🎶",
+    color: "#E8733A",
+    desc: "Traditional songs reflecting rural life, festivals, and history",
+    image: gTelanganaFolk,
   },
   {
-    title: "Rasam",
-    emoji: "🥣",
+    title: "Oggu Katha",
+    emoji: "📜",
+    color: "#D4A4E8",
+    desc: "Musical storytelling tradition narrating legends of gods and heroes",
+    image: gOgguKatha,
+  },
+  {
+    title: "Dappu",
+    emoji: "🥁",
     color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
+    desc: "Percussion instrument used in energetic folk dances and festivals",
+    image: gDappu,
   },
   {
-    title: "Panniyaram",
-    emoji: "🍡",
+    title: "Nadaswaram",
+    emoji: "🎺",
     color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
+    desc: "Traditional wind instrument played during auspicious ceremonies",
+    image: gNadaswaram,
   },
   {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
+    title: "Pochampally Ikat",
+    emoji: "🧵",
+    color: "#E8A8C8",
+    desc: "Famous tie-and-dye weaving technique creating geometric patterns",
+    image: gPochampallyIkat,
   },
   {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
+    title: "Gadwal Saree",
+    emoji: "🥻",
     color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
+    desc: "Lightweight saree featuring rich borders and silk-cotton blend",
+    image: gGadwalSaree,
   },
   {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
+    title: "Langa Voni",
+    emoji: "👗",
+    color: "#F4D8E8",
+    desc: "Traditional half-saree worn by young women in Telangana",
+    image: gLangaVoni,
   },
   {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    title: "Dhoti Kurta",
+    emoji: "👔",
+    color: "#B4D8E8",
+    desc: "Classic outfit worn by men during festivals and functions",
+    image: gDhotiKurta,
   },
 ];
