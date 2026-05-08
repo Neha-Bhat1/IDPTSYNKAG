@@ -605,7 +605,7 @@ Another important legend is that of Mahabali, a just and powerful ruler associat
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Kerala" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div
@@ -627,7 +627,7 @@ Another important legend is that of Mahabali, a just and powerful ruler associat
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
           <p className="text-muted-foreground text-sm mb-4">
-            Scroll horizontally to explore Tamil Nadu's iconic foods, crafts,
+            Scroll horizontally to explore Kerala's iconic foods, crafts,
             dance, and traditions.
           </p>
           <div className="overflow-x-auto pb-4">
@@ -718,494 +718,370 @@ Another important legend is that of Mahabali, a just and powerful ruler associat
 
 const festivals = [
   {
-    name: "Pongal",
-    tagline: "The Harvest Festival of Tamil Nadu",
+    name: "Onam",
+    tagline: "The Harvest Festival of Kerala",
     description:
-      'Pongal is the harvest festival celebrated by the farmers in January to worship the sun, the earth and the cattle as thanks giving for a bounteous harvest. It is followed by the Jallikattu. - Tamil Nadu celebrates a four day harvesting festival annually during the month of January, popularly known as “Pongal”. The celebration is held to praise the Sun God for nourishing the crops throughout the year. The four day celebration involves; Bhogi, Surya Pongal, Mattu Pongal and Kaanum Pongal.  The third day of the festival is Mattu Pongal, which features a significant ancient sport known as Jallikattu - the bull taming sport. Bhogi marks the first day of the Pongal festivities and is celebrated on the last day of the Tamil calendar month Marghazhi.On this day people discard old belongings and celebrate new possessions. The people assemble and light a bonfire in order to burn the heaps of discards. Houses are cleaned, painted and decorated to give a festive look. Thai Pongal is the main festive day, celebrated on the next day of Bhogi.[10][11] It is observed on the first day of the Tamil calendar month of Thai, and usually falls on 14 or 15 January. It is dedicated to the Sun deity Surya and corresponds to Makar Sankranti. According to tradition, the festival marks the end of winter solstice, and the start of the sun\'s six-month-long journey northwards when the sun enters the Capricorn, also called as Uttarayana. Dedicated to Surya, it is celebrated with family and friends with new clothes worn and the preparation of the traditional pongal dish in an earthen pot. The pot is typically decorated by tying a turmeric plant or flower garland and placed in the sun along with sugarcane stalks. The homes are decorated with banana and mango leaves, decorative florals and kolams. Relatives and friends are invited and when the pongal starts to boil and overflow out of the vessel,they blow a conch or make sounds while shouting "Pongalo Pongal" ("may this rice boil over"). In rural areas, people sing traditional songs while the pongal dish is cooking. The Pongal dish is first offered to Surya and Lord Ganesha, and then shared with the gathered friends and family. Mattu Pongal ("Madu" meaning cow in Tamil) is the third day of the festival meant for the celebration of cattle. The cattle is regarded as sources of wealth as it is a means for dairy products and fertilizers, used for transportation and agriculture. The cattle are bathed, their horns are polished and painted in bright colors with garlands of flowers placed around their necks and taken for processions. Kaanum Pongal, the fourth and final day of the Tamil harvest festival, signifies familial unity, social bonding, and gratitude towards nature. ‘Kanu Pidi’ is a ritual where women and young girls place leftover colored rice (often cooked from previous days), sugarcane, and vegetables on turmeric leaves in the open for birds, particularly crows (regarded as ancestors). They pray for the health and prosperity of their brothers and family. (src:Wikipedia)',
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
-    source: "(src: Wikipedia)",
+      "Observed in the Malayalam month of Chingam (August–September), it marks both the Malayali New Year and the legendary homecoming of King Mahabali, symbolizing prosperity, equality, and gratitude for the harvest. The Onam story centers on Mahabali, a benevolent Asura king beloved for his just rule. According to Hindu mythology, the gods feared his growing power, and Vishnu appeared as the dwarf Brahmin Vamana to test him. Granted three paces of land, Vamana covered heaven and earth in two steps; Mahabali offered his head for the third, displaying supreme humility. Moved by this devotion, Vishnu allowed the king to visit his people once a year—an event joyously celebrated as Onam.The festival begins with Atham and culminates on Thiruvonam. Homes are adorned with Pookalams—floral carpets laid daily to welcome Mahabali—and families prepare the lavish vegetarian Onam Sadya feast on banana leaves, featuring dishes like avial, olan, and payasam. Major attractions include Vallamkali (snake boat races), Pulikali (tiger dance), Kaikottikali (women’s dance), and the grand Athachamayam procession.Onam coincides with Kerala’s harvest season, celebrating abundance and communal unity after the monsoon. It transcends caste and religion, embodying shared cultural pride and harmony. Declared Kerala’s official festival in 1961, Onam remains a defining symbol of Malayali identity—an annual expression of renewal, generosity, and joy.",
+    images: [onam1, onam2, onam3, onam4, onam5],
+    source: "(src: Dreamstime, pinterest, istockphoto,Wikipedia)",
   },
   {
-    name: "Jallikattu — Bull Fight",
+    name: "Vishu",
     tagline:
-      "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
+      "Hindu festival marking the traditional New Year in the Indian state of Kerala",
     description:
-      "Jallikattu-Bull fight, in some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu. - In ancient times, ‘Yeru thazhuvuthal’ or embracing the bull, was connected in displaying the men’s pride and victory for winning over a girl for marriage. The sport has prevailed in Tamil culture for over 2000 years now.   Manju Virattu is conducted every year in various regions of the state including Madurai, Sivagangai and Pudukottai. The event begins as the bulls are released to the arena via a small entrance known as “ Vaadi Vaasal”. The male players known to be bull tamers, amid loud whistles, applauses and cheers wait nearby to the entrance and try to grab the bull's hump, which needs a lot of courage and prudence. The person who clutches the hump and takes the pouch containing cash or presents without falling off the bull is deemed the winner. Besides being identified as a conquering sport, it is also associated with the good motive of preserving pure-breeding of native bulls which were bred exclusively for the purpose of mating. The native Kangayam, Pulikulam, Umbalachery , Bargur and Malai Maadu are the combative breeds which compete highly in this sport. The sport has become the emotion of Tamilians with its long rooted historical and cultural significance. Madurai and Jallikattu The festival of cattle-worship is much delighted in Madurai and its sub regions. The sport is considered as a celebration in these areas. Preparations for this festival start months before the day of the event. The invites are sent to various villages about the celebration where the bulls are registered to enter the arena after a physical health check up. The district administration, Public works department, Police department along with local event organizers work together to maintain the integrity and dignity of the sport. Every year the regions of Avaniyapuram, Alanganallur and Palamedu attract around 700 native breeds of bulls and about 300 bull tamers from all around the state for this competition. The event also attracts a swarm of people, both locally and globally, visiting these areas to watch this magnificent sport. The bull taming sport in these regions are also telecasted on National Television every year.",
-    images: [jalli1, jalli2],
-    source: "",
+      "Falling around April 14–15, it celebrates the sun’s transit into the first zodiac sign, Aries, symbolizing renewal, prosperity, and the cosmic balance of spring. Central to Vishu is the Vishukkani, an arranged tableau of prosperity viewed at dawn. It includes rice, fruits, vegetables, mirror, gold ornaments, the Konna flower (Cassia fistula), and a lamp before an image of Lord Krishna. Seeing this display first thing in the morning is believed to bring good fortune for the year ahead.The day begins before sunrise when family members, eyes closed, are guided to view the kani. Homes are decorated, people wear new clothes (Puthukodi), and temples such as Guruvayur and Sabarimala host special rituals. Firing of crackers and sharing of Vishu Sadya—a grand meal served on banana leaves—add to the festivities. Vishu holds deep agricultural and astrological meaning, aligning with harvest and equinox cycles. It embodies hope, abundance, and the reaffirmation of family and social bonds. While rooted in Kerala’s Hindu tradition, its themes of renewal and prosperity resonate across South Indian and diaspora communities.",
+    images: [vishu1, vishu2, vishu3, vishu4],
+    source: "(src: Astrolagam, istockphoto, wikipedia)",
   },
   {
-    name: "Chithirai Festival, Madurai",
+    name: "Thrissur Pooram",
     tagline:
-      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+      "Thrissur Pooram is Kerala’s grandest temple festival, held annually at the Vadakkunnathan Temple.",
     description:
-      "Chithirai festival, Madurai brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar. - A famous Vishnu Temple dedicated to Lord Alagar is located 21 kilometres north of Madurai. The temple is set on a hill with breathtaking views. Alagarkoil is the name of the shrine, and Solaimalai is the name of the hill. The temple also has some lovely carvings, making it a worthwhile visit. The Hill is home to Palamudirsolai, one of Lord Subramaniya's six abodes.       Chithirai Festival, also known as Chithirai Thiruvizha, Meenakshi Kalyanam or Meenakshi Thirukalyanam, is an annual Tamil Hindu celebration in the city of Madurai during the month of April. The festival, celebrated during the Tamil month of Chithirai, is associated with the Meenakshi Temple, dedicated to the goddess Meenakshi, a form of Parvati and her consort Sundareshwar, a form of Shiva. The festival lasts for one month. The first 15 days mark the celebrations of the coronation of Meenakshi as the divine ruler of Madurai and her marriage to Sundareshwar. The next 15 days mark the celebrations of the journey of Kallalagar or Alagar (a form of the god Vishnu) from his temple in Alagar Koyil to Madurai. (src:utsav.gov.in)",
-    images: [chith1, chith2],
-    source: "(src: utsav.gov.in)",
+      "Celebrated in April–May (Malayalam month of Medam), it unites ten temples around Thrissur in a spectacular display of devotion, music, and artistry. The event attracts hundreds of thousands of devotees and tourists, symbolizing the state’s cultural vibrancy and communal harmony. Thrissur Pooram began after temples from Thrissur were once excluded from the older Arattupuzha Pooram due to heavy rains. Sakthan Thampuran instituted a new, inclusive celebration centered on Lord Shiva at Vadakkunnathan Temple. The festival soon eclipsed its predecessors, earning the title “Mother of all Poorams.” Processions of elaborately adorned elephants—up to fifteen per temple group—march to the temple grounds, accompanied by traditional percussion ensembles such as Panchavadyam and Ilanjithara Melam. The rhythmic drumming and wind instruments create an immersive soundscape unique to Kerala’s temple tradition.The most anticipated moments are Kudamattam—the synchronized exchange of colorful parasols atop elephants between Paramekkavu and Thiruvambadi teams—and Vedikettu, a midnight fireworks contest illuminating the Thrissur skyline. These friendly rivalries embody both aesthetic mastery and communal joy. Beyond ritual devotion, Thrissur Pooram represents Kerala’s ethos of unity across faiths and communities. Muslim artisans craft decorative canopies, and Christian groups contribute materials, reflecting shared cultural participation. UNESCO has lauded the festival as among the world’s most spectacular cultural gatherings.",
+    images: [thrissur1, thrissur2, thrissur3],
+    source: "(src: wikipedia, youtube, scroll)",
   },
   {
-    name: "Tamizh Puttandu — Tamil New Year",
+    name: "Vallam Kali",
     tagline:
-      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+      "Boat race festival of India",
     description:
-      "Tamizh Puttandu  - meaning ‘Tamil new year’. is the first day of year on the Tamil calendar that is traditionally celebrated as a festival by Tamils. The festival date is set with the solar cycle of the solar Hindu calendar, as the first day of the month of Chittirai. It falls on or about 14 April every year. Households clean up the house, prepare a tray with fruits, flowers and auspicious items, light up the family puja altar and visit their local temples. People wear new clothes and children go to elders to pay their respects and seek their blessings, then the family sits down to a feast. On the eve of Puthandu, a tray is arranged with three fruits (mango, banana and jack fruit), betel leaves and arecanut, gold/silver jewellery, coins/money, flowers and a mirror. This is similar to the Vishu new year festival ceremonial tray in Kerala. According to the Tamil tradition, this festive tray is auspicious as the first sight upon waking on the new year day and is called ‘kani’. Home entrances are decorated elaborately with colored rice powder. These designs are called kolams. As soon as they wake up, they walk to the kani with their eyes closed and see it as the first scene of the year. This tradition is significant in both regions and is believed to bring good luck and prosperity for the coming year.",
-    images: [puth1, puth2],
-    source: "(src: boldskytamil.com)",
+      "Celebrated mainly during the Onam season. It features long, narrow “snake boats” (chundan vallams) powered by synchronized rowing teams, combining athletic competition, cultural display, and religious devotion. The event is a major tourist attraction and symbol of Kerala’s vibrant water-based heritage. Vallam Kali’s roots trace back to the 13th century when local kings organized boat races as naval training exercises and religious offerings. The races often honor temple deities, and each boat is linked to a village or community. The festival evolved from a ritual act into a competitive sport retaining deep spiritual and communal significance.Each chundan vallam measures up to 100–120 feet and carries around 100 rowers, including oarsmen, singers, and a helmsman. The synchronized paddling, accompanied by rhythmic boat songs (vanchipattu), creates a spectacle of speed and coordination. Major races such as the Nehru Trophy and Aranmula regatta draw thousands of spectators and national television coverage. Kali expresses Kerala’s bond with its waterways and showcases cooperation among diverse communities. The boats are often built and maintained through collective village effort, symbolizing harmony and pride. The event’s inclusion in tourism promotions and films has helped make it an emblem of Kerala’s identity worldwide.While preserving tradition, Vallam Kali has embraced modern organization, safety measures, and international participation. The Kerala government and local tourism boards now schedule annual league-style competitions, blending heritage with contemporary sports management and expanding its reach to global audiences.",
+    images: [vallam1, vallam2, vallam3],
+    source: "(src: wikipedia, kalavoor)",
   },
   {
-    name: "Adipperukku",
+    name: "Theyyam",
     tagline:
-      "The festival of Padhinettam Perukku, also known as 'Aadi Perukku', held on the 18th day of the Tamil month of Aadi.",
+      "Ritual art form native to the North Malabar region of Kerala.",
     description:
-      'Adipperukku - The festival of Padhinettam Perukku also known as "Aadi Perukku" is held on the 18th day of the Tamil month of Aadi. "Perukku" means "raising" in Tamil. This festival is a reflection of the River Kaveri\'s rise due to the monsoon rains. - The Tamil calendar month of Aadi is marked by festivities and fervour honouring Water and other natural resources. Prayers and pujas are performed throughout this month to express gratitude to the mighty Goddesses for abundant natural resources. The River Palar flows through the village of Kodaiyanchi near the Vaniyambadi town of Thirupathur district. The banks of the river are home to a 1000-year-old temple dedicated to Lord Shiva- Arulmigu Kasi Viswanathar Temple and Lord Murugan - Arulmigu Murugan Temple. Hundreds of devotees gather on the day of “Padhinettam Perukku” to celebrate the occasion by offering sweet Pongal to the deity. Mulaipari, also known as the sprouting or germination of nine grains (Navadhanyam) in clay mud pots, is a crucial ceremony that is performed in the temples during this occasion. Nine different varieties of cultivated grains are packed in the earthen pots that the procession devotees carry on their heads as they move towards the river where the grains are dissolved. The newly wedded couples from the surrounding villages come to this festival to replace their "mangalya thread" tied on the day of their marriage with a new one along with gold coins and trinkets. Women make a lamp using rice and jaggery, set it upon plantain leaves, and let it float along the River Palar.',
-    images: [adi1, adi2],
-    source: "",
+      "Combining dance, music, and mime, it serves as a living tradition of ancestor and deity worship. Each performance transforms the dancer into a divine presence, making Theyyam both a spiritual ceremony and a cultural spectacle. Theyyam derives from the Sanskrit word Daivam (God) and is believed to embody pre-Aryan Dravidian and tribal traditions. Historically linked to village shrines called kavus, the ritual invokes local deities, ancestral spirits, and heroes who became gods. Performers undergo spiritual discipline before embodying the divine, blurring the boundary between human and supernatural realms. Each Theyyam, called kolam, has unique songs (thottam), makeup, and costume patterns. Brilliant colors—red, orange, yellow, and black—dominate face and body painting, often taking hours to complete. Towering headgear (mudi), palm-leaf skirts, and jewelry enhance the otherworldly effect. Drums (chenda), cymbals (elathalam), and pipes provide rhythmic accompaniment as the performer enters trance, offering blessings and oracles to devotees. Theyyam reflects Kerala’s complex social fabric. Traditionally performed by lower-caste communities, it reverses caste hierarchies when performers become embodiments of gods worshiped by all. The ritual sustains oral traditions, local myths, and ecological practices tied to sacred groves. As a vibrant link between religion and folk culture, Theyyam continues to be celebrated across Malabar, drawing pilgrims, scholars, and tourists each year.
+",
+    images: [theyyam1, theyyam2, theyyam3, theyyam4],
+    source: "(src: wikipedia)",
   },
   {
-    name: "Dance Festival, Mamallapuram",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
+    name: "Attukal Pongala",
+    tagline: "Celebrated at the Attukal Bhagavathy Temple in Kerala",
     description:
-      "Dance Festival, Mamallapuram, which is set before an open air stage, created 13 centuries ago the incredible monolithic rock sculptures of the Pallavas, next to the sea in this ancient city of Mamallapuram. Bharatha Natyam, Kuchipudi, Kathakali, and Odissi are some dance forms presented by the very best exponents of the art besides folk dances. The Mamallapuram Dance Festival is organised by the Department of Tourism, Tamil Nadu, and is a 30-day festival held annually between December and January. Professional classical dance artists from all around the nation come together for this grand event to showcase their mesmerising performances in traditional dance forms like Bharathanattiyam, Kuchipudi, Kathakali, Mohini Attam, Assami Dance, Odissi, and Kathak. Also, folk dancers add to the festival's vibrant atmosphere with their spirited performances.Every year, the picturesque shore town of Mamallapuram hosts the “Indian Dance Festival” - A Festival of Our Culture and Tradition. The venue for the Mamallapuram- Indian Dance Festival is the front lawn of the Shore Temple. The artists perform on an open-air stage, which provides the finest ambience for the dancers to perform their best during the festival. Some of the most prominent classical dancers in the country perform at the event. This event is a vivid reminder of the ancient connection between people and the arts. This festival not only provides an amazing chance to become acquainted with many traditional dance styles of India, but it also serves as a networking opportunity for artists, dancers, musicians, and theatre professionals. The spectacular architecture, historic ambience, and enthralling performances entice tourists from all over the world to experience the festival.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
-  },
-  {
-    name: "Velankanni Festival",
-    tagline:
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
-    description:
-      "The Velankanni festival attracts thousands, clad in orange robes to the sacred spot where the ship landed. Equally famous are the Virgin Mary's miraculous healing powers, earning for the church the name 'Lourdes of the East'.  ",
-    images: [velanFest1, velanFest2],
-    source: "",
-  },
-  {
-    name: "Navarathiri Festival — Kolu",
-    tagline: "Literally means the festival of 'nine nights'.",
-    description:
-      "The Navarathiri Festival, literally means the festival of 'nine nights', taking unique and different forms in different states of India, all to propitiate the goddess Sakthi, for power, wealth and knowledge. - Celebrated in Tamil Nadu, Karnataka, and Andhra Pradesh, the festival includes placing dolls of a multitude of gods, goddesses, men, animals, and children on a steps-like set-up. In Tamil it is known as ‘Bommai Golu’. The Navratri Golu depicts scenes from ancient times – celebrated Indian stories that have been passed on from generation to generation like the Ramayana, Puranas, and the Dashavataram. This is the time of the year that you revisit those precious lessons from timeless, age-old stories. The steps may also be interpreted as the evolution ladder that we are all traversing in the journey of life. The dolls are placed on multiple steps in the house – in odd numbers. The numbers could vary from one to 11 depending on the number of dolls available for display. Many families place nine steps, each step representing the nine days of Navratri. Some keep three, five or seven steps as well. The steps are covered with a decorative cloth, and the dolls are placed on it. The first step is decorated with a kalash (ceremonial jar). The water-filled jar is decorated with a coronet of mango leaves, and a coconut is placed on top of it. It is considered to represent Goddess Durga. Idols of deities are placed on both sides of the kalash. According to tradition, the dolls of Goddesses Durga, Lakshmi, Saraswati and the wooden dolls called the Marapachi Bommai are always a part of the arrangement. The next few steps have idols of saints and heroes of the country. One of the steps represents human activities – depicting functions such as marriage, temples, and an orchestra or music band. Business is usually represented by the Chettiar set of dolls, with shop items and the Marapachi couple dressed in colorful clothes. It is a custom to add at least one new doll every year. The Golu could be a mode of telling ancient stories such as Ramayana or Bhagavad Gita or it could simply depict the evolution of life from animals to the sages and seers. On the tenth and last day, Vijayadasami, the day of victory, is celebrated. This is considered the most auspicious day of all – to start new ventures and journeys, and a day to start learning new skills. On this day, the Golu dolls are symbolically put to sleep, and then, packed the day after. Till they are brought out of their boxes the following year. Most people light lamps, draw colorful kolams (rangoli or floor decoration), perform aarti, recite shlokas (holy chants), and offer special dishes, especially a protein-rich dish called sundal (made of legumes), with some sweets and fruits every day. During the Golu set-up, women invite other women and honor them by gifting betel leaves, coconuts, fruits, flowers, bangles, turmeric, kumkum (vermilion powder) and prasadam (devotional offering of food made for the Divine and then distributed among people). It is an ideal time for families to display their creativity.",
-    images: [navar1, navar2],
-    source: "(Wikipedia)",
-  },
-  {
-    name: "Karthigai Deepam",
-    tagline: "An enchanting festival that illuminates the heart of Tamil Nadu.",
-    description:
-      "Karthigai Deepam is an enchanting festival that illuminates the heart of Tamil Nadu, with little clay lamps twinkling wherever you look like a million stars. The three-day festival, celebrated with great enthusiasm, is an integral part of Tamil culture. Devoted to Lord Karthikeya (also known as Lord Muruga), the lights of Karthigai Deepam are said to ward off darkness and evil spirits, spreading prosperity and joy. - As per ancient Hindu scriptures, the two great deities Lord Vishnu and Lord Brahma once started arguing with each other about who is superior. Each one claimed to be stronger than the other. At that point, Lord Shiva appeared to quell the fight. He took the shape of a huge fire and challenged the two Gods to find the end of the fire from the top and bottom. Lord Vishnu took the form of a boar and tried to reach the end of the fire beneath the earth, but he couldn’t and came back to Lord Shiva saying that he was unable to find it. Lord Brahma on the other hand, took the shape of a swan and flew to find the beginning of the fire on top. But his search too was in vain as he was unable to find the top of the fire. Thus, Lord Shiva proved his supremacy over the two Gods and managed to stop the fight. He then appeared in the form of a hill in Thiruvannamalai. A temple dedicated to Lord Shiva stands on the hill, where Karthigai Deepam celebrations include the lighting of a big fire. The Maha Deepam , which is lit on the hill as the culmination of the 10-day festival at the Arunachaleswarar Temple in Tiruvannamalai, is very famous.  This festival is celebrated during the months of November - December (Karthigai month) {src:incredibleindia.com}",
-    images: [karth1, karth2, karth3],
-    source: "(src: kalkionline.com, incredibleindia.com, tirthyatra.com)",
-  },
-  {
-    name: "Karadaiya Nombu",
-    tagline: "Marking the transition from the Tamil month of Maasi to Panguni.",
-    description:
-      "Karadaiya Nombu - marking the transition from the Tamil month of Maasi to Panguni. It is a significant festival where married women and young girls fast and pray to Goddess Kamakshi/Gowri for their husbands' longevity and prosperity, inspired by the story of Savitri and Satyavan. Celebrates the dedication of Savitri, who brought her husband back from Yama, embodying love and commitment. According to the legend, Savitri was a devoted princess who used her wit and devotion to reclaim the life of her husband, Satyavan, from Yama, the god of death. When Satyavan's destined time to die arrived, Savitri followed Yama as he carried her husband's soul away. Impressed by her persistence and eloquent arguments, Yama offered her several boons, excluding the life of her husband. For her final wish, Savitri requested that she be blessed with a hundred sons. When Yama granted the wish, Savitri pointed out that she could not fulfill this blessing without her husband being alive. Bound by his own word, Yama was forced to restore Satyavan to life. Women fast, and prepare special sweet and savory rice cakes called \"Karadai\" or \"Adai,\" served with butter.  Women tie a sacred yellow thread, often with a small flower piece, around their neck, symbolizing their prayer for their husband's long life.",
-    images: [karad1, karad2],
-    source: "(src: kannan's kitchen, veenas vegnation)",
+      "It is renowned as one of the world’s largest gatherings of women, who come together to offer a sweet rice dish (pongala) to the goddess Attukal Bhagavathy, an incarnation of the Mother Goddess.The festival is rooted in local legends connected to Goddess Kannaki, the central figure of the Tamil epic Silappathikaram. Attukal Bhagavathy is believed to have visited this temple site on her way to Kodungallur after avenging her husband’s death. The event symbolizes devotion, purity, and the divine feminine power, celebrating the goddess’s compassion and strength. The central ritual, pongala, involves women cooking a mixture of rice, jaggery, coconut, and banana in clay pots on temporary hearths along the streets surrounding the temple. The offering is made after the chief priest blesses the fires from the temple hearth. Only women participate in the cooking, while men assist in logistical and support roles.Attukal Pongala attracts millions of women from across Kerala and beyond, transforming Thiruvananthapuram into a vast temple town. The event has become a symbol of women’s solidarity and devotion, blending faith with cultural identity. It also reflects Kerala’s matrilineal and inclusive spiritual traditions. Recognized by Guinness World Records for female participation.",
+    images: [attukal1, attukal2, attukal3],
+    source: "(src: english.janmatv.com, Wikipedia)",
   },
 ];
 
 const historicalPlaces = [
   {
-    name: "Six Abodes of Murugan (Arupadai Veedu)",
+    name: "Sree Padmanabhaswamy Temple: The Golden Abode of Lord Vishnu",
     description:
-      "Six abodes of murgan -- The Six Abodes of Murugan, known as ‘Arupadai Veedu’, are sacred temples in Tamil Nadu, India, celebrating different stages of Lord Murugan's life, victories, and legends. ",
-    images: [sixAbodes],
-    subPlaces: [
-      {
-        name: "Subramaniyaswamy Temple – Thiruparankundram",
-        location: "Madurai district",
-        description:
-          "Subramaniyaswamy Temple – Thiruparankundram, Madurai district – Located on a hillock, it is first of the Aarupadaiveedu. Murugan's marriage with Deivanai took place here.",
-        images: [thiruparankundram],
-        source: "(src: Tumblr)",
-      },
-      {
-        name: "Arulmigu Senthilnathar Temple – Tiruchendur",
-        location: "Thoothukudi district",
-        description:
-          "Arulmigu Senthilnathar Temple – Tiruchendur, Thoothukudi district - Located along the coast of Bay of Bengal, the temple commemorates the place where Murugan won a victory over the demon Surapadman. ",
-        images: [thiruchendur],
-        source: "(src: cottage9)",
-      },
-      {
-        name: "Arulmigu Dandayudhapani Temple – Palani",
-        location: "Dindigul district",
-        description:
-          "Arulmigu Dandayudhapani Temple – Palani, Dindigul district - Located at the foothills of a hillock, the deity known as 'Kulanthai Velayuthaswami' is depicted as a young form of Murugan, and said to have been worshipped by the goddess Lakshmi. In the temple on the hilltop where 'Dhandayuthapani' is the main deity, Murugan is depicted as a hermit carrying a staff ('danda'). This is the place where Murugan is said to have arrived after his feud with his family over a divine fruit. Divine story of how and why Murugan came to Palani ----  Once upon a time, the revered sage Devrishi Narad paid a visit to Lord Shiva and Maa Parvati. During his visit, he presented Maa Parvati with a unique mango, claiming that whoever consumed it would gain extraordinary qualities and powers. Being the loving mother she is, Mata Parvati wished to share this special fruit between her two sons, Lord Ganesha and Lord Kartikeya. Devarishi Narad proposed that the mango could only be consumed by one person, prompting them to organize a contest between the two brothers. The challenge was set: each had to complete three rounds of the world, and the one who returned first would be declared the winner. Eager to claim the mango, Lord Kartikeya swiftly mounted his peacock and soared into the skies to complete the three rounds. Meanwhile, Lord Ganesha, without a flying mount, contemplated his approach. Undeterred, he began walking around his seated parents, Lord Shiva and Maa Parvati, completing three rounds. When Lord Ganesha finished, he humbly claimed his reward. Perplexed, Lord Shiva and Maa Parvati reminded him that the competition was to encircle the entire world three times. In response, Ganesha, with a wise smile, declared that his parents are his world, and by encircling them, he had indeed completed three rounds of his world. Thus, he emerged as the true victor in the competition of devotion and wisdom.Upon Lord Kartikeya’s triumphant return, expectations of victory filled the air. With his peacock Vahana, he had swiftly traversed the world, confident of securing the divine mango. However, as he approached Lord Shiva and Maa Parvati, the atmosphere shifted. The revelation that Lord Ganesha was declared the winner, not due to physical prowess, but through a profound display of devotion. Due to this, Lord Murugan feeling betrayed and angry at his parents leaves to Palani. ",
-        images: [palani1, palani2],
-        source: "(src: Cottage9, southern travels)",
-      },
-      {
-        name: "Swaminatha Swamy Temple – Swamimalai",
-        location: "Thanjavur district",
-        description:
-          'Swaminatha Swamy Temple – Swamimalai, Thanjavur district - Located atop a small hillock, the temple commemorates the incident where Murugan is regarded to have explained the essence of the Pranava mantra "Om" to his father Shiva. Story ---- Once Brahma, the Lord of all creation, disrespected Murugan when he was visiting Mount Kailash. Then, the ever-playful Murugan boldly asked Brahma the meaning of the Pranava Mantra “OM”. Failing to answer the question, Brahma admitted his ignorance. Murugan knocked his forehead, and imprisoned Brahma, bringing the whole of creation to a standstill. The demigods prayed to Lord Shiva for the release of Brahma. But Murugan insisted the imprisonment was a just punishment for Brahma\'s ignorance. Lord Shiva then asked Murugan whether he Himself knew the meaning of Pranava “Aum”. Murugan said he knew its meaning, but would only explain it if Lord Shiva accepted him as a guru and listened to him as a devoted disciple. Shiva accepted the request, and the son became the teacher. He then imparted upon the father the meaning of the sacred Pranava mantra “Aum” and the divine father, proud of understanding the significance, conferred respect to Murugan for his wisdom. You will see in the main shrine in the temple complex in Swamimalai that Murugan is depicted as a teacher and Shiva is listening as a disciple and, in this temple, the son is on a higher pedestal than the father.',
-        images: [swamimalai],
-        source: "(src: casual walker)",
-      },
-      {
-        name: "Subramanya Swamy Temple – Tiruttani",
-        location: "Thiruvallur district",
-        description:
-          'Subramanya Swamy Temple - Tiruttani, Thiruvallur district - Located atop a hill, Murugan is said to have reclaimed his inner peace after winning a war over the Surapadman and married Valli here. Story ---- After the intensity of the war in Tiruchendur, Murugan needed a place to subdue his anger and seek inner peace, making Tiruttani a place of tranquility. Thanigai in Tamil means "to pacify" or "to calm down," which is why the hill and town are named Tiruttani, where the deity grants mental peace and relieves devotees of anger and stress. Because he came to this spot for peace, the idol of Murugan here is often seen holding a Vajra Vel (thunderbolt weapon) rather than the standard spear, and he is often depicted with a calmer expression and has an elephant mount (vahana)instead of his usual peacock. Valli, a mortal daughter of a tribal chieftain (Kuravas) in Tamil Nadu, was born of a doe and destined to marry Lord Murugan. Valli, from a young age, fell in love with a divine figure (Murugan) and desired to marry him, avoiding all human suitors. Lord Murugan, attracted by her devotion, visited her in the millet fields. He approached her first as a hunter, then with the help of his brother Ganesha (appearing as a wild elephant), he frightened her into accepting his hand in marriage.',
-        images: [thiruttani],
-        source: "(src: Wikipedia)",
-      },
-      {
-        name: "Solaimalai Murugan Temple – Pazhamudircholai",
-        location: "Madurai district",
-        description:
-          'Solaimalai Murugan Temple - Pazhamudircholai, Madurai district – Located on a hillock near a stream called "Nupura Gangai", Murugan is seen here with both his consorts, Deivanai and Valli. - Story ---- Avvaiyar was a renowned and legendary Tamil poetess and a name behind one of the most famous and appreciated works ever written in Hindu folklore. Her exceptional vocabulary and dexterity in the language made her works stand apart, in the list of even the greatest of the poets. This had started to make her audacious over her abilities. According to the pages drenched in the antiquity of the Hindu folklore, Lord Murugan who was well-versed with his devotee wanted to teach her a lesson and took the shape of a ten-year-old boy in here in Solaimalai. After having achieved everything in her life, Avviayar was resting under a Naaval tree, trying to figure out what lied next for her. A small boy appeared out of nowhere and stood on the tree. The boy asked Avviayar if she would like some fruits. Driven by hunger and thirst, she agreed instantly. The boy asked if she wanted a hot fruit or a cold one, which confused Avviayar but was tired to argue and opted for the cold one. Smilingly, the boy shook the tree, as many fruits fell, all of which were collected by her. The fruits were coated with the sand, so Avviayar blew them to remove it. The boy asked innocently, why was she trying to cool down the fruit blowing, which was already cold. This incident left Avviayar humbled by the clever wordplay and the poetic knowledge of the little boy. However, She was skeptical of the boy’s true identity which was revealed to her as Lord Murugan himself. She bowed to the almighty and requested him to bestow her with his bountiful knowledge, for she had realized the power of infinite learning. She sought Lord Murugan’s blessings and embarked on her quest for endless knowledge.',
-        images: [pazhamudir],
-        source: "(src: TemplePurohit)",
-      },
-    ],
+      "Located in the heart of Thiruvananthapuram, Kerala, the Sree Padmanabhaswamy Temple is not only a spiritual powerhouse but also a masterpiece of history, architecture, and mystery. Often cited as the wealthiest place of worship in the world, it serves as a stunning bridge between Kerala’s heritage and Dravidian artistry. The temple is one of the 108 Divya Desams (holy abodes of Vishnu). The presiding deity is Lord Padmanabha, depicted in the Ananthasayanam posture—an eternal yogic sleep upon the thousand-headed serpent, Adishesha. A 18-foot marvel made from Katusarkara Yogam (a medicinal herb mix) and 12,008 sacred Salagrama stones.The Three-Door View: To see the full form of the Lord, devotees must look through three consecutive doors:Door 1: The face of the Lord and a Shiva Lingam.Door 2: Lord Brahma emerging from a lotus in the navel.Door 3: The sacred feet of the Lord. The temple is a rare architectural fusion of Kerala style (woodwork and sloped roofs) and Dravidian style (towering stone structures). The Eastern Gopuram: A 100-foot-tall, seven-tier gateway tower decorated with intricate carvings. The Kulasekhara Mandapam: A stone hall famous for its 'Musical Pillars', which emit different musical notes when tapped. The 365-Pillar Corridor: A grand stone walkway (Sreebalippura) featuring 365 and a quarter granite pillars, each unique and hand-carved. In 2011, the world watched as five of the temple's six subterranean vaults (Kallaras) were opened. The discovery included: Solid gold idols and coconut shells made of pure gold; Napoleonic era coins and Roman gold; Diamonds, rubies, and emeralds by the kilogram; Vault B (The Mystery): This vault remains unopened. Legend says it is sealed by a 'Naga Bandham' (divine serpent lock) and can only be opened by a high priest chanting the Garuda Mantra. The temple maintains very strict traditions and protocols that all visitors must follow to gain entry - Entry Restrictions: Entry is traditionally restricted to those of the Hindu faith; Dress Code: There is a strict traditional dress code. Men must wear a mundu (dhoti) and are not allowed to wear shirts or vests in the inner sanctum. Women must wear a saree, set-mundu, or long skirt and blouse; Prohibited Items: Mobile phones, cameras, and all electronic devices are strictly prohibited inside and must be stored in the cloakroom.",
+    images: [padma1, padma2],
+    source: "(src: Pragyata, Itenarydiary)",
   },
   {
-    name: "Pancha Bhootam Temples",
+    name: "Kovalam Beach",
     description:
-      "The Pancha Bhoota Stalam refers to five sacred Shiva temples in South India, each representing a natural element: Earth, Water, Fire, Air, and Ether (Space). Out of 5, 4 of these temples are  located in Tamil Nadu and 1 Is in Andhra Pradesh, embodying the Hindu philosophy that nature's elements are manifestations of Shiva. In the temples, Shiva is said to have manifested himself in the respective forms of the five elements.",
-    hasImage: false,
-    subPlaces: [
-      {
-        name: "Earth – Bhumi Lingam – Ekambareshwar Temple",
-        location: "Kanchipuram",
-        description:
-          "Earth – Bhumi Lingam – Ekambareshwar Temple – Kanchipuram - Shiva is worshipped as Ekambareswarar or Ekambaranathar, and is represented by the lingam, with his idol referred to as Prithvi (earth) lingam. The temple complex covers 25 acres and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the southern tower, with 11 stories and a height of 58.5216 metres (192 ft), making it one of the tallest temple towers in India. The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagara period. Legend has it that once Parvati, the consort of Shiva, wanted to expiate herself from sin by doing penance under the temple's ancient Mango tree near the Vegavati river. She created the lingam out of wet soil. This lingam is now covered with silver. ",
-        images: [bhumiLingam],
-        source: "",
-      },
-      {
-        name: "Water – Varuna/Jambu Lingam – Jambukeshwarar Temple",
-        location: "Thiruvanaikaval, near Trichy",
-        description:
-          "Water – Varuna/Jambu lingam – Jambukeshwarar Temple – Thiruvanaikaval, near Trichy - The sanctum of Jambukeswara has the copper plated lingam and an underground water stream, and despite draining the water out, it is always filled with water. Once, Parvati mocked Shiva's penance for the betterment of the world. Shiva wanted to condemn her act and banished her to the earth from Mount Kailash (Shiva's heavenly abode) to do penance. Parvati, in the form of Akhilandeshwari as per Shiva's wish, found the Jambu forest to conduct her penance. She made a lingam out of water of the river Kaveri (also called as river Ponni) under the Venn Naaval tree (the jambu tree on top of the saint Jambu) and commenced her worship. The lingam is known as Appu Lingam or Jala Lingam (Water Lingam). There are five enclosures inside the temple. The massive outer wall covering the fifth precinct, known as the Vibhuti Prakara, stretches over a mile and is two feet thick and over 25 feet high. Legend maintains that the wall was built by Shiva working with the labourers.[10] The fourth precinct contains a hall with 796 pillars and measures 2436 feet by 1493.",
-        images: [jambuLingam],
-        source: "",
-      },
-      {
-        name: "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple",
-        location: "Thiruvannamalai",
-        description:
-          "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple – Thiruvannamalai - Shiva is worshipped as Annamalaiyar or Arunachaleshwar, and is represented by a silver plated lingam, with his idol referred to as Agni lingam. The sanctum inside is always lit by fire lamps. The 9th-century Shaiva saint poet Manikkavacakar composed the Tiruvempaavai here. The temple complex covers 10 hectares and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the eastern tower, with 11 stories and a height of 66 metres (217 ft), making it one of the tallest temple towers in India built by Sevappa Nayakar (Nayakar dynasty). The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagar period. The Karthika Deepam festival is celebrated during the day of the full moon between November and December, and a huge beacon is lit atop the nearby Annamalai hill. It can be seen from miles around, and symbolises the Shiva lingam of fire joining the sky. The event is witnessed by three million pilgrims. On the day preceding each full moon, pilgrims circumnavigate the temple base and the Annamalai hills in a worship called Girivalam, a practice carried out by one million pilgrims yearly. ",
-        images: [jyothiLingam],
-        source: "",
-      },
-      {
-        name: "Ether/Space – Indra/Akasha Lingam – Thillai Natarajar Temple",
-        location: "Chidambaram",
-        description:
-          'Ether/ Space – Indra/Akasha Lingam – Thillai Natarajar Temple – Chidambaram - Chidambaram, the name of the city and the temple, literally means "atmosphere of wisdom" or "clothed in consciousness"; the temple architecture symbolises the connection between the arts and spirituality, creative activity and the divine.The temple wall carvings display all the 108 karanas from the Natya Shastra by Bharata Muni, and these postures form a foundation of Bharatanatyam, a classical Indian dance. The present temple was built in the 10th century when Chidambaram was the capital of the Chola dynasty, making it one of the oldest surviving active temple complexes in South India. After its 10th-century consecration by the Cholas who considered Nataraja as their family deity, Shiva himself is idolised in three forms, as a crystal lingam, as a formless space covered by curtains (Chidambaram rahasyam), and as the Nataraja performing the Ananda Tandava ("Dance of Delight") in the golden hall of the shrine Pon Ambalam. The temple is one of the five elemental lingas in the Shaivism pilgrimage tradition, and considered the subtlest of all Shiva temples (Kovil) in Hinduism. It is also a site for performance arts, including the annual Natyanjali dance festival on Maha Shivaratri.',
-        images: [akashaLingam],
-        source: "",
-      },
-      {
-        name: "Air – Vayu Lingam – Srikalahasti Temple",
-        location: "Srikalahasti, Andhra Pradesh",
-        description:
-          "The one Pancha Bhootam temple located outside Tamil Nadu. Shiva is worshipped as Srikalahastishvara — the lord of Vayu (wind). A lighted lamp inside the sanctum always flickers as if in a breeze, even though there is no air moving, symbolising the presence of Vayu (Air). It is one of the most celebrated Shiva temples in South India.",
-        hasImage: false,
-        source: "",
-      },
-    ],
+      "Kovalam Beach, located about 16 km from Thiruvananthapuram in Kerala, is one of India’s most well-known beach destinations. It is not a single beach but a group of three crescent-shaped beaches—Lighthouse Beach, Hawa Beach, and Samudra Beach—each offering a slightly different experience, from lively tourist activity to quieter, more peaceful surroundings. Lighthouse Beach: The largest and southernmost beach, featuring a 35-meter-high striped lighthouse that offers panoramic views,making it major attraction; Hawa Beach: Known as Eve's Beach, it is known for its high-density tourism and stunning sunrise/sunset views; Samudra Beach: The northernmost part, known for being quieter and less crowded, offering a more serene experience. The beach is popular for swimming due to its relatively shallow waters, and it also attracts visitors for activities like surfing,sunbathing and relaxing Ayurvedic treatments, which Kerala is famous for. Kovalam is also known for its delicious seafood delicacies and local flavors. The best time to visit is from October to March when the weather is pleasant, while the monsoon season is less suitable for beach activities. Historically, Kovalam gained international attention in the 1970s when it became popular among foreign travelers, and it has since developed into a major tourist hub known for its natural beauty and coastal charm.",
+    images: [kovalam1, kovalam2],
+    source: "(src: Kerala toursim, IncredibleIndia)",
   },
   {
-    name: "1000-Pillar Temple — Madurai Meenakshi Temple",
+    name: "Poovar Island",
     description:
-      'Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). Built around 1569 by Ariyanatha Mudaliyar, the minister of the Nayak dynasty, the hall is known for its structural beauty and detailed carvings. It is called the 1000-pillar temple because it houses a massive, 16th-century hall known as the Aayiram Kaal Mandapam, which contains a vast, intricately carved forest of pillars. Though often referred to as "1000," the hall actually holds 985, not 1000, granite pillars arranged in rows. While the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries. While a few structural improvements were made during the 18th and 19th centuries CE, the temple condition degraded due to negligence during the British Raj. After the Indian independence in the mid 20th century, the temple was restored with donations collected from people. Further restoration and kumbhabhishekam of the temple was conducted in 1974, 1995, and 2009. The temple conducts six pujas everyday, each comprising four rituals namely abhisheka (sacred bath), alankaram (decoration), naivedanam (food offerings) and deepa aradanai (lamp ceremony) for both Meenakshi and Sundareswarar. The rituals and festivals are accompanied with music from instruments such as nadhaswaram (pipe instrument), davandai and tavil (percussion instrument), often along with the recitation of the Vedas. The Hindus circumambulate the shrines clockwise before entering the shrine for a darshana. The Meenakshi shrine is typically visited before the Sundareswarar shrine by the pilgrims, as she is considered the primary deity of the complex. The Meenakshi temple hosts a festival in each month of the Tamil calendar. The Meenakshi thirukalyanam, which celebrates the wedding of Meenakshi and Sundareswarar, is celebrated over 15 days, and is the most attended festival. The festival, celebrated during the month of Chithirai, is part of the ‘Chithirai Thiruvizha’. The festivities include number of events such as the ‘Ther Thiruvizha’ (temple car festival) and ‘Theppa Thiruvizha’ (float festival). The wedding of the divine couple is regarded as an instance of a South Indian wedding with matrilineal emphasis, an arrangement referred as "Madurai marriage", which is in contrast with the "Chidambaram marriage", with patrilineal emphasis, named after the rituals at the Nataraja temple at Chidambaram. The festival includes the wedding ritual, where Alagar (Vishnu) gives away his sister Meenakshi, the royal bride, in marriage to Shiva, and a procession, where the idols of Meenakshi and Sundareswarar are taken in a temple car, pulled by volunteering devotees.',
-    images: [meenakshi1, meenakshi2, meenakshi3, meenakshi4],
-    source: "(src: Wikipedia, National Geographic)",
-  },
-  {
-    name: "Rameshwaram Temple",
-    description:
-      "Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the Hindu god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is one of the twelve Jyotirlinga temples. According to tradition, the lingam (an aniconic form of Shiva) of the Ramanathaswamy Temple was established and worshipped by Rama before he crossed the bridge called Rama Setu to the island kingdom of Lanka, identified with Sri Lanka. It is one of the Char Dham pilgrimage sites. In the Yuddha Kanda of the Ramayana, on their journey back to Ayodhya, Rama narrates to Sita the appearance and worship of Shiva in the form of a lingam on the island of Rameswaram before the construction of his bridge to Lanka. He describes the spot to be supremely sacred and capable of expiating major sins. In the Shiva Purana, Rama propitiates Shiva on the shore of Rameswaram in the form of a lingam by the repetition of mantras, meditation, and dancing. Pleased, the deity appeared before Rama and granted his requested boon of victory over Ravana. Rama then requested the deity to remain on the island to sanctify the world and offer his grace to all people. There are sixty-four Tīrthas (holy water bodies) in and around the island of Rameswaram, Tamil Nadu, India. According to Skānda Purāṇa, twenty-four of them are important. Bathing in these Tīrthas is a major aspect of the pilgrimage to Rameswaram and is considered equivalent to penance. Twenty-two of the Tīrthas are within the Rāmanāthasvāmī Temple. The number 22 indicates the 22 arrows in Rama's quiver. is famous for its massive corridor, which features 1,212 intricately carved, symmetrical pillars. These sandstone pillars, standing approximately 30 feet tall, form the world's longest temple corridor. Some reports suggest the overall temple complex may have up to 4,000 pillars in total.",
-    images: [rames1, rames2, rames3],
-    source: "(src: Famous Tamil Nadu Temples, Wikimedia Commons, Intermiles)",
-  },
-  {
-    name: "Dhanushkodi",
-    description:
-      "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres (15 mi) west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath. Although devoid of inhabitants, Dhanushkodi remains a tourist attraction due to its historical and mythological relevance. An estimated 1,800 people died in the cyclonic storm on 22 December 1964 including 115 passengers on board the Pamban-Dhanushkodi passenger train. The entire town was marooned and the Government of Madras declared Dhanushkodi as a ghost town, unfit for living. Around the 40th anniversary of the deadly cyclone, the sea around Dhanushkodi receded about 500 metres (1,600 ft) from the coastline, briefly exposing the submerged part of the town before massive tsunami waves struck the coast on 26 December 2004. The name Dhanushkodi means \"end of the bow\".It is significant for its deep mythological roots to the Ramayana, having served as the site where Lord Rama is believed to have marked the starting point of the Ram Setu bridge to Lanka. It serves as the starting point for the legendary Ram Setu, a 50 km long chain of limestone shoals connecting India's Rameswaram Island to Sri Lanka's Mannar Island.",
-    images: [dhanush1, dhanush2],
-    source: "(src: Kiomoi Travels, Tusk Travels)",
-  },
-  {
-    name: "Pamban Bridge",
-    description:
-      "Pamban bridge was a railway bridge that connected the town of Rameswaram on Pamban Island with Mandapam in mainland India. Opened on 24 February 1914, it was India's first sea bridge. The Pamban bridge was the only surface transport link that connected Rameswaram to the mainland India until 1988, when a road bridge was constructed parallel to the railway bridge. In 2020, construction of a new bridge closer to the existing one began which was planned to eventually replace the existing bridge. The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025.",
-    images: [pamban1, pamban2, pamban3],
-    source: "",
-  },
-  {
-    name: "The Great Chola Temples (UNESCO World Heritage Site)",
-    description:
-      "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands. The site includes three great 11th- and 12th-century Temples: the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram and the Airavatesvara Temple at Darasuram. The Temple of Gangaikondacholisvaram, built by Rajendra I, was completed in 1035. Its 53-m vimana (sanctum tower) has recessed corners and a graceful upward curving movement, contrasting with the straight and severe tower at Thanjavur. The Airavatesvara temple complex, built by Rajaraja II, at Darasuram features a 24-m vimana and a stone image of Shiva. The temples testify to the brilliant achievements of the Chola in architecture, sculpture, painting and bronze casting.. The Thanjavur temple is also variously known as Thanjai Periya Kovil, the Thanjavur Big Temple or Rajarajeshwaram, temple of the God of Rajaraja. It is one of the largest Hindu temples and an exemplar of Tamil architecture. Rajaraja himself referred to his temple as Dakshina Meru or the southern abode of Lord Shiva. Construction of the temple began in about 1003-1004 CE, and it was consecrated by Rajaraja in 1010 CE. The Chola kingdom was economically prosperous – they not only controlled every important trading port in south India, but they also had a monopoly over production of the gold mines of Kolar, the pearl fisheries in the Gulf of Mannar, the diamond mines that lay between the rivers Krishna and Pennar on the Deccan plateau (the Golconda mines) and the gem production of Ceylon as well. They are recognized as one of the 44 unesco world heritage sites of india because of the following 4 criterias-\n\nCriterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the dravida type of temple.\n\nCriterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.\n\nCriterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilisation in Southern India.\n\nCriterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.",
-    images: [chola1, chola2, chola3],
-    source: "(src: Moneycontrol, Incredible India)",
-  },
-  {
-    name: "Velankanni Church",
-    description:
-      "The Basilica of Our Lady of Good Health, also known as Sanctuary of Our Lady of Velankanni, is a Christian shrine located at the town of Velankanni, Tamil Nadu, India. The shrine is dedicated to the Blessed Virgin Mary. The devotion has existed since the mid-sixteenth century, it is attributed to three separate events which occurred at the site: The apparition of the Madonna and Child to a slumbering shepherd boy, the miraculous healing of a handicapped buttermilk vendor and the rescue of Portuguese sailors from a deadly sea storm. The basilica is built in the Gothic style of architecture. The southern side was extended in 1928 and the northern in 1933. The Shrine Basilica contains three chapels, as well as Our Lady's Tank, Church Museum, Priests' Residence, Offering Center, Stations of the Cross, mysteries of the rosary, Shrine Mega Mahal and Velankanni Beach. The building is painted in white, except for the roof that is made of red tiles. For Goan and Konkani people, she is called \"Shantadurga\" (most compassionate one). A major event is the procession, where only women are allowed to pull the first car and a statue of Mary is in the last and most decorated one. People of other religions also take part. The pilgrims sometimes shave their heads as an offering and perform ear-piercing ceremonies, both being Hindu traditions. Another ritual considered sacred is dipping oneself in the pond. There is a holy flag which is lowered to signal the end of the festival.",
-    images: [velan1, velan2, velan3],
+      "Poovar Island is a tranquil coastal destination located about 27 km from Thiruvananthapuram in Kerala. It is known for its unique geographical setting where the Neyyar River meets the Arabian Sea, creating a rare landscape of backwaters, river, sea, and a narrow stretch of golden sand beach. The island is primarily accessible by boat, making the journey an integral part of the experience. Poovar is popular for its backwater cruises through mangroves, floating cottages, and peaceful natural surroundings. The area supports rich biodiversity, including various bird species and aquatic life. The best time to visit is from October to March when the weather is pleasant, while the monsoon season brings heavy rainfall. Overall, Poovar Island is valued for its calm atmosphere, scenic beauty, and distinctive coastal ecosystem.",
+    images: [poovar1, poovar2],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Thiruvalluvar Statue, Kanyakumari",
+    name: "Jatayu Earth's center",
     description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
+      "Jatayu Earth's Center is a unique eco-tourism and adventure destination located in the Kollam district of Kerala. It is best known for having one of the world’s largest bird sculptures, representing Jatayu, a character from the Ramayana who is believed to have fought to protect Sita. The site is built on a hilltop at Chadayamangalam and offers stunning panoramic views of the surrounding landscape. Visitors can reach the top either by trekking or using a cable car facility. Along with the sculpture, the center features adventure activities such as rock climbing, zip-lining, and rappelling, making it popular among young travelers. It also promotes themes of women’s safety and courage, inspired by the story of Jatayu. The best time to visit is from October to March when the weather is more comfortable. Overall, Jatayu Earth's Center combines mythology, adventure, and scenic beauty into a single tourist experience.",
+    images: [jatayu1],
+    source: "(src: mybestplace)",
+  },
+  {
+    name: "Ashtamudi Lake",
+    description:
+      "Ashtamudi Lake is one of the largest and most important backwater lakes in Kerala, located in the Kollam district. The name Ashtamudi means eight coned or eight branches, referring to its unique topography of eight interlinked arms, resembling an octopus, which makes it central to Kerala’s inland waterway network. It is a popular destination for backwater tourism, offering houseboat cruises between Kollam and Alappuzha, along with canoe rides and sunset tours. Visitors can experience rural Kerala life, coconut-lined shores, and traditional Chinese fishing nets along the banks. The lake also hosts the annual President’s Trophy Boat Race on November 1, attracting large crowds. Ashtamudi supports rich biodiversity, including mangrove forests, over 40 wetland-dependent bird species, and diverse aquatic life, including endangered plant species such as Syzygium travancoricum and Calamus rotang. It also plays an important ecological role as a natural flood buffer and supports local livelihoods through fishing and clam harvesting.",
+    images: [cashtamudi1],
+    source: "(src: blogspot.com)",
+  },
+  {
+    name: "Munroe Island",
+    description:
+      "Munroe Island, also known as Munrothuruthu or Munroe Thuruth, is a scenic cluster of eight small islets in Kollam district, India. Situated where the Ashtamudi Lake meets the Kallada River, it is famed for tranquil backwaters, lush mangroves, and authentic village life. Named after British administrator Colonel John Munroe, it represents a serene microcosm of Kerala’s rural and ecological heritage. Munroe Island lies within Kerala’s vast backwater ecosystem. Its crisscrossing network of canals, lagoons, and coconut groves connects to Ashtamudi Lake, a Ramsar-recognized wetland.Munroe Island’s small villages depend on coir making, fishing, and coconut farming. Visitors can observe coir weaving, prawn cultivation, and sustainable agrarian practices that define Kerala’s traditional livelihoods.",
+    images: [munroe1, munroe2],
+    source: "(src: Noblehousetours.com, greenchromide.com)",
+  },
+  {
+    name: "Sabarimala Sri Dharmasastha Temple",
+    description:
+      "Sabarimala Sree Dharma Sastha Temple is located atop the Sabarimala hill in Pathanamthitta district, Kerala, surrounded by 18 hills within the Periyar Tiger Reserve. The temple is dedicated to Lord Ayyappa, also known as Hariharaputra, the son of Shiva and Mohini (Vishnu’s female avatar), symbolizing the unity of divine energies. It is one of the largest annual pilgrimage sites in the world, with an estimated 10–15 million devotees visiting each year. According to Hindu mythology, Ayyappa was born to defeat the demoness Mahishi, who could only be killed by a child born of Shiva and Vishnu. The child, Manikandan, was raised by the Pandalam royal family. After fulfilling his divine mission, he instructed the king to build a temple at Sabarimala, where he would reside in the form of a deity. The temple also honors Malikapurathamma, a devotee associated with Ayyappa, and Vavar Swami, a Muslim warrior and close companion of Ayyappa, reflecting religious harmony. Sabarimala is linked to the legend of Shabari from the Ramayana, and the temple’s name literally means 'The hill of Sabari’. The temple features the Pathinettam Padi (18 sacred steps), which pilgrims climb as part of their spiritual journey. Each step symbolizes human senses, emotions, and virtues, representing the path to self-realization. Devotees carry the Irumudi Kettu, a twin-compartment offering bag, and observe a 41-day vratham of celibacy, abstinence from non-vegetarian food, and spiritual discipline before the pilgrimage. The main sanctum houses a Panchaloha idol of Lord Ayyappa, while shrines for Malikapurathamma, Vavar, Kadutha Swami, and Karuppaswamy are located nearby. Rituals include Neyyabhishekam, Ganapathi Homam, Usha Pooja, Deeparadhana and harivarasanam. First five days of each Malayalam month,Pilgrims traditionally start from Pamba River, taking ritual baths before trekking through forested paths to the temple. The trek is considered a purification process, with routes from Erumeli, Chalakkayam, and Vandiperiyar. Historically, women of reproductive age (10–50 years) were not permitted to enter Sabarimala temple, though the Supreme Court of India lifted this ban in 2018, allowing women of all ages to visit the temple. Sabarimala emphasizes equality, discipline, and devotion, welcoming devotees of all religions and castes. The temple’s traditions, including the 41-day vratham and communal chanting, foster spiritual unity. The Makara Jyothi, a celestial light appearing during Makaravilakku, is a central symbol of faith.",
+    images: [sabarimala1, sabarimala2, sabarimala3],
+    source: "(src: India.com, Wikipedia)",
+  },
+  {
+    name: "Aranmula Parthasarathy Temple",
+    description:
+      "Aranmula Parthasarathy Temple is an ancient and highly revered Hindu temple located on the banks of the Pamba River in Pathanamthitta district of Kerala. The temple is dedicated to Lord Krishna in the form of Parthasarathy, which means the charioteer of Arjuna from the Mahabharata. It is one of the 108 Divya Desams, making it an important pilgrimage site for devotees of Lord Vishnu. The temple has deep historical and mythological significance. According to legend, Arjuna, one of the Pandavas, is believed to have established the temple as an act of repentance after the Kurukshetra war. The name “Aranmula” is said to have originated from “six bamboo poles,” referring to the raft used to bring the idol of the deity to this place. Architecturally, the temple reflects the traditional Kerala style, featuring sloping roofs, detailed wooden carvings, and mural paintings that depict scenes from epics like the Ramayana and Mahabharata. The temple complex includes a circular sanctum (sreekovil) and is surrounded by a peaceful natural setting along the river, adding to its spiritual atmosphere. The temple is also famous for its unique rituals and cultural traditions. One of the most notable is the Vallasadya, a grand ritual feast with a wide variety of traditional vegetarian dishes served to devotees. Another major event is the Aranmula Boat Race (Vallamkali), held during the Onam festival, which attracts large crowds and showcases Kerala’s rich cultural heritage. Additionally, the temple plays an important role in the pilgrimage to Sabarimala Temple, as sacred ornaments of Lord Ayyappa are ceremonially connected with this temple. Aranmula is also known for the traditional craft of the Aranmula metal mirror, reflecting the region’s cultural and artistic heritage. Overall, the temple is not only a place of worship but also a center of history, culture, and living traditions in Kerala. Aranmula Parthasarathy Temple is an ancient and highly revered Hindu temple located on the banks of the Pamba River in Pathanamthitta district of Kerala. The temple is dedicated to Lord Krishna in the form of Parthasarathy, which means the charioteer of Arjuna from the Mahabharata. It is one of the 108 Divya Desams, making it an important pilgrimage site for devotees of Lord Vishnu. The temple has deep historical and mythological significance. According to legend, Arjuna, one of the Pandavas, is believed to have established the temple as an act of repentance after the Kurukshetra war. The name “Aranmula” is said to have originated from “six bamboo poles,” referring to the raft used to bring the idol of the deity to this place.",
+    images: [aranmula1, aranmula2],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Vivekananda Rock Memorial",
+    name: "Ambalappuzha Sree Krishna temple",
     description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
-    images: [vive1, vive2, vive3],
+      "Ambalappuzha Sree Krishna Temple is a historic and highly revered Hindu temple located in Alappuzha district of Kerala, dedicated to Lord Krishna in his Parthasarathy (charioteer) form. Believed to have been built between the 15th and 17th centuries by the Chembakasserry rulers, the temple is an important center of Vaishnavite worship and cultural heritage in Kerala. It is widely known for its traditional Kerala-style architecture, featuring sloping tiled roofs, detailed wooden carvings, and mural paintings that depict stories from Hindu epics. The temple is especially famous for its unique offering called Palpayasam, a sweet milk porridge that is distributed to devotees as prasadam and is considered one of the most iconic temple offerings in Kerala. According to a popular legend, Lord Krishna appeared in disguise and challenged the king to a game of chess, which led to the origin of this offering tradition that continues to this day.The temple also holds strong cultural significance, hosting festivals such as the Ambalappuzha Arattu Festival, along with celebrations like Krishna Janmashtami and Vishu. Traditional art forms, including Ottan Thullal, are closely associated with the temple, reflecting Kerala’s rich artistic heritage. Located near Alappuzha, the temple attracts both devotees and tourists for its spiritual importance, historical value, and cultural traditions.",
+    images: [ambal1, ambal2, ambal3, ambal4],
     source: "(src: Wikipedia)",
   },
   {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
+    name: "Alappuzha Beach",
     description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
+      "Alappuzha Beach, also known as Alleppey Beach, is one of the most popular coastal attractions in Alappuzha, Kerala. Facing the Arabian Sea, the beach is well known for its wide stretch of golden sand, scenic sunsets, and historic charm. A major highlight is the century-old pier, originally built in 1862, which stands as a reminder of the town’s past as an important port for trade in coir, spices, and other goods. The nearby Alappuzha Lighthouse adds to the historical importance of the area and offers panoramic views of the sea and coastline. The beach also features attractions like Vijaya Beach Park and Sea View Park, making it suitable for both relaxation and family visits. Visitors can enjoy activities such as beach walks, photography, and water sports, while the calm surroundings make it ideal for leisure. Alappuzha Beach also hosts events like the annual Beach Festival and the International Sand Art Festival, attracting tourists from different parts of the country. Located close to the town center and well connected by road and rail, it serves as an easy and important destination that combines natural beauty, history, and cultural activities.",
+    images: [alappuzha1, alappuzha2, alappuzha3],
+    source: "(src: alappuzha.com, tripadvisor.com)",
   },
   {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
+    name: "Kumarakom Back waters and Bird Sanctuary",
     description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
-    source: "",
+      "Kumarakom Bird Sanctuary is a well-known bird sanctuary located on the banks of Vembanad Lake in Kottayam district of Kerala. Spread over about 14 hectares, it is one of the most famous birdwatching destinations in South India and forms an important part of Kerala’s backwater ecosystem. The sanctuary developed from a wooded estate established in the 19th century and later evolved into a protected area due to its rich natural habitat. The sanctuary is home to a wide variety of bird species, including herons, egrets, kingfishers, darters, and brahminy kites. During the migratory season, birds from distant regions such as Siberia and the Himalayas visit this area, making it especially significant for bird conservation and study. The presence of mangroves, coconut groves, and shallow lagoons provides ideal conditions for feeding, nesting, and breeding, supporting both resident and migratory birds.Visitors can explore the sanctuary through a walking trail of about 2 kilometers that passes through dense vegetation and canals, leading to viewpoints overlooking the lake.Boating facilities on Vembanad Lake offer an additional way to observe birds and enjoy the surrounding scenery. The best time to visit is from November to February for migratory birds, while June to August is suitable for observing local breeding activities.Kumarakom Bird Sanctuary is not only a major tourist attraction but also an important ecological site that helps maintain the balance of wetland biodiversity. It supports eco-tourism while promoting conservation awareness and sustaining local livelihoods connected to the backwaters.",
+    images: [kumarakom1, kumarakom2, kumarakon3],
+    source: "(src: IncredibleIndia, Muhamma.com, Wikipedia)",
   },
   {
-    name: "Trichy Malaikottai (Rockfort)",
+    name: "Illikkal Kallu",
     description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
+      "Illikkal Kallu is a striking hilltop rock formation located in the Western Ghats near Teekoy in Kottayam district of Kerala. Situated at an elevation of about 3,400 feet (around 1,050 meters) above sea level, it is one of the most popular viewpoints in the region, known for its panoramic landscapes, cool climate, and adventurous trekking routes. The formation lies on Illikkal Mala and originally consisted of three large rock structures, though only one remains prominent today due to natural erosion over time. The site offers expansive views of the surrounding valleys, forested hills, and, on clear days, even distant lowlands and parts of the Arabian Sea. The area is often covered in mist, especially during early mornings and evenings, creating a dramatic and scenic atmosphere that attracts photographers and nature enthusiasts. The location is accessible by road up to a certain point, after which visitors must walk a short distance to reach the main viewpoint, where safety railings and designated paths have been provided. Illikkal Kallu is also known for its natural surroundings, which include diverse plant species and rich biodiversity typical of the Western Ghats. Local traditions associate the region with medicinal plants and folklore, adding cultural value to its natural beauty. The best time to visit is from September to February when the weather is pleasant and visibility is clearer, while the monsoon season can make the terrain slippery and foggy. Overall, Illikkal Kallu is valued for its scenic views, trekking experience, and unique geological formation, making it an important natural attraction in Kottayam district.",
+    images: [illikkal1, illikkal2],
+    source: "(src: Wikipedia, tripoto.com)",
   },
   {
-    name: "Srirangam Ranganathaswamy Temple",
+    name: "Marmala Waterfalls",
     description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+      "Marmala Waterfalls is one of the most scenic natural attractions in Kottayam district of Kerala, located near Erattupetta along the eastern slopes of the Western Ghats. The waterfall originates from the Meenachil River and cascades from a height of about 60 meters (around 200 feet), forming a striking flow of water surrounded by dense forest and rocky terrain.The site is known for its untouched natural setting, with thick vegetation, hills, and a cool, refreshing atmosphere that attracts nature lovers and trekkers. Visitors usually reach the waterfall by walking a short distance through a forest path, which adds an element of adventure to the experience. The pool formed at the base of the falls enhances its beauty, though caution is advised due to slippery rocks and strong currents, especially during the monsoon season.Marmala Waterfalls is particularly popular during and after the monsoon months when the water flow is at its peak, creating a powerful and visually impressive cascade. However, the best time to visit is from September to February when the surroundings are lush and the weather is safer for travel and exploration. Overall, the waterfall is valued for its natural beauty, peaceful environment, and trekking appeal, making it a notable destination in the region.",
+    images: [marmala1],
+    source: "(src: Holidify.com)",
+  },
+  {
+    name: "Idukki Dam",
+    description:
+      "Idukki Dam is a major hydroelectric project located in Idukki district of Kerala, built across the Periyar River. It is a double-curvature arch dam constructed between the Kuravan and Kurathi hills and stands at a height of about 168.91 meters, making it one of the highest arch dams in Asia. The dam is a key part of Kerala’s power infrastructure and is operated by the Kerala State Electricity Board.Completed in 1973 and commissioned for power generation in 1975–1976, the dam is known for its advanced engineering design, which allows it to withstand high water pressure using a relatively thin concrete structure. It was developed with technical and financial assistance from the Government of Canada. Along with the nearby Cheruthoni Dam and Kulamavu Dam, it forms a large reservoir system that supports the underground Moolamattom Powerhouse, which has a power generation capacity of about 780 MW and supplies electricity across the state.The dam is also associated with local history and folklore, including stories about the Kuravan and Kurathi hills. It was officially inaugurated by Indira Gandhi in 1976. Surrounded by the forests and hills of the Western Ghats, the area offers scenic viewpoints such as Hill View Park and Calvary Mount. While direct access to the dam structure is limited and regulated, nearby viewpoints and the reservoir area attract visitors for their natural beauty and panoramic views.",
+    images: [idukki1, idukki2],
+    source: "(src: livekerala.com, wallpapercave.com)",
+  },
+  {
+    name: "Munnar",
+    description:
+      "Munnar is a famous hill station located in Idukki district of Kerala, known for its cool climate, mist-covered hills, and vast tea plantations. Situated in the Western Ghats at an elevation of around 1,500–1,600 meters above sea level, it is one of the most popular tourist destinations in South India. The name “Munnar” means “three rivers,” referring to the confluence of the Muthirapuzha, Nallathanni, and Kundala rivers. The region is widely recognized for its rolling hills covered with tea estates that were developed during the British colonial period. The pleasant weather, combined with lush greenery and scenic landscapes, makes it an ideal destination for nature tourism. Munnar is also known for its biodiversity, with nearby attractions like Eravikulam National Park, which is home to the endangered Nilgiri Tahr. Other important places include Mattupetty Dam, popular for boating, and Top Station, which offers panoramic views of the surrounding valleys. Munnar is also famous for the rare blooming of the Neelakurinji flower, which occurs once every 12 years and covers the hills in a blue-purple shade. The area supports activities such as trekking, wildlife observation, and plantation visits, making it a well-rounded destination for both relaxation and exploration. The best time to visit is from September to March when the weather is cool and suitable for sightseeing. Overall, Munnar is valued for its natural beauty, ecological importance, and role as a major hill tourism center in Kerala.",
+    images: [munnar1, munnar2],
+    source: "(src: civitatis.com, revv.co.in)",
+  },
+  {
+    name: "Meesapulimala",
+    description:
+      "Meesapulimala is a major mountain peak in Idukki district of Kerala, with a height of about 2,640 meters, making it the second-highest peak in the Western Ghats. Located near Munnar, it is well known for trekking and panoramic views of hills and valleys. The trekking route passes through grasslands, tea plantations, and forest areas, offering a scenic experience. Meesapulimala is famous for sunrise views also. The region is part of a biodiversity-rich area and is home to species like the Nilgiri Tahr. The best time to visit is from October to March when the weather is suitable for trekking.",
+    images: [meesapulimala1, meesapulimala2],
+    source: "(src: tripinic.com. mircf.behance.net)",
+  },
+  {
+    name: "Marine Drive",
+    description:
+      "Marine Drive is a well-known waterfront promenade located in the city of Kochi, overlooking the scenic backwaters connected to Vembanad Lake. Stretching for about 3 kilometers, it is one of the most popular public spaces in Ernakulam and serves as a major leisure and social hub for both residents and tourists. Developed by the Greater Cochin Development Authority as part of urban development initiatives, Marine Drive features a wide pedestrian walkway lined with trees, seating areas, and open spaces for relaxation. It connects key points in the city, including the High Court Junction and the Ernakulam Boat Jetty, and is easily accessible by road and water transport. One of the main attractions of Marine Drive is its series of iconic bridges, such as the Rainbow Bridge, Chinese Fishing Net Bridge, and Houseboat Bridge, which reflect the maritime identity of Kochi. The area also includes shopping complexes, cafés, and access to boat services, allowing visitors to explore the backwaters. Marine Drive is especially popular during the evenings, offering panoramic views of the water and the city skyline, along with well-known sunset views. It is commonly used for walking, recreation, and public gatherings, and also hosts local events and celebrations. Overall, it is an important urban landmark that combines natural scenery with city life, making it a key attraction in Ernakulam district.",
+    images: [marine1, marine2],
+    source: "(src: live.staticflickr.com, pinimg.com)",
+  },
+  {
+    name: "Fort Kochi",
+    description:
+      "Fort Kochi is a historic coastal area in Kochi, Kerala, known for its strong colonial influence and cultural heritage. It developed as a major trading center in the early 16th century when the Kingdom of Cochin allowed the Portuguese to establish a settlement and build Fort Emmanuel, marking the beginning of European presence in the region. Later, the area came under Dutch and then British control, each leaving a lasting impact on its architecture and culture. Fort Kochi is famous for its colonial-era buildings, narrow streets, and waterfront views along the Arabian Sea. One of its most iconic features is the traditional Chinese fishing nets, which are still used today and reflect centuries-old fishing techniques. Important landmarks in the area include St. Francis Church, one of the oldest European churches in India, and Santa Cruz Basilica, known for its architectural beauty and historical importance. The region is also a cultural hub, hosting the Kochi-Muziris Biennale, which is one of India’s largest contemporary art festivals. Fort Kochi’s streets are lined with art galleries, cafés, and heritage buildings, creating a blend of history and modern culture. Visitors can explore the area on foot, enjoy seaside views, and experience local traditions, making it one of the most important tourist destinations in Ernakulam district.",
+    images: [kochi1, kochi2],
+    source: "(src: static2.tripoto.com, traveltriangle.com)",
+  },
+  {
+    name: "Mattancherry Palace",
+    description:
+      "Mattancherry is a historic and culturally rich area located in Kochi,Erankulam district of  Kerala, known for its strong colonial influence and vibrant trading history. It developed as an important commercial center where traders from different parts of the world, including Arabs, Jews, and Europeans, settled over time, creating a unique blend of cultures and traditions.One of the major attractions in Mattancherry is the Mattancherry Palace, also known as the Dutch Palace, originally built by the Portuguese and later renovated by the Dutch. The palace is famous for its well-preserved Kerala murals depicting scenes from epics like the Ramayana and Mahabharata, along with exhibits related to the Kochi royal family. Another significant landmark is the Paradesi Synagogue, one of the oldest active synagogues in the Commonwealth, located in the historic Jew Town area. Mattancherry is also known for its spice markets and traditional trading streets, where commodities like pepper, cardamom, and other spices have been traded for centuries. The narrow lanes of Jew Town are lined with antique shops, handicrafts, and heritage buildings, reflecting the area’s rich past. Overall, Mattancherry stands as an important cultural and historical center in Kochi, offering a blend of architecture, trade history, and diverse cultural influences.",
+    images: [mattancherry1],
+    source: "(src: exploreyoga.in)",
+  },
+  {
+    name: "Silent Valley National Park",
+    description:
+      "Silent Valley National Park is a protected tropical rainforest located in Palakkad district of Kerala, within the Western Ghats. It is one of the most ecologically important regions in India and forms part of the Nilgiri Biosphere Reserve. The area is globally significant because the Western Ghats is recognized as a UNESCO World Heritage Site, highlighting its rich biodiversity and environmental value.The park is known for its dense evergreen forests, largely untouched by human activity, which makes it a rare example of a preserved tropical ecosystem. The Kunthi River flows through the valley, supporting a wide range of plant and animal life. Silent Valley is especially famous for being home to the endangered Lion-tailed macaque, along with many other species of mammals, birds, reptiles, and insects.Due to its ecological sensitivity, tourism is strictly regulated, and entry is controlled to protect the natural habitat. Visitors can explore the park through guided eco-tourism programs, which focus on conservation awareness and sustainable travel. The best time to visit is from December to April when the weather is relatively dry and suitable for exploration.Silent Valley National Park is valued for its untouched natural beauty, scientific importance, and role in preserving biodiversity, making it one of the most important natural heritage sites in Kerala.",
+    images: [silent1, silent2, silent3, silent4],
+    source: "(src: keralatourism, wikipedia)",
+  },
+  {
+    name: "Malampuzha Dam",
+    description:
+      "Malampuzha Dam is the largest reservoir in Kerala, located near the foothills of the Western Ghats in Palakkad district. Built across the Malampuzha River, a tributary of the Bharathapuzha, the dam was completed in 1955 and plays an important role in irrigation and water supply in the region. The dam is widely known not only for its functional importance but also as a major tourist destination. The surrounding area is developed into Malampuzha Gardens, one of the most visited parks in Kerala, featuring landscaped lawns, fountains, and walking paths. A major attraction here is the famous Yakshi sculpture, created by renowned artist Kanayi Kunhiraman, which adds artistic value to the site. Visitors can also enjoy a ropeway ride that offers panoramic views of the dam, gardens, and reservoir, making it one of the few ropeway experiences in Kerala. Boating facilities are available in the reservoir, and the area also includes attractions like an aquarium, snake park, and children’s park, making it suitable for all age groups.
+Malampuzha Dam is valued for its combination of engineering importance, natural scenery, and recreational facilities, making it one of the most popular tourist spots in Palakkad district. 
+",
+    images: [malampuzha1, malampuzha2, malampuzha3],
+    source: "(src: keralatourism)",
+  },
+  {
+    name: "Palakkad Fort",
+    description:
+      "Palakkad Fort, also known as Tipu’s Fort, is one of the best-preserved forts in Kerala, located in the heart of Palakkad town. It was originally built in 1766 by Hyder Ali, the ruler of the Kingdom of Mysore, and later came under the control of his son Tipu Sultan, after whom it is commonly named.Constructed using strong granite stones, the fort is known for its impressive architecture, including thick defensive walls, bastions, and a wide moat surrounding the structure, which was designed to protect it from enemy attacks. Its strategic location at the Palakkad Gap made it an important military base, controlling movement between Kerala and Tamil Nadu during historical times. Today, the fort is maintained by the Archaeological Survey of India and serves as a major historical and tourist attraction. The interior of the fort includes open grounds, gardens, and walking paths, making it a popular spot for visitors and locals. It also houses a Hanuman temple and a small museum area, reflecting both cultural and historical significance.Palakkad Fort stands as an important symbol of the region’s colonial and military history, combining architectural strength with historical value, and remains one of the key heritage landmarks in Palakkad district.",
+    images: [palakkad1, palakkad2],
+    source: "(src: indiatourism.in, billiontrips.com)",
+  },
+  {
+    name: "Vadakkunnathan Temple",
+    description:
+      "Vadakkunnathan Temple is an ancient and important Shiva temple located in Thrissur, Kerala. It is known for its traditional Kerala-style architecture, with sloping roofs, wooden carvings, and mural paintings depicting scenes from the Mahabharata. The temple complex is situated at the center of the city, surrounded by the large open ground called Thekkinkadu Maidan.The temple is believed to have been established by sage Parashurama and has remained an important center of worship for centuries. It is closely associated with the famous Thrissur Pooram, one of the most celebrated festivals in Kerala, known for its grand processions and cultural events held around the temple grounds. Vadakkunnathan Temple is also recognized for its historical and architectural significance and is included in the UNESCO tentative list. It continues to be a major religious and cultural landmark in Kerala.",
+    images: [vadakkunnathan1, vadakkunnathan2, vadakkunnathan3],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Athirappilly Waterfalls",
+    description:
+      "Athirapilly Waterfalls is the largest waterfall in Kerala, located on the Chalakudy River in the lush forests of the Western Ghats. Often called the “Niagara of India,” the waterfall drops from a height of about 24 meters (80 feet) and is one of the most popular natural attractions in the state.Surrounded by dense rainforest, Athirappilly is known for its scenic beauty, rich biodiversity, and powerful flow of water, especially during the monsoon season. The area supports various species of birds and wildlife, making it ecologically significant. Visitors can view the waterfall from both the top and the base, with a short trek leading to the lower viewpoint.The site is well connected by road and is located near Chalakudy town. It is also close to other attractions like Vazhachal Waterfalls, which is often visited together with Athirappilly. The best time to visit is from September to February when the weather is pleasant and the water flow remains strong. Athirappilly Waterfalls is valued for its natural beauty, tourism importance, and role as a major eco-tourism destination in Kerala.",
+    images: [athirappily1],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Kozhikode Beach",
+    description:
+      "Kozhikode Beach, also known as Calicut Beach, is a historic seaside destination located in Kozhikode along the Malabar Coast, facing the Arabian Sea. It is one of the most popular landmarks in the city, known for its scenic sunsets, coastal views, and cultural importance. The beach has long been associated with maritime trade and played a key role in Kozhikode’s history as an important port city.The beach features wide sandy shores lined with palm trees and includes old piers extending into the sea, reflecting its historical connection to trade. A nearby lighthouse, built in the early 20th century, adds to its coastal charm. Attractions such as Dolphin’s Point, Lion’s Park, and an aquarium make it suitable for visitors of all ages. The beach area is also a lively social space, especially during evenings. Kozhikode Beach holds historical significance as it is near the region where Vasco da Gama arrived in 1498, marking the beginning of European trade connections with India. Over time, it became a center of trade under local rulers and continues to represent the city’s identity.Today, the beach is known for its vibrant atmosphere, with food stalls offering local Malabar dishes such as seafood, banana chips, and traditional drinks. Visitors often come here for walking, relaxation, and enjoying sunset views. Overall, Kozhikode Beach is valued for its blend of history, culture, and natural beauty, making it a key attraction in the district.",
+    images: [athirappily1],
+    source: "(src: wikipedia)",
+  },
+  {
+    name: "Edakkal caves",
+    description:
+      "Edakkal Caves are prehistoric rock shelters located on the Ambukuthi Hills in Wayanad district of Kerala. These caves are well known for their ancient petroglyphs (rock carvings), which are estimated to date back to around 6,000–3,000 BCE, making them one of the most important archaeological sites in South India.Unlike typical caves, Edakkal is a natural rock formation created by a split in a large boulder, forming a sheltered space. The walls of the cave contain carvings of human figures, animals, tools, and symbols, offering valuable insights into early human life, communication, and culture. Some of these markings are believed to have similarities with ancient scripts, indicating early forms of expression. The caves were discovered in 1890 by Fred Fawcett and are located at an elevation of about 1,200 meters above sea level. Visitors can reach the site through a short but steep trek of around 3 km, passing through hills and plantations, which adds to the experience.Today, Edakkal Caves are protected by the Kerala State Archaeology Department and attract tourists, historians, and researchers. Due to the historical importance of the carvings, access is regulated to ensure preservation. Overall, Edakkal Caves are valued for their archaeological significance, natural setting, and role in understanding prehistoric human life.",
+    images: [edakkal1, edakkal2, edakkal3],
+    source: "(src: sterlingholidays.com, treebo.com, sahapedia,org)",
   },
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "Kerala is often called “God’s Own Country”, a name popularized by tourism campaigns.",
+  "Kerala is the 13th-most populous state in India.",
+  "Kerala has the highest Human Development Index, at 0.784 in 2018; the highest literacy rate, 96.2% in 2018; the highest life expectancy, at 77.3 years; and the highest sex ratio, with 1,084 women per 1,000 men and the lowest positive population growth rate in India (3.44%).",
+  "It is the least impoverished and the second-most urbanised state in the country.",
+  "Kerala has a long history of international trade, and was a major center for the spice trade attracting Arabs, Chinese, and Europeans.",
+  "Kerala has one of the best healthcare systems in India and high life expectancy.",
+  "The state has witnessed significant emigration, particularly to the Arab states of the Persian Gulf during the Gulf Boom of the 1970s and early 1980s, and its economy relies heavily on remittances from a large Malayali expatriate population.",
+  "Kathakali is a famous dance form known for its colorful makeup and storytelling.",
+  "Onam celebrates the return of King Mahabali and is the biggest festival of the state.",
+  "Kerala receives heavy monsoon rainfall, making it one of the greenest regions in India.",
+  "Kerala cuisine is known for using coconut, rice, and spices, reflecting its tropical environment.",
+  "Periyar River (244 km):The longest river in Kerala, often called the 'Lifeline of Kerala', flowing through Idukki and Ernakulam districts before emptying into the Vembanad Lake.",
+  "Kerala is a global center for Ayurveda, attracting medical tourism from around the world.",
+  "Kerala played a key role in the global spice trade, especially black pepper, which was once called 'Black Gold'.",
+  "Kalaripayattu, practiced in Kerala, is considered one of the oldest martial arts in the world. Many people believe that Chinese Kung Fu actually has its roots in this ancient Indian art.",
+  "Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is one of the prominent tourist destinations of India, with coconut-lined sandy beaches, backwaters, hill stations, Ayurvedic tourism and tropical greenery as its major attractions.",
 ];
 
 const artGallery = [
   {
-    title: "Ambur Biriyani",
+    title: "Kathakali",
     emoji: "🍛",
     color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
+    desc: "A classical dance-drama known for elaborate makeup, costumes, and storytelling",
+    image: gKathakali,
   },
   {
-    title: "Tirunelveli Halva",
+    title: "Koodiyattam",
     emoji: "🍮",
     color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
+    desc: "One of the oldest surviving Sanskrit theatre tradition in the world",
+    image: gKoodiyattam,
   },
   {
-    title: "Dindigul Talapakatti Biriyani",
+    title: "Mohiniyattam",
     emoji: "🍚",
     color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
+    desc: "A graceful classical dance performed by women with gentle movements",
+    image: gMohiniyattam,
   },
   {
-    title: "Madurai Malli",
+    title: "Ottamthullal",
     emoji: "🌸",
     color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
+    desc: "A solo dance with storytelling, humor, and expressive gestures",
+    image: gOttamthullal,
   },
   {
-    title: "Madurai Butter Bun",
+    title: "Sadya",
     emoji: "🥐",
     color: "#F4E884",
-    desc: "Iconic local bun with butter",
-    image: gButterBun,
+    desc: "A vegetarian feast served on a banana leaf with multiple dishes",
+    image: gSadya,
   },
   {
-    title: "Madurai Jigurthanda",
+    title: "Appam",
     emoji: "🍨",
     color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
+    desc: "A soft, bowl-shaped rice pancake often eaten with curry",
+    image: gAppam,
   },
   {
-    title: "Uthukuli Venne (Butter)",
+    title: "Puttu",
     emoji: "🧈",
     color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
+    desc: "A steamed rice and coconut dish commonly eaten for breakfast",
+    image: gPuttu,
   },
   {
-    title: "Thoothukoodi Muthu (Pearl)",
+    title: "Fish curry",
     emoji: "🔮",
     color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
+    desc: "A spicy and tangy fish curry cooked with coconut and tamarind",
+    image: gFishcurry,
   },
   {
-    title: "Salem Mango (Malgova)",
+    title: "Thalassery Falooda",
     emoji: "🥭",
     color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
+    desc: "A cocktail of Fruit salad, Dry fruits, Cashew-nuts, Takmania rose syrup, milk, vanilla icecream",
+    image: gFalooda,
   },
   {
-    title: "Erode Turmeric",
+    title: "Chenda",
     emoji: "🌿",
     color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
+    desc: "A cylindrical drum played in temples and festivals with loud rhythms",
+    image: gChenda,
   },
   {
-    title: "Tiruppur Garments",
+    title: "Maddalam",
     emoji: "👕",
     color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
+    desc: "A drum used in classical performances like Kathakali",
+    image: gMaddalam,
   },
   {
-    title: "Kanchipuram Silk Sarees",
+    title: "Idakka",
     emoji: "🥻",
     color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
+    desc: "A small drum capable of producing melodic sounds",
+    image: gIdakka,
   },
   {
-    title: "Madurai Sungdi Sarees",
+    title: "Kasavu",
     emoji: "🧣",
     color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
+    desc: "A cream-colored fabric with golden borders used in traditional attire",
+    image: gKasavu,
   },
   {
-    title: "Bharatanatyam",
+    title: "Mundum Neriyathum",
     emoji: "💃",
     color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
+    desc: "Traditional two-piece dress worn by women with gold borders",
+    image: gMundum,
   },
   {
-    title: "Dosa & Idli",
+    title: "Mundu",
     emoji: "🥞",
     color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
-  },
-  {
-    title: "Ven Pongal",
-    emoji: "🍲",
-    color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
-  },
-  {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
-    color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
-  },
-  {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
-  },
-  {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
-  },
-  {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
-  },
-  {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    desc: "A white garment worn by men, similar to a dhoti",
+    image: gMundu,
   },
 ];
