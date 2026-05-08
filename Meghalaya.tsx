@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react";  /*Fully integrated*/
 import { useLocation } from "wouter";
 import {
   ArrowLeft,
