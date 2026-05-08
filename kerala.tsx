@@ -9,83 +9,101 @@ import {
   ZoomIn,
 } from "lucide-react";
 import punjabMap from "@assets/keralaMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-const gurupurab3 = "@assets/image_1776788482041.png";
-const teej1 = "@assets/image_1776788764847.png";
-const teej2 = "@assets/image_1776788772553.png";
-const teej3 = "@assets/image_1776788788721.png";
-const bandi1 = "@assets/image_1776788797545.png";
-const bandi2 = "@assets/image_1776788805779.png";
-const shaheedi1 = "@assets/image_1776788811412.png";
-const rakhi1 = "@assets/image_1776788817244.png";
-const rakhi2 = "@assets/image_1776788825797.png";
-const maghi1 = "@assets/image_1776788831894.png";
-const maghi2 = "@assets/image_1776788840602.png";
-const karva1 = "@assets/image_1776788847901.png";
-const karva2 = "@assets/image_1776788856768.png";
-const golden1 = "@assets/image_1776788865143.png";
-const golden2 = "@assets/image_1776788870905.png";
-const golden3 = "@assets/image_1776788878018.png";
-const jallian1 = "@assets/image_1776788887081.png";
-const jallian2 = "@assets/image_1776788895857.png";
-const jallian3 = "@assets/image_1776788902350.png";
-const wagah1 = "@assets/image_1776788909064.png";
-const wagah2 = "@assets/image_1776788916164.png";
-const wagah3 = "@assets/image_1776789530181.png";
-const wagah4 = "@assets/image_1776789548589.png";
-const qila1 = "@assets/image_1776789554420.png";
-const qila2 = "@assets/image_1776789558971.png";
-const qila3 = "@assets/image_1776789565292.png";
-const ranjit1 = "@assets/image_1776789575242.png";
-const ranjit2 = "@assets/image_1776789580153.png";
-const ranjit3 = "@assets/image_1776789590790.png";
-const gobindgarh1 = "@assets/image_1776789610085.png";
-const gobindgarh2 = "@assets/image_1776789615338.png";
-const anandpur1 = "@assets/image_1776789624415.png";
-const anandpur2 = "@assets/image_1776789631296.png";
-const partition1 = "@assets/image_1776789638782.png";
-const partition2 = "@assets/download_1777100508255.png";
-const partition3 = "@assets/download_1777100514323.png";
-const guru1 = "@assets/download_1777100516025.png";
-const guru2 = "@assets/download_1777100518481.png";
-const guru3 = "@assets/download_1777100520664.png";
-const durgiana1 = "@assets/download_1777100523842.png";
-const durgiana2 = "@assets/image_1777102241686.png";
-const durgiana3 = "@assets/image_1777102257711.png";
-const akaltakht1 = "@assets/download_1777100525385.png";
-const akaltakht2 = "@assets/download_1777100526870.png";
-const akaltakht3 = "@assets/download_1777100529380.png";
-const jang1 = "@assets/download_1777100531237.png";
-const jang2 = "@assets/download_1777100532535.png";
-const jang3 = "@assets/download_1777100537305.png";
-const gJutti = "@assets/image_1777100917162.png";
-const gBhangra = "@assets/image_1777100921467.png";
-const gPhulkari = "@assets/image_1777100927953.png";
-const gGiddha = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
+const onam1 = "";
+const onam2 = "";
+const onam3 = "";
+const onam4 = "";
+const onam5 = "";
+const vishu1 = "";
+const vishu2 = "";
+const vishu3 = "";
+const vishu4 = "";
+const thrissur1 = "";
+const thrissur2 = "";
+const thrissur3 = "";
+const vallam1 = "";
+const vallam2 = "";
+const vallam3 = "";
+const theyyam1 = "";
+const theyyam2 = "";
+const theyyam3 = "";
+const theyyam4 = "";
+const attukal1 = "";
+const attukal2 = "";
+const attukal3 = "";
+const padma1 = "";
+const padma2 = "";
+const kovalam1 = "";
+const kovalam2 = "";
+const poovar1 = "";
+const poovar2 = "";
+const jatayu1 = "";
+const cashtamudi1 = "";
+const munroe1 = "";
+const munroe2 = "";
+const sabarimala1 = "";
+const sabarimala2 = "";
+const sabarimala3 = "";
+const aranmula1 = "";
+const aranmula2 = "";
+const ambal1 = "";
+const ambal2 = "";
+const ambal3 = "";
+const ambal4 = "";
+const alappuzha1 = "";
+const alappuzha2 = "";
+const alappuzha3 = "";
+const kumarakom1 = "";
+const kumarakom2 = "";
+const kumarakon3 = "";
+const illikkal1 = "";
+const illikkal2 = "";
+const maramala1= "";
+const idukki1 = "";
+const idukki2 = "";
+const munnar1 = "";
+const munnar2 = "";
+const meesapulimala1 = "";
+const meesapulimala2= "";
+const marine1 = "";
+const marine2 = "";
+const kochi1 = "";
+const kochi2 = "";
+const mattancherry1 = "";
+const silent1= "";
+const silent2= "";
+const silent3= "";
+const silent4 = "";
+const malampuzha1 = "";
+const malampuzha2 = "";
+const malampuzha3 = "";
+const palakkad1 = "";
+const palakkad2 = "";
+const vadakkunnathan1 = "";
+const vadakkunnathan2 = "";
+const vadakkunnathan3 = "";
+const athirappily1 = "";
+const edakkal1 = "";
+const edakkal2 = "";
+const edakkal3 = "";
+const gKathakali= "";
+const gKoodiyattam = "";
+const gMohiniyattam = "";
+const gOttamthullal = "";
+const gSadya = "";
+const gAppam = "";
+const gPuttu = "";
+const gFishcurry = "";
+const gFalooda = "";
+const gChenda = "";
+const gMaddalam = "";
+const gIdakka = "";
+const gKasavu = "";
+const gMundum = "";
+const gMundu = "";
+
+
+
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -916,9 +934,7 @@ const historicalPlaces = [
   {
     name: "Malampuzha Dam",
     description:
-      "Malampuzha Dam is the largest reservoir in Kerala, located near the foothills of the Western Ghats in Palakkad district. Built across the Malampuzha River, a tributary of the Bharathapuzha, the dam was completed in 1955 and plays an important role in irrigation and water supply in the region. The dam is widely known not only for its functional importance but also as a major tourist destination. The surrounding area is developed into Malampuzha Gardens, one of the most visited parks in Kerala, featuring landscaped lawns, fountains, and walking paths. A major attraction here is the famous Yakshi sculpture, created by renowned artist Kanayi Kunhiraman, which adds artistic value to the site. Visitors can also enjoy a ropeway ride that offers panoramic views of the dam, gardens, and reservoir, making it one of the few ropeway experiences in Kerala. Boating facilities are available in the reservoir, and the area also includes attractions like an aquarium, snake park, and children’s park, making it suitable for all age groups.
-Malampuzha Dam is valued for its combination of engineering importance, natural scenery, and recreational facilities, making it one of the most popular tourist spots in Palakkad district. 
-",
+      "Malampuzha Dam is the largest reservoir in Kerala, located near the foothills of the Western Ghats in Palakkad district. Built across the Malampuzha River, a tributary of the Bharathapuzha, the dam was completed in 1955 and plays an important role in irrigation and water supply in the region. The dam is widely known not only for its functional importance but also as a major tourist destination. The surrounding area is developed into Malampuzha Gardens, one of the most visited parks in Kerala, featuring landscaped lawns, fountains, and walking paths. A major attraction here is the famous Yakshi sculpture, created by renowned artist Kanayi Kunhiraman, which adds artistic value to the site. Visitors can also enjoy a ropeway ride that offers panoramic views of the dam, gardens, and reservoir, making it one of the few ropeway experiences in Kerala. Boating facilities are available in the reservoir, and the area also includes attractions like an aquarium, snake park, and children’s park, making it suitable for all age groups.Malampuzha Dam is valued for its combination of engineering importance, natural scenery, and recreational facilities, making it one of the most popular tourist spots in Palakkad district.w",
     images: [malampuzha1, malampuzha2, malampuzha3],
     source: "(src: keralatourism)",
   },
