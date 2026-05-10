@@ -416,7 +416,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function TamilNaduPage() {
+export default function DadraanadNagarHaveliandDamanandDiu() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -456,19 +456,19 @@ export default function TamilNaduPage() {
           <div className="flex flex-col md:flex-row md:items-end gap-6">
             <div className="flex-1">
               <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
-                South India
+               Western India
               </div>
               <h1
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Tamil Nadu
+                DadraanadNagarHaveliandDamanandDiu
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Temples
+                Portuguese colonial heritage
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -477,12 +477,12 @@ export default function TamilNaduPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chennai" },
-                  { label: "Population", value: "7.21 Crore" },
-                  { label: "Area", value: "1,30,060 sq km" },
-                  { label: "Founded", value: "26 January 1950" },
-                  { label: "Language", value: "Tamil" },
-                  { label: "Districts", value: "32 Districts" },
+                  { label: "Capital", value: "Daman" },
+                  { label: "Population", value: "5.86 lakhs" },
+                  { label: "Area", value: "603 sq km" },
+                  { label: "Founded", value: "26 January 2020" },
+                  { label: "Language", value: "Gujarati,Hindi" },
+                  { label: "Districts", value: "3 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
@@ -512,22 +512,22 @@ export default function TamilNaduPage() {
               Chennai
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The Detroit of Asia
+              Capital of DadraanadNagarHaveliandDamanandDiu — Where Tribal Roots Meet Colonial Routes
             </p>
           </div>
         </Section>
 
         {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Tamil Nadu" icon="🗺️">
+        <Section title="Map of DadraanadNagarHaveliandDamanandDiu" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
+              onClick={() => openLightbox(DadraanadNagarHaveliandDamanandDiuMap, "Map of DadraanadNagarHaveliandDamanandDiu")}
             >
               <img
-                src={tnMap}
-                alt="Map of Tamil Nadu"
+                src={DadraanadNagarHaveliandDamanandDiuMap}
+                alt="Map of DadraanadNagarHaveliandDamanandDiu"
                 className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
@@ -550,68 +550,25 @@ export default function TamilNaduPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              The State of Tamil Nadu has a hoary antiquity. Though
-              early sangam classics throw historical references, we pass to
-              recorded history only from the Pallavas.
+             Located on India’s western coast, the Union Territory of Dadra and Nagar Haveli and Daman and Diu is a fascinating administrative region that blends deep-rooted tribal traditions with a unique Portuguese colonial legacy. Geographically, the territory is divided into three distinct enclaves: Daman and Diu are coastal pockets located on the shores of the Arabian Sea, bordered by the state of Gujarat, while Dadra and Nagar Haveli is situated further inland, nestled between the borders of Gujarat and Maharashtra. This specific placement makes it a vital bridge between two of India’s most industrialized states. The territory in its unified form is relatively new, having been officially formed on January 26, 2020, through a merger intended to streamline governance and optimize resource allocation across the separate enclaves. 
             </p>
             <p className="text-foreground">
-              The southern states of India were under the hegemony of the
-              Cholas, the Cheras and the Pandyas for centuries. The Pallavas
-              held supremacy from about the second quarter of the fourth century
-              A.D. They were the originators of the famous Dravidian style of
-              temple architecture. The last Pallava ruler was Aparajita, in
-              whose reign the later Cholas under Vijayalaya and Aditya asserted
-              themselves by about the 10th century. At the end of the
-              11th century, Tamil Nadu was ruled by several dynasties like the
-              Chalukyas, Cholas and Pandyas. In the two centuries that followed,
-              the imperial Cholas gained paramountcy over South India.
+              The status of a Union Territory (UT) makes this region special compared to a traditional state. Unlike states, which possess their own elected legislative assemblies and the autonomy to govern local affairs like land and policing, a UT is governed directly by the Central Government of India through an appointed Administrator. This direct federal oversight is particularly crucial for smaller regions that have strategic coastal importance or unique historical backgrounds that require specialized preservation and administrative focus. This governance model allows for faster implementation of central schemes and direct funding, which has been instrumental in the region's rapid transformation into an industrial powerhouse.
             </p>
             <p className="text-foreground">
-              Muslims gradually strengthened their position, which led to the
-              establishment of the Bahamani Sultanate, by the middle of the
-              14th century. At the same time, the Vijayanagar Kingdom quickly
-              consolidated itself and extended its sway over the whole of South
-              India, and at the close of the century, Vijayanagar became the
-              supreme power in South. However, it crumbled at the battle of
-              Talikota in 1564 to the confederate forces of the Deccan Sultans.
+             The history of the region is a tapestry of maritime influence and resistance. For over four centuries, these lands were under Portuguese control, serving as key trading posts. While most of India gained independence in 1947, Dadra and Nagar Haveli were liberated by local citizens in 1954, and Daman and Diu remained Portuguese until 1961, when they were integrated into India following "Operation Vijay." This long European presence is still visible in the massive stone forts of Moti Daman and the Mediterranean-style white-washed churches. This historical depth is complemented by the natural landscape, specifically the Daman Ganga River, which flows through the heart of the territory, providing the necessary water resources for both the lush forests of the interior and the heavy industries of the coast.
             </p>
             <p className="text-foreground">
-              Even during the period of the tumultuous confusion that followed
-              the battle of Talikota, European commercial interest had appeared
-              as rivals in the area of South India. The Portuguese, the Dutch,
-              the French and the English came in quick succession and
-              established trading centres known as 'Factories'. East India
-              Company, which had established its factory at Masulipatnam (now in
-              Andhra Pradesh) in 1611, gradually annexed territories by
-              encouraging enmity among the native rulers. Tamil Nadu was one of
-              the first of British settlements in India. The State is the
-              successor to the old Madras Presidency, which covered the bulk of
-              the southern peninsula in 1901. The composite Madras State was
-              later reorganised, and the present Tamil Nadu was formed.
+             Linguistically, the territory is a melting pot. Gujarati and Hindi are the most widely spoken languages, reflecting the surrounding regional influences, while Marathi is common in areas bordering Maharashtra. The capital is Daman and the largest city is Silvassa. A small community still preserves a Portuguese-based creole, a rare linguistic artifact of its colonial past. Today, the UT is defined by its intense development. It has evolved from a collection of quiet fishing villages and tribal hamlets into one of India’s most significant manufacturing hubs, particularly in sectors like textiles, plastics, and electronics.
             </p>
             <p className="text-foreground">
-              Tamil Nadu is bounded on north by Andhra Pradesh and Karnataka, on
-              the west by Kerala, on the east by the Bay of Bengal, and on the
-              south by the Indian Ocean.
-            </p>
-            <p className="text-foreground">
-              Tamil Nadu covers total land area of 130,060 km2 and is divided
-              into 32 districts which are: Ariyalur, Chennai, Coimbatore,
-              Cuddalore, Dharmapuri, Dindigul, Erode, Kancheepuram, Kanyakumari,
-              Karur, Krishnagiri, Madurai, Nagapattinam, Namakkal, Perambalur,
-              Pudukkottai, Ramanathapuram, Salem, Sivaganga, Thanjavur, The
-              Nilgiris, Theni, Thiruvallur, Thiruvannamalai, Thiruvarur,
-              Tirunelveli, Tirupur, Tiruchirappalli(Trichy),
-              Tuticorin(Thoothukoodi), Vellore, Villupuram and Virudhunagar.
+             Recent developmental strides have seen the territory embrace the "Smart City" mission, resulting in modernized seafront promenades in Daman and improved urban infrastructure in Silvassa. The government has focused on balancing this industrial growth with environmental conservation, promoting eco-tourism in the verdant, hilly tracts of Nagar Haveli. With its tax-friendly environment and strategic proximity to Mumbai and Surat, the territory has seen a massive influx of investment. It now stands as a modern, thriving entity that successfully manages to honor its complex history while driving forward as a model of efficient, centralized development. Its unique position on the map and its administrative agility make it a small but mighty contributor to the national economy. 
             </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the cradle of Dravidian culture with its
-              cultural paraphernalia speckled all across the state in the form
-              of magnificent temples, gateways, intricate carvings, and the
-              society seeped in tradition.
+              The cradle of Varli tradition,where ancient art is speckeld acroos the landscape in a vibrant display of communal heritage
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: govt of TN, mapsofindia.com)
+              (src: mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -645,7 +602,7 @@ export default function TamilNaduPage() {
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Dadra and Nagar Haveli and Daman and Diu" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div
@@ -667,7 +624,7 @@ export default function TamilNaduPage() {
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
           <p className="text-muted-foreground text-sm mb-4">
-            Scroll horizontally to explore Tamil Nadu's iconic foods, crafts,
+            Scroll horizontally to explore Dadra and Nagar Haveli and Daman and Diu's iconic foods, crafts,
             dance, and traditions.
           </p>
           <div className="overflow-x-auto pb-4">
@@ -758,494 +715,215 @@ export default function TamilNaduPage() {
 
 const festivals = [
   {
-    name: "Pongal",
-    tagline: "The Harvest Festival of Tamil Nadu",
+    name: "Garba",
+    tagline: "The Soulful Dance of the Goddess Maa Amba",
     description:
-      'Pongal is the harvest festival celebrated by the farmers in January to worship the sun, the earth and the cattle as thanks giving for a bounteous harvest. It is followed by the Jallikattu. - Tamil Nadu celebrates a four day harvesting festival annually during the month of January, popularly known as “Pongal”. The celebration is held to praise the Sun God for nourishing the crops throughout the year. The four day celebration involves; Bhogi, Surya Pongal, Mattu Pongal and Kaanum Pongal.  The third day of the festival is Mattu Pongal, which features a significant ancient sport known as Jallikattu - the bull taming sport. Bhogi marks the first day of the Pongal festivities and is celebrated on the last day of the Tamil calendar month Marghazhi.On this day people discard old belongings and celebrate new possessions. The people assemble and light a bonfire in order to burn the heaps of discards. Houses are cleaned, painted and decorated to give a festive look. Thai Pongal is the main festive day, celebrated on the next day of Bhogi.[10][11] It is observed on the first day of the Tamil calendar month of Thai, and usually falls on 14 or 15 January. It is dedicated to the Sun deity Surya and corresponds to Makar Sankranti. According to tradition, the festival marks the end of winter solstice, and the start of the sun\'s six-month-long journey northwards when the sun enters the Capricorn, also called as Uttarayana. Dedicated to Surya, it is celebrated with family and friends with new clothes worn and the preparation of the traditional pongal dish in an earthen pot. The pot is typically decorated by tying a turmeric plant or flower garland and placed in the sun along with sugarcane stalks. The homes are decorated with banana and mango leaves, decorative florals and kolams. Relatives and friends are invited and when the pongal starts to boil and overflow out of the vessel,they blow a conch or make sounds while shouting "Pongalo Pongal" ("may this rice boil over"). In rural areas, people sing traditional songs while the pongal dish is cooking. The Pongal dish is first offered to Surya and Lord Ganesha, and then shared with the gathered friends and family. Mattu Pongal ("Madu" meaning cow in Tamil) is the third day of the festival meant for the celebration of cattle. The cattle is regarded as sources of wealth as it is a means for dairy products and fertilizers, used for transportation and agriculture. The cattle are bathed, their horns are polished and painted in bright colors with garlands of flowers placed around their necks and taken for processions. Kaanum Pongal, the fourth and final day of the Tamil harvest festival, signifies familial unity, social bonding, and gratitude towards nature. ‘Kanu Pidi’ is a ritual where women and young girls place leftover colored rice (often cooked from previous days), sugarcane, and vegetables on turmeric leaves in the open for birds, particularly crows (regarded as ancestors). They pray for the health and prosperity of their brothers and family. (src:Wikipedia)',
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
-    source: "(src: Wikipedia)",
+      "In Daman and Diu, the celebration of Garba is a magnificent nine-day spectacle that serves as a cornerstone of the region’s cultural identity. Held during the auspicious month of Ashwin to honor the goddess Maa Amba, the festival is a vivid reflection of the territory's deep-rooted connection to neighboring Gujarati traditions, yet it carries its own coastal charm. As the sun sets over the Arabian Sea, the quiet streets transform into vibrant hubs of activity. The atmosphere is thick with the scent of incense and the sound of traditional music, as the community gathers to perform rhythmic folk dances around a central lamp or a beautifully decorated statue of the goddess.The visual appeal of the Garba festival is unparalleled; participants don elaborate traditional attire, with women in heavily embroidered chaniya cholis and men in kediyus, often adorned with intricate mirror work and shells that catch the light during the high-energy movements. Unlike more commercialized celebrations, the Daman and Diu festivals maintain a soulful, community-driven spirit. The dance begins with slow, synchronized steps that gradually increase in tempo, mirroring the rising spiritual fervor of the participants. This Garba Mahotsav is not merely a social event but a reverent ritual where every clap and turn is an act of devotion.The celebrations are also a significant draw for tourism, with Navratri events featuring professional troupes and local competitions that showcase the evolution of the dance form from traditional roots to modern variations like Dandiya Raas. Beyond the dance, the festival is a sensory feast, with local food stalls offering seasonal delicacies that fuel the dancers late into the night. It is a time when the boundaries of age and background dissolve, as everyone from young children to the elderly joins the circle, moving in harmony. This nine-day Garba celebration ultimately serves as a powerful symbol of unity, blending faith, art, and communal joy into a singular, unforgettable experience that captures the heart of the coastal spirit in Daman and Diu.",
+    images: [Garba1,Garba2],
+    source: "(src: ftd.travel,youtube.com)",
   },
   {
-    name: "Jallikattu — Bull Fight",
+    name: "Narali Purnima",
     tagline:
-      "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
+      "The Vibrant Festival of the Waves and Coconuts",
     description:
-      "Jallikattu-Bull fight, in some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu. - In ancient times, ‘Yeru thazhuvuthal’ or embracing the bull, was connected in displaying the men’s pride and victory for winning over a girl for marriage. The sport has prevailed in Tamil culture for over 2000 years now.   Manju Virattu is conducted every year in various regions of the state including Madurai, Sivagangai and Pudukottai. The event begins as the bulls are released to the arena via a small entrance known as “ Vaadi Vaasal”. The male players known to be bull tamers, amid loud whistles, applauses and cheers wait nearby to the entrance and try to grab the bull's hump, which needs a lot of courage and prudence. The person who clutches the hump and takes the pouch containing cash or presents without falling off the bull is deemed the winner. Besides being identified as a conquering sport, it is also associated with the good motive of preserving pure-breeding of native bulls which were bred exclusively for the purpose of mating. The native Kangayam, Pulikulam, Umbalachery , Bargur and Malai Maadu are the combative breeds which compete highly in this sport. The sport has become the emotion of Tamilians with its long rooted historical and cultural significance. Madurai and Jallikattu The festival of cattle-worship is much delighted in Madurai and its sub regions. The sport is considered as a celebration in these areas. Preparations for this festival start months before the day of the event. The invites are sent to various villages about the celebration where the bulls are registered to enter the arena after a physical health check up. The district administration, Public works department, Police department along with local event organizers work together to maintain the integrity and dignity of the sport. Every year the regions of Avaniyapuram, Alanganallur and Palamedu attract around 700 native breeds of bulls and about 300 bull tamers from all around the state for this competition. The event also attracts a swarm of people, both locally and globally, visiting these areas to watch this magnificent sport. The bull taming sport in these regions are also telecasted on National Television every year.",
-    images: [jalli1, jalli2],
-    source: "",
+      "Narali Purnima, or the Coconut Festival, is a major celebration in Dadra and Nagar Haveli and Daman and Diu that signals the end of the monsoon and the start of a new fishing season. Observed on the full moon day of the Hindu month of Shravan, the festival focuses on honoring Lord Varuna, the God of the Sea, to seek protection and a bountiful catch for the coming year. During the festivities, members of the fishing community and local devotees gather at shores like Devka Beach to offer golden-painted or fresh coconuts to the Arabian Sea as a gesture of gratitude. This ritual is accompanied by the blessing of boats, which are freshly painted and decorated before heading back into the water. Beyond the religious rites, the atmosphere is enriched by local fairs, traditional folk dances, and the preparation of coconut-based delicacies such as Narali Bhaat, making it a vital cultural event that unites the coastal population.",
+    images: [NaraliPurnima1,NaraliPurnima2],
+    source: "ritiwaz.com,hellotravel.com",
   },
   {
-    name: "Chithirai Festival, Madurai",
+    name: "Gangaji Fair",
     tagline:
-      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+      "Honoring Lord Shiva at the Ancient Somnath Mahadev Temple",
     description:
-      "Chithirai festival, Madurai brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar. - A famous Vishnu Temple dedicated to Lord Alagar is located 21 kilometres north of Madurai. The temple is set on a hill with breathtaking views. Alagarkoil is the name of the shrine, and Solaimalai is the name of the hill. The temple also has some lovely carvings, making it a worthwhile visit. The Hill is home to Palamudirsolai, one of Lord Subramaniya's six abodes.       Chithirai Festival, also known as Chithirai Thiruvizha, Meenakshi Kalyanam or Meenakshi Thirukalyanam, is an annual Tamil Hindu celebration in the city of Madurai during the month of April. The festival, celebrated during the Tamil month of Chithirai, is associated with the Meenakshi Temple, dedicated to the goddess Meenakshi, a form of Parvati and her consort Sundareshwar, a form of Shiva. The festival lasts for one month. The first 15 days mark the celebrations of the coronation of Meenakshi as the divine ruler of Madurai and her marriage to Sundareshwar. The next 15 days mark the celebrations of the journey of Kallalagar or Alagar (a form of the god Vishnu) from his temple in Alagar Koyil to Madurai. (src:utsav.gov.in)",
-    images: [chith1, chith2],
-    source: "(src: utsav.gov.in)",
+      "The Gangaji Fair is one of the most culturally significant and spiritually vibrant events in the Union Territory of Dadra and Nagar Haveli and Daman and Diu. Celebrated annually in the village of Dabhel, typically during the month of March, the fair is primarily centered around the Somnath Mahadev Temple. This ancient temple, dedicated to Lord Shiva, serves as the focal point for thousands of devotees who travel from across the region—and neighboring states like Gujarat and Maharashtra—to partake in the festivities. The celebration is characterized by a deep sense of devotion and communal harmony, beginning with a ritualistic holy bath in the sacred tank (kund) located near the temple. This act of purification is believed to cleanse the soul and is followed by elaborate prayers and offerings to Lord Shiva, whom many locals revere as the Creator of the Universe.The celebration of the fair is a sensory experience that blends religious solemnity with the joy of a rural carnival. The banks of the Sakartod River and the temple precincts transform into a bustling hub of activity. Colorful stalls are erected, offering everything from traditional handicrafts and local snacks to toys and household items. Folk performances, including traditional music and dance, provide a rhythmic backdrop to the event, showcasing the unique cultural heritage of the Damanese people. Families gather to enjoy giant wheels and local entertainment, making it a social highlight of the year.The importance of the Gangaji Fair lies in its role as a bridge between the spiritual and the social. Religiously, it reinforces the deep-seated faith in the cleansing power of holy water and the protective grace of Lord Shiva. It is a moment where the mundane is set aside in favor of the divine. Socially, the fair serves as a vital gathering point for various communities, fostering a sense of unity and shared identity in a geographically small but culturally diverse territory. It also provides a significant economic boost to local artisans and vendors who rely on the massive footfall. By preserving centuries-old rituals and oral traditions, the Gangaji Fair ensures that the cultural legacy of Dadra and Nagar Haveli and Daman and Diu remains vibrant and relevant for future generations, acting as a living testament to the region's enduring spiritual roots.",
+    images: [Fair1,Fair2],
+    source: "(src: hellotravel.com)",
   },
   {
-    name: "Tamizh Puttandu — Tamil New Year",
+    name: "Christmas",
     tagline:
-      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+      "A Grand Fusion of Portuguese Heritage and Coastal Traditions",
     description:
-      "Tamizh Puttandu  - meaning ‘Tamil new year’. is the first day of year on the Tamil calendar that is traditionally celebrated as a festival by Tamils. The festival date is set with the solar cycle of the solar Hindu calendar, as the first day of the month of Chittirai. It falls on or about 14 April every year. Households clean up the house, prepare a tray with fruits, flowers and auspicious items, light up the family puja altar and visit their local temples. People wear new clothes and children go to elders to pay their respects and seek their blessings, then the family sits down to a feast. On the eve of Puthandu, a tray is arranged with three fruits (mango, banana and jack fruit), betel leaves and arecanut, gold/silver jewellery, coins/money, flowers and a mirror. This is similar to the Vishu new year festival ceremonial tray in Kerala. According to the Tamil tradition, this festive tray is auspicious as the first sight upon waking on the new year day and is called ‘kani’. Home entrances are decorated elaborately with colored rice powder. These designs are called kolams. As soon as they wake up, they walk to the kani with their eyes closed and see it as the first scene of the year. This tradition is significant in both regions and is believed to bring good luck and prosperity for the coming year.",
-    images: [puth1, puth2],
-    source: "(src: boldskytamil.com)",
-  },
-  {
-    name: "Adipperukku",
-    tagline:
-      "The festival of Padhinettam Perukku, also known as 'Aadi Perukku', held on the 18th day of the Tamil month of Aadi.",
-    description:
-      'Adipperukku - The festival of Padhinettam Perukku also known as "Aadi Perukku" is held on the 18th day of the Tamil month of Aadi. "Perukku" means "raising" in Tamil. This festival is a reflection of the River Kaveri\'s rise due to the monsoon rains. - The Tamil calendar month of Aadi is marked by festivities and fervour honouring Water and other natural resources. Prayers and pujas are performed throughout this month to express gratitude to the mighty Goddesses for abundant natural resources. The River Palar flows through the village of Kodaiyanchi near the Vaniyambadi town of Thirupathur district. The banks of the river are home to a 1000-year-old temple dedicated to Lord Shiva- Arulmigu Kasi Viswanathar Temple and Lord Murugan - Arulmigu Murugan Temple. Hundreds of devotees gather on the day of “Padhinettam Perukku” to celebrate the occasion by offering sweet Pongal to the deity. Mulaipari, also known as the sprouting or germination of nine grains (Navadhanyam) in clay mud pots, is a crucial ceremony that is performed in the temples during this occasion. Nine different varieties of cultivated grains are packed in the earthen pots that the procession devotees carry on their heads as they move towards the river where the grains are dissolved. The newly wedded couples from the surrounding villages come to this festival to replace their "mangalya thread" tied on the day of their marriage with a new one along with gold coins and trinkets. Women make a lamp using rice and jaggery, set it upon plantain leaves, and let it float along the River Palar.',
-    images: [adi1, adi2],
-    source: "",
-  },
-  {
-    name: "Dance Festival, Mamallapuram",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
-    description:
-      "Dance Festival, Mamallapuram, which is set before an open air stage, created 13 centuries ago the incredible monolithic rock sculptures of the Pallavas, next to the sea in this ancient city of Mamallapuram. Bharatha Natyam, Kuchipudi, Kathakali, and Odissi are some dance forms presented by the very best exponents of the art besides folk dances. The Mamallapuram Dance Festival is organised by the Department of Tourism, Tamil Nadu, and is a 30-day festival held annually between December and January. Professional classical dance artists from all around the nation come together for this grand event to showcase their mesmerising performances in traditional dance forms like Bharathanattiyam, Kuchipudi, Kathakali, Mohini Attam, Assami Dance, Odissi, and Kathak. Also, folk dancers add to the festival's vibrant atmosphere with their spirited performances.Every year, the picturesque shore town of Mamallapuram hosts the “Indian Dance Festival” - A Festival of Our Culture and Tradition. The venue for the Mamallapuram- Indian Dance Festival is the front lawn of the Shore Temple. The artists perform on an open-air stage, which provides the finest ambience for the dancers to perform their best during the festival. Some of the most prominent classical dancers in the country perform at the event. This event is a vivid reminder of the ancient connection between people and the arts. This festival not only provides an amazing chance to become acquainted with many traditional dance styles of India, but it also serves as a networking opportunity for artists, dancers, musicians, and theatre professionals. The spectacular architecture, historic ambience, and enthralling performances entice tourists from all over the world to experience the festival.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
-  },
-  {
-    name: "Velankanni Festival",
-    tagline:
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
-    description:
-      "The Velankanni festival attracts thousands, clad in orange robes to the sacred spot where the ship landed. Equally famous are the Virgin Mary's miraculous healing powers, earning for the church the name 'Lourdes of the East'.  ",
-    images: [velanFest1, velanFest2],
-    source: "",
-  },
-  {
-    name: "Navarathiri Festival — Kolu",
-    tagline: "Literally means the festival of 'nine nights'.",
-    description:
-      "The Navarathiri Festival, literally means the festival of 'nine nights', taking unique and different forms in different states of India, all to propitiate the goddess Sakthi, for power, wealth and knowledge. - Celebrated in Tamil Nadu, Karnataka, and Andhra Pradesh, the festival includes placing dolls of a multitude of gods, goddesses, men, animals, and children on a steps-like set-up. In Tamil it is known as ‘Bommai Golu’. The Navratri Golu depicts scenes from ancient times – celebrated Indian stories that have been passed on from generation to generation like the Ramayana, Puranas, and the Dashavataram. This is the time of the year that you revisit those precious lessons from timeless, age-old stories. The steps may also be interpreted as the evolution ladder that we are all traversing in the journey of life. The dolls are placed on multiple steps in the house – in odd numbers. The numbers could vary from one to 11 depending on the number of dolls available for display. Many families place nine steps, each step representing the nine days of Navratri. Some keep three, five or seven steps as well. The steps are covered with a decorative cloth, and the dolls are placed on it. The first step is decorated with a kalash (ceremonial jar). The water-filled jar is decorated with a coronet of mango leaves, and a coconut is placed on top of it. It is considered to represent Goddess Durga. Idols of deities are placed on both sides of the kalash. According to tradition, the dolls of Goddesses Durga, Lakshmi, Saraswati and the wooden dolls called the Marapachi Bommai are always a part of the arrangement. The next few steps have idols of saints and heroes of the country. One of the steps represents human activities – depicting functions such as marriage, temples, and an orchestra or music band. Business is usually represented by the Chettiar set of dolls, with shop items and the Marapachi couple dressed in colorful clothes. It is a custom to add at least one new doll every year. The Golu could be a mode of telling ancient stories such as Ramayana or Bhagavad Gita or it could simply depict the evolution of life from animals to the sages and seers. On the tenth and last day, Vijayadasami, the day of victory, is celebrated. This is considered the most auspicious day of all – to start new ventures and journeys, and a day to start learning new skills. On this day, the Golu dolls are symbolically put to sleep, and then, packed the day after. Till they are brought out of their boxes the following year. Most people light lamps, draw colorful kolams (rangoli or floor decoration), perform aarti, recite shlokas (holy chants), and offer special dishes, especially a protein-rich dish called sundal (made of legumes), with some sweets and fruits every day. During the Golu set-up, women invite other women and honor them by gifting betel leaves, coconuts, fruits, flowers, bangles, turmeric, kumkum (vermilion powder) and prasadam (devotional offering of food made for the Divine and then distributed among people). It is an ideal time for families to display their creativity.",
-    images: [navar1, navar2],
-    source: "(Wikipedia)",
-  },
-  {
-    name: "Karthigai Deepam",
-    tagline: "An enchanting festival that illuminates the heart of Tamil Nadu.",
-    description:
-      "Karthigai Deepam is an enchanting festival that illuminates the heart of Tamil Nadu, with little clay lamps twinkling wherever you look like a million stars. The three-day festival, celebrated with great enthusiasm, is an integral part of Tamil culture. Devoted to Lord Karthikeya (also known as Lord Muruga), the lights of Karthigai Deepam are said to ward off darkness and evil spirits, spreading prosperity and joy. - As per ancient Hindu scriptures, the two great deities Lord Vishnu and Lord Brahma once started arguing with each other about who is superior. Each one claimed to be stronger than the other. At that point, Lord Shiva appeared to quell the fight. He took the shape of a huge fire and challenged the two Gods to find the end of the fire from the top and bottom. Lord Vishnu took the form of a boar and tried to reach the end of the fire beneath the earth, but he couldn’t and came back to Lord Shiva saying that he was unable to find it. Lord Brahma on the other hand, took the shape of a swan and flew to find the beginning of the fire on top. But his search too was in vain as he was unable to find the top of the fire. Thus, Lord Shiva proved his supremacy over the two Gods and managed to stop the fight. He then appeared in the form of a hill in Thiruvannamalai. A temple dedicated to Lord Shiva stands on the hill, where Karthigai Deepam celebrations include the lighting of a big fire. The Maha Deepam , which is lit on the hill as the culmination of the 10-day festival at the Arunachaleswarar Temple in Tiruvannamalai, is very famous.  This festival is celebrated during the months of November - December (Karthigai month) {src:incredibleindia.com}",
-    images: [karth1, karth2, karth3],
-    source: "(src: kalkionline.com, incredibleindia.com, tirthyatra.com)",
-  },
-  {
-    name: "Karadaiya Nombu",
-    tagline: "Marking the transition from the Tamil month of Maasi to Panguni.",
-    description:
-      "Karadaiya Nombu - marking the transition from the Tamil month of Maasi to Panguni. It is a significant festival where married women and young girls fast and pray to Goddess Kamakshi/Gowri for their husbands' longevity and prosperity, inspired by the story of Savitri and Satyavan. Celebrates the dedication of Savitri, who brought her husband back from Yama, embodying love and commitment. According to the legend, Savitri was a devoted princess who used her wit and devotion to reclaim the life of her husband, Satyavan, from Yama, the god of death. When Satyavan's destined time to die arrived, Savitri followed Yama as he carried her husband's soul away. Impressed by her persistence and eloquent arguments, Yama offered her several boons, excluding the life of her husband. For her final wish, Savitri requested that she be blessed with a hundred sons. When Yama granted the wish, Savitri pointed out that she could not fulfill this blessing without her husband being alive. Bound by his own word, Yama was forced to restore Satyavan to life. Women fast, and prepare special sweet and savory rice cakes called \"Karadai\" or \"Adai,\" served with butter.  Women tie a sacred yellow thread, often with a small flower piece, around their neck, symbolizing their prayer for their husband's long life.",
-    images: [karad1, karad2],
-    source: "(src: kannan's kitchen, veenas vegnation)",
+      "Christmas in the Union Territory of Dadra & Nagar Haveli and Daman & Diu (DNH & DD) is a magnificent spectacle that reflects the region’s unique colonial history and vibrant multi-cultural fabric. Deeply influenced by centuries of Portuguese rule, the celebrations here offer a distinct flavor compared to the rest of India, blending European Catholic traditions with local tribal customs and modern Indian festivities.The heart of the celebration lies in the historic churches, particularly in Daman and Diu. Iconic structures like the Church of Bom Jesus and the Church of Our Lady of Remembrance become the focal points of the season. On Christmas Eve, these architectural marvels are bathed in elaborate lighting, and thousands of residents and tourists gather for the Midnight Mass. The air is filled with the soulful resonance of traditional Portuguese hymns and local carols, creating a spiritual atmosphere that is both solemn and joyous.A defining characteristic of Christmas in DNH & DD is the Nativity Scene or 'Crib.' Almost every household and parish constructs detailed displays depicting the birth of Jesus. In Daman, the festivities often spill out into the streets with lively processions and public fairs. Local traditions also incorporate folk dances; it is not uncommon to see tribal groups performing traditional dances alongside classic Christmas festivities, symbolizing the melting pot of cultures that defines the territory.The culinary landscape during this period is equally captivating. Traditional families prepare a feast that bridges continents. You will find Portuguese-influenced delicacies like Pork Vindaloo and Bebinca (a multi-layered sweet) sharing the table with local seafood specialties and Indian sweets. Community feasting is a core pillar of the holiday, where doors are opened to neighbors of all faiths, reinforcing the 'communion' aspect of the season.In modern times, the urban centers of Silvassa and Daman have embraced contemporary trends, featuring massive public light installations, beachside parties, and Christmas markets. The beaches of Diu and Daman become popular hubs for tourists seeking a festive getaway. Despite this modernization, the essence of Christmas remains rooted in the spirit of togetherness and peace. From the ringing bells of ancient cathedrals to the shimmering lights reflected on the Arabian Sea, Christmas in Dadra & Nagar Haveli and Daman & Diu is an immersive cultural experience that celebrates both heritage and harmony.",
+    images: [],
+    source: "(src)",
   },
 ];
 
 const historicalPlaces = [
   {
-    name: "Six Abodes of Murugan (Arupadai Veedu)",
+    name: "Moti Daman Fort",
     description:
-      "Six abodes of murgan -- The Six Abodes of Murugan, known as ‘Arupadai Veedu’, are sacred temples in Tamil Nadu, India, celebrating different stages of Lord Murugan's life, victories, and legends. ",
-    images: [sixAbodes],
-    subPlaces: [
-      {
-        name: "Subramaniyaswamy Temple – Thiruparankundram",
-        location: "Madurai district",
-        description:
-          "Subramaniyaswamy Temple – Thiruparankundram, Madurai district – Located on a hillock, it is first of the Aarupadaiveedu. Murugan's marriage with Deivanai took place here.",
-        images: [thiruparankundram],
-        source: "(src: Tumblr)",
-      },
-      {
-        name: "Arulmigu Senthilnathar Temple – Tiruchendur",
-        location: "Thoothukudi district",
-        description:
-          "Arulmigu Senthilnathar Temple – Tiruchendur, Thoothukudi district - Located along the coast of Bay of Bengal, the temple commemorates the place where Murugan won a victory over the demon Surapadman. ",
-        images: [thiruchendur],
-        source: "(src: cottage9)",
-      },
-      {
-        name: "Arulmigu Dandayudhapani Temple – Palani",
-        location: "Dindigul district",
-        description:
-          "Arulmigu Dandayudhapani Temple – Palani, Dindigul district - Located at the foothills of a hillock, the deity known as 'Kulanthai Velayuthaswami' is depicted as a young form of Murugan, and said to have been worshipped by the goddess Lakshmi. In the temple on the hilltop where 'Dhandayuthapani' is the main deity, Murugan is depicted as a hermit carrying a staff ('danda'). This is the place where Murugan is said to have arrived after his feud with his family over a divine fruit. Divine story of how and why Murugan came to Palani ----  Once upon a time, the revered sage Devrishi Narad paid a visit to Lord Shiva and Maa Parvati. During his visit, he presented Maa Parvati with a unique mango, claiming that whoever consumed it would gain extraordinary qualities and powers. Being the loving mother she is, Mata Parvati wished to share this special fruit between her two sons, Lord Ganesha and Lord Kartikeya. Devarishi Narad proposed that the mango could only be consumed by one person, prompting them to organize a contest between the two brothers. The challenge was set: each had to complete three rounds of the world, and the one who returned first would be declared the winner. Eager to claim the mango, Lord Kartikeya swiftly mounted his peacock and soared into the skies to complete the three rounds. Meanwhile, Lord Ganesha, without a flying mount, contemplated his approach. Undeterred, he began walking around his seated parents, Lord Shiva and Maa Parvati, completing three rounds. When Lord Ganesha finished, he humbly claimed his reward. Perplexed, Lord Shiva and Maa Parvati reminded him that the competition was to encircle the entire world three times. In response, Ganesha, with a wise smile, declared that his parents are his world, and by encircling them, he had indeed completed three rounds of his world. Thus, he emerged as the true victor in the competition of devotion and wisdom.Upon Lord Kartikeya’s triumphant return, expectations of victory filled the air. With his peacock Vahana, he had swiftly traversed the world, confident of securing the divine mango. However, as he approached Lord Shiva and Maa Parvati, the atmosphere shifted. The revelation that Lord Ganesha was declared the winner, not due to physical prowess, but through a profound display of devotion. Due to this, Lord Murugan feeling betrayed and angry at his parents leaves to Palani. ",
-        images: [palani1, palani2],
-        source: "(src: Cottage9, southern travels)",
-      },
-      {
-        name: "Swaminatha Swamy Temple – Swamimalai",
-        location: "Thanjavur district",
-        description:
-          'Swaminatha Swamy Temple – Swamimalai, Thanjavur district - Located atop a small hillock, the temple commemorates the incident where Murugan is regarded to have explained the essence of the Pranava mantra "Om" to his father Shiva. Story ---- Once Brahma, the Lord of all creation, disrespected Murugan when he was visiting Mount Kailash. Then, the ever-playful Murugan boldly asked Brahma the meaning of the Pranava Mantra “OM”. Failing to answer the question, Brahma admitted his ignorance. Murugan knocked his forehead, and imprisoned Brahma, bringing the whole of creation to a standstill. The demigods prayed to Lord Shiva for the release of Brahma. But Murugan insisted the imprisonment was a just punishment for Brahma\'s ignorance. Lord Shiva then asked Murugan whether he Himself knew the meaning of Pranava “Aum”. Murugan said he knew its meaning, but would only explain it if Lord Shiva accepted him as a guru and listened to him as a devoted disciple. Shiva accepted the request, and the son became the teacher. He then imparted upon the father the meaning of the sacred Pranava mantra “Aum” and the divine father, proud of understanding the significance, conferred respect to Murugan for his wisdom. You will see in the main shrine in the temple complex in Swamimalai that Murugan is depicted as a teacher and Shiva is listening as a disciple and, in this temple, the son is on a higher pedestal than the father.',
-        images: [swamimalai],
-        source: "(src: casual walker)",
-      },
-      {
-        name: "Subramanya Swamy Temple – Tiruttani",
-        location: "Thiruvallur district",
-        description:
-          'Subramanya Swamy Temple - Tiruttani, Thiruvallur district - Located atop a hill, Murugan is said to have reclaimed his inner peace after winning a war over the Surapadman and married Valli here. Story ---- After the intensity of the war in Tiruchendur, Murugan needed a place to subdue his anger and seek inner peace, making Tiruttani a place of tranquility. Thanigai in Tamil means "to pacify" or "to calm down," which is why the hill and town are named Tiruttani, where the deity grants mental peace and relieves devotees of anger and stress. Because he came to this spot for peace, the idol of Murugan here is often seen holding a Vajra Vel (thunderbolt weapon) rather than the standard spear, and he is often depicted with a calmer expression and has an elephant mount (vahana)instead of his usual peacock. Valli, a mortal daughter of a tribal chieftain (Kuravas) in Tamil Nadu, was born of a doe and destined to marry Lord Murugan. Valli, from a young age, fell in love with a divine figure (Murugan) and desired to marry him, avoiding all human suitors. Lord Murugan, attracted by her devotion, visited her in the millet fields. He approached her first as a hunter, then with the help of his brother Ganesha (appearing as a wild elephant), he frightened her into accepting his hand in marriage.',
-        images: [thiruttani],
-        source: "(src: Wikipedia)",
-      },
-      {
-        name: "Solaimalai Murugan Temple – Pazhamudircholai",
-        location: "Madurai district",
-        description:
-          'Solaimalai Murugan Temple - Pazhamudircholai, Madurai district – Located on a hillock near a stream called "Nupura Gangai", Murugan is seen here with both his consorts, Deivanai and Valli. - Story ---- Avvaiyar was a renowned and legendary Tamil poetess and a name behind one of the most famous and appreciated works ever written in Hindu folklore. Her exceptional vocabulary and dexterity in the language made her works stand apart, in the list of even the greatest of the poets. This had started to make her audacious over her abilities. According to the pages drenched in the antiquity of the Hindu folklore, Lord Murugan who was well-versed with his devotee wanted to teach her a lesson and took the shape of a ten-year-old boy in here in Solaimalai. After having achieved everything in her life, Avviayar was resting under a Naaval tree, trying to figure out what lied next for her. A small boy appeared out of nowhere and stood on the tree. The boy asked Avviayar if she would like some fruits. Driven by hunger and thirst, she agreed instantly. The boy asked if she wanted a hot fruit or a cold one, which confused Avviayar but was tired to argue and opted for the cold one. Smilingly, the boy shook the tree, as many fruits fell, all of which were collected by her. The fruits were coated with the sand, so Avviayar blew them to remove it. The boy asked innocently, why was she trying to cool down the fruit blowing, which was already cold. This incident left Avviayar humbled by the clever wordplay and the poetic knowledge of the little boy. However, She was skeptical of the boy’s true identity which was revealed to her as Lord Murugan himself. She bowed to the almighty and requested him to bestow her with his bountiful knowledge, for she had realized the power of infinite learning. She sought Lord Murugan’s blessings and embarked on her quest for endless knowledge.',
-        images: [pazhamudir],
-        source: "(src: TemplePurohit)",
-      },
-    ],
+      "The Moti Daman Fort, often referred to as the 'Big Daman Fort,' stands as a massive stone sentinel at the mouth of the Damanganga River, embodying over four centuries of Portuguese colonial history. Construction of this formidable structure began in 1559 and spanned more than two decades, concluding in 1581. It was designed primarily as a defensive stronghold to protect the Portuguese enclave from the advancing Mughal and Maratha forces. Spread over an expansive area of approximately 30,000 square meters, the fort is characterized by its high, weathered stone walls and ten massive bastions that still house beautifully carved cannons, serving as a reminder of its once-active military past.The architecture is a blend of European military engineering and local influences, featuring a polygonal layout that integrates seamlessly with the surrounding landscape. One enters the fort through massive gateways, most notably the Land Gate and the Sea Gate, which are adorned with inscriptions and heraldic symbols of the Portuguese monarchy. Inside the ramparts, the atmosphere shifts from the ruggedness of a military outpost to a charming, quiet settlement. The interior is a living museum, housing government offices, secretariats, and narrow streets lined with old colonial-style houses.One of the most significant landmarks within the fort is the Cathedral of Bom Jesus, completed in 1603. It is renowned for its intricate wood carvings and a stunning gold-plated altar, showcasing the artistic heights of the Portuguese Baroque style. Nearby lies the Chapel of Our Lady of the Rosary, another architectural gem featuring exquisite floral motifs and religious iconography. These structures, along with the Dominican Monastery, highlight the fort’s role as not just a military center, but a cultural and religious hub for the Portuguese administration in India.Today, the Moti Daman Fort is a major tourist attraction in the Union Territory of Daman and Diu. Visitors can walk along the broad ramparts, which offer panoramic views of the Arabian Sea on one side and the bustling town of Nani Daman across the river on the other. During the monsoon season, the grey stones of the fort contrast beautifully with the lush greenery and the turbulent grey-blue sea, making it a favorite spot for photographers and history enthusiasts alike. It remains a silent witness to the shift of power in the region, preserving the echoes of the past within its enduring stone embrace.",
+    images: [MotiDamanFort1,MotiDamanFort2,MotiDamanFort3,MotiDamanFort4],
   },
   {
-    name: "Pancha Bhootam Temples",
+    name: "Cathedral of Bom Jesus ",
     description:
-      "The Pancha Bhoota Stalam refers to five sacred Shiva temples in South India, each representing a natural element: Earth, Water, Fire, Air, and Ether (Space). Out of 5, 4 of these temples are  located in Tamil Nadu and 1 Is in Andhra Pradesh, embodying the Hindu philosophy that nature's elements are manifestations of Shiva. In the temples, Shiva is said to have manifested himself in the respective forms of the five elements.",
-    hasImage: false,
-    subPlaces: [
-      {
-        name: "Earth – Bhumi Lingam – Ekambareshwar Temple",
-        location: "Kanchipuram",
-        description:
-          "Earth – Bhumi Lingam – Ekambareshwar Temple – Kanchipuram - Shiva is worshipped as Ekambareswarar or Ekambaranathar, and is represented by the lingam, with his idol referred to as Prithvi (earth) lingam. The temple complex covers 25 acres and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the southern tower, with 11 stories and a height of 58.5216 metres (192 ft), making it one of the tallest temple towers in India. The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagara period. Legend has it that once Parvati, the consort of Shiva, wanted to expiate herself from sin by doing penance under the temple's ancient Mango tree near the Vegavati river. She created the lingam out of wet soil. This lingam is now covered with silver. ",
-        images: [bhumiLingam],
-        source: "",
-      },
-      {
-        name: "Water – Varuna/Jambu Lingam – Jambukeshwarar Temple",
-        location: "Thiruvanaikaval, near Trichy",
-        description:
-          "Water – Varuna/Jambu lingam – Jambukeshwarar Temple – Thiruvanaikaval, near Trichy - The sanctum of Jambukeswara has the copper plated lingam and an underground water stream, and despite draining the water out, it is always filled with water. Once, Parvati mocked Shiva's penance for the betterment of the world. Shiva wanted to condemn her act and banished her to the earth from Mount Kailash (Shiva's heavenly abode) to do penance. Parvati, in the form of Akhilandeshwari as per Shiva's wish, found the Jambu forest to conduct her penance. She made a lingam out of water of the river Kaveri (also called as river Ponni) under the Venn Naaval tree (the jambu tree on top of the saint Jambu) and commenced her worship. The lingam is known as Appu Lingam or Jala Lingam (Water Lingam). There are five enclosures inside the temple. The massive outer wall covering the fifth precinct, known as the Vibhuti Prakara, stretches over a mile and is two feet thick and over 25 feet high. Legend maintains that the wall was built by Shiva working with the labourers.[10] The fourth precinct contains a hall with 796 pillars and measures 2436 feet by 1493.",
-        images: [jambuLingam],
-        source: "",
-      },
-      {
-        name: "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple",
-        location: "Thiruvannamalai",
-        description:
-          "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple – Thiruvannamalai - Shiva is worshipped as Annamalaiyar or Arunachaleshwar, and is represented by a silver plated lingam, with his idol referred to as Agni lingam. The sanctum inside is always lit by fire lamps. The 9th-century Shaiva saint poet Manikkavacakar composed the Tiruvempaavai here. The temple complex covers 10 hectares and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the eastern tower, with 11 stories and a height of 66 metres (217 ft), making it one of the tallest temple towers in India built by Sevappa Nayakar (Nayakar dynasty). The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagar period. The Karthika Deepam festival is celebrated during the day of the full moon between November and December, and a huge beacon is lit atop the nearby Annamalai hill. It can be seen from miles around, and symbolises the Shiva lingam of fire joining the sky. The event is witnessed by three million pilgrims. On the day preceding each full moon, pilgrims circumnavigate the temple base and the Annamalai hills in a worship called Girivalam, a practice carried out by one million pilgrims yearly. ",
-        images: [jyothiLingam],
-        source: "",
-      },
-      {
-        name: "Ether/Space – Indra/Akasha Lingam – Thillai Natarajar Temple",
-        location: "Chidambaram",
-        description:
-          'Ether/ Space – Indra/Akasha Lingam – Thillai Natarajar Temple – Chidambaram - Chidambaram, the name of the city and the temple, literally means "atmosphere of wisdom" or "clothed in consciousness"; the temple architecture symbolises the connection between the arts and spirituality, creative activity and the divine.The temple wall carvings display all the 108 karanas from the Natya Shastra by Bharata Muni, and these postures form a foundation of Bharatanatyam, a classical Indian dance. The present temple was built in the 10th century when Chidambaram was the capital of the Chola dynasty, making it one of the oldest surviving active temple complexes in South India. After its 10th-century consecration by the Cholas who considered Nataraja as their family deity, Shiva himself is idolised in three forms, as a crystal lingam, as a formless space covered by curtains (Chidambaram rahasyam), and as the Nataraja performing the Ananda Tandava ("Dance of Delight") in the golden hall of the shrine Pon Ambalam. The temple is one of the five elemental lingas in the Shaivism pilgrimage tradition, and considered the subtlest of all Shiva temples (Kovil) in Hinduism. It is also a site for performance arts, including the annual Natyanjali dance festival on Maha Shivaratri.',
-        images: [akashaLingam],
-        source: "",
-      },
-      {
-        name: "Air – Vayu Lingam – Srikalahasti Temple",
-        location: "Srikalahasti, Andhra Pradesh",
-        description:
-          "The one Pancha Bhootam temple located outside Tamil Nadu. Shiva is worshipped as Srikalahastishvara — the lord of Vayu (wind). A lighted lamp inside the sanctum always flickers as if in a breeze, even though there is no air moving, symbolising the presence of Vayu (Air). It is one of the most celebrated Shiva temples in South India.",
-        hasImage: false,
-        source: "",
-      },
-    ],
+      'The Church of Bom Jesus in Moti Daman stands as a premier example of Portuguese colonial architecture and spiritual heritage in India. Completed in 1603, after construction began in 1559, this cathedral-style structure is a testament to the intricate craftsmanship and engineering artistry of the 16th and 17th centuries. The church is dedicated to "Bom Jesus," which translates to "Good Jesus" or "Infant Jesus," and it remains a central pillar of Catholic worship in the region.From an architectural standpoint, the church is celebrated for its stunning Baroque influences and Maniuerist style. The exterior features an impressively carved main gateway, but the true splendor lies within its walls. Upon entering, visitors are greeted by a soaring ceiling and a grand altar that is widely considered one of the finest examples of wooden artistry in the country. The altar is elaborately gilded and adorned with intricate carvings of various saints, showcasing the high level of detail typical of the Portuguese Renaissance. The use of vibrant colors and gold leafing on the wooden statues provides a sense of celestial grandeur that has remarkably withstood the test of time and the coastal humidity.The church layout follows a traditional longitudinal plan, with a focus on the ornate high altar and several side altars that are equally impressive in their craftsmanship. The interior is also characterized by its artistic wooden pulpit and the six statues of saints that are exquisitely carved. Beyond its aesthetic value, the Church of Bom Jesus serves as a historical repository; it reflects the era when Daman was a vital religious hub for Portuguese priests and missionaries.Even after centuries, the building maintains a serene and holy atmosphere, drawing both pilgrims and history enthusiasts. The thick stone walls and massive teak doors represent the durability of colonial construction. Today, it stands not just as a place of prayer, but as a monument to the cultural fusion of European design and Indian execution. Whether one is admiring the facade’s weathered stone or the inner sanctum’s golden glow, the Cathedral of Bom Jesus remains an indispensable landmark of Daman’s rich, multicultural past.',
+    images: [CathedralofBomJesus1,CathedralofBomJesus2,CathedralofBomJesus3,CathedralofBomJesus4],
+    source: "(src:ddd.gov.in)",
   },
   {
-    name: "1000-Pillar Temple — Madurai Meenakshi Temple",
-    description:
-      'Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). Built around 1569 by Ariyanatha Mudaliyar, the minister of the Nayak dynasty, the hall is known for its structural beauty and detailed carvings. It is called the 1000-pillar temple because it houses a massive, 16th-century hall known as the Aayiram Kaal Mandapam, which contains a vast, intricately carved forest of pillars. Though often referred to as "1000," the hall actually holds 985, not 1000, granite pillars arranged in rows. While the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries. While a few structural improvements were made during the 18th and 19th centuries CE, the temple condition degraded due to negligence during the British Raj. After the Indian independence in the mid 20th century, the temple was restored with donations collected from people. Further restoration and kumbhabhishekam of the temple was conducted in 1974, 1995, and 2009. The temple conducts six pujas everyday, each comprising four rituals namely abhisheka (sacred bath), alankaram (decoration), naivedanam (food offerings) and deepa aradanai (lamp ceremony) for both Meenakshi and Sundareswarar. The rituals and festivals are accompanied with music from instruments such as nadhaswaram (pipe instrument), davandai and tavil (percussion instrument), often along with the recitation of the Vedas. The Hindus circumambulate the shrines clockwise before entering the shrine for a darshana. The Meenakshi shrine is typically visited before the Sundareswarar shrine by the pilgrims, as she is considered the primary deity of the complex. The Meenakshi temple hosts a festival in each month of the Tamil calendar. The Meenakshi thirukalyanam, which celebrates the wedding of Meenakshi and Sundareswarar, is celebrated over 15 days, and is the most attended festival. The festival, celebrated during the month of Chithirai, is part of the ‘Chithirai Thiruvizha’. The festivities include number of events such as the ‘Ther Thiruvizha’ (temple car festival) and ‘Theppa Thiruvizha’ (float festival). The wedding of the divine couple is regarded as an instance of a South Indian wedding with matrilineal emphasis, an arrangement referred as "Madurai marriage", which is in contrast with the "Chidambaram marriage", with patrilineal emphasis, named after the rituals at the Nataraja temple at Chidambaram. The festival includes the wedding ritual, where Alagar (Vishnu) gives away his sister Meenakshi, the royal bride, in marriage to Shiva, and a procession, where the idols of Meenakshi and Sundareswarar are taken in a temple car, pulled by volunteering devotees.',
-    images: [meenakshi1, meenakshi2, meenakshi3, meenakshi4],
-    source: "(src: Wikipedia, National Geographic)",
-  },
-  {
-    name: "Rameshwaram Temple",
+    name: "Dominican Monastery",
     description:
       "Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the Hindu god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is one of the twelve Jyotirlinga temples. According to tradition, the lingam (an aniconic form of Shiva) of the Ramanathaswamy Temple was established and worshipped by Rama before he crossed the bridge called Rama Setu to the island kingdom of Lanka, identified with Sri Lanka. It is one of the Char Dham pilgrimage sites. In the Yuddha Kanda of the Ramayana, on their journey back to Ayodhya, Rama narrates to Sita the appearance and worship of Shiva in the form of a lingam on the island of Rameswaram before the construction of his bridge to Lanka. He describes the spot to be supremely sacred and capable of expiating major sins. In the Shiva Purana, Rama propitiates Shiva on the shore of Rameswaram in the form of a lingam by the repetition of mantras, meditation, and dancing. Pleased, the deity appeared before Rama and granted his requested boon of victory over Ravana. Rama then requested the deity to remain on the island to sanctify the world and offer his grace to all people. There are sixty-four Tīrthas (holy water bodies) in and around the island of Rameswaram, Tamil Nadu, India. According to Skānda Purāṇa, twenty-four of them are important. Bathing in these Tīrthas is a major aspect of the pilgrimage to Rameswaram and is considered equivalent to penance. Twenty-two of the Tīrthas are within the Rāmanāthasvāmī Temple. The number 22 indicates the 22 arrows in Rama's quiver. is famous for its massive corridor, which features 1,212 intricately carved, symmetrical pillars. These sandstone pillars, standing approximately 30 feet tall, form the world's longest temple corridor. Some reports suggest the overall temple complex may have up to 4,000 pillars in total.",
-    images: [rames1, rames2, rames3],
-    source: "(src: Famous Tamil Nadu Temples, Wikimedia Commons, Intermiles)",
+    images:[DominicanMonastery1,DominicanMonastery2,DominicanMonastery3,DominicanMonastery4,DominicanMonastery5,DominicanMonastery6],
+    source: "(src:ddd.gov.in)",
   },
   {
-    name: "Dhanushkodi",
+    name: "Nani Daman Fort (St. Jerome Fort)",
     description:
-      "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres (15 mi) west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath. Although devoid of inhabitants, Dhanushkodi remains a tourist attraction due to its historical and mythological relevance. An estimated 1,800 people died in the cyclonic storm on 22 December 1964 including 115 passengers on board the Pamban-Dhanushkodi passenger train. The entire town was marooned and the Government of Madras declared Dhanushkodi as a ghost town, unfit for living. Around the 40th anniversary of the deadly cyclone, the sea around Dhanushkodi receded about 500 metres (1,600 ft) from the coastline, briefly exposing the submerged part of the town before massive tsunami waves struck the coast on 26 December 2004. The name Dhanushkodi means \"end of the bow\".It is significant for its deep mythological roots to the Ramayana, having served as the site where Lord Rama is believed to have marked the starting point of the Ram Setu bridge to Lanka. It serves as the starting point for the legendary Ram Setu, a 50 km long chain of limestone shoals connecting India's Rameswaram Island to Sri Lanka's Mannar Island.",
-    images: [dhanush1, dhanush2],
-    source: "(src: Kiomoi Travels, Tusk Travels)",
+      "The Fort of St. Jerome, commonly referred to as the Nani Daman Fort, is a poignant architectural relic of the Portuguese colonial era situated on the northern bank of the Daman Ganga River. Spanning an area of approximately 12,250 square meters, the fort is characterized by its robust and elegant stone walls that have weathered centuries of maritime history. Construction began in 1615 under the Portuguese regime and was completed in 1627, primarily serving as a strategic military outpost to monitor naval movements and defend against Mughal and Maratha invasions. Its proximity to the Daman bus stand and the local fish market makes it one of the most accessible and popular landmarks in the Union Territory of Dadra and Nagar Haveli and Daman and Diu.The architecture of the fort is a classic example of Portuguese defensive design, featuring high stone walls, three prominent bastions, and two massive gateways. The most striking feature is the magnificent gateway that faces the river, adorned with a large statue of St. Jerome, one of the most eminent fathers of the Catholic Church. Flanking this religious icon are two large human figurines that stand as silent guardians over the entrance. Within the fort’s enclosure lies the Church of Our Lady of the Sea, known for its exquisite wooden altar and serene atmosphere, reflecting the blend of military and religious life during the colonial period.Today, the fort offers visitors more than just a history lesson. A walk along the high ramparts provides a sweeping panoramic view of the Daman Ganga river meeting the Arabian Sea, often filled with colorful fishing boats. The interior also houses a Portuguese-era cemetery, adding to the site's solemn historical weight. Whether you are exploring the Fort of St. Jerome for its architectural details, its military significance, or simply to enjoy the cool sea breeze from the bastions, the site remains a vibrant bridge between Daman’s colonial past and its bustling present. It stands as a testament to the region's diverse heritage, drawing history enthusiasts and casual travelers alike to its weathered, majestic gates.",
+    images: [NaniDamanFort1,NaniDamanFort2],
+    source: "(src: mysimplesojourn.com,flaxtravel.blogspot.com)",
   },
   {
-    name: "Pamban Bridge",
+    name: "Somnath Mahadev Temple (Daman)",
     description:
-      "Pamban bridge was a railway bridge that connected the town of Rameswaram on Pamban Island with Mandapam in mainland India. Opened on 24 February 1914, it was India's first sea bridge. The Pamban bridge was the only surface transport link that connected Rameswaram to the mainland India until 1988, when a road bridge was constructed parallel to the railway bridge. In 2020, construction of a new bridge closer to the existing one began which was planned to eventually replace the existing bridge. The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025.",
-    images: [pamban1, pamban2, pamban3],
-    source: "",
+      "The Somnath Mahadev Temple, located in Prabhas Patan near Veraval in Gujarat, stands as a premier symbol of Indian spiritual heritage and architectural resilience. Known as the first among the twelve Jyotirlinga shrines of Lord Shiva, it occupies a sacred position at the confluence of three rivers—the Kapila, Hiran, and Saraswati—at the edge of the Arabian Sea. Often referred to as 'The Eternal Shrine,' the temple's history is a testament to the power of faith over destruction. According to legend, the first temple was built in gold by the Moon God (Soma) to show gratitude to Lord Shiva for curing him of a curse; subsequently, it was said to be rebuilt in silver by Ravana, in wood by Krishna, and in stone by the Solanki kings. In the historical era, the temple was targeted and destroyed by various invaders, including Mahmud of Ghazni in 1024, and later by the Khiljis and Aurangzeb. However, it was rebuilt each time, with the current structure being completed in 1951 under the guidance of Sardar Vallabhbhai Patel.The temple is constructed in the Kailash Mahameru Prasad style, a refined form of Chalukyan architecture. Its towering Shikhar (spire) reaches a height of approximately 155 feet, topped by a flag and a heavy Kalash. The intricate stone carvings on the exterior walls depict various deities, celestial beings, and motifs from Hindu mythology. The temple complex is divided into several main parts, including the Garbhagriha (inner sanctum), the Sabha Mandap (assembly hall), and the Nritya Mandap. A fascinating feature of the temple is the Baan Stambh (Arrow Pillar) located on the sea-protection wall, which contains an inscription stating that a straight line from that point to the South Pole encounters no landmass. Today, the temple remains a vibrant center of pilgrimage, recently hosting a historic Kumbhabhishek ceremony for its spire in May 2026. Every evening, a sound and light show titled 'Jai Somnath'narrates the temple's glorious past, ensuring that its legacy continues to inspire millions of devotees who visit the official Somnath site each year.
+",
+    images: [SomnathMahadevTemple1,SomnathMahadevTemple2,SomnathMahadevTemple3],
+    source: "worldtalentorg.com,pinterest.com,wallpapercave.com",
   },
   {
-    name: "The Great Chola Temples (UNESCO World Heritage Site)",
+    name: "Panikotha ",
     description:
-      "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands. The site includes three great 11th- and 12th-century Temples: the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram and the Airavatesvara Temple at Darasuram. The Temple of Gangaikondacholisvaram, built by Rajendra I, was completed in 1035. Its 53-m vimana (sanctum tower) has recessed corners and a graceful upward curving movement, contrasting with the straight and severe tower at Thanjavur. The Airavatesvara temple complex, built by Rajaraja II, at Darasuram features a 24-m vimana and a stone image of Shiva. The temples testify to the brilliant achievements of the Chola in architecture, sculpture, painting and bronze casting.. The Thanjavur temple is also variously known as Thanjai Periya Kovil, the Thanjavur Big Temple or Rajarajeshwaram, temple of the God of Rajaraja. It is one of the largest Hindu temples and an exemplar of Tamil architecture. Rajaraja himself referred to his temple as Dakshina Meru or the southern abode of Lord Shiva. Construction of the temple began in about 1003-1004 CE, and it was consecrated by Rajaraja in 1010 CE. The Chola kingdom was economically prosperous – they not only controlled every important trading port in south India, but they also had a monopoly over production of the gold mines of Kolar, the pearl fisheries in the Gulf of Mannar, the diamond mines that lay between the rivers Krishna and Pennar on the Deccan plateau (the Golconda mines) and the gem production of Ceylon as well. They are recognized as one of the 44 unesco world heritage sites of india because of the following 4 criterias-\n\nCriterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the dravida type of temple.\n\nCriterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.\n\nCriterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilisation in Southern India.\n\nCriterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.",
-    images: [chola1, chola2, chola3],
-    source: "(src: Moneycontrol, Incredible India)",
+      "Panikotha, also known as Fortim-do-Mar (Fort of the Sea), is a striking historical maritime structure located about one nautical mile off the coast of Diu, India. Situated at the mouth of the creek in the Arabian Sea, this magnificent white stone fortress resembles a ship anchored in the ocean, creating a visual spectacle that has captivated travelers for centuries. Its architecture is a blend of strategic military design and Portuguese aesthetic, characterized by its sturdy walls, circular bastions, and a prominent lighthouse that continues to guide vessels through the waters. Historically, the fort was built during the era of Muslim rule by Malik Aiyaz to serve as a vital entry post to monitor and control the movement of merchant ships and naval fleets entering Diu for trade. When the Portuguese gained control, they enhanced the structure, utilizing it both as a defensive outpost and, at various times, as a high-security prison—earning it the local nickname 'Pani Kotha,' which literally translates to 'Water Jailhouse.'The interior of the fort houses several significant landmarks, including a small chapel dedicated to Our Lady of the Sea, which reflects the religious devotion of the Portuguese sailors. The structure also features a lighthouse that adds to its picturesque silhouette against the horizon. Reaching Panikotha is an adventure in itself, as the fort is accessible only by motorboat or traditional canoe from the Diu jetty, offering visitors a unique perspective of the coastline as they approach. Once there, the panoramic views of the vast Arabian Sea and the distant Diu Fort are unparalleled. The fort is particularly mesmerizing during the evening hours when it is illuminated, appearing like a glowing jewel in the middle of the dark waters. Beyond its physical beauty, Panikotha stands as a silent witness to the turbulent colonial history of the region, symbolizing the shift of power between Indian rulers and European colonizers. Today, it remains one of Diu’s most iconic tourist attractions, drawing history buffs, photographers, and nature lovers who seek to explore its rugged charm and peaceful isolation. Whether viewed from the shore or explored from within its stone corridors, Panikotha offers a profound sense of timelessness, bridging the gap between the modern Union Territory of Diu and its storied, seafaring past.
+",
+    images: [Panikotha1,Panikotha2],
+    source: "(src:exploreourindia.com,exploreourindia.com)",
   },
   {
-    name: "Velankanni Church",
+    name: "Zampa Gateway",
     description:
-      "The Basilica of Our Lady of Good Health, also known as Sanctuary of Our Lady of Velankanni, is a Christian shrine located at the town of Velankanni, Tamil Nadu, India. The shrine is dedicated to the Blessed Virgin Mary. The devotion has existed since the mid-sixteenth century, it is attributed to three separate events which occurred at the site: The apparition of the Madonna and Child to a slumbering shepherd boy, the miraculous healing of a handicapped buttermilk vendor and the rescue of Portuguese sailors from a deadly sea storm. The basilica is built in the Gothic style of architecture. The southern side was extended in 1928 and the northern in 1933. The Shrine Basilica contains three chapels, as well as Our Lady's Tank, Church Museum, Priests' Residence, Offering Center, Stations of the Cross, mysteries of the rosary, Shrine Mega Mahal and Velankanni Beach. The building is painted in white, except for the roof that is made of red tiles. For Goan and Konkani people, she is called \"Shantadurga\" (most compassionate one). A major event is the procession, where only women are allowed to pull the first car and a statue of Mary is in the last and most decorated one. People of other religions also take part. The pilgrims sometimes shave their heads as an offering and perform ear-piercing ceremonies, both being Hindu traditions. Another ritual considered sacred is dipping oneself in the pond. There is a holy flag which is lowered to signal the end of the festival.",
-    images: [velan1, velan2, velan3],
-    source: "(src: Wikipedia)",
+      "The Zampa Gateway serves as one of the most iconic and visually striking landmarks in the Union Territory of Diu, India. Historically significant and architecturally unique, this majestic structure marks the entrance to the fortified medieval township of Diu. Painted in a vivid, eye-catching shade of red, the gateway stands as a testament to the Portuguese colonial era, blending European aesthetic sensibilities with the rugged, defensive requirements of a 16th-century island stronghold. It is located on the western path leading toward the famous Naida Caves, acting as a ceremonial threshold that separates the modern expansion of the town from its historic, walled heart.The architecture of the Zampa Gateway is characterized by its intricate carvings and symbolic ornamentation. Upon close inspection, the bright facade reveals detailed workmanship, including figures of angels, lions, and a priest, which reflect the religious and royal influences of the Portuguese governors who commissioned its construction. Unlike many other military gateways that prioritize pure functionality, the Zampa Gateway incorporates an artistic elegance that has made it a favorite subject for photographers and history enthusiasts alike. Inside the gateway, there is a small chapel featuring an inscription dating back to 1702, further anchoring the site in the timeline of Diu’s colonial evolution.Beyond its aesthetic appeal, the gateway holds immense historical weight. It was part of the massive fortification project designed to protect the island from invaders, including the Mughals and various European rivals. During the medieval period, this gate was a vital checkpoint for trade and military movement. Today, it remains a 'living' monument; while it is a protected heritage site, it continues to serve as a functional passage for locals and travelers entering the historic district.Visiting the Zampa Gateway provides a sensory bridge between the past and present. The contrast of the crimson walls against the blue Diu sky, combined with the nearby artificial greenery and the proximity to the ancient city walls, creates a picturesque atmosphere. It is often cited as a 'must-visit' landmark because it encapsulates the spirit of Diu—a blend of peaceful island vibes and a complex, layered history of global maritime power. Whether viewed as a piece of military engineering or a work of colonial art, the gateway remains the symbolic 'pulse' of Diu's heritage.",
+    images: [ZampaGateway1,ZampaGateway2],
+    source: "(src:seawatersports.com,incredibleindia.gov.in)",
   },
   {
-    name: "Thiruvalluvar Statue, Kanyakumari",
+    name: "Gangeshwar Mahadev Temple (Diu)",
     description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
-    source: "(src: Wikipedia)",
+      "The Gangeshwar Mahadev Temple is a remarkable Hindu shrine located on the serene coastline of Fudam village, just 3 km from Diu in the Union Territory of Dadra and Nagar Haveli and Daman and Diu. Often referred to as the 'Seashore Temple,'it is uniquely positioned where the rocky cliffs meet the Arabian Sea, offering a spiritual experience deeply intertwined with the natural elements. This ancient site is steeped in the lore of the Mahabharata, with local tradition holding that the temple was established by the Pandava brothers during their period of exile. It is said that while living in anonymity, the brothers sought a place to perform their daily worship of Lord Shiva and subsequently installed five shivalingas of varying sizes, each corresponding to the physical stature of the brothers; the largest linga is attributed to Bhima, known for his legendary strength. The name 'Gangeshwar' itself carries deep significance, derived from 'Ganga' (the holy river) and 'Ishwar' (Lord), referring to Lord Shiva as the one who captured the celestial river in his matted hair to protect the Earth from her powerful descent. Unlike traditional temples with towering spires, Gangeshwar Mahadev is a cave temple carved directly into the seaside rocks, featuring the five shivalingas on the floor at the very edge of the sea. The temple is famous for its 'living' rituals performed by the ocean itself, as the sea waves enter the cave during high tide and completely submerge the lingas, a phenomenon viewed by devotees as a divine abhishekam or ritual bathing. Consequently, the lingas are generally visible only during low tide, making the timing of a visit crucial for pilgrims. Before reaching the main shrine, visitors pass through the cave where they can see idols of Lord Ganesha, Lord Vishnu, and Goddess Lakshmi, while a carving of the Seshanag (the divine serpent) looks down from the rocks above to guard the deities. The atmosphere is defined by the constant roar of the Arabian Sea and the salty mist, creating a meditative environment that stands as a testament to the ancient Indian practice of honoring the divine through the raw power of the natural landscape. Though its current structural elements are modern, the temple is believed by devotees to be over 5,000 years old, remaining a vital site for Shaivism and a primary destination within the Diu district tourism circuit.",
+    images: [temple1,temple2,temple3,temple4],
+    source: "(src:exploreourindia.com,vida-digna.org,picxy.comdreamstime.com)",
   },
   {
-    name: "Vivekananda Rock Memorial",
+    name: "BAPS Shri Swaminarayan Temple (Silvassa)",
     description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
+      "The BAPS Shri Swaminarayan Mandir in Silvassa stands as a magnificent tribute to traditional Hindu temple architecture and spiritual heritage in the capital of Dadra and Nagar Haveli. Constructed from intricate pink sandstone and meticulously carved marble, the mandir is an architectural marvel that reflects the timeless beauty of the ancient Shilpa Shastras. Its exterior is adorned with towering pinnacles (shikhars), ornate domes, and thousands of hand-carved figures depicting deities, musicians, and floral motifs that capture the light at different hours of the day, creating a serene and ethereal atmosphere.As a prominent cultural and spiritual landmark, the temple serves as more than just a place of worship; it is a center for peace and community service. Upon entering the main sanctum, visitors are greeted by the exquisitely adorned murtis (sacred images) of Bhagwan Swaminarayan and other Hindu deities, which are the focal point of the daily rituals. The interior craftsmanship is equally breathtaking, featuring vaulted ceilings and marble pillars that showcase the pinnacle of Indian craftsmanship. The atmosphere within the complex is one of profound stillness, offering a sanctuary for meditation and reflection away from the bustle of urban life.Beyond its physical beauty, the mandir is a vibrant hub for seasonal festivals and cultural celebrations. It regularly hosts major events such as Diwali and Annakut, where thousands of food items are offered to the deities in a spectacular display of devotion. The temple also organizes the Hindola Festival and various Yuva Shibirs (youth conventions), focusing on character building and moral values. Surrounded by manicured gardens and maintained with impeccable cleanliness, the mandir grounds provide an inviting space for families and tourists alike. Whether one is drawn by religious faith or an appreciation for fine art, the BAPS Mandir in Silvassa offers a transformative experience that bridges the gap between the material and the divine, making it a must-visit destination in the region.",
     images: [vive1, vive2, vive3],
-    source: "(src: Wikipedia)",
-  },
-  {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
-    description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
-  },
-  {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
-    description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
-    source: "",
-  },
-  {
-    name: "Trichy Malaikottai (Rockfort)",
-    description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
-  },
-  {
-    name: "Srirangam Ranganathaswamy Temple",
-    description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+    source: "(src: baps.org)",
   },
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "Dadra and Nagar Haveli and Daman and Diu became a single Union Territory on January 26, 2020, following the merger of two separate UTs.",
+  "The Union Territory is composed of four distinct areas: Dadra, Nagar Haveli, Daman, and the island of Diu.",
+  "Daman and Diu were under Portuguese colonial rule for over 450 years, only being liberated and incorporated into India in 1961.",
+  "The administrative headquarters and capital of the merged Union Territory is the city of Daman.",
+  "The territory has a unique linguistic profile where Gujarati, Hindi, and English are widely spoken, alongside remains of Portuguese influence.",
+  "Daman is divided by the Daman Ganga River into two parts: Moti Daman (Big Daman) and Nani Daman (Small Daman).",
+  "The Diu Fort, built by the Portuguese in 1535, is a massive sea-facing structure and one of the most visited historical landmarks in the region.",
+  "The Union Territory is a major industrial hub, particularly in sectors like plastics, pharmaceuticals, and textiles due to favorable tax policies.",
+  "Nagar Haveli is landlocked between Maharashtra and Gujarat, while Dadra is an enclave lying entirely within the state of Gujarat.",
+  "The Vanganga Lake Garden in Silvassa is a popular tourist attraction, featuring Japanese-style bridges and lush greenery over 7 hectares.",
+  "The Warli tribe is the primary indigenous group in Dadra and Nagar Haveli, famous for their distinct and ancient form of wall painting.",
+  "Diu is home to the Gangeshwar Mahadev Temple, where five Shiva Lingas are located on the seashore and are washed by the tidal waves of the Arabian Sea.",
+  "The Naida Caves in Diu are a network of interconnected hewn caves that offer a unique natural rock formation and light play for explorers.",
+  "The territory enjoys a high literacy rate, significantly exceeding the national average at approximately 81.22%.",
+  "Silvassa, the largest city in the Dadra and Nagar Haveli district, was once known as Vila de Paço d'Arcos during the Portuguese era.",
+  "The regional economy is heavily supported by tourism, given its extensive coastline in Daman and Diu and forest-covered hills in Nagar Haveli.",
+  "The territory celebrates the 'Tarpa Festival,' which showcases the traditional dance and music of the local tribal communities.",
+  "Daman is famous for its historical churches, such as the Cathedral of Bom Jesus, which features intricate wood carvings and Portuguese architecture.",
+  "The Union Territory is governed directly by the Central Government of India through an appointed Administrator.",
+  "Unlike many other parts of India, the region has a distinct legal history, having transitioned from the Portuguese Civil Code after its integration.",
 ];
 
 const artGallery = [
   {
-    title: "Ambur Biriyani",
-    emoji: "🍛",
-    color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
-  },
-  {
-    title: "Tirunelveli Halva",
-    emoji: "🍮",
-    color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
-  },
-  {
-    title: "Dindigul Talapakatti Biriyani",
-    emoji: "🍚",
+    title: "Daman Fish Curry",
+    emoji: "🐟",
     color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
+    desc: "Spicy and tangy seafood specialty influenced by Portuguese flavors",
+    image: gDamanFishCurry,
   },
   {
-    title: "Madurai Malli",
-    emoji: "🌸",
-    color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
+    title: "Warli Painting",
+    emoji: "🎨",
+    color: "#8B4513",
+    desc: "Ancient tribal wall art from Dadra and Nagar Haveli using geometric shapes",
+    image: gWarliArt,
   },
   {
-    title: "Madurai Butter Bun",
-    emoji: "🥐",
-    color: "#F4E884",
-    desc: "Iconic local bun with butter",
-    image: gButterBun,
-  },
-  {
-    title: "Madurai Jigurthanda",
-    emoji: "🍨",
-    color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
-  },
-  {
-    title: "Uthukuli Venne (Butter)",
-    emoji: "🧈",
-    color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
-  },
-  {
-    title: "Thoothukoodi Muthu (Pearl)",
-    emoji: "🔮",
-    color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
-  },
-  {
-    title: "Salem Mango (Malgova)",
-    emoji: "🥭",
-    color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
-  },
-  {
-    title: "Erode Turmeric",
-    emoji: "🌿",
-    color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
-  },
-  {
-    title: "Tiruppur Garments",
-    emoji: "👕",
-    color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
-  },
-  {
-    title: "Kanchipuram Silk Sarees",
-    emoji: "🥻",
-    color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
-  },
-  {
-    title: "Madurai Sungdi Sarees",
-    emoji: "🧣",
-    color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
-  },
-  {
-    title: "Bharatanatyam",
+    title: "Tarpa Dance",
     emoji: "💃",
-    color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
-  },
-  {
-    title: "Dosa & Idli",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
-  },
-  {
-    title: "Ven Pongal",
-    emoji: "🍲",
-    color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
-  },
-  {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
     color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
+    desc: "Vibrant tribal folk dance performed to the tunes of the Tarpa instrument",
+    image: gTarpaDance,
   },
   {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
+    title: "Diu Fort",
+    emoji: "🏰",
+    color: "#B4D8E8",
+    desc: "Massive 16th-century Portuguese coastal fortification",
+    image: gDiuFort,
   },
   {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
-  },
-  {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
-  },
-  {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
+    title: "Silvassa Nakshatra Garden",
+    emoji: "🌳",
     color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    desc: "Astro-themed garden with plants associated with zodiac signs",
+    image: gNakshatraGarden,
+  },
+  {
+    title: "Dhotri and Lugdu",
+    emoji: "👘",
+    color: "#E8A8C8",
+    desc: "Traditional attire of the tribal communities in the region",
+    image: gTribalAttire,
+  },
+  {
+    title: "Bamboo Crafts",
+    emoji: "🎋",
+    color: "#F4E884",
+    desc: "Handcrafted mats and baskets made by the Dhodia and Varli tribes",
+    image: gBambooCraft,
+  },
+  {
+    title: "Daman Brandy & Feni",
+    emoji: "🥃",
+    color: "#D4883A",
+    desc: "Local spirits reflecting the territory's unique liquor culture",
+    image: gLocalSpirits,
+  },
+  {
+    title: "Gangeshwar Mahadev Temple",
+    emoji: "🛕",
+    color: "#E8F4F8",
+    desc: "Seashore cave temple where waves wash over five Shiva Lingas",
+    image: gGangeshwar,
+  },
+  {
+    title: "Nani Daman Jetty",
+    emoji: "⚓",
+    color: "#C84830",
+    desc: "Popular evening spot overlooking the Daman Ganga River",
+    image: gDamanJetty,
+  },
+  {
+    title: "Toddy (Palm Wine)",
+    emoji: "🥥",
+    color: "#F8F0C4",
+    desc: "Freshly tapped sap from palm trees, a staple local beverage",
+    image: gToddy,
+  },
+  {
+    title: "Hoka Trees",
+    emoji: "🌴",
+    color: "#A8D4B4",
+    desc: "Rare branching palms found in Diu, originally from Africa",
+    image: gHokaTrees,
   },
 ];
