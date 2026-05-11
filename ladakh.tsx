@@ -9,32 +9,32 @@ import {
   ZoomIn,
 } from "lucide-react";
 import ladakhMap from "@assets/ladakhMap.jpg";
-const losar1 = "";
-const hemis1 = "";
-const sakadawa1 = "";
-const dosmochey1 = "";
-const galdan1 = "";
-const stupa1 = "";
-const pangong1 = "";
-const khardung1 = "";
-const khardung2 = "";
-const nubra1 = "";
-const magnetic1 = "";
-const lamayuru1 = "";
-const lamayuru2 = "";
-const tsomoriri1 = "";
-const hanle1 = "";
-const hanle2 = "";
-const gJabro = "";
-const gCham = "";
-const gTukhstanmo = "";
-const gLoshon = "";
-const gPhyang = "";
-const gShon = "";
-const gMomos = "";
-const gThukpa = "";
-const gSkyu = "";
-const gChhutag = "";
+const losar1 = "https://postimg.cc/zbSYxTCn";
+const hemis1 = "https://postimg.cc/3dwQZ4W6";
+const sakadawa1 = "https://postimg.cc/XrGMTRfm";
+const dosmochey1 = "https://postimg.cc/94Z6fyNS";
+const galdan1 = "https://postimg.cc/PP0V8PZG";
+const stupa1 = "https://postimg.cc/mcymqjnr";
+const pangong1 = "https://postimg.cc/LgnvJp8d";
+const khardung1 = "https://postimg.cc/Th4CZpt3";
+const khardung2 = "https://postimg.cc/JyL4QNvM";
+const nubra1 = "https://postimg.cc/qg5JFVS5";
+const magnetic1 = "https://postimg.cc/mPQThcDv";
+const lamayuru1 = "https://postimg.cc/R6bB2KsT";
+const lamayuru2 = "https://postimg.cc/F18vZbJt";
+const tsomoriri1 = "https://postimg.cc/18cZsL76";
+const hanle1 = "https://postimg.cc/2bts0my7";
+const hanle2 = "https://postimg.cc/KRB6D626";
+const gJabro = "https://postimg.cc/k2FDzYxT";
+const gCham = "https://postimg.cc/mcLhs3jD";
+const gTukhstanmo = "https://postimg.cc/0MrQ68Lg";
+const gLoshon = "https://postimg.cc/G98tdmFB";
+const gPhyang = "https://postimg.cc/RW9Z71jm";
+const gShon = "https://postimg.cc/xkpjVwq3";
+const gMomos = "https://postimg.cc/D4L7sm6q";
+const gThukpa = "https://postimg.cc/QFXj98T7";
+const gSkyu = "https://postimg.cc/R3YmDwbX";
+const gChhutag = "https://postimg.cc/w7zpZqF4";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
