@@ -8,84 +8,72 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import mpMap from "@assets/punjabMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-const gurupurab3 = "@assets/image_1776788482041.png";
-const teej1 = "@assets/image_1776788764847.png";
-const teej2 = "@assets/image_1776788772553.png";
-const teej3 = "@assets/image_1776788788721.png";
-const bandi1 = "@assets/image_1776788797545.png";
-const bandi2 = "@assets/image_1776788805779.png";
-const shaheedi1 = "@assets/image_1776788811412.png";
-const rakhi1 = "@assets/image_1776788817244.png";
-const rakhi2 = "@assets/image_1776788825797.png";
-const maghi1 = "@assets/image_1776788831894.png";
-const maghi2 = "@assets/image_1776788840602.png";
-const karva1 = "@assets/image_1776788847901.png";
-const karva2 = "@assets/image_1776788856768.png";
-const golden1 = "@assets/image_1776788865143.png";
-const golden2 = "@assets/image_1776788870905.png";
-const golden3 = "@assets/image_1776788878018.png";
-const jallian1 = "@assets/image_1776788887081.png";
-const jallian2 = "@assets/image_1776788895857.png";
-const jallian3 = "@assets/image_1776788902350.png";
-const wagah1 = "@assets/image_1776788909064.png";
-const wagah2 = "@assets/image_1776788916164.png";
-const wagah3 = "@assets/image_1776789530181.png";
-const wagah4 = "@assets/image_1776789548589.png";
-const qila1 = "@assets/image_1776789554420.png";
-const qila2 = "@assets/image_1776789558971.png";
-const qila3 = "@assets/image_1776789565292.png";
-const ranjit1 = "@assets/image_1776789575242.png";
-const ranjit2 = "@assets/image_1776789580153.png";
-const ranjit3 = "@assets/image_1776789590790.png";
-const gobindgarh1 = "@assets/image_1776789610085.png";
-const gobindgarh2 = "@assets/image_1776789615338.png";
-const anandpur1 = "@assets/image_1776789624415.png";
-const anandpur2 = "@assets/image_1776789631296.png";
-const partition1 = "@assets/image_1776789638782.png";
-const partition2 = "@assets/download_1777100508255.png";
-const partition3 = "@assets/download_1777100514323.png";
-const guru1 = "@assets/download_1777100516025.png";
-const guru2 = "@assets/download_1777100518481.png";
-const guru3 = "@assets/download_1777100520664.png";
-const durgiana1 = "@assets/download_1777100523842.png";
-const durgiana2 = "@assets/image_1777102241686.png";
-const durgiana3 = "@assets/image_1777102257711.png";
-const akaltakht1 = "@assets/download_1777100525385.png";
-const akaltakht2 = "@assets/download_1777100526870.png";
-const akaltakht3 = "@assets/download_1777100529380.png";
-const jang1 = "@assets/download_1777100531237.png";
-const jang2 = "@assets/download_1777100532535.png";
-const jang3 = "@assets/download_1777100537305.png";
-const gJutti = "@assets/image_1777100917162.png";
-const gBhangra = "@assets/image_1777100921467.png";
-const gPhulkari = "@assets/image_1777100927953.png";
-const gGiddha = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
+import mpMap from "@assets/mpMap.jpg";
+const khajuraho1 = "";
+const khajuraho2 = "";
+const tansen1 = "";
+const tansen2 = "";
+const bhagoria1 = "";
+const lokrang1 = "";
+const kumbhmela1 = "";
+const mandufest1 = "";
+const orchha1 = "";
+const pachmarhi1 = "";
+const chethiyagiri1 = "";
+const malwautsav1 = "";
+const khajurahotemple1 = "";
+const khajurahotemple2 = "";
+const khajurahotemple3 = "";
+const sanchi1 = "";
+const sanchi2 = "";
+const sanchi3 = "";
+const bhimbetka1 = "";
+const bhimbetka2 = "";
+const bhimbetka3 = "";
+const gwalior1 = "";
+const gwalior2 = "";
+const gwalior3 = "";
+const jahaz1 = "";
+const jahaz2 = "";
+const jahaz3 = "";
+const ujjain1 = "";
+const ujjain2 = "";
+const ujjain3 = "";
+const omkareshwar1 = "";
+const omkareshwar2 = "";
+const asirgarh1 = "";
+const asirgarh2 = "";
+const asirgarh3 = "";
+const jahangir1 = "";
+const jahangir2 = "";
+const rajwada1 = "";
+const rajwada2 = "";
+const khamba1 = "";
+const khamba2 = "";
+const badal1 = "";
+const badal2 = "@assets/image_1776789615338.png";
+const badal3 = "@assets/image_1776789624415.png";
+const sarafa1 = "@assets/image_1776789624415.png";
+const sarafa2 = "@assets/image_1776789624415.png";
+const sarafa3 = "@assets/image_1776789624415.png";
+const chappan1 = "@assets/image_1776789624415.png";
+const chappan2 = "@assets/image_1776789624415.png";
+const chappan3 = "@assets/image_1776789624415.png";
+const chappan4 = "@assets/image_1776789624415.png";
+const gRajwada = "@assets/image_1777100917162.png";
+const gLalbagh = "@assets/image_1777100921467.png";
+const gChappan = "@assets/image_1777100927953.png";
+const gTaj = "@assets/image_1777100932602.png";
+const gButterBun = "@assets/image_1777100937948.png";
+const gPoha = "@assets/image_1777100946447.png";
+const gDalbafla = "@assets/image_1777100950953.png";
+const gBhuttakees = "@assets/image_1777100955650.png";
+const gBedaghat = "@assets/image_1777100960783.png";
+const gMatki = "@assets/image_1777100965689.png";
+const gBedaghatrocks = "@assets/image_1777100975810.png";
+const gBengaltiger = "@assets/image_1777100982364.png";
+const gBarasingha = "@assets/image_1777100987731.png";
+
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -478,8 +466,8 @@ export default function MadhyaPradeshPage() {
               <div className="space-y-2">
                 {[
                   { label: "Capital", value: "Bhopal" },
-                  { label: "Population", value: " Crore" },
-                  { label: "Area", value: " sq km" },
+                  { label: "Population", value: "7.26 Crore" },
+                  { label: "Area", value: "3,08,252 sq km" },
                   { label: "Founded", value: "1 November 1956" },
                   { label: "Language", value: "Hindi, Bundeli, Malwi" },
                   { label: "Districts", value: "55 Districts" },
@@ -523,7 +511,7 @@ export default function MadhyaPradeshPage() {
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Madhya Pradesh")}
+              onClick={() => openLightbox(mpMap, "Map of Madhya Pradesh")}
             >
               <img
                 src={mpMap}
@@ -885,6 +873,20 @@ const historicalPlaces = [
       "Located in Chanderi, it was built by Sultan Mehmood Shah Khilji in the 15th century. It is not a palace but a standalone ceremonial gateway. The gate features intricate carvings and double arches. It is a landmark of the Malwa Sultanate's architectural prowess. The Badal Mahal Gate is a 'triumphal arch' that stands 50 feet high, featuring two tapering minarets and a double-arched entrance that creates a beautiful framing effect. It is a prime example of the 'Malwa Sultanate' style, which avoided the heavy carvings of the North in favor of clean lines and elegant geometric proportions. The gate was strategically placed to overlook the Chanderi fort, serving as a landmark for travelers entering the city from the hills. Today, the gate’s image is so famous that it is often used as a background for Chanderi’s world-renowned silk weaving industry. This imposing gate has a height of 100 feet, and bears intricate designs and netted windows that portray inferences of Mughal architecture. The upper portion of the gate shows four beautifully carved windows, each with a different design motif. On the other side of the gate is a hanging balcony where the musicians used to sit to entertain guests. This balcony was also used to shower flower petals on the guests as they passed under. At best, Badal Mahal is a facade, which looks stunning against the backdrop of a hill and the Kirti Durg Fort.",
     images: [badal1, badal2, badal3],
     source: "(src: Wikipedia)",
+  },
+  {
+    name: "Saraafa Bazaar - Indore",
+    description:
+      "Sarafa Bazaar is a jewellery market and night street food court located in central Indore, India. Sarafa is one of the market in India which remains as a jewellery marketplace at daytime and converts itself into a street food court at night. The market consists of two sub-markets namely Bada Sarafa Bazaar and Chhota Sarafa Bazaar. Indore's Sarafa Bazaar is a popular tourist place because of its diverse cuisine and night lifestyle. The market originated as the central jewellery market in the city of Indore. Located 2 Kilometres from Indore's central marketplace Rajwada, Sarafa was the central trading point for jewellery, artefacts and ornaments. Due to its location and a large number of commuters and tourists, street food vendors started putting stalls and selling fast-food, snacks and chaat.[4] Eventually, street food vendors were allowed to put stalls after 8 PM (after jewellery market closes) until morning.[5] Sarafa is also the place of origin of Bada Sarafa Cotton Association, Indore and Madhya Pradesh Sarafa Association. Some popular vendors include Joshi Ke Dahi Bade (since 1977) (Joshi's Dahi Bade), Nagori Ki Shikanji (Nagori's Shikanjvi) and Rajhans ka Daal Bafla (Rajhans' Daal Baati). The most famous and must-try cuisines in Saraafa Bazaar are - Bhutte ka Kees, Jalebi, Ratalu, Khopra Pattice, Garadu, Poha-Jalebi, Malpua, Rabri, Vijay chat house Kachori, Kulfi, Mawa Baati, Malai Rabdi, Coconut Crush",
+    images: [sarafa1, sarafa2, sarafa3],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Chappan Dukaan - Indore",
+    description:
+      "Chappan Dukan, (also written as 56 Dukan), is a food and shopping street located in Indore, Madhya Pradesh, India. It is known for its active street food scene and variety of shops, establishing itself as a notable landmark for residents and visitors alike. Chappan Dukan accommodates 56 food shops within a distance of approximately 200 meters, situated in the upscale Palasia area of Indore. Between the 1980s and 1990s, the Chappan Dukan area became synonymous with Indore and earned the moniker '56 Dukan'. In 2000, a major transformation took place which made widespread recognition across Madhya Pradesh and the nation. The market's popularity attracted celebrities, officials, and leaders, who frequently included it in their Indore visits, sometimes accompanied by their families. Chappan Dukan has its own radio station, which was launched in 2022, catering to both shopkeepers and visitors. This marks the first instance of its kind in Madhya Pradesh, where 56 shops have their individual radio stations—a concept previously seen in malls of Mumbai, Bengaluru, and Hyderabad. The Times of India reported in 2019 that the food shops at Chappan Dukan have reportedly contributed approximately 40% (estimated based on shopkeepers' statements) to the city's annual food market turnover of ₹5,000 crore. In September 2021, Chappan Dukan received an award from Food Safety and Standards Authority of India (FSSAI) for being a 'Clean Street Food' hub in Indore. It a FSSAI certified street food hub. In April 2022, Indore Smart City Development was awarded the First Prize for Chappan Dukan in the Built Environment category in the Smart Cities Conference held in Gujarat. Popular dishes to try include Johny Hot Dog, Vijay Chaat House (for khopra patties), various chaats, momos, rabdi, and shakes.",
+    images: [chappan1, chappan2, chappan3, chappan4],
+    source: "(src: Wikipedia, Tripadvisor)",
   },
 ];
 
