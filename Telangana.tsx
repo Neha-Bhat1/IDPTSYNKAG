@@ -65,8 +65,8 @@ const BasaraSaraswathiTemple1 = "@assets/download_1777100523842.png";
 const BasaraSaraswathiTemple2 = "@assets/image_1777102241686.png";
 const BasaraSaraswathiTemple3 = "@assets/image_1777102257711.png";
 const NirmalFort1 = "@assets/download_1777100525385.png";
-const yadagiriguttatemple1 = "@assets/download_1777100526870.png";
-const yadagiriguttatemple2 = "@assets/download_1777100529380.png";
+const Yadagiriguttatemple1 = "@assets/download_1777100526870.png";
+const Yadagiriguttatemple2 = "@assets/download_1777100529380.png";
 const BhongirFort1 = "@assets/download_1777100531237.png";
 const BhongirFort2 = "@assets/download_1777100532535.png";
 const Pillalamarri = "@assets/download_1777100537305.png";
@@ -856,7 +856,7 @@ const historicalPlaces = [
     source: "(src: photos.com)",
   },
   {
-    name: "yadagirigutta temple",
+    name: "Yadagirigutta temple",
     description:
       "The Yadagirigutta Temple, officially known as the Sri Lakshmi Narasimha Swamy Temple, is one of the most prominent pilgrimage centers in Telangana, located about 60 kilometers from Hyderabad in Yadadri Bhuvanagiri district. Dedicated to Lord Narasimha, an incarnation of Lord Vishnu, the temple is perched on a hillock and has been a revered spiritual destination for centuries. According to legend, sage Yadava meditated here, and Lord Narasimha appeared before him, blessing the site with divine presence. The temple is unique because it enshrines the deity in five forms—Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha—making it a rare and powerful center of worship. Architecturally, the temple has undergone a massive transformation in recent years, with the Telangana government undertaking a grand reconstruction project to expand and beautify the complex. The new design blends traditional temple architecture with modern facilities, featuring intricately carved gopurams, spacious mandapas, and a majestic sanctum that reflects the grandeur of South Indian temple art. The temple complex also includes facilities for devotees such as accommodation, dining halls, and ritual spaces, ensuring a comfortable pilgrimage experience. Festivals like Brahmotsavam, Vaikunta Ekadashi, and Narasimha Jayanti are celebrated with great devotion, drawing thousands of devotees from across India. The temple is also significant for the ritual of Satyanarayana Vratam, performed by devotees seeking blessings for prosperity and well-being. Beyond its religious importance, Yadagirigutta Temple has become a cultural and spiritual hub, symbolizing the deep-rooted faith of Telangana’s people. The serene hill surroundings, combined with the temple’s divine aura, create an atmosphere of peace and devotion. Today, Yadagirigutta stands not only as a sacred shrine but also as a monumental example of heritage preservation and modern temple development, embodying both tradition and progress. It continues to inspire millions of devotees, scholars, and visitors, serving as a beacon of spirituality, cultural pride, and architectural brilliance in Telangana.",
     images: [yadagiriguttatemple1,yadagiriguttatemple2],
