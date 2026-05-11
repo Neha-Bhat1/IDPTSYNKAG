@@ -8,7 +8,7 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
+import Biharmap from "@assets/punjabMap.jpg";
 const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
 const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
 const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
@@ -416,7 +416,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function TamilNaduPage() {
+export default function BiharPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -456,19 +456,19 @@ export default function TamilNaduPage() {
           <div className="flex flex-col md:flex-row md:items-end gap-6">
             <div className="flex-1">
               <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
-                South India
+               Eastern India 
               </div>
               <h1
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Tamil Nadu
+                Bihar
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Temples
+               Cradle of Civilizations
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -477,12 +477,12 @@ export default function TamilNaduPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chennai" },
-                  { label: "Population", value: "7.21 Crore" },
-                  { label: "Area", value: "1,30,060 sq km" },
-                  { label: "Founded", value: "26 January 1950" },
-                  { label: "Language", value: "Tamil" },
-                  { label: "Districts", value: "32 Districts" },
+                  { label: "Capital", value: "Bihar" },
+                  { label: "Population", value: "10.41 Crore(2011 census" },
+                  { label: "Area", value: "94,163 sq km" },
+                  { label: "Founded", value: "22 March 1912" },
+                  { label: "Language", value: "Hindi" },
+                  { label: "Districts", value: "38 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
@@ -509,24 +509,24 @@ export default function TamilNaduPage() {
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chennai
+              Patna
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The Detroit of Asia
+              Capital of Bihar — The Cradle of Empires
             </p>
           </div>
         </Section>
 
         {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Tamil Nadu" icon="🗺️">
+        <Section title="Map of Bihar" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
+              onClick={() => openLightbox(BiharMap, "Map of Bihar")}
             >
               <img
-                src={tnMap}
+                src={BiharMap}
                 alt="Map of Tamil Nadu"
                 className="w-full h-auto object-contain"
               />
@@ -550,68 +550,25 @@ export default function TamilNaduPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              The State of Tamil Nadu has a hoary antiquity. Though
-              early sangam classics throw historical references, we pass to
-              recorded history only from the Pallavas.
+              Bihar, a state in Eastern India, is a land where antiquity meets a modern struggle for transformation. Bordered by Nepal to the north and the states of Uttar Pradesh, West Bengal, and Jharkhand, it is physically defined by the fertile Ganges river, which splits the state into two distinct regions. Its name is derived from the Sanskrit word Vihara, meaning "abode," reflecting its deep-rooted history as a sanctuary for Buddhist monks.
             </p>
             <p className="text-foreground">
-              The southern states of India were under the hegemony of the
-              Cholas, the Cheras and the Pandyas for centuries. The Pallavas
-              held supremacy from about the second quarter of the fourth century
-              A.D. They were the originators of the famous Dravidian style of
-              temple architecture. The last Pallava ruler was Aparajita, in
-              whose reign the later Cholas under Vijayalaya and Aditya asserted
-              themselves by about the 10th century. At the end of the
-              11th century, Tamil Nadu was ruled by several dynasties like the
-              Chalukyas, Cholas and Pandyas. In the two centuries that followed,
-              the imperial Cholas gained paramountcy over South India.
+              Historically, Bihar was the epicenter of Indian power and culture for over a millennium. It was the cradle of the Maurya Empire, India’s first great empire, and the Gupta Empire, often called the "Golden Age of India." This region birthed two of the world’s major religions: Buddhism and Jainism. Gautama Buddha attained enlightenment under a pipal tree in Bodh Gaya, while Lord Mahavira revived Jainism in the same fertile plains. Ancient learning centers like Nalanda Mahavihara and Vikramashila attracted scholars from across the globe, making Bihar a beacon of intellectualism in the ancient world.
             </p>
             <p className="text-foreground">
-              Muslims gradually strengthened their position, which led to the
-              establishment of the Bahamani Sultanate, by the middle of the
-              14th century. At the same time, the Vijayanagar Kingdom quickly
-              consolidated itself and extended its sway over the whole of South
-              India, and at the close of the century, Vijayanagar became the
-              supreme power in South. However, it crumbled at the battle of
-              Talikota in 1564 to the confederate forces of the Deccan Sultans.
+             In the modern era, Bihar presents a complex narrative of demographic strength and economic challenges. It is the second-most populous state in India, with a staggering population of over 130 million as per the 2023 census. Notably, it possesses one of the youngest populations in India, with nearly 58% of its citizens under the age of 25. This "demographic dividend" is both a challenge and an opportunity for the state’s development. While it has historically faced hurdles in industrialization—partly due to colonial-era policies like the Permanent Settlement and post-independence freight equalization—the last two decades have seen a significant push toward infrastructure and governance.
             </p>
             <p className="text-foreground">
-              Even during the period of the tumultuous confusion that followed
-              the battle of Talikota, European commercial interest had appeared
-              as rivals in the area of South India. The Portuguese, the Dutch,
-              the French and the English came in quick succession and
-              established trading centres known as 'Factories'. East India
-              Company, which had established its factory at Masulipatnam (now in
-              Andhra Pradesh) in 1611, gradually annexed territories by
-              encouraging enmity among the native rulers. Tamil Nadu was one of
-              the first of British settlements in India. The State is the
-              successor to the old Madras Presidency, which covered the bulk of
-              the southern peninsula in 1901. The composite Madras State was
-              later reorganised, and the present Tamil Nadu was formed.
+             The economy remains primarily agrarian, with about 80% of the workforce employed in the sector. Bihar is a leading producer of vegetables and unique fruits like the Shahi Litchi and Zardalu Mango, and it famously produces 90% of the world's makhana (fox nuts). However, the state is also seeing a rise in industrial activity in cities like Begusarai and Patna, and a burgeoning startup ecosystem supported by the Bihar Startup Policy 2022.
             </p>
             <p className="text-foreground">
-              Tamil Nadu is bounded on north by Andhra Pradesh and Karnataka, on
-              the west by Kerala, on the east by the Bay of Bengal, and on the
-              south by the Indian Ocean.
-            </p>
-            <p className="text-foreground">
-              Tamil Nadu covers total land area of 130,060 km2 and is divided
-              into 32 districts which are: Ariyalur, Chennai, Coimbatore,
-              Cuddalore, Dharmapuri, Dindigul, Erode, Kancheepuram, Kanyakumari,
-              Karur, Krishnagiri, Madurai, Nagapattinam, Namakkal, Perambalur,
-              Pudukkottai, Ramanathapuram, Salem, Sivaganga, Thanjavur, The
-              Nilgiris, Theni, Thiruvallur, Thiruvannamalai, Thiruvarur,
-              Tirunelveli, Tirupur, Tiruchirappalli(Trichy),
-              Tuticorin(Thoothukoodi), Vellore, Villupuram and Virudhunagar.
+              Culturally, Bihar is incredibly rich. The state is home to unique art forms like Mithila (Madhubani) painting, which has gained international acclaim. Festivals like Chhath Puja, dedicated to the Sun God, are celebrated with unparalleled fervor and have become a symbol of Bihari identity worldwide. Despite the challenges of urbanization and migration, Bihar continues to be a vital contributor to India’s administrative and intellectual landscape, consistently producing a high number of civil servants and scholars. Today, the state stands at a crossroads, balancing its majestic past with a determined march toward a more prosperous, industrialized future.
             </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the cradle of Dravidian culture with its
-              cultural paraphernalia speckled all across the state in the form
-              of magnificent temples, gateways, intricate carvings, and the
-              society seeped in tradition.
+              Bihar: The Land of Monasteries and Historical Resurgence" encapsulates both the state's ancient identity and its modern-day trajectory.The very name "Bihar" is a testament to its spiritual history. It is derived from the Sanskrit and Pali word Vihara, which means "abode" or "monastery.
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: govt of TN, mapsofindia.com)
+              (src: Wikipedia, mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -645,7 +602,7 @@ export default function TamilNaduPage() {
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Bihar" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div
@@ -667,7 +624,7 @@ export default function TamilNaduPage() {
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
           <p className="text-muted-foreground text-sm mb-4">
-            Scroll horizontally to explore Tamil Nadu's iconic foods, crafts,
+            Scroll horizontally to explore Bihar's iconic foods, crafts,
             dance, and traditions.
           </p>
           <div className="overflow-x-auto pb-4">
@@ -758,89 +715,89 @@ export default function TamilNaduPage() {
 
 const festivals = [
   {
-    name: "Pongal",
-    tagline: "The Harvest Festival of Tamil Nadu",
+    name: "Chhath Puja",
+    tagline: "Purity, Prayer, and the Power of the Sun.",
     description:
-      'Pongal is the harvest festival celebrated by the farmers in January to worship the sun, the earth and the cattle as thanks giving for a bounteous harvest. It is followed by the Jallikattu. - Tamil Nadu celebrates a four day harvesting festival annually during the month of January, popularly known as “Pongal”. The celebration is held to praise the Sun God for nourishing the crops throughout the year. The four day celebration involves; Bhogi, Surya Pongal, Mattu Pongal and Kaanum Pongal.  The third day of the festival is Mattu Pongal, which features a significant ancient sport known as Jallikattu - the bull taming sport. Bhogi marks the first day of the Pongal festivities and is celebrated on the last day of the Tamil calendar month Marghazhi.On this day people discard old belongings and celebrate new possessions. The people assemble and light a bonfire in order to burn the heaps of discards. Houses are cleaned, painted and decorated to give a festive look. Thai Pongal is the main festive day, celebrated on the next day of Bhogi.[10][11] It is observed on the first day of the Tamil calendar month of Thai, and usually falls on 14 or 15 January. It is dedicated to the Sun deity Surya and corresponds to Makar Sankranti. According to tradition, the festival marks the end of winter solstice, and the start of the sun\'s six-month-long journey northwards when the sun enters the Capricorn, also called as Uttarayana. Dedicated to Surya, it is celebrated with family and friends with new clothes worn and the preparation of the traditional pongal dish in an earthen pot. The pot is typically decorated by tying a turmeric plant or flower garland and placed in the sun along with sugarcane stalks. The homes are decorated with banana and mango leaves, decorative florals and kolams. Relatives and friends are invited and when the pongal starts to boil and overflow out of the vessel,they blow a conch or make sounds while shouting "Pongalo Pongal" ("may this rice boil over"). In rural areas, people sing traditional songs while the pongal dish is cooking. The Pongal dish is first offered to Surya and Lord Ganesha, and then shared with the gathered friends and family. Mattu Pongal ("Madu" meaning cow in Tamil) is the third day of the festival meant for the celebration of cattle. The cattle is regarded as sources of wealth as it is a means for dairy products and fertilizers, used for transportation and agriculture. The cattle are bathed, their horns are polished and painted in bright colors with garlands of flowers placed around their necks and taken for processions. Kaanum Pongal, the fourth and final day of the Tamil harvest festival, signifies familial unity, social bonding, and gratitude towards nature. ‘Kanu Pidi’ is a ritual where women and young girls place leftover colored rice (often cooked from previous days), sugarcane, and vegetables on turmeric leaves in the open for birds, particularly crows (regarded as ancestors). They pray for the health and prosperity of their brothers and family. (src:Wikipedia)',
-    images: [pongal1, pongal2, pongal3, pongal4, pongal5],
-    source: "(src: Wikipedia)",
+      'The most iconic festival of Bihar, dedicated to the Sun God (Surya) and celebrated with rigorous fasting and offerings at riverbanks. It is unique because it honors both the setting and the rising sun, symbolizing the cycle of life and death. Chhath Puja is arguably the most eco-friendly festival in India, emphasizing the preservation of water bodies and the worship of nature in its purest form. The four-day ritual begins with Nahay-Khay, where devotees purify themselves, followed by Kharna, involving a day-long fast broken with a special offering of jaggery kheer. The core of the festival is the Arghya, where thousands gather at riverbanks or ponds at sunset and sunrise. It is a unique social leveler; regardless of caste or status, everyone stands together in the water, offering "Thekua" (a traditional wheat-based dessert) to the Sun. The festival is dedicated to Lord Surya and his sister Chhathi Maiya, seeking their blessings for health and longevity. Unlike many festivals, Chhath is characterized by a complete absence of idol worship, focusing instead on the energy that sustains life. The folk songs sung by women during this period, often passed down through generations, create a hauntingly beautiful atmosphere across Bihar. It is also scientifically noted for its connection to solar therapy, as devotees absorb the soft UV rays of the rising and setting sun. The logistical coordination is a community feat, with neighborhoods coming together to clean roads leading to the ghats. Today, Chhath has become a global phenomenon, celebrated by the Bihari diaspora from the United States to Mauritius. ',
+    images: [puja1,puja2,puja3],
+    source: "(src: Wikipedia,adobe stock)",
   },
   {
-    name: "Jallikattu — Bull Fight",
+    name: "Sonepur Mela (Saran) ",
     tagline:
       "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
     description:
-      "Jallikattu-Bull fight, in some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu. - In ancient times, ‘Yeru thazhuvuthal’ or embracing the bull, was connected in displaying the men’s pride and victory for winning over a girl for marriage. The sport has prevailed in Tamil culture for over 2000 years now.   Manju Virattu is conducted every year in various regions of the state including Madurai, Sivagangai and Pudukottai. The event begins as the bulls are released to the arena via a small entrance known as “ Vaadi Vaasal”. The male players known to be bull tamers, amid loud whistles, applauses and cheers wait nearby to the entrance and try to grab the bull's hump, which needs a lot of courage and prudence. The person who clutches the hump and takes the pouch containing cash or presents without falling off the bull is deemed the winner. Besides being identified as a conquering sport, it is also associated with the good motive of preserving pure-breeding of native bulls which were bred exclusively for the purpose of mating. The native Kangayam, Pulikulam, Umbalachery , Bargur and Malai Maadu are the combative breeds which compete highly in this sport. The sport has become the emotion of Tamilians with its long rooted historical and cultural significance. Madurai and Jallikattu The festival of cattle-worship is much delighted in Madurai and its sub regions. The sport is considered as a celebration in these areas. Preparations for this festival start months before the day of the event. The invites are sent to various villages about the celebration where the bulls are registered to enter the arena after a physical health check up. The district administration, Public works department, Police department along with local event organizers work together to maintain the integrity and dignity of the sport. Every year the regions of Avaniyapuram, Alanganallur and Palamedu attract around 700 native breeds of bulls and about 300 bull tamers from all around the state for this competition. The event also attracts a swarm of people, both locally and globally, visiting these areas to watch this magnificent sport. The bull taming sport in these regions are also telecasted on National Television every year.",
-    images: [jalli1, jalli2],
-    source: "",
+      "One of Asia's largest cattle fairs, held at the confluence of the Ganges and Gandak rivers during Kartik Purnima. Historically, it was a major hub for trading elephants and horses, attracting traders from as far as Central Asia. The Sonepur Mela, held at the meeting point of the Ganges and Gandak, is a historical marvel that feels like a step back into the era of empires. Originally, it was the site where Chandragupta Maurya used to buy elephants and horses for his army, and that grand scale is still palpable today. The fair begins on Kartik Purnima, a day considered holiest for a ritual bath, drawing millions of pilgrims. While modern laws have restricted the sale of some animals, the cattle market remains one of the largest in the world, featuring high-breed cows, buffaloes, and goats. The fair is not just about commerce; it is a massive cultural exchange where local theater groups perform traditional plays and 'Nautankis' throughout the night. Stalls sell everything from agricultural equipment to intricate wooden furniture and Bihar's famous silk products. The 'Chidiya Bazaar' (bird market) and the spectacle of the decorated elephants (now mostly for display and ritual) remain major highlights. It serves as a vital economic engine for the Saran district, providing a platform for rural artisans to reach a massive audience. The fair’s sprawling grounds become a temporary city, complete with circuses, amusement park rides, and food stalls serving local delicacies like Litti Chokha. It represents the chaotic, vibrant, and resilient heart of Bihar's rural economy. ",
+    images: [Mela1,Mela2,Mela3],
+    source: " saran district official site,Wikipedia Commons,Adobe Stock",
   },
   {
-    name: "Chithirai Festival, Madurai",
+    name: "Mithila Art Festival (Madhubani)",
     tagline:
       "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
     description:
-      "Chithirai festival, Madurai brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar. - A famous Vishnu Temple dedicated to Lord Alagar is located 21 kilometres north of Madurai. The temple is set on a hill with breathtaking views. Alagarkoil is the name of the shrine, and Solaimalai is the name of the hill. The temple also has some lovely carvings, making it a worthwhile visit. The Hill is home to Palamudirsolai, one of Lord Subramaniya's six abodes.       Chithirai Festival, also known as Chithirai Thiruvizha, Meenakshi Kalyanam or Meenakshi Thirukalyanam, is an annual Tamil Hindu celebration in the city of Madurai during the month of April. The festival, celebrated during the Tamil month of Chithirai, is associated with the Meenakshi Temple, dedicated to the goddess Meenakshi, a form of Parvati and her consort Sundareshwar, a form of Shiva. The festival lasts for one month. The first 15 days mark the celebrations of the coronation of Meenakshi as the divine ruler of Madurai and her marriage to Sundareshwar. The next 15 days mark the celebrations of the journey of Kallalagar or Alagar (a form of the god Vishnu) from his temple in Alagar Koyil to Madurai. (src:utsav.gov.in)",
-    images: [chith1, chith2],
-    source: "(src: utsav.gov.in)",
+      "A celebration of the world-famous Madhubani paintings, where local women showcase intricate geometric patterns and mythological themes. The festival preserves the ancient 'Kanchani' and 'Bharni' styles that were originally used to decorate the walls of mud huts.This festival is a dedicated celebration of the Madhubani school of painting, which is one of the world's oldest and most recognizable folk art forms. Rooted in the Mithilanchal region, the festival showcases the transformation of domestic murals into a global aesthetic. Traditionally, women painted these intricate designs on the mud walls of their homes to mark births and weddings, using twigs, fingers, and matchsticks. The festival highlights five distinct styles: Bharni, Katchni, Tantrik, Godna, and Kohbar, each with its own symbolic meaning and community history. Themes are largely mythological, depicting scenes from the Ramayana or the 'Raas-Leela' of Krishna, but they also incorporate elements of nature like the sun, moon, and sacred plants. The use of natural dyes derived from turmeric, indigo, and sandalwood is a key focus of the festival workshops. It provides a crucial space for female artists to gain financial independence and recognition for their intellectual property. Visitors can witness 'live painting' sessions where artists create masterpieces without any preliminary sketching. The festival has been instrumental in keeping the 'Kohbar' (wedding chamber art) tradition alive, which is believed to bless the couple with fertility. It is a colorful testament to how a community can preserve its identity through visual storytelling. ",
+    images: [Art1,Art2,],
+    source: "(src: Adobe stock,Wikipedia Commons)",
   },
   {
-    name: "Tamizh Puttandu — Tamil New Year",
+    name: "Rajgir Mahotsav (Nalanda)",
     tagline:
       "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
     description:
-      "Tamizh Puttandu  - meaning ‘Tamil new year’. is the first day of year on the Tamil calendar that is traditionally celebrated as a festival by Tamils. The festival date is set with the solar cycle of the solar Hindu calendar, as the first day of the month of Chittirai. It falls on or about 14 April every year. Households clean up the house, prepare a tray with fruits, flowers and auspicious items, light up the family puja altar and visit their local temples. People wear new clothes and children go to elders to pay their respects and seek their blessings, then the family sits down to a feast. On the eve of Puthandu, a tray is arranged with three fruits (mango, banana and jack fruit), betel leaves and arecanut, gold/silver jewellery, coins/money, flowers and a mirror. This is similar to the Vishu new year festival ceremonial tray in Kerala. According to the Tamil tradition, this festive tray is auspicious as the first sight upon waking on the new year day and is called ‘kani’. Home entrances are decorated elaborately with colored rice powder. These designs are called kolams. As soon as they wake up, they walk to the kani with their eyes closed and see it as the first scene of the year. This tradition is significant in both regions and is believed to bring good luck and prosperity for the coming year.",
-    images: [puth1, puth2],
-    source: "(src: boldskytamil.com)",
+      "An annual three-day extravaganza of classical dance and music held amidst the ancient hills of Rajgir. It provides a platform for top Indian artists to perform against the backdrop of one of the world's oldest inhabited cities. The Rajgir Mahotsav is a prestigious three-day cultural event that bridges the gap between Bihar's glorious ancient past and its contemporary artistic talent. Hosted by the Department of Tourism, the festival takes place in the valley of Rajgir, a city that served as the first capital of the Magadha Empire. The venue is often the Qila Maidan, surrounded by the ruins of the Cyclopean Wall and the hills that once echoed with the sermons of Buddha and Mahavira. It brings together the 'best of the best' in Indian classical music, including sarod players, sitarists, and vocalists of international repute. Classical dance forms like Kathak, Bharatanatyam, and Odissi are performed on grand stages with the illuminated hills as a backdrop. Beyond the high arts, the festival includes a 'Gram Shree Mela,' showcasing rural handicrafts and local cuisine to promote tourism. Traditional sports competitions, particularly wrestling and archery, are organized to keep the spirit of ancient Magadhan martial arts alive. The festival also highlights the 'Shanti Stupa' and the various Buddhist monasteries, emphasizing Rajgir as a global hub for peace. For three days, the town is transformed into a vibrant cultural capital, attracting tourists from across the globe. It is a powerful reminder that Bihar was once the intellectual and spiritual center of the Indian subcontinent.",
+    images: [Mahotsav1,Mahotsav2,Mahotsav3],
+    source: "(src:Bihar tourism,Wikipedia Commons)",
   },
   {
-    name: "Adipperukku",
+    name: "Bihula Festival (Bhagalpur) ",
     tagline:
       "The festival of Padhinettam Perukku, also known as 'Aadi Perukku', held on the 18th day of the Tamil month of Aadi.",
     description:
-      'Adipperukku - The festival of Padhinettam Perukku also known as "Aadi Perukku" is held on the 18th day of the Tamil month of Aadi. "Perukku" means "raising" in Tamil. This festival is a reflection of the River Kaveri\'s rise due to the monsoon rains. - The Tamil calendar month of Aadi is marked by festivities and fervour honouring Water and other natural resources. Prayers and pujas are performed throughout this month to express gratitude to the mighty Goddesses for abundant natural resources. The River Palar flows through the village of Kodaiyanchi near the Vaniyambadi town of Thirupathur district. The banks of the river are home to a 1000-year-old temple dedicated to Lord Shiva- Arulmigu Kasi Viswanathar Temple and Lord Murugan - Arulmigu Murugan Temple. Hundreds of devotees gather on the day of “Padhinettam Perukku” to celebrate the occasion by offering sweet Pongal to the deity. Mulaipari, also known as the sprouting or germination of nine grains (Navadhanyam) in clay mud pots, is a crucial ceremony that is performed in the temples during this occasion. Nine different varieties of cultivated grains are packed in the earthen pots that the procession devotees carry on their heads as they move towards the river where the grains are dissolved. The newly wedded couples from the surrounding villages come to this festival to replace their "mangalya thread" tied on the day of their marriage with a new one along with gold coins and trinkets. Women make a lamp using rice and jaggery, set it upon plantain leaves, and let it float along the River Palar.',
-    images: [adi1, adi2],
-    source: "",
+      'A prominent festival in the Anga region, centered around the legend of Mansa Devi and the bravery of a devotee named Bihula. It features vibrant Manjusha art, a unique scroll-painting style that is one of the oldest folk traditions in the state. The Bihula Festival is the cultural signature of the Bhagalpur region (ancient Anga Desh), centered on a narrative of extraordinary female courage and devotion. It celebrates the story of Bihula, a woman who challenged the goddess of snakes, Mansa Devi, to save her husband Lakshminder from a divine curse. The festival is deeply tied to the Manjusha Art form, which is used to tell this story on scrolls and bamboo boxes. Manjusha is unique because it uses a specific color palette (Pink, Yellow, Green) and follows strict iconographic rules, such as drawing characters without ears. During the festival, devotees create "Manjushas" (decorated structures) and carry them in processions while singing folk ballads that recount Bihula journey on a raft. It is celebrated during the month of Shravan, coinciding with the monsoon, when snakes are most active, adding a layer of protective ritual to the worship. The art form, which was nearly lost, has seen a massive revival through this festival, empowering local artisans. It showcases a different facet of Bihar s heritage—one that is gritty, folk-driven, and centered on the triumph of the human spirit over divine whim. The festival is a communal affair where people from all walks of life participate in the decoration and ritualistic immersion of the bamboo structures. ',
+    images: [Bihula1,Bihula2],
+    source: "Bhagalpur District,Wikipedia commons",
   },
   {
-    name: "Dance Festival, Mamallapuram",
+    name: "Sama Chakeva (The Sibling Bond of Mithila)",
     tagline: "Set before an open-air stage created 13 centuries ago.",
     description:
-      "Dance Festival, Mamallapuram, which is set before an open air stage, created 13 centuries ago the incredible monolithic rock sculptures of the Pallavas, next to the sea in this ancient city of Mamallapuram. Bharatha Natyam, Kuchipudi, Kathakali, and Odissi are some dance forms presented by the very best exponents of the art besides folk dances. The Mamallapuram Dance Festival is organised by the Department of Tourism, Tamil Nadu, and is a 30-day festival held annually between December and January. Professional classical dance artists from all around the nation come together for this grand event to showcase their mesmerising performances in traditional dance forms like Bharathanattiyam, Kuchipudi, Kathakali, Mohini Attam, Assami Dance, Odissi, and Kathak. Also, folk dancers add to the festival's vibrant atmosphere with their spirited performances.Every year, the picturesque shore town of Mamallapuram hosts the “Indian Dance Festival” - A Festival of Our Culture and Tradition. The venue for the Mamallapuram- Indian Dance Festival is the front lawn of the Shore Temple. The artists perform on an open-air stage, which provides the finest ambience for the dancers to perform their best during the festival. Some of the most prominent classical dancers in the country perform at the event. This event is a vivid reminder of the ancient connection between people and the arts. This festival not only provides an amazing chance to become acquainted with many traditional dance styles of India, but it also serves as a networking opportunity for artists, dancers, musicians, and theatre professionals. The spectacular architecture, historic ambience, and enthralling performances entice tourists from all over the world to experience the festival.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
+      "Sama Chakeva is a tender folk festival celebrated in the Mithila region during the winter month of Kartik, focusing on the affection between brothers and sisters. It is based on a story from the Skanda Purana where Krishna’s daughter, Sama, was falsely accused of an affair and turned into a bird by her father’s wrath. Her brother, Chakeva, performed intense penance to bring her back to human form, symbolizing the protective role of a brother. During the festival, young girls make clay idols of birds, brothers, sisters, and the 'Chugla'(the gossip-monger). These idols are beautifully painted and carried in baskets as the girls sing traditional songs in the evenings. The festival lasts for nine days, during which the girls mock the 'Chugla' by symbolically burning his mustache. On the final day, the clay idols are immersed in a local pond or field, representing the sibling's farewell. It is a festival that strengthens community ties and teaches moral lessons through folklore. The songs of Sama Chakeva are some of the most melodious in the Maithili language, often reflecting the pangs of separation. It remains a vibrant tradition that keeps the youth connected to their agrarian roots and family values. ",
+    images: [Sama1,Sama2,Sama3],
+    source: "(src:Testbook - Festivals of Bihar Resource, Mithila Heritage Portal )",
   },
   {
-    name: "Velankanni Festival",
+    name: "Madhushravani (The Monsoon Vow) ",
     tagline:
       "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
     description:
-      "The Velankanni festival attracts thousands, clad in orange robes to the sacred spot where the ship landed. Equally famous are the Virgin Mary's miraculous healing powers, earning for the church the name 'Lourdes of the East'.  ",
-    images: [velanFest1, velanFest2],
-    source: "",
+      "Madhushravani is a fascinating 15-day ritual celebrated by newlywed women in the Mithila region during the Hindu month of Shravan. The festival is designed to pray for the longevity of the husband and the prosperity of the new household through the worship of Gauri and the Snake Gods. For two weeks, the bride eats only one vegetarian meal a day and listens to a series of mythological stories narrated by elderly women. These stories cover a wide range, from the birth of the Ganges to the trials of Parvati and the bravery of Bihula. The festival is famous for its vibrant use of Madhubani art, as special 'Kohbars' are painted for the occasion. On the final day, a unique ritual called 'Temi' is performed, where a small burn mark is made on the bride’s knee with a cotton wick to test her devotion and patience. Though controversial in modern times, it is seen by traditionalists as a mark of a woman’s resilience. The bride wears her wedding finery and jewelry throughout the period, making it a visually stunning domestic festival. It serves as an informal 'school' where the cultural history of the region is passed down from mother-in-law to daughter-in-law.   ",
+    images: [Madhushravani1,Madhushravani2,Madhushravani3],
+    source: "Wikipedia Commons",
   },
   {
-    name: "Navarathiri Festival — Kolu",
+    name: "Malmas Mela (The Divine Gathering at Rajgir) ",
     tagline: "Literally means the festival of 'nine nights'.",
     description:
-      "The Navarathiri Festival, literally means the festival of 'nine nights', taking unique and different forms in different states of India, all to propitiate the goddess Sakthi, for power, wealth and knowledge. - Celebrated in Tamil Nadu, Karnataka, and Andhra Pradesh, the festival includes placing dolls of a multitude of gods, goddesses, men, animals, and children on a steps-like set-up. In Tamil it is known as ‘Bommai Golu’. The Navratri Golu depicts scenes from ancient times – celebrated Indian stories that have been passed on from generation to generation like the Ramayana, Puranas, and the Dashavataram. This is the time of the year that you revisit those precious lessons from timeless, age-old stories. The steps may also be interpreted as the evolution ladder that we are all traversing in the journey of life. The dolls are placed on multiple steps in the house – in odd numbers. The numbers could vary from one to 11 depending on the number of dolls available for display. Many families place nine steps, each step representing the nine days of Navratri. Some keep three, five or seven steps as well. The steps are covered with a decorative cloth, and the dolls are placed on it. The first step is decorated with a kalash (ceremonial jar). The water-filled jar is decorated with a coronet of mango leaves, and a coconut is placed on top of it. It is considered to represent Goddess Durga. Idols of deities are placed on both sides of the kalash. According to tradition, the dolls of Goddesses Durga, Lakshmi, Saraswati and the wooden dolls called the Marapachi Bommai are always a part of the arrangement. The next few steps have idols of saints and heroes of the country. One of the steps represents human activities – depicting functions such as marriage, temples, and an orchestra or music band. Business is usually represented by the Chettiar set of dolls, with shop items and the Marapachi couple dressed in colorful clothes. It is a custom to add at least one new doll every year. The Golu could be a mode of telling ancient stories such as Ramayana or Bhagavad Gita or it could simply depict the evolution of life from animals to the sages and seers. On the tenth and last day, Vijayadasami, the day of victory, is celebrated. This is considered the most auspicious day of all – to start new ventures and journeys, and a day to start learning new skills. On this day, the Golu dolls are symbolically put to sleep, and then, packed the day after. Till they are brought out of their boxes the following year. Most people light lamps, draw colorful kolams (rangoli or floor decoration), perform aarti, recite shlokas (holy chants), and offer special dishes, especially a protein-rich dish called sundal (made of legumes), with some sweets and fruits every day. During the Golu set-up, women invite other women and honor them by gifting betel leaves, coconuts, fruits, flowers, bangles, turmeric, kumkum (vermilion powder) and prasadam (devotional offering of food made for the Divine and then distributed among people). It is an ideal time for families to display their creativity.",
-    images: [navar1, navar2],
-    source: "(Wikipedia)",
+      "The Malmas Mela is a rare and massive religious congregation that occurs every three years in Rajgir during the "Adhik Maas" or leap month of the Hindu calendar. According to Vedic tradition, this extra month is considered "unclean" for regular rituals, but Rajgir becomes the holiest place on Earth during this time. It is believed that all 330 million Hindu gods and goddesses reside in the hot springs of Rajgir for these thirty days. Millions of devotees arrive from across India to take a dip in the Brahmakund, a sulfur-rich hot spring believed to have miraculous healing powers. The mela transforms the town of Rajgir into a sea of saffron-clad pilgrims and wandering ascetics. Temporary markets, religious discourses (Kathas), and massive community kitchens (Bhandaras) are set up to accommodate the crowd. The atmosphere is thick with the scent of incense and the sound of bells ringing from the dozens of temples surrounding the hills. For the local economy, this mela is a windfall, as pilgrims buy local stone carvings and handicrafts. It is a spectacle of faith that has been recorded in ancient texts for over two thousand years. The event is so large that the state government sets up a temporary city with its own police stations and hospitals.",
+    images: [Malmas1,Malmas2,Malmas3],
+    source: "(Wikipedia),Bihar Torurism",
   },
   {
-    name: "Karthigai Deepam",
-    tagline: "An enchanting festival that illuminates the heart of Tamil Nadu.",
+    name: "Jitiya ",
+    tagline: "The Mother's Ultimate Fast.",
     description:
-      "Karthigai Deepam is an enchanting festival that illuminates the heart of Tamil Nadu, with little clay lamps twinkling wherever you look like a million stars. The three-day festival, celebrated with great enthusiasm, is an integral part of Tamil culture. Devoted to Lord Karthikeya (also known as Lord Muruga), the lights of Karthigai Deepam are said to ward off darkness and evil spirits, spreading prosperity and joy. - As per ancient Hindu scriptures, the two great deities Lord Vishnu and Lord Brahma once started arguing with each other about who is superior. Each one claimed to be stronger than the other. At that point, Lord Shiva appeared to quell the fight. He took the shape of a huge fire and challenged the two Gods to find the end of the fire from the top and bottom. Lord Vishnu took the form of a boar and tried to reach the end of the fire beneath the earth, but he couldn’t and came back to Lord Shiva saying that he was unable to find it. Lord Brahma on the other hand, took the shape of a swan and flew to find the beginning of the fire on top. But his search too was in vain as he was unable to find the top of the fire. Thus, Lord Shiva proved his supremacy over the two Gods and managed to stop the fight. He then appeared in the form of a hill in Thiruvannamalai. A temple dedicated to Lord Shiva stands on the hill, where Karthigai Deepam celebrations include the lighting of a big fire. The Maha Deepam , which is lit on the hill as the culmination of the 10-day festival at the Arunachaleswarar Temple in Tiruvannamalai, is very famous.  This festival is celebrated during the months of November - December (Karthigai month) {src:incredibleindia.com}",
-    images: [karth1, karth2, karth3],
-    source: "(src: kalkionline.com, incredibleindia.com, tirthyatra.com)",
+      "Jitiya, or Jivitputrika Vrat, is perhaps the most difficult fast observed by mothers in Bihar for the safety and prosperity of their children. It falls on the eighth day of the waning moon in the month of Ashwin and involves a continuous 36 to 48-hour fast without a drop of water. The festival honors Jimutvahan, a king of the Vidyadharas who sacrificed himself to save a serpent from the mythical bird Garuda. Mothers begin the ritual with Nahay-Khay and follow it with a rigorous night of prayer where they listen to the Jitiya Vrat Katha. The story emphasizes that maternal love can overcome even the most powerful of divine forces. Small clay or dung figurines of eagles and jackals are worshipped, symbolizing the creatures that traditionally kept the fast in the legends. On the day of the fast, mothers do not even swallow their own saliva, demonstrating an incredible feat of physical and mental endurance. The fast is broken only the next morning after offering prayers to the sun. Jitiya is a profound display of the central role mothers play in the spiritual and emotional fabric of a Bihari household. It is celebrated with equal fervor in both rural villages and bustling cities. ",
+    images: [Jitiya1,Jitiya2,],
+    source: "(src: Adobe Stock,Wikipedia Commons)",
   },
   {
-    name: "Karadaiya Nombu",
-    tagline: "Marking the transition from the Tamil month of Maasi to Panguni.",
+    name: "Saurath Sabha ",
+    tagline: "The Genealogical Fair",
     description:
-      "Karadaiya Nombu - marking the transition from the Tamil month of Maasi to Panguni. It is a significant festival where married women and young girls fast and pray to Goddess Kamakshi/Gowri for their husbands' longevity and prosperity, inspired by the story of Savitri and Satyavan. Celebrates the dedication of Savitri, who brought her husband back from Yama, embodying love and commitment. According to the legend, Savitri was a devoted princess who used her wit and devotion to reclaim the life of her husband, Satyavan, from Yama, the god of death. When Satyavan's destined time to die arrived, Savitri followed Yama as he carried her husband's soul away. Impressed by her persistence and eloquent arguments, Yama offered her several boons, excluding the life of her husband. For her final wish, Savitri requested that she be blessed with a hundred sons. When Yama granted the wish, Savitri pointed out that she could not fulfill this blessing without her husband being alive. Bound by his own word, Yama was forced to restore Satyavan to life. Women fast, and prepare special sweet and savory rice cakes called \"Karadai\" or \"Adai,\" served with butter.  Women tie a sacred yellow thread, often with a small flower piece, around their neck, symbolizing their prayer for their husband's long life.",
-    images: [karad1, karad2],
-    source: "(src: kannan's kitchen, veenas vegnation)",
+      "Saurath Sabha is a unique social and cultural gathering held annually in the village of Saurath in Madhubani, serving as a traditional marriage market for the Maithil Brahmin community. Established centuries ago, it is a fascinating example of how a community manages its lineage and social harmony without modern technology. The fair takes place in a vast mango orchard, where families bring the horoscopes of their marriageable sons and daughters. The key figures are the Panjikars, professional genealogists who maintain palm-leaf manuscripts containing family records dating back dozens of generations. No marriage is finalized until the Panjikar verifies that the two families are not related within prohibited degrees of kinship. This ensure genetic diversity and maintains the integrity of the community's ancestral lines. Thousands of people gather under the trees to discuss proposals, negotiate dowries (historically), and finalize alliances in a public setting. While the number of attendees has dwindled with the rise of matrimonial websites, the 'Sabha' remains a prestigious cultural institution. It is a living relic of the medieval social structure of the Mithila region. The fair also features local folk music and markets selling traditional Mithila wares, making it a complete community experience.",
+    images: [Sabha1,Sabha2,Sabha3],
+    source: "(src: Wikipdeia Commons)",
   },
 ];
 
@@ -1036,27 +993,18 @@ const historicalPlaces = [
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "Bihar is the birthplace of Buddhism and Jainism — Lord Buddha attained enlightenment at Bodh Gaya, and Lord Mahavira was born in Vaishali.",
+  "The Barabar Caves in Bihar, dating back to the 3rd century BCE, are India’s oldest surviving rock-cut caves with a unique mirror-like Mauryan polish.",
+  "Kesariya Stupa in East Champaran is the tallest Buddhist stupa in the world, even higher than Indonesia’s Borobudur.",
+  "Bihar’s Rohtas district holds nearly 95% of India’s pyrite reserves, vital for fertilizer production.",
+  "Kanwar Lake (Kabartal) in Begusarai is Asia’s largest oxbow lake and Bihar’s only Ramsar site, attracting thousands of migratory birds.",
+  "Vaishali in Bihar is considered the world’s first republic, dating back to the 6th century BCE.",
+  "Nalanda University, established in the 5th century CE, was one of the world’s earliest residential universities, attracting scholars from across Asia.",
+  "The Saurath Sabha in Madhubani is a centuries-old genealogical fair where marriages are arranged after verifying family records.",
+  "Bihar is famous for Madhubani paintings, a traditional art form practiced for centuries in the Mithila region.",
+  "The state is known for its vibrant festivals like Chhath Puja, which is celebrated with great devotion to the Sun God."
 ];
+
 
 const artGallery = [
   {
