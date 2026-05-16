@@ -9,84 +9,89 @@ import {
   ZoomIn,
 } from "lucide-react";
 import BiharMap from "https://i.postimg.cc/fb3njj6R/image.png";
-const puja1 = "https://i.postimg.cc/KvQd6Hb1/image.png";
-const puja2 = "https://i.postimg.cc/yN3tS6ZX/image.png";
-const puja3 = "https://i.postimg.cc/Pxm726Kp/image.png";
+const Puja1 = "https://i.postimg.cc/KvQd6Hb1/image.png";
+const Puja2 = "https://i.postimg.cc/yN3tS6ZX/image.png";
+const Puja3 = "https://i.postimg.cc/Pxm726Kp/image.png";
 const Mela1 = "https://i.postimg.cc/02Ntw2gm/image.png";
 const Mela2 = "https://i.postimg.cc/pTxCXPQ1/image.png";
 const Mela3 = "https://i.postimg.cc/QCdq1Syw/image.png";
 const Art1 = "https://i.postimg.cc/MTW0Jdqn/image.png";
 const Art2 = "https://i.postimg.cc/vZf51pm6/image.png";
-const Mahotsav1 = "";
-const Mahotsav2 = "";
-const Mahotsav3 = "";
-const Bihula1 = "";
-const Bihula2 = "@assets/image_1776788482041.png";
-const Sama1 "@assets/image_1776788764847.png";
-const Sama2 = "@assets/image_1776788772553.png";
-const Sama3 = "@assets/image_1776788788721.png";
-const Madhushravani1 = "@assets/image_1776788797545.png";
-const Madhushravani2 = "@assets/image_1776788805779.png";
-const Madhushravani3 = "@assets/image_1776788811412.png";
-const Malmas1 = "@assets/image_1776788817244.png";
-const Malmas2 = "@assets/image_1776788825797.png";
-const Malmas3 = "@assets/image_1776788831894.png";
-const Jitiya1 = "@assets/image_1776788840602.png";
-const Jitiya2 = "@assets/image_1776788847901.png";
-const Sabha1 = "@assets/image_1776788856768.png";
-const Sabha2 = "@assets/image_1776788865143.png";
-const Sabha3 = "@assets/image_1776788870905.png";
-const Gaya1 = "@assets/image_1776788878018.png";
-const Gaya2 = "@assets/image_1776788887081.png";
-const Gaya3= "@assets/image_1776788895857.png";
-const Vishnupad1 = "@assets/image_1776788902350.png";
-const Vishnupad2 = "@assets/image_1776788909064.png";
-const Nalanda1 = "@assets/image_1776788916164.png";
-const Nalanda2 = "@assets/image_1776789530181.png";
-const Nalanda3 = "@assets/image_1776789548589.png";
-const Nalanda4 = "@assets/image_1776789554420.png";
-const Nalanda5 = "@assets/image_1776789558971.png";
-const Tomb1 = "@assets/image_1776789565292.png";
-const Tomb2 = "@assets/image_1776789575242.png";
-const Tomb3 = "@assets/image_1776789580153.png";
-const Caves1 = "@assets/image_1776789590790.png";
-const Caves2 = "@assets/image_1776789610085.png";
-const Caves3 = "@assets/image_1776789615338.png";
-const Fort1 = "@assets/image_1776789624415.png";
-const Fort2 = "@assets/image_1776789631296.png";
-const Fort3 = "@assets/image_1776789638782.png";
-const Golghar1 = "@assets/download_1777100508255.png";
-const Golghar2 = "@assets/download_1777100514323.png";
-const Golghar3 = "@assets/download_1777100516025.png";
-const Pillar1 = "@assets/download_1777100518481.png";
-const Pillar2 = "@assets/download_1777100520664.png";
-const Pillar3 = "@assets/download_1777100523842.png";
-const Pillar4 = "@assets/image_1777102241686.png";
-const Stupa1 = "@assets/image_1777102257711.png";
-const Stupa2 = "@assets/download_1777100525385.png";
-const Stupa3 = "@assets/download_1777100526870.png";
-const Stupa4 = "@assets/download_1777100529380.png";
-const Stupa5 = "@assets/download_1777100531237.png";
-const University1 = "@assets/download_1777100532535.png";
-const University2 = "@assets/download_1777100537305.png";
-const University3 = "@assets/image_1777100917162.png";
-const Kesariya1= "@assets/image_1777100921467.png";
-const Kesariya2 = "@assets/image_1777100927953.png";
-const Kesariya3 = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
-
+const Mahotsav1 = "https://i.postimg.cc/RV99tY4M/image.png";
+const Mahotsav2 = "https://i.postimg.cc/25PNSc05/image.png";
+const Mahotsav3 = "https://i.postimg.cc/gjHC4Ymr/image.png";
+const Bihula1 = "https://i.postimg.cc/pTN3H9dv/image.png";
+const Bihula2 = "https://i.postimg.cc/gjm5xf8z/image.png";
+const Sama1 "https://i.postimg.cc/3JL6wfwS/image.png";
+const Sama1 = "https://i.postimg.cc/FHMTfMXZ/image.png";
+const Sama3 = "https://i.postimg.cc/DwXgKx45/image.png";
+const Madhushravani1 = "https://i.postimg.cc/jdGHvy3z/image.png";
+const Madhushravani2 = "https://i.postimg.cc/jq1Pdzbp/image.png";
+const Madhushravani3 = "https://i.postimg.cc/htWmVch8/image.png";
+const Malmas1 = "https://i.postimg.cc/Y99LtSD5/image.png";
+const Malmas2 = "https://i.postimg.cc/FzkfJB4D/image.png";
+const Malmas3 = "https://i.postimg.cc/dDMhRjQZ/image.png";
+const Jitiya1 = "https://i.postimg.cc/8zSHNhRt/image.png";
+const Jitiya2 = "https://i.postimg.cc/3wrFDYbS/image.png";
+const Sabha1 = "https://i.postimg.cc/ydkhvnK3/image.png";
+const Sabha2 = "https://i.postimg.cc/vHWrq4RR/image.png";
+const Sabha3 = "https://i.postimg.cc/jjkPwNfJ/image.png";
+const Gaya1 = "https://i.postimg.cc/XvXybJPM/image.png";
+const Gaya2 = "https://i.postimg.cc/VsX012Kf/image.png";
+const Gaya3= "https://i.postimg.cc/4N5KHVCD/image.png";
+const Vishnupad1 = "https://i.postimg.cc/k5VDHHV7/image.png";
+const Vishnupad2 = "https://i.postimg.cc/wMkBJ8rL/image.png";
+const Nalanda1 = "https://i.postimg.cc/PJKtJbLv/image.png";
+const Nalanda2 = "https://i.postimg.cc/vT8sJ1PD/image.png";
+const Nalanda3 = "https://i.postimg.cc/sfKypcX6/image.png";
+const Nalanda4 = "https://i.postimg.cc/sgGrCCJN/image.png";
+const Tomb1 = "https://i.postimg.cc/PxyGQXtm/image.png";
+const Tomb2 = "https://i.postimg.cc/rsZv7fR8/image.png";
+const Tomb3 = "https://i.postimg.cc/PrB7ZpmC/image.png";
+const Caves1 = "https://i.postimg.cc/KY5pd0CH/image.png";
+const Caves2 = "https://i.postimg.cc/VkQ75y8X/image.png";
+const Caves3 = "https://i.postimg.cc/633cFtrx/image.png";
+const Fort1 = "https://i.postimg.cc/MZhk0Fwd/image.png";
+const Fort2 = "https://i.postimg.cc/k5MLXrNP/image.png";
+const Fort3 = "https://i.postimg.cc/yxRbr7KW/image.png";
+const Golghar1 = "https://i.postimg.cc/wBBbYXHp/image.png";
+const Golghar2 = "https://i.postimg.cc/SR46k48z/image.png";
+const Golghar3 = "https://i.postimg.cc/L85zHNYR/image.png";
+const Pillar1 = "https://i.postimg.cc/QCjTvbG0/image.png";
+const Pillar2 = "https://i.postimg.cc/QdvWjsZN/image.png";
+const Pillar3 = "https://i.postimg.cc/tTN1dxZd/image.png";
+const Pillar4 = "https://i.postimg.cc/TY4KcGwm/image.png";
+const Stupa1 = "https://i.postimg.cc/9MbMwHKP/image.png";
+const Stupa2 = "https://i.postimg.cc/nVdrHZvc/image.png";
+const Stupa3 = "https://i.postimg.cc/k5dXj5dK/image.png";
+const Stupa4 = "https://i.postimg.cc/3Rt8JCD5/image.png";
+const Stupa5 = "https://i.postimg.cc/NFVQRs4N/image.png";
+const University1 = "https://i.postimg.cc/vBZyjg2T/image.png";
+const University2 = "https://i.postimg.cc/GtZ1HML7/image.png";
+const University3 = "https://i.postimg.cc/Gpqwk33c/image.png";
+const Kesariya1= "https://i.postimg.cc/mD5v5dH4/image.png";
+const Kesariya2 = "https://i.postimg.cc/FzkM5jyJ/image.png";
+const Kesariya3 = "https://i.postimg.cc/L4q56wvJ/image.png";
+// Image placeholders for Bihar state art gallery
+const gLittiChokha = "https://i.postimg.cc/Hx8mdDHM/image.png";
+const gBihariFish = "https://i.postimg.cc/j50gwGPW/image.png";
+const gMalpua = "https://i.postimg.cc/6QLRcSFG/image.png";
+const gSilaoKhaja = "https://i.postimg.cc/HWKJwdjN/image.png";
+const gAnarsa = "https://i.postimg.cc/bvBGmh3X/image.png";
+const gThekua = "https://i.postimg.cc/BQ4vcb4B/image.png";
+const gSattuDrink = "https://i.postimg.cc/bwM8MwcR/image.png";
+const gShahiLitchi = "https://i.postimg.cc/hvSqxJT9/image.png";
+const gJardaluMango = "https://i.postimg.cc/4N2T7xdV/image.png";
+const gBhagalpuriSilk = "https://i.postimg.cc/9MCkg6My/image.png";
+const gDhotiGamchha = "https://i.postimg.cc/mkq84Jb6/image.png";
+const gMadhubani1 = "https://i.postimg.cc/1t3HqsXC/image.png";
+const gManjushaArt = "https://i.postimg.cc/SxG12ZVC/image.png";
+const gSujini = "https://i.postimg.cc/MpzdS7xp/image.png";
+const gJatJatin = "https://i.postimg.cc/yxFyqdbD/image.png";
+const gBideshiya = "https://i.postimg.cc/7Ynnm57C/image.png";
+const gJhijhiya = "https://i.postimg.cc/3rgXxktr/image.png";
+const gSikkiGrass = "https://i.postimg.cc/8CRp6gxQ/image.png";
+const gBihariThali = "https://i.postimg.cc/B6hGTSg5/image.png";
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
   src,
@@ -719,13 +724,13 @@ const festivals = [
     tagline: "Purity, Prayer, and the Power of the Sun.",
     description:
       'The most iconic festival of Bihar, dedicated to the Sun God (Surya) and celebrated with rigorous fasting and offerings at riverbanks. It is unique because it honors both the setting and the rising sun, symbolizing the cycle of life and death. Chhath Puja is arguably the most eco-friendly festival in India, emphasizing the preservation of water bodies and the worship of nature in its purest form. The four-day ritual begins with Nahay-Khay, where devotees purify themselves, followed by Kharna, involving a day-long fast broken with a special offering of jaggery kheer. The core of the festival is the Arghya, where thousands gather at riverbanks or ponds at sunset and sunrise. It is a unique social leveler; regardless of caste or status, everyone stands together in the water, offering "Thekua" (a traditional wheat-based dessert) to the Sun. The festival is dedicated to Lord Surya and his sister Chhathi Maiya, seeking their blessings for health and longevity. Unlike many festivals, Chhath is characterized by a complete absence of idol worship, focusing instead on the energy that sustains life. The folk songs sung by women during this period, often passed down through generations, create a hauntingly beautiful atmosphere across Bihar. It is also scientifically noted for its connection to solar therapy, as devotees absorb the soft UV rays of the rising and setting sun. The logistical coordination is a community feat, with neighborhoods coming together to clean roads leading to the ghats. Today, Chhath has become a global phenomenon, celebrated by the Bihari diaspora from the United States to Mauritius. ',
-    images: [puja1,puja2,puja3],
+    images: [Puja1,Puja2,Puja3],
     source: "(src: Wikipedia,adobe stock)",
   },
   {
     name: "Sonepur Mela (Saran) ",
     tagline:
-      "In some parts of southern Tamil Nadu. Alanganallur in Tamil Nadu is internationally famous for Jallikattu.",
+      "A Spectacle of Shadows, Silks, and Steeds",
     description:
       "One of Asia's largest cattle fairs, held at the confluence of the Ganges and Gandak rivers during Kartik Purnima. Historically, it was a major hub for trading elephants and horses, attracting traders from as far as Central Asia. The Sonepur Mela, held at the meeting point of the Ganges and Gandak, is a historical marvel that feels like a step back into the era of empires. Originally, it was the site where Chandragupta Maurya used to buy elephants and horses for his army, and that grand scale is still palpable today. The fair begins on Kartik Purnima, a day considered holiest for a ritual bath, drawing millions of pilgrims. While modern laws have restricted the sale of some animals, the cattle market remains one of the largest in the world, featuring high-breed cows, buffaloes, and goats. The fair is not just about commerce; it is a massive cultural exchange where local theater groups perform traditional plays and 'Nautankis' throughout the night. Stalls sell everything from agricultural equipment to intricate wooden furniture and Bihar's famous silk products. The 'Chidiya Bazaar' (bird market) and the spectacle of the decorated elephants (now mostly for display and ritual) remain major highlights. It serves as a vital economic engine for the Saran district, providing a platform for rural artisans to reach a massive audience. The fair’s sprawling grounds become a temporary city, complete with circuses, amusement park rides, and food stalls serving local delicacies like Litti Chokha. It represents the chaotic, vibrant, and resilient heart of Bihar's rural economy. ",
     images: [Mela1,Mela2,Mela3],
@@ -734,7 +739,7 @@ const festivals = [
   {
     name: "Mithila Art Festival (Madhubani)",
     tagline:
-      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+      "Painting the Soul of Madhubani.",
     description:
       "A celebration of the world-famous Madhubani paintings, where local women showcase intricate geometric patterns and mythological themes. The festival preserves the ancient 'Kanchani' and 'Bharni' styles that were originally used to decorate the walls of mud huts.This festival is a dedicated celebration of the Madhubani school of painting, which is one of the world's oldest and most recognizable folk art forms. Rooted in the Mithilanchal region, the festival showcases the transformation of domestic murals into a global aesthetic. Traditionally, women painted these intricate designs on the mud walls of their homes to mark births and weddings, using twigs, fingers, and matchsticks. The festival highlights five distinct styles: Bharni, Katchni, Tantrik, Godna, and Kohbar, each with its own symbolic meaning and community history. Themes are largely mythological, depicting scenes from the Ramayana or the 'Raas-Leela' of Krishna, but they also incorporate elements of nature like the sun, moon, and sacred plants. The use of natural dyes derived from turmeric, indigo, and sandalwood is a key focus of the festival workshops. It provides a crucial space for female artists to gain financial independence and recognition for their intellectual property. Visitors can witness 'live painting' sessions where artists create masterpieces without any preliminary sketching. The festival has been instrumental in keeping the 'Kohbar' (wedding chamber art) tradition alive, which is believed to bless the couple with fertility. It is a colorful testament to how a community can preserve its identity through visual storytelling. ",
     images: [Art1,Art2,],
@@ -743,7 +748,7 @@ const festivals = [
   {
     name: "Rajgir Mahotsav (Nalanda)",
     tagline:
-      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+      "Celebrating the Confluence of Faith and Heritage.",
     description:
       "An annual three-day extravaganza of classical dance and music held amidst the ancient hills of Rajgir. It provides a platform for top Indian artists to perform against the backdrop of one of the world's oldest inhabited cities. The Rajgir Mahotsav is a prestigious three-day cultural event that bridges the gap between Bihar's glorious ancient past and its contemporary artistic talent. Hosted by the Department of Tourism, the festival takes place in the valley of Rajgir, a city that served as the first capital of the Magadha Empire. The venue is often the Qila Maidan, surrounded by the ruins of the Cyclopean Wall and the hills that once echoed with the sermons of Buddha and Mahavira. It brings together the 'best of the best' in Indian classical music, including sarod players, sitarists, and vocalists of international repute. Classical dance forms like Kathak, Bharatanatyam, and Odissi are performed on grand stages with the illuminated hills as a backdrop. Beyond the high arts, the festival includes a 'Gram Shree Mela,' showcasing rural handicrafts and local cuisine to promote tourism. Traditional sports competitions, particularly wrestling and archery, are organized to keep the spirit of ancient Magadhan martial arts alive. The festival also highlights the 'Shanti Stupa' and the various Buddhist monasteries, emphasizing Rajgir as a global hub for peace. For three days, the town is transformed into a vibrant cultural capital, attracting tourists from across the globe. It is a powerful reminder that Bihar was once the intellectual and spiritual center of the Indian subcontinent.",
     images: [Mahotsav1,Mahotsav2,Mahotsav3],
@@ -752,7 +757,7 @@ const festivals = [
   {
     name: "Bihula Festival (Bhagalpur) ",
     tagline:
-      "The festival of Padhinettam Perukku, also known as 'Aadi Perukku', held on the 18th day of the Tamil month of Aadi.",
+      "A Saga of Devotion and Victory over Venom.",
     description:
       'A prominent festival in the Anga region, centered around the legend of Mansa Devi and the bravery of a devotee named Bihula. It features vibrant Manjusha art, a unique scroll-painting style that is one of the oldest folk traditions in the state. The Bihula Festival is the cultural signature of the Bhagalpur region (ancient Anga Desh), centered on a narrative of extraordinary female courage and devotion. It celebrates the story of Bihula, a woman who challenged the goddess of snakes, Mansa Devi, to save her husband Lakshminder from a divine curse. The festival is deeply tied to the Manjusha Art form, which is used to tell this story on scrolls and bamboo boxes. Manjusha is unique because it uses a specific color palette (Pink, Yellow, Green) and follows strict iconographic rules, such as drawing characters without ears. During the festival, devotees create "Manjushas" (decorated structures) and carry them in processions while singing folk ballads that recount Bihula journey on a raft. It is celebrated during the month of Shravan, coinciding with the monsoon, when snakes are most active, adding a layer of protective ritual to the worship. The art form, which was nearly lost, has seen a massive revival through this festival, empowering local artisans. It showcases a different facet of Bihar s heritage—one that is gritty, folk-driven, and centered on the triumph of the human spirit over divine whim. The festival is a communal affair where people from all walks of life participate in the decoration and ritualistic immersion of the bamboo structures. ',
     images: [Bihula1,Bihula2],
@@ -760,7 +765,7 @@ const festivals = [
   },
   {
     name: "Sama Chakeva (The Sibling Bond of Mithila)",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
+    tagline: "A Winter Tale of Sibling Love..",
     description:
       "Sama Chakeva is a tender folk festival celebrated in the Mithila region during the winter month of Kartik, focusing on the affection between brothers and sisters. It is based on a story from the Skanda Purana where Krishna’s daughter, Sama, was falsely accused of an affair and turned into a bird by her father’s wrath. Her brother, Chakeva, performed intense penance to bring her back to human form, symbolizing the protective role of a brother. During the festival, young girls make clay idols of birds, brothers, sisters, and the 'Chugla'(the gossip-monger). These idols are beautifully painted and carried in baskets as the girls sing traditional songs in the evenings. The festival lasts for nine days, during which the girls mock the 'Chugla' by symbolically burning his mustache. On the final day, the clay idols are immersed in a local pond or field, representing the sibling's farewell. It is a festival that strengthens community ties and teaches moral lessons through folklore. The songs of Sama Chakeva are some of the most melodious in the Maithili language, often reflecting the pangs of separation. It remains a vibrant tradition that keeps the youth connected to their agrarian roots and family values. ",
     images: [Sama1,Sama2,Sama3],
@@ -768,8 +773,6 @@ const festivals = [
   },
   {
     name: "Madhushravani (The Monsoon Vow) ",
-    tagline:
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
     description:
       "Madhushravani is a fascinating 15-day ritual celebrated by newlywed women in the Mithila region during the Hindu month of Shravan. The festival is designed to pray for the longevity of the husband and the prosperity of the new household through the worship of Gauri and the Snake Gods. For two weeks, the bride eats only one vegetarian meal a day and listens to a series of mythological stories narrated by elderly women. These stories cover a wide range, from the birth of the Ganges to the trials of Parvati and the bravery of Bihula. The festival is famous for its vibrant use of Madhubani art, as special 'Kohbars' are painted for the occasion. On the final day, a unique ritual called 'Temi' is performed, where a small burn mark is made on the bride’s knee with a cotton wick to test her devotion and patience. Though controversial in modern times, it is seen by traditionalists as a mark of a woman’s resilience. The bride wears her wedding finery and jewelry throughout the period, making it a visually stunning domestic festival. It serves as an informal 'school' where the cultural history of the region is passed down from mother-in-law to daughter-in-law.   ",
     images: [Madhushravani1,Madhushravani2,Madhushravani3],
@@ -777,7 +780,7 @@ const festivals = [
   },
   {
     name: "Malmas Mela (The Divine Gathering at Rajgir) ",
-    tagline: "Literally means the festival of 'nine nights'.",
+    tagline: "The Celestial Transit in the Land of Hot Springs.",
     description:
       "The Malmas Mela is a rare and massive religious congregation that occurs every three years in Rajgir during the "Adhik Maas" or leap month of the Hindu calendar. According to Vedic tradition, this extra month is considered "unclean" for regular rituals, but Rajgir becomes the holiest place on Earth during this time. It is believed that all 330 million Hindu gods and goddesses reside in the hot springs of Rajgir for these thirty days. Millions of devotees arrive from across India to take a dip in the Brahmakund, a sulfur-rich hot spring believed to have miraculous healing powers. The mela transforms the town of Rajgir into a sea of saffron-clad pilgrims and wandering ascetics. Temporary markets, religious discourses (Kathas), and massive community kitchens (Bhandaras) are set up to accommodate the crowd. The atmosphere is thick with the scent of incense and the sound of bells ringing from the dozens of temples surrounding the hills. For the local economy, this mela is a windfall, as pilgrims buy local stone carvings and handicrafts. It is a spectacle of faith that has been recorded in ancient texts for over two thousand years. The event is so large that the state government sets up a temporary city with its own police stations and hospitals.",
     images: [Malmas1,Malmas2,Malmas3],
@@ -793,7 +796,7 @@ const festivals = [
   },
   {
     name: "Saurath Sabha ",
-    tagline: "The Genealogical Fair",
+    tagline: "The Ancient Assembly of Knowledge and Kinship.",
     description:
       "Saurath Sabha is a unique social and cultural gathering held annually in the village of Saurath in Madhubani, serving as a traditional marriage market for the Maithil Brahmin community. Established centuries ago, it is a fascinating example of how a community manages its lineage and social harmony without modern technology. The fair takes place in a vast mango orchard, where families bring the horoscopes of their marriageable sons and daughters. The key figures are the Panjikars, professional genealogists who maintain palm-leaf manuscripts containing family records dating back dozens of generations. No marriage is finalized until the Panjikar verifies that the two families are not related within prohibited degrees of kinship. This ensure genetic diversity and maintains the integrity of the community's ancestral lines. Thousands of people gather under the trees to discuss proposals, negotiate dowries (historically), and finalize alliances in a public setting. While the number of attendees has dwindled with the rise of matrimonial websites, the 'Sabha' remains a prestigious cultural institution. It is a living relic of the medieval social structure of the Mithila region. The fair also features local folk music and markets selling traditional Mithila wares, making it a complete community experience.",
     images: [Sabha1,Sabha2,Sabha3],
@@ -820,7 +823,7 @@ const historicalPlaces = [
     name: " Nalanda University ",
     description:
       "Established in the 5th century AD, Nalanda was the world's first residential university, hosting over 10,000 students and 2,000 teachers. The red-brick ruins span 23 hectares, featuring massive monasteries (viharas), temples, and a library so large it allegedly burned for months. It was excavated by the Archaeological Survey of India, revealing sophisticated urban planning with advanced drainage and cooling systems. The site remains a symbol of India's 'Golden Age,'showcasing the global exchange of data and philosophy during the first millennium.The site’s planning was revolutionary: it featured a linear alignment of monasteries (viharas) on one side and temples (chaityas) on the other, an axis that would later be adopted by many similar institutions in Southeast Asia. The most famous structure is the Sariputra Stupa, noted for its tiered levels and stucco statues. Legend speaks of its massive library, Dharmaganja, which consisted of three buildings—one of which was nine stories high—and allegedly burned for months after the university was sacked in the 13th century.  On 28 March 2006 the eleventh President of India A. P. J. Abdul Kalam proposed the idea while addressing the Joint Session of the Bihar Vidhan Mandal for the revival of Nalanda University. In 2007 the Bihar Legislative Assembly passed a bill for the creation of a new university.The Nalanda University Bill, 2010 was passed on 21 August 2010 in Rajya Sabha and 26 August 2010 in Lok Sabha. The bill received Presidential assent on 21 September 2010 thereby becoming an Act. The university came into existence on 25 November 2010, when the Act was implemented.The university's visitor is the President of India. The chancellor and chairperson of the governing board is Prof. Arvind Panagariya. The interim vice-chancellor was Prof. Abhay Kumar Singh. The current Vice Chancellor is Professor Sachin Chaturvedi. The governing board comprises the chancellor, vice-chancellor, representative from member countries, a secretary, two representatives from the Government of Bihar, a representative from the Ministry of Human Resource Development, and three persons in the category of 'Renowned Academician or Educationist', Arvind Sharma, Lokesh Chandra and Arvind Panagariya.The first chancellor of the university was Amartya Sen, followed by former Singapore Minister for Foreign Affairs George Yeo. They left citing concerns about autonomy and political interference in academic matters. Vijay Pandurang Bhatkar has been appointed the new chancellor on 25 January 2017 by President Pranab Mukherjee, in his capacity as Visitor to Nalanda University. In 2017, Interim Vice-Chancellor Pankaj Mohan handed over charge to Professor Sunaina Singh. ",
-    images: [Nalanda1,Nalanda2,Nalanda3,Nalanda4,Nalanda5,],
+    images: [Nalanda1,Nalanda2,Nalanda3,Nalanda4,],
     source: "(src:Archarological Survey Of India(ASI)-Nalanda,Wikipedia Commons,Adobs stock,timesofindia.indiatimes.com)",
   },
   {
@@ -981,13 +984,6 @@ const artGallery = [
     image: gMadhubani1,
   },
   {
-    title: "Madhubani Art — Kohbar",
-    emoji: "🖼️",
-    color: "#E88888",
-    desc: "Traditional matrimonial painting symbolizing fertility and blessings",
-    image: gMadhubani2,
-  },
-  {
     title: "Manjusha Art",
     emoji: "🐍",
     color: "#F4E860",
@@ -1021,27 +1017,6 @@ const artGallery = [
     color: "#A8B4D4",
     desc: "Cultural ritual dance performed during Navratri, balancing a perforated clay lantern on the head",
     image: gJhijhiya,
-  },
-  {
-    title: "Sohhar Music",
-    emoji: "🎶",
-    color: "#E8C8E8",
-    desc: "Traditional folk songs sung by women to celebrate childbirth",
-    image: gSohhar,
-  },
-  {
-    title: "Sone River",
-    emoji: "🛶",
-    color: "#B4E8D4",
-    desc: "Major southern tributary of the Ganges, known for its vast sand beds",
-    image: gSoneRiver,
-  },
-  {
-    title: "Falgu River (Gaya)",
-    emoji: "🏞️",
-    color: "#E8E4D4",
-    desc: "Sacred river known for its underground flow, central to Pinda Daan rituals",
-    image: gFalguRiver,
   },
   {
     title: "Sikki Grass Crafts",
