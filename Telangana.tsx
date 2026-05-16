@@ -8,86 +8,88 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import TelanganaMap from "@assets/punjabMap.jpg";
-const Bathukamma1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const Bathukamma2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const Bathukamma3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const Bonalu1 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const Bonalu2 = "https://i.postimg.cc/YC4wsv89/image.png";
-const Bonalu3 = "https://i.postimg.cc/mkZvNktt/image.png";
-const Bonalu4 = "";
-const SammakkaSaralammaJathara1 = "";
-const SammakkaSaralammaJathara2 = "";
-const SammakkaSaralammaJathara3 = "";
-const SammakkaSaralammaJathara4 = "";
-const Sankranti1 = "";
-const Sankranti2 = "@assets/image_1776788482041.png";
-const Sankranti3 = "@assets/image_1776788764847.png";
-const Sankranti4 = "@assets/image_1776788772553.png";
-const Sankranti5 = "@assets/image_1776788788721.png";
-const Ugadi1 = "@assets/image_1776788797545.png";
-const Ugadi2 = "@assets/image_1776788805779.png";
-const Deepavali1 = "@assets/image_1776788811412.png";
-const Deepavali2 = "@assets/image_1776788817244.png";
-const Deepavali3 = "@assets/image_1776788825797.png";
-const Deepavali4 = "@assets/image_1776788831894.png";
-const Deepavali4 = "@assets/image_1776788840602.png";
-const Deepavali5 = "@assets/image_1776788847901.png";
-const Dasara1 = "@assets/image_1776788856768.png";
-const Dasara2 = "@assets/image_1776788865143.png";
-const Dasara3 = "@assets/image_1776788865143.png";
-const Charminar1 = "@assets/image_1776788870905.png";
-const Charminar2 = "@assets/image_1776788878018.png";
-const Charminar3 = "@assets/image_1776788887081.png";
-const Charminar4 = "@assets/image_1776788895857.png";
-const GolcondaFort1 = "@assets/image_1776788902350.png";
-const GolcondaFort2 = "@assets/image_1776788909064.png";
-const GolcondaFort3 = "@assets/image_1776788916164.png";
-const GolcondaFort4 = "@assets/image_1776789530181.png";
-const GolcondaFort5 = "@assets/image_1776789548589.png";
-const Chowmahallapalace1 = "@assets/image_1776789554420.png";
-const Chowmahallapalace2 = "@assets/image_1776789558971.png";
-const Chowmahallapalace3 = "@assets/image_1776789565292.png";
-const Chowmahallapalace4 = "@assets/image_1776789575242.png";
-const RamappaTemple1 = "@assets/image_1776789580153.png";
-const RamappaTemple2 = "@assets/image_1776789590790.png";
-const WarangalFort1 = "@assets/image_1776789610085.png";
-const WarangalFort2 = "@assets/image_1776789615338.png";
-const WarangalFort3 = "@assets/image_1776789624415.png";
-const WarangalFort4 = "@assets/image_1776789631296.png";
-const ThousandPillarTemple1 = "@assets/image_1776789638782.png";
-const ThousandPillarTemple2 = "@assets/download_1777100508255.png";
-const LaknavaramLake1 = "@assets/download_1777100514323.png";
-const LaknavaramLake2 = "@assets/download_1777100516025.png";
-const KuntalaWaterfalls1 = "@assets/download_1777100518481.png";
-const KuntalaWaterfalls2 = "@assets/download_1777100520664.png";
-const BasaraSaraswathiTemple1 = "@assets/download_1777100523842.png";
-const BasaraSaraswathiTemple2 = "@assets/image_1777102241686.png";
-const BasaraSaraswathiTemple3 = "@assets/image_1777102257711.png";
-const NirmalFort1 = "@assets/download_1777100525385.png";
-const Yadagiriguttatemple1 = "@assets/download_1777100526870.png";
-const Yadagiriguttatemple2 = "@assets/download_1777100529380.png";
-const BhongirFort1 = "@assets/download_1777100531237.png";
-const BhongirFort2 = "@assets/download_1777100532535.png";
-const Pillalamarri = "@assets/download_1777100537305.png";
-const BhadrachalamTemple1 = "@assets/image_1777100917162.png";
-const BhadrachalamTemple2 = "@assets/image_1777100921467.png";
-const BhadrachalamTemple3 = "@assets/image_1777100927953.png";
-const BhadrachalamTemple4 = "@assets/image_1777100932602.png";
-const NagarjunaSagarDam1 = "@assets/image_1777100937948.png";
-const NagarjunaSagarDam2 = "@assets/image_1777100946447.png";
-const NagarjunaSagarDam3 = "@assets/image_1777100950953.png";
-const gHyderabadiBiryani = "@assets/image_1777100955650.png";
-const gSarvaPindi = "@assets/image_1777101000988.png";
-const gSakinalu = "@assets/image_1777100960783.png";
-const gTelanganaFolk = "@assets/image_1777100965689.png";
-const gOgguKatha = "@assets/image_1777100975810.png";
-const gDappu = "@assets/image_1777100982364.png";
-const gNadaswaram= "@assets/image_1777100987731.png";
-const gPonchamallyIkat = "@assets/image_1777100994118.png";
-const gGadwaSaree = "@assets/image_1777101000988.png";
-const gLangaVoni = "@assets/image_1777101005896.png";
-const gDhotiKurta = "@assets/image_1777101012951.png";
+import telanganaMap from "@assets/telanganaMap.jpg";
+const Bathukamma1 = "https://i.postimg.cc/bwBYbhZK/image.png";
+const Bathukamma2 = "https://i.postimg.cc/wBRqQGJy/image.png";
+const Bathukamma3 = "https://i.postimg.cc/KzXZqDrq/image.png";
+const Bonalu1 = "https://i.postimg.cc/D0n7FfNm/image.png";
+const Bonalu2 = "https://i.postimg.cc/mkjBrfx0/image.png";
+const Bonalu3 = "https://i.postimg.cc/rwKMqPfg/image.png";
+const Bonalu4 = "https://i.postimg.cc/pdjvFnb8/image.png";
+const SammakkaSaralammaJathara1 = "https://i.postimg.cc/wjy8CsBS/image.png";
+const SammakkaSaralammaJathara2 = "https://i.postimg.cc/Jn8fH65p/image.png";
+const SammakkaSaralammaJathara3 = "https://i.postimg.cc/x8TBtXhD/image.png";
+const SammakkaSaralammaJathara4 = "https://i.postimg.cc/Y2b5jxLr/image.png";
+const Sankranti1 = "https://i.postimg.cc/Hk7RZDZx/image.png";
+const Sankranti2 = "https://i.postimg.cc/6QrSKVNJ/image.png";
+const Sankranti3 = "https://i.postimg.cc/qRQ5hkRx/image.png";
+const Sankranti4 = "https://i.postimg.cc/4NYSyRTd/image.png";
+const Sankranti5 = "https://i.postimg.cc/bwbV00rX/image.png";
+const Ugadi1 = "https://i.postimg.cc/0NsWV6KV/image.png";
+const Ugadi2 = "https://i.postimg.cc/k5vjznxn/image.png";
+const Deepavali1 = "https://i.postimg.cc/zBDd19jK/image.png";
+const Deepavali2 = "https://i.postimg.cc/xCs6jtxg/image.png";
+const Deepavali3 = "https://i.postimg.cc/gjnNx81Y/image.png";
+const Deepavali4 = "https://i.postimg.cc/v8N0p2xC/image.png";
+const Deepavali5 = "https://i.postimg.cc/3J0t7jgg/image.png";
+const Dasara1 = "https://i.postimg.cc/wjTcMhNk/image.png";
+const Dasara2 = "https://i.postimg.cc/j5NymvVW/image.png";
+const Dasara3 = "https://i.postimg.cc/xT9LpK68/image.png";
+const Charminar1 = "https://i.postimg.cc/k5NnHtj1/image.png";
+const Charminar2 = "https://i.postimg.cc/br58n0Jt/image.png";
+const Charminar3 = "https://i.postimg.cc/Dfp7Rhgc/image.png";
+const Charminar4 = "https://i.postimg.cc/NfWBfxZF/image.png";
+const GolcondaFort1 = "https://i.postimg.cc/Dzhh1wv3/image.png";
+const GolcondaFort2 = "https://i.postimg.cc/0Q2qHXKw/image.png";
+const GolcondaFort3 = "https://i.postimg.cc/cCvGdKmQ/image.png";
+const GolcondaFort4 = "https://i.postimg.cc/x1DVS1bH/image.png";
+const GolcondaFort5 = "https://i.postimg.cc/W4sRhY8v/image.png";
+const Chowmahallapalace1 = "https://i.postimg.cc/wvBSktnD/image.png";
+const Chowmahallapalace2 = "https://i.postimg.cc/hj3NZDBc/image.png";
+const Chowmahallapalace3 = "https://i.postimg.cc/gjXQfCz8/image.png";
+const Chowmahallapalace4 = "https://i.postimg.cc/kX8XSZQn/image.png";
+const RamappaTemple1 = "https://i.postimg.cc/9fxWVjhb/image.png";
+const RamappaTemple2 = "https://i.postimg.cc/xChnJyqX/image.png";
+const WarangalFort1 = "https://i.postimg.cc/T1bGrLDT/image.png";
+const WarangalFort2 = "https://i.postimg.cc/hPFKKrkt/image.png";
+const WarangalFort3 = "https://i.postimg.cc/XvvbsDCF/image.png";
+const WarangalFort4 = "https://i.postimg.cc/44cT2cmr/image.png";
+const ThousandPillarTemple1 = "https://i.postimg.cc/VkKy0BV6/image.png";
+const ThousandPillarTemple2 = "https://i.postimg.cc/8CYqtkGq/image.png";
+const LaknavaramLake1 = "https://i.postimg.cc/SQCwfpvD/image.png";
+const LaknavaramLake2 = "https://i.postimg.cc/vHvkCtM9/image.png";
+const KuntalaWaterfalls1 = "https://i.postimg.cc/4xNqGHx3/image.png";
+const KuntalaWaterfalls2 = "https://i.postimg.cc/s2MLQFWH/image.png";
+const BasaraSaraswathiTemple1 = "https://i.postimg.cc/DwMjKCN4/image.png";
+const BasaraSaraswathiTemple2 = "https://i.postimg.cc/R0JPC7rp/image.png";
+const BasaraSaraswathiTemple3 = "https://i.postimg.cc/hjF2XXcc/image.png";
+const NirmalFort1 = "https://i.postimg.cc/C1jmkwx4/image.png";
+const Yadagiriguttatemple1 = "https://i.postimg.cc/rFyQRXXz/image.png";
+const Yadagiriguttatemple2 = "https://i.postimg.cc/4xmPw63H/image.png";
+const BhongirFort1 = "https://i.postimg.cc/cJ3mGdYb/image.png";
+const BhongirFort2 = "https://i.postimg.cc/vBdvQCtD/image.png";
+const Pillalamarri = "https://i.postimg.cc/pTYJyk0b/image.png";
+const BhadrachalamTemple1 = "https://i.postimg.cc/Kcf52qkz/image.png";
+const BhadrachalamTemple2 = "https://i.postimg.cc/52hB3DT1/image.png";
+const BhadrachalamTemple3 = "https://i.postimg.cc/mDRQxCTc/image.png";
+const BhadrachalamTemple4 = "https://i.postimg.cc/tT5F9JTQ/image.png";
+const NagarjunaSagarDam1 = "https://i.postimg.cc/bvLvJtQ9/image.png";
+const NagarjunaSagarDam2 = "https://i.postimg.cc/tTMCdGvp/image.png";
+const NagarjunaSagarDam3 = "https://i.postimg.cc/c1PfZpxp/image.png";
+const gHyderabadiBiryani = "https://i.postimg.cc/Z5Wk3ytN/image.png";
+const gSarvaPindi = "https://i.postimg.cc/nc5RyRgB/image.png";
+const gSakinalu = "https://i.postimg.cc/3NzXc6Nm/image.png";
+const gOgguKatha = "https://i.postimg.cc/7ZFk4vKL/image.png";
+const gDappu = "https://i.postimg.cc/FHHSxNDn/image.png";
+const gNadaswaram = "https://i.postimg.cc/L6TffnB6/image.png";
+const gPonchamallyIkat = "https://i.postimg.cc/wxR0hc7j/image.png";
+const gGadwalSaree = "https://i.postimg.cc/1XDGbBqw/image.png";
+const gLangaVoni = "https://i.postimg.cc/q7g8p4KR/image.png";
+const gDhotiKurta = "https://i.postimg.cc/1RDDmW8c/image.png";
+const gPerini = "https://i.postimg.cc/BvjXYGt7/image.png";
+const gLambadi = "https://i.postimg.cc/Z5MqyDV4/image.png";
+const gCheriyal = "https://i.postimg.cc/Xq4NbM7B/image.png";
+const gNirmal = "https://i.postimg.cc/yY66pzbT/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -418,7 +420,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function Telangana() {
+export default function TelanganaPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -470,7 +472,7 @@ export default function Telangana() {
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Land of Koh-i-Noor
+                The Land of KohiNoor
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -480,10 +482,10 @@ export default function Telangana() {
               <div className="space-y-2">
                 {[
                   { label: "Capital", value: "Hyderabad" },
-                  { label: "Population", value: "" },
-                  { label: "Area", value: "sq km" },
+                  { label: "Population", value: "3.52 Crore"},
+                  { label: "Area", value: "1,12,077 sq km" },
                   { label: "Founded", value: "2 June 2014" },
-                  { label: "Language", value: "Telugu" },
+                  { label: "Language", value: "Telugu, Urdu" },
                   { label: "Districts", value: "33 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
@@ -514,18 +516,18 @@ export default function Telangana() {
               Hyderabad
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Tamil Nadu — The City of Nawabs
+              Capital of Telangana — The City of Nawabs
             </p>
           </div>
         </Section>
 
-        {/* Map of Tamil Nadu — click to enlarge */}
+        {/* Map of Telangana — click to enlarge */}
         <Section title="Map of Telangana" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Telangana")}
+              onClick={() => openLightbox(telanganaMap, "Map of Telangana")}
             >
               <img
                 src={telanganaMap}
@@ -925,13 +927,6 @@ const artGallery = [
     image: gSakinalu,
   },
   {
-    title: "Folk Music of Telangana",
-    emoji: "🎶",
-    color: "#E8733A",
-    desc: "Traditional songs reflecting rural life, festivals, and history",
-    image: gTelanganaFolk,
-  },
-  {
     title: "Oggu Katha",
     emoji: "📜",
     color: "#D4A4E8",
@@ -979,5 +974,33 @@ const artGallery = [
     color: "#B4D8E8",
     desc: "Classic outfit worn by men during festivals and functions",
     image: gDhotiKurta,
+  },
+  {
+    title: "Perini Shivatandavam",
+    emoji: "👔",
+    color: "#B4D8E8",
+    desc: "A vigorous dance performed by warriors to invoke Lord Shiva before battle",
+    image: gPerini,
+  },
+  {
+    title: "Lambadi Dance",
+    emoji: "👔",
+    color: "#B4D8E8",
+    desc: "A colorful tribal dance performed by Banjara tribe women with rhythmic movements",
+    image: gLambadi,
+  },
+  {
+    title: "Cheriyal Scroll painting",
+    emoji: "👔",
+    color: "#B4D8E8",
+    desc: "GI-tagged, traditional storytelling art using painted scrolls to narrate folklore",
+    image: gCheriyal,
+  },
+  {
+    title: "Nirmal painting",
+    emoji: "👔",
+    color: "#B4D8E8",
+    desc: "Decorative paintings known for golden backgrounds and mythological themes, originating from Nirmal district of Telangana",
+    image: gNirmal,
   },
 ];
