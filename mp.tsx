@@ -9,70 +9,74 @@ import {
   ZoomIn,
 } from "lucide-react";
 import mpMap from "@assets/mpMap.jpg";
-const khajuraho1 = "";
-const khajuraho2 = "";
-const tansen1 = "";
-const tansen2 = "";
-const bhagoria1 = "";
-const lokrang1 = "";
-const kumbhmela1 = "";
-const mandufest1 = "";
-const orchha1 = "";
-const pachmarhi1 = "";
-const chethiyagiri1 = "";
-const malwautsav1 = "";
-const khajurahotemple1 = "";
-const khajurahotemple2 = "";
-const khajurahotemple3 = "";
-const sanchi1 = "";
-const sanchi2 = "";
-const sanchi3 = "";
-const bhimbetka1 = "";
-const bhimbetka2 = "";
-const bhimbetka3 = "";
-const gwalior1 = "";
-const gwalior2 = "";
-const gwalior3 = "";
-const jahaz1 = "";
-const jahaz2 = "";
-const jahaz3 = "";
-const ujjain1 = "";
-const ujjain2 = "";
-const ujjain3 = "";
-const omkareshwar1 = "";
-const omkareshwar2 = "";
-const asirgarh1 = "";
-const asirgarh2 = "";
-const asirgarh3 = "";
-const jahangir1 = "";
-const jahangir2 = "";
-const rajwada1 = "";
-const rajwada2 = "";
-const khamba1 = "";
-const khamba2 = "";
-const badal1 = "";
-const badal2 = "@assets/image_1776789615338.png";
-const badal3 = "@assets/image_1776789624415.png";
-const sarafa1 = "@assets/image_1776789624415.png";
-const sarafa2 = "@assets/image_1776789624415.png";
-const sarafa3 = "@assets/image_1776789624415.png";
-const chappan1 = "@assets/image_1776789624415.png";
-const chappan2 = "@assets/image_1776789624415.png";
-const chappan3 = "@assets/image_1776789624415.png";
-const chappan4 = "@assets/image_1776789624415.png";
-const gRajwada = "@assets/image_1777100917162.png";
-const gLalbagh = "@assets/image_1777100921467.png";
-const gChappan = "@assets/image_1777100927953.png";
-const gTaj = "@assets/image_1777100932602.png";
-const gButterBun = "@assets/image_1777100937948.png";
-const gPoha = "@assets/image_1777100946447.png";
-const gDalbafla = "@assets/image_1777100950953.png";
-const gBhuttakees = "@assets/image_1777100955650.png";
-const gBedaghat = "@assets/image_1777100960783.png";
-const gMatki = "@assets/image_1777100965689.png";
-const gBedaghatrocks = "@assets/image_1777100975810.png";
-const gBengaltiger = "@assets/image_1777100982364.png";
-const gBarasingha = "@assets/image_1777100987731.png";
+const khajuraho1 = "https://i.postimg.cc/523xfYKp/image.png";
+const khajuraho2 = "https://i.postimg.cc/PxyHjPXQ/image.png";
+const tansen1 = "https://i.postimg.cc/MKw2XZQ0/image.png";
+const tansen2 = "https://i.postimg.cc/MKw2XZQ0/image.png";
+const bhagoria1 = "https://i.postimg.cc/Gp8Sq6Dj/image.png";
+const lokrang1 = "https://i.postimg.cc/W3cSSzTT/image.png";
+const kumbhmela1 = "https://i.postimg.cc/MZDtbz4J/image.png";
+const mandufest1 = "https://i.postimg.cc/zGLjrKfm/image.png";
+const orchha1 = "https://i.postimg.cc/zBkwjkxH/image.png";
+const pachmarhi1 = "https://i.postimg.cc/pVqY5qhp/image.png";
+const chethiyagiri1 = "https://i.postimg.cc/R05cxY88/image.png";
+const malwautsav1 = "https://i.postimg.cc/J02k6YZR/image.png";
+const khajurahotemple1 = "https://i.postimg.cc/xj7t86bQ/image.png";
+const khajurahotemple2 = "https://i.postimg.cc/85cmPvp1/image.png";
+const khajurahotemple3 = "https://i.postimg.cc/prnQKt56/image.png";
+const sanchi1 = "https://i.postimg.cc/PJ9CzpnJ/image.png";
+const sanchi2 = "https://i.postimg.cc/43Pn2FTn/image.png";
+const sanchi3 = "https://i.postimg.cc/XJXNHj8t/image.png";
+const bhimbetka1 = "https://i.postimg.cc/RFj3wJBh/image.png";
+const bhimbetka2 = "https://i.postimg.cc/pVzrgTv3/image.png";
+const bhimbetka3 = "https://i.postimg.cc/J7Pv73R0/image.png";
+const gwalior1 = "https://i.postimg.cc/j5kHmjrN/image.png";
+const gwalior2 = "https://i.postimg.cc/SjbMb2TH/image.png";
+const gwalior3 = "https://i.postimg.cc/5yC7br18/image.png";
+const jahaz1 = "https://i.postimg.cc/XJTLHgF7/image.png";
+const jahaz2 = "https://i.postimg.cc/6QqhBPft/image.png";
+const jahaz3 = "https://i.postimg.cc/Px8zw87g/image.png";
+const ujjain1 = "https://i.postimg.cc/qqssmH45/image.png";
+const ujjain2 = "https://i.postimg.cc/ZKLPpmfq/image.png";
+const omkareshwar1 = "https://i.postimg.cc/wxXDYHYV/image.png";
+const omkareshwar2 = "https://i.postimg.cc/858fxXyH/image.png";
+const asirgarh1 = "https://i.postimg.cc/hjqh2zvQ/image.png";
+const asirgarh2 = "https://i.postimg.cc/hjr4M2N3/image.png";
+const asirgarh3 = "https://i.postimg.cc/sfLCyFP5/image.png";
+const jahangir1 = "https://i.postimg.cc/6qZXgzmC/image.png";
+const jahangir2 = "https://i.postimg.cc/CK599mZs/image.png";
+const rajwada1 = "https://i.postimg.cc/5tQnwGQb/image.png";
+const rajwada2 = "https://i.postimg.cc/HLM9JyFd/image.png";
+const khamba1 = "https://i.postimg.cc/hGVV4qQw/image.png";
+const khamba2 = "https://i.postimg.cc/wjmmFd2v/image.png";
+const badal1 = "https://i.postimg.cc/hPHJX5nc/image.png";
+const badal2 = "https://i.postimg.cc/XJpGGSrw/image.png";
+const badal3 = "https://i.postimg.cc/YSyjwnbV/image.png";
+const sarafa1 = "https://i.postimg.cc/VkWD4MDV/image.png";
+const sarafa2 = "https://i.postimg.cc/1XDpXhdj/image.png";
+const sarafa3 = "https://i.postimg.cc/28mWGtMY/image.png";
+const chappan1 = "https://i.postimg.cc/6QGTtVgZ/image.png";
+const chappan2 = "https://i.postimg.cc/0yzy0d8H/image.png";
+const chappan3 = "https://i.postimg.cc/tTNq4B53/image.png";
+const chappan4 = "https://i.postimg.cc/MKT6zbjQ/image.png";
+const gRajwada = "https://i.postimg.cc/vZ2XpMw8/image.png";
+const gLalbagh = "https://i.postimg.cc/MZtBs5ST/image.png";
+const gChappan = "https://i.postimg.cc/fbjyVWWN/image.png";
+const gTaj = "https://i.postimg.cc/d0qvS2Fx/image.png";
+const gBhojtal = "https://i.postimg.cc/jSqtM6tm/image.png";
+const gPoha = "https://i.postimg.cc/pd4vVgz8/image.png";
+const gDalbafla = "https://i.postimg.cc/X74bvKG8/image.png";
+const gBhuttakees = "https://i.postimg.cc/nrx6CZLy/image.png";
+const gBedaghat = "https://i.postimg.cc/QCSnCTwp/image.png";
+const gDhuandhar = "https://i.postimg.cc/pX6qSRH2/image.png";
+const gMatki = "https://i.postimg.cc/yxW0h3Wp/image.png";
+const gBedaghatrocks = "https://i.postimg.cc/8crjPRj2/image.png";
+const gBengaltiger = "https://i.postimg.cc/J0bH53Ms/image.png";
+const gBarasingha = "https://i.postimg.cc/Y9QC5pVn/image.png";
+const gDahibade = "https://i.postimg.cc/RZcRPfVn/image.png";
+const gCholetikiya = "https://i.postimg.cc/Y9yf4z8T/image.png";
+const gGaraadu = "https://i.postimg.cc/0jTYn5TM/image.png";
+const gGajarhalwa = "https://i.postimg.cc/VspWm4Js/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -942,7 +946,7 @@ const artGallery = [
     emoji: "🥐",
     color: "#F4E884",
     desc: "Famous lake of Bhopal, also known as Upper lake/Bada Talab",
-    image: gButterBun,
+    image: gBhojtal,
   },
   {
     title: "Poha Jalebi",
@@ -1006,5 +1010,33 @@ const artGallery = [
     color: "#E88844",
     desc: "It is a rare Indian deer known for its many-branched antlers and found in grasslands of Madhya Pradesh.",
     image: gBarasingha,
+  },
+  {
+    title: "Dahi Bade",
+    emoji: "💃",
+    color: "#E88844",
+    desc: "Most famous Joshi ji ke Dahi Bade of Sarafa Baazar",
+    image: gDahibade,
+  },
+  {
+    title: "Chole Tikiya",
+    emoji: "💃",
+    color: "#E88844",
+    desc: "Very famous food of Sarafa Baazar",
+    image: gCholetikiya,
+  },
+  {
+    title: "Garaadu",
+    emoji: "💃",
+    color: "#E88844",
+    desc: "Very popular winter snack / dish.",
+    image: gGaraadu,
+  },
+  {
+    title: "Gajar ka Halwa and Gulab Jamun with Rasmalai",
+    emoji: "💃",
+    color: "#E88844",
+    desc: "Gajar ka Halwa (bottom) - Very popular sweet dish of winters; Gulab Jamun with Rasmalai (top).",
+    image: gGajarhalwa,
   },
 ];
