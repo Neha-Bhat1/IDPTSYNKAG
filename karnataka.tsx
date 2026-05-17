@@ -1,1 +1,1179 @@
+import { useState } from "react";
+import { useLocation } from "wouter";
+import {
+  ArrowLeft,
+  MapPin,
+  ChevronRight,
+  CheckCircle,
+  X,
+  ZoomIn,
+} from "lucide-react";
+import punjabMap from "@assets/punjabMap.jpg";
+const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
+const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
+const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
+const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
+const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
+const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
+const holamoh1 = "";
+const holamoh2 = "";
+const holamoh3 = "";
+const holamoh4 = "";
+const gurupurab1 = "";
+const gurupurab2 = "";
+const gurupurab3 = "@assets/image_1776788482041.png";
+const teej1 = "@assets/image_1776788764847.png";
+const teej2 = "@assets/image_1776788772553.png";
+const teej3 = "@assets/image_1776788788721.png";
+const bandi1 = "@assets/image_1776788797545.png";
+const bandi2 = "@assets/image_1776788805779.png";
+const shaheedi1 = "@assets/image_1776788811412.png";
+const rakhi1 = "@assets/image_1776788817244.png";
+const rakhi2 = "@assets/image_1776788825797.png";
+const maghi1 = "@assets/image_1776788831894.png";
+const maghi2 = "@assets/image_1776788840602.png";
+const karva1 = "@assets/image_1776788847901.png";
+const karva2 = "@assets/image_1776788856768.png";
+const golden1 = "@assets/image_1776788865143.png";
+const golden2 = "@assets/image_1776788870905.png";
+const golden3 = "@assets/image_1776788878018.png";
+const jallian1 = "@assets/image_1776788887081.png";
+const jallian2 = "@assets/image_1776788895857.png";
+const jallian3 = "@assets/image_1776788902350.png";
+const wagah1 = "@assets/image_1776788909064.png";
+const wagah2 = "@assets/image_1776788916164.png";
+const wagah3 = "@assets/image_1776789530181.png";
+const wagah4 = "@assets/image_1776789548589.png";
+const qila1 = "@assets/image_1776789554420.png";
+const qila2 = "@assets/image_1776789558971.png";
+const qila3 = "@assets/image_1776789565292.png";
+const ranjit1 = "@assets/image_1776789575242.png";
+const ranjit2 = "@assets/image_1776789580153.png";
+const ranjit3 = "@assets/image_1776789590790.png";
+const gobindgarh1 = "@assets/image_1776789610085.png";
+const gobindgarh2 = "@assets/image_1776789615338.png";
+const anandpur1 = "@assets/image_1776789624415.png";
+const anandpur2 = "@assets/image_1776789631296.png";
+const partition1 = "@assets/image_1776789638782.png";
+const partition2 = "@assets/download_1777100508255.png";
+const partition3 = "@assets/download_1777100514323.png";
+const guru1 = "@assets/download_1777100516025.png";
+const guru2 = "@assets/download_1777100518481.png";
+const guru3 = "@assets/download_1777100520664.png";
+const durgiana1 = "@assets/download_1777100523842.png";
+const durgiana2 = "@assets/image_1777102241686.png";
+const durgiana3 = "@assets/image_1777102257711.png";
+const akaltakht1 = "@assets/download_1777100525385.png";
+const akaltakht2 = "@assets/download_1777100526870.png";
+const akaltakht3 = "@assets/download_1777100529380.png";
+const jang1 = "@assets/download_1777100531237.png";
+const jang2 = "@assets/download_1777100532535.png";
+const jang3 = "@assets/download_1777100537305.png";
+const gJutti = "@assets/image_1777100917162.png";
+const gBhangra = "@assets/image_1777100921467.png";
+const gPhulkari = "@assets/image_1777100927953.png";
+const gGiddha = "@assets/image_1777100932602.png";
+const gFields1 = "@assets/image_1777100937948.png";
+const gFields2 = "@assets/image_1777100946447.png";
+const gSarson = "@assets/image_1777100950953.png";
+const gKulcha = "@assets/image_1777100955650.png";
+const gLassi = "@assets/image_1777100960783.png";
+const gAlooparatha = "@assets/image_1777100965689.png";
+const gBharwamirch = "@assets/image_1777100975810.png";
+const gButterchicken = "@assets/image_1777100982364.png";
+const gCholebhature = "@assets/image_1777100987731.png";
+const gDalmakhni = "@assets/image_1777100994118.png";
+const gThali = "@assets/image_1777101000988.png";
+const gFishfry = "@assets/image_1777101005896.png";
+const gParandha = "@assets/image_1777101012951.png";
 
+/* ─── Lightbox ──────────────────────────────────────────────────────────── */
+function Lightbox({
+  src,
+  alt,
+  onClose,
+}: {
+  src: string;
+  alt: string;
+  onClose: () => void;
+}) {
+  return (
+    <div
+      className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      <button
+        className="absolute top-4 right-4 text-white bg-white/20 hover:bg-white/30 rounded-full p-2 transition-colors"
+        onClick={onClose}
+      >
+        <X className="w-6 h-6" />
+      </button>
+      <img
+        src={src}
+        alt={alt}
+        className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      />
+    </div>
+  );
+}
+
+/* ─── Image placeholder (for docx images without uploaded files) ─────────── */
+function DocxImage({
+  label,
+  source,
+  color = "#D45A3A",
+}: {
+  label: string;
+  source?: string;
+  color?: string;
+}) {
+  return (
+    <div
+      className="rounded-xl overflow-hidden border border-border my-4"
+      style={{ background: color + "12" }}
+    >
+      <div
+        className="flex items-center justify-center py-10 gap-3"
+        style={{ borderBottom: `2px solid ${color}22` }}
+      >
+        <div className="text-4xl opacity-60">🖼️</div>
+        <div>
+          <p className="font-semibold text-sm text-foreground/70">{label}</p>
+          {source && <p className="text-xs text-muted-foreground">{source}</p>}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ─── Section wrapper ────────────────────────────────────────────────────── */
+function Section({
+  title,
+  icon,
+  children,
+}: {
+  title: string;
+  icon: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section>
+      <div className="flex items-center gap-3 mb-6">
+        <span className="text-2xl">{icon}</span>
+        <h2
+          className="text-2xl font-bold text-foreground"
+          style={{ fontFamily: "'Cinzel', serif" }}
+        >
+          {title}
+        </h2>
+        <div className="flex-1 h-px bg-border" />
+      </div>
+      {children}
+    </section>
+  );
+}
+
+/* ─── Image grid (shared) ────────────────────────────────────────────────── */
+function ImageGrid({
+  images,
+  alt,
+  onImageClick,
+}: {
+  images: string[];
+  alt: string;
+  onImageClick: (src: string, alt: string) => void;
+}) {
+  const cols =
+    images.length === 1
+      ? "grid-cols-1"
+      : images.length >= 3
+        ? "grid-cols-2 sm:grid-cols-3"
+        : "grid-cols-1 sm:grid-cols-2";
+  return (
+    <div className={`grid gap-3 ${cols}`}>
+      {images.map((src, idx) => (
+        <button
+          key={idx}
+          onClick={() =>
+            onImageClick(
+              src,
+              `${alt}${images.length > 1 ? ` — image ${idx + 1}` : ""}`,
+            )
+          }
+          className="group relative rounded-xl overflow-hidden border border-border bg-muted/30 cursor-zoom-in aspect-[4/3]"
+        >
+          <img
+            src={src}
+            alt={`${alt} ${idx + 1}`}
+            className="w-full h-full object-cover transition-transform group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+            <ZoomIn className="w-5 h-5 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
+          </div>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/* ─── Festival card ──────────────────────────────────────────────────────── */
+function FestivalCard({
+  number,
+  name,
+  tagline,
+  description,
+  source,
+  hasImage,
+  imageLabel,
+  images,
+  onImageClick,
+}: {
+  number: number;
+  name: string;
+  tagline?: string;
+  description: string;
+  source?: string;
+  hasImage?: boolean;
+  imageLabel?: string;
+  images?: string[];
+  onImageClick: (src: string, alt: string) => void;
+}) {
+  return (
+    <div className="border border-border rounded-2xl overflow-hidden bg-card">
+      <div className="flex items-center gap-4 px-5 py-4 bg-gradient-to-r from-primary/8 to-transparent border-b border-border">
+        <div
+          className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-sm flex-shrink-0"
+          style={{ fontFamily: "'Cinzel', serif" }}
+        >
+          {number}
+        </div>
+        <div>
+          <h3
+            className="font-bold text-foreground text-base"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
+            {name}
+          </h3>
+          {tagline && (
+            <p className="text-muted-foreground text-xs italic mt-0.5">
+              {tagline}
+            </p>
+          )}
+        </div>
+      </div>
+      <div className="px-5 py-4 space-y-4">
+        <p
+          className="text-sm text-foreground leading-relaxed"
+          style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
+        >
+          {description}
+        </p>
+        {images && images.length > 0 && (
+          <ImageGrid images={images} alt={name} onImageClick={onImageClick} />
+        )}
+        {hasImage && !images && (
+          <DocxImage
+            label={imageLabel ?? name}
+            source={source}
+            color="#D45A3A"
+          />
+        )}
+        {source && !hasImage && !images && (
+          <p className="text-xs text-muted-foreground">{source}</p>
+        )}
+        {source && images && (
+          <p className="text-xs text-muted-foreground">{source}</p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ─── Historical place card ──────────────────────────────────────────────── */
+function HistoricalPlaceCard({
+  number,
+  name,
+  description,
+  source,
+  hasImage,
+  imageLabel,
+  subPlaces,
+  images,
+  onImageClick,
+}: {
+  number: number;
+  name: string;
+  description: string;
+  source?: string;
+  hasImage?: boolean;
+  imageLabel?: string;
+  images?: string[];
+  onImageClick: (src: string, alt: string) => void;
+  subPlaces?: {
+    name: string;
+    location?: string;
+    description: string;
+    source?: string;
+    hasImage?: boolean;
+    imageLabel?: string;
+    images?: string[];
+  }[];
+}) {
+  return (
+    <div className="border border-border rounded-2xl overflow-hidden bg-card">
+      <div className="flex items-start gap-4 px-5 py-4 bg-gradient-to-r from-accent/8 to-transparent border-b border-border">
+        <div
+          className="w-9 h-9 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5"
+          style={{ fontFamily: "'Cinzel', serif" }}
+        >
+          {number}
+        </div>
+        <h3
+          className="font-bold text-foreground text-base pt-1"
+          style={{ fontFamily: "'Cinzel', serif" }}
+        >
+          {name}
+        </h3>
+      </div>
+      <div className="px-5 py-4 space-y-4">
+        <p
+          className="text-sm text-foreground leading-relaxed whitespace-pre-line"
+          style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
+        >
+          {description}
+        </p>
+        {images && images.length > 0 && (
+          <ImageGrid images={images} alt={name} onImageClick={onImageClick} />
+        )}
+        {hasImage && !images && (
+          <DocxImage
+            label={imageLabel ?? name}
+            source={source}
+            color="#3A8A5A"
+          />
+        )}
+        {source && (!hasImage || images) && (
+          <p className="text-xs text-muted-foreground">{source}</p>
+        )}
+
+        {subPlaces && subPlaces.length > 0 && (
+          <div className="space-y-5">
+            {subPlaces.map((sub, idx) => (
+              <div
+                key={idx}
+                className="border border-border/60 rounded-xl p-4 bg-muted/30"
+              >
+                <div className="flex items-start gap-2 mb-2">
+                  <ChevronRight className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="font-semibold text-foreground text-sm">
+                      {sub.name}
+                    </p>
+                    {sub.location && (
+                      <p className="text-xs text-muted-foreground">
+                        {sub.location}
+                      </p>
+                    )}
+                  </div>
+                </div>
+                <p
+                  className="text-sm text-foreground/80 leading-relaxed pl-6"
+                  style={{ fontFamily: "'Lora', serif" }}
+                >
+                  {sub.description}
+                </p>
+                {sub.images && sub.images.length > 0 && (
+                  <div className="pl-6 mt-3">
+                    <ImageGrid
+                      images={sub.images}
+                      alt={sub.name}
+                      onImageClick={onImageClick}
+                    />
+                  </div>
+                )}
+                {sub.hasImage && !sub.images && (
+                  <div className="pl-6">
+                    <DocxImage
+                      label={sub.imageLabel ?? sub.name}
+                      source={sub.source}
+                      color="#3A7AAA"
+                    />
+                  </div>
+                )}
+                {sub.source && (!sub.hasImage || sub.images) && (
+                  <p className="text-xs text-muted-foreground mt-2 pl-6">
+                    {sub.source}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ─── Main page ──────────────────────────────────────────────────────────── */
+export default function KarnatakaPage() {
+  const [, setLocation] = useLocation();
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
+    null,
+  );
+  const openLightbox = (src: string, alt: string) => setLightbox({ src, alt });
+
+  return (
+    <div className="min-h-screen bg-background">
+      {lightbox && (
+        <Lightbox
+          src={lightbox.src}
+          alt={lightbox.alt}
+          onClose={() => setLightbox(null)}
+        />
+      )}
+
+      {/* Hero */}
+      <div
+        className="relative overflow-hidden"
+        style={{
+          background:
+            "linear-gradient(135deg, #D45A3A 0%, #C03020 40%, #4CAF84 100%)",
+        }}
+      >
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 right-0 w-96 h-96 rounded-full border-2 border-white -translate-y-1/2 translate-x-1/2" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full border-2 border-white translate-y-1/2 -translate-x-1/2" />
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto px-6 py-14">
+          <button
+            onClick={() => setLocation("/")}
+            className="flex items-center gap-2 text-white/80 hover:text-white transition-colors mb-8 text-sm font-medium"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Map
+          </button>
+          <div className="flex flex-col md:flex-row md:items-end gap-6">
+            <div className="flex-1">
+              <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 text-white/90 text-sm font-medium mb-4">
+                South India
+              </div>
+              <h1
+                className="text-5xl md:text-7xl font-bold text-white mb-3"
+                style={{ fontFamily: "'Cinzel', serif" }}
+              >
+                Karnataka
+              </h1>
+              <p
+                className="text-white/80 text-xl italic"
+                style={{ fontFamily: "'Lora', serif" }}
+              >
+                The Land of Sandalwood (Gandhada Gudi)
+              </p>
+            </div>
+            <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
+              <h3 className="text-white font-bold text-sm mb-3 uppercase tracking-wider">
+                Quick Facts
+              </h3>
+              <div className="space-y-2">
+                {[
+                  { label: "Capital", value: "Bengaluru" },
+                  { label: "Population", value: "7.21 Crore" },
+                  { label: "Area", value: "1,30,060 sq km" },
+                  { label: "Founded", value: "26 January 1950" },
+                  { label: "Language", value: "Kannada" },
+                  { label: "Districts", value: "31 Districts" },
+                ].map(({ label, value }) => (
+                  <div key={label} className="flex items-start gap-2">
+                    <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <span className="text-white/60 text-xs">{label}: </span>
+                      <span className="text-white text-xs font-medium">
+                        {value}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
+        {/* Capital */}
+        <Section title="Capital" icon="🏛️">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
+            <div className="text-5xl mb-3">🌆</div>
+            <h3
+              className="text-2xl font-bold text-foreground mb-1"
+              style={{ fontFamily: "'Cinzel', serif" }}
+            >
+              Bengaluru
+            </h3>
+            <p className="text-muted-foreground text-sm">
+              Capital of Karnataka — The Silicon Valley of India
+            </p>
+          </div>
+        </Section>
+
+        {/* Map of Tamil Nadu — click to enlarge */}
+        <Section title="Map of Karnataka" icon="🗺️">
+          <div className="flex flex-col items-center gap-3">
+            <div
+              className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
+              style={{ maxWidth: 520 }}
+              onClick={() => openLightbox(KarnatakaMap, "Map of Karnataka")}
+            >
+              <img
+                src={KarnatakaMap}
+                alt="Map of Karnataka"
+                className="w-full h-auto object-contain"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
+                <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 text-white rounded-full px-4 py-2 flex items-center gap-2 text-sm font-medium">
+                  <ZoomIn className="w-4 h-4" />
+                  Click to enlarge
+                </div>
+              </div>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              (src: mapsofindia.com) — Click the map to view full size
+            </p>
+          </div>
+        </Section>
+
+        {/* Brief Introduction */}
+        <Section title="Brief Introduction" icon="📜">
+          <div
+            className="space-y-4 text-base leading-relaxed"
+            style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
+          >
+            <p className="text-foreground">
+              Karnataka is a state in the southwestern region of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation Act, and renamed Karnataka in 1973. The state is bordered by the Lakshadweep Sea to the west, Goa to the northwest, Maharashtra to the north, Telangana to the northeast, Andhra Pradesh to the east, Tamil Nadu to the southeast, and Kerala to the southwest. With 61,130,704 inhabitants at the 2011 census, Karnataka is the eighth-largest state by population, comprising 31 districts. With 15,257,000 residents, the state capital Bengaluru is the largest city of Karnataka. 
+            </p>
+            <p className="text-foreground">
+             The capital of the state, Bengaluru, is known as the Silicon Valley of India, for its immense contributions to the country's information technology sector. A total of 1,973 companies in the state were found to have been involved in the IT sector as of 2007. 
+            </p>
+            <p className="text-foreground">
+             Karnataka is the only southern state to have land borders with all of the other four southern Indian sister states. The state covers an area of 191,791 km2 (74,051 mi2), or 5.83 per cent of the total geographical area of India. It is the sixth-largest Indian state by area. Kannada, one of the classical languages of India, is the most widely spoken and official language of the state. Other minority languages spoken include Urdu, Konkani, Marathi, Tulu, Tamil, Telugu, Malayalam, Kodava and Beary. Karnataka also contains some of the only villages in India where Sanskrit is primarily spoken. 
+            </p>
+            <p className="text-foreground">
+              The most important earlier name is Mysore State, which was the official name from 1956 until 1973. It was named after the princely state of Mysuru, which was a major cultural and political center. In 1973, the name was changed to “Karnataka” to better represent all regions and people of the state, not just Mysuru. 
+            </p>
+            <p className="text-foreground">
+               Karnataka is derived from the Kannada words karu and nādu, meaning "elevated land". Karu Nadu may also be read as karu, meaning "black" and nadu, meaning "region", as a reference to the black cotton soil found in the Bayalu Seeme region of the state. The British used the word Carnatic, sometimes Karnatak, to describe both sides of peninsular India, south of the Krishna. With an antiquity that dates to the Paleolithic, Karnataka has been home to some of the most powerful empires of ancient and medieval India. The philosophers and musical bards patronised by these empires launched socio-religious and literary movements which have endured to the present day. Karnataka has contributed significantly to both forms of Indian classical music, the Carnatic and Hindustani traditions. 
+            </p>
+            <p className="text-foreground">
+               Karnataka is derived from the Kannada words karu and nādu, meaning "elevated land". Karu Nadu may also be read as karu, meaning "black" and nadu, meaning "region", as a reference to the black cotton soil found in the Bayalu Seeme region of the state. The British used the word Carnatic, sometimes Karnatak, to describe both sides of peninsular India, south of the Krishna. With an antiquity that dates to the Paleolithic, Karnataka has been home to some of the most powerful empires of ancient and medieval India. The philosophers and musical bards patronised by these empires launched socio-religious and literary movements which have endured to the present day. Karnataka has contributed significantly to both forms of Indian classical music, the Carnatic and Hindustani traditions. After India gained independence in 1947, the process of reorganizing states began to bring together regions with similar languages and cultures. As a result, on 1 November 1956, Kannada-speaking regions from different parts of India were unified under the States Reorganisation Act to form a single state called Mysore State. This included areas from former provinces such as Bombay, Hyderabad, and Madras, as well as the old princely Mysore State. To reflect the broader identity of all Kannada-speaking people, the state was officially renamed Karnataka in 1973.Since its formation, Karnataka has grown into an important cultural and economic region of India. It has preserved its historical legacy while also emerging as a modern hub for education, industry, and especially information technology, with Bengaluru leading this transformation 
+            </p>
+            <p className="text-foreground italic text-primary font-medium">
+             Karnataka is home to several important rivers that support agriculture, water supply, and power generation. The most significant river is the Krishna River, which flows through the northern part of the state and is one of the major rivers of India. Its important tributaries in Karnataka include the Tungabhadra River and the Bhima River, both of which play a key role in irrigation and farming.Another major river is the Kaveri River (also called Cauvery), which originates in the Western Ghats and flows through southern Karnataka. It is extremely important for agriculture and drinking water, especially for cities like Bengaluru and Mysuru.The Sharavathi River is also notable, mainly because it forms the famous Jog Falls, one of the highest waterfalls in India, and is used for hydroelectric power generation.Other important rivers include the Hemavati River, Kabini River, and Malaprabha River, which contribute to irrigation and water resources across different regions of the state. 
+            </p>
+            <p className="text-xs text-muted-foreground">
+              (src: mapsofindia.com)
+            </p>
+          </div>
+        </Section>
+
+        {/* Festivals */}
+        <Section title="Festivals / Culture / Traditions" icon="🎉">
+          <div className="space-y-8">
+            {festivals.map((f, i) => (
+              <FestivalCard
+                key={i}
+                number={i + 1}
+                {...f}
+                onImageClick={openLightbox}
+              />
+            ))}
+          </div>
+        </Section>
+
+        {/* Historical Places */}
+        <Section title="Historical Places / Monuments" icon="🏯">
+          <div className="space-y-10">
+            {historicalPlaces.map((p, i) => (
+              <HistoricalPlaceCard
+                key={i}
+                number={i + 1}
+                {...p}
+                onImageClick={openLightbox}
+              />
+            ))}
+          </div>
+        </Section>
+
+        {/* Facts */}
+        <Section title="Facts about Tamil Nadu" icon="💡">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {facts.map((fact, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 bg-card border border-border rounded-xl p-4"
+              >
+                <CheckCircle className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                <p
+                  className="text-sm text-foreground leading-relaxed"
+                  style={{ fontFamily: "'Lora', serif" }}
+                >
+                  {fact}
+                </p>
+              </div>
+            ))}
+          </div>
+        </Section>
+
+        {/* Art Gallery */}
+        <Section title="Art Gallery" icon="🎨">
+          <p className="text-muted-foreground text-sm mb-4">
+            Scroll horizontally to explore Karnataka's iconic foods, crafts,
+            dance, and traditions.
+          </p>
+          <div className="overflow-x-auto pb-4">
+            <div className="flex gap-4" style={{ minWidth: "max-content" }}>
+              {artGallery.map((item, i) => {
+                const hasImg = "image" in item && !!item.image;
+                const Wrapper: React.ElementType = hasImg ? "button" : "div";
+                return (
+                  <Wrapper
+                    key={i}
+                    onClick={
+                      hasImg
+                        ? () => openLightbox(item.image as string, item.title)
+                        : undefined
+                    }
+                    className={`flex-shrink-0 w-44 rounded-xl border border-border bg-card overflow-hidden hover:shadow-md transition-shadow text-left ${hasImg ? "cursor-zoom-in group" : ""}`}
+                  >
+                    <div
+                      className="h-36 flex items-center justify-center overflow-hidden relative"
+                      style={{
+                        backgroundColor: item.color + "33",
+                        borderBottom: `2px solid ${item.color}44`,
+                      }}
+                    >
+                      {hasImg ? (
+                        <>
+                          <img
+                            src={item.image as string}
+                            alt={item.title}
+                            className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                          />
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                            <ZoomIn className="w-5 h-5 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
+                          </div>
+                        </>
+                      ) : (
+                        <span className="text-4xl">{item.emoji}</span>
+                      )}
+                    </div>
+                    <div className="p-3">
+                      <p className="font-semibold text-xs text-foreground leading-tight">
+                        {item.title}
+                      </p>
+                      {item.desc && (
+                        <p className="text-xs text-muted-foreground mt-1 leading-tight">
+                          {item.desc}
+                        </p>
+                      )}
+                    </div>
+                  </Wrapper>
+                );
+              })}
+            </div>
+          </div>
+        </Section>
+
+        {/* Back */}
+        <div className="text-center pt-4">
+          <button
+            onClick={() => setLocation("/")}
+            className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold hover:opacity-90 transition-opacity"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
+            <MapPin className="w-5 h-5" />
+            Explore the Full Map
+          </button>
+        </div>
+      </main>
+
+      <footer className="mt-16 bg-foreground/5 border-t border-border">
+        <div className="max-w-6xl mx-auto px-6 py-8 text-center">
+          <button
+            onClick={() => setLocation("/")}
+            className="text-primary font-semibold hover:underline text-sm"
+          >
+            ← Bharat Darpan
+          </button>
+          <p className="text-xs text-muted-foreground mt-2">
+            Preserving India's rich cultural legacy for generations to come
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+/* ─── DATA ───────────────────────────────────────────────────────────────── */
+
+const festivals = [
+  {
+    name: "Mysore Dasara",
+    tagline: "Nada Habba",
+    description:
+      'Mysore Dasara, known proudly as the "Nada Habba" or state festival of Karnataka, is a magnificent ten-day celebration steeped in centuries of royal history and deep spiritual devotion. The festival honors the grand victory of Goddess Chamundeshwari, an avatar of Durga, who defeated the fierce, buffalo-headed demon Mahishasura on the Chamundi Hills after a relentless ten-day battle. This legendary triumph of light over darkness gives the host city of Mysuru its very name, and the goddess is revered as the divine protector of the region. Historically, the grand tradition of this festival dates back to the 14th-century Vijayanagara Empire, where it was celebrated as a showcase of martial skill and state pride. Following the fall of the empire, the Wodeyar dynasty adopted the tradition in the year 1610 under King Raja Wodeyar I, later introducing the iconic special palace court, or durbar, and the majestic elephant-led parade. Today, the festival seamlessly blends its historic royal legacy with a massive state-sponsored cultural celebration that attracts visitors from all over the world. The stunning epicenter of the festivities is the Mysore Palace, which is illuminated every single evening of the festival by approximately 100,000 brilliant light bulbs, creating a breathtaking golden glow against the night sky. Families across the state participate by setting up Bomme Habba, an intricate, multi-tiered display of traditional dolls that honors the deities, while the ninth day is dedicated to Ayudha Pooja, where people worship the tools, instruments, and vehicles used in their daily lives. The spectacular grand finale takes place on the tenth day, known as Vijayadashami, with the world-famous Jamboo Savari procession. During this stunning parade, a majestic, caparisoned elephant carries a solid gold howdah weighing around 750 kilograms, which holds the revered idol of Goddess Chamundeshwari. This grand march travels from the glowing gates of the Mysore Palace to the Bannimantap grounds, accompanied by vibrant folk dancers, classical music bands, decorated horses, and colorful cultural floats, culminating in a historic torchlight parade that beautifully seals the spectacular celebration. ',
+    images: [Dasara1,Dasara2,Dasara3,Dasara4],
+    source: "(src:pinterest ,theunstumbled.com,english.mathrubhumi.com,travelogyindia.com  )",
+  },
+  {
+    name: "Ugadi",
+    tagline:
+      "Traditional New Year",
+    description:
+      "Ugadi is the vibrant, joyous festival that marks the traditional New Year for the people of Karnataka, arriving with the fresh energy of spring in the Hindu lunar month of Chaitra, which usually falls in late March or early April. The name itself is derived from the Sanskrit words yuga, meaning age, and adi, meaning beginning, perfectly capturing the essence of a fresh start. On this auspicious morning, families wake up before dawn for a ritualistic oil bath, after which they dress in their finest new traditional clothes. Homes are thoroughly cleaned and beautifully decorated with colorful rangoli patterns on the floor and fresh mango leaves hung across doorways. These vibrant green leaves are highly symbolic, representing prosperity, fertility, and a warm welcome to good fortune for the upcoming year.The true culinary and philosophical heart of Ugadi lies in the preparation of a unique, traditional dish known as Bevu-Bella. This preparation is a delicate mix of neem leaves, which carry a sharp bitterness, and sweet jaggery, often combined with tangy raw mango, spicy chili, and a pinch of salt. When family members share this symbolic mixture, it serves as a beautiful reminder that the upcoming year will bring a natural blend of joy and sorrow, success and challenges, all of which should be accepted with grace, patience, and equanimity. Following this ritual, families often visit local temples to seek blessings for health and prosperity, and they gather together to listen to the Panchanga Shravanam. During this special ritual, a priest or an elder reads aloud the astrological predictions for the new year, offering a fascinating glimpse into what the future holds for rain, agriculture, and general well-being. ",
+    images: [Ugadi1,Ugadi2,Ugadi3,Ugadi4],
+    source: "vidhyashomecooking.com ,sssmediacenter.org,ar.inspiredpencil.com  ",
+  },
+  {
+    name: "Makar Sankranti",
+    tagline:
+      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+    description:
+      "Makar Sankranti is one of the most auspicious and joyfully celebrated harvest festivals in Karnataka, marking the sun's transition into the zodiac sign of Makara (Capricorn) and the arrival of longer, warmer days. Falling annually in mid-January, this vibrant festival is a time of immense gratitude, especially among farming communities who celebrate the bountiful yield of the winter crops. Preparation begins days in advance with households clearing away the old to make way for the new, culminating on the festival morning when families dress in traditional attire and decorate their front courtyards with elaborate, colorful rangoli designs. A signature ritual deeply rooted in Karnataka's agrarian culture is the decoration of cattle, where cows and bulls are bathed, their horns are painted in bright hues, and they are adorned with colorful garlands to honor their hard work in the fields.At the heart of the festival's social and culinary tradition is the exchange of Ellu-Bella, a specially prepared sweet mixture made of white sesame seeds, fried groundnuts, finely cut dry coconut, pieces of jaggery, and roasted chana dal. People visit the homes of relatives, friends, and neighbors to share this treat along with pieces of sugarcane, uttering the famous Kannada phrase, 'Ellu bella thindu olle maathadi,' which translates to 'Eat sesame and jaggery and speak only sweet words.'This beautiful ritual is meant to sweeten relationships, resolve past differences, and usher in goodwill for the year ahead. As evening falls, rural communities gather for the thrilling and dramatic ritual of Kichchu Hayisuvudu, where farmers guide their decorated herds to leap over a small, controlled bonfire. This ancient practice is believed to ward off evil spirits, protect the livestock from disease, and bring good fortune and prosperity to the entire village.",
+    images: [Makar1,Makar2,Makar3,Makar4,Makar5],
+    source: "(src:sarasyummyrecipes.com,Pratap.j,pinterest.com,pinterest.com,vegecipiesofkarnataka.com )",
+  },
+  {
+    name: "Kannada Rajyostsava",
+    tagline:
+      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+    description:
+      "Kannada Rajyotsava, celebrated with immense pride and energy every year on November 1st, is the official statehood day of Karnataka. The festival commemorates the historic unification of all Kannada-speaking regions of South India under a single administration. Before this monumental unification, the Kannada-speaking population was fragmented across different territories, including the princely state of Mysore, the Hyderabad Nizam's territory, and the Madras and Bombay Presidencies. Decades of dedicated efforts by visionary leaders and literary icons through the Karnataka Ekikarana (Unification) Movement culminated on November 1, 1956, when these scattered regions were officially merged under the States Reorganisation Act to form a unified entity initially called Mysore State. To honor the linguistic identity and cultural roots of the entire region, the state was officially renamed Karnataka on November 1, 1973, under the leadership of Chief Minister D. Devaraj Aras, drawing from the ancient word 'Karunadu,' which beautifully translates to 'lofty land.' On this vibrant day, the entire state transforms into a sea of red and yellow, which are the iconic colors of the unofficial state flag, symbolizing courage and peace. The grandest official celebrations take place in Bengaluru at the Kanteerava Stadium, where the Chief Minister hoists the state flag and delivers an inspiring address, followed by the collective chanting of the state anthem, 'Jaya Bharatha Jananiya Tanujate.' A major highlight of the state-sponsored festivities is the announcement and presentation of the prestigious Rajyotsava Awards, the second-highest civilian honor in the state, which recognizes individuals who have made outstanding contributions to fields like literature, science, arts, sports, and social service. Across cities and villages, the atmosphere is electric with local community groups, schools, and commercial hubs organizing vibrant cultural programs, street processions, motorcycle rallies, and traditional folk dance performances like Dollu Kunitha and Yakshagana, uniting people of all backgrounds in a joyful celebration of Kannada heritage, language, and shared identity.  ",
+    images: [kan1,kan2,kan3],
+    source: "(src:kararnatakatourism.com,oneindia.com,indainexpress.com   )",
+  },
+  {
+    name: "Hampi Festival",
+    tagline:
+      "Vijaya Utsav",
+    description:
+      "The Hampi Festival, popularly known as the Vijaya Utsav, is a magnificent three-day cultural extravaganza celebrated annually amidst the breathtaking ruins of Hampi, a UNESCO World Heritage Site in Karnataka. Historically rooted in the glorious era of the Vijayanagara Empire, this festival was originally celebrated as 'Vasantotsava' to honor royal victories and promote the  rich artistic traditions under the patronage of rulers like Emperor Krishnadevaraya. Organized entirely by the Government of Karnataka as a 'Nada Utsava' (State Festival), the grand event serves as a vibrant bridge between the past and present, successfully recreating the opulence of the medieval golden age. During the festival, the ancient stone monuments, temples, and rugged boulder landscapes are brilliantly illuminated at night, creating a magical backdrop for performances by renowned classical musicians, dancers, and folk artists from across India. The celebrations kick off with a grand cultural procession called the 'Jambu Savari,' featuring beautifully adorned elephants, horses, and performers dressed in traditional military attire, marching alongside the famous 'Janapada Kalavahini'—a massive parade showcasing the diverse folk dances and songs of Karnataka. Visitors can witness spectacular light-and-sound shows detailing the empire's history, traditional puppet shows, exciting rural sports like traditional wrestling (Kusti), and thrilling adventure activities like rock climbing and water sports on the Tungabhadra River. The festival also highlights local heritage through bustling handicraft exhibitions and food courts serving authentic regional cuisine. Held typically between November and February depending on dates announced by the government, the Vijaya Utsav requires no entry fee for visitors, making it one of the largest and most accessible heritage carnivals in South India.',
+    images: [Hampi1,Hampi2,Hampi3],
+    source: "clubmahindra.com ,bharattravelguru.com ,cultureheritage.com ",
+  },
+  {
+    name: "Kambala festival",
+    tagline: "Set before an open-air stage created 13 centuries ago.",
+    description:
+      "The Kambala Festival is an exhilarating, centuries-old traditional buffalo racing event celebrated primarily by the farming community in the coastal districts of Karnataka, including Dakshina Kannada and Udupi, a region collectively known as Tulu Nadu. Held annually between November and March after the paddy harvest, this vibrant rural spectacle serves as a profound gesture of gratitude to Lord Kadri Manjunatha (an incarnation of Lord Shiva) for a bountiful crop and to pray for the good health and protection of the farm animals. Historically, some roots of the festival are also traced back to the Hoysala period, when kings supposedly used the races to test the speed and strength of buffaloes for potential military use. Unlike regular festivals, Kambala is structured as a series of highly competitive weekend events organized across nearly 45 different villages, drawing massive, passionate crowds of over 20,000 spectators who gather to cheer on their local champions. The heart-pounding action unfolds on parallel, 140-meter-long tracks filled with thick, slushy mud and water, where professionally trained and heavily pampered pairs of buffaloes sprint at breathtaking speeds of up to 50 kilometers per hour. A highly athletic, barefoot jockey runs alongside or stands precariously behind the massive beasts on a specially designed wooden plank called a halage. The competitions are rigorously organized into distinct categories based on experience and equipment, ranging from Negilu (for entry-level buffaloes using a light wooden plow) to Kene Halage, an elite senior category where the winner is determined by the sheer height of the muddy water forced upward through holes in the wooden plank as they speed through the track. While historically the winners were rewarded with coconuts and bananas, modern-day champions compete for prestigious gold and silver coins, cash prizes, and immense community honor. Following strict guidelines from the Supreme Court of India to ensure animal welfare and prevent cruelty, contemporary Kambala races are closely monitored to protect the buffaloes, successfully preserving this electrifying slice of South Canara's rich agricultural heritage.  ",
+    images: [Kambala1,Kambala2,],
+    source: "(src: oneindia.com,kaleidoscope.in)",
+  },
+  {
+    name: "Bengaluru karaga",
+    tagline:
+      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
+    description:
+      "The Bengaluru Karaga is one of the oldest, most vibrant, and continuous folk festivals celebrated in the heart of Karnataka's capital. Spanning 11 days, the grand event is deeply rooted in the epic Mahabharata and revolves around the worship of Draupadi, who is revered by devotees as an incarnation of Adishakti (the Goddess of supreme power). According to local mythology, toward the end of her earthly journey, Draupadi created an army of brave soldiers called Veerakumaras to defeat a demon named Timirasura. When she later ascended to heaven, she promised these loyal warriors that she would return to earth once a year, an event commemorated by the festival's main procession on the full moon night of the Hindu month of Chaitra (typically March or April). The custodians of this ancient tradition are the Thigala community, a group historically skilled in agriculture and horticulture who migrated to the region centuries ago and have meticulously preserved the festival's complex rituals for generations. The spiritual and geographic epicenter of the festivities is the historic Sri Dharmaraya Swamy Temple in Thigalarapete, central Bengaluru. The ultimate highlight of the entire festival occurs at midnight on the final night, when the chief temple priest—undergoing rigorous physical and spiritual preparation, and dressed traditionally in female bridal attire to embody the Goddess—emerges from the sanctum bearing the Karaga. The Karaga is a sacred, unbaked mud pot filled with water and intricately covered with a massive, pyramidal structure of fresh jasmine flowers, which the priest must balance perfectly on his head without touching it with his hands. Escorted by hundreds of bare-chested Veerakumaras wielding gleaming swords, the priest leads a spectacular, night-long procession that dances through the old, narrow streets of Bengaluru. In a beautiful display of communal harmony and an unbroken historic tradition, the procession halts at the Hazrat Tawakkal Mastan Dargah, a Sufi shrine, where prayers are exchanged before returning to the temple at sunrise. Beyond its deep spiritual significance, the Bengaluru Karaga also celebrates nature and the city’s historic water body network, ensuring that the ancient socio-cultural landscape of old Bangalore remains alive amid the modern metropolis.    ",
+    images: [Karaga1,Karaga2,Karaga3],
+    source: "careerindia.com ,imvoyager.com",
+  },
+  {
+    name: "Mahamastakabhisheka",
+    tagline: "Literally means the festival of 'nine nights'.",
+    description:
+      "The Mahamastakabhisheka is a magnificent, deeply sacred Jain festival held once every 12 years in the historic town of Shravanabelagola, Karnataka. The grand event centers around the ritual bathing and anointment of the colossal, 57-foot-tall monolithic statue of Lord Bahubali (also known as Gommateshwara), which was carved out of a single granite block atop the Vindhyagiri Hill under the patronage of Chavundaraya, a general of the Western Ganga Dynasty, in 981 CE. Lord Bahubali is revered in Jainism as the first ascetic to achieve liberation (moksha) in this cosmic age, symbolizing ultimate peace, selflessness, and non-violence (ahimsa). The festival attracts millions of devotees, monks, and spiritual seekers from across the globe, transforming the quiet town into a major international pilgrimage center for several weeks.To conduct the ritual, a massive, specially engineered scaffolding is erected behind the ancient statue so that priests and devotees can access the top of the monument. The high point of the festival is the spectacular, multi-day anointment process, where hundreds of holy pots (kalashas) containing sacred water, fresh milk, sugarcane juice, tender coconut water, and rice flour are poured over the head of the deity. As the liquids cascade down the monolithic structure, the statue is further bathed in vibrant pastes of sandalwood, saffron, and turmeric, followed by a shower of precious stones, gold coins, and millions of flower petals. Each substance poured during the ceremony carries deep symbolic meaning, representing the purification of the soul, the washing away of worldly attachments, and the celebration of inner peace. Because it occurs only once over a span of more than a decade, the Mahamastakabhisheka stands as one of the rarest, most visually stunning, and spiritually profound heritage celebrations in India. ",
+    images: [Abhi1,Abhi2,],
+    source: "(Ar.inspiredpencil.com,nriol.com )",
+  },
+];
+
+const historicalPlaces = [
+  {
+    name: " Pattadakal (UNESCO Site)",
+    description:
+      "Pattadakal (Pattadakallu), also called Raktapura, is a complex of 7th and 8th century CE Hindu and Jain temples in northern Karnataka, India. Located on the west bank of the Malaprabha River in Bagalkot district, this UNESCO World Heritage Site is 23 kilometres (14 mi) from Badami and about 9.7 kilometres (6 mi) from Aihole, both of which are historically significant centres of Chalukya monuments. The monument is a protected site under Indian law and is managed by the Archaeological Survey of India (ASI) UNESCO has described Pattadakal as 'a harmonious blend of architectural forms from northern and southern India' and an illustration of 'eclectic art' at its height.[2] The Hindu temples are generally dedicated to Shiva, but elements of Vaishnavism and Shaktism theology and legends are also featured. The friezes in the Hindu temples display various Vedic and Puranic concepts, depict stories from the Ramayana, the Mahabharata, the Bhagavata Purana, as well as elements of other Hindu texts, such as the Panchatantra and the Kirātārjunīya. The Jain temple is only dedicated to a single Jina. The most sophisticated temples, with complex friezes and a fusion of Northern and Southern styles, are found in the Papanatha and Virupaksha temples.[8][9] The Virupaksha temple is an active house of Hindu worship.The Malaprabha River, a tributary of the Krishna River cutting across the valley of mountains surrounded and the plains has great importance and place in this history of south India. The origin of this river is from Kanakumbi, Belagavi district, in the western ghats region flows towards the eastern side. Just one kilometre (0.62 mi) before reaching Pattadakal it starts flowing from south to north. As per the Hindu tradition, a river that flows in the north direction is also called Uttarvahini Ganga.  ",
+    images: [Kallu],
+  },
+  {
+    name: "BADAMI CAVE TEMPLES",
+    description:
+      "The Badami cave temples are a complex of Buddhist, Hindu and Jain cave temples located in Badami, a town in the Bagalkot district in northern part of Karnataka, India. The caves are important examples of Indian rock-cut architecture, especially Badami Chalukya architecture, and the earliest date from the 6th century. Badami is a modern name and was previously known as 'Vataapi', the capital of the early Chalukya dynasty, which ruled much of Karnataka from the 6th to the 8th century. Badami is situated on the west bank of a man-made lake ringed by an earthen wall with stone steps; it is surrounded on the north and south by forts built during Early Chalukya and in later times. The Badami cave temples represent some of the earliest known examples of Hindu temples in the Deccan region. They along with the temples in Aihole transformed the Mallaprabha River valley into a cradle of temple architecture that influenced the components of later Hindu temples elsewhere in India.The 4 caves are all in the escarpment of the hill in soft Badami sandstone formation, to the south-east of the town. In Cave 1, among various sculptures of Hindu divinities and themes, a prominent carving is of the dancing Shiva as Nataraja. Cave 2 is mostly similar to Cave 1 in terms of its layout and dimensions, featuring Hindu subjects of which the Hari Hara, Ardhanari shiva, Mahishamardini, Dwi Bahu Ganesha and Skanda in a separate antichamber on extended cave at western side-next to great Nataraja sculpture. Cave 2 has premier images of relief of Vishnu as Trivikrama is the largest. The largest cave is Cave 3, featuring Vishnu as Ananta seated on coiled serpent, Varaha with Bhudevi, Harihara, Narasimha in standing posture, great image of Trivikrama and Virata Vishnu. The cave has fine carvings exhibiting matured stage of Karnataka ancient art. Cave 4 is dedicated to revered figures of Jainism. Around the lake, Badami has additional caves of which one may be a Buddhist cave. Another Cave like gallery known as Arali Tirtha has around twenty seven carvings. ",
+    images:[Cave1,Cave2],
+    src:"Wikipedia.com",
+  },
+  {
+    name: "Hampi",
+    description:
+      "Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra. Hampi continues as a religious centre, with the Virupaksha Temple, an active Adi Shankara-linked monastery and various monuments belonging to the old city. Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra. Hampi continues as a religious centre, with the Virupaksha Temple, an active Adi Shankara-linked monastery and various monuments belonging to the old city. Situated in Karnataka, close to the contemporary town of Hampi with the city of Hosapete 13 kilometres (8.1 miles) away, Hampi's ruins are spread over 4,100 hectares (16 sq mi) and it has been described by UNESCO as an 'austere, grandiose site' of more than 1,600 surviving remains of the last great Hindu kingdom in South India that includes forts, riverside features, royal and sacred complexes, temples, shrines, pillared halls, mandapas, memorial structures, water structures and others social utilities such as stepwell water tanks with artistic carvings near major temples.",
+    images: [Hampi1,Hampi2,],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Thungabhadra Dam",
+    description:
+      "The Tungabhadra Dam, also known as Pampa Sagar, is a water reservoir constructed across the Tungabhadra River in the Hosapete-Koppal confluence in Karnataka, India. It is a multipurpose dam serving irrigation, electricity generation, flood control, etc. for the state. It is India's largest stone masonry dam and one of the only two[citation needed] non-cement dams in the country, the other being the Mullaperiyar Dam in Kerala. The dam is built of surki mortar, a combination of mud and limestone, commonly used at the time of its construction.The dam was a joint project undertaken in 1949 by the erstwhile Kingdom of Hyderabad and Madras Presidency when the construction began, later, after India's constitution into a republic in 1950, it became a joint project between the governments of Madras and Hyderabad states. The construction was completed in 1953. The Tungabhadra Dam has withstood the test of time for over 70 years and is expected to well cross many more decades. The chief architects of the dam were Vepa Krishnamurthy and Pallimalli Papaiah of Hyderabad and M. S. Tirumale Iyengar of Madras. They envisioned it as being built with a large contingent of material and manual labour, as best suited to Indian labour availability and employment at that time. The chief contractor for the dam was Venkat Reddy Mulamalla from Konour, a village in Mahabubnagar, Telangana. The northern canal on the Hyderabad side (now Telangana) takes off from the combined irrigation and power sluices. The first 19 miles of the canal is in a rugged terrain cutting through three ranges of hills and is held up by three reservoirs at miles 8, 14 and 16 respectively. The canal negotiates the last range of hills by means of a tunnel, named as Papaiah Tunnel, and enters open country. ",
+    images: [Dam1,Dam2],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Daroji Sloth Bear Sanctuary",
+    description:
+      "Daroji Sloth Bear Sanctuary is located in Ballari district in Karnataka. This is Asia's first sloth bear sanctuary. It is spread over 82.72 km2 (31.94 sq mi). The sanctuary was created exclusively for the conservation of the sloth bear. It is about 50 km from Ballari and about 15 km from the World Heritage Site Hampi. The area between Daroji in Sandur taluka and Ramasagar of Hospet Taluk is host to numerous sloth bears. In October 1994, the Government of Karnataka, declared 5587.30 hectares of the Bilikallu Forest Reserve as Daroji Bear Sanctuary.15 years later, in October 2009, the government added 2685.50 hectares of the Bukkasagara Forest Reserve to the sanctuary. This resulted in the overall area to increase from 5587.3 hectares to 8272.8 hectares.The sanctuary is open between 14:00 and 18:00 every day. There is a watchtower within the sanctuary, opposite Karadikallu Gudda, that provides a vantage point to view the bears descending from the adjacent hillocks during evening hours. Kishkindha, the historical kingdom of Sugriva described in the Ramayana, is believed to be located on the bank of the Tungabhadra River. In the war against Ravana, Kishkinda, the monkey kingdom of Sugriva, was Rama’s ally. When Rama’s army crossed Hampi en route to Lanka, they met Jambavantha, a bear who joined the army. ",
+    images: [Daroji1],
+  },
+  {
+    name: "Mahalakshmi Temple ",
+    description:
+      "The Mahalakshmi Temple in Belagavi, Karnataka, India, is a revered Hindu pilgrimage site dedicated to Goddess Mahalakshmi, the consort of Lord Vishnu and goddess of prosperity. Known for its Dravidian-style architecture and historic significance, the temple attracts devotees year-round, especially during Navaratri and Diwali festivals. The Mahalakshmi Temple of Belagavi dates back several centuries and is among the region’s most venerated shrines. Though not as ancient as the Kolhapur Mahalakshmi Temple, it has long served as a cultural and spiritual hub for the surrounding community. Its sanctum houses a finely sculpted idol of Goddess Mahalakshmi, traditionally believed to grant wealth and well-being.Built primarily in stone, the temple exhibits a blend of early Chalukyan and later South Indian architectural features. The gopuram (tower) is adorned with carvings of deities, floral motifs, and mythological scenes. The sanctum (garbhagriha) enshrines the idol of Mahalakshmi, typically depicted seated on a lotus. Smaller shrines within the complex are dedicated to Vishnu, Ganapati, and other deities. The temple serves as a focal point of devotion during Navaratri when thousands of pilgrims visit for darshan and special pujas. It also plays a vital role in regional traditions that celebrate female divinity and prosperity. Local festivals and rituals blend Sanskritic and Kannada practices, reflecting Belagavi’s composite cultural heritage. ",
+    images: [ ],
+    source: "",
+  },
+  {
+    name: "Gokak Waterfalls",
+    description:
+      "Gokak Falls is a dramatic waterfall on the Ghataprabha River near Gokak town in the Belagavi district of Karnataka, India. Often called the “Niagara of Karnataka,” it is known for its horseshoe-shaped crest, reddish sandstone cliffs, and scenic monsoon torrents. The site combines natural grandeur with historical and industrial significance.The Ghataprabha River meanders through rugged terrain before plunging over a sandstone cliff into the Gokak gorge. The surrounding valley is characterized by red laterite hills and dense vegetation. The falls reach their fullest volume during the southwest monsoon (June–September), when mist and spray envelop the gorge. Gokak Falls holds a special place in India’s industrial history—electricity was first generated here in 1887 through a pioneering hydroelectric station established during the British era. Nearby are temples dedicated to Lord Mahalingeshwara, Goddess Durga, and Lord Shanmukha, reflecting late Chalukya architecture with intricate carvings and stone sanctum.A 200-meter-long hanging bridge suspended 14 meters above the river offers striking panoramic views of the cascade. Ropeway access to the old power station adds to the adventure. The area is best visited between July and October, while swimming is discouraged due to strong currents. Nearby attractions include Godachinmalki Falls and Yellamma Temple.  ",
+    images: [Falls1,Falls2],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Yellur Fort",
+    description:
+      "Yellur Fort originated under the Ratta dynasty as a sentinel outpost for the Belagavi Fort. Its hilltop site allowed early detection of enemy movements from Goa and Karwar. Control later passed among the Yadavas, Bahmanis, Adil Shahis, Marathas, and British. During colonial rule about 100 soldiers were stationed there, supplied via Belagavi. Local legend speaks of a secret tunnel linking the two forts.The compact fort reflects medieval Indian military design—robust granite ramparts, bastions with peepholes, and arched gateways laid out in the Gomukhi (cow-face) pattern. Inside stand an ancient Lord Shiva temple, a sweet-water well, and small exit passages once used during sieges. Traces of Persian-influenced masonry by Asad Khan Lari of Bijapur survive from later renovations.Encircled by rice fields and forested slopes, Rajhansgad commands 360-degree views of Belagavi city and neighboring villages. It hosts Monday worship at the hilltop Shiva temple and community-funded upkeep by nearby settlements. A 50-foot statue of Chhatrapati Shivaji Maharaj, inaugurated in 2024, honors the Maratha heritage and crowns the summit as a civic landmark. ",
+    images: [Fort1,Fort2],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "NARASIMHA JHIRA CAVE ",
+    description:
+      "The Narasimha Jhira Cave Temple is a Hindu pilgrimage site near Bidar, Karnataka, India, dedicated to Lord Narasimha, an incarnation of Vishnu. The temple is distinctive for its subterranean setting, where devotees wade through a natural water stream to reach the sanctum, symbolizing purification and devotion.The temple lies within a 300-meter-long natural cave carved through laterite rock. Pilgrims must walk waist-deep through water that flows continuously through the cave to reach the shrine. The water, believed to originate from an underground spring, remains at a steady level year-round and is considered sacred .The shrine enshrines an idol of Lord Narasimha said to have self-manifested (swayambhu). According to legend, the deity appeared to save his devotee Prahlada by slaying the demon Hiranyakashipu. The act is commemorated through ritual worship, drawing devotees especially during Narasimha Jayanti and Kartika Deepotsava festivals.Visiting the temple is viewed as both a physical and spiritual journey. Devotees chant hymns while wading through the cool, dark cave, an act symbolizing passage through ignorance into divine illumination. Offerings include flowers, coconuts, and lamps floated on the water near the sanctum. The Narasimha Jhira Cave Temple forms part of Bidar’s rich religious landscape, alongside historical sites like the Bidar Fort and Gurudwara Nanak Jhira Sahib. It exemplifies the region’s syncretic heritage and is a notable example of Karnataka’s enduring cave temple tradition.  ",
+    images: [Jhira1],
+    source: "(src:blog.yatradham.org)",
+  },
+  {
+    name: "Bidar Fort",
+    description:
+      "Bidar Fort is a massive medieval citadel located in Bidar, Karnataka, India. Built in the 15th century under the Bahmani Sultanate, it represents a blend of Persian, Turkish, and local Deccan architectural styles. The fort is renowned for its defensive design, ornate palaces, and the role it played as a capital of medieval southern India.Bidar became the capital of the Bahmani Kingdom when Sultan Ahmad Shah I shifted his court from Gulbarga to Bidar around 1427. The fort’s site was earlier used by the Western Chalukya dynasty and rebuilt into an imposing citadel of laterite stone with a triple moat and high ramparts. It served as an administrative and cultural hub through Bahmani, Barid Shahi, Mughal, and Nizam rule.The fort is laid out on a rhombic plateau edge, encircled by three miles of walls and moats. Its gateways—Sharza Darwaza, Gumbad Darwaza, and others—combine engineering precision with aesthetic grandeur. Inside are palaces such as Rangeen Mahal, Takht Mahal, and Gagan Mahal; the vast Solah Khamba Mosque; the royal bath (Shahi Hammam); and audience halls (Diwan-i-Am, Diwan-i-Khas). Intricate tile mosaics, mother-of-pearl inlay, and Persian floral motifs reflect the Bahmani court’s artistry.Bidar Fort anchors the city’s identity as “The City of Whispering Monuments.” It showcases Deccan’s fusion of Persian and Indian aesthetics and remains central to regional tourism. The fort complex includes over 30 Islamic monuments and offers panoramic views of Bidar. It is also near notable sites like the Bahmani Tombs (Ashtur) and Guru Nanak Jhira Sahib.  ",
+    images: [Bidar1,Bidar2],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Bandipur National Park",
+    description:
+      "Bandipur National Park, in the Chamarajanagar district of southern India, is one of the country’s best-known wildlife reserves and a core part of the Nilgiri Biosphere Reserve. Established in 1974 under Project Tiger, it safeguards tigers, elephants, and rich biodiversity across 874 km² of protected forest. Its scenic setting in the Western Ghats makes it a prime eco-tourism and conservation destination. Originally the Mysore Kingdom maharajas’ private hunting ground, Bandipur evolved into the Venugopala Wildlife Park in 1931 before its upgrade to national park status in 1974. It lies along the Mysore–Ooty Highway at altitudes from 680 to 1,450 m, forming wildlife corridors that link the Nilgiri Hills across three states. The park’s terrain mixes gentle hills, teak and sandalwood forests, and watercourses fed by the Kabini River. Bandipur hosts more than 35 mammal species and over 200 birds. Flagship animals include the Bengal tiger, Asiatic elephant, leopard, gaur (Indian bison), dhole (wild dog), sambar, and sloth bear. Reptiles such as the Indian python and marsh crocodile thrive near water bodies. Teak, rosewood, bamboo, and sandalwood dominate its vegetation, supporting a layered food web that sustains the park’s predators and herbivores. Safaris—by jeep or bus—run at dawn and dusk under forest-department supervision. Himavad Gopalaswamy Betta, the park’s highest hill crowned with a mist-cloaked Krishna temple, offers panoramic views and frequent elephant sightings. Additional attractions include the Moyar Gorge Viewpoint, birdwatching trails, and interpretation centers near the reception area.  ",
+    images: [Bandi1,Bandi2],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Male Mahadeshwara Hills ",
+    description:
+      "Male Mahadeshwara Hills, or MM Hills, is a sacred hill range and pilgrimage site located in Hanur taluk, Chamarajanagar district, Karnataka, India. Centered on the ancient Sri Male Mahadeshwara Temple dedicated to Lord Shiva, it is both a major Shaiva spiritual destination and a biodiversity-rich forest landscape forming part of the Male Mahadeshwara Wildlife Sanctuary.Situated at the confluence of the Eastern and Western Ghats, the hills act as a natural bridge between the ranges. The Kaveri River bounds them to the northeast and the Palar River to the south. The terrain includes seven principal peaks—Anemale, Jenumale, Kadumale, Kanumale, Ponnachimale, Pavalamale, and Pachchemale—covered in dry and moist deciduous forests with patches of evergreen vegetation.The site honors the saint Male Mahadeshwara Swamy, believed to be a 15th-century incarnation of Lord Shiva. According to legend, he rode a tiger, performed miracles, and spread teachings of non-violence. The self-manifested (Swayambhu) Linga in the temple’s garbha gudi (sanctum) is central to worship. Annual festivals such as Maha Shivaratri and Deepavali draw lakhs of pilgrims, accompanied by “Kamsale,” a devotional folk dance using bronze cymbals. ",
+    images: [Hills],
+    source: "Wikipedia",
+  },
+  {
+    name: "Nandi Hills ",
+    description:
+      "Nandi Hills, also known as , is a scenic hill station and historical fortress located in the Chikkaballapur district of Karnataka, India, about 60 km north of Bengaluru. Rising to 1,478 m (4,851 ft) above sea level, it offers panoramic views, a cool climate, and rich cultural heritage, making it one of southern India’s most popular weekend getaways.Nandi Hills, also known as , is a scenic hill station and historical fortress located in the Chikkaballapur district of Karnataka, India, about 60 km north of Bengaluru. Rising to 1,478 m (4,851 ft) above sea level, it offers panoramic views, a cool climate, and rich cultural heritage, making it one of southern India’s most popular weekend getaways.Nandi Hills, also known as , is a scenic hill station and historical fortress located in the Chikkaballapur district of Karnataka, India, about 60 km north of Bengaluru. Rising to 1,478 m (4,851 ft) above sea level, it offers panoramic views, a cool climate, and rich cultural heritage, making it one of southern India’s most popular weekend getaways.Nandi Hills attracts trekkers, cyclists, and paragliders. The sunrise viewpoint near the summit—nicknamed “Gateway to Heaven”—is among the most photographed in Karnataka. Visitors also explore the Brahmashram Cave, where sage Ramakrishna Paramahamsa is believed to have meditated, and the landscaped gardens created during British rule.Blending spirituality, ecology, and history, Nandi Hills remains an enduring symbol of Karnataka’s natural beauty and cultural depth—offering both adventure and tranquility within easy reach of the state’s capital. ",
+    images: [Nandi1,Nandi2],
+    source: "(src:Wikipedia)",
+  },
+  {
+    name: "Bhoga Nandeeshwara Temple",
+    description:
+      "Bhoga Nandeeshwara Temple is an ancient Hindu complex at the base of Nandi Hills in Chikkaballapur district, Karnataka, India. Dedicated to Lord Shiva, it is among the oldest surviving temples in the state and a significant example of early Dravidian architecture. The site is protected by the Archaeological Survey of India for its historical and cultural importance.Inscriptions date the temple to around 806–810 CE, under the Nolamba dynasty and Rashtrakuta Empire. Tradition attributes its foundation to Queen Ratnavali, consort of the Bana king Vidyadhara. Over the centuries, the Western Ganga dynasty, Chola dynasty, Hoysala Empire, and Vijayanagara Empire added distinctive architectural elements. Later, it came under Mysore rulers before British rule.The complex represents a fusion of dynastic styles within a Dravidian layout. It consists of twin shrines—Arunachaleshwara in the south (Ganga period) and Bhoga Nandeeshwara in the north (Chola period)—with a smaller Uma Maheshwara shrine between them built by the Hoysalas. The Uma Maheshwara Kalyana Mandapa, supported by finely carved black-stone pillars, depicts divine couples such as Shiva-Parvati and Vishnu-Lakshmi. A massive stepped tank, Shringi Theertha, believed to be the source of the South Pinakini River, completes the ensemble.The temple symbolizes three life stages of Shiva—childhood (Arunachaleshwara), youth (Bhoga Nandeeshwara), and marriage (Uma Maheshwara)—while the mountaintop Yoga Nandeeshwara Temple represents renunciation. It remains an active place of worship, particularly during Maha Shivaratri, and is popular among newly married couples seeking divine blessings. ",
+    images: [Bhoga1,Bhoga2],
+    source: "(src: Wikipedia, )",
+  },
+ {
+    name: "Baba Budangiri",
+    description:
+      "Baba Budangiri is a mountain range and revered pilgrimage site in the Chikkamagaluru district of Karnataka, India. Part of the Western Ghats, it is named after the 17th-century Sufi saint Baba Budan and holds deep religious and ecological significance.Baba Budangiri forms part of the larger Mullayanagiri–Kemmangundi range in the Western Ghats. The region features rolling grasslands, shola forests, and numerous trekking routes. It is known for its mist-covered peaks, caves, and waterfalls such as Manikyadhara Falls. The area is a biodiversity hotspot and supports coffee plantations that are integral to the local economy. The site houses the shrine of Sufi saint Baba Budan, who is traditionally believed to have introduced coffee cultivation to India by bringing beans from Yemen. It is also revered by Hindus as the abode of the sage Dattatreya, making it a unique symbol of syncretic worship. Annual urs and jatra festivals attract pilgrims from both faiths.The range is a popular trekking and sightseeing destination, offering panoramic views of the Western Ghats. Treks often link Baba Budangiri to nearby Mullayanagiri, the highest peak in Karnataka. Visitors also explore surrounding coffee estates and scenic viewpoints accessible by road from Chikkamagaluru town.Due to its ecological sensitivity and cultural diversity, Baba Budangiri has been the focus of conservation efforts balancing tourism, pilgrimage, and environmental preservation. The area remains a symbol of Karnataka’s natural beauty and interfaith heritage.  ",
+    images: [Baba1,Baba2],
+    source: "(src: Wikipedia, )",
+  },
+ {
+    name: "Mullayanagiri",
+    description:
+      "Mullayanagiri is the highest peak in Karnataka, India, rising within the Chikkamagaluru district of the Western Ghats. Standing at about 1,930 meters (6,330 feet) above sea level, it is one of South India’s most popular trekking and pilgrimage destinations, known for panoramic views and a hilltop Shiva temple.Located about 20 km from Chikkamagaluru town, Mullayanagiri forms part of the Baba Budangiri range of the Western Ghats. The region features rolling grasslands, rugged cliffs, and shola (montane forest) patches that support rich biodiversity. Its altitude provides cooler temperatures and misty conditions for much of the year. At the summit stands a small temple dedicated to Lord Shiva, locally known as Mullappa Swamy Temple. The peak is considered sacred by devotees who undertake pilgrimages, often climbing a steep stairway carved into the rock. The area is also associated with the nearby Baba Budangiri hills, revered in both Hindu and Sufi traditions.Mullayanagiri is a major trekking hub in Karnataka, offering trails of varying difficulty from Sarpadhari to the summit. The route provides panoramic views of the Chikkamagaluru valley and adjacent peaks like Seethalayyanagiri. The terrain’s mix of grassland slopes and rocky ridges makes it ideal for adventure tourism and photography. The region experiences a tropical highland climate, with heavy monsoon rains from June to August. Visitors typically prefer the post-monsoon months for clearer skies and cooler temperatures. Mullayanagiri is accessible by road from Chikkamagaluru and attracts both local pilgrims and nature enthusiasts year-round.   ",
+    images: [Giri1],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Chitradurga Fort ",
+    description:
+      "Chitradurga Fort, locally known as Elusuttina Kote (“Fort of Seven Circles”), is a vast hill fortress in the Chitradurga district of Karnataka, India. Built atop granite hills, it exemplifies South India’s medieval military architecture and regional legends of valor. Once a stronghold of the Nayakas, it later fell to Hyder Ali and then the British.Archaeological evidence shows occupation since the 3rd century BCE, including minor edicts of Emperor Ashoka. The fort gained prominence under the Nayakas of Chitradurga, who expanded it from a Vijayanagara outpost into a formidable citadel by the 17th century. In 1779, it was captured by Hyder Ali of the Kingdom of Mysore and later garrisoned by the British as “Chitaldoorg.” The fortress spans seven concentric stone walls climbing the rugged Chinmuladri hills, connected by zigzagging paths that confound attackers. Its 19 gateways, 38 postern doors, and 4 secret passages demonstrate strategic ingenuity. Ingenious rainwater-harvesting tanks—such as Akka and Thangi Honda—collected monsoon water in cascades, ensuring year-round supply during sieges. Numerous shrines, including the ancient Hidimbeshwara, Ekanatheshwari, and Gopalaswamy temples, blend Vijayanagara and Dravidian styles. The site is linked to the Mahabharata legend of Bhima and the demon Hidimbasura, commemorated at the Hidimbeshwara temple. A celebrated episode of resistance is that of Onake Obavva, the guard’s wife who slew invading soldiers with a pestle through a narrow crevice, immortalizing her courage in Karnataka’s folklore. Now maintained by the Archaeological Survey of India, Chitradurga Fort remains a major heritage attraction for its blend of myth, history, and engineering. Visitors explore its ramparts, granaries, temples, and lookout towers for sweeping views of the Deccan landscape—an enduring monument to Karnataka’s martial and cultural heritage.  ",
+    images: [Chitradurga1,Chitradurga2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Kateel Durga Parameshwari Temple ",
+    description:
+      "Kateel Durga Parameshwari Temple is a renowned Hindu temple situated in the town of Kateel, Karnataka, India. Dedicated to Goddess Durga Parameshwari, it is a major pilgrimage center in the coastal region, notable for its serene setting on an islet formed by the Nandini River. According to legend, the temple marks the spot where Goddess Durga Parameshwari slew the demon Arunasura, restoring fertility to the land. The goddess is believed to reside here to bless devotees and protect the region. The temple’s sanctum, located on a small rock island, symbolizes the divine energy balancing earth and water. The temple exhibits traditional South Canara architecture, with carved wooden ceilings, vibrant murals, and a distinct sanctum (garbhagriha) surrounded by flowing river waters. A bridge connects the islet to the mainland, allowing visitors year-round access despite monsoon conditions. Kateel Temple is known for its elaborate Navaratri celebrations and annual chariot festival (Rathotsava). Yakshagana, a local folk theatre form, is performed regularly under the temple’s patronage, making it a cultural hub as well as a spiritual destination.The temple attracts thousands of devotees daily from Karnataka and neighboring states. Its combination of natural beauty, legend, and ritual vitality has made it a central site of Shakti worship in the Tulunadu region, symbolizing the harmony of nature and divinity.  ",
+    images: [Kateel1,Kateel2],
+    source: "(src: myholidayhappiness.com )",
+  },
+   {
+    name: "Kudroli Gokarnath Temple ",
+    description:
+      "Kudroli Gokarnath Temple, also known as Gokarnanatheshwara Temple, is a prominent Hindu shrine in Mangaluru, Karnataka, India. Dedicated to Lord Shiva in his Gokarnanatha form, it is celebrated for its golden gopuram, inclusive history, and vibrant Mangalore Dasara festival that attracts devotees and tourists alike. The temple was consecrated in 1912 by social reformer Narayana Guru, who envisioned a place of worship open to all castes—a revolutionary idea in early 20th-century India. Built through the initiative of community leader Adhyaksha Hoige Bazar Koragappa and the Billava community, it became a symbol of social equality and unity, echoing Narayana Guru’s credo: “One Caste, One Religion, One God.”  The complex showcases traditional Dravidian architecture blended with modern ornamentation. Its 60-foot golden gopuram is adorned with vivid sculptures of deities and mythological scenes. Inside are shrines for Ganapati, Subramanya, Annapoorneshwari, Navagrahas, and Krishna, surrounded by marble courtyards and landscaped gardens. A temple pond with statues of Shiva and Durga hosts the weekend “Gangavatara” fountain show. Kudroli is the epicenter of Mangalore Dasara, renowned for grand Navaratri celebrations featuring processions of life-size Nava Durga idols, music, and illuminated tableaux. Other key festivals include Maha Shivaratri, Ganesh Chaturthi, Deepavali, and Sri Narayana Jayanthi. These events reinforce the temple’s dual role as a spiritual and cultural hub for the coastal region.   ",
+    images: [Kudroli1,Kudroli2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Belur Temple",
+    description:
+      " The Belur Temple, formally known as the Chennakeshava Temple, is a 12th-century Hindu temple complex in Belur, Hassan district, Karnataka, India. Celebrated as a masterpiece of Hoysala architecture, it was commissioned by King Vishnuvardhana to commemorate his victory over the Cholas and remains an active center of worship dedicated to Lord Vishnu.Belur, historically called Velapuri, served as an early capital of the Hoysala Empire before Halebidu. The temple took over a century to complete, under three generations of rulers. It became a focal point for art, culture, and devotion during the Hoysala era and is today a cornerstone of Karnataka’s heritage tourism circuit, along with Hoysaleswara Temple and Keshava Temple. The temple’s star-shaped platform (jagati) supports intricately carved walls depicting scenes from the Ramayana, Mahabharata, and Puranas. Its 48 polished pillars display unique designs, while the famed Madanikas or celestial maidens—including the “Darpana Sundari” (Lady with the Mirror)—embody the pinnacle of Hoysala artistry. The outer friezes portray rows of elephants, lions, and horses symbolizing strength, courage, and speed. Soapstone enabled the exceptionally fine detailing that resembles metalwork. The Chennakeshava Temple remains a living shrine where rituals are performed daily. Its annual Hoysala Mahotsava, featuring classical dance and music, honors the dynasty’s cultural legacy. Pilgrims and visitors alike view it as “Dakshina Varanasi” (the Varanasi of the South) for its spiritual and artistic grandeur.  ",
+    images: [Belur1,Belur2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Sakelshpur",
+    description:
+      "Sakleshpur is a hill station and taluk headquarters in Karnataka, India, situated in the Western Ghats along National Highway 75 between Mangaluru and Bengaluru. Known for its lush coffee and spice plantations, cool climate, and scenic mountain views, it’s a popular getaway for eco-tourism and trekking enthusiasts. Nestled in the Western Ghats, Sakleshpur features rolling hills, dense forests, and cascading streams. The region’s terrain makes it part of India’s biodiversity hotspots. Its moderate elevation contributes to a temperate climate favorable for plantation crops such as coffee, cardamom, and pepper. The town takes its name from the ancient Sakleshwara Temple, a Hoysala-era temple dedicated to Lord Shiva on the banks of the Hemavathi River. Architectural relics and inscriptions link the area to the 11th–14th centuries, reflecting the Hoysala dynasty’s influence in southern Karnataka.Sakleshpur attracts travelers for its nature trails and adventure activities. Notable attractions include the star-shaped Manjarabad Fort, the Bisle Ghat viewpoint, Jenukal Gudda peak, and nearby waterfalls such as Magajahalli and Manjehalli. Plantation stays and trekking along railway lines or forest paths are especially popular among domestic tourists.   ",
+    images: [Pura1,Pura2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Bhoga Nandeeshwara Temple",
+    description:
+      "Bhoga Nandeeshwara Temple is an ancient Hindu complex at the base of Nandi Hills in Chikkaballapur district, Karnataka, India. Dedicated to Lord Shiva, it is among the oldest surviving temples in the state and a significant example of early Dravidian architecture. The site is protected by the Archaeological Survey of India for its historical and cultural importance.Inscriptions date the temple to around 806–810 CE, under the Nolamba dynasty and Rashtrakuta Empire. Tradition attributes its foundation to Queen Ratnavali, consort of the Bana king Vidyadhara. Over the centuries, the Western Ganga dynasty, Chola dynasty, Hoysala Empire, and Vijayanagara Empire added distinctive architectural elements. Later, it came under Mysore rulers before British rule.The complex represents a fusion of dynastic styles within a Dravidian layout. It consists of twin shrines—Arunachaleshwara in the south (Ganga period) and Bhoga Nandeeshwara in the north (Chola period)—with a smaller Uma Maheshwara shrine between them built by the Hoysalas. The Uma Maheshwara Kalyana Mandapa, supported by finely carved black-stone pillars, depicts divine couples such as Shiva-Parvati and Vishnu-Lakshmi. A massive stepped tank, Shringi Theertha, believed to be the source of the South Pinakini River, completes the ensemble.The temple symbolizes three life stages of Shiva—childhood (Arunachaleshwara), youth (Bhoga Nandeeshwara), and marriage (Uma Maheshwara)—while the mountaintop Yoga Nandeeshwara Temple represents renunciation. It remains an active place of worship, particularly during Maha Shivaratri, and is popular among newly married couples seeking divine blessings. ",
+    images: [Bhoga1,Bhoga2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Bhoga Nandeeshwara Temple",
+    description:
+      "Bhoga Nandeeshwara Temple is an ancient Hindu complex at the base of Nandi Hills in Chikkaballapur district, Karnataka, India. Dedicated to Lord Shiva, it is among the oldest surviving temples in the state and a significant example of early Dravidian architecture. The site is protected by the Archaeological Survey of India for its historical and cultural importance.Inscriptions date the temple to around 806–810 CE, under the Nolamba dynasty and Rashtrakuta Empire. Tradition attributes its foundation to Queen Ratnavali, consort of the Bana king Vidyadhara. Over the centuries, the Western Ganga dynasty, Chola dynasty, Hoysala Empire, and Vijayanagara Empire added distinctive architectural elements. Later, it came under Mysore rulers before British rule.The complex represents a fusion of dynastic styles within a Dravidian layout. It consists of twin shrines—Arunachaleshwara in the south (Ganga period) and Bhoga Nandeeshwara in the north (Chola period)—with a smaller Uma Maheshwara shrine between them built by the Hoysalas. The Uma Maheshwara Kalyana Mandapa, supported by finely carved black-stone pillars, depicts divine couples such as Shiva-Parvati and Vishnu-Lakshmi. A massive stepped tank, Shringi Theertha, believed to be the source of the South Pinakini River, completes the ensemble.The temple symbolizes three life stages of Shiva—childhood (Arunachaleshwara), youth (Bhoga Nandeeshwara), and marriage (Uma Maheshwara)—while the mountaintop Yoga Nandeeshwara Temple represents renunciation. It remains an active place of worship, particularly during Maha Shivaratri, and is popular among newly married couples seeking divine blessings. ",
+    images: [Bhoga1,Bhoga2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Bhoga Nandeeshwara Temple",
+    description:
+      "Bhoga Nandeeshwara Temple is an ancient Hindu complex at the base of Nandi Hills in Chikkaballapur district, Karnataka, India. Dedicated to Lord Shiva, it is among the oldest surviving temples in the state and a significant example of early Dravidian architecture. The site is protected by the Archaeological Survey of India for its historical and cultural importance.Inscriptions date the temple to around 806–810 CE, under the Nolamba dynasty and Rashtrakuta Empire. Tradition attributes its foundation to Queen Ratnavali, consort of the Bana king Vidyadhara. Over the centuries, the Western Ganga dynasty, Chola dynasty, Hoysala Empire, and Vijayanagara Empire added distinctive architectural elements. Later, it came under Mysore rulers before British rule.The complex represents a fusion of dynastic styles within a Dravidian layout. It consists of twin shrines—Arunachaleshwara in the south (Ganga period) and Bhoga Nandeeshwara in the north (Chola period)—with a smaller Uma Maheshwara shrine between them built by the Hoysalas. The Uma Maheshwara Kalyana Mandapa, supported by finely carved black-stone pillars, depicts divine couples such as Shiva-Parvati and Vishnu-Lakshmi. A massive stepped tank, Shringi Theertha, believed to be the source of the South Pinakini River, completes the ensemble.The temple symbolizes three life stages of Shiva—childhood (Arunachaleshwara), youth (Bhoga Nandeeshwara), and marriage (Uma Maheshwara)—while the mountaintop Yoga Nandeeshwara Temple represents renunciation. It remains an active place of worship, particularly during Maha Shivaratri, and is popular among newly married couples seeking divine blessings. ",
+    images: [Bhoga1,Bhoga2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Bhoga Nandeeshwara Temple",
+    description:
+      "Bhoga Nandeeshwara Temple is an ancient Hindu complex at the base of Nandi Hills in Chikkaballapur district, Karnataka, India. Dedicated to Lord Shiva, it is among the oldest surviving temples in the state and a significant example of early Dravidian architecture. The site is protected by the Archaeological Survey of India for its historical and cultural importance.Inscriptions date the temple to around 806–810 CE, under the Nolamba dynasty and Rashtrakuta Empire. Tradition attributes its foundation to Queen Ratnavali, consort of the Bana king Vidyadhara. Over the centuries, the Western Ganga dynasty, Chola dynasty, Hoysala Empire, and Vijayanagara Empire added distinctive architectural elements. Later, it came under Mysore rulers before British rule.The complex represents a fusion of dynastic styles within a Dravidian layout. It consists of twin shrines—Arunachaleshwara in the south (Ganga period) and Bhoga Nandeeshwara in the north (Chola period)—with a smaller Uma Maheshwara shrine between them built by the Hoysalas. The Uma Maheshwara Kalyana Mandapa, supported by finely carved black-stone pillars, depicts divine couples such as Shiva-Parvati and Vishnu-Lakshmi. A massive stepped tank, Shringi Theertha, believed to be the source of the South Pinakini River, completes the ensemble.The temple symbolizes three life stages of Shiva—childhood (Arunachaleshwara), youth (Bhoga Nandeeshwara), and marriage (Uma Maheshwara)—while the mountaintop Yoga Nandeeshwara Temple represents renunciation. It remains an active place of worship, particularly during Maha Shivaratri, and is popular among newly married couples seeking divine blessings. ",
+    images: [Bhoga1,Bhoga2],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Bhoga Nandeeshwara Temple",
+    description:
+      "Bhoga Nandeeshwara Temple is an ancient Hindu complex at the base of Nandi Hills in Chikkaballapur district, Karnataka, India. Dedicated to Lord Shiva, it is among the oldest surviving temples in the state and a significant example of early Dravidian architecture. The site is protected by the Archaeological Survey of India for its historical and cultural importance.Inscriptions date the temple to around 806–810 CE, under the Nolamba dynasty and Rashtrakuta Empire. Tradition attributes its foundation to Queen Ratnavali, consort of the Bana king Vidyadhara. Over the centuries, the Western Ganga dynasty, Chola dynasty, Hoysala Empire, and Vijayanagara Empire added distinctive architectural elements. Later, it came under Mysore rulers before British rule.The complex represents a fusion of dynastic styles within a Dravidian layout. It consists of twin shrines—Arunachaleshwara in the south (Ganga period) and Bhoga Nandeeshwara in the north (Chola period)—with a smaller Uma Maheshwara shrine between them built by the Hoysalas. The Uma Maheshwara Kalyana Mandapa, supported by finely carved black-stone pillars, depicts divine couples such as Shiva-Parvati and Vishnu-Lakshmi. A massive stepped tank, Shringi Theertha, believed to be the source of the South Pinakini River, completes the ensemble.The temple symbolizes three life stages of Shiva—childhood (Arunachaleshwara), youth (Bhoga Nandeeshwara), and marriage (Uma Maheshwara)—while the mountaintop Yoga Nandeeshwara Temple represents renunciation. It remains an active place of worship, particularly during Maha Shivaratri, and is popular among newly married couples seeking divine blessings. ",
+    images: [Bhoga1,Bhoga2],
+    source: "(src: Wikipedia, )",
+  },
+];
+
+const facts = [
+ "The Tricolour’s True Home: The Karnataka Khadi Gramodyoga Samyukta Sangha in Hubli is the only unit in the entire country authorized by the government to manufacture and supply the official national flag of India.",
+"Hampi was once one of the richest cities in the world during the Vijayanagara Empire.",  "Karnataka has 3 UNESCO World Heritage Sites – Hampi, Pattadakal, and the Western Ghats.",  
+"Karnataka produces about 70% of India’s coffee, especially from regions like Coorg and Chikkamagaluru.",  
+"Bengaluru is known as the “Silicon Valley of India” because it is a major IT and startup hub.",  
+"Indian Space Research Organisation (ISRO), India’s space agency headquarters, is located in Bengaluru.",  
+"Karnataka is the only state in India with a gold mine, the famous Kolar Gold Fields.",  
+"Yakshagana performances often continue throughout the night with music, dance, and dialogue.",  
+"Mysore Dasara is celebrated with grand processions, decorated elephants, and cultural events.",  "Jog Falls is one of the highest plunge waterfalls in India." , 
+"Shravanabelagola has one of the world’s tallest monolithic statues, dedicated to Bahubali.", "Karnataka is strongly associated with Carnatic classical music, and many famous composers came from the state.",  
+"The Western Ghats in Karnataka are among the world’s richest biodiversity regions." , 
+"Mysore Palace is illuminated with nearly 100,000 lights during Dasara celebrations.",  
+"Karnataka has the highest number of engineering colleges in India, especially around Bengaluru.",  "Karnataka has the largest tiger population in India according to recent tiger census reports"., 
+];
+
+const artGallery = [
+  {
+    title: "Ambur Biriyani",
+    emoji: "🍛",
+    color: "#D4883A",
+    desc: "Famous biriyani from Ambur, Vellore",
+    image: gAmbur,
+  },
+  {
+    title: "Tirunelveli Halva",
+    emoji: "🍮",
+    color: "#F4A84A",
+    desc: "Iconic wheat halva from Tirunelveli",
+    image: gTirunelveliHalva,
+  },
+  {
+    title: "Dindigul Talapakatti Biriyani",
+    emoji: "🍚",
+    color: "#E8733A",
+    desc: "Famous seeraga samba biriyani",
+    image: gDindigul,
+  },
+  {
+    title: "Madurai Malli",
+    emoji: "🌸",
+    color: "#F4D8E8",
+    desc: "Famous jasmine flowers of Madurai",
+    image: gMalli,
+  },
+  {
+    title: "Madurai Butter Bun",
+    emoji: "🥐",
+    color: "#F4E884",
+    desc: "Iconic local bun with butter",
+    image: gButterBun,
+  },
+  {
+    title: "Madurai Jigurthanda",
+    emoji: "🍨",
+    color: "#E8C8E8",
+    desc: "Cold dessert drink with milk, almond gum, ice cream",
+    image: gJigarthanda,
+  },
+  {
+    title: "Uthukuli Venne (Butter)",
+    emoji: "🧈",
+    color: "#F8F0C4",
+    desc: "Pure white butter from Uthukuli, Erode",
+    image: gUthukuli,
+  },
+  {
+    title: "Thoothukoodi Muthu (Pearl)",
+    emoji: "🔮",
+    color: "#E8F4F8",
+    desc: "Famous pearls from Thoothukudi coast",
+    image: gMuthu,
+  },
+  {
+    title: "Salem Mango (Malgova)",
+    emoji: "🥭",
+    color: "#F8C840",
+    desc: "Giant Malgova mangoes from Salem",
+    image: gSalemMango,
+  },
+  {
+    title: "Erode Turmeric",
+    emoji: "🌿",
+    color: "#F4B830",
+    desc: "Erode — the largest turmeric market in the world",
+    image: gErodeTurmeric,
+  },
+  {
+    title: "Tiruppur Garments",
+    emoji: "👕",
+    color: "#B4D8E8",
+    desc: "Knitwear capital of India",
+    image: gTiruppur,
+  },
+  {
+    title: "Kanchipuram Silk Sarees",
+    emoji: "🥻",
+    color: "#D4A4E8",
+    desc: "Famous gold-bordered silk sarees",
+    image: gKanchiSilk,
+  },
+  {
+    title: "Madurai Sungdi Sarees",
+    emoji: "🧣",
+    color: "#E8A8C8",
+    desc: "Traditional cotton sarees of Madurai",
+    image: gSungdi,
+  },
+  {
+    title: "Bharatanatyam",
+    emoji: "💃",
+    color: "#E88844",
+    desc: "Classical Indian dance form from Tamil Nadu",
+    image: gBharatanatyam,
+  },
+  {
+    title: "Dosa & Idli",
+    emoji: "🥞",
+    color: "#F4E8C8",
+    desc: "Iconic South Indian breakfast",
+    image: gDosaIdli,
+  },
+  {
+    title: "Ven Pongal",
+    emoji: "🍲",
+    color: "#F4D89C",
+    desc: "Savoury rice & lentil dish — breakfast staple",
+    image: gVenPongal,
+  },
+  {
+    title: "Vada Sambar",
+    emoji: "🥣",
+    color: "#D4884A",
+    desc: "Crispy lentil fritters with spiced lentil soup",
+    image: gVadaSambar,
+  },
+  {
+    title: "Rasam",
+    emoji: "🥣",
+    color: "#C84830",
+    desc: "Thin, tangy tamarind soup — digestive staple",
+    image: gRasam,
+  },
+  {
+    title: "Panniyaram",
+    emoji: "🍡",
+    color: "#D4A864",
+    desc: "Crispy or soft rice batter balls",
+    image: gPanniyaram,
+  },
+  {
+    title: "Neyi Appam",
+    emoji: "🍩",
+    color: "#D4884A",
+    desc: "Deep-fried ghee sweet rice cakes",
+    image: gNeyiAppam,
+  },
+  {
+    title: "Poi Kaal Kudurai",
+    emoji: "🐎",
+    color: "#D4C8B4",
+    desc: "Means 'False-leg horse' — a village folk dance",
+    image: gPoiKaal,
+  },
+  {
+    title: "Karagaattam",
+    emoji: "🏺",
+    color: "#A8D4B4",
+    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
+    image: gKaragattam,
+  },
+  {
+    title: "Thanjavur Paintings",
+    emoji: "🖼️",
+    color: "#F4D870",
+    desc: "Made with thin gold foils/sheets — classical art form",
+    image: gThanjavur1,
+  },
+  {
+    title: "Thanjavur Paintings — Radha Krishna",
+    emoji: "🖼️",
+    color: "#E8C870",
+    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
+    image: gThanjavur2,
+  },
+  {
+    title: "Silambattam",
+    emoji: "🥋",
+    color: "#D4A8A8",
+    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
+    image: gSilambattam,
+  },
+  {
+    title: "Thanjavur Thalaiyaati Bommai",
+    emoji: "🪆",
+    color: "#E8B488",
+    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
+    image: gThalaiyaati,
+  },
+  {
+    title: "Tamil Nadu Sappadu (Feast)",
+    emoji: "🍛",
+    color: "#A8C878",
+    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
+    image: gFeast,
+  },
+];
