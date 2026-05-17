@@ -8,84 +8,55 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-const gurupurab3 = "@assets/image_1776788482041.png";
-const teej1 = "@assets/image_1776788764847.png";
-const teej2 = "@assets/image_1776788772553.png";
-const teej3 = "@assets/image_1776788788721.png";
-const bandi1 = "@assets/image_1776788797545.png";
-const bandi2 = "@assets/image_1776788805779.png";
-const shaheedi1 = "@assets/image_1776788811412.png";
-const rakhi1 = "@assets/image_1776788817244.png";
-const rakhi2 = "@assets/image_1776788825797.png";
-const maghi1 = "@assets/image_1776788831894.png";
-const maghi2 = "@assets/image_1776788840602.png";
-const karva1 = "@assets/image_1776788847901.png";
-const karva2 = "@assets/image_1776788856768.png";
-const golden1 = "@assets/image_1776788865143.png";
-const golden2 = "@assets/image_1776788870905.png";
-const golden3 = "@assets/image_1776788878018.png";
-const jallian1 = "@assets/image_1776788887081.png";
-const jallian2 = "@assets/image_1776788895857.png";
-const jallian3 = "@assets/image_1776788902350.png";
-const wagah1 = "@assets/image_1776788909064.png";
-const wagah2 = "@assets/image_1776788916164.png";
-const wagah3 = "@assets/image_1776789530181.png";
-const wagah4 = "@assets/image_1776789548589.png";
-const qila1 = "@assets/image_1776789554420.png";
-const qila2 = "@assets/image_1776789558971.png";
-const qila3 = "@assets/image_1776789565292.png";
-const ranjit1 = "@assets/image_1776789575242.png";
-const ranjit2 = "@assets/image_1776789580153.png";
-const ranjit3 = "@assets/image_1776789590790.png";
-const gobindgarh1 = "@assets/image_1776789610085.png";
-const gobindgarh2 = "@assets/image_1776789615338.png";
-const anandpur1 = "@assets/image_1776789624415.png";
-const anandpur2 = "@assets/image_1776789631296.png";
-const partition1 = "@assets/image_1776789638782.png";
-const partition2 = "@assets/download_1777100508255.png";
-const partition3 = "@assets/download_1777100514323.png";
-const guru1 = "@assets/download_1777100516025.png";
-const guru2 = "@assets/download_1777100518481.png";
-const guru3 = "@assets/download_1777100520664.png";
-const durgiana1 = "@assets/download_1777100523842.png";
-const durgiana2 = "@assets/image_1777102241686.png";
-const durgiana3 = "@assets/image_1777102257711.png";
-const akaltakht1 = "@assets/download_1777100525385.png";
-const akaltakht2 = "@assets/download_1777100526870.png";
-const akaltakht3 = "@assets/download_1777100529380.png";
-const jang1 = "@assets/download_1777100531237.png";
-const jang2 = "@assets/download_1777100532535.png";
-const jang3 = "@assets/download_1777100537305.png";
-const gJutti = "@assets/image_1777100917162.png";
-const gBhangra = "@assets/image_1777100921467.png";
-const gPhulkari = "@assets/image_1777100927953.png";
-const gGiddha = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
+import DadraandNagarHaveliandDamanDiuMap from "https://i.postimg.cc/rFsxs9R6/image.png";
+// Festivals
+const Garba1 = "https://i.postimg.cc/vmFVPFPq/image.png";
+const Garba2 = "https://i.postimg.cc/xjxNwbx1/image.png";
+const NaraliPurnima1 = "https://i.postimg.cc/SNnYkN3t/image.png";
+const NaraliPurnima2 = "https://i.postimg.cc/R0BW71hz/image.png";
+const Fair1 = "https://i.postimg.cc/mDdhW0Sn/image.png";
+const Fair2 = "";
+
+// Historical Places
+const MotiDamanFort1 = "https://i.postimg.cc/PfRN3nJb/image.png";
+const MotiDamanFort2 = "https://i.postimg.cc/6psqKVdT/image.png";
+const MotiDamanFort3 = "https://i.postimg.cc/Bnx6n8gY/image.png";
+const MotiDamanFort4 = "https://i.postimg.cc/jjtjws3T/image.png";
+const CathedralofBomJesus1 = "https://i.postimg.cc/9fbQyvsY/image.png";
+const CathedralofBomJesus2 = "https://i.postimg.cc/XJv7Ls0L/image.png";
+const CathedralofBomJesus3 = "https://i.postimg.cc/KzscHtG3/image.png";
+const CathedralofBomJesus4 = "https://i.postimg.cc/zvbDZ3vw/image.png";
+const DominicanMonastery1 = "https://i.postimg.cc/sxkjVyZF/image.png";
+const DominicanMonastery2 = "https://i.postimg.cc/ry3FGGZC/image.png";
+const DominicanMonastery3 = "https://i.postimg.cc/28Wj0qPf/image.png";
+const DominicanMonastery4 = "https://i.postimg.cc/3w8KrtWj/image.png";
+const DominicanMonastery5 = "https://i.postimg.cc/cLMxNpxP/image.png";
+const DominicanMonastery6 = "https://i.postimg.cc/85sNMsR8/image.png";
+const NaniDamanFort1 = "https://i.postimg.cc/0Q3xfxnw/image.png";
+const NaniDamanFort2 = "https://i.postimg.cc/wMmz4P4G/image.png";
+const SomnathMahadevTemple1 = "https://i.postimg.cc/Thv6z9Z3/image.png";
+const SomnathMahadevTemple2 = "https://i.postimg.cc/FFMkFQvK/image.png";
+const SomnathMahadevTemple3 = "https://i.postimg.cc/VLXrdHsW/image.png";
+const Panikotha1 = "https://i.postimg.cc/y8BJ9XWr/image.png";
+const Panikotha2 = "https://i.postimg.cc/13H8Knqs/image.png";
+const ZampaGateway1 = "https://i.postimg.cc/k5YDk0w9/image.png";
+const ZampaGateway2 = "https://i.postimg.cc/MTcXx9rQ/image.png";
+const temple1 = "https://i.postimg.cc/4yVdHmgr/image.png";
+const temple2 = "https://i.postimg.cc/zXwvJbpQ/image.png";
+const temple3 = "https://i.postimg.cc/13Jzqkkz/image.png";
+const temple4 = "https://i.postimg.cc/mg8rHvvS/image.png";
+const vive1 = "https://i.postimg.cc/bvrwH68c/image.png";
+const vive2 = "https://i.postimg.cc/9fkFxGFV/image.png";
+
+
+// Art Gallery
+const gDamanFishCurry = "https://i.postimg.cc/Qdt3RHzH/image.png";
+const gWarliArt = "https://i.postimg.cc/W3RcFS1F/image.png";
+const gTarpaDance = "https://i.postimg.cc/tRNGJ3Qt/image.png";
+const gTribalAttire = "https://i.postimg.cc/FFZwNh31/image.png";
+const gBambooCraft = "https://i.postimg.cc/hvyCxP1M/image.png";
+const gToddy = "https://i.postimg.cc/tJKx8Kq4/image.png";
+const gHokaTrees = "https://i.postimg.cc/pdHBmFtz/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -737,7 +708,7 @@ const festivals = [
       "Honoring Lord Shiva at the Ancient Somnath Mahadev Temple",
     description:
       "The Gangaji Fair is one of the most culturally significant and spiritually vibrant events in the Union Territory of Dadra and Nagar Haveli and Daman and Diu. Celebrated annually in the village of Dabhel, typically during the month of March, the fair is primarily centered around the Somnath Mahadev Temple. This ancient temple, dedicated to Lord Shiva, serves as the focal point for thousands of devotees who travel from across the region—and neighboring states like Gujarat and Maharashtra—to partake in the festivities. The celebration is characterized by a deep sense of devotion and communal harmony, beginning with a ritualistic holy bath in the sacred tank (kund) located near the temple. This act of purification is believed to cleanse the soul and is followed by elaborate prayers and offerings to Lord Shiva, whom many locals revere as the Creator of the Universe.The celebration of the fair is a sensory experience that blends religious solemnity with the joy of a rural carnival. The banks of the Sakartod River and the temple precincts transform into a bustling hub of activity. Colorful stalls are erected, offering everything from traditional handicrafts and local snacks to toys and household items. Folk performances, including traditional music and dance, provide a rhythmic backdrop to the event, showcasing the unique cultural heritage of the Damanese people. Families gather to enjoy giant wheels and local entertainment, making it a social highlight of the year.The importance of the Gangaji Fair lies in its role as a bridge between the spiritual and the social. Religiously, it reinforces the deep-seated faith in the cleansing power of holy water and the protective grace of Lord Shiva. It is a moment where the mundane is set aside in favor of the divine. Socially, the fair serves as a vital gathering point for various communities, fostering a sense of unity and shared identity in a geographically small but culturally diverse territory. It also provides a significant economic boost to local artisans and vendors who rely on the massive footfall. By preserving centuries-old rituals and oral traditions, the Gangaji Fair ensures that the cultural legacy of Dadra and Nagar Haveli and Daman and Diu remains vibrant and relevant for future generations, acting as a living testament to the region's enduring spiritual roots.",
-    images: [Fair1,Fair2],
+    images: [Fair1,],
     source: "(src: hellotravel.com)",
   },
   {
@@ -813,7 +784,7 @@ const historicalPlaces = [
     name: "BAPS Shri Swaminarayan Temple (Silvassa)",
     description:
       "The BAPS Shri Swaminarayan Mandir in Silvassa stands as a magnificent tribute to traditional Hindu temple architecture and spiritual heritage in the capital of Dadra and Nagar Haveli. Constructed from intricate pink sandstone and meticulously carved marble, the mandir is an architectural marvel that reflects the timeless beauty of the ancient Shilpa Shastras. Its exterior is adorned with towering pinnacles (shikhars), ornate domes, and thousands of hand-carved figures depicting deities, musicians, and floral motifs that capture the light at different hours of the day, creating a serene and ethereal atmosphere.As a prominent cultural and spiritual landmark, the temple serves as more than just a place of worship; it is a center for peace and community service. Upon entering the main sanctum, visitors are greeted by the exquisitely adorned murtis (sacred images) of Bhagwan Swaminarayan and other Hindu deities, which are the focal point of the daily rituals. The interior craftsmanship is equally breathtaking, featuring vaulted ceilings and marble pillars that showcase the pinnacle of Indian craftsmanship. The atmosphere within the complex is one of profound stillness, offering a sanctuary for meditation and reflection away from the bustle of urban life.Beyond its physical beauty, the mandir is a vibrant hub for seasonal festivals and cultural celebrations. It regularly hosts major events such as Diwali and Annakut, where thousands of food items are offered to the deities in a spectacular display of devotion. The temple also organizes the Hindola Festival and various Yuva Shibirs (youth conventions), focusing on character building and moral values. Surrounded by manicured gardens and maintained with impeccable cleanliness, the mandir grounds provide an inviting space for families and tourists alike. Whether one is drawn by religious faith or an appreciation for fine art, the BAPS Mandir in Silvassa offers a transformative experience that bridges the gap between the material and the divine, making it a must-visit destination in the region.",
-    images: [vive1, vive2, vive3],
+    images: [vive1, vive2, ],
     source: "(src: baps.org)",
   },
 ];
@@ -864,20 +835,6 @@ const artGallery = [
     image: gTarpaDance,
   },
   {
-    title: "Diu Fort",
-    emoji: "🏰",
-    color: "#B4D8E8",
-    desc: "Massive 16th-century Portuguese coastal fortification",
-    image: gDiuFort,
-  },
-  {
-    title: "Silvassa Nakshatra Garden",
-    emoji: "🌳",
-    color: "#A8C878",
-    desc: "Astro-themed garden with plants associated with zodiac signs",
-    image: gNakshatraGarden,
-  },
-  {
     title: "Dhotri and Lugdu",
     emoji: "👘",
     color: "#E8A8C8",
@@ -890,27 +847,6 @@ const artGallery = [
     color: "#F4E884",
     desc: "Handcrafted mats and baskets made by the Dhodia and Varli tribes",
     image: gBambooCraft,
-  },
-  {
-    title: "Daman Brandy & Feni",
-    emoji: "🥃",
-    color: "#D4883A",
-    desc: "Local spirits reflecting the territory's unique liquor culture",
-    image: gLocalSpirits,
-  },
-  {
-    title: "Gangeshwar Mahadev Temple",
-    emoji: "🛕",
-    color: "#E8F4F8",
-    desc: "Seashore cave temple where waves wash over five Shiva Lingas",
-    image: gGangeshwar,
-  },
-  {
-    title: "Nani Daman Jetty",
-    emoji: "⚓",
-    color: "#C84830",
-    desc: "Popular evening spot overlooking the Daman Ganga River",
-    image: gDamanJetty,
   },
   {
     title: "Toddy (Palm Wine)",
