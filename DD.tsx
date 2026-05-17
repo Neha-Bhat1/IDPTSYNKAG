@@ -416,7 +416,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function DadraanadNagarHaveliandDamanandDiu() {
+export default function DadraandNagarHaveliandDamanandDiu() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -462,7 +462,7 @@ export default function DadraanadNagarHaveliandDamanandDiu() {
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                DadraanadNagarHaveliandDamanandDiu
+                DadraandNagarHaveliandDamanandDiu
               </h1>
               <p
                 className="text-white/80 text-xl italic"
@@ -509,10 +509,10 @@ export default function DadraanadNagarHaveliandDamanandDiu() {
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chennai
+             Daman
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of DadraanadNagarHaveliandDamanandDiu — Where Tribal Roots Meet Colonial Routes
+              Capital of DadraandNagarHaveliandDamanandDiu — Where Tribal Roots Meet Colonial Routes
             </p>
           </div>
         </Section>
@@ -523,10 +523,10 @@ export default function DadraanadNagarHaveliandDamanandDiu() {
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(DadraanadNagarHaveliandDamanandDiuMap, "Map of DadraanadNagarHaveliandDamanandDiu")}
+              onClick={() => openLightbox(DadraandNagarHaveliandDamanandDiuMap, "Map of DadraanadNagarHaveliandDamanandDiu")}
             >
               <img
-                src={DadraanadNagarHaveliandDamanandDiuMap}
+                src={DadraandNagarHaveliandDamanandDiuMap}
                 alt="Map of DadraanadNagarHaveliandDamanandDiu"
                 className="w-full h-auto object-contain"
               />
