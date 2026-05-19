@@ -9,12 +9,51 @@ import {
   ZoomIn,
 } from "lucide-react";
 import puducherryMap from "@assets/puducherryMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+const bastille1 = "https://i.postimg.cc/0QYWrkKt/image.png";
+const bastille2 = "https://i.postimg.cc/MKKPK86v/image.png";
+const pongal1 = "https://i.postimg.cc/7Z5K0MTz/image.png";
+const pongal2 = "https://i.postimg.cc/FRVpNTwG/image.png";
+const masi1 = "https://i.postimg.cc/m2DjWNjH/image.png";
+const masi2 = "https://i.postimg.cc/4xH1mfr1/image.png";
+const yoga1 = "https://i.postimg.cc/cH079Q6R/image.png";
+const villianur1 = "https://i.postimg.cc/Wz4GjTGp/image.png";
+const villianur2 = "https://i.postimg.cc/CMvC7n0M/image.png";
+const fete1 = "https://i.postimg.cc/ZK28tk0M/image.png";
+const birth1 = "https://i.postimg.cc/d1sdmwSG/image.png";
+const mascarade1 = "https://i.postimg.cc/FzqL4cFy/image.png";
+const veerampattinam1 = "https://i.postimg.cc/kX6Syjwp/image.png";
+const veerampattinam2 = "https://i.postimg.cc/cJZ80dW9/image.png";
+const christmas1 = "https://i.postimg.cc/G2m8TzHz/image.png";
+const christmas2 = "https://i.postimg.cc/qRDtsnKN/image.png";
+const auroville1 = "https://i.postimg.cc/PrwLDC5n/image.png";
+const auroville2 = "https://i.postimg.cc/130fWbF2/image.png";
+const french1 = "https://i.postimg.cc/BvMt3DMV/image.png";
+const french2 = "https://i.postimg.cc/B6z6L3WG/image.png";
+const aayi1 = "https://i.postimg.cc/HjDkztkC/image.png";
+const aayi2 = "https://i.postimg.cc/fW37HTbn/image.png";
+const basilica1 = "https://i.postimg.cc/Dwc1WSx3/image.png";
+const basilica2 = "https://i.postimg.cc/9fFZyck7/image.png";
+const cathedral1 = "https://i.postimg.cc/Zq73c1tJ/image.png";
+const cathedral2 = "https://i.postimg.cc/NMZXhmjV/image.png";
+const dupleix1 = "https://i.postimg.cc/J4VXPNgw/image.png";
+const dupleix2 = "https://i.postimg.cc/t49xHX9Q/image.png";
+const aurobindo1 = "https://i.postimg.cc/yd3JTxyg/image.png";
+const aurobindo2 = "https://i.postimg.cc/sxpvtL83/image.png";
+const lighthouse1 = "https://i.postimg.cc/PrQCyB1G/image.png";
+const lighthouse2 = "https://i.postimg.cc/6QyT9qgs/image.png";
+const arulmigu1 = "https://i.postimg.cc/MHbpsQMz/image.png";
+const arulmigu2 = "https://i.postimg.cc/02nND71Z/image.png";
+const joan1 = "https://i.postimg.cc/GmShSr2M/image.png";
+const joan2 = "https://i.postimg.cc/jjpqtXyP/image.png";
+const gPuducherry = "https://i.postimg.cc/cLj0Bm9M/image.png";
+const gKaraikal = "https://i.postimg.cc/mDW40rG3/image.png";
+const gDindigul = "https://i.postimg.cc/wT4p92px/image.png";
+const gPrawn = "https://i.postimg.cc/sfwFJm15/image.png";
+const gPromenade = "https://i.postimg.cc/K83dxyfQ/image.png";
+const gGaradi = "https://i.postimg.cc/76wc3J4r/image.png";
+const gFrench = "https://i.postimg.cc/xTcZ3SWp/image.png";
+const gOlive = "https://i.postimg.cc/zBxdTdpb/image.png";
+const gHeron = "https://i.postimg.cc/qBZbR5zG/image.png";
 
 
 
