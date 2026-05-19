@@ -8,13 +8,13 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
+import KarnatakaMap from "";
+const Dasara1= "";
+const Dasara2= "";
+const Dasara3 = "";
+const Dasara4 = "";
+const baisakhi1 = "";
+const baisakhi2 = "";
 const holamoh1 = "";
 const holamoh2 = "";
 const holamoh3 = "";
