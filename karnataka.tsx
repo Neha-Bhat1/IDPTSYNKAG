@@ -13,6 +13,85 @@ const Dasara1= "";
 const Dasara2= "";
 const Dasara3 = "";
 const Dasara4 = "";
+const Ugadi1 = "";
+const Ugadi2 = "";
+const Ugadi3 = "";
+const Ugadi4 = "";
+const Makar1 = "";
+const Makar2 = "";
+const Makar3 = "";
+const Makar4 = "";
+const Makar5 = "";
+const kan1 = "";
+const kan2 = "";
+const kan3 = "";
+const Hampi1 = "";
+const Hampi2 = "";
+const Hampi3 = "";
+const Kambala1 = "";
+const Kambala2 = "";
+const Karaga1 = "";
+const Karaga2 = "";
+const Karaga3 = "";
+const Abhi1 = "";
+const Abhi2 = "";
+const Kallu = "";
+const Cave1 = "";
+const Cave2 = "";
+const Dam1 = "";
+const Dam2 = "";
+const Daroji1 = "";
+const Falls1 = "";
+const Falls2 = "";
+const Pura1 = "";
+const Pura2 = "";
+const Shravan1 = "";
+const Shravan2 = "";
+const Basava1 = "";
+const Basava2 = "";
+const Nawaz1 = "";
+const Nawaz2 = "";
+const Tala1 = "";
+const Tala2 = "";
+const Koti1 = "";
+const Avani = "";
+const Site1 = "";
+const Site2 = "";
+const Site3 = "";
+const Viru1 = "";
+const Anjanadri = "";
+const Anegundi1 = "";
+const Anegundi2 = "";
+const nava1 = "";
+const nava2 = "";
+const Sri1 = "";
+const Sri2 = "";
+const Samudra1 = "";
+const Samudra2 = "";
+const mysuru1 = "";
+const mysuru2 = "";
+const mysuru3 = "";
+const mysuru4 = "";
+const mysuru5 = "";
+const mysuru6 = "";
+const Chamundi1 = "";
+const Chamundi2 = "";
+const Chamundi3 = "";
+const Rai1 = "";
+const Ram1 = "";
+const Ram2 = "";
+const jog1 = "";
+const jog2 = "";
+const mutt1 = "";
+const mutt2 = "";
+
+// Art Gallery Placeholders
+const gDolluKunitha = "";
+const gTogaluGombeyaata = "";
+const gVeeragase = "";
+const gKamsale = "";
+const gMridangam = "";
+const gTamburi = "";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -935,8 +1014,7 @@ const historicalPlaces = [
   {
     name: "Navabrindavana",
     description:
-      "Navabrindavana is a sacred island located near Anegundi in the Koppal district of Karnataka, India. It holds the samadhis (tombs) of nine revered Hindu saints from the Dvaita Vedanta tradition established by Madhvacharya. The site is an important pilgrimage destination for followers of the Madhva sect and is set amid scenic surroundings on the Tungabhadra River.Navabrindavana is deeply rooted in the Madhva philosophical tradition, commemorating nine pontiffs who attained Brindavana pravesha (final rest) at this island. Among them are Vyasaraja Tirtha, Raghunatha Tirtha, and Srinivasa Tirtha, each a key figure in propagating the Dvaita school. Their samadhis are arranged in a circular pattern, symbolizing spiritual unity.The island lies amid the Tungabhadra River, opposite Anegundi, and is accessible by small boats during most of the year. During monsoon, the water level often rises, submerging the approach and limiting visitation. The surrounding region, close to Hampi, is notable for its boulder-strewn landscapes and historic Vijayanagara-era heritage.Navabrindavana attracts devotees year-round, especially on the aradhanas (death anniversaries) of the nine saints, when special rituals and recitations are held. Pilgrims also visit nearby shrines dedicated to Prajna Tirtha and other disciples. The serene setting and devotional atmosphere make it a central site for Dvaita adherents across South India.
-",
+      "Navabrindavana is a sacred island located near Anegundi in the Koppal district of Karnataka, India. It holds the samadhis (tombs) of nine revered Hindu saints from the Dvaita Vedanta tradition established by Madhvacharya. The site is an important pilgrimage destination for followers of the Madhva sect and is set amid scenic surroundings on the Tungabhadra River.Navabrindavana is deeply rooted in the Madhva philosophical tradition, commemorating nine pontiffs who attained Brindavana pravesha (final rest) at this island. Among them are Vyasaraja Tirtha, Raghunatha Tirtha, and Srinivasa Tirtha, each a key figure in propagating the Dvaita school. Their samadhis are arranged in a circular pattern, symbolizing spiritual unity.The island lies amid the Tungabhadra River, opposite Anegundi, and is accessible by small boats during most of the year. During monsoon, the water level often rises, submerging the approach and limiting visitation. The surrounding region, close to Hampi, is notable for its boulder-strewn landscapes and historic Vijayanagara-era heritage.Navabrindavana attracts devotees year-round, especially on the aradhanas (death anniversaries) of the nine saints, when special rituals and recitations are held. Pilgrims also visit nearby shrines dedicated to Prajna Tirtha and other disciples. The serene setting and devotional atmosphere make it a central site for Dvaita adherents across South India.",
     images: [nava1,nava2],
     source: "(src: Wikipedia, )",
   },
@@ -951,16 +1029,14 @@ const historicalPlaces = [
   {
     name: "Shivanasamudra Falls",
     description:
-      "Shivanasamudra Falls is a segmented waterfall on the Kaveri River located in Mandya, India. It is one of the country’s oldest hydroelectric power sites and a popular scenic destination known for its twin cascades—Gaganachukki and Barachukki—surrounded by forested hills.The Kaveri River divides around the rocky island of Shivanasamudra, forming two parallel waterfalls—Gaganachukki to the western side and Barachukki to the eastern. The surrounding terrain consists of rugged granite outcrops and forested ravines within the Cauvery Wildlife Sanctuary, offering striking views during the monsoon months (July–October).Established in 1902, the Shivanasamudra Hydroelectric Station is among Asia’s earliest hydroelectric plants. It initially supplied power to the Kolar Gold Fields mines and the city of Bengaluru, marking a milestone in India’s industrial development. Shivanasamudra is about 130 kilometers from Bengaluru and 80 kilometers from Mysuru. Visitors can reach viewpoints overlooking both cascades, with Barachukki offering closer access and seasonal coracle rides when water flow permits. The site’s accessibility and proximity to other attractions like Talakadu and Somnathpur Temple make it a popular day-trip destination.
- ",
+      "Shivanasamudra Falls is a segmented waterfall on the Kaveri River located in Mandya, India. It is one of the country’s oldest hydroelectric power sites and a popular scenic destination known for its twin cascades—Gaganachukki and Barachukki—surrounded by forested hills.The Kaveri River divides around the rocky island of Shivanasamudra, forming two parallel waterfalls—Gaganachukki to the western side and Barachukki to the eastern. The surrounding terrain consists of rugged granite outcrops and forested ravines within the Cauvery Wildlife Sanctuary, offering striking views during the monsoon months (July–October).Established in 1902, the Shivanasamudra Hydroelectric Station is among Asia’s earliest hydroelectric plants. It initially supplied power to the Kolar Gold Fields mines and the city of Bengaluru, marking a milestone in India’s industrial development. Shivanasamudra is about 130 kilometers from Bengaluru and 80 kilometers from Mysuru. Visitors can reach viewpoints overlooking both cascades, with Barachukki offering closer access and seasonal coracle rides when water flow permits. The site’s accessibility and proximity to other attractions like Talakadu and Somnathpur Temple make it a popular day-trip destination. ",
     images: [Samudra1,Samudra2],
     source: "(src: Wikipedia, )",
   },
   {
     name: "Mysore Palace",
     description:
-      "Mysore Palace, also known as Amba Vilas Palace, is a grand royal residence in the heart of Mysuru, Karnataka, India. Once the seat of the Wadiyar dynasty, rulers of the Kingdom of Mysore, it is among India’s most visited heritage attractions and a masterpiece of Indo-Saracenic architecture blending Hindu, Muslim, Rajput, and Gothic styles.The first palace on this site was built in the 14th century by Yaduraya Wodeyar. After several reconstructions and a fire in 1897 during a royal wedding, the current edifice was commissioned by Maharaja Krishnaraja Wadiyar IV and completed in 1912. It cost about ₹4.5 million and replaced earlier wooden structures destroyed by fire. The Wadiyars continued to reside here until the integration of Mysore State into the Indian Union in 1947.Constructed mainly of gray granite with deep pink marble domes, the three-story palace features four cardinal entrances and a central tower capped with a gilded dome. Notable interiors include the Durbar Hall, famed for turquoise-and-gold colonnades; the octagonal Kalyana Mantapa with a Belgian-stained-glass ceiling; and the Ambavilasa private audience hall. The complex also houses the Gombe Thotti (Dolls’ Pavilion), royal armoury, and several temples dating from the 14th to the 20th centuries.Mysore Palace is the focal point of the annual Mysore Dasara, when the Golden Throne is displayed and the building glows with thousands of lights. It also hosts a nightly sound-and-light show recounting Mysuru’s 400-year history. 
-",
+      "Mysore Palace, also known as Amba Vilas Palace, is a grand royal residence in the heart of Mysuru, Karnataka, India. Once the seat of the Wadiyar dynasty, rulers of the Kingdom of Mysore, it is among India’s most visited heritage attractions and a masterpiece of Indo-Saracenic architecture blending Hindu, Muslim, Rajput, and Gothic styles.The first palace on this site was built in the 14th century by Yaduraya Wodeyar. After several reconstructions and a fire in 1897 during a royal wedding, the current edifice was commissioned by Maharaja Krishnaraja Wadiyar IV and completed in 1912. It cost about ₹4.5 million and replaced earlier wooden structures destroyed by fire. The Wadiyars continued to reside here until the integration of Mysore State into the Indian Union in 1947.Constructed mainly of gray granite with deep pink marble domes, the three-story palace features four cardinal entrances and a central tower capped with a gilded dome. Notable interiors include the Durbar Hall, famed for turquoise-and-gold colonnades; the octagonal Kalyana Mantapa with a Belgian-stained-glass ceiling; and the Ambavilasa private audience hall. The complex also houses the Gombe Thotti (Dolls’ Pavilion), royal armoury, and several temples dating from the 14th to the 20th centuries.Mysore Palace is the focal point of the annual Mysore Dasara, when the Golden Throne is displayed and the building glows with thousands of lights. It also hosts a nightly sound-and-light show recounting Mysuru’s 400-year history. ",
     images: [mysuru1,mysuru2,mysuru3,mysuru4,mysuru5,mysuru6],
     source: "(src: Wikipedia, )",
   },
@@ -974,56 +1050,49 @@ const historicalPlaces = [
   {
     name: "Raichur Fort",
     description:
-      "Raichur Fort is a medieval hill fort in Raichur, India, built in 1294 CE by the Kakatiya dynasty. Over centuries it was expanded by rulers of the Bahmani, Vijayanagara, Adil Shahi, and Mughal empires, reflecting a blend of Hindu and Indo-Islamic architecture. Today it stands as a major heritage landmark of northern Karnataka. The earliest fortification is attributed to the Kalyani Chalukyas, later rebuilt by King Vithala on the orders of Queen Rudramadevi of Warangal’s Kakatiya dynasty. Krishnadevaraya of the Vijayanagara Empire later added the northern gateway to commemorate his victory over the Bahmani rulers. Control of the fort shifted repeatedly, symbolizing the strategic rivalry between southern dynasties and Deccan sultanates. Raichur Fort rises atop a granite hill roughly 88 m high and is encircled by double defensive walls. The inner ramparts of dressed stone were assembled without any binding material. Key gates include the Sailani and Sikandari Darwazas on the inner wall and five outer gates such as Mecca and Kati Darwazas. Within lie remnants of palaces, mosques, and tanks; notable are inscriptions in Persian, Arabic, and Telugu. The Bala Hisar (citadel) crowns the summit, offering panoramic views of the Raichur plain.The fort’s inscriptions and mixed religious architecture—such as the Daftkari and Kali mosques alongside Chalukyan-style pillars—illustrate the coexistence of Hindu and Islamic artistic traditions. Its 41-foot stone slab depicting buffalo-drawn carts hauling materials up the hill is a celebrated archaeological feature.
-",
+      "Raichur Fort is a medieval hill fort in Raichur, India, built in 1294 CE by the Kakatiya dynasty. Over centuries it was expanded by rulers of the Bahmani, Vijayanagara, Adil Shahi, and Mughal empires, reflecting a blend of Hindu and Indo-Islamic architecture. Today it stands as a major heritage landmark of northern Karnataka. The earliest fortification is attributed to the Kalyani Chalukyas, later rebuilt by King Vithala on the orders of Queen Rudramadevi of Warangal’s Kakatiya dynasty. Krishnadevaraya of the Vijayanagara Empire later added the northern gateway to commemorate his victory over the Bahmani rulers. Control of the fort shifted repeatedly, symbolizing the strategic rivalry between southern dynasties and Deccan sultanates. Raichur Fort rises atop a granite hill roughly 88 m high and is encircled by double defensive walls. The inner ramparts of dressed stone were assembled without any binding material. Key gates include the Sailani and Sikandari Darwazas on the inner wall and five outer gates such as Mecca and Kati Darwazas. Within lie remnants of palaces, mosques, and tanks; notable are inscriptions in Persian, Arabic, and Telugu. The Bala Hisar (citadel) crowns the summit, offering panoramic views of the Raichur plain.The fort’s inscriptions and mixed religious architecture—such as the Daftkari and Kali mosques alongside Chalukyan-style pillars—illustrate the coexistence of Hindu and Islamic artistic traditions. Its 41-foot stone slab depicting buffalo-drawn carts hauling materials up the hill is a celebrated archaeological feature.",
     images: [Rai1],
     source: "(src: gosahin.com, )",
   },
   {
     name: "Ramadevara Betta Vulture sanctuary ",
     description:
-      "Ramadevara Betta is a granitic hill and popular trekking and pilgrimage site located near Ramanagara, about 50 kilometers southwest of Bengaluru. Known for its scenic vistas, ancient temple, and ecological importance, it combines natural beauty with cultural and cinematic heritage. Ramadevara Betta is part of the rocky terrain that defines the Ramanagara landscape, characterized by massive granite outcrops and boulder formations. The hill lies within the Ramanagara Vulture Sanctuary, India’s first sanctuary established specifically to protect vultures such as the endangered long-billed and Egyptian species. Its dry deciduous forest supports varied flora and fauna unique to the Deccan plateau.Atop the hill stands the ancient Sri Pattabhirama Swamy Temple, believed to date back several centuries and associated with legends from the Ramayana. Pilgrims visit the site especially during Rama Navami. The climb to the temple involves around 400 steps, and the summit offers panoramic views of the surrounding countryside.Ramadevara Betta gained national fame as the filming location for the cult classic Sholay, where it doubled as the fictional village of Ramgarh. This connection continues to attract film enthusiasts alongside trekkers and devotees. The site is a favored weekend destination for visitors from Bengaluru, offering moderate hiking trails, birdwatching, and photography opportunities.The area is managed by the Karnataka Forest Department to balance tourism with wildlife conservation. Entry may require permission, as it falls under a protected zone. Visitors are encouraged to follow eco-friendly practices to preserve the hill’s ecological and spiritual value.
-",
+      "Ramadevara Betta is a granitic hill and popular trekking and pilgrimage site located near Ramanagara, about 50 kilometers southwest of Bengaluru. Known for its scenic vistas, ancient temple, and ecological importance, it combines natural beauty with cultural and cinematic heritage. Ramadevara Betta is part of the rocky terrain that defines the Ramanagara landscape, characterized by massive granite outcrops and boulder formations. The hill lies within the Ramanagara Vulture Sanctuary, India’s first sanctuary established specifically to protect vultures such as the endangered long-billed and Egyptian species. Its dry deciduous forest supports varied flora and fauna unique to the Deccan plateau.Atop the hill stands the ancient Sri Pattabhirama Swamy Temple, believed to date back several centuries and associated with legends from the Ramayana. Pilgrims visit the site especially during Rama Navami. The climb to the temple involves around 400 steps, and the summit offers panoramic views of the surrounding countryside.Ramadevara Betta gained national fame as the filming location for the cult classic Sholay, where it doubled as the fictional village of Ramgarh. This connection continues to attract film enthusiasts alongside trekkers and devotees. The site is a favored weekend destination for visitors from Bengaluru, offering moderate hiking trails, birdwatching, and photography opportunities.The area is managed by the Karnataka Forest Department to balance tourism with wildlife conservation. Entry may require permission, as it falls under a protected zone. Visitors are encouraged to follow eco-friendly practices to preserve the hill’s ecological and spiritual value.",
     images: [Ram1,Ram2],
     source: "(src:trawell.in, Wikipedia, )",
   },
   {
     name: "Jog Falls",
     description:
-      "Jog Falls, also known as Gersoppa Falls or Jogada Gundi, is a towering natural waterfall on the Sharavathi River in Sagara taluk, Shivamogga district, India. Plunging 253 meters (830 feet), it is India’s second-highest plunge waterfall and a centerpiece of the Western Ghats landscape. Its monsoon-fed cascades make it one of Karnataka’s most celebrated scenic attractions. Jog Falls is created where the Sharavathi River drops abruptly into a deep gorge without touching the underlying rock face, producing a true plunge waterfall. The water divides into four parallel cascades: Raja, the tallest and most powerful; Rani, gentle and silvery; Roarer, [gs1.1]thunderous; and Rocket, a narrow jet-like drop. During the dry season, the flow is regulated by the Linganamakki Dam, part of the Sharavathi Hydroelectric Project. Visitors can view the falls from designated platforms near the main viewpoint or descend roughly 1,400 steps to its base for an immersive perspective. The roar of water, misty spray, and rainbows during monsoon create a dramatic atmosphere. Early mornings and late evenings offer photogenic light and cooler air.Set amid dense evergreen forests, Jog Falls lies within a biodiversity-rich region adjoining the Sharavathi Valley Wildlife Sanctuary. The area supports endemic flora, diverse birdlife, and eco-tourism activities such as trekking, birdwatching, and boating. Nearby attractions include Honnemaradu, Sigandur, and the historic temples of Keladi and Ikkeri.Jog Falls is about 100 km from Shivamogga city and 400 km from Bengaluru. The nearest railhead is Talaguppa (20 km), and the closest major airport is Mangalore International Airport, roughly 220 km away. Karnataka Tourism maintains viewpoints and accommodations such as the KSTDC Mayura Gerusoppa Hotel and Sharavathi Adventure Camp.
-",
+      "Jog Falls, also known as Gersoppa Falls or Jogada Gundi, is a towering natural waterfall on the Sharavathi River in Sagara taluk, Shivamogga district, India. Plunging 253 meters (830 feet), it is India’s second-highest plunge waterfall and a centerpiece of the Western Ghats landscape. Its monsoon-fed cascades make it one of Karnataka’s most celebrated scenic attractions. Jog Falls is created where the Sharavathi River drops abruptly into a deep gorge without touching the underlying rock face, producing a true plunge waterfall. The water divides into four parallel cascades: Raja, the tallest and most powerful; Rani, gentle and silvery; Roarer, [gs1.1]thunderous; and Rocket, a narrow jet-like drop. During the dry season, the flow is regulated by the Linganamakki Dam, part of the Sharavathi Hydroelectric Project. Visitors can view the falls from designated platforms near the main viewpoint or descend roughly 1,400 steps to its base for an immersive perspective. The roar of water, misty spray, and rainbows during monsoon create a dramatic atmosphere. Early mornings and late evenings offer photogenic light and cooler air.Set amid dense evergreen forests, Jog Falls lies within a biodiversity-rich region adjoining the Sharavathi Valley Wildlife Sanctuary. The area supports endemic flora, diverse birdlife, and eco-tourism activities such as trekking, birdwatching, and boating. Nearby attractions include Honnemaradu, Sigandur, and the historic temples of Keladi and Ikkeri.Jog Falls is about 100 km from Shivamogga city and 400 km from Bengaluru. The nearest railhead is Talaguppa (20 km), and the closest major airport is Mangalore International Airport, roughly 220 km away. Karnataka Tourism maintains viewpoints and accommodations such as the KSTDC Mayura Gerusoppa Hotel and Sharavathi Adventure Camp.",
     images: [jog1,jog2],
     source: "(src: Wikipedia, )",
   },
   {
     name: "Siddaganga Mutt",
     description:
-      "Siddaganga Mutt, also known as Shree Siddaganga Matha, is a renowned Lingayat monastery and pilgrimage center located near Tumakuru, Karnataka, India. Established in the 15th century, it is revered for combining spirituality with social welfare, particularly through large-scale educational and charitable initiatives.The mutt traces its origins to Sri Gosala Siddeshwara Swamiji and later flourished under seers such as Sri Uddana Swamiji and Dr. Sri Sri Sri Shivakumara Swamiji (1907–2019), affectionately known as the “Walking God.” It follows the Lingayat philosophy emphasizing Kayaka (work as worship) and Dasoha (selfless sharing). A temple dedicated to Sri Siddhalingeshwara sits atop a rocky hill, attracting thousands of pilgrims.Siddaganga Mutt is a major educational hub in Karnataka, operating over 128 institutions ranging from primary schools to professional colleges in engineering, medicine, and the arts. It provides free education, food, and accommodation to more than 8,000 students irrespective of caste or creed. The Anna Dasoha (free meal) program serves thousands of devotees and travelers daily.The mutt plays a central role in Karnataka’s cultural and spiritual life, hosting mass prayers, agricultural fairs, and community outreach programs. Its serene environment and ethos of inclusivity make it both a spiritual retreat and a center of social transformation. Visitors often regard the site as a living embodiment of service and humility.
-",
+      "Siddaganga Mutt, also known as Shree Siddaganga Matha, is a renowned Lingayat monastery and pilgrimage center located near Tumakuru, Karnataka, India. Established in the 15th century, it is revered for combining spirituality with social welfare, particularly through large-scale educational and charitable initiatives.The mutt traces its origins to Sri Gosala Siddeshwara Swamiji and later flourished under seers such as Sri Uddana Swamiji and Dr. Sri Sri Sri Shivakumara Swamiji (1907–2019), affectionately known as the “Walking God.” It follows the Lingayat philosophy emphasizing Kayaka (work as worship) and Dasoha (selfless sharing). A temple dedicated to Sri Siddhalingeshwara sits atop a rocky hill, attracting thousands of pilgrims.Siddaganga Mutt is a major educational hub in Karnataka, operating over 128 institutions ranging from primary schools to professional colleges in engineering, medicine, and the arts. It provides free education, food, and accommodation to more than 8,000 students irrespective of caste or creed. The Anna Dasoha (free meal) program serves thousands of devotees and travelers daily.The mutt plays a central role in Karnataka’s cultural and spiritual life, hosting mass prayers, agricultural fairs, and community outreach programs. Its serene environment and ethos of inclusivity make it both a spiritual retreat and a center of social transformation. Visitors often regard the site as a living embodiment of service and humility.",
     images: [mutt1,mutt2],
     source: "(src: Wikipedia, )",
   },
   {
     name: "Madhugiri Fort",
     description:
-      "Madhugiri Fort is a 17th-century hill fort located in Madhugiri, India. Rising atop one of Asia’s largest monolithic rocks, it exemplifies the defensive ingenuity and architectural prowess of the Vijayanagara Empire. Today it is a popular trekking and heritage site offering panoramic views of the Deccan Plateau.Built entirely of granite, the fort features seven concentric defensive walls, bastions, gateways, and watchtowers ascending the monolithic hill. The monumental entrance—known locally as Diddibagilu (“Gate of Hell”)—once stored ammunition and provisions and contained a secret escape passage. Within the upper precinct stands a temple dedicated to Lord Gopalakrishna and stone cisterns fed by an ancient rain-harvesting system still visible today .The 3.5 km trail to the summit passes through three major gateways and takes about 2–3 hours round-trip. It is graded moderately difficult due to steep granite slopes but rewards climbers with commanding views of the surrounding Thimmalapura Forest and Deccan countryside. Trekking is best from September to February, with early-morning ascents recommended for cooler conditions .Constructed as a frontier outpost of the Vijayanagara kingdom, Madhugiri Fort later became a strategic stronghold for the rulers of Mysore. Hyder Ali and Tipu Sultan expanded its fortifications before the British captured it in 1791 during the Third Anglo-Mysore War. Its successive layers of defenses reflect centuries of military adaptation. Built entirely of granite, the fort features seven concentric defensive walls, bastions, gateways, and watchtowers ascending the monolithic hill. The monumental entrance—known locally as Diddibagilu (“Gate of Hell”)—once stored ammunition and provisions and contained a secret escape passage. Within the upper precinct stands a temple dedicated to Lord Gopalakrishna and stone cisterns fed by an ancient rain-harvesting system still visible today .Madhugiri, meaning “honey hill,” derives its name from wild honeybee colonies that once thrived there. The site is accessible via road from Bengaluru and Tumakuru, with parking available near the trailhead. Though facilities are limited, the fort remains a symbol of regional resilience and is among Karnataka’s most impressive hill-fort legacies .
-",
+      "Madhugiri Fort is a 17th-century hill fort located in Madhugiri, India. Rising atop one of Asia’s largest monolithic rocks, it exemplifies the defensive ingenuity and architectural prowess of the Vijayanagara Empire. Today it is a popular trekking and heritage site offering panoramic views of the Deccan Plateau.Built entirely of granite, the fort features seven concentric defensive walls, bastions, gateways, and watchtowers ascending the monolithic hill. The monumental entrance—known locally as Diddibagilu (“Gate of Hell”)—once stored ammunition and provisions and contained a secret escape passage. Within the upper precinct stands a temple dedicated to Lord Gopalakrishna and stone cisterns fed by an ancient rain-harvesting system still visible today .The 3.5 km trail to the summit passes through three major gateways and takes about 2–3 hours round-trip. It is graded moderately difficult due to steep granite slopes but rewards climbers with commanding views of the surrounding Thimmalapura Forest and Deccan countryside. Trekking is best from September to February, with early-morning ascents recommended for cooler conditions .Constructed as a frontier outpost of the Vijayanagara kingdom, Madhugiri Fort later became a strategic stronghold for the rulers of Mysore. Hyder Ali and Tipu Sultan expanded its fortifications before the British captured it in 1791 during the Third Anglo-Mysore War. Its successive layers of defenses reflect centuries of military adaptation. Built entirely of granite, the fort features seven concentric defensive walls, bastions, gateways, and watchtowers ascending the monolithic hill. The monumental entrance—known locally as Diddibagilu (“Gate of Hell”)—once stored ammunition and provisions and contained a secret escape passage. Within the upper precinct stands a temple dedicated to Lord Gopalakrishna and stone cisterns fed by an ancient rain-harvesting system still visible today .Madhugiri, meaning “honey hill,” derives its name from wild honeybee colonies that once thrived there. The site is accessible via road from Bengaluru and Tumakuru, with parking available near the trailhead. Though facilities are limited, the fort remains a symbol of regional resilience and is among Karnataka’s most impressive hill-fort legacies .",
     images: [madhugiri],
     source: "(src: karnataka.com )",
   },
   {
     name: "Sri Krishna Temple Udupi",
     description:
-      "The Sri Krishna Temple in Udupi, Karnataka, is one of South India’s most revered Hindu pilgrimage sites. Founded in the 13th century by the philosopher-saint Madhvacharya, it is dedicated to Lord Krishna in his child form, known as Balakrishna. The temple is famed for its distinctive west-facing idol viewed through a silver-plated, nine-holed window called the Kanakana Kindi.The Sri Krishna Temple in Udupi, Karnataka, is one of South India’s most revered Hindu pilgrimage sites. Founded in the 13th century by the philosopher-saint Madhvacharya, it is dedicated to Lord Krishna in his child form, known as Balakrishna. The temple is famed for its distinctive west-facing idol viewed through a silver-plated, nine-holed window called the Kanakana Kindi.The complex blends traditional Dravidian and local coastal elements, with carved wooden ceilings, stone pillars, copper roofs, and a sacred tank called Madhwa Sarovara. Surrounding the shrine are the Ashta Mathas—eight monasteries established by Madhvacharya’s disciples—whose heads rotate the temple’s administration every two years through the Paryaya system. Darshan is offered exclusively through the Kanakana Kindi. Rituals follow strict Vedic traditions, including early-morning Mangala Aarti, Panchamrita Abhisheka, and nightly Ekanta Seva. The temple’s Annadana Seva serves free vegetarian meals to thousands daily, continuing a centuries-old practice of community service.Major celebrations include Krishna Janmashtami, Paryaya Utsava, Rathotsava (chariot festival), and Laksha Deepotsava. During these events, the temple becomes a vibrant center of music, devotion, and cultural performance, attracting pilgrims nationwide.Udupi lies about 60 km north of Mangalore, accessible by air (Mangalore International Airport), train (Udupi Station ≈ 4 km), and road via NH-66. Modest attire is required—dhoti or pants for men, saree or salwar kameez for women. Photography is prohibited in the sanctum.Sri Krishna Temple, Udupi, remains both a living monastery complex and a symbol of devotion, hospitality, and philosophical heritage—often called the “Mathura of South India.”
- ",
+      "The Sri Krishna Temple in Udupi, Karnataka, is one of South India’s most revered Hindu pilgrimage sites. Founded in the 13th century by the philosopher-saint Madhvacharya, it is dedicated to Lord Krishna in his child form, known as Balakrishna. The temple is famed for its distinctive west-facing idol viewed through a silver-plated, nine-holed window called the Kanakana Kindi.The Sri Krishna Temple in Udupi, Karnataka, is one of South India’s most revered Hindu pilgrimage sites. Founded in the 13th century by the philosopher-saint Madhvacharya, it is dedicated to Lord Krishna in his child form, known as Balakrishna. The temple is famed for its distinctive west-facing idol viewed through a silver-plated, nine-holed window called the Kanakana Kindi.The complex blends traditional Dravidian and local coastal elements, with carved wooden ceilings, stone pillars, copper roofs, and a sacred tank called Madhwa Sarovara. Surrounding the shrine are the Ashta Mathas—eight monasteries established by Madhvacharya’s disciples—whose heads rotate the temple’s administration every two years through the Paryaya system. Darshan is offered exclusively through the Kanakana Kindi. Rituals follow strict Vedic traditions, including early-morning Mangala Aarti, Panchamrita Abhisheka, and nightly Ekanta Seva. The temple’s Annadana Seva serves free vegetarian meals to thousands daily, continuing a centuries-old practice of community service.Major celebrations include Krishna Janmashtami, Paryaya Utsava, Rathotsava (chariot festival), and Laksha Deepotsava. During these events, the temple becomes a vibrant center of music, devotion, and cultural performance, attracting pilgrims nationwide.Udupi lies about 60 km north of Mangalore, accessible by air (Mangalore International Airport), train (Udupi Station ≈ 4 km), and road via NH-66. Modest attire is required—dhoti or pants for men, saree or salwar kameez for women. Photography is prohibited in the sanctum.Sri Krishna Temple, Udupi, remains both a living monastery complex and a symbol of devotion, hospitality, and philosophical heritage—often called the “Mathura of South India.” ",
     images: [krishna1,krishna2,krishna3],
     source: "(src: Wikipedia, )",
   },
   {
     name: "Ghati Subramanya Temple",
     description:
-      "Ghati Subramanya Temple is an ancient Hindu pilgrimage site near Doddaballapur, Karnataka, India, dedicated to Lord Subramanya (Kartikeya) and Lord Narasimha. It is among South India’s most revered shrines for serpent worship and fertility blessings, drawing thousands of devotees year-round.According to local legend, Lord Subramanya worships Lord Narasimha here, symbolizing the union of Shiva and Vishnu energies. The unique feature is the single stone idol with Subramanya facing east and Narasimha west—visible simultaneously through a mirror placed behind the sanctum. Devotees believe the temple grants prosperity, fertility, and relief from naga dosha (serpent afflictions).The temple’s granite structure reflects early Dravidian craftsmanship. The sanctum houses intricately carved idols, while the outer complex features mandapas, serpent stone installations, and ritual enclosures. The temple surroundings blend rural landscape with sacred groves, enhancing its spiritual atmosphere.Daily rituals include abhishekam (holy bathing) and special pujas for family welfare and progeny. The annual Subramanya Shashti festival, celebrated on a grand scale, features chariot processions, music, and mass worship. Devotees often install naga stones and perform milk offerings as acts of devotion.
-",
+      "Ghati Subramanya Temple is an ancient Hindu pilgrimage site near Doddaballapur, Karnataka, India, dedicated to Lord Subramanya (Kartikeya) and Lord Narasimha. It is among South India’s most revered shrines for serpent worship and fertility blessings, drawing thousands of devotees year-round.According to local legend, Lord Subramanya worships Lord Narasimha here, symbolizing the union of Shiva and Vishnu energies. The unique feature is the single stone idol with Subramanya facing east and Narasimha west—visible simultaneously through a mirror placed behind the sanctum. Devotees believe the temple grants prosperity, fertility, and relief from naga dosha (serpent afflictions).The temple’s granite structure reflects early Dravidian craftsmanship. The sanctum houses intricately carved idols, while the outer complex features mandapas, serpent stone installations, and ritual enclosures. The temple surroundings blend rural landscape with sacred groves, enhancing its spiritual atmosphere.Daily rituals include abhishekam (holy bathing) and special pujas for family welfare and progeny. The annual Subramanya Shashti festival, celebrated on a grand scale, features chariot processions, music, and mass worship. Devotees often install naga stones and perform milk offerings as acts of devotion.",
     images: [Ghati1],
     source: "(src: Wikipedia, )",
   },
@@ -1073,7 +1142,6 @@ const facts = [
 "Karnataka has the highest number of engineering colleges in India, especially around Bengaluru.",  "Karnataka has the largest tiger population in India according to recent tiger census reports"., 
 ];
 
-const artGallery = [
  const artGallery = [
   {
     title: "Mysore Pak",
