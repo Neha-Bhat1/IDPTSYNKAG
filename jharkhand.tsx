@@ -9,12 +9,66 @@ import {
   ZoomIn,
 } from "lucide-react";
 import jharkhandMap from "@assets/jharkhandMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+const sarhul1 = "https://i.postimg.cc/9MLrphZQ/image.png";
+const sarhul2 = "https://i.postimg.cc/28bV4g6x/image.png";
+const sarhul3 = "https://i.postimg.cc/Prw5LZ31/image.png";
+const karma1 = "https://i.postimg.cc/W1mp8VP2/image.png";
+const karma2 = "https://i.postimg.cc/G2tcbsTB/image.png";
+const sohrai1 = "https://i.postimg.cc/7PC2V5th/image.png";
+const sohrai2 = "https://i.postimg.cc/WbgqBQPx/image.png";
+const sohrai3 = "https://i.postimg.cc/L8Sg2N9T/image.png";
+const tusu1 = "https://i.postimg.cc/DzjSQhqZ/image.png";
+const tusu2 = "https://i.postimg.cc/1t8fJdBh/image.png";
+const baha1 = "https://i.postimg.cc/DfbSGtm8/image.png";
+const baha2 = "https://i.postimg.cc/BQTtYHTG/image.png";
+const bhagta1 = "https://i.postimg.cc/YC80k7Ds/image.png";
+const bhagta2 = "https://i.postimg.cc/25K5bwDQ/image.png";
+const bandna1 = "https://i.postimg.cc/j5nSz7qs/image.png";
+const bandna2 = "https://i.postimg.cc/FzjF6XJW/image.png";
+const hal1 = "https://i.postimg.cc/X7bYCqR6/image.png";
+const hal2 = "https://i.postimg.cc/5299sG9r/image.png";
+const hal3 = "https://i.postimg.cc/FK7r4LLJ/image.png";
+const rohini1 = "https://i.postimg.cc/43qJNxvG/image.png";
+const rohini2 = "https://i.postimg.cc/Y0wMYDyL/image.png";
+const jitia1 = "https://i.postimg.cc/ryS8McK3/image.png";
+const jitia2 = "https://i.postimg.cc/zGf5Cgp7/image.png";
+const baidyanath1 = "https://i.postimg.cc/qMVx6cJF/image.png";
+const baidyanath2 = "https://i.postimg.cc/13y0J9q1/image.png";
+const kon1 = "https://i.postimg.cc/PqRmXYVg/image.png";
+const kon2 = "https://i.postimg.cc/vTRf9MsJ/image.png";
+const kon3 = "https://i.postimg.cc/c1YQWKRX/image.png";
+const chinnamasta1 = "https://i.postimg.cc/y8690vwn/image.png";
+const chinnamasta2 = "https://i.postimg.cc/YSZWKkhw/image.png";
+const chinnamasta3 = "https://i.postimg.cc/PJkvJ4WS/image.png";
+const palamu1 = "https://i.postimg.cc/RV0GB7R6/image.png";
+const palamu2 = "https://i.postimg.cc/g2XDwG1r/image.png";
+const palamu3 = "https://i.postimg.cc/Qtskn1Cc/image.png";
+const angrabadi1 = "https://i.postimg.cc/GhzNP3MV/image.png";
+const angrabadi2 = "https://i.postimg.cc/LsgbMtmt/image.png";
+const gumla1 = "https://i.postimg.cc/g006wswW/image.png";
+const gumla2 = "https://i.postimg.cc/qRhhw7XQ/image.png";
+const gumla3 = "https://i.postimg.cc/QN7KWHML/image.png";
+const maluti1 = "https://i.postimg.cc/HsCc0dJt/image.png";
+const maluti2 = "https://i.postimg.cc/nhFX52Gj/image.png";
+const benisagar1 = "https://i.postimg.cc/CKtdRgTz/image.png";
+const benisagar2 = "https://i.postimg.cc/C5p14sKx/image.png";
+const jagannath1 = "https://i.postimg.cc/Zq95tM9G/image.png";
+const jagannath2 = "https://i.postimg.cc/k5kXnvKG/image.png";
+const isko1 = "https://i.postimg.cc/d39qjMX1/image.png";
+const isko2 = "https://i.postimg.cc/L4k6pfXq/image.png";
+const gRanchiCapital = "https://i.postimg.cc/7LFkrQDP/image.png";
+const gDassamFalls = "https://i.postimg.cc/Bn3pkTRR/image.png";
+const gJubileePark = "https://i.postimg.cc/6q0JRWvM/image.png";
+const gRugraCurry = "https://i.postimg.cc/sx19PKQW/image.png";
+const gRajmahalFossils = "https://i.postimg.cc/HWJ6ysQQ/image.png";
+const gDhuska = "https://i.postimg.cc/K84SkyvV/image.png";
+const gThekua = "https://i.postimg.cc/LsZcDBP7/image.png";
+const gChhauDance = "https://i.postimg.cc/hvKNKkYW/image.png";
+const gJhumarDance = "https://i.postimg.cc/tghr7rWJ/image.png";
+const gSohraiTribalArt = "https://i.postimg.cc/59mZstH2/image.png";
+const gHundruFalls = "https://i.postimg.cc/0yzF5dVM/image.png";
+const gAsianElephant = "https://i.postimg.cc/sXrNcFsg/image.png";
+const gIndianBison = "https://i.postimg.cc/sxfHkpBF/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -739,6 +793,13 @@ const historicalPlaces = [
     source: "(src: Deoghar District Administration, Official Portal of Baba Baidyanath Temple )",
   },
   {
+    name: "konark Sun Temple, Ranchi",
+    description:
+      "Often described as a 'poem in stone,' this temple is designed like a giant chariot with 18 wheels and seven lifelike horses. It is located on the Tata-Ranchi Highway and is a masterpiece of modern architecture inspired by traditional Sun temples. Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city on the coastline in Puri district, Odisha, India The temple is attributed to king Narasingha Deva I of the Eastern Ganga dynasty about 1250 CE.[3][4] Dedicated to the Hindu Sun-god Surya, it reflects the pinnacle of kalingan architecture and artistic excellence, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains. The structures and elements that have survived are famed for their intricate artwork, iconography, and themes, including erotic kama and mithuna scenes. Also called the Surya Devalaya, it is a classic illustration of the Odisha style of Architecture or Kalinga architecture. The cause of the destruction of the Konark temple is unclear and still remains a source of controversy. Theories range from natural damage to deliberate destruction of the temple in the course of being sacked several times by Muslim armies between the 15th and 17th centuries. This temple was called the 'Black Pagoda' in European sailor accounts as early as 1676 because it looked like a great tiered tower which appeared black. Similarly, the Jagannath Temple in Puri was called the 'White Pagoda'. Both temples served as important landmarks for sailors in the Bay of Bengal. The temple that exists today was partially restored by the conservation efforts of British India-era archaeological teams. Declared a UNESCO World Heritage Site in 1984, it remains a major pilgrimage site for Hindus, who gather here every year for the Chandrabhaga Mela around the month of February. Konark Sun Temple is depicted on the reverse side of the Indian currency note of 10 rupees to signify its importance to Indian cultural heritage.",
+    images: [kon1,kon2,kon3],
+    source: "(src: Archaeological survey of India,UNESCO World Heritage Centre,Wikipedia commons )",
+  },
+  {
     name: "Chinnamasta temple,rajrappa",
     description:
       "Situated at the confluence of the Damodar and Bhera rivers, this ancient temple is dedicated to Goddess Chinnamasta. It is a major Shakti Peeth and is known for its unique tantric architecture and spiritual importance.Chhinnamastika Temple is a Hindu temple, dedicated to Goddess Chinnamasta is a Hindu pilgrimage centre located in Rajrappa, in Ramgarh district of Jharkhand, India. The place attracts devotees from all parts of Jharkhand, and also from the neighbouring states of West Bengal and Bihar. The Chhinnamasta temple is popular for its Tantric style of architectural design. Apart from the main temple, there are ten temples of various deities such as the Surya, Hanuman and Shiva.It was this place where the Raja of Ramgarh Raj gave 3 acres of land to the people in the Bhudhan Movement in Jharkhand. Chhinnamasta  often spelled Chinnamasta and also called Chhinnamastika and Prachanda Chandika, is one of the Mahavidyas, ten Tantric goddesses and a ferocious aspect of Devi, the Hindu Divine Mother. Chhinnamasta can be easily identified by her fearsome iconography. The self-decapitated goddess holds her own severed head in one hand, a scimitar in another. Three jets of blood spurt out of her bleeding neck and are drunk by her severed head and two attendants. Chhinnamasta is usually depicted standing on a copulating couple. The temple is very old and is flocked by devotees from Bihar, Jharkhand, West Bengal, Assam and Nepal for worship of Goddess Chinnamastika. Vedic book Durga Saptashati also mentions the temple. The art and architectural design resembles the design of temples of Tantrik importance. The temple is considered as notable as the tantrik site of Kamakhya Temple of Assam which has a similar architecture. The temple is one of the 10 Mahavidhyas.The ancient temple of Goddess was destroyed and later a new temple was constructed and the original idol of Goddess was placed in it. Animal sacrifice is still practised in the temple. The sacrificial animals are killed on Tuesdays, Saturdays and during Kali puja.",
@@ -831,39 +892,11 @@ const jharkhandArtGallery = [
     image: gJubileePark,
   },
   {
-    title: "Bhadrakali Temple, Itkhori",
-    emoji: "🕍",
-    color: "#D48858",
-    desc: "A global spiritual meeting point sacred to Hinduism, Buddhism, and Jainism, featuring a 9th-century temple",
-    image: gBhadrakaliTemple,
-  },
-  {
-    title: "Netarhat Sunrise",
-    emoji: "🌅",
-    color: "#F4784A",
-    desc: "Breathtaking dawn views from the 'Queen of Chotanagpur' hill station",
-    image: gNetarhatSunrise,
-  },
-  {
-    title: "Parasnath Hill",
-    emoji: "⛰️",
-    color: "#88A8B4",
-    desc: "The highest peak in Jharkhand (1,365m) and the most sacred global pilgrimage site for the Jain community",
-    image: gParasnathHill,
-  },
-  {
     title: "Rugra Mushroom Curry",
     emoji: "🍄",
     color: "#A87858",
     desc: "A prized, rare forest mushroom delicacy growing under Sal trees with a meat-like texture",
     image: gRugraCurry,
-  },
-  {
-    title: "Shravani Mela, Deoghar",
-    emoji: "🚶",
-    color: "#E87830",
-    desc: "The longest religious fair in the world, where bare-footed devotees walk 108 km carrying holy Ganges water",
-    image: gShravaniMela,
   },
   {
     title: "Rajmahal Hills Fossils",
