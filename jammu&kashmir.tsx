@@ -9,13 +9,17 @@ import {
   ZoomIn,
 } from "lucide-react";
 import jammuMap from "@assets/jammuMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-
+/*Art gallery*/
+const gWazwaan = "";
+const gRoghanJosh = "";
+const gKashmiriPhiran = "";
+const gDogriAttire = "";
+const gRoofDance = "";
+const gChhakri = "";
+const gSantoor = "";
+const gDumhalDance = "";
+const gKashmiriKahwa = "";
+const gModurPulao = "";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -798,194 +802,75 @@ const facts = [
   "Over 70% of India's prized saffron is cultivated in the fertile fields of Pampore in the Kashmir valley, making it a cornerstone of the local cultural and agricultural heritage.",
 ];
 
-const artGallery = [
+const jammuKashmirArtGallery = [
   {
-    title: "Ambur Biriyani",
+    title: "Wazwaan Feast",
+    emoji: "🍖",
+    color: "#C8503A",
+    desc: "A grand ceremonial multi-course meal of 36 dishes, the pride of Kashmiri cuisine served at weddings and celebrations",
+    image: gWazwaan,
+  },
+  {
+    title: "Rogan Josh",
     emoji: "🍛",
-    color: "#D4883A",
-    desc: "Famous biriyani from Ambur, Vellore",
-    image: gAmbur,
+    color: "#D4603A",
+    desc: "Slow-cooked aromatic lamb curry with Kashmiri chilli and whole spices — the most iconic dish of the valley",
+    image: gRoghanJosh,
   },
   {
-    title: "Tirunelveli Halva",
-    emoji: "🍮",
-    color: "#F4A84A",
-    desc: "Iconic wheat halva from Tirunelveli",
-    image: gTirunelveliHalva,
+    title: "Kashmiri Kahwa",
+    emoji: "🍵",
+    color: "#C89840",
+    desc: "A fragrant green tea brewed with saffron, cardamom, cinnamon and crushed almonds, served in a traditional samovar",
+    image: gKashmiriKahwa,
   },
   {
-    title: "Dindigul Talapakatti Biriyani",
+    title: "Modur Pulao",
     emoji: "🍚",
-    color: "#E8733A",
-    desc: "Famous seeraga samba biriyani",
-    image: gDindigul,
+    color: "#D4A848",
+    desc: "A rich sweet rice dish made with saffron, dry fruits, sugar and ghee — a festive Kashmiri delicacy",
+    image: gModurPulao,
   },
   {
-    title: "Madurai Malli",
-    emoji: "🌸",
-    color: "#F4D8E8",
-    desc: "Famous jasmine flowers of Madurai",
-    image: gMalli,
+    title: "Kashmiri Phiran",
+    emoji: "👘",
+    color: "#6878C8",
+    desc: "The traditional long woollen cloak worn by both men and women in Kashmir, often intricately embroidered and worn over a kangri",
+    image: gKashmiriPhiran,
   },
   {
-    title: "Madurai Butter Bun",
-    emoji: "🥐",
-    color: "#F4E884",
-    desc: "Iconic local bun with butter",
-    image: gButterBun,
-  },
-  {
-    title: "Madurai Jigurthanda",
-    emoji: "🍨",
-    color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gJigarthanda,
-  },
-  {
-    title: "Uthukuli Venne (Butter)",
-    emoji: "🧈",
-    color: "#F8F0C4",
-    desc: "Pure white butter from Uthukuli, Erode",
-    image: gUthukuli,
-  },
-  {
-    title: "Thoothukoodi Muthu (Pearl)",
-    emoji: "🔮",
-    color: "#E8F4F8",
-    desc: "Famous pearls from Thoothukudi coast",
-    image: gMuthu,
-  },
-  {
-    title: "Salem Mango (Malgova)",
-    emoji: "🥭",
-    color: "#F8C840",
-    desc: "Giant Malgova mangoes from Salem",
-    image: gSalemMango,
-  },
-  {
-    title: "Erode Turmeric",
-    emoji: "🌿",
-    color: "#F4B830",
-    desc: "Erode — the largest turmeric market in the world",
-    image: gErodeTurmeric,
-  },
-  {
-    title: "Tiruppur Garments",
-    emoji: "👕",
-    color: "#B4D8E8",
-    desc: "Knitwear capital of India",
-    image: gTiruppur,
-  },
-  {
-    title: "Kanchipuram Silk Sarees",
+    title: "Dogri Attire",
     emoji: "🥻",
-    color: "#D4A4E8",
-    desc: "Famous gold-bordered silk sarees",
-    image: gKanchiSilk,
+    color: "#9858A8",
+    desc: "Traditional costume of the Dogra people — women in vibrant salwar suits with distinctive Dogri embroidery from the Jammu region",
+    image: gDogriAttire,
   },
   {
-    title: "Madurai Sungdi Sarees",
-    emoji: "🧣",
-    color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
-  },
-  {
-    title: "Bharatanatyam",
+    title: "Rouf Dance",
     emoji: "💃",
-    color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
+    color: "#48A878",
+    desc: "A graceful traditional dance of Kashmiri women performed during Eid and spring festivals, with interlocking footwork in two facing rows",
+    image: gRoofDance,
   },
   {
-    title: "Dosa & Idli",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
+    title: "Dumhal Dance",
+    emoji: "🎭",
+    color: "#4878A8",
+    desc: "A rare and sacred dance of the Wattal tribe — men carry a tall decorated banner and dance in a procession during specific seasonal occasions",
+    image: gDumhalDance,
   },
   {
-    title: "Ven Pongal",
-    emoji: "🍲",
-    color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
+    title: "Chhakri Music",
+    emoji: "🎶",
+    color: "#C86848",
+    desc: "The most beloved folk music tradition of Kashmir — sung in groups with the Rabab, Tumbaknari and Noot, filling the valley during harvest seasons",
+    image: gChhakri,
   },
   {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
-    color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
-  },
-  {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
-  },
-  {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
-  },
-  {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
-  },
-  {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    title: "Santoor",
+    emoji: "🎵",
+    color: "#A87838",
+    desc: "Kashmir's iconic 100-stringed trapezoidal instrument struck with light wooden mallets — the heartbeat of classical Kashmiri Sufiana music",
+    image: gSantoor,
   },
 ];
