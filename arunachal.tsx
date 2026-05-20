@@ -9,13 +9,58 @@ import {
   ZoomIn,
 } from "lucide-react";
 import arunachalMap from "@assets/arunachalMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-
+const losar1 = "https://i.postimg.cc/d3SgWPZQ/image.png";
+const losar2 = "https://i.postimg.cc/hPfkXjNh/image.png";
+const solung1 = "https://i.postimg.cc/BvGk7CbG/image.png";
+const solung2 = "https://i.postimg.cc/DZpChQvg/image.png";
+const dree1 = "https://i.postimg.cc/WpJKVKkQ/image.png";
+const dree2 = "https://i.postimg.cc/L6tbY1vN/image.png";      
+const nyokum1 = "https://i.postimg.cc/0QKt8Mz1/image.png";
+const nyokum2 = "https://i.postimg.cc/7hgm2F1R/image.png";
+const mopin1 = "https://i.postimg.cc/28708f8H/image.png";
+const mopin2 = "https://i.postimg.cc/Jz7PsdsN/image.png";
+const ziro1 = "https://i.postimg.cc/rm49BBPJ/image.png";
+const ziro2 = "https://i.postimg.cc/mkGSBdxB/image.png";
+const donyi1 = "https://i.postimg.cc/gjqHJvd1/image.png";
+const donyi2 = "https://i.postimg.cc/HsdtNP4z/image.png";
+const reh1 = "https://i.postimg.cc/RVdTxQgN/image.png";
+const reh2 = "https://i.postimg.cc/zGPSVDmc/image.png";
+const chalo1 = "https://i.postimg.cc/cHfQ9Qv5/image.png";
+const chalo2 = "https://i.postimg.cc/VsBqXWQt/image.png";
+const torgya1 = "https://i.postimg.cc/hthVWFJb/image.png";
+const torgya2 = "https://i.postimg.cc/MT0Qbq4S/image.png";
+const Itafort1 = "https://i.postimg.cc/76bLbD4y/image.png";
+const Itafort2 = "https://i.postimg.cc/mhWZdHH2/image.png";
+const mon1 = "https://i.postimg.cc/mZJwSNmF/image.png";
+const mon2 = "https://i.postimg.cc/RVtTp6YX/image.png";
+const bhimasankar1 = "https://i.postimg.cc/bwH9pXpG/image.png";
+const bhimasankar2 = "https://i.postimg.cc/DzvdzCzF/image.png";
+const malinithan1 = "https://i.postimg.cc/RFq77NfP/image.png";
+const malinithan2 = "https://i.postimg.cc/QN9gVKjr/image.png";
+const jaswant1 = "https://i.postimg.cc/T3Gnkkgx/image.png";
+const jaswant2 = "https://i.postimg.cc/DzwLh8CZ/image.png";
+const pagoda1 = "https://i.postimg.cc/021SQttJ/image.png";
+const pagoda2 = "https://i.postimg.cc/rFGrtS3M/image.png";
+const parshuram1 = "https://i.postimg.cc/W12Jmdc8/image.png";
+const parshuram2 = "https://i.postimg.cc/cJzgNTg8/image.png";
+const gorsam1 = "https://i.postimg.cc/tJ3YWjrs/image.png";
+const gorsam2 = "https://i.postimg.cc/c1wKVRsh/image.png";
+const thembang1 = "https://i.postimg.cc/52N6YD8Y/image.png";
+const thembang2 = "https://i.postimg.cc/8Cx5Y59s/image.png";
+const dirang1 = "https://i.postimg.cc/zvrfJQJX/image.png";
+const dirang2 = "https://i.postimg.cc/RC7FPvR6/image.png";
+const gTawang = "https://i.postimg.cc/HskyXGtj/image.png";
+const gItanagar = "https://i.postimg.cc/tgWZp99Z/image.png";
+const gThukpa = "https://i.postimg.cc/9MBDw1RX/image.png";
+const gMomos = "https://i.postimg.cc/nrRM0z1C/image.png";
+const gButterBun = "https://i.postimg.cc/W1DSmq7c/image.png";
+const gPonung = "https://i.postimg.cc/280X7DR4/image.png";
+const gNuranang = "https://i.postimg.cc/Bbk4j1gD/image.png";
+const gNadampha = "https://i.postimg.cc/J0fCrCr7/image.png";
+const gPanda = "https://i.postimg.cc/xTmSs85Z/image.png";
+const gMithun = "https://i.postimg.cc/B6dJ6KND/image.png";
+const gTawangMonastery = "https://i.postimg.cc/3Jj38WG3/image.png";
+const gBamboo = "https://i.postimg.cc/2ymX2jSh/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -709,7 +754,7 @@ const festivals = [
     tagline: "",
     description:
       "The Reh Festival is perhaps one of the most demanding and elaborate celebrations in Arunachal Pradesh, reflecting the resilient spirit of the Idu Mishmi tribe. Dedicated to the Divine Mother 'Nanyi Inyitaya', the festival is an appeal for her blessings upon the community. What makes Reh unique is the immense preparation it requires; a family or village may spend years accumulating the wealth, livestock, and food necessary to host the feast, as the goddess is said to only be pleased by genuine abundance and generosity. The festival spans three days, featuring the Igu dance, where the tribal shaman, dressed in special ritualistic attire, performs trances to communicate with the spirit world. The Idu Mishmis are known for their distinctive hairstyles and exceptional weaving skills, both of which are proudly displayed during Reh. It is a time of strict taboos and sacred offerings, where the tribe reinforces its social hierarchy and kinship bonds through the sharing of smoked meat and rice wine, ensuring that the ancient lineage of the Mishmi remains protected by their ancestral mother.",
-    images: [reh1, nreh2],
+    images: [reh1, reh2],
     source: "(src: Lower Dibang Valley, Wikimedia commons)",
   },
   {
@@ -791,7 +836,7 @@ const historicalPlaces = [
     name: "Thembang Fortified Village: The Living History of the Monpas",
     description:
       "Thembang is an extraordinary ancient village that functions as a 'living monument', perched on a mountain ridge at an altitude of 2,300 meters in the West Kameng district. Recognizing its immense historical value, UNESCO has placed it on its tentative list of World Heritage Sites, as it represents a rare surviving example of a fortified citadel (Dzong) in the Himalayan region. The village is unique because its entire layout was designed for defense; it is enclosed by a massive dry-stone wall with two monumental gates—the 'Northern Gate' and the 'Southern Gate'—which were traditionally locked at night to protect the inhabitants from invasions by neighboring tribes or northern marauders. The architecture within the village follows a strict medieval Monpa pattern, where houses are built using locally sourced stone and wood without the use of mortar or iron nails. The villagers have preserved their traditional way of life, including their distinct dialect, social hierarchy, and agricultural practices, making the village a 'living museum' of Himalayan ethnography. Historically, Thembang was the seat of a powerful local chief (Bapu) and served as a crucial administrative hub along the ancient trade route between Tibet and the plains of Assam. The village is dotted with ancient religious structures, including a 'Mane' (prayer wall) and several small shrines that house centuries-old scriptures and thangkas. The presence of these monuments indicates a high level of cultural and spiritual sophistication that flourished despite the rugged terrain. In 1962, the village also became a silent witness to modern history, as significant battles were fought in its vicinity during the Sino-Indian War. Today, Thembang is a pioneer in community-based ecotourism, where the local Monpa people allow visitors to stay in their traditional homes, providing an authentic experience of their medieval heritage. The village stands as a symbol of resilience, showcasing how an indigenous community can adapt to the 21st century while keeping the physical walls and cultural spirit of their 'Living History' intact.",
-    images: [thembang1, thambang2],
+    images: [thembang1, thembang2],
     source: "(src: Unesco world heritage centre-Thembang tentative list, West Kameng district)",
   },
   {
@@ -899,111 +944,6 @@ const artGallery = [
     emoji: "🥻",
     color: "#D4A4E8",
     desc: "Beautiful handmade bamboo products showcasing the artistic skills of tribal communities.",
-    image: gKanchiSilk,
-  },
-  {
-    title: "Madurai Sungdi Sarees",
-    emoji: "🧣",
-    color: "#E8A8C8",
-    desc: "Traditional cotton sarees of Madurai",
-    image: gSungdi,
-  },
-  {
-    title: "Bharatanatyam",
-    emoji: "💃",
-    color: "#E88844",
-    desc: "Classical Indian dance form from Tamil Nadu",
-    image: gBharatanatyam,
-  },
-  {
-    title: "Dosa & Idli",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "Iconic South Indian breakfast",
-    image: gDosaIdli,
-  },
-  {
-    title: "Ven Pongal",
-    emoji: "🍲",
-    color: "#F4D89C",
-    desc: "Savoury rice & lentil dish — breakfast staple",
-    image: gVenPongal,
-  },
-  {
-    title: "Vada Sambar",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "Crispy lentil fritters with spiced lentil soup",
-    image: gVadaSambar,
-  },
-  {
-    title: "Rasam",
-    emoji: "🥣",
-    color: "#C84830",
-    desc: "Thin, tangy tamarind soup — digestive staple",
-    image: gRasam,
-  },
-  {
-    title: "Panniyaram",
-    emoji: "🍡",
-    color: "#D4A864",
-    desc: "Crispy or soft rice batter balls",
-    image: gPanniyaram,
-  },
-  {
-    title: "Neyi Appam",
-    emoji: "🍩",
-    color: "#D4884A",
-    desc: "Deep-fried ghee sweet rice cakes",
-    image: gNeyiAppam,
-  },
-  {
-    title: "Poi Kaal Kudurai",
-    emoji: "🐎",
-    color: "#D4C8B4",
-    desc: "Means 'False-leg horse' — a village folk dance",
-    image: gPoiKaal,
-  },
-  {
-    title: "Karagaattam",
-    emoji: "🏺",
-    color: "#A8D4B4",
-    desc: "'Pot dance' — folk dance balancing pot on head while dancing",
-    image: gKaragattam,
-  },
-  {
-    title: "Thanjavur Paintings",
-    emoji: "🖼️",
-    color: "#F4D870",
-    desc: "Made with thin gold foils/sheets — classical art form",
-    image: gThanjavur1,
-  },
-  {
-    title: "Thanjavur Paintings — Radha Krishna",
-    emoji: "🖼️",
-    color: "#E8C870",
-    desc: "Classical Thanjavur work depicting Radha & Krishna with gold foil & gem inlay",
-    image: gThanjavur2,
-  },
-  {
-    title: "Silambattam",
-    emoji: "🥋",
-    color: "#D4A8A8",
-    desc: "Ancient Tamil weapon-based martial art merging fighting and dance-like fluidity",
-    image: gSilambattam,
-  },
-  {
-    title: "Thanjavur Thalaiyaati Bommai",
-    emoji: "🪆",
-    color: "#E8B488",
-    desc: "Iconic Thanjavur dancing dolls with bobbing heads — GI-tagged craft",
-    image: gThalaiyaati,
-  },
-  {
-    title: "Tamil Nadu Sappadu (Feast)",
-    emoji: "🍛",
-    color: "#A8C878",
-    desc: "Traditional banana-leaf meal — rice, sambar, rasam, poriyal, kootu, payasam",
-    image: gFeast,
+    image: gBamboo,
   },
 ];
