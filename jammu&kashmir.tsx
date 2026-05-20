@@ -9,17 +9,34 @@ import {
   ZoomIn,
 } from "lucide-react";
 import jammuMap from "@assets/jammuMap.jpg";
-/*Art gallery*/
-const gWazwaan = "";
-const gRoghanJosh = "";
-const gKashmiriPhiran = "";
-const gDogriAttire = "";
-const gRoofDance = "";
-const gChhakri = "";
-const gSantoor = "";
-const gDumhalDance = "";
-const gKashmiriKahwa = "";
-const gModurPulao = "";
+const eid1 = "https://i.postimg.cc/6QRL6zgH/image.png";
+const navratri1 = "https://i.postimg.cc/wvQXLM6X/image.png";
+const tulip1 = "https://i.postimg.cc/G3zPp4gc/image.png";
+const amarnath1 = "https://i.postimg.cc/15jppLQ1/image.png";
+const hemis1 = "https://i.postimg.cc/cJQwGCt5/image.png";
+const baisakhi1 = "https://i.postimg.cc/gJshr7DC/image.png";
+const lohri1 = "https://i.postimg.cc/CLz8Lmfc/image.png";
+const navroz1 = "https://i.postimg.cc/g0qXB7fp/image.png";
+const vaishno1 = "https://i.postimg.cc/NMdyQHGB/image.png";
+const amar = "https://i.postimg.cc/HWPJKXPn/image.png";
+const dal1 = "https://i.postimg.cc/cJmCcnnm/image.png";
+const mughal1 = "https://i.postimg.cc/59G0p168/image.png";
+const gulmarg1 = "https://i.postimg.cc/cLGJym7R/image.png";
+const martand1 = "https://i.postimg.cc/BvMZFfrD/image.png";
+const avantipur1 = "https://i.postimg.cc/V6hY7BLC/image.png";
+const hari1 = "https://i.postimg.cc/z3ZqNzhz/image.png";
+const shankaracharya1 = "https://i.postimg.cc/9FZ77zJD/image.png";
+const pari1 = "https://i.postimg.cc/9f8Rh9F6/image.png";
+const gWazwaan = "https://i.postimg.cc/JzKtNXJy/image.png";
+const gRoghanJosh = "https://i.postimg.cc/NFh0skhx/image.png";
+const gKashmiriPhiran = "https://i.postimg.cc/XNFJ2md3/image.png";
+const gDogriAttire = "https://i.postimg.cc/fbpzCfbL/image.png";
+const gRoofDance = "https://i.postimg.cc/NfBgdMQ8/image.png";
+const gChhakri = "https://i.postimg.cc/C1bgNyt8/image.png";
+const gSantoor = "https://i.postimg.cc/NfdwbkNn/image.png";
+const gDumhalDance = "https://i.postimg.cc/d12bC2kf/image.png";
+const gKashmiriKahwa = "https://i.postimg.cc/nL7g84kV/image.png";
+const gModurPulao = "https://i.postimg.cc/J7KgW4bY/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
