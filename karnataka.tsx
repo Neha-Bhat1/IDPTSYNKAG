@@ -8,91 +8,163 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import KarnatakaMap from "";
-const Dasara1= "";
-const Dasara2= "";
-const Dasara3 = "";
-const Dasara4 = "";
-const Ugadi1 = "";
-const Ugadi2 = "";
-const Ugadi3 = "";
-const Ugadi4 = "";
-const Makar1 = "";
-const Makar2 = "";
-const Makar3 = "";
-const Makar4 = "";
-const Makar5 = "";
-const kan1 = "";
-const kan2 = "";
-const kan3 = "";
-const Hampi1 = "";
-const Hampi2 = "";
-const Hampi3 = "";
-const Kambala1 = "";
-const Kambala2 = "";
-const Karaga1 = "";
-const Karaga2 = "";
-const Karaga3 = "";
-const Abhi1 = "";
-const Abhi2 = "";
-const Kallu = "";
-const Cave1 = "";
-const Cave2 = "";
-const Dam1 = "";
-const Dam2 = "";
-const Daroji1 = "";
-const Falls1 = "";
-const Falls2 = "";
-const Pura1 = "";
-const Pura2 = "";
-const Shravan1 = "";
-const Shravan2 = "";
-const Basava1 = "";
-const Basava2 = "";
-const Nawaz1 = "";
-const Nawaz2 = "";
-const Tala1 = "";
-const Tala2 = "";
-const Koti1 = "";
-const Avani = "";
-const Site1 = "";
-const Site2 = "";
-const Site3 = "";
-const Viru1 = "";
-const Anjanadri = "";
-const Anegundi1 = "";
-const Anegundi2 = "";
-const nava1 = "";
-const nava2 = "";
-const Sri1 = "";
-const Sri2 = "";
-const Samudra1 = "";
-const Samudra2 = "";
-const mysuru1 = "";
-const mysuru2 = "";
-const mysuru3 = "";
-const mysuru4 = "";
-const mysuru5 = "";
-const mysuru6 = "";
-const Chamundi1 = "";
-const Chamundi2 = "";
-const Chamundi3 = "";
-const Rai1 = "";
-const Ram1 = "";
-const Ram2 = "";
-const jog1 = "";
-const jog2 = "";
-const mutt1 = "";
-const mutt2 = "";
-
+import KarnatakaMap from "https://i.postimg.cc/52Lq2grJ/image.png";
+const Dasara1 = "https://i.postimg.cc/G2hkzCmH/image.png";
+const Dasara2 = "https://i.postimg.cc/ryHSG76f/image.png";
+const Dasara3 = "https://i.postimg.cc/YC6YH94L/image.png";
+const Dasara4 = "https://i.postimg.cc/V5y0yQmB/image.png";
+const Ugadi1 = "https://i.postimg.cc/jSbvNBP5/image.png";
+const Ugadi2 = "https://i.postimg.cc/mDtSB4fF/image.png";
+const Ugadi3 = "https://i.postimg.cc/xTK30g75/image.png";
+const Ugadi4 = "https://i.postimg.cc/zDhnj0JT/image.png";
+const Makar1 = "https://i.postimg.cc/mrh9FSXG/image.png";
+const Makar2 = "https://i.postimg.cc/br0SjVJ9/image.png";
+const Makar3 = "https://i.postimg.cc/X73ygW1N/image.png";
+const Makar4 = "https://i.postimg.cc/mgpzRHbp/image.png";
+const Makar5 = "https://i.postimg.cc/P5JJ65mQ/image.png";
+const kan1 = "https://i.postimg.cc/763ZCGkC/image.png";
+const kan2 = "https://i.postimg.cc/FHwrDgFN/image.png";
+const kan3 = "https://i.postimg.cc/zBFqzsCJ/image.png";
+const Hampi1 = "https://i.postimg.cc/dt1JFSLY/image.png";
+const Hampi2 = "https://i.postimg.cc/L6b28B1B/image.png";
+const Hampi3 = "https://i.postimg.cc/g2LdXXyk/image.png";
+const Kambala1 = "https://i.postimg.cc/Jh3fZbsL/image.png";
+const Kambala2 = "https://i.postimg.cc/sxLqsmNv/image.png";
+const Karaga1 = "https://i.postimg.cc/VknpPjBs/image.png";
+const Karaga2 = "https://i.postimg.cc/fLTrd14T/image.png";
+const Karaga3 = "https://i.postimg.cc/X7yD9wPQ/image.png";
+const Abhi1 = "https://i.postimg.cc/CKJvwJZR/image.png";
+const Abhi2 = "https://i.postimg.cc/gr9sgT7w/image.png";
+const Sirsi1 ="https://i.postimg.cc/43FSzBXM/image.png";
+const Sirsi2 = "https://i.postimg.cc/cLx92VHw/image.png";
+const Sirsi3 = "https://i.postimg.cc/KzBDRNjf/image.png";
+const Kallu = "https://i.postimg.cc/W1zmMjzf/image.png";
+const Cave1 = "https://i.postimg.cc/nz4qHhS9/image.png";
+const Cave2 = "https://i.postimg.cc/J0KJkdL3/image.png";
+const Hampi1 = "https://i.postimg.cc/vmLmTxM6/image.png";
+const Hampi2 = "https://i.postimg.cc/90SmKGPY/image.png";
+const Dam1 = "https://i.postimg.cc/65k6hfp6/image.png";
+const Dam2 = "https://i.postimg.cc/6Q09tsLy/image.png";
+const Daroji1 = "https://i.postimg.cc/9XScWYTN/image.png";
+const Falls1 = "https://i.postimg.cc/CMfxn2Fw/image.png";
+const Falls2 = "https://i.postimg.cc/tgTXqSrc/image.png";
+const Fort1 = "https://i.postimg.cc/rs6c98q5/image.png";
+const Fort2 = "https://i.postimg.cc/44tXxh5G/image.png";
+const Jhira1 = "https://i.postimg.cc/Kvxhcpjj/image.png";
+const Bidar1 = "https://i.postimg.cc/k4KLqWds/image.png";
+const Bidar2 = "https://i.postimg.cc/D0cDbF0x/image.png";
+const Bandi1 = "https://i.postimg.cc/6pPPZMWY/image.png";
+const Bandi2 = "https://i.postimg.cc/LXtQrRzv/image.png";
+const Hills = "https://i.postimg.cc/fWvgCzWV/image.png";
+const Nandi1 = "https://i.postimg.cc/x1Xx9Lvt/image.png";
+const Nandi2 = "https://i.postimg.cc/wvp05PSc/image.png";
+const Bhoga1 = "https://i.postimg.cc/pr0CHdyj/image.png";
+const Bhoga2 = "https://i.postimg.cc/qv6LP4rm/image.png";
+const Baba1 = "https://i.postimg.cc/rmMNR4rB/image.png";
+const Baba2 = "https://i.postimg.cc/J7T5tG4x/image.png";
+const Giri1 = "https://i.postimg.cc/L8PtyDBd/image.png";
+const Chitradurga1 = "https://i.postimg.cc/G2XGB5rr/image.png";
+const Chitradurga2 = "https://i.postimg.cc/XND94mQg/image.png";
+const Kateel1 = "https://i.postimg.cc/NMjrwkTc/image.png";
+const Kateel2 = "https://i.postimg.cc/Fz2f3t61/image.png";
+const Kudroli1 = "https://i.postimg.cc/Jz3yD254/image.png";
+const Kudroli2 = "https://i.postimg.cc/DZNm3kn5/image.png";
+const Belur1 = "https://i.postimg.cc/MHRBsKVf/image.png";
+const Belur2 = "https://i.postimg.cc/vZXV2Kg5/image.png";
+const Pura1 = "https://i.postimg.cc/LXggX6yQ/image.png";
+const Pura2 = "https://i.postimg.cc/c4StxWff/image.png";
+const Shravan1 = "https://i.postimg.cc/sgnM4ZqT/image.png";
+const Shravan2 = "https://i.postimg.cc/brHJDG15/image.png";
+const Basava1 = "https://i.postimg.cc/yNg8hpFk/image.png";
+const Basava2 = "https://i.postimg.cc/qqLJBPdc/image.png";
+const Nawaz1 = "https://i.postimg.cc/bNmy7fgR/image.png";
+const Nawaz2 = "https://i.postimg.cc/3wv304TR/image.png";
+const Tala1 = "https://i.postimg.cc/Y23MFBJN/image.png";
+const Tala2 = "https://i.postimg.cc/G2RnBXKf/image.png";
+const Koti1 = "https://i.postimg.cc/pVqMTYFC/image.png";
+const Avani = "https://i.postimg.cc/sx28Sqh9/image.png";
+const Site1 = "https://i.postimg.cc/fbB1LM3L/image.png";
+const Site2 = "https://i.postimg.cc/8sQ0353z/image.png";
+const Site3 = "https://i.postimg.cc/bw2Qrgsd/image.png";
+const Viru1 = "https://i.postimg.cc/j5JVkG52/image.png";
+const Anjanadri = "https://i.postimg.cc/prTjHYwF/image.png";
+const Anegundi1 = "https://i.postimg.cc/Y2ngxZF3/image.png";
+const Anegundi2 = "https://i.postimg.cc/rpktmk6F/image.png";
+const nava1 = "https://i.postimg.cc/FRPfDkY5/image.png";
+const nava2 = "https://i.postimg.cc/BbLxFBmn/image.png";
+const Sri1 = "https://i.postimg.cc/YqF6q84Q/image.png";
+const Sri2 = "https://i.postimg.cc/vZL55Bty/image.png";
+const Samudra1 = "https://i.postimg.cc/XJXFMgSq/image.png";
+const Samudra2 = "https://i.postimg.cc/MXJjQ2c7/image.png";
+const mysuru1 = "https://i.postimg.cc/ZY22CTHm/image.png";
+const mysuru2 = "https://i.postimg.cc/rwLHNQ7Y/image.png";
+const mysuru3 = "https://i.postimg.cc/6QW1DTWV/image.png";
+const mysuru4 = "https://i.postimg.cc/LsgZ436w/image.png";
+const mysuru5 = "https://i.postimg.cc/5Nk0HQGF/image.png";
+const mysuru6 = "https://i.postimg.cc/rswVsqN5/image.png";
+const Chamundi1 = "https://i.postimg.cc/VkCYdGn4/image.png";
+const Chamundi2 = "https://i.postimg.cc/cHsZkdjc/image.png";
+const Chamundi3 = "https://i.postimg.cc/T1s6PgPs/image.png";
+const Rai1 = "https://i.postimg.cc/ydY4Xvgn/image.png";
+const Ram1 = "https://i.postimg.cc/cCrpPCct/image.png";
+const Ram2 = "https://i.postimg.cc/Pf7sYbXk/image.png";
+const jog1 = "https://i.postimg.cc/BbLzMyqH/image.png";
+const jog2 = "https://i.postimg.cc/yY91NpFt/image.png";
+const mutt1 = "https://i.postimg.cc/XJp36sjy/image.png";
+const mutt2 = "https://i.postimg.cc/GmdCmL3C/image.png";
+const madhugiri = "https://i.postimg.cc/0NHRn7Yx/image.png";
+const krishna1 = "https://i.postimg.cc/J0ZfRg9X/image.png";
+const krishna2 = "https://i.postimg.cc/rwQvy5Yv/image.png";
+const krishna3 = "https://i.postimg.cc/LXZ7Vw4W/image.png";
+const Ghati1 = "https://i.postimg.cc/FKwC1pbx/image.png";
+const iskcon1 = "https://i.postimg.cc/J4h3VJZM/image.png";
+const iskcon2 = "https://i.postimg.cc/LXRfyZm4/image.png";
+const iskcon3 = "https://i.postimg.cc/6qbv5jnx/image.png";
+const Vidhan1 = "https://i.postimg.cc/ZqzyRyB4/image.png";
+const Vidhan2 = "https://i.postimg.cc/nVSjmW9f/image.png";
+const Deva1 = "https://i.postimg.cc/BvPMWDW3/image.png";
+const Deva2 = "https://i.postimg.cc/SRdGLf9g/image.png";
+const Deva3 = "https://i.postimg.cc/bN6TsLpy/image.png";
+const Eshwar1 = "https://i.postimg.cc/sfLxxZbd/image.png";
+const Eshwar2 = "https://i.postimg.cc/XqBVdQtM/Murudeshwara-raja-gopura-HDR-Jul-2012.jpg";
+const Eshwar3 = "https://i.postimg.cc/SxfznxWM/Murudeshwar-Full-view.jpg";
+const Eshwar4 = "https://i.postimg.cc/V6r6WfC1/Lord-Shiva-statue-at-Murudeshwara.jpg";
+const Eshwar5 = "https://i.postimg.cc/QdfdL9gh/image.png";
+const Yana1 = "https://i.postimg.cc/1X190pSD/image.png";
+const Yana2 = "https://i.postimg.cc/x1pnprQp/image.png";
+const Yana3 = "https://i.postimg.cc/vTysxb77/image.png";
+const Gokarna1 = "https://i.postimg.cc/zX0r3my7/image.png";
+const Gokarna2 = "https://i.postimg.cc/nLQbdC0v/image.png";
+const Gokarna3 = "https://i.postimg.cc/T2c8H8qH/image.png";
 // Art Gallery Placeholders
-const gDolluKunitha = "";
-const gTogaluGombeyaata = "";
-const gVeeragase = "";
-const gKamsale = "";
-const gMridangam = "";
-const gTamburi = "";
 
+const gMysorePak = "https://i.postimg.cc/nzYW577c/image.png";
+const gDharwadPedha = "https://i.postimg.cc/qMZ59ptY/image.pn";
+const gMaddurVada = "https://i.postimg.cc/xdLpJH67/image.png";
+const gChannapatnaToys = "https://i.postimg.cc/6qbMJhQh/image.png";
+const gBidriware = "https://i.postimg.cc/CLtccJtt/image.png";
+const gMysoreSilk = "https://i.postimg.cc/cHshvzgT/image.png";
+const gIlkalSaree = "https://i.postimg.cc/9FvBd0Rs/image.png";
+const gKasuti = "https://i.postimg.cc/0Q2GkJFS/image.png";
+const gRosewoodInlay = "https://i.postimg.cc/2SR4qtgW/image.png";
+const gGanjifaCards = "https://i.postimg.cc/L4GyTNr6/image.png";
+const gNavalgundDurries = "https://i.postimg.cc/8kf4jLsd/image.png";
+const gYakshagana = "https://i.postimg.cc/43Fv33gW/image.png";
+const gDolluKunitha = "https://i.postimg.cc/8CsWxV6f/image.png";
+const gBisiBeleBath = "https://i.postimg.cc/vTwV1gSN/image.png";
+const gMysoreDosa = "https://i.postimg.cc/m2wHDrNf/image.png";
+const gNeerDosa = "https://i.postimg.cc/zBKL1DXy/image.png";
+const gRagiMudde = "https://i.postimg.cc/Y9K98cfH/image.png";
+const gUdupiIdli = "https://i.postimg.cc/PJdqsm7H/image.png";
+const gObbattu = "https://i.postimg.cc/dVhVYQ51/image.png";
+const gSandalSoap = "https://i.postimg.cc/9QwCk8f9/image.png";
+const gMysorePeta = "https://i.postimg.cc/26GDWgHD/image.png";
+const gTogaluGombeyaata = "https://i.postimg.cc/W46LRQc4/image.png";
+const gVeeragase = "https://i.postimg.cc/SK43GDYn/image.png";
+const gKamsale = "https://i.postimg.cc/m2Fnf0Qz/image.png";
+const gMridangam = "https://i.postimg.cc/LsvC3RMk/image.png";
+const gTamburi = "https://i.postimg.cc/tChLnK72/image.png";
+const gNadaswaram = "https://i.postimg.cc/fLGrJCN1/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -744,7 +816,7 @@ const festivals = [
   {
     name: "Makar Sankranti",
     tagline:
-      "Brings a spectacular re-enactment of the marriage of the Pandiyan princess Meenakshi to Lord Sundareswarar.",
+      "Harvesting Gratitude, Sweetening Bonds",
     description:
       "Makar Sankranti is one of the most auspicious and joyfully celebrated harvest festivals in Karnataka, marking the sun's transition into the zodiac sign of Makara (Capricorn) and the arrival of longer, warmer days. Falling annually in mid-January, this vibrant festival is a time of immense gratitude, especially among farming communities who celebrate the bountiful yield of the winter crops. Preparation begins days in advance with households clearing away the old to make way for the new, culminating on the festival morning when families dress in traditional attire and decorate their front courtyards with elaborate, colorful rangoli designs. A signature ritual deeply rooted in Karnataka's agrarian culture is the decoration of cattle, where cows and bulls are bathed, their horns are painted in bright hues, and they are adorned with colorful garlands to honor their hard work in the fields.At the heart of the festival's social and culinary tradition is the exchange of Ellu-Bella, a specially prepared sweet mixture made of white sesame seeds, fried groundnuts, finely cut dry coconut, pieces of jaggery, and roasted chana dal. People visit the homes of relatives, friends, and neighbors to share this treat along with pieces of sugarcane, uttering the famous Kannada phrase, 'Ellu bella thindu olle maathadi,' which translates to 'Eat sesame and jaggery and speak only sweet words.'This beautiful ritual is meant to sweeten relationships, resolve past differences, and usher in goodwill for the year ahead. As evening falls, rural communities gather for the thrilling and dramatic ritual of Kichchu Hayisuvudu, where farmers guide their decorated herds to leap over a small, controlled bonfire. This ancient practice is believed to ward off evil spirits, protect the livestock from disease, and bring good fortune and prosperity to the entire village.",
     images: [Makar1,Makar2,Makar3,Makar4,Makar5],
@@ -753,7 +825,7 @@ const festivals = [
   {
     name: "Kannada Rajyostsava",
     tagline:
-      "Meaning 'Tamil New Year' — the first day of year on the Tamil calendar.",
+      "Celebrating the Lofty Land of Kannada Pride",
     description:
       "Kannada Rajyotsava, celebrated with immense pride and energy every year on November 1st, is the official statehood day of Karnataka. The festival commemorates the historic unification of all Kannada-speaking regions of South India under a single administration. Before this monumental unification, the Kannada-speaking population was fragmented across different territories, including the princely state of Mysore, the Hyderabad Nizam's territory, and the Madras and Bombay Presidencies. Decades of dedicated efforts by visionary leaders and literary icons through the Karnataka Ekikarana (Unification) Movement culminated on November 1, 1956, when these scattered regions were officially merged under the States Reorganisation Act to form a unified entity initially called Mysore State. To honor the linguistic identity and cultural roots of the entire region, the state was officially renamed Karnataka on November 1, 1973, under the leadership of Chief Minister D. Devaraj Aras, drawing from the ancient word 'Karunadu,' which beautifully translates to 'lofty land.' On this vibrant day, the entire state transforms into a sea of red and yellow, which are the iconic colors of the unofficial state flag, symbolizing courage and peace. The grandest official celebrations take place in Bengaluru at the Kanteerava Stadium, where the Chief Minister hoists the state flag and delivers an inspiring address, followed by the collective chanting of the state anthem, 'Jaya Bharatha Jananiya Tanujate.' A major highlight of the state-sponsored festivities is the announcement and presentation of the prestigious Rajyotsava Awards, the second-highest civilian honor in the state, which recognizes individuals who have made outstanding contributions to fields like literature, science, arts, sports, and social service. Across cities and villages, the atmosphere is electric with local community groups, schools, and commercial hubs organizing vibrant cultural programs, street processions, motorcycle rallies, and traditional folk dance performances like Dollu Kunitha and Yakshagana, uniting people of all backgrounds in a joyful celebration of Kannada heritage, language, and shared identity.  ",
     images: [kan1,kan2,kan3],
@@ -770,7 +842,7 @@ const festivals = [
   },
   {
     name: "Kambala festival",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
+    tagline: "Thundering Hooves, Muddy Tracks, Timeless Tradition",
     description:
       "The Kambala Festival is an exhilarating, centuries-old traditional buffalo racing event celebrated primarily by the farming community in the coastal districts of Karnataka, including Dakshina Kannada and Udupi, a region collectively known as Tulu Nadu. Held annually between November and March after the paddy harvest, this vibrant rural spectacle serves as a profound gesture of gratitude to Lord Kadri Manjunatha (an incarnation of Lord Shiva) for a bountiful crop and to pray for the good health and protection of the farm animals. Historically, some roots of the festival are also traced back to the Hoysala period, when kings supposedly used the races to test the speed and strength of buffaloes for potential military use. Unlike regular festivals, Kambala is structured as a series of highly competitive weekend events organized across nearly 45 different villages, drawing massive, passionate crowds of over 20,000 spectators who gather to cheer on their local champions. The heart-pounding action unfolds on parallel, 140-meter-long tracks filled with thick, slushy mud and water, where professionally trained and heavily pampered pairs of buffaloes sprint at breathtaking speeds of up to 50 kilometers per hour. A highly athletic, barefoot jockey runs alongside or stands precariously behind the massive beasts on a specially designed wooden plank called a halage. The competitions are rigorously organized into distinct categories based on experience and equipment, ranging from Negilu (for entry-level buffaloes using a light wooden plow) to Kene Halage, an elite senior category where the winner is determined by the sheer height of the muddy water forced upward through holes in the wooden plank as they speed through the track. While historically the winners were rewarded with coconuts and bananas, modern-day champions compete for prestigious gold and silver coins, cash prizes, and immense community honor. Following strict guidelines from the Supreme Court of India to ensure animal welfare and prevent cruelty, contemporary Kambala races are closely monitored to protect the buffaloes, successfully preserving this electrifying slice of South Canara's rich agricultural heritage.  ",
     images: [Kambala1,Kambala2,],
@@ -779,7 +851,7 @@ const festivals = [
   {
     name: "Bengaluru karaga",
     tagline:
-      "Attracts thousands, clad in orange robes, to the sacred spot where the ship landed.",
+      "A Tapestry of Faith: Uniting Souls in Sacred Harmony",
     description:
       "The Bengaluru Karaga is one of the oldest, most vibrant, and continuous folk festivals celebrated in the heart of Karnataka's capital. Spanning 11 days, the grand event is deeply rooted in the epic Mahabharata and revolves around the worship of Draupadi, who is revered by devotees as an incarnation of Adishakti (the Goddess of supreme power). According to local mythology, toward the end of her earthly journey, Draupadi created an army of brave soldiers called Veerakumaras to defeat a demon named Timirasura. When she later ascended to heaven, she promised these loyal warriors that she would return to earth once a year, an event commemorated by the festival's main procession on the full moon night of the Hindu month of Chaitra (typically March or April). The custodians of this ancient tradition are the Thigala community, a group historically skilled in agriculture and horticulture who migrated to the region centuries ago and have meticulously preserved the festival's complex rituals for generations. The spiritual and geographic epicenter of the festivities is the historic Sri Dharmaraya Swamy Temple in Thigalarapete, central Bengaluru. The ultimate highlight of the entire festival occurs at midnight on the final night, when the chief temple priest—undergoing rigorous physical and spiritual preparation, and dressed traditionally in female bridal attire to embody the Goddess—emerges from the sanctum bearing the Karaga. The Karaga is a sacred, unbaked mud pot filled with water and intricately covered with a massive, pyramidal structure of fresh jasmine flowers, which the priest must balance perfectly on his head without touching it with his hands. Escorted by hundreds of bare-chested Veerakumaras wielding gleaming swords, the priest leads a spectacular, night-long procession that dances through the old, narrow streets of Bengaluru. In a beautiful display of communal harmony and an unbroken historic tradition, the procession halts at the Hazrat Tawakkal Mastan Dargah, a Sufi shrine, where prayers are exchanged before returning to the temple at sunrise. Beyond its deep spiritual significance, the Bengaluru Karaga also celebrates nature and the city’s historic water body network, ensuring that the ancient socio-cultural landscape of old Bangalore remains alive amid the modern metropolis.    ",
     images: [Karaga1,Karaga2,Karaga3],
@@ -787,10 +859,18 @@ const festivals = [
   },
   {
     name: "Mahamastakabhisheka",
-    tagline: "Literally means the festival of 'nine nights'.",
+    tagline: "Pouring Devotion Upon the Eternal Monolith",
     description:
       "The Mahamastakabhisheka is a magnificent, deeply sacred Jain festival held once every 12 years in the historic town of Shravanabelagola, Karnataka. The grand event centers around the ritual bathing and anointment of the colossal, 57-foot-tall monolithic statue of Lord Bahubali (also known as Gommateshwara), which was carved out of a single granite block atop the Vindhyagiri Hill under the patronage of Chavundaraya, a general of the Western Ganga Dynasty, in 981 CE. Lord Bahubali is revered in Jainism as the first ascetic to achieve liberation (moksha) in this cosmic age, symbolizing ultimate peace, selflessness, and non-violence (ahimsa). The festival attracts millions of devotees, monks, and spiritual seekers from across the globe, transforming the quiet town into a major international pilgrimage center for several weeks.To conduct the ritual, a massive, specially engineered scaffolding is erected behind the ancient statue so that priests and devotees can access the top of the monument. The high point of the festival is the spectacular, multi-day anointment process, where hundreds of holy pots (kalashas) containing sacred water, fresh milk, sugarcane juice, tender coconut water, and rice flour are poured over the head of the deity. As the liquids cascade down the monolithic structure, the statue is further bathed in vibrant pastes of sandalwood, saffron, and turmeric, followed by a shower of precious stones, gold coins, and millions of flower petals. Each substance poured during the ceremony carries deep symbolic meaning, representing the purification of the soul, the washing away of worldly attachments, and the celebration of inner peace. Because it occurs only once over a span of more than a decade, the Mahamastakabhisheka stands as one of the rarest, most visually stunning, and spiritually profound heritage celebrations in India. ",
     images: [Abhi1,Abhi2,],
+    source: "(Ar.inspiredpencil.com,nriol.com )",
+  },
+  {
+    name: "Sirsi Marikamba Jatre",
+    tagline: "South India's grandest spectacle of faith and culture..",
+    description:
+      "The **Sirsi Marikamba Jatre** is one of the largest and most vibrant bi-annual temple fairs in South India, celebrated with immense grandiosity in the town of Sirsi, Karnataka. Dedicated to Goddess Marikamba, a powerful manifestation of Goddess Durga, this highly revered festival draws millions of devotees from across Karnataka and neighboring states like Goa, Maharashtra, and Tamil Nadu. The festival is celebrated to honor the deity and seek her divine protection, blessings for prosperity, and deliverance from diseases and evil forces. Historically rooted in local tradition, the *jatre* serves as a massive cultural and spiritual congregation, symbolizing the triumph of good over evil and fostering a deep sense of community and generational faith.The celebration spans over several days and transforms the entire town into a kaleidoscope of colors, music, and devotion. The festivities begin with elaborate pre-festival rituals, after which the magnificent, 7-foot-tall wooden idol of Goddess Marikamba is beautifully adorned and placed on a massive, intricately decorated chariot (rath). The crowning highlight of the *jatre* is the spectacular **Rathotsava** (chariot procession), where thousands of ecstatic devotees pull the chariot through the main streets of Sirsi amidst the resounding beats of traditional drums, folk music, and vibrant dances like *Dollu Kunitha*. The streets come alive with bustling fairs, local food stalls, amusement rides, and diverse cultural programs showcasing Karnataka's rich heritage. Devotees patiently wait in long lines for *darshan* to offer special pujas, coconuts, and traditional sarees to the deity. The grand carnival-like atmosphere seamlessly blends solemn religious devotion with joyous social celebration, making the Sirsi Jatre an unforgettable celebration of faith, unity, and timeless cultural tradition.",
+    images: [Sirsi1,Sirsi2,Sirsi3,],
     source: "(Ar.inspiredpencil.com,nriol.com )",
   },
 ];
@@ -1111,20 +1191,33 @@ const historicalPlaces = [
     source: "(src: Wikipedia, )",
   },
   {
-    name: "Baba Budangiri",
+    name: "Devanahalli Fort",
     description:
-      "Baba Budangiri is a mountain range and revered pilgrimage site in the Chikkamagaluru district of Karnataka, India. Part of the Western Ghats, it is named after the 17th-century Sufi saint Baba Budan and holds deep religious and ecological significance.Baba Budangiri forms part of the larger Mullayanagiri–Kemmangundi range in the Western Ghats. The region features rolling grasslands, shola forests, and numerous trekking routes. It is known for its mist-covered peaks, caves, and waterfalls such as Manikyadhara Falls. The area is a biodiversity hotspot and supports coffee plantations that are integral to the local economy. The site houses the shrine of Sufi saint Baba Budan, who is traditionally believed to have introduced coffee cultivation to India by bringing beans from Yemen. It is also revered by Hindus as the abode of the sage Dattatreya, making it a unique symbol of syncretic worship. Annual urs and jatra festivals attract pilgrims from both faiths.The range is a popular trekking and sightseeing destination, offering panoramic views of the Western Ghats. Treks often link Baba Budangiri to nearby Mullayanagiri, the highest peak in Karnataka. Visitors also explore surrounding coffee estates and scenic viewpoints accessible by road from Chikkamagaluru town.Due to its ecological sensitivity and cultural diversity, Baba Budangiri has been the focus of conservation efforts balancing tourism, pilgrimage, and environmental preservation. The area remains a symbol of Karnataka’s natural beauty and interfaith heritage.  ",
-    images: [Baba1,Baba2],
+      "Devanahalli Fort is a historic fortification located in Devanahalli, near Bengaluru, India. Built in the early 16th century, the fort is best known as the birthplace of Tipu Sultan and as a significant site in the region’s military history. It stands as a preserved example of southern Indian defensive architecture. The fort’s origins trace to the early 1500s under a local chieftain of the Saluva dynasty. It was later occupied by several powers including the Wodeyars of Mysore, the Maratha Empire, and the British East India Company. Hyder Ali and Tipu Sultan fortified it in the 18th century, transforming it into a strong stone bastion.The fort is an oval-shaped structure covering approximately 20 acres, with twelve semi-circular bastions. It features massive walls of dressed masonry, surrounded by a wide moat. Two prominent entrances—one facing the east and another the west—are adorned with wooden doors reinforced by iron spikes. Inside the fort lie remnants of military quarters, temples, and residential structures reflecting typical Dravidian architectural motifs.Devanahalli Fort is a protected monument under the Archaeological Survey of India. It attracts visitors interested in Mysore’s military heritage and the life of Tipu Sultan, whose birthplace shrine (Khadri Manzil) is nearby. The fort’s preservation contributes to understanding pre-colonial fortification systems in southern India. ",
+    images: [Deva1,Deva2],
     source: "(src: Wikipedia, )",
   },
   {
-    name: "Baba Budangiri",
+    name: "Murdeshwara Temple",
     description:
-      "Baba Budangiri is a mountain range and revered pilgrimage site in the Chikkamagaluru district of Karnataka, India. Part of the Western Ghats, it is named after the 17th-century Sufi saint Baba Budan and holds deep religious and ecological significance.Baba Budangiri forms part of the larger Mullayanagiri–Kemmangundi range in the Western Ghats. The region features rolling grasslands, shola forests, and numerous trekking routes. It is known for its mist-covered peaks, caves, and waterfalls such as Manikyadhara Falls. The area is a biodiversity hotspot and supports coffee plantations that are integral to the local economy. The site houses the shrine of Sufi saint Baba Budan, who is traditionally believed to have introduced coffee cultivation to India by bringing beans from Yemen. It is also revered by Hindus as the abode of the sage Dattatreya, making it a unique symbol of syncretic worship. Annual urs and jatra festivals attract pilgrims from both faiths.The range is a popular trekking and sightseeing destination, offering panoramic views of the Western Ghats. Treks often link Baba Budangiri to nearby Mullayanagiri, the highest peak in Karnataka. Visitors also explore surrounding coffee estates and scenic viewpoints accessible by road from Chikkamagaluru town.Due to its ecological sensitivity and cultural diversity, Baba Budangiri has been the focus of conservation efforts balancing tourism, pilgrimage, and environmental preservation. The area remains a symbol of Karnataka’s natural beauty and interfaith heritage.  ",
-    images: [Baba1,Baba2],
+      "Perched on the scenic Kanduka Hill and surrounded by the pristine waters of the Arabian Sea on three sides, the Murudeshwara Temple in Uttara Kannada, Karnataka, stands as a magnificent blend of deep spiritual devotion, ancient mythology, and breathtaking contemporary architecture. The historical and sacred origins of this pilgrimage site are deeply rooted in the epic Ramayana, revolving around the divine Atma-Linga (the soul-linga of Lord Shiva) that granted immortality. The demon king Ravana had won this ultimate prize through intense penance, but under the strict condition that it would permanently fix to the ground wherever it was placed. Fearing his unmatched power, Lord Ganesha tricked Ravana into handing over the linga at nearby Gokarna and promptly set it on the earth. In a fit of furious desperation, Ravana tried to violently uproot the fixed monument, shattering it into pieces; the cloth covering the Atma-Linga was flung through the air and landed right here on Kanduka Hill, instantly sanctifying the ground and transforming it into a powerful center of worship.While its mythological heritage has endured for centuries, the modern-day temple complex underwent a massive historical revival in the late 20th century under the visionary patronage of philanthropist R.N. Shetty, transforming it into a world-renowned architectural marvel. Today, the coastline is dominated by two spectacular structures: a monumental 20-storied Raja Gopura that stands at an imposing 237 feet, and a colossal, awe-inspiring Lord Shiva statue towering at 123 feet. As the world’s second-tallest Shiva statue, it is meticulously positioned to catch the sun's rays, making it shimmer brilliantly against the vast blue ocean backdrop. Visitors can take a modern lift inside the Raja Gopura to its top floor for a spellbinding, panoramic view of the entire complex. Beyond the grand outer structures and the peaceful inner sanctum where the main Mridesa Linga is worshipped, Murudeshwar has evolved into a multi-faceted tourism hub. Especially during the vibrant festival of Maha Shivaratri, the area fills with echoing chants and hundreds of thousands of devotees. Melding profound Vedic history, striking modern engineering, and coastal adventures like scuba diving at the nearby Netrani Island, Murudeshwar remains a deeply enriching sanctuary where spiritual peace seamlessly meets natural tranquility.  ",
+    images: [Eshwar1,Eshwar2,Eshwar3,Eshwar4,Eshwar5],
     source: "(src: Wikipedia, )",
   },
-
+  {
+    name: "Yana Caves",
+    description:
+      "Nestled within the lush, evergreen forests of the Sahyadri mountain range in the Uttara Kannada district of Karnataka, Yana Caves stand as one of India’s most spectacular and mysterious natural wonders. Unlike typical underground caverns formed by the gradual erosion of rock, Yana is famous for its two colossal, pitch-black crystalline karst limestone monoliths that rise sharply above the dense jungle canopy. These towering rock formations are known as the Bhairaveshwara Shikhara, standing at an imposing height of 120 meters, and the smaller Mohini Shikhara, which reaches 90 meters. The stark, dark color of these jagged rocks creates a breathtaking contrast against the vibrant green of the surrounding Western Ghats, earning the site a well-deserved status as a Geoheritage Site of National Importance by the Geological Survey of India.Beyond their geological marvel, the Yana Caves hold deep spiritual and mythological significance. According to local folklore, the demon king Bhasmasura obtained a boon from Lord Shiva that allowed him to turn anyone into ashes by placing his hand on their head. When the demon attempted to test this power on Shiva himself, Lord Vishnu intervened by taking the form of Mohini, a beautiful dancer. She challenged Bhasmasura to match her dance moves, eventually tricking him into placing his hand on his own head, reducing him to ashes. The intense heat from this event is mythologically said to have turned the Yana rocks black. Today, a cave temple dedicated to Lord Bhairaveshwara (a manifestation of Shiva) rests at the base of the main monolith, where a natural spring continuously drips water over a self-manifested lingam, attracting thousands of pilgrims during Shivaratri.For adventure enthusiasts and nature lovers, reaching the caves is an experience in itself. Visitors embark on a scenic, half-kilometer trek through a dense forest trail filled with the sounds of gurgling streams and chirping birds. The area is also recognized as one of the wettest and cleanest regions in Karnataka, offering a pristine getaway from urban chaos. Often paired with a visit to the nearby Vibhooti Waterfalls, Yana Caves offer a perfect blend of geological curiosity, spiritual tranquility, and raw natural beauty, making it an indispensable destination for trekkers and explorers alike. ",
+    images: [Yana1,Yana2,Yana3],
+    source: "(src: Wikipedia, )",
+  },
+   {
+    name: "Mahabaleshwar Temple",
+    description:
+      "The Mahabaleshwar Temple in Gokarna is an ancient, highly revered Hindu pilgrimage site dedicated to Lord Shiva, uniquely positioned facing the serene Gokarna beach along the Arabian Sea in the Uttara Kannada district of Karnataka. Steeped in rich mythology, the temple's history is inextricably linked to the Treta Yuga and the demon king Ravana. According to legend, Ravana performed intense penance to please Lord Shiva and was rewarded with the Atmalinga (the soul linga), granted on the condition that it would bestow ultimate power wherever it was permanently placed on Earth. Fearing the consequences, the deities conspired with Lord Ganesha, who tricked Ravana into placing the linga down on the ground at Gokarna. Realizing he had been deceived, an infuriated Ravana tried to pull the linga back out with immense force, fracturing it in the process and shaping it like a cow's ear (giving the town its name, Gokarna). Unable to budge it, he declared the linga to be Mahabaleshwar—meaning 'the all-powerful one.' Historically, the shrine's antiquity is well-documented, with the core structure dating back to a 4th-century CE construction initiated by Mayurasharma of the Kadamba dynasty. Over the centuries, its historical prominence attracted grand figures; the legendary Maratha warrior king Shivaji famously visited the temple in 1665 to offer prayers after disbanding his army, and the English traveler John Fryer meticulously documented the vibrant Maha Shivaratri celebrations here in 1676.Architecturally, the temple stands as a magnificent testament to the classical Dravidian architectural style, built primarily out of robust granite. The complex features a massive, ornately carved Gopuram (entrance tower) that welcomes devotees into its deeply spiritual, stone-carved interiors. At the absolute heart of the temple lies the Garbagriha (sanctum sanctorum), which houses the sacred, self-manifested Atmalinga. Instead of a towering stone structure above ground, the actual linga is embedded deep within a subterranean pit, and devotees can only catch a glimpse of the top crest of the sacred stone through a small hole in a circular, golden-plated Yoni pedestal. The surrounding structure includes intricately sculpted pillars, a traditional Mantapa (hall) designed for rituals, and a beautifully carved stone image of Lord Shiva’s bull, Nandi, positioned facing the main deity. Recognized as one of the seven holy Muktishetras (places of salvation) in Karnataka, the temple seamlessly bridges mythological grandeur with timeless Dravidian craftsmanship, offering an atmosphere of profound mysticism where the rhythmic sound of crashing ocean waves blends with the continuous chanting of Vedic hymns. ",
+    images: [Gokarna1,Gokarna2,Gokarna3],
+    source: "(src: Wikipedia, )",
+  },
 ];
 
 const facts = [
@@ -1289,20 +1382,6 @@ const facts = [
     color: "#E8B488",
     desc: "A magnificent, colorful silk turban heavily embellished with golden lace, historically worn by the erstwhile kings of Mysore",
     image: gMysorePeta,
-  },
-  {
-    title: "Yakshagana",
-    emoji: "🎭",
-    color: "#E88844",
-    desc: "A spectacular traditional theater form combining elaborate makeup, vibrant costumes, dance, and dialogue based on epic mythologies[cite: 2024, 2045].",
-    image: gYakshagana,
-  },
-  {
-    title: "Dollu Kunitha",
-    emoji: "🥁",
-    color: "#F4B830",
-    desc: "A powerful, high-energy ritual folk dance performed by men to the thunderous synchronized beats of decorated drums[cite: 1981].",
-    image: gDolluKunitha,
   },
   {
     title: "Togalu Gombeyaata",
