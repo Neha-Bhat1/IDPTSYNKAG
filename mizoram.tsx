@@ -9,12 +9,34 @@ import {
   ZoomIn,
 } from "lucide-react";
 import mizoramMap from "@assets/mizoramMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+const chapchar1 = "https://i.postimg.cc/mrNr3MGB/image.png";
+const mim1 = "https://i.postimg.cc/Fz1sQBk4/image.png";
+const pawl1 = "https://i.postimg.cc/g23cdRj6/image.png";
+const thalfavang1 = "https://i.postimg.cc/RFZvcDRZ/image.png";
+const spring1 = "https://i.postimg.cc/kgP9j4cz/image.png";
+const reiek1 = "https://i.postimg.cc/Vs3d8zg2/image.png";
+const vantawng1 = "https://i.postimg.cc/x1PCMMQ9/image.png";
+const museum1 = "https://i.postimg.cc/k51ghCDQ/image.png";
+const durtlang1 = "https://i.postimg.cc/jd0d1Zds/image.png";
+const champhai1 = "https://i.postimg.cc/Njbs5t8h/image.png";
+const solomon1 = "https://i.postimg.cc/CK1F82JG/image.png";
+const tamdil1 = "https://i.postimg.cc/hjQcy7kG/image.png";
+const phawngpui1 = "https://i.postimg.cc/15QsBXJR/image.png";
+const lunglei1 = "https://i.postimg.cc/XY2Wn83S/image.png";
+const hmuifang1 = "https://i.postimg.cc/8CjSc6PL/image.png";
+const mWangala = "https://i.postimg.cc/xTnVH71Y/image.png";
+const mCheraw = "https://i.postimg.cc/wBtCgY0h/image.png";
+const mKhullam = "https://i.postimg.cc/wT6n3mwD/image.png";
+const mPuanchei = "https://i.postimg.cc/HxwPkY5N/image.png";
+const mHmaram = "https://i.postimg.cc/zG4dwbF3/image.png";
+const mPuanthar = "https://i.postimg.cc/9MCY1GRb/image.png";
+const mBai = "https://i.postimg.cc/WbCmxRqs/image.png";
+const mSawhchiar = "https://i.postimg.cc/SQtcz0rn/image.png";
+const mVawksa = "https://i.postimg.cc/y80R5DzZ/image.png";
+const mKhuang = "https://i.postimg.cc/R0RHS2hW/image.png";
+const mDarkhuang = "https://i.postimg.cc/D0tWpTjr/image.png";
+const mPhenglawng = "https://i.postimg.cc/8P6fJ7sg/image.png";
+const mZawlbuk = "https://i.postimg.cc/bw0Gg4Q5/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -784,6 +806,7 @@ const artGallery = [
   { title: "Darkhuang", emoji: "🪘", color: "#6E2F1A", desc: "Large ceremonial gong used in Mizo festivals", image: mDarkhuang },
   { title: "Phenglawng", emoji: "🎵", color: "#1A5276", desc: "Traditional Mizo bamboo flute", image: mPhenglawng },
   { title: "Mizo Zawlbuk", emoji: "🏛️", color: "#117A65", desc: "Ancient communal dormitory tradition of Mizo youth", image: mZawlbuk },
-  { title: "Chapchar Kut", emoji: "🌸", color: "#76448A", desc: "Mizo spring festival celebrating jungle clearing", image: mChapchar },
-  { title: "Chheihlam", emoji: "🎶", color: "#2E86C1", desc: "Traditional Mizo group singing and folk music", image: mChheihlam },
 ];
+
+
+
