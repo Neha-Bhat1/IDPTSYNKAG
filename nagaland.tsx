@@ -9,13 +9,37 @@ import {
   ZoomIn,
 } from "lucide-react";
 import nagalandMap from "@assets/nagalandMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-
+const hornbill1 = "https://i.postimg.cc/J0QG52Hm/image.png";
+const moatsu1 = "https://i.postimg.cc/63r3Bm0R/image.png";
+const sekrenyi1 = "https://i.postimg.cc/TYYwXQWX/image.png";
+const aoleang1 = "https://i.postimg.cc/13b5wQ79/image.png";
+const tokhu1 = "https://i.postimg.cc/9fTXBnsv/image.png";
+const metumnyo1 = "https://i.postimg.cc/C1ghr4gR/image.png";
+const luira1 = "https://i.postimg.cc/MHZWqKHP/image.png";
+const monyu1 = "https://i.postimg.cc/xjgfgHpF/image.png";
+const kohimawar1 = "https://i.postimg.cc/wjR96rxm/image.png";
+const kisama1 = "https://i.postimg.cc/7LgDzT2r/image.png";
+const dhanush1 = "https://i.postimg.cc/cCJNP954/image.png";
+const dimapur1 = "https://i.postimg.cc/KYrSjS6y/image.png";
+const mokokchung1 = "https://i.postimg.cc/Vvv3KSdL/image.png";
+const japfu1 = "https://i.postimg.cc/3JyspDsc/image.png";
+const ntangki1 = "https://i.postimg.cc/LsSwrQnT/image.png";
+const pulie1 = "https://i.postimg.cc/LsSwrQnT/image.png";
+const longwa1 = "https://i.postimg.cc/hvX59H5c/image.png";
+const tuophema = "https://i.postimg.cc/SRHtVDBD/image.png";
+const nChangLo = "https://i.postimg.cc/tCVc7G6v/image.png";
+const nZeliang = "https://i.postimg.cc/qvV53DXg/image.png";
+const nFolkDance = "https://i.postimg.cc/6QzjFWsK/image.png";
+const nSmokedPork = "https://i.postimg.cc/633jXkwc/image.png";
+const nAxone = "https://i.postimg.cc/wMRwtD1Q/image.png";
+const nGalho = "https://i.postimg.cc/WpQv5n6n/image.png";
+const nAnishi = "https://i.postimg.cc/52JMV2rS/image.png";
+const nChutney = "https://i.postimg.cc/d1pzSsdh/image.png";
+const nMokokchung = "https://i.postimg.cc/xTKWtSdj/image.png";
+const nHornbill = "https://i.postimg.cc/mrrJLzyh/image.png";
+const nKohima = "https://i.postimg.cc/DzYD8vx9/image.png";
+const nDzukou = "https://i.postimg.cc/8520myQh/image.png";
+const nAttire = "https://i.postimg.cc/SNpPXtfH/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -728,7 +752,7 @@ const historicalPlaces = [
     name: "Dzukou Valley",
     description:
       "Dzukou Valley, located near Kohima and bordering Manipur, is a breathtaking natural destination. It is often called the “valley of flowers” of the northeast. The valley is famous for its seasonal blooms, especially the Dzukou lily. Trekking trails lead through lush forests and meadows. The valley offers panoramic views of hills and rivers. It is a paradise for nature lovers and adventurers. Dzukou is rich in biodiversity, with rare plants and birds. The serene environment makes it a peaceful retreat. The valley is linked to local folklore and traditions. It attracts trekkers from across India. Camping in Dzukou is a popular activity. The valley changes colors with seasons. It is a symbol of Nagaland’s natural wealth. Dzukou remains a highlight of northeast tourism. It embodies the harmony of nature and culture",
-    images: [dhanush1, dhanush2],
+    images: [dhanush1],
     source: "(src: lostwithpurpose.com)",
   },
   {
