@@ -9,12 +9,37 @@ import {
   ZoomIn,
 } from "lucide-react";
 import manipurMap from "@assets/manipurMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+const yaoshang1 = "https://i.postimg.cc/FKsWRHY5/image.png";
+const ningol1 = "https://i.postimg.cc/Pq368nDz/image.png";
+const haraoba1 = "https://i.postimg.cc/zB400w0r/image.png";
+const gang1 = "https://i.postimg.cc/sfZn18gg/image.png";
+const lui1 = "https://i.postimg.cc/pdTCvc6S/image.png";
+const kut1 = "https://i.postimg.cc/XqwcLRry/image.png";
+const chumpha1 = "https://i.postimg.cc/m2sSkgnn/image.png";
+const cheiraoba1 = "https://i.postimg.cc/7ZPM1Qw2/image.png";
+const loktak1 = "https://i.postimg.cc/zGfKHbFK/image.png";
+const keibul1 = "https://i.postimg.cc/7LGzXFcH/image.png";
+const kangla1 = "https://i.postimg.cc/C1bqpjwD/image.png";
+const govindajee1 = "https://i.postimg.cc/1RcqWcWV/image.png";
+const ima1 = "https://i.postimg.cc/CLcf0MpJ/image.png";
+const shaheed1 = "https://i.postimg.cc/tTGskYF0/image.png";
+const museum1 = "https://i.postimg.cc/g08JxmQD/image.png";
+const ina1 = "https://i.postimg.cc/QtqdqSX1/image.png";
+const kanglasha1 = "https://i.postimg.cc/1XCRktVV/image.png";
+const khoonghampat1 = "https://i.postimg.cc/SQTyNnjb/image.png";
+const gEromba = "https://i.postimg.cc/26Hf6tkQ/image.png";
+const gSingju = "https://i.postimg.cc/q7kY3G5p/image.png";
+const gChandraki = "https://i.postimg.cc/LsLbwbg3/image.png";
+const gMeiteiPotloi = "https://i.postimg.cc/9fn6H7Lj/image.png";
+const gKabui = "https://i.postimg.cc/B6FVWw8p/image.png";
+const gRaslila = "https://i.postimg.cc/QNkfp71R/image.png";
+const gThangTa = "https://i.postimg.cc/hGdrhQKy/image.png";
+const gPung = "https://i.postimg.cc/m2pNwykf/image.png";
+const gKanglaFort = "https://i.postimg.cc/L6JZHK9W/image.png";
+const gSangaiDeer = "https://i.postimg.cc/9Mxrh1vh/image.png";
+const gLoktak = "https://i.postimg.cc/KzsvVjMz/image.png";
+const gMoirangphee = "https://i.postimg.cc/HxJVTbH5/image.png";
+const gNataSankirtana = "https://i.postimg.cc/nh0z73hL/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -853,13 +878,6 @@ const ManipurArtGallery = [
     image: gPung,
   },
   {
-    title: "Moirang Parba",
-    emoji: "🎭",
-    color: "#48A868",
-    desc: "A traditional ballad and dance form narrating the ancient epic of Khamba and Thoibi — one of the oldest living folk performance traditions of Manipur",
-    image: gMoirangParba,
-  },
-  {
     title: "Kangla Fort",
     emoji: "🏯",
     color: "#A89838",
@@ -894,13 +912,7 @@ const ManipurArtGallery = [
     desc: "A UNESCO-inscribed devotional music and drum performance of the Meitei — at serious risk as the number of trained practitioners dwindles and younger generations move away from the tradition",
     image: gNataSankirtana,
   },
-  {
-    title: "Yaipha (Loom & Textile Ritual)",
-    emoji: "🪡",
-    color: "#C89838",
-    desc: "Ancient ritualistic weaving ceremonies of Manipuri women tied to festivals and identity — gradually vanishing as powerlooms replace handlooms and oral transmission of patterns breaks down",
-    image: gYaipha,
-  },
+ 
 ];
   
     
