@@ -9,13 +9,33 @@ import {
   ZoomIn,
 } from "lucide-react";
 import sikkimMap from "@assets/sikkimMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-
+const losar1 = "https://i.postimg.cc/KcDQRcpz/image.png";
+const saga1 = "https://i.postimg.cc/Cxz4PGh1/image.png";
+const pang1 = "https://i.postimg.cc/ZqNxZJyT/image.png";
+const bumchu1 = "https://i.postimg.cc/4dbv7w52/image.png";
+const losoong1 = "https://i.postimg.cc/gjgv4J1Q/image.png";
+const maghe1 = "https://i.postimg.cc/kXhQb2QG/image.png";
+const sonam1 = "https://i.postimg.cc/FRm3434S/image.png";
+const rumtek1 = "https://i.postimg.cc/sfTSkM0S/image.png";
+const tsomgo1 = "https://i.postimg.cc/KvVTYdbm/image.png";
+const nathula1 = "https://i.postimg.cc/9MJRHkb6/image.png";
+const pemayangtse1 = "https://i.postimg.cc/NfyyZpXF/image.png";
+const char1 = "https://i.postimg.cc/k4XGsc9J/image.png";
+const tashiding1 = "https://i.postimg.cc/FsJRT1tf/image.png";
+const phodong1 = "https://i.postimg.cc/FHyKQqHr/image.png";
+const rabdentse1 = "https://i.postimg.cc/3RRrmxj6/image.png";
+const chorten1 = "https://i.postimg.cc/Vv0YZZVB/image.png";
+const namgyal1 = "https://i.postimg.cc/CMRkVhyC/image.png";
+const sThangka = "https://i.postimg.cc/FHVJx1c1/image.png";
+const sMomos = "https://i.postimg.cc/MH1GKrmw/image.png";
+const sPhagshapa = "https://i.postimg.cc/3x8wY14g/image.png";
+const sGundruk = "https://i.postimg.cc/3NQK6FQK/image.png";
+const sSinki = "https://i.postimg.cc/9XyX9KyP/image.png";
+const sChhang = "https://i.postimg.cc/K88mdYwD/image.png";
+const sDamfu = "https://i.postimg.cc/nrxJTVqs/image.png";
+const sTingsha = "https://i.postimg.cc/3JKhvR8M/image.png";
+const sGyaling = "https://i.postimg.cc/XYP6mk9L/image.png";
+const sPangden = "https://i.postimg.cc/zBZZXDts/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -794,8 +814,6 @@ const facts = [
 
 const artGallery = [
   { title: "Thangka Painting", emoji: "🎨", color: "#8B0000", desc: "Sacred Buddhist scroll painting of Sikkim", image: sThangka },
-  { title: "Chheskey Dance", emoji: "💃", color: "#C0392B", desc: "Traditional mask dance performed at monasteries", image: sChheskey },
-  { title: "Dumra Dance", emoji: "🎶", color: "#6D4C41", desc: "Ceremonial dance of the Limboo community", image: sDumra },
   { title: "Momos", emoji: "🥟", color: "#2E86C1", desc: "Beloved steamed dumplings, soul food of Sikkim", image: sMomos },
   { title: "Phagshapa", emoji: "🥩", color: "#922B21", desc: "Traditional pork and radish stew of Sikkim", image: sPhagshapa },
   { title: "Gundruk", emoji: "🥬", color: "#1E8449", desc: "Fermented leafy greens, a Sikkimese staple", image: sGundruk },
@@ -805,7 +823,9 @@ const artGallery = [
   { title: "Tingsha", emoji: "🎵", color: "#1A5276", desc: "Tibetan ritual cymbals used in Buddhist ceremonies", image: sTingsha },
   { title: "Gyaling", emoji: "🎺", color: "#117A65", desc: "Traditional Tibetan oboe played at monasteries", image: sGyaling },
   { title: "Pangden", emoji: "🧣", color: "#76448A", desc: "Striped apron worn by married Tibetan women", image: sPangden },
-  { title: "Bakhu", emoji: "🥻", color: "#CB4335", desc: "Traditional wraparound robe of the Sikkimese", image: sDumra2 },
-  { title: "Losar Festival", emoji: "🎊", color: "#E67E22", desc: "Tibetan New Year celebrated with prayer and dance", image: sLosar },
-  { title: "Saga Dawa", emoji: "🪔", color: "#8E44AD", desc: "Sacred Buddhist festival honoring Lord Buddha", image: sSagaDawa },
 ];
+
+
+
+
+
