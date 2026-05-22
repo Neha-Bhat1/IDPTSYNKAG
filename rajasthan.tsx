@@ -9,12 +9,79 @@ import {
   ZoomIn,
 } from "lucide-react";
 import rajasthanMap from "@assets/rajasthanMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+// Map
+const rajasthanMap = "";
+
+// Festivals
+const pushkarfair1 = "";
+const gangaur1 = "";
+const desert1 = "";
+const teej1 = "";
+const makar1 = "";
+const makar2 = "";
+const makar3 = "";
+const marwar1 = "";
+const marwar2 = "";
+const marwar3 = "";
+const bkc1 = "";
+const bkc2 = "";
+const bkc3 = "";
+const bkc4 = "";
+const bkc5 = "";
+
+// Monuments / Historical Places
+const jfort1 = "";
+const ajmer1 = "";
+const banswara1 = "";
+const jodhpur1 = "";
+const jaipur1 = "";
+const udaipur1 = "";
+const bikaner1 = "";
+const pushkar1 = "";
+const meh1 = "";
+const meh2 = "";
+const meh3 = "";
+const ran1 = "";
+const ran2 = "";
+const ran3 = "";
+const dil1 = "";
+const dil2 = "";
+const jm1 = "";
+const jm2 = "";
+const chit1 = "";
+const chit2 = "";
+const chit3 = "";
+const chit4 = "";
+const chand1 = "";
+const chand2 = "";
+
+// Art Gallery — Dance Forms
+const gGhoomarDance = "";
+const gKalbeliaDance = "";
+const gBhavaiDance = "";
+const gKachhiGhodiDance = "";
+const gChariDance = "";
+const gGairDance = "";
+
+// Art Gallery — Cuisines
+const gDalBaatiChurma = "";
+const gGatteKiSabzi = "";
+const gKerSangri = "";
+const gBajraRoti = "";
+const gLaalMaas = "";
+
+// Art Gallery — Image Gallery
+const gHawaMahal = "";
+const gWomenDress = "";
+const gCamelSafari = "";
+const gAmerFort = "";
+const gCityPalaceUdaipur = "";
+const gFamousFoods = "";
+const gPhadPainting = "";
+const gTraditionalHouses = "";
+const gMaandSinging = "";
+const gLacBangles = "";
+const gGotaPatti = "";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
