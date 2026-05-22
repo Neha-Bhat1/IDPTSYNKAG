@@ -8,84 +8,13 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import westbengalMap from "@assets/westbengalMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
+import bengalMap from "@assets/bengalMap.jpg";
 const holamoh1 = "";
 const holamoh2 = "";
 const holamoh3 = "";
 const holamoh4 = "";
 const gurupurab1 = "";
 const gurupurab2 = "";
-const gurupurab3 = "@assets/image_1776788482041.png";
-const teej1 = "@assets/image_1776788764847.png";
-const teej2 = "@assets/image_1776788772553.png";
-const teej3 = "@assets/image_1776788788721.png";
-const bandi1 = "@assets/image_1776788797545.png";
-const bandi2 = "@assets/image_1776788805779.png";
-const shaheedi1 = "@assets/image_1776788811412.png";
-const rakhi1 = "@assets/image_1776788817244.png";
-const rakhi2 = "@assets/image_1776788825797.png";
-const maghi1 = "@assets/image_1776788831894.png";
-const maghi2 = "@assets/image_1776788840602.png";
-const karva1 = "@assets/image_1776788847901.png";
-const karva2 = "@assets/image_1776788856768.png";
-const golden1 = "@assets/image_1776788865143.png";
-const golden2 = "@assets/image_1776788870905.png";
-const golden3 = "@assets/image_1776788878018.png";
-const jallian1 = "@assets/image_1776788887081.png";
-const jallian2 = "@assets/image_1776788895857.png";
-const jallian3 = "@assets/image_1776788902350.png";
-const wagah1 = "@assets/image_1776788909064.png";
-const wagah2 = "@assets/image_1776788916164.png";
-const wagah3 = "@assets/image_1776789530181.png";
-const wagah4 = "@assets/image_1776789548589.png";
-const qila1 = "@assets/image_1776789554420.png";
-const qila2 = "@assets/image_1776789558971.png";
-const qila3 = "@assets/image_1776789565292.png";
-const ranjit1 = "@assets/image_1776789575242.png";
-const ranjit2 = "@assets/image_1776789580153.png";
-const ranjit3 = "@assets/image_1776789590790.png";
-const gobindgarh1 = "@assets/image_1776789610085.png";
-const gobindgarh2 = "@assets/image_1776789615338.png";
-const anandpur1 = "@assets/image_1776789624415.png";
-const anandpur2 = "@assets/image_1776789631296.png";
-const partition1 = "@assets/image_1776789638782.png";
-const partition2 = "@assets/download_1777100508255.png";
-const partition3 = "@assets/download_1777100514323.png";
-const guru1 = "@assets/download_1777100516025.png";
-const guru2 = "@assets/download_1777100518481.png";
-const guru3 = "@assets/download_1777100520664.png";
-const durgiana1 = "@assets/download_1777100523842.png";
-const durgiana2 = "@assets/image_1777102241686.png";
-const durgiana3 = "@assets/image_1777102257711.png";
-const akaltakht1 = "@assets/download_1777100525385.png";
-const akaltakht2 = "@assets/download_1777100526870.png";
-const akaltakht3 = "@assets/download_1777100529380.png";
-const jang1 = "@assets/download_1777100531237.png";
-const jang2 = "@assets/download_1777100532535.png";
-const jang3 = "@assets/download_1777100537305.png";
-const gJutti = "@assets/image_1777100917162.png";
-const gBhangra = "@assets/image_1777100921467.png";
-const gPhulkari = "@assets/image_1777100927953.png";
-const gGiddha = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -477,7 +406,7 @@ export default function WestBengalPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: " Kolkata" },
+                  { label: "Capital", value: "Kolkata" },
                   { label: "Population", value: "9.13 Crore" },
                   { label: "Area", value: " 88,752 sq km" },
                   { label: "Founded", value: "26 January 1950" },
@@ -512,21 +441,21 @@ export default function WestBengalPage() {
              Kolkata
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of West Bengal  — Experience Bengal,the sweetest part of India
+              Capital of West Bengal  — City of Joy
             </p>
           </div>
         </Section>
 
-        {/* Map of Tamil Nadu — click to enlarge */}
+        {/* Map of West Bengal — click to enlarge */}
         <Section title="Map of West Bengal" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(westbengalMap, "Map of West Bengal")}
+              onClick={() => openLightbox(bengalMap, "Map of West Bengal")}
             >
               <img
-                src={westbengalMap}
+                src={bengalMap}
                 alt="Map of West Bengal"
                 className="w-full h-auto object-contain"
               />
@@ -565,7 +494,7 @@ export default function WestBengalPage() {
              Subsequent Muslim conquests helped spread Islam throughout the region. It was ruled by dynasties of the Bengal Sultanate and feudal lords under the Delhi Sultanate for the next few hundred years. The Bengal Sultanate was interrupted for twenty years by a Hindu uprising under Raja Ganesha. In the 16th century, Mughal general Islam Khan conquered Bengal. Administration by governors appointed by the court of the Mughal Empire gave way to semi-independence under the Nawabs of Murshidabad, who nominally respected the sovereignty of the Mughals in Delhi. Several independent Hindu states were established in Bengal during the Mughal period, including those of Pratapaditya of Jessore District and Raja Sitaram Ray of Bardhaman. Following the death of Emperor Aurangzeb and the Governor of Bengal, Shaista Khan, the proto-industrialised Mughal Bengal became a semi-independent state under the Nawabs of Bengal, and showed signs of the world's first Industrial Revolution. The Koch dynasty in northern Bengal flourished during the 16th and 17th centuries; it weathered the Mughals and survived until the advent of the British colonial era.  
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: mapsofindia.com)
+              (src: Govt of West Bengal, mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -727,7 +656,7 @@ const festivals = [
   {
     name: "Gangasagar Mela",
     description:
-      "Gangasagar Mela is a mela and festival in Hinduism, held every year at Gangasagar, West Bengal, India. The confluence of the Ganges and the Bay of Bengal is called the Gangasagar, the fair is held every year on Makar Sankranti at Kapilmuni's ashram located on the Gangasagar. The mela is celebrated on 14 or 15 January every year. Gangasagar Mela is the second largest Hindu fair (after Kumbh Mela). Many people from different states of India come here every year to take a holy bath on Makar Sankranti day. The Gangasagar is mentioned in the Mahabharata's Vana Parva, which provides proof of the existence of the pilgrimage site in 1500–2000 BC. According to the Mahabharata, the Pandavas traveled from the banks of the river Kaushik and reached the Gangesagarasangam, Confluence of Ganges and Sagara (Sea). According to Hinduism, the "Gangasagarasangam" mentioned in the Mahabharata is Gangasagar in Sagardwip, situated at the estuary of the Bhagirathi-Hooghly rivers – one of the two main branches of the Ganges– on the sea coast of West Bengal. Legend has it that Kapilmuni, the progenitor of Samkhya philosophy, had an ashram at Gangasagara. Sixty thousand sons of Sagara King were consumed by Kapilmuni's wrath and their Ātmans (souls) were thrown into Naraka (hell). Bhagiratha, the grandson of the Sagara king, brought the Ganga from Svarga (heaven) to wash the remains of the Sagara's sons and free their Ātmans. Pilgrims from different states of India arrive on the occasion of Ganga bath and the Gangasagar Mela. Most of the pilgrims first arrive at Kolkata to visit Gangasagar. Transit camps are established in Kolkata every year for the convenience of pilgrims. All kinds of civic facilities are provided to these camps. A temporary jetty built on the occasion of the fair, and a crowd of pilgrims. The biggest obstacle to reaching Sagar Dwip is the Muri Ganga River; Pilgrims have to cross this river on their journey. However, due to the low navigability of the river, it is not possible to cross the river without tide. Every year, dredging is carried out in the river for uninterrupted ferry operation. Ferry services are operated between Kakdwip and Kachuberia, Sagar Dwip on the occasion of fairs and Ganga bath. Several temporary jetties were constructed for faster and more pilgrim transport. All vessels and buses can be monitored from a central control room. GPS and NAVIC (Navigation with Indian Constellation) technology is used in all the transport vehicles of Sagar Dwip for surveillance. Vessels are also provided with navigation lights to prevent visibility problems due to fog.",
+      "Gangasagar Mela is a mela and festival in Hinduism, held every year at Gangasagar, West Bengal, India. The confluence of the Ganges and the Bay of Bengal is called the Gangasagar, the fair is held every year on Makar Sankranti at Kapilmuni's ashram located on the Gangasagar. The mela is celebrated on 14 or 15 January every year. Gangasagar Mela is the second largest Hindu fair (after Kumbh Mela). Many people from different states of India come here every year to take a holy bath on Makar Sankranti day. The Gangasagar is mentioned in the Mahabharata's Vana Parva, which provides proof of the existence of the pilgrimage site in 1500–2000 BC. According to the Mahabharata, the Pandavas traveled from the banks of the river Kaushik and reached the Gangesagarasangam, Confluence of Ganges and Sagara (Sea). According to Hinduism, the 'Gangasagarasangam' mentioned in the Mahabharata is Gangasagar in Sagardwip, situated at the estuary of the Bhagirathi-Hooghly rivers – one of the two main branches of the Ganges– on the sea coast of West Bengal. Legend has it that Kapilmuni, the progenitor of Samkhya philosophy, had an ashram at Gangasagara. Sixty thousand sons of Sagara King were consumed by Kapilmuni's wrath and their Ātmans (souls) were thrown into Naraka (hell). Bhagiratha, the grandson of the Sagara king, brought the Ganga from Svarga (heaven) to wash the remains of the Sagara's sons and free their Ātmans. Pilgrims from different states of India arrive on the occasion of Ganga bath and the Gangasagar Mela. Most of the pilgrims first arrive at Kolkata to visit Gangasagar. Transit camps are established in Kolkata every year for the convenience of pilgrims. All kinds of civic facilities are provided to these camps. A temporary jetty built on the occasion of the fair, and a crowd of pilgrims. The biggest obstacle to reaching Sagar Dwip is the Muri Ganga River; Pilgrims have to cross this river on their journey. However, due to the low navigability of the river, it is not possible to cross the river without tide. Every year, dredging is carried out in the river for uninterrupted ferry operation. Ferry services are operated between Kakdwip and Kachuberia, Sagar Dwip on the occasion of fairs and Ganga bath. Several temporary jetties were constructed for faster and more pilgrim transport. All vessels and buses can be monitored from a central control room. GPS and NAVIC (Navigation with Indian Constellation) technology is used in all the transport vehicles of Sagar Dwip for surveillance. Vessels are also provided with navigation lights to prevent visibility problems due to fog.",
     images: [Ganga1],
   },
   {
@@ -741,216 +670,89 @@ const festivals = [
 
 const historicalPlaces = [
   {
-    name: "Six Abodes of Murugan (Arupadai Veedu)",
+    name: "Victorial Memorial",
     description:
-      "Six abodes of murgan -- The Six Abodes of Murugan, known as ‘Arupadai Veedu’, are sacred temples in Tamil Nadu, India, celebrating different stages of Lord Murugan's life, victories, and legends. ",
-    images: [sixAbodes],
-    subPlaces: [
-      {
-        name: "Subramaniyaswamy Temple – Thiruparankundram",
-        location: "Madurai district",
-        description:
-          "Subramaniyaswamy Temple – Thiruparankundram, Madurai district – Located on a hillock, it is first of the Aarupadaiveedu. Murugan's marriage with Deivanai took place here.",
-        images: [thiruparankundram],
-        source: "(src: Tumblr)",
-      },
-      {
-        name: "Arulmigu Senthilnathar Temple – Tiruchendur",
-        location: "Thoothukudi district",
-        description:
-          "Arulmigu Senthilnathar Temple – Tiruchendur, Thoothukudi district - Located along the coast of Bay of Bengal, the temple commemorates the place where Murugan won a victory over the demon Surapadman. ",
-        images: [thiruchendur],
-        source: "(src: cottage9)",
-      },
-      {
-        name: "Arulmigu Dandayudhapani Temple – Palani",
-        location: "Dindigul district",
-        description:
-          "Arulmigu Dandayudhapani Temple – Palani, Dindigul district - Located at the foothills of a hillock, the deity known as 'Kulanthai Velayuthaswami' is depicted as a young form of Murugan, and said to have been worshipped by the goddess Lakshmi. In the temple on the hilltop where 'Dhandayuthapani' is the main deity, Murugan is depicted as a hermit carrying a staff ('danda'). This is the place where Murugan is said to have arrived after his feud with his family over a divine fruit. Divine story of how and why Murugan came to Palani ----  Once upon a time, the revered sage Devrishi Narad paid a visit to Lord Shiva and Maa Parvati. During his visit, he presented Maa Parvati with a unique mango, claiming that whoever consumed it would gain extraordinary qualities and powers. Being the loving mother she is, Mata Parvati wished to share this special fruit between her two sons, Lord Ganesha and Lord Kartikeya. Devarishi Narad proposed that the mango could only be consumed by one person, prompting them to organize a contest between the two brothers. The challenge was set: each had to complete three rounds of the world, and the one who returned first would be declared the winner. Eager to claim the mango, Lord Kartikeya swiftly mounted his peacock and soared into the skies to complete the three rounds. Meanwhile, Lord Ganesha, without a flying mount, contemplated his approach. Undeterred, he began walking around his seated parents, Lord Shiva and Maa Parvati, completing three rounds. When Lord Ganesha finished, he humbly claimed his reward. Perplexed, Lord Shiva and Maa Parvati reminded him that the competition was to encircle the entire world three times. In response, Ganesha, with a wise smile, declared that his parents are his world, and by encircling them, he had indeed completed three rounds of his world. Thus, he emerged as the true victor in the competition of devotion and wisdom.Upon Lord Kartikeya’s triumphant return, expectations of victory filled the air. With his peacock Vahana, he had swiftly traversed the world, confident of securing the divine mango. However, as he approached Lord Shiva and Maa Parvati, the atmosphere shifted. The revelation that Lord Ganesha was declared the winner, not due to physical prowess, but through a profound display of devotion. Due to this, Lord Murugan feeling betrayed and angry at his parents leaves to Palani. ",
-        images: [palani1, palani2],
-        source: "(src: Cottage9, southern travels)",
-      },
-      {
-        name: "Swaminatha Swamy Temple – Swamimalai",
-        location: "Thanjavur district",
-        description:
-          'Swaminatha Swamy Temple – Swamimalai, Thanjavur district - Located atop a small hillock, the temple commemorates the incident where Murugan is regarded to have explained the essence of the Pranava mantra "Om" to his father Shiva. Story ---- Once Brahma, the Lord of all creation, disrespected Murugan when he was visiting Mount Kailash. Then, the ever-playful Murugan boldly asked Brahma the meaning of the Pranava Mantra “OM”. Failing to answer the question, Brahma admitted his ignorance. Murugan knocked his forehead, and imprisoned Brahma, bringing the whole of creation to a standstill. The demigods prayed to Lord Shiva for the release of Brahma. But Murugan insisted the imprisonment was a just punishment for Brahma\'s ignorance. Lord Shiva then asked Murugan whether he Himself knew the meaning of Pranava “Aum”. Murugan said he knew its meaning, but would only explain it if Lord Shiva accepted him as a guru and listened to him as a devoted disciple. Shiva accepted the request, and the son became the teacher. He then imparted upon the father the meaning of the sacred Pranava mantra “Aum” and the divine father, proud of understanding the significance, conferred respect to Murugan for his wisdom. You will see in the main shrine in the temple complex in Swamimalai that Murugan is depicted as a teacher and Shiva is listening as a disciple and, in this temple, the son is on a higher pedestal than the father.',
-        images: [swamimalai],
-        source: "(src: casual walker)",
-      },
-      {
-        name: "Subramanya Swamy Temple – Tiruttani",
-        location: "Thiruvallur district",
-        description:
-          'Subramanya Swamy Temple - Tiruttani, Thiruvallur district - Located atop a hill, Murugan is said to have reclaimed his inner peace after winning a war over the Surapadman and married Valli here. Story ---- After the intensity of the war in Tiruchendur, Murugan needed a place to subdue his anger and seek inner peace, making Tiruttani a place of tranquility. Thanigai in Tamil means "to pacify" or "to calm down," which is why the hill and town are named Tiruttani, where the deity grants mental peace and relieves devotees of anger and stress. Because he came to this spot for peace, the idol of Murugan here is often seen holding a Vajra Vel (thunderbolt weapon) rather than the standard spear, and he is often depicted with a calmer expression and has an elephant mount (vahana)instead of his usual peacock. Valli, a mortal daughter of a tribal chieftain (Kuravas) in Tamil Nadu, was born of a doe and destined to marry Lord Murugan. Valli, from a young age, fell in love with a divine figure (Murugan) and desired to marry him, avoiding all human suitors. Lord Murugan, attracted by her devotion, visited her in the millet fields. He approached her first as a hunter, then with the help of his brother Ganesha (appearing as a wild elephant), he frightened her into accepting his hand in marriage.',
-        images: [thiruttani],
-        source: "(src: Wikipedia)",
-      },
-      {
-        name: "Solaimalai Murugan Temple – Pazhamudircholai",
-        location: "Madurai district",
-        description:
-          'Solaimalai Murugan Temple - Pazhamudircholai, Madurai district – Located on a hillock near a stream called "Nupura Gangai", Murugan is seen here with both his consorts, Deivanai and Valli. - Story ---- Avvaiyar was a renowned and legendary Tamil poetess and a name behind one of the most famous and appreciated works ever written in Hindu folklore. Her exceptional vocabulary and dexterity in the language made her works stand apart, in the list of even the greatest of the poets. This had started to make her audacious over her abilities. According to the pages drenched in the antiquity of the Hindu folklore, Lord Murugan who was well-versed with his devotee wanted to teach her a lesson and took the shape of a ten-year-old boy in here in Solaimalai. After having achieved everything in her life, Avviayar was resting under a Naaval tree, trying to figure out what lied next for her. A small boy appeared out of nowhere and stood on the tree. The boy asked Avviayar if she would like some fruits. Driven by hunger and thirst, she agreed instantly. The boy asked if she wanted a hot fruit or a cold one, which confused Avviayar but was tired to argue and opted for the cold one. Smilingly, the boy shook the tree, as many fruits fell, all of which were collected by her. The fruits were coated with the sand, so Avviayar blew them to remove it. The boy asked innocently, why was she trying to cool down the fruit blowing, which was already cold. This incident left Avviayar humbled by the clever wordplay and the poetic knowledge of the little boy. However, She was skeptical of the boy’s true identity which was revealed to her as Lord Murugan himself. She bowed to the almighty and requested him to bestow her with his bountiful knowledge, for she had realized the power of infinite learning. She sought Lord Murugan’s blessings and embarked on her quest for endless knowledge.',
-        images: [pazhamudir],
-        source: "(src: TemplePurohit)",
-      },
-    ],
-  },
-  {
-    name: "Pancha Bhootam Temples",
-    description:
-      "The Pancha Bhoota Stalam refers to five sacred Shiva temples in South India, each representing a natural element: Earth, Water, Fire, Air, and Ether (Space). Out of 5, 4 of these temples are  located in Tamil Nadu and 1 Is in Andhra Pradesh, embodying the Hindu philosophy that nature's elements are manifestations of Shiva. In the temples, Shiva is said to have manifested himself in the respective forms of the five elements.",
-    hasImage: false,
-    subPlaces: [
-      {
-        name: "Earth – Bhumi Lingam – Ekambareshwar Temple",
-        location: "Kanchipuram",
-        description:
-          "Earth – Bhumi Lingam – Ekambareshwar Temple – Kanchipuram - Shiva is worshipped as Ekambareswarar or Ekambaranathar, and is represented by the lingam, with his idol referred to as Prithvi (earth) lingam. The temple complex covers 25 acres and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the southern tower, with 11 stories and a height of 58.5216 metres (192 ft), making it one of the tallest temple towers in India. The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagara period. Legend has it that once Parvati, the consort of Shiva, wanted to expiate herself from sin by doing penance under the temple's ancient Mango tree near the Vegavati river. She created the lingam out of wet soil. This lingam is now covered with silver. ",
-        images: [bhumiLingam],
-        source: "",
-      },
-      {
-        name: "Water – Varuna/Jambu Lingam – Jambukeshwarar Temple",
-        location: "Thiruvanaikaval, near Trichy",
-        description:
-          "Water – Varuna/Jambu lingam – Jambukeshwarar Temple – Thiruvanaikaval, near Trichy - The sanctum of Jambukeswara has the copper plated lingam and an underground water stream, and despite draining the water out, it is always filled with water. Once, Parvati mocked Shiva's penance for the betterment of the world. Shiva wanted to condemn her act and banished her to the earth from Mount Kailash (Shiva's heavenly abode) to do penance. Parvati, in the form of Akhilandeshwari as per Shiva's wish, found the Jambu forest to conduct her penance. She made a lingam out of water of the river Kaveri (also called as river Ponni) under the Venn Naaval tree (the jambu tree on top of the saint Jambu) and commenced her worship. The lingam is known as Appu Lingam or Jala Lingam (Water Lingam). There are five enclosures inside the temple. The massive outer wall covering the fifth precinct, known as the Vibhuti Prakara, stretches over a mile and is two feet thick and over 25 feet high. Legend maintains that the wall was built by Shiva working with the labourers.[10] The fourth precinct contains a hall with 796 pillars and measures 2436 feet by 1493.",
-        images: [jambuLingam],
-        source: "",
-      },
-      {
-        name: "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple",
-        location: "Thiruvannamalai",
-        description:
-          "Fire – Agni/Jyothi Lingam – Annamalaiyar Temple – Thiruvannamalai - Shiva is worshipped as Annamalaiyar or Arunachaleshwar, and is represented by a silver plated lingam, with his idol referred to as Agni lingam. The sanctum inside is always lit by fire lamps. The 9th-century Shaiva saint poet Manikkavacakar composed the Tiruvempaavai here. The temple complex covers 10 hectares and is one of the largest in India. It houses four gateway towers known as gopurams. The tallest is the eastern tower, with 11 stories and a height of 66 metres (217 ft), making it one of the tallest temple towers in India built by Sevappa Nayakar (Nayakar dynasty). The temple complex houses many halls; the most notable is the thousand-pillared hall built during the Vijayanagar period. The Karthika Deepam festival is celebrated during the day of the full moon between November and December, and a huge beacon is lit atop the nearby Annamalai hill. It can be seen from miles around, and symbolises the Shiva lingam of fire joining the sky. The event is witnessed by three million pilgrims. On the day preceding each full moon, pilgrims circumnavigate the temple base and the Annamalai hills in a worship called Girivalam, a practice carried out by one million pilgrims yearly. ",
-        images: [jyothiLingam],
-        source: "",
-      },
-      {
-        name: "Ether/Space – Indra/Akasha Lingam – Thillai Natarajar Temple",
-        location: "Chidambaram",
-        description:
-          'Ether/ Space – Indra/Akasha Lingam – Thillai Natarajar Temple – Chidambaram - Chidambaram, the name of the city and the temple, literally means "atmosphere of wisdom" or "clothed in consciousness"; the temple architecture symbolises the connection between the arts and spirituality, creative activity and the divine.The temple wall carvings display all the 108 karanas from the Natya Shastra by Bharata Muni, and these postures form a foundation of Bharatanatyam, a classical Indian dance. The present temple was built in the 10th century when Chidambaram was the capital of the Chola dynasty, making it one of the oldest surviving active temple complexes in South India. After its 10th-century consecration by the Cholas who considered Nataraja as their family deity, Shiva himself is idolised in three forms, as a crystal lingam, as a formless space covered by curtains (Chidambaram rahasyam), and as the Nataraja performing the Ananda Tandava ("Dance of Delight") in the golden hall of the shrine Pon Ambalam. The temple is one of the five elemental lingas in the Shaivism pilgrimage tradition, and considered the subtlest of all Shiva temples (Kovil) in Hinduism. It is also a site for performance arts, including the annual Natyanjali dance festival on Maha Shivaratri.',
-        images: [akashaLingam],
-        source: "",
-      },
-      {
-        name: "Air – Vayu Lingam – Srikalahasti Temple",
-        location: "Srikalahasti, Andhra Pradesh",
-        description:
-          "The one Pancha Bhootam temple located outside Tamil Nadu. Shiva is worshipped as Srikalahastishvara — the lord of Vayu (wind). A lighted lamp inside the sanctum always flickers as if in a breeze, even though there is no air moving, symbolising the presence of Vayu (Air). It is one of the most celebrated Shiva temples in South India.",
-        hasImage: false,
-        source: "",
-      },
-    ],
-  },
-  {
-    name: "1000-Pillar Temple — Madurai Meenakshi Temple",
-    description:
-      'Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). Built around 1569 by Ariyanatha Mudaliyar, the minister of the Nayak dynasty, the hall is known for its structural beauty and detailed carvings. It is called the 1000-pillar temple because it houses a massive, 16th-century hall known as the Aayiram Kaal Mandapam, which contains a vast, intricately carved forest of pillars. Though often referred to as "1000," the hall actually holds 985, not 1000, granite pillars arranged in rows. While the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries. While a few structural improvements were made during the 18th and 19th centuries CE, the temple condition degraded due to negligence during the British Raj. After the Indian independence in the mid 20th century, the temple was restored with donations collected from people. Further restoration and kumbhabhishekam of the temple was conducted in 1974, 1995, and 2009. The temple conducts six pujas everyday, each comprising four rituals namely abhisheka (sacred bath), alankaram (decoration), naivedanam (food offerings) and deepa aradanai (lamp ceremony) for both Meenakshi and Sundareswarar. The rituals and festivals are accompanied with music from instruments such as nadhaswaram (pipe instrument), davandai and tavil (percussion instrument), often along with the recitation of the Vedas. The Hindus circumambulate the shrines clockwise before entering the shrine for a darshana. The Meenakshi shrine is typically visited before the Sundareswarar shrine by the pilgrims, as she is considered the primary deity of the complex. The Meenakshi temple hosts a festival in each month of the Tamil calendar. The Meenakshi thirukalyanam, which celebrates the wedding of Meenakshi and Sundareswarar, is celebrated over 15 days, and is the most attended festival. The festival, celebrated during the month of Chithirai, is part of the ‘Chithirai Thiruvizha’. The festivities include number of events such as the ‘Ther Thiruvizha’ (temple car festival) and ‘Theppa Thiruvizha’ (float festival). The wedding of the divine couple is regarded as an instance of a South Indian wedding with matrilineal emphasis, an arrangement referred as "Madurai marriage", which is in contrast with the "Chidambaram marriage", with patrilineal emphasis, named after the rituals at the Nataraja temple at Chidambaram. The festival includes the wedding ritual, where Alagar (Vishnu) gives away his sister Meenakshi, the royal bride, in marriage to Shiva, and a procession, where the idols of Meenakshi and Sundareswarar are taken in a temple car, pulled by volunteering devotees.',
-    images: [meenakshi1, meenakshi2, meenakshi3, meenakshi4],
-    source: "(src: Wikipedia, National Geographic)",
-  },
-  {
-    name: "Rameshwaram Temple",
-    description:
-      "Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the Hindu god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is one of the twelve Jyotirlinga temples. According to tradition, the lingam (an aniconic form of Shiva) of the Ramanathaswamy Temple was established and worshipped by Rama before he crossed the bridge called Rama Setu to the island kingdom of Lanka, identified with Sri Lanka. It is one of the Char Dham pilgrimage sites. In the Yuddha Kanda of the Ramayana, on their journey back to Ayodhya, Rama narrates to Sita the appearance and worship of Shiva in the form of a lingam on the island of Rameswaram before the construction of his bridge to Lanka. He describes the spot to be supremely sacred and capable of expiating major sins. In the Shiva Purana, Rama propitiates Shiva on the shore of Rameswaram in the form of a lingam by the repetition of mantras, meditation, and dancing. Pleased, the deity appeared before Rama and granted his requested boon of victory over Ravana. Rama then requested the deity to remain on the island to sanctify the world and offer his grace to all people. There are sixty-four Tīrthas (holy water bodies) in and around the island of Rameswaram, Tamil Nadu, India. According to Skānda Purāṇa, twenty-four of them are important. Bathing in these Tīrthas is a major aspect of the pilgrimage to Rameswaram and is considered equivalent to penance. Twenty-two of the Tīrthas are within the Rāmanāthasvāmī Temple. The number 22 indicates the 22 arrows in Rama's quiver. is famous for its massive corridor, which features 1,212 intricately carved, symmetrical pillars. These sandstone pillars, standing approximately 30 feet tall, form the world's longest temple corridor. Some reports suggest the overall temple complex may have up to 4,000 pillars in total.",
-    images: [rames1, rames2, rames3],
-    source: "(src: Famous Tamil Nadu Temples, Wikimedia Commons, Intermiles)",
-  },
-  {
-    name: "Dhanushkodi",
-    description:
-      "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres (15 mi) west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath. Although devoid of inhabitants, Dhanushkodi remains a tourist attraction due to its historical and mythological relevance. An estimated 1,800 people died in the cyclonic storm on 22 December 1964 including 115 passengers on board the Pamban-Dhanushkodi passenger train. The entire town was marooned and the Government of Madras declared Dhanushkodi as a ghost town, unfit for living. Around the 40th anniversary of the deadly cyclone, the sea around Dhanushkodi receded about 500 metres (1,600 ft) from the coastline, briefly exposing the submerged part of the town before massive tsunami waves struck the coast on 26 December 2004. The name Dhanushkodi means \"end of the bow\".It is significant for its deep mythological roots to the Ramayana, having served as the site where Lord Rama is believed to have marked the starting point of the Ram Setu bridge to Lanka. It serves as the starting point for the legendary Ram Setu, a 50 km long chain of limestone shoals connecting India's Rameswaram Island to Sri Lanka's Mannar Island.",
-    images: [dhanush1, dhanush2],
-    source: "(src: Kiomoi Travels, Tusk Travels)",
-  },
-  {
-    name: "Pamban Bridge",
-    description:
-      "Pamban bridge was a railway bridge that connected the town of Rameswaram on Pamban Island with Mandapam in mainland India. Opened on 24 February 1914, it was India's first sea bridge. The Pamban bridge was the only surface transport link that connected Rameswaram to the mainland India until 1988, when a road bridge was constructed parallel to the railway bridge. In 2020, construction of a new bridge closer to the existing one began which was planned to eventually replace the existing bridge. The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025.",
-    images: [pamban1, pamban2, pamban3],
+      "Victoria Memorial, a majestic white marble edifice situated in the middle of 64 acres (25 ha) of sprawling gardens, dominating the centre of the Kolkata, India. Architecturally, it seems to reflect contemporary British civic classicism, but there are deliberate Eastern references as well. The Victoria Memorial was conceived by Lord Curzon as a fitting monument to Queen Victoria of the United Kingdom following her death in 1901. He organized funding for the project from within India and commissioned William Emerson, one of the leading British architects of the day, to design the edifice for the centre of the city that was then the capital of British India. The prince of Wales (later King George V) laid the cornerstone on January 4, 1906, and, after lengthy construction work, the building was formally opened on December 28, 1921. The marble used to construct the building comes from the same Makrana quarries in Rajasthan that were used for the construction of the Taj Mahal, and the corner domes are faintly Mughal in style. The whole composition is crowned by a bronze statue of the Angel of Victory that stands 16 feet (4.9 m) high; though not a true weather vane, it rotates when the wind is strong enough. The sides of the memorial are linked by open colonnades and in the south entrance, approached through a triumphal archway commemorating King Edward VII, there is a statue of Lord Curzon himself. The entrance hall contains bronze busts and marble statues of royal figures, and the walls are decorated with murals showing scenes from Queen Victoria’s life and texts from her imperial proclamations. The interior rooms display important collections of paintings, sculpture, artifacts, books, and manuscripts, all relating to royalty and empire.",
+    images: [victorial1],
     source: "",
   },
   {
-    name: "The Great Chola Temples (UNESCO World Heritage Site)",
+    name: "Hazarduari Palace",
     description:
-      "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands. The site includes three great 11th- and 12th-century Temples: the Brihadisvara Temple at Thanjavur, the Brihadisvara Temple at Gangaikondacholisvaram and the Airavatesvara Temple at Darasuram. The Temple of Gangaikondacholisvaram, built by Rajendra I, was completed in 1035. Its 53-m vimana (sanctum tower) has recessed corners and a graceful upward curving movement, contrasting with the straight and severe tower at Thanjavur. The Airavatesvara temple complex, built by Rajaraja II, at Darasuram features a 24-m vimana and a stone image of Shiva. The temples testify to the brilliant achievements of the Chola in architecture, sculpture, painting and bronze casting.. The Thanjavur temple is also variously known as Thanjai Periya Kovil, the Thanjavur Big Temple or Rajarajeshwaram, temple of the God of Rajaraja. It is one of the largest Hindu temples and an exemplar of Tamil architecture. Rajaraja himself referred to his temple as Dakshina Meru or the southern abode of Lord Shiva. Construction of the temple began in about 1003-1004 CE, and it was consecrated by Rajaraja in 1010 CE. The Chola kingdom was economically prosperous – they not only controlled every important trading port in south India, but they also had a monopoly over production of the gold mines of Kolar, the pearl fisheries in the Gulf of Mannar, the diamond mines that lay between the rivers Krishna and Pennar on the Deccan plateau (the Golconda mines) and the gem production of Ceylon as well. They are recognized as one of the 44 unesco world heritage sites of india because of the following 4 criterias-\n\nCriterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the dravida type of temple.\n\nCriterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.\n\nCriterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilisation in Southern India.\n\nCriterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.",
-    images: [chola1, chola2, chola3],
-    source: "(src: Moneycontrol, Incredible India)",
-  },
-  {
-    name: "Velankanni Church",
-    description:
-      "The Basilica of Our Lady of Good Health, also known as Sanctuary of Our Lady of Velankanni, is a Christian shrine located at the town of Velankanni, Tamil Nadu, India. The shrine is dedicated to the Blessed Virgin Mary. The devotion has existed since the mid-sixteenth century, it is attributed to three separate events which occurred at the site: The apparition of the Madonna and Child to a slumbering shepherd boy, the miraculous healing of a handicapped buttermilk vendor and the rescue of Portuguese sailors from a deadly sea storm. The basilica is built in the Gothic style of architecture. The southern side was extended in 1928 and the northern in 1933. The Shrine Basilica contains three chapels, as well as Our Lady's Tank, Church Museum, Priests' Residence, Offering Center, Stations of the Cross, mysteries of the rosary, Shrine Mega Mahal and Velankanni Beach. The building is painted in white, except for the roof that is made of red tiles. For Goan and Konkani people, she is called \"Shantadurga\" (most compassionate one). A major event is the procession, where only women are allowed to pull the first car and a statue of Mary is in the last and most decorated one. People of other religions also take part. The pilgrims sometimes shave their heads as an offering and perform ear-piercing ceremonies, both being Hindu traditions. Another ritual considered sacred is dipping oneself in the pond. There is a holy flag which is lowered to signal the end of the festival.",
-    images: [velan1, velan2, velan3],
-    source: "(src: Wikipedia)",
-  },
-  {
-    name: "Thiruvalluvar Statue, Kanyakumari",
-    description:
-      "The Thiruvalluvar Statue, or Valluvar Statue, is a 40.6-metre-tall (133 ft) stone sculpture of Tamil poet and philosopher Valluvar, known as Thiruvalluvar, the author of the Thirukkural, an ancient Tamil work on morality. It is atop a small island near the town of Kanniyakumari on the southernmost point of the Indian peninsula in the state of Tamil Nadu, India, where the Bay of Bengal, the Arabian Sea and the Indian Ocean meet. It is currently the 25th tallest statue in India. During its silver jubilee celebrations on January 1, 2025, the Government of Tamil Nadu declared the statue as the “Statue of Wisdom”. The combined height of the statue and pedestal is 133 feet (41 metres), denoting the 133 chapters of the Thirukkural. This includes a 95-foot (29-metre) sculpture of Valluvar standing upon a 38-foot (12-metre) pedestal that represents the 38 chapters of Virtue, the first of the three books of the Kural text. The statue itself represents the second and third books of the Kural text, namely, Wealth and Love. The whole design signifies that wealth and love be earned and enjoyed on the foundation of solid virtue.[3] The right hand of the statue with three fingers pointing skywards signifies the three cantos of the Kural text, namely, Aram, Porul, and Inbam (Virtue, Wealth, and Love, respectively), combined.[4] The head of the statue stands at a height of 61 metres (200 ft) above the sea level. There is a glass bridge viz., Kanyakumari Glass bridge also called as Kanyakumari Glass fibre footover bridge, an footover bridge built for pedestrians to cross the sea connecting Thiruvalluvar Statue and Vivekananda Rock Memorial in Kanyakumari which was inaugurated on 30 December 2024. he monument was hit by the Indian Ocean tsunami on 26 December 2004 but stood unaffected. The statue is designed to survive earthquakes of unexpected magnitude, such as magnitude 6 on the Richter Scale occurring within 100 kilometres (62 mi). This is far beyond that of any event recorded in the regional history because the bedrock in the region is ancient and without known local faults.",
-    images: [thiruv1, thiruv2],
-    source: "(src: Wikipedia)",
-  },
-  {
-    name: "Vivekananda Rock Memorial",
-    description:
-      "Vivekananda Rock Memorial is a monument and popular tourist attraction in Kanyakumari, India's southernmost tip. The memorial stands on one of the two rocks located about 500 meters off mainland of Vavathurai, Tamil Nadu. It was built in 1970 in honour of Swami Vivekananda, who is said to have attained enlightenment on the rock. According to legends, it was on this rock that Goddess Kanyakumari (Parvathi) performed tapas in devotion of lord Shiva. A meditation hall known as Dhyana Mandapam is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. The rocks are surrounded by the Laccadive Sea where the three oceans Bay of Bengal, the Indian Ocean and the Arabian Sea meets. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam. The establishment of Vivekananda Kendra—the Living Memorial alongside the stone structure of the Rock Memorial—was mentioned in 1964. After the groundwork of about nine years, Vivekananda Kendra was officially founded on 7 January 1972 (the 108th birth anniversary of Swami Vivekananda by the Hindu calendar). On that day, as the sun rose, a saffron flag with Om inscribed on it was unfurled on the Vivekananda Rock Memorial to celebrate the founding of the Vivekananda Kendra: a spiritually oriented service mission of a non-monastic order.",
-    images: [vive1, vive2, vive3],
-    source: "(src: Wikipedia)",
-  },
-  {
-    name: "Group of Monuments at Mahabalipuram (UNESCO World Heritage Site)",
-    description:
-      "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries. It is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air reliefs such as the famous 'Descent of the Ganges', and the temple of Rivage, with thousands of sculptures to the glory of Shiva. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai. The site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The monuments were built during the rule of the Pallava dynasty.\n\nThe ratha temples, in southern Mahabalipuram, are carved in the shape of chariots. Their artists used naturally occurring blocks of diorite and granite in sand, carving legends in stone. The best-known are the five monolithic structures projecting above the beach, known as the Five Rathas or the Pandava Rathas. In the Mahabharata, the Pandavas are five brothers with a common wife, Draupadi. Although the symbolism and grouping of the temples have led to these popular names, they are neither true rathas nor dedicated to the Pandavas. The Dharmaraja ratha has a square floor plan within a rectangular frame (26.75 ft x 20.67 ft), and is 35.67 feet high. It has an open porch supported by pillars. The temple's pyramidal tower consists of a vimana of shrinking squares, capped by an octagonal shikhara. There is evidence that it had (or was intended to have) a finial. Its pillars have seated lions at the base. It has three levels; the lowest is solid (probably never carved out), and the upper two have shrines. The two upper levels are connected by stairs carved into the stone. The middle level has two shrines, and the uppermost has one. The ratha walls have carvings and inscriptions, one mentioning Narasimhavarman I. Bhima Ratha (next to the Dharmaraja Ratha) is massive and has a roof resembling a vaulted barrel, reminiscent of woodwork. The ratha is 46 feet (14 m) long, about 25 feet (7.6 m) high and about 25 feet wide. Its incomplete interior was probably intended to house a reclining Vishnu (anantasayana). Unlike the other rathas, the temple has no inscriptions or sculptures. Its vimana is intricately carved on both sides of the roof. The cornice has seven pairs of kudus (Sanskrit: gavaksha). Above it are alternating salas and kutas (types of aediculae), forming thirteen small vimanas. Above this layer are five grivas (necks, clerestory) carved into the shrine, like a niche flanked by small pilasters. The two on each side are the same size, and the middle one is larger. There is structural evidence on the top of eighteen original kalashas and two tridents. Arjuna Ratha, adjacent to Bhima Ratha, is also incomplete. One of the larger monuments, it is about six times smaller in area than the Dharmaraja Ratha. The unfinished Nakula Sahadeva Ratha is an apsidal temple, a relatively-uncommon Hindu design found in Aihole and elsewhere in India.",
-    images: [mahab1, mahab2, mahab3, mahab4],
-    source: "(src: Mahabalipuram, Alamy, Wikipedia, NDTV)",
-  },
-  {
-    name: "Mountain Railways of India — Nilgiri Mountain Railway (UNESCO World Heritage Site)",
-    description:
-      "The Nilgiri Mountain Railway (NMR) in Tamil Nadu is a UNESCO World Heritage Site (added in 2005) and a premier mountain railway in India. Built by the British in 1908, this 46-km, meter-gauge line connects Mettupalayam to the hill station of Udhagamandalam (Ooty) via Coonoor. It is renowned for being the only rack-and-pinion railway in India, navigating steep slopes with a 1 in 12.5 gradient, and features 16 tunnels and over 250 bridges. The construction of the Nilgiri Mountain Railway, a 46-km long metre-gauge single-track railway in Tamil Nadu State was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 m to 2,203 m, represented the latest technology of the time. The uphill journey takes around 290 minutes (4.8 hours), and the downhill journey takes 215 minutes (3.6 hours). It has the steepest track in Asia with a maximum gradient of 8.33%.[3] During Meter Gauge era in 1990s, The Nilgiri Express used to run between Chennai(then Madras) & Udhagamandalam(then Ooty) directly. Timings were:- Madras 21.00; Ooty 10.20 & in return:- Ooty 16.30; Madras 05.50.But it was stopped after NMR got UNESCO World Heritage Tag in 1994. As of 2007, a daily train crosses the rack section, which starts from Mettupalayam at 07:10 and reaches Udhagamandalam at noon. The return train starts from Udhagamandalam at 14:00, and reaches at 17:35. The train is scheduled to connect to the Nilgiri Express, which travels from Mettupalayam to Chennai via Coimbatore. A summer special service runs in April and May, starting from Mettupalayam at 09:30 am and from Udhagamandalam at 12:15 pm. Between Coonoor and Udagamandalam, four daily trains run each way.\n\nEven though the NMR supplies networked computerized ticketing systems for onward journeys, it still issues Edmondson style manual tickets for the Udhagamandalam-Mettupalayam journey to preserve its 'World Heritage Site' status. Ticket booking is similar to conventional trains and can be done via the Indian Railway website. It is advisable to book tickets well in advance, especially during peak season. Stations – Mettupalayam 9MTP), Kallar(QLR), Adderly (ADY), Hillgrove(HLG), Runneyemede(RME), Coonoor(ONR), Wellington(WEL), Aravankadu(AVK), Ketti(KXT), Lovedale(LOV), Fern hill(FER), Udhanagmandalam(UAM)/Ooty.",
-    images: [nilgiri1, nilgiri2],
+      "Hazarduari Palace is one of the most impressive heritage places. The architecture itself is grand, and the “Palace of a Thousand Doors” name really adds to the charm when you’re walking through the huge corridors and halls. Inside, the museum collection is fascinating, especially if you love historical objects. The display of old weapons and instruments is a highlight, with swords (talwar), guns, and other royal-era items that make you imagine the Nawabi period in Murshidabad. The famous mirror setup and the overall “royal court” vibe are genuinely magical to experience. The garden in front of the palace is also very nice for relaxing and taking photos, and the whole complex feels like a proper time-travel moment. It’s located in the Kila Nizamat area near other major landmarks, so you can cover multiple spots in one trip. Hazarduari Palace is truly a gem of Murshidabad. The architecture is stunning, and every corner of the palace reflects its rich Nawabi history. The museum inside is well-maintained and showcases an incredible collection of weapons, paintings, manuscripts, and royal artifacts",
+    images: [hazarduari1],
     source: "",
   },
   {
-    name: "Trichy Malaikottai (Rockfort)",
+    name: "Shaheed Minar",
     description:
-      "Malaikottai, better known as Rockfort, is a living record of Tamil Nadu's past glory and its historical heritage. Founded at the heart of Tiruchirappalli (Trichy), the very old fortification built on a colossus immature rock mass is over 3.8 billion years old; one of the oldest geological buildings in the world. Standing very high above the city, Malaikottai is a history, religion, and culture-telling monument as well. The past of Malaikottai was inextricably linked with the emergence and decline of South Indian dynasties. Its strategic position made it an extremely valuable fort to be held by one or another, starting from the Pallavas right up to the Nayaks and Marathas. Initially, the Pallavas hewed temples out of the ancient rock, and later in the latter part in the Nayak period the fort was fortified and expanded to its present size. The fort played an important role in the Carnatic Wars of the 18th century, when it was fought for hard by the British and French forces. Capturing it was crucial for the control of the region, which resulted in a series of minor battles and fights. It was finally the British who captured the fort and it later became a major stronghold of theirs in the great wars. One of the most impressive things about the fort is that it extends over the natural rock formations with man-made constructions. The fort, situated on a 273-feet rock, offers magnificent views of Trichy and the plains surrounding it. Aside from this, Ucchi Pillayar Temple, which is the temple of Lord Ganesha, is the main attraction of fortification areas. It is believed that Lord Ganesha found refuge at the top of this hillock when he left Srirangam after setting up the idol of Ranganathan. Buried deep within the rock is the Thayumanavar Temple, a beautiful temple of Shiva, as much celebrated in stories as for beauty with Dravidian architecture. This temple comes under this category because the mythology tells us Lord Shiva assumed the guise of a mother (Thayumanavar) so that he could help a woman give birth when she was in labor. There are wall sculptures and inscriptions of Hindu mythology stories around it, adding cultural and religious heritage. But the summit is reached after climbing nearly 400 steps. During the ascent to the summit, visitors are treated to gigantic views of the city below and the green pastures, and the Kaveri River flowing its way down the plains.",
-    images: [malai1, malai2],
-    source: "(src: TripAdvisor)",
+      "The Shaheed Minar, formerly known as the Ochterlony Monument, is a monument in Kolkata that was erected in 1828 in memory of Major-general Sir David Ochterlony, commander of the British East India Company, to commemorate both his successful defense of Delhi against the Marathas in 1804 and the victory of the East India Company’s armed forces over the Gurkhas in the Anglo-Nepalese War, also known as the Gurkha War. The monument was designed by J. P. Parker and paid for from public funds. On 9 August 1969, it was rededicated to the memory of the martyrs of the Indian freedom movement and renamed the 'Shaheed Minar', which means 'martyrs' monument' in both Bengali and Hindustani, by the then United Front Government in memory of the martyrs of the Indian independence movement. The presentgovernment has decided to illuminate the tower during evenings and allow visitors to the top. The lastpeople to have been up there were former governor Gopal Krishna Gandhi and his family.",
+    images: [shaheedi1],
+    source: "",
   },
   {
-    name: "Srirangam Ranganathaswamy Temple",
+    name: "Howrah Bridge",
     description:
-      "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. The temple complex has been nominated as a UNESCO World Heritage Site, and is in UNESCO's tentative list.[4] In 2017, the temple won the UNESCO Asia Pacific Award of Merit 2017 for cultural heritage conservation, making it the first temple in Tamil Nadu to receive the award from the UNESCO. The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts 1 million visitors. The Ranganathaswamy Temple town has over 800 inscriptions, of which nearly 640 are on temple walls and monuments. Many of these relate to gifts and grants by rulers or the elite, while others relate to the temple's management, scholars, dedication and general operation. The inscriptions have been a source of information about South Indian history, culture, economy and social role.[76] These range from the late 9th century to the rule of Aditya Chola I, to the last historical ones from the 16th century. Others are from the times of Cholas, Nayakas, Pandyas, Hoysalas and the Vijayanagara era. The historic inscriptions at the Ranganathaswamy Temple are in six major Indian languages: Tamil, Sanskrit, Kannada, Telugu, Marathi and Odia. The annual temple chariot festival, called Rathothsavam is celebrated during the Tamil month of thai (January–February) and the processional deity, utsavar is taken round the temple in the temple car. The Lord rests on the five-headed snake, Adisesha, representing serene, conscious sleep (Yoga Nidra). The deity lies on an east-west axis, with the head facing west and the feet facing east, yet with the idol facing towards the south, looking toward Lanka. It is a large, historically significant idol carved from black stone measuring roughly 24 feet. The reclining posture is so grand that the entire idol cannot be seen at once, often requiring specific viewing points to see. The temple is revered as Bhooloka Vaikuntham (Vaikuntha on Earth), and the deity is treated as a living emperor who requires a \"waking ceremony\" (Visvaroopa Seva) each morning.",
-    images: [sri1, sri2, sri3],
-    source: "(src: Wikipedia, cottage9)",
+      "The Howrah Bridge is a balanced steel bridge over the Hooghly River in West Bengal, India. Commissioned in 1943, the bridge was originally named the New Howrah Bridge, because it replaced a pontoon bridge at the same location linking both sides of Kolkata. Burrabazar is connected with Howrah rail terminal because of this bridge. On 14 June 1965, it was renamed Rabindra Setu after the Bengali poet Rabindranath Tagore, who was the first Indian and Asian Nobel laureate. It is still popularly known as the Howrah Bridge. The bridge is one of four on the Hooghly River and is a famous symbol of Kolkata and West Bengal. The other bridges are the Vidyasagar Setu (popularly called the Second Hooghly Bridge), the Vivekananda Setu and the relatively new Nivedita Setu. It carries a daily traffic of approximately 100,000 vehiclesand possibly more than 150,000 pedestrians, easily making it the busiest cantilever bridge in the world. The third-longest cantilever bridge at the time of its construction, the Howrah Bridge is currently the sixth-longest bridge of its type in the world.",
+    images: [howrah1],
+    source: "",
+  },
+  {
+    name: "Dakshineswar Kali temple",
+    description:
+      "Dakshineswar Kali Temple or Dakshineswar Kalibari is a Hindu navaratna style temple in Dakshineswar, Kolkata, West Bengal, India, on the eastern bank of the Hooghly River. The presiding deity of the temple is Bhavatarini (Kali), a form of Mahadevi or Parashakti Adya Kali, otherwise known as Adishakti Kalika. The temple was built in 1855 by Rani Rashmoni, a zamindar (feudal lord), and a devotee of Kali. The temple is associated with avatar Sri Ramakrishna and Sarada Devi, his wife and devotee mystic, both of 19th century Bengal. The main temple was inspired by Radhakanta temple in Tollygunge, built by Babu Ramnath Mondal of the Bawali Raj family. The temple compound, apart from the nine-spired main temple, contains a large courtyard surrounding the temple, with rooms along the boundary walls. Along the riverfront, there are twelve shrines dedicated to Shiva, Kali's consort, a temple to Radha–Krishna, a bathing ghat at the river, and a shrine dedicated to Rani Rashmoni. The 'Nahabat', or 'music tower', northeast and beyond the last of the Shiva temples, is where Maa Sarada spent a considerable part of her life. Sri Ramakrishna's room is in the northwest corner of the courtyard, with a semicircular verandah facing the river.",
+    images: [dakshineshwar1],
+    source: "",
+  },
+  {
+    name: "Darjeeling Himalayan railway",
+    description:
+      "The Darjeeling Himalayan Railway, also known as the DHR or the Toy Train, is a 610 mm (2 ft) gauge railway that runs between New Jalpaiguri and Darjeeling in the Indian state of West Bengal. Built between 1879 and 1881, it is about 88 km (55 mi) long. It climbs from about 100 m (330 ft) above sea level at New Jalpaiguri to about 2,200 m (7,200 ft) at Darjeeling, using six zig zags and three loops (originally five) to gain altitude. Ghum station is situated at an altitude of 2,258 metres (7,407 ft). Six diesel locomotives handle most of the scheduled service, with daily tourist trains from Darjeeling to Ghum – India's highest railway station – and the steam-hauled Red Panda service from Darjeeling to Kurseong. Steam-enthusiast specials are hauled by vintage British-built B-Class steam locomotives. The railway's headquarters are at Kurseong. On 5 December 1999, UNESCO declared the DHR a World Heritage Site. Following the COVID-19 pandemic in the country, the service was stopped for 18 months from March 2020 to August 2021. In 1934, a major earthquake in Bihar shook all of Northeast India. Many buildings in Darjeeling were heavily damaged and the railway was also affected, although it soon recovered and played a vital role in transporting repair materials. During World War II, the DHR transported military personnel and supplies to the camps around Ghum and Darjeeling.In 1951, the railway was purchased by the Indian government and absorbed into the government railway organisation before it was managed by the Assam Railway.. On 25 August 2021, the service was restarted from New Jalpaiguri to Darjeeling with the new vistadome coaches for the tourists.",
+    images: [dhr1],
+    source: "",
+  },
+  {
+    name: "Santiniketan",
+    description:
+      "Shantiniketan is a neighbourhood of Bolpur town in the Bolpur subdivision of Birbhum district in West Bengal, India, approximately 152 km north of Kolkata. It was established by Debendranath Tagore, and later expanded by his son, Rabindranath Tagore whose vision became what is now a university town with the creation of Visva-Bharati. It is also the birthplace of Indian Nobel Laureate Amartya Sen, who was also an alumnus of the school. It was inscribed on the UNESCO World Heritage List by the World Heritage Committee in 2023. In 1863, Debendranath Tagore took on permanent lease 20 acres (81,000 m2) of land, with two chhatim trees, at an annual payment of Rs. 5, from Bhuban Mohan Sinha, the talukdar in Raipur, Birbhum. He built a guest house there and named it Shantiniketan (the abode of peace). Gradually, the whole area came to be known as Shantiniketan. Upasana Griha is the glass prayer hall Devendranath built.",
+    images: [santiniketan1],
+    source: "",
+  },
+  {
+    name: "Rasmancha Bishnupur",
+    description:
+      "It was commissioned by Mallabhum king Hambir Malla Dev (Bir Hambir) in 1600 CE. Length and breadth of this temple is 24.5 meter and the height is 12.5 meter. The base of the temple is made of laterite stone and upper part is made with bricks.Built on a laterite plinth, it is an impressive square building with a small shrine in the centre and three-corridor galleries with vaulted roofs enclosing it. The building is used for putting up idols from other temples on the occasion of Ras festival. During the Vaishnava Ras festival, all the Radha Krishna idols of Bishnupur town used to be brought here to be worshipped by the citizens. The annual festival was held in Rasmancha till 1932. Rasmancha temple of Bishnupur is on the UNESCO World Heritage Site's Tentative list. The Temples are designated as Monuments of National importance by ASI. Bishnupur, the temple town in the Bankura district of West Bengal is welcoming you with its lavish heritage, proud culture, brilliant architecture and tales of terracotta. Adi Malla established the Malla dynasty. Jagat Malla, the 10th Malla king shifted his kingdom to Bishnupur. Due to short supply of stone in Bengal, burnt clay bricks came as a substitute and architects of Bengal found the new way of a beautiful craft known as ‘Terracotta’. During the seventeenth century, the art of terracotta reached its highest peak. Raja Jagat Malla and his descendants built numerous temples made of terracotta and stone art.",
+    images: [rasmancha1],
+    source: "",
+  },
+  {
+    name: "Cooch Behar Palace",
+    description:
+      "The Cooch Behar Palace is noted for its elegance and grandeur. It is a brick-built double-story structure in the Classical Italian architecture covering an area of 51,309 square feet (4,766.8 m2). The whole structure is 395 feet (120 m) long and 296 feet (90 m) wide and is on rests 4 feet 9 inches (1.45 m) above the ground. The Palace is fronted on the ground and first floors by a series of arcaded verandahs with their piers arranged alternately in single and double rows.At the southern and northern ends, the Palace projects slightly and in the center is a projected porch providing an entrance to the Durbar Hall. The Hall has an elegantly shaped metal dome which is topped by a cylindrical louver type ventilator. This is 124 feet (38 m) high from the ground and is in the style of the Renaissance architecture. The intros of the dome is carved in stepped patterns and Corinthian columns support the base of the cupola. This adds variegated colors and designs to the entire surface. There are various halls in the palace and rooms that include the grand Durbar Hall or the hall of audience, Drawing Rooms, Dining Hall, Billiard Room, Library, Bed Rooms, Toshakhana, Ladies Gallery and Vestibules. The artifact and precious objects that these rooms and halls used to contain are now lost.",
+    images: [cooch1],
+    source: "",
+  },
+  {
+    name: "Sunderbans National Park",
+    description:
+      "Sundarbans National Park is a national park in West Bengal, India, and core part of tiger reserve and biosphere reserve. It is part of the Sundarbans on the Ganges Delta and adjacent to the Sundarban Reserve Forest in Bangladesh. It is located to south-west of Bangladesh. The delta is densely covered by mangrove forests, and is one of the largest reserves for the Bengal tiger. It is also home to a variety of bird, reptile and invertebrate species, including the salt-water crocodile. The present Sundarban National Park was declared as the core area of Sundarban Tiger Reserve in 1973 and a wildlife sanctuary in 1977. On 4 May 1984 it was declared a national park. It is a UNESCO World Heritage Site inscribed in 1987, and it has been designated as a Ramsar site since 2019. It is considered as a World Network of Biosphere Reserve from 10 November 2001. The park receives financial aid from the state government as well as the Ministry of Environment and Forests under various plan and non-plan budgets. Additional funding is received under the Project Tiger from the Central Government. In 2001, a grant of US$20,000 was received as preparatory assistance for promotion between India and Bangladesh from the World Heritage Fund.The estimation of tiger population in Sunderban, as a part of the all India tiger estimation using the refined methodology, could not be carried out owing to the unique habitat and obliteration of evidences due to high and low tides. Phase-I data collection has been completed and process is on for tiger estimation using a combination of radio telemetry and pugmark deposition rate from known tigers. A 2022 survey by the National Tiger Conservation Authority photographed 100 unique tigers.",
+    images: [sunderban1],
+    source: "",
   },
 ];
 
 const facts = [
-  "Tamil Nadu is home to one of the world's oldest civilizations, with the Tamil language being one of the longest-surviving and the first recognized classical language.",
-  "It is the 11th largest state by area",
-  "It is the 2nd largest economy in India with a GSDP of over $280 billion.",
-  "The state contributes significantly to India's manufacturing, producing 60% of the country's matches and acting as a hub for automobile manufacturing.",
-  "It is the 6th most populated state in India, with a high literacy rate of around 80.09%.",
-  "The state is the birthplace of legendary mathematician Srinivasa Ramanujan and former President APJ Abdul Kalam.",
-  "Archaeological evidence indicates that the Tamil Nadu region could have been inhabited more than 385,000 years ago by archaic humans.",
-  "It has the country's 9th-highest GSDP per capita of ₹315,220 (US$3,700) and ranks 11th in human development index.",
-  "Tamil Nadu is one of the most industrialised states, with the manufacturing sector accounting for nearly one-third of the state's GDP.",
-  "The state has three biosphere reserves, mangrove forests, five National Parks, 18 wildlife sanctuaries and 17 bird sanctuaries.",
-  "The Sangam literature historically known as 'the poetry of the noble ones’ connotes the early classical Tamil literature and is the earliest known literature of South India. This collection contains 2381 poems in Tamil composed by 473 poets, some 102 anonymous.",
-  "Silappathikaram or Silappatikaram is the earliest Tamil epic. It is a poem of 5,730 lines in almost entirely akaval (aciriyam) meter. The epic is a tragic love story of an ordinary couple, Kaṇṇaki and her husband Kōvalaṉ.",
-  "Thirukural is an ancient Tamil language moral literature . It is a collection of eighteen books in the Sangam literary classification , known as the “Pathinenkeezhkanakku” , and consists of 1,330 couplets. It is essentially a book of life. It explains the basic qualities that humans need to live well in their inner and outer lives. The book is considered one of the world's best works on morality. It is known for its generality and secular nature. Its author is known as Thiruvalluvar . The time of this book is variously estimated to be from 300 BCE to the 5th century CE.",
-  "Tamilnadu has the third largest urbanized population in the country after maharashtra and Uttar Pradesh.",
-  "The key industries of the state are heavy engineering and manufacturing-based companies and textiles.",
-  "There are a number of rivers in Tamil Nadu, but some of the major ones include Kaveri River, Vaigai River, Palar River, Noyyal River, Bhavani River, Cheyyar River, and Thamirabarani River.",
-  "Major Industries in the State are cotton, heavy commercial vehicles, auto components, railway coaches, power pumps, leather tanning industries, cement, sugar, paper, automobiles and safety matches.",
-  "Main mineral wealth of the state is granite, lignite and limestone.",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
+  "West Bengal is one of India’s major rice and fish-producing states.",
+  "Spoken by over 250 million people, Bengali is the fifth most spoken language in the world. In a UNESCO international poll, it was celebrated as the 'sweetest language in the world'.",
+  "Native to the Indian subcontinent, these iconic big cats are famous for their magnificent coats and incredible swimming abilities. They are primarily found in the Sundarbans, the largest contiguous mangrove forest in the world, which stretches across the Bay of Bengal.",
+  "Bengal is renowned for its dairy-based sweets, particularly the spongy Rasgulla (or Roshogolla). While there is a historic rivalry over its exact origin, the modern spongy version was invented in Kolkata in the 1860s by confectioner Nobin Chandra Das.",
+  "The region has been an immense intellectual hub, producing key figures like Rabindranath Tagore—the first non-European to win the Nobel Prize in Literature—and physicist C.V. Raman, who won the Nobel Prize for the Raman Effect.",
+  "Kolkata (the capital of West Bengal) is home to India's very first operational underground rapid transit system, the Kolkata Metro, which officially opened in 1984.",
+  "The Darjeeling Himalayan Railway, affectionately known as the 'Toy Train', climbs up the steep Himalayan foothills to Darjeeling. It is a UNESCO World Heritage site and famously operates on narrow-gauge tracks",
+  "West Bengal is the fourth-most populous and thirteenth-largest state by area in India, as well as the eighth-most populous country subdivision of the world.",
+  "During the Bengal Sultanate, the territory was a major trading nation in the world, and was often referred by the Europeans as the 'richest country to trade with'.",
+  "Kolkata was once the capital of British India until 1911.",
+  "West Bengal is one of India’s major rice and fish-producing states.",
 ];
 
 const artGallery = [
