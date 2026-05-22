@@ -9,12 +9,21 @@ import {
   ZoomIn,
 } from "lucide-react";
 import lakshadweepMap from "@assets/lakshadweepMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+const eid1 = "https://i.postimg.cc/3J8Ld8SB/image.png";
+const minicoy1 = "https://i.postimg.cc/PqwyBPJX/image.png";
+const urja1 = "https://i.postimg.cc/JnTsxQ8t/image.png";
+const bangaram1 = "https://i.postimg.cc/1tg8Wq30/image.png";
+const minicoyisland1 = "https://i.postimg.cc/v8JVN399/image.png";
+const kalpeni1 = "https://i.postimg.cc/SstKCNLd/image.png";
+const kavaratti1 = "https://i.postimg.cc/cH6xxGq4/image.png";
+const gKolkali = "https://i.postimg.cc/XNfjn8my/image.png";
+const gParichakali = "https://i.postimg.cc/C1y0gB4f/image.png";
+const gDuff = "https://i.postimg.cc/BQndRB0P/image.png";
+const gChenda = "https://i.postimg.cc/tJMDKP3g/image.png";
+const gTunaCurry = "https://i.postimg.cc/nzTD5J4f/image.png";
+const gOctopusFry = "https://i.postimg.cc/T1Fq7xxm/image.png";
+const gAgatti = "https://i.postimg.cc/pdsjcvY9/image.png";
+const gMundu = "https://i.postimg.cc/nL3SJCfG/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -785,13 +794,6 @@ const facts = [
     desc: "Pristine lagoon beach with turquoise waters and coral reef entry point",
     image: gAgatti,
   },
-  {
-    title: "Bangaram Atoll",
-    emoji: "🌊",
-    color: "#0F6E56",
-    desc: "Uninhabited island beach surrounded by a stunning coral lagoon",
-    image: gBangaram,
-  },
 
   // Traditional attire
   {
@@ -801,12 +803,10 @@ const facts = [
     desc: "White cotton wraparound with golden border worn by island women",
     image: gMundu,
   },
-  {
-    title: "Kalli & Thattam",
-    emoji: "🧕",
-    color: "#D4537E",
-    desc: "Traditional headscarf and blouse ensemble worn during festivals",
-    image: gKalli,
-  },
+  
 ];
+
+
+
+
 
