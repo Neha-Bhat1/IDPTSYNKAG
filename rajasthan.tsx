@@ -685,8 +685,26 @@ const festivals = [
       "The sky turns into a battlefield of colour as thousands of kites fill the air.",
     description:
       "In Rajasthan, Makar Sankranti is a spectacularly vibrant harvest festival celebrated every January, where the state's iconic blue winter skies transform into a colorful canvas of thousands of competing paper kites (Patang Bazi). Entire families gather on their rooftops from dawn to dusk, enjoying lively music, engaging in playful friendly rivalries to cut down passing kites, and lighting up the night sky with paper lanterns called tukals. Beyond the soaring kites, the festival is deeply rooted in local hospitality and spirituality; people start the day with holy dips in sacred waters like the Pushkar Lake, engage in Gau Seva (feeding cows), and practice anonymous charity (Gupt Daan). No Rajasthani Sankranti is complete without indulgence in local winter delicacies made of sesame and jaggery—such as til ke laddoo and gajak—alongside regional specialties like the thread-like sweet feeni and spicy dal pakodis, making it a sensory celebration of community, warmth, and the arrival of brighter, longer days.",
-    images: [teej1],
-    source: "(src: shutterstock)",
+    images: [makar1, makar2, makar3],
+    source: "(src: news,cgtn.com, dzyfurnitures.com, rajasthantourplanner.com)",
+  },
+  {
+    name: "Marwar Festival",
+    tagline:
+      "Relive the Chivalry, Dance to the Legends!",
+    description:
+      "The Marwar Festival takes place over two days during the spectacular full moon of Sharad Purnima, usually falling in September or October in the city of Jodhpur. Originally known as the Maand Festival, this grand event is dedicated entirely to honoring the courage, chivalry, and folklore of Rajasthan's historic rulers and local warriors. Iconic heritage monuments like the majestic Mehrangarh Fort and the sprawling lawns of Umaid Bhawan Palace serve as dramatic backdrops for powerful artistic showcases. Renowned desert musicians sing legendary ballads of ancient heroes, while folk dancers perform complex, swirling routines like the Ghoomar and the rhythmic Dandi Gair. The festival also features lively community competitions, including competitive turban-tying, mustache-growing contests, and dramatic camel tattoo shows that keep the regional legacy alive.",
+    images: [marwar1, marwar2, marwar3],
+    source: "(src: firstpots, travelogyindia.com, pixels.com)",
+  },
+  {
+    name: "Bikaner Camel Festival",
+    tagline:
+      "Where Desert Ships Dance and Traditions Shine!",
+    description:
+      "The Bikaner Camel Festival is a vibrant annual event organized by the Department of Tourism in January, dedicated solely to celebrating the 'ship of the desert' for its centuries of service in commerce and military defense. The celebration starts with a spectacular royal procession from the historic Junagarh Fort, where hundreds of majestic camels parade in heavy silver necklaces, colorful embroidered bridles, and jingling anklets. Handlers spend months preparing for the festival’s unique competitions, which include camel races, synchronized camel dances, and an incredible camel fur-cutting contest where intricate geometric art is shaved directly into the animal's coat. The days wrap up on the sand dunes with mesmerizing fire dances performed over glowing charcoal beds, perfectly encapsulating the fiery and enduring spirit of Rajasthan.",
+    images: [bkc1, bkc2, bkc3, bkc4, bkc5],
+    source: "(src: theindia.co, wikipedia,mediaindia.com, matadornetwork, indiavviajes.com)",
   },
 ];
 
@@ -748,11 +766,46 @@ const historicalPlaces = [
     source: "(src: Rajasthan Tourism)",
   },
   {
-    name: "",
+    name: "Merhrangharh Fort",
     description:
-      "",
-    images: [pushkar1],
-    source: "(src: Rajasthan Tourism)",
+      "Mehrangarh Fort is a massive 15th-century hilltop fortress overlooking Jodhpur, Rajasthan, India. Rising about 400 feet (120 m) above the city, it exemplifies Rajput military architecture and remains one of India’s best-preserved and most visited forts, offering sweeping views of Jodhpur’s “Blue City” below. Rao Jodha, founder of Jodhpur and ruler of the Rathore dynasty, built Mehrangarh on the rocky hill Bhakur-cheeria (“Mountain of Birds”) in 1459 to establish a secure new capital. Legends recount the hill’s resident hermit Cheeria Nathji cursing the site with drought after eviction; to counter it, a man named Raja Ram Meghwal was buried alive in the foundation as a ritual offering . Successive rulers expanded the fort over 500 years, blending Rajput architecture and Mughal-era influences. The fort’s red-sandstone ramparts rise 6 – 36 m thick, merging with the underlying rock . Inside lie ornate palaces: Moti Mahal (Pearl Palace), Phool Mahal (Flower Palace), Sheesh Mahal (Mirror Palace), and Takhat Vilas, all showcasing carved jharokhas, gilded ceilings, and mirrorwork . The seven historic gates—most notably Jai Pol and Loha Pol (still bearing sati handprints)—mark victories and dynastic events. The Mehrangarh Museum displays palanquins, elephant howdahs, miniature paintings, royal costumes, weapons, and the Turban Gallery. Adjacent is the Chamunda Mataji Temple, the royal family’s patron shrine . The fort also hosts the Rajasthan International Folk Festival and offers adventure zip-lining by Flying Fox. Accessible by road or a steep walk from Jodhpur’s old city, the site includes cafés, audio guides, and elevators for visitors. Typical entry fees are about ₹200 for Indians and ₹600 for foreign tourists . The best time to visit is October to Ma Declared a National Geological Monument by the Geological Survey of India, the hill represents the region’s ancient igneous formations . From its ramparts, Mehrangarh commands one of the most iconic panoramas in Rajasthan—Jodhpur’s indigo-washed houses spreading across the Thar Desert.rch, when the weather is pleasant and the sunsets cast a golden glow on the battlements.",
+    images: [meh1, meh2, meh3],
+    source: "(src: Wikipedia)",
+  },
+  {
+    name: "Ranthambore Fort & Tiger Reserve",
+    description:
+      "Ranthambore Fort is a historic hill fort located inside Ranthambore National Park near Sawai Madhopur. It is one of the six Hill Forts of Rajasthan inscribed as a UNESCO World Heritage Site. The fort’s commanding position over dense forest made it a critical stronghold in medieval North India. Constructed around the 10th century CE, Ranthambore Fort was initially associated with the Nagil Jat rulers and later became the seat of the Chauhan dynasty under rulers such as Rao Hammir Deo Chauhan. Its strategic hilltop location made it a center of resistance against several Delhi Sultanate invasions, including those by Alauddin Khalji in the 13th century. The fort spans roughly 4 square kilometers and features massive stone walls, gateways, stepwells, and temples built from local sandstone. Its design blends Rajput military architecture with natural defenses provided by cliffs and dense forest. The Trinetra Ganesh Temple within the fort remains an active pilgrimage site. Surrounded by the dry deciduous forests of Ranthambore National Park, the fort overlooks tiger-inhabited valleys and lakes such as Padam Talab. The combination of heritage architecture and wildlife habitat exemplifies Rajasthan’s synthesis of nature and history. Ranthambore Fort attracts historians, devotees, and wildlife tourists alike. Its UNESCO designation recognizes its architectural merit and role in illustrating Rajput military prowess. Managed by the Archaeological Survey of India, it remains a prominent symbol of Rajasthan’s medieval heritage and conservation landscape.",
+    images: [ran1, ran2, ran3],
+    source: "(src: wikipedia, ancientorigins, wikipedia commons)",
+  },
+  {
+    name: "Dilwara Temples",
+    description:
+      "The Dilwara Temples are a group of five intricately carved Jain temples located near Mount Abu in Rajasthan, India. Built between the 11th and 13th centuries, they are celebrated for their exquisite marble craftsmanship and serve as a major center of pilgrimage for the Jain community. The temples exemplify the Māru-Gurjara style, featuring intricately carved ceilings, domes, and pillars. Each temple—Vimal Vasahi, Luna Vasahi, Pithalhar, Khartar Vasahi, and Mahavir Swami—is crafted from pure white marble. The detailing includes floral motifs, mythological scenes, and finely sculpted figures, reflecting exceptional artistry and devotion. Commissioned by Jain ministers and merchants of the Solanki dynasty in Gujarat and Rajasthan, the temples demonstrate the community’s prosperity and faith during the medieval period. Vimal Vasahi, the oldest (1031 CE), honors the first Tirthankara, Adinatha, while Luna Vasahi (1230 CE) is dedicated to Neminatha and known for its ornate ceilings. The Dilwara Temples remain a major pilgrimage site for Jains and a symbol of India’s medieval artistic achievement. They also attract visitors of varied faiths for their architectural perfection, serene environment, and historical importance within Jainism’s heritage. Managed by the Jain community, the temples are maintained under heritage protection. Photography is restricted inside to preserve the delicate marble work. The complex continues to be both an active place of worship and a monument of national artistic importance.",
+    images: [dil1, dil2],
+    source: "(src: )traveltringles.com, wikipedia)",
+  },
+  {
+    name: "Jantar Mantar",
+    description:
+      "Jantar Mantar in Jaipur, Rajasthan, is an 18th-century astronomical observatory built by Maharaja Sawai Jai Singh II. It is the largest and best-preserved of his five observatories across northern India and is designated a UNESCO World Heritage Site for its scientific and architectural significance. The complex demonstrates the fusion of art, science, and religion in pre-modern India’s study of celestial motion. Constructed between 1727 and 1734, the observatory reflects Jai Singh II’s ambition to refine astronomical data and calendar calculations. A learned astronomer himself, he synthesized Hindu, Islamic, Persian, and European techniques. His instruments corrected existing zij (tables) under the Mughal emperor Muhammad Shah. Jaipur’s Jantar Mantar, the most extensive, continues to serve as a teaching site for positional astronomy. The observatory contains 19 large geometric instruments built from stone and marble to measure time, predict eclipses, and observe celestial bodies. Its most famous structure, the Samrat Yantra, is the world’s largest stone sundial and can measure time with remarkable accuracy. Other important instruments, such as the Jai Prakash Yantra and Ram Yantra, were designed to study planetary positions and celestial coordinates. These structures were precisely aligned with Jaipur’s latitude, reflecting the advanced astronomical knowledge of the 18th century. Jantar Mantar exemplifies the sophistication of Indian observational astronomy before modern telescopes. It bridges scientific inquiry and royal patronage, illustrating how empirical measurement served astrology and governance. Restored in the 20th century by the Archaeological Survey of India and the Government of Rajasthan, it now functions as a museum and cultural attraction adjoining the City Palace, Jaipur and Hawa Mahal. Located in Jaipur’s Pink City (Gangori Bazaar area), the site is accessible via auto-rickshaw or taxi. Entry costs ≈ INR 50 for Indian visitors and INR 200 for foreign tourists. The best visiting months are October to March to avoid summer heat; guided tours and evening light-and-sound shows enhance the experience.",
+    images: [jm1, jm2],
+    source: "(src: Wikiedpia, alightindia.com)",
+  },
+  {
+    name: "Chittorgrah Fort",
+    description:
+      "Chittorgarh Fort is a UNESCO World Heritage Site and one of India’s largest and most storied hill forts, located in Chittorgarh, Rajasthan. Perched on a 180-meter hill and sprawling across about 700 acres, it epitomizes Rajput valor, resistance, and architectural grandeur. The fort is central to the legacy of the Mewar dynasty and remains a symbol of Rajputana pride and sacrifice. The fort’s origins trace to the 7th century, with major contributions by the Maurya and Sisodia rulers of Mewar. It endured three historic sieges—by Alauddin Khilji (1303 CE), Bahadur Shah of Gujarat (1535 CE), and Akbar (1568 CE)—each followed by acts of Jauhar, mass self-immolation by Rajput women to preserve honor. These events enshrined Chittorgarh as a sacred emblem of courage and sacrifice in Rajput folklore. Chittorgarh Fort is protected by seven massive gates, known as pols, built along the approach road for strong defense. The fort contains several important monuments, including the Vijay Stambh, a 37-meter-high nine-storied Tower of Victory built by Rana Kumbha in the 15th century to celebrate his victory over Malwa. Another notable structure is the Kirti Stambh, a 12th-century Jain tower dedicated to Adinatha. The Rana Kumbha Palace, the largest palace complex inside the fort, is believed to be the birthplace of Maharana Pratap. The fort also includes Rani Padmini’s Palace, associated with the legendary story of Queen Padmini and Alauddin Khilji’s siege. Temples such as the Meera Temple and Kalika Mata Temple reflect the spiritual importance of the fort, while the Gaumukh Reservoir, a sacred spring-fed water tank, highlights the fort’s advanced self-sustaining design. Chittorgarh Fort remains a living archive of Rajput ethos—its ruins, temples, and commemorative towers narrate stories of heroism, devotion, and artistry that continue to shape Rajasthan’s identity and draw visitors from around the world.",
+    images: [chit1, chit2, chit3, chit4],
+    source: "(src: holidify.com, theprakritihistory.com, windows10spotlight.com, dreamstime.com)",
+  },
+  {
+    name: "Chand Baori",
+    description:
+      "Chand Baori is a monumental stepwell located in the village of Abhaneri, Rajasthan, India. Built over a thousand years ago, it is one of the deepest and most architecturally striking stepwells in the world, showcasing the ingenuity of ancient Indian water-harvesting systems and design. The stepwell descends 13 stories in a precise, symmetrical arrangement of triangular steps forming a mesmerizing geometric pattern. Three sides are lined with descending flights of steps, while the fourth side features a multi-storied pavilion with carved jharokhas (balconies), galleries, and a resting area for royalty. The design allowed easy access to groundwater during arid seasons and served as a communal gathering place. Built during the reign of King Chanda between the 8th and 9th centuries, Chand Baori reflects the importance of water conservation in Rajasthan’s semi-arid environment. It also served a social and religious role, often associated with the nearby Harshat Mata Temple, dedicated to the goddess of joy and happiness. The stepwell’s cool, shaded depths made it a respite from the desert heat. Today, Chand Baori is protected under the Archaeological Survey of India and is a prominent tourist attraction. Visitors are drawn to its intricate geometry and well-preserved condition. It has also featured in several films and documentaries, highlighting its status as an architectural marvel of early medieval India.",
+    images: [chand1, chand2],
+    source: "(src: wikipedia, wendywutours.co.uk)",
   },
 ];
 
@@ -768,13 +821,6 @@ const facts = [
   "Local folklore strongly suggests that Mandodari, the chief queen of the mythological king Ravana from the Hindu epic Ramayana, was born in Mandore, Rajasthan",
   "The distinct Karni Mata Temple in Deshnoke houses more than 25,000 revered black rats. Spotting a rare white rat among the crowds is considered an omen of extreme good fortune.",
   "The ancient village of Kuldhara near Jaisalmer has sat completely abandoned since the 19th century. Legend says its entire population vanished in a single night to escape an oppressive minister, leaving behind a curse that prevents anyone from ever resettling it.",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "The state is an important exporter of tanned skin and leather goods, yarn, tea, coffee, spices, engineering goods, tobacco, handicrafts and black granite. Tamil Nadu contributes to 60 per cent of the tannery industry in India.",
-  "Over 70% of all firecrackers used during Diwali come from the town of Sivakasi in Tamil Nadu.",
 ];
 
 const artGallery = [
