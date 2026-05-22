@@ -8,13 +8,29 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import odishaMap from "@assets/odishaMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+import odishaMap from "https://i.postimg.cc/8CwxNKBb/image.png";
+const rath1 = "https://i.postimg.cc/BQ93hzhC/image.png";
+const durga1 = "https://i.postimg.cc/FHGQHHhB/image.png";
+const nuakhai1 = "https://i.postimg.cc/SsY0dLCv/image.png";
+const jagannath1 = "https://i.postimg.cc/Qx3LgTtc/image.png";
+const konark1 = "https://i.postimg.cc/253gjdc1/image.png";
+const lingaraj = "https://i.postimg.cc/wvmPLqd8/image.png";
+const dhauli1 = "https://i.postimg.cc/fy7rq8Lm/image.png";
+const mukteswar1 = "https://i.postimg.cc/jdK9nYgJ/image.png";
+const vchilika1 = "https://i.postimg.cc/zGGcpS13/image.png";
+const daringbadi1 = "https://i.postimg.cc/SKXtbSRJ/image.png";
+const udaygiri1 = "https://i.postimg.cc/wMkwQ3fc/image.png";
+const OdissiDance = "https://i.postimg.cc/qRTcD4CY/image.png";
+const gChhauDance = "https://i.postimg.cc/zGQ0js7r/image.png";
+const gChaitiGhoda = "https://i.postimg.cc/4dkwCpj0/image.png";
+const gDandaNata = "https://i.postimg.cc/NFbxrSF8/image.png";
+const gPakhalaBhata = "https://i.postimg.cc/pXXCtW1y/image.png";
+const gDalma = "https://i.postimg.cc/zXBCcdVY/image.png";
+const gDahibaraAludam = "https://i.postimg.cc/Kc9LBnJm/image.png";
+const gChakuliPitha = "https://i.postimg.cc/9Q9q6s2S/image.png";
+const gPattachitra = "https://i.postimg.cc/HL48x5Vt/image.png";
+const gSambalpuriSaree = "https://i.postimg.cc/tJ7s2MDt/image.png";
+
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -809,26 +825,13 @@ const artGallery = [
     image: gPattachitra,
   },
   {
-    title: "Sand Art",
-    emoji: "🏖️",
-    color: "#C9A96E",
-    desc: "World-famous Odia art form of sculpting intricate figures from beach sand at Puri",
-    image: gSandArt,
-  },
-  {
     title: "Sambalpuri Saree",
     emoji: "🧵",
     color: "#7B1E8A",
     desc: "Iconic handwoven ikat saree of Odisha with vibrant geometric patterns and rich borders",
     image: gSambalpuriSaree,
   },
-  {
-    title: "Silver Filigree",
-    emoji: "✨",
-    color: "#A8A8A8",
-    desc: "Delicate ornamental craft of twisting fine silver wires into intricate floral designs",
-    image: gSilverFiligree,
-  },
+ 
 ];
 
 
