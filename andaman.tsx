@@ -8,13 +8,42 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import andamanMap from "@assets/andamanMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+import andamanMap from "https://i.postimg.cc/qv8CPk7h/image.png";
+const island1 = "https://i.postimg.cc/PxFLWJ6N/image.png";
+const subhash1 = "https://i.postimg.cc/j2pL19YK/image.png";
+const subhash2 = "https://i.postimg.cc/SN9X9yC5/image.png";
+const beach1 = "https://i.postimg.cc/2yZ5nwbx/image.png";
+const durga1 = "https://i.postimg.cc/13ZHTRSR/image.png";
+const sri1 = "https://i.postimg.cc/GpLjLM9W/image.png";
+const sri2 = "https://i.postimg.cc/ZR0F3C8s/image.png";
+const sri3 = "https://i.postimg.cc/c1pMg1rn/image.png";
+const jail1 = "https://i.postimg.cc/mgwQ5QVF/image.png";
+const jail2 = "https://i.postimg.cc/KY8nSRHS/image.png";
+const netaji1 = "https://i.postimg.cc/wvtLMnzC/image.png";
+const netaji2 = "https://i.postimg.cc/nrBmY7C2/image.png";
+const viper1 = "https://i.postimg.cc/N02jHtyj/image.png";
+const viper2 = "https://i.postimg.cc/x8nfhb6J/image.png";
+const radha1 = "https://i.postimg.cc/RVPSphK0/image.png";
+const radha2 = "https://i.postimg.cc/0yF8x4tJ/image.png";
+const ross1 = "https://i.postimg.cc/bNv8nPMW/image.png";
+const baratang1 = "https://i.postimg.cc/MTD2c3Y0/image.png";
+const baratang2 = "https://i.postimg.cc/05V1P3Qn/image.png";
+const saddle1 = "https://i.postimg.cc/xdvB7phP/image.png";
+const saddle2 = "https://i.postimg.cc/6q3S8W3m/image.png";
+const barren1 = "https://i.postimg.cc/TYBSPXX0/image.png";
+const indira1 = "https://i.postimg.cc/d0jSnkTw/image.png";
+const campbell1 = "https://i.postimg.cc/90r8WL8L/image.png";
+const campbell2 = "https://i.postimg.cc/pr40yK3Y/image.png";
+const chatham1 = "https://i.postimg.cc/yY3QtrSn/image.png";
+const murugan1 = "https://i.postimg.cc/4xz8N7P6/image.png";
+const gFishCurryRice = "https://i.postimg.cc/mkzjxth9/image.png";
+const gCoconutPrawnFry = "https://i.postimg.cc/7ZMptQpN/image.png";
+const gNicobariDress = "https://i.postimg.cc/qBPSJTrK/image.png";
+const gOngeTribalWear = "https://i.postimg.cc/L8Tb3g1T/image.png";
+const gCaneBambooCraft = "https://i.postimg.cc/GpggZ0zj/image.png";
+const gShellCraft = "https://i.postimg.cc/zDg2Pchk/image.png";
+const gNicobariHutModel = "https://i.postimg.cc/NjpdHqh0/image.png";
+const gDaflaDrum = "https://i.postimg.cc/tJ35R8tq/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -655,7 +684,7 @@ const festivals = [
       "",
     description:
       "The Subhash Mela is a prominent, week-long cultural and patriotic festival celebrated annually in the Andaman and Nicobar Islands to commemorate the birth anniversary of the legendary freedom fighter Netaji Subhas Chandra Bose on January 23rd. The festival holds profound historical significance for the archipelago, tracing back to December 1943 when Netaji visited Port Blair during World War II, hoisted the Indian tricolor for the first time on liberated Indian soil at the Cellular Jail, and declared the islands free from British colonial rule under the Azad Hind government. To preserve this powerful historical connection, the local population and the island administration initiated the Subhash Mela, which has grown into a major socio-cultural event. While the core commemorative ceremonies take place at Netaji Stadium and the ITF Ground in the capital city of Sri Vijaya Puram (formerly Port Blair), the most famous and energetic public celebrations are traditionally hosted at Swaraj Dweep (Havelock Island) near the beaches of Shyam Nagar and Krishna Nagar. The festival kicks off with formal flag-hoisting ceremonies and floral tributes to Netaji, quickly transitioning into a vibrant, festive carnival that unites locals and tourists alike. The fair features sprawling exhibition stalls set up by various government departments, local artisans, and self-help groups, showcasing unique island handicrafts, shell jewelry, and bamboo work. Local school children and regional cultural troupes perform a series of high-energy patriotic dramas, folk dances, and music concerts detailing the history of India's struggle for independence. Adding to the lively atmosphere, the event hosts amusement rides, magic shows, local sports tournaments, and a bustling food court serving a rich blend of mainland and authentic coastal seafood. Because it aligns perfectly with the peak winter tourist season and the nationwide celebration of Parakram Diwas, the Subhash Mela serves as both a beautiful tribute to national pride and a key platform for promoting eco-tourism across the islands.",
-    images: [subhash1],
+    images: [subhash1,subhash2],
     source: "(src: hellotravel.com, theunstumbled.com)",
   },
   {
@@ -673,8 +702,6 @@ const festivals = [
       "",
     description:
       "The Monsoon Music Festival (officially celebrated as part of the broader Monsoon Tourism Festival) is a lively, two-day cultural initiative organized by the Directorate of Information, Publicity, and Tourism in association with the Department of Art and Culture. Held annually during the peak of the rainy season in mid-July, the event is strategically designed to combat off-season slumps and promote the archipelago as a vibrant, 365-day tourist destination. The festival kicks off with a massive, high-energy promotional roadshow, featuring a car and bike rally that snakes through historic vantage points in the capital city of Sri Vijaya Puram (Port Blair), including the Clock Tower, Cellular Jail, and Flag Point. The main festivities unfold at the scenic Corbyn’s Cove Beach and the Marina Park Arena, where the lush, rain-washed tropical landscape provides a dramatic backdrop for locals and tourists to celebrate the unique rhythms of the rainy season.True to its musical focus, the festival features a stellar lineup of live indoor and outdoor concerts, bringing together local island orchestras and popular fusion, folk, and contemporary bands flown in from the Indian mainland. Beyond the musical stages, the event is packed with community-driven activities, including friendly beachside volleyball and tug-of-war matches, thrilling water sports demonstrations like jet-skiing and kayaking, and an energetic, dedicated rain-dance arena. The festival grounds host a bustling night bazaar where local small-scale entrepreneurs and self-help groups set up stalls to sell handmade island artifacts, shell jewelry, and bamboo crafts. Food lovers are drawn to the vibrant gastronomy counters that fill the air with the aroma of hot, savory snacks and fresh coastal seafood delicacies, perfectly complementing the cool, rainy atmosphere.",
-    images: [rhythm1],
-    source: "",
   },
   {
     name: "Panguni Uthiram",
@@ -682,8 +709,6 @@ const festivals = [
       "A Spectacular Journey of Faith, Devotion, and Celestial Unions",
     description:
       "Panguni Uthiram is the largest, most significant religious festival celebrated by the Tamil community settled across the Andaman and Nicobar Islands. Observed annually on the full moon day of the Tamil month of Panguni (falling between March and April), the festival honors Lord Murugan (Karthikeyan) and commemorates the divine celestial marriages of major Hindu deities, including Shiva and Parvati, as well as Murugan and Deivanai. The spiritual and geographic center for this grand celebration is the historic Sri Vetrimalai Murugan Temple in Port Blair, a majestic Dravidian-style shrine originally built by British rulers on Ross Island in 1926 to win the loyalty of Tamil administrative staff, and later relocated to the capital city after independence. The festival draws thousands of pilgrims and spectators from various religious and cultural backgrounds, temporarily transforming the island capital into a vibrant hub of deep spiritual devotion and ancient traditions.The celebrations begin at dawn with special, elaborate Vedic rituals and Ab अभिषेक (sacred baths) where the idol of Lord Murugan is anointed with milk, coconut water, honey, and turmeric paste. The ultimate highlight of the festival is a massive, high-energy street procession where beautifully adorned idols are carried on the shoulders of devotees through the main thoroughfares of Port Blair, accompanied by the hypnotic rhythms of traditional drums and soulful devotional hymns. To fulfill holy vows and express profound gratitude for answered prayers, hundreds of bare-chested devotees participate in Kavadi Attam, an intense ceremonial dance where they carry heavy, decorated wooden or metal arches on their shoulders. Demonstrating extraordinary feats of faith and self-discipline, many pilgrims perform strict fasts and even walk barefoot across beds of glowing embers in fire-walking rituals, making Panguni Uthiram a powerful and visually striking celebration of the islands' rich cultural diversity.",
-    images: [panguni1],
-    source: "",
   },
   {
     name: "Durga puja and kali puja",
@@ -707,8 +732,6 @@ const festivals = [
     tagline: "Honoring the Departed Amidst the Rhythms of the Nicobar",
     description:
       "The Ossuary Feast, popularly known across the archipelago as the Nicobari Pig Festival, is the most sacred and deeply revered traditional tribal festival celebrated by the indigenous, semi-isolated Nicobarese people. Rather than a standard seasonal harvest fair, this unique event is an profound, ancestral memorial ritual that reflects the community's spiritual beliefs regarding life, death, and the afterlife. The festival is not tied to a fixed calendar date; instead, it is organized once every few years by a village chief or an extended family cluster when they accumulate enough resources, typically revolving around the abundance of the local pig population, which serves as a symbol of wealth and prosperity in Nicobarese culture. The primary objective of the feast is to pay ultimate respects to departed family members, ensure their souls find eternal peace in the spirit world, and seek their ancestral blessings to protect the village from diseases and bad luck.The festival is divided into distinct, highly emotional phases that stretch across several days, blending deep grief with vibrant community bonding. The initial phase involves the sacred ritual of exhumation, where family members carefully unearth the bones of their deceased relatives from the village burial grounds. The bones are gently cleaned, anointed with pure coconut oil, wrapped in expensive, colorful pieces of traditional cloth, and brought into the main stilt houses where they are lovingly kept for a brief period to symbolize the ancestor's temporary return to the family. This is followed by a massive, high-energy community carnival filled with traditional sports and artistic expressions. The absolute highlight of the public celebrations is the thrilling, high-stakes wild pig fighting tournament, where young men showcase their bravery and strength by wrestling aggressive boars inside large bamboo cages, followed by a grand communal banquet. The festival reaches its dramatic climax at midnight with a series of hypnotic folk dances performed around large bonfires, accompanied by the chanting of ancient, rhythmic dirges. Once the celebrations conclude, the ancestral bones are carefully reburied in a common village ossuary, solidifying the eternal bond between the living and the dead.",
-    images: [ossuart1],
-    source: "",
   },
 ];
 
