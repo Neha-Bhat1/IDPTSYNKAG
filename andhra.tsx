@@ -8,14 +8,107 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import andhraMap from "@assets/andhraMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-
+import andhraMap from "https://i.postimg.cc/QMdP02RW/image.png";
+const sankranthi1 = "https://i.postimg.cc/ydHznQXG/image.png";
+const sankranthi2 = "https://i.postimg.cc/nrVffXWL/image.png";
+const sankranthi3 = "https://i.postimg.cc/QNSrkqBH/image.png";
+const sankranthi4 = "https://i.postimg.cc/wTvYWsJG/image.png";
+const sankranthi5 = "https://i.postimg.cc/RVD52VLW/image.png";
+const ugadi1 = "https://i.postimg.cc/Z5vtmtwg/image.png";
+const ugadi2 = "https://i.postimg.cc/LsjcqkKn/image.png";
+const ugadi3 = "https://i.postimg.cc/yY5tvp7Z/image.png";
+const gangamma1 = "https://i.postimg.cc/6pvSSV3t/image.png";
+const gangamma2 = "https://i.postimg.cc/N08nGgm1/image.png";
+const gangamma3 = "https://i.postimg.cc/fLBgXBHX/image.png";
+const srivari1 = "https://i.postimg.cc/rwxng8nT/image.png";
+const srivari2 = "https://i.postimg.cc/LsVyKxFY/image.png";
+const vinayak1 = "https://i.postimg.cc/C1LcFbFw/image.png";
+const vinayak2 = "https://i.postimg.cc/MTPdXXT7/image.png";
+const vinayak3 = "https://i.postimg.cc/VvJ4t10y/image.png";
+const vinayak4 = "https://i.postimg.cc/jS0vDpsB/image.png";
+const dasara1 = "https://i.postimg.cc/RZ4sPkjf/image.png";
+const dasara2 = "https://i.postimg.cc/5ttPJw9b/image.png";
+const dasara3 = "https://i.postimg.cc/LXYNY2ZT/image.png";
+const dasara4 = "https://i.postimg.cc/Fz0ppppd/image.png";
+const tirupati1 = "https://i.postimg.cc/W4zWMMkV/image.png";
+const tirupati2 = "https://i.postimg.cc/pTnsSRkT/image.png";
+const rames1 = "https://i.postimg.cc/SQCZ7QJD/image.png";
+const rames2 = "https://i.postimg.cc/Qdx03pSF/image.png";
+const kalahasti1 = "https://i.postimg.cc/ZqXcpXmp/image.png";
+const kalahasti2 = "https://i.postimg.cc/1RBFZbdL/image.png";
+const lepkashi1 = "https://i.postimg.cc/bNvtY3cD/image.png";
+const lepakshi2 = "https://i.postimg.cc/15YN8wsL/image.png";
+const lepkashi3 = "https://i.postimg.cc/JhjyYFJP/image.png";
+const lepakshi4 = "https://i.postimg.cc/brwsJN5T/image.png";
+const stupa1 = "https://i.postimg.cc/SNjnbRCy/image.png";
+const stupa2 = "https://i.postimg.cc/J4gGr85S/image.png";
+const undavalli1 = "https://i.postimg.cc/5tWyzmGz/image.png";
+const undavalli2 = "https://i.postimg.cc/bJ3wKfv2/image.png";
+const undavalli3 = "https://i.postimg.cc/7hRYZ10J/image.png";
+const undavalli4 = "https://i.postimg.cc/7PtL94dT/image.png";
+const borra1 = "https://i.postimg.cc/kXkgrcn9/image.png";
+const borra2 = "https://i.postimg.cc/Bv3ZbnLp/image.png";
+const borra3 = "https://i.postimg.cc/1t5907KN/image.png";
+const ahobilam1 = "https://i.postimg.cc/BbR40Sfw/image.png";
+const ahobilam2 = "https://i.postimg.cc/1Rb8PPHj/image.png";
+const annavaram1 = "https://i.postimg.cc/9FGQh9zf/image.png";
+const annavaram2 = "https://i.postimg.cc/8Cn1HBnV/image.png";
+const simha1 = "https://i.postimg.cc/Fz0NhtrV/image.png";
+const simha2 = "https://i.postimg.cc/bNjq3vLP/image.png";
+const simha3 = "https://i.postimg.cc/kgJqPh03/image.png";
+const simha4 = "https://i.postimg.cc/tJdQLhkc/image.png";
+const araku1 = "https://i.postimg.cc/MKDJ5mvy/image.png";
+const araku2 = "https://i.postimg.cc/3xf55rjD/image.png";
+const araku3 = "https://i.postimg.cc/zf4svdP9/image.png";
+const araku4 = "https://i.postimg.cc/Y0HTfvk7/image.png";
+const rk1 = "https://i.postimg.cc/66rk6fVH/image.png";
+const rk2 = "https://i.postimg.cc/fTM6VSBz/image.png";
+const rk3 = "https://i.postimg.cc/jSF93gKq/image.png";
+const rk4 = "https://i.postimg.cc/MH537tdy/image.png";
+const gandikota1 = "https://i.postimg.cc/SQfPbNkm/image.png";
+const gandikota2 = "https://i.postimg.cc/Kv9s4qKZ/image.png";
+const gandikota3 = "https://i.postimg.cc/g2QSHxqR/image.png";
+const hh1 = "https://i.postimg.cc/MTb9wdkt/image.png";
+const hh2 = "https://i.postimg.cc/8cZwJczH/image.png";
+const ls1 = "https://i.postimg.cc/RVbXvW85/image.png";
+const ls2 = "https://i.postimg.cc/hjg02TJG/image.png";
+const ls3 = "https://i.postimg.cc/FzCgF6TD/image.png";
+const ls4 = "https://i.postimg.cc/cJG7JwBp/image.png";
+const ls5 = "https://i.postimg.cc/YSxFqV9N/image.png";
+const ls6 = "https://i.postimg.cc/kG2Rsgyb/image.png";
+const talakona1 = "https://i.postimg.cc/7bvhNM6R/image.png";
+const belum1 = "https://i.postimg.cc/CxsCzdrY/image.png";
+const belum2 = "https://i.postimg.cc/MTNVhBX2/image.png";
+const belum3 = "https://i.postimg.cc/xTKM4c2F/image.png";
+const belum4 = "https://i.postimg.cc/d3cD2jLF/image.png";
+const belum5 = "https://i.postimg.cc/KYgZ0gXk/image.png";
+const nk1 = "https://i.postimg.cc/901VDd9P/image.png";
+const nk2 = "https://i.postimg.cc/zXt85k8J/image.png";
+const nk3 = "https://i.postimg.cc/Bnjsv1nF/image.png";
+const nk4 = "https://i.postimg.cc/NjZt2fyB/image.png";
+const gKuchipudi = "https://i.postimg.cc/762nP9FL/image.png";
+const gAndhraNatyam = "https://i.postimg.cc/Fzxc1BG3/image.png";
+const gVeeranatyam = "https://i.postimg.cc/9FWZscFv/image.png";
+const gDhimsa = "https://i.postimg.cc/kXfKmL2N/image.png";
+const gButtaBommalu = "https://i.postimg.cc/DwNGWsQt/image.png";
+const gLambadi = "https://i.postimg.cc/KzSgf2Hw/image.png";
+const gKalamkari = "https://i.postimg.cc/5yfQcm1L/image.png";
+const gKondapalliToys = "https://i.postimg.cc/7hXGqTZy/image.png";
+const gUppadaJamdani = "https://i.postimg.cc/Prrv2KSj/image.png";
+const gMangalagiriSarees = "https://i.postimg.cc/MGRnvLp9/image.png";
+const gDharmavaramSilk = "https://i.postimg.cc/yNFNVSLn/image.png";
+const gPesarattu = "https://i.postimg.cc/T1P2qNfJ/image.png";
+const gGonguraPachadi = "https://i.postimg.cc/XY5j8C67/image.png";
+const gChepalaPulusu = "https://i.postimg.cc/2y3mBqxR/image.png";
+const gNatukodiPulusu = "https://i.postimg.cc/QNnjZbX7/image.png";
+const gPootharekulu = "https://i.postimg.cc/PqhjQVMF/image.png";
+const gDhotiLungi = "https://i.postimg.cc/V6ZP1fPF/image.png";
+const gSaree = "https://i.postimg.cc/wxPYGjVy/image.png";
+const gPattuPavada = "https://i.postimg.cc/P5nsdV0G/image.png";
+const gMridangam = "https://i.postimg.cc/xdgWyf8S/image.png";
+const gDappu = "https://i.postimg.cc/fk4FTk2V/image.png";
+const gNadaswaram = "https://i.postimg.cc/SQXxs51r/image.png";
+const gBobbiliVeena = "https://i.postimg.cc/xjWTbRBZ/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -736,7 +829,7 @@ const historicalPlaces = [
     name: "Srisailam",
     description:
       "Srisailam is a revered hill town in Andhra Pradesh, India, situated in the Nallamala Hills on the banks of the Krishna River. It is renowned as one of the twelve Jyotirlingas of Lord Shiva and one of the eighteen Shakti Peethas of Goddess Parvati, making it a major center for Hindu pilgrimage and heritage tourism. The town harmoniously combines spiritual devotion with natural splendor.Spiritual significance:At the heart of Srisailam lies the Mallikarjuna Swamy Temple, housing both a Jyotirlinga and a Shakti Peetha—an uncommon dual sanctity in Hindu tradition. According to legend, the temple commemorates the divine union of Lord Shiva and Goddess Parvati as Mallikarjuna and Bhramaramba. Pilgrims perform rituals, circumambulations, and festival observances, especially during Maha Shivaratri, when thousands gather to seek blessings. Natural attractions:Srisailam’s setting amid the Nallamala forest range enhances its appeal. The Nagarjunasagar–Srisailam Tiger Reserve, India’s largest tiger reserve, surrounds the area, offering wildlife safaris and eco-tourism experiences. Other scenic highlights include the Srisailam Dam, the serene Pathala Ganga ghats on the Krishna backwaters, the limestone Akkamahadevi Caves, and panoramic lookouts like Octopus Viewpoint. Cultural and ecological context:The region’s culture is intertwined with the Chenchu tribe, whose heritage is showcased at the Chenchu Lakshmi Tribal Museum. Locally, vegetarian South Indian cuisine and temple offerings dominate, sustaining the traditional pilgrimage character. Srisailam’s ecology—lush forests, rocky valleys, and river gorges—also supports diverse flora and fauna, underscoring its dual identity as both a sacred kshetra and a protected natural sanctuary.",
-    images: [rames1, rames2, rames3],
+    images: [rames1, rames2,],
     source: "(src: wikimedia, travelshrine.com)",
   },
   {
