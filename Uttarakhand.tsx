@@ -8,84 +8,38 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import uttarakhandMap from "@assets/punjabMap.jpg";
-import lohri1 from "@assets/image_1776788355951.png";
-import lohri2 from "@assets/image_1776788364481.png";
-import lohri3 from "@assets/image_1776788370635.png";
-import lohri4 from "@assets/image_1776788376290.png";
-import baisakhi1 from "@assets/image_1776788390385.png";
-import baisakhi2 from "@assets/image_1776788400543.png";
-import holamoh1 from "@assets/image_1776788406884.png";
-import holamoh2 from "@assets/image_1776788416217.png";
-import holamoh3 from "@assets/image_1776788422339.png";
-import holamoh4 from "@assets/image_1776788430140.png";
-import gurupurab1 from "@assets/image_1776788437438.png";
-import gurupurab2 from "@assets/image_1776788476146.png";
-import gurupurab3 from "@assets/image_1776788482041.png";
-import teej1 from "@assets/image_1776788764847.png";
-import teej2 from "@assets/image_1776788772553.png";
-import teej3 from "@assets/image_1776788788721.png";
-import bandi1 from "@assets/image_1776788797545.png";
-import bandi2 from "@assets/image_1776788805779.png";
-import shaheedi1 from "@assets/image_1776788811412.png";
-import rakhi1 from "@assets/image_1776788817244.png";
-import rakhi2 from "@assets/image_1776788825797.png";
-import maghi1 from "@assets/image_1776788831894.png";
-import maghi2 from "@assets/image_1776788840602.png";
-import karva1 from "@assets/image_1776788847901.png";
-import karva2 from "@assets/image_1776788856768.png";
-import golden1 from "@assets/image_1776788865143.png";
-import golden2 from "@assets/image_1776788870905.png";
-import golden3 from "@assets/image_1776788878018.png";
-import jallian1 from "@assets/image_1776788887081.png";
-import jallian2 from "@assets/image_1776788895857.png";
-import jallian3 from "@assets/image_1776788902350.png";
-import wagah1 from "@assets/image_1776788909064.png";
-import wagah2 from "@assets/image_1776788916164.png";
-import wagah3 from "@assets/image_1776789530181.png";
-import wagah4 from "@assets/image_1776789548589.png";
-import qila1 from "@assets/image_1776789554420.png";
-import qila2 from "@assets/image_1776789558971.png";
-import qila3 from "@assets/image_1776789565292.png";
-import ranjit1 from "@assets/image_1776789575242.png";
-import ranjit2 from "@assets/image_1776789580153.png";
-import ranjit3 from "@assets/image_1776789590790.png";
-import gobindgarh1 from "@assets/image_1776789610085.png";
-import gobindgarh2 from "@assets/image_1776789615338.png";
-import anandpur1 from "@assets/image_1776789624415.png";
-import anandpur2 from "@assets/image_1776789631296.png";
-import partition1 from "@assets/image_1776789638782.png";
-import partition2 from "@assets/download_1777100508255.png";
-import partition3 from "@assets/download_1777100514323.png";
-import guru1 from "@assets/download_1777100516025.png";
-import guru2 from "@assets/download_1777100518481.png";
-import guru3 from "@assets/download_1777100520664.png";
-import durgiana1 from "@assets/download_1777100523842.png";
-import durgiana2 from "@assets/image_1777102241686.png";
-import durgiana3 from "@assets/image_1777102257711.png";
-import akaltakht1 from "@assets/download_1777100525385.png";
-import akaltakht2 from "@assets/download_1777100526870.png";
-import akaltakht3 from "@assets/download_1777100529380.png";
-import jang1 from "@assets/download_1777100531237.png";
-import jang2 from "@assets/download_1777100532535.png";
-import jang3 from "@assets/download_1777100537305.png";
-import gJutti from "@assets/image_1777100917162.png";
-import gBhangra from "@assets/image_1777100921467.png";
-import gPhulkari from "@assets/image_1777100927953.png";
-import gGiddha from "@assets/image_1777100932602.png";
-import gFields1 from "@assets/image_1777100937948.png";
-import gFields2 from "@assets/image_1777100946447.png";
-import gSarson from "@assets/image_1777100950953.png";
-import gKulcha from "@assets/image_1777100955650.png";
-import gLassi from "@assets/image_1777100960783.png";
-import gAlooparatha from "@assets/image_1777100965689.png";
-import gBharwamirch from "@assets/image_1777100975810.png";
-import gButterchicken from "@assets/image_1777100982364.png";
-import gCholebhature from "@assets/image_1777100987731.png";
-import gDalmakhni from "@assets/image_1777100994118.png";
-import gThali from "@assets/image_1777101000988.png";
-import gFishfry from "@assets/image_1777101005896.png";
-import gParandha from "@assets/image_1777101012951.png";
+import uttarakhandMap from "https://i.postimg.cc/ydvm6NjZ/image.png";
+
+
+// Festivals
+const gan1 = "https://i.postimg.cc/T3MD6mxc/image.png";
+const ku = "https://i.postimg.cc/mZKwPPRp/image.png";
+const pho1 = "https://i.postimg.cc/3r0jQ3pW/image.png";
+const har1 = "https://i.postimg.cc/tgm68c4z/image.png";
+const kd = "https://i.postimg.cc/T3t5Wsm9/image.png";
+const hill1 = "https://i.postimg.cc/L4jqV5Lt/image.png";
+const jan1 = "https://i.postimg.cc/nLsr9hnM/image.png";
+
+// Monuments / Historical Places
+const ba1 = "https://i.postimg.cc/2St8YNnp/image.png";
+const ked = "https://i.postimg.cc/Prrt854f/image.png";
+const ganga = "https://i.postimg.cc/wMxdJwDr/image.png";
+const yam1 = "https://i.postimg.cc/3wgMcs15/image.png";
+const rish1 = "https://i.postimg.cc/4x9jYDrd/image.png";
+const mus1 = "https://i.postimg.cc/DfpNBfh7/image.png";
+const pa = "https://i.postimg.cc/dQfWGWRr/image.png";
+
+// Art Gallery
+const gAipan = "https://i.postimg.cc/c4YVCqpV/image.png";
+const gRingal = "https://i.postimg.cc/WbMHjGrj/image.png";
+const gPahadiCuisine = "https://i.postimg.cc/nLsKVx5P/image.png";
+const gLangvirNritya = "https://i.postimg.cc/3Rt3LMr8/image.png";
+const gKedarnath = "https://i.postimg.cc/7PpZjk1j/image.png";
+const gGarhwaliPainting = "https://i.postimg.cc/yYBwDp7W/image.png";
+const gCholiaDance = "https://i.postimg.cc/QdFSCcKc/image.png";
+const gWoollenCrafts = "https://i.postimg.cc/jjdfCb1d/image.png";
+const gBalMithai = "https://i.postimg.cc/J0c7byy3/image.png";
+const gJhoraDance = "https://i.postimg.cc/Y9Bwbrw2/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
