@@ -684,7 +684,7 @@ const festivals = [
     tagline:
       "The sky turns into a battlefield of colour as thousands of kites fill the air.",
     description:
-      "",
+      "In Rajasthan, Makar Sankranti is a spectacularly vibrant harvest festival celebrated every January, where the state's iconic blue winter skies transform into a colorful canvas of thousands of competing paper kites (Patang Bazi). Entire families gather on their rooftops from dawn to dusk, enjoying lively music, engaging in playful friendly rivalries to cut down passing kites, and lighting up the night sky with paper lanterns called tukals. Beyond the soaring kites, the festival is deeply rooted in local hospitality and spirituality; people start the day with holy dips in sacred waters like the Pushkar Lake, engage in Gau Seva (feeding cows), and practice anonymous charity (Gupt Daan). No Rajasthani Sankranti is complete without indulgence in local winter delicacies made of sesame and jaggery—such as til ke laddoo and gajak—alongside regional specialties like the thread-like sweet feeni and spicy dal pakodis, making it a sensory celebration of community, warmth, and the arrival of brighter, longer days.",
     images: [teej1],
     source: "(src: shutterstock)",
   },
