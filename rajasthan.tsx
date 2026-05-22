@@ -13,75 +13,75 @@ import rajasthanMap from "@assets/rajasthanMap.jpg";
 const rajasthanMap = "";
 
 // Festivals
-const pushkarfair1 = "";
-const gangaur1 = "";
-const desert1 = "";
-const teej1 = "";
-const makar1 = "";
-const makar2 = "";
-const makar3 = "";
-const marwar1 = "";
-const marwar2 = "";
-const marwar3 = "";
-const bkc1 = "";
-const bkc2 = "";
-const bkc3 = "";
-const bkc4 = "";
-const bkc5 = "";
+const pushkarfair1 = "https://i.postimg.cc/ZKwJPvYP/image.png";
+const gangaur1 = "https://i.postimg.cc/Gm9dX3HB/image.png";
+const desert1 = "https://i.postimg.cc/HLyHCSw6/image.png";
+const teej1 = "https://i.postimg.cc/D02KLntp/image.png";
+const makar1 = "https://i.postimg.cc/WzXc7xV7/image.png";
+const makar2 = "https://i.postimg.cc/SN1pY0Vg/image.png";
+const makar3 = "https://i.postimg.cc/SKC0Pnqy/image.png";
+const marwar1 = "https://i.postimg.cc/7PXFj8vD/image.png";
+const marwar2 = "https://i.postimg.cc/ZR4QDjVC/image.png";
+const marwar3 = "https://i.postimg.cc/rszQvHWQ/image.png";
+const bkc1 = "https://i.postimg.cc/T2S9KCnM/image.png";
+const bkc2 = "https://i.postimg.cc/ThMgCNcd/image.png";
+const bkc3 = "https://i.postimg.cc/wvnwYVVp/image.png";
+const bkc4 = "https://i.postimg.cc/yxqybN1B/image.png";
+const bkc5 = "https://i.postimg.cc/v8qQf6md/image.png";
 
 // Monuments / Historical Places
-const jfort1 = "";
-const ajmer1 = "";
-const banswara1 = "";
-const jodhpur1 = "";
-const jaipur1 = "";
-const udaipur1 = "";
-const bikaner1 = "";
-const pushkar1 = "";
-const meh1 = "";
-const meh2 = "";
-const meh3 = "";
-const ran1 = "";
-const ran2 = "";
-const ran3 = "";
-const dil1 = "";
-const dil2 = "";
-const jm1 = "";
-const jm2 = "";
-const chit1 = "";
-const chit2 = "";
-const chit3 = "";
-const chit4 = "";
-const chand1 = "";
-const chand2 = "";
+const jfort1 = "https://i.postimg.cc/CKngGvdm/image.png";
+const ajmer1 = "https://i.postimg.cc/wxQdQRxP/image.png";
+const banswara1 = "https://i.postimg.cc/526dJP5F/image.png";
+const jodhpur1 = "https://i.postimg.cc/jj7pwLFx/image.png";
+const jaipur1 = "https://i.postimg.cc/rm9YxWGJ/image.png";
+const udaipur1 = "https://i.postimg.cc/2j2K5QSj/image.png";
+const bikaner1 = "https://i.postimg.cc/3JNb0kk1/image.png";
+const pushkar1 = "https://i.postimg.cc/RZnsG2Qq/image.png";
+const meh1 = "https://i.postimg.cc/ZqtfQjVV/image.png";
+const meh2 = "https://i.postimg.cc/q7smHnFJ/image.png";
+const meh3 = "https://i.postimg.cc/zBqxzvmk/image.png";
+const ran1 = "https://i.postimg.cc/SsVDJ4kh/image.png";
+const ran2 = "https://i.postimg.cc/wMvFNrjD/image.png";
+const ran3 = "https://i.postimg.cc/MZP9wz9M/image.png";
+const dil1 = "https://i.postimg.cc/L6JN6GWV/image.png";
+const dil2 = "https://i.postimg.cc/zX4pL0ZZ/image.png";
+const jm1 = "https://i.postimg.cc/FHcp03NL/image.png";
+const jm2 = "https://i.postimg.cc/Tw2c8smn/image.png";
+const chit1 = "https://i.postimg.cc/kGBFGtTM/image.png";
+const chit2 = "https://i.postimg.cc/sfN48w2Z/image.png";
+const chit3 = "https://i.postimg.cc/GhTx1GBg/image.png";
+const chit4 = "https://i.postimg.cc/K8XrcjBR/image.png";
+const chand1 = "https://i.postimg.cc/wjh51zQG/image.png";
+const chand2 = "https://i.postimg.cc/xdnvHZsD/image.png";
 
 // Art Gallery — Dance Forms
-const gGhoomarDance = "";
-const gKalbeliaDance = "";
-const gBhavaiDance = "";
-const gKachhiGhodiDance = "";
-const gChariDance = "";
-const gGairDance = "";
+const gGhoomarDance = "https://i.postimg.cc/MHN24Vc2/image.png";
+const gKalbeliaDance = "https://i.postimg.cc/rw62NGXZ/image.png";
+const gBhavaiDance = "https://i.postimg.cc/HLzGmfJb/image.png";
+const gKachhiGhodiDance = "https://i.postimg.cc/76tpG0n2/image.png";
+const gChariDance = "https://i.postimg.cc/2yqg4y0K/image.png";
+const gGairDance = "https://i.postimg.cc/D0tH5hD7/image.png";
 
 // Art Gallery — Cuisines
-const gDalBaatiChurma = "";
-const gGatteKiSabzi = "";
-const gKerSangri = "";
-const gBajraRoti = "";
-const gLaalMaas = "";
+const gDalBaatiChurma = "https://i.postimg.cc/8k32Td5s/image.png";
+const gGatteKiSabzi = "https://i.postimg.cc/mgWKHbC8/image.png";
+const gKerSangri = "https://i.postimg.cc/N0gVdpNb/image.png";
+const gBajraRoti = "https://i.postimg.cc/76RWYDqd/image.png";
+const gLaalMaas = "https://i.postimg.cc/J7fRpCjc/image.png";
 
 // Art Gallery — Image Gallery
-const gHawaMahal = "";
-const gWomenDress = "";
-const gCamelSafari = "";
-const gAmerFort = "";
-const gCityPalaceUdaipur = "";
-const gFamousFoods = "";
-const gPhadPainting = "";
-const gTraditionalHouses = "";
-const gMaandSinging = "";
-const gLacBangles = "";
-const gGotaPatti = "";
+const gHawaMahal = "https://i.postimg.cc/CKx0RhVR/image.png";
+const gWomenDress = "https://i.postimg.cc/pT9tBsTc/image.png";
+const gCamelSafari = "https://i.postimg.cc/VvnQx5X7/image.png";
+const gAmerFort = "https://i.postimg.cc/sDPCKQj1/image.png";
+const gCityPalaceUdaipur = "https://i.postimg.cc/Y0cTzkT2/image.png";
+const gFamousFoods = "https://i.postimg.cc/N0SnQBsb/image.png";
+const gPhadPainting = "https://i.postimg.cc/xCL6YmFM/image.png";
+const gMaandSinging  = "https://i.postimg.cc/9MPYshrZ/image.png";
+const gLacBangles = "https://i.postimg.cc/L56L7gcx/image.png";
+const gMorjis = "https://i.postimg.cc/3rmw5w8m/image.png";
+const gGotaPatti = "https://i.postimg.cc/qMcgnvWz/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
@@ -1016,13 +1016,6 @@ const artGallery = [
     color: "#6A1B9A",
     desc: "Large-scale narrative scroll paintings depicting tales of folk deities, traditionally performed by Bhopa priests of Rajasthan",
     image: gPhadPainting,
-  },
-  {
-    title: "Traditional Houses",
-    emoji: "🏡",
-    color: "#558B2F",
-    desc: "Distinctive Rajasthani havelis and village homes with intricate frescoes, carved facades, and inner courtyards",
-    image: gTraditionalHouses,
   },
   {
     title: "Maand Singing",
