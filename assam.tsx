@@ -8,84 +8,83 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import assamMap from "@assets/assamMap.jpg";
-const lohri1 = "https://i.postimg.cc/Gt12ckgn/image.png";
-const lohri2 = "https://i.postimg.cc/Mprpckr2/image.png";
-const lohri3 = "https://i.postimg.cc/C1bh6RhX/image.png";
-const lohri4 = "https://i.postimg.cc/nc3H5bxj/image.png";
-const baisakhi1 = "https://i.postimg.cc/YC4wsv89/image.png";
-const baisakhi2 = "https://i.postimg.cc/mkZvNktt/image.png";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
-const gurupurab3 = "@assets/image_1776788482041.png";
-const teej1 = "@assets/image_1776788764847.png";
-const teej2 = "@assets/image_1776788772553.png";
-const teej3 = "@assets/image_1776788788721.png";
-const bandi1 = "@assets/image_1776788797545.png";
-const bandi2 = "@assets/image_1776788805779.png";
-const shaheedi1 = "@assets/image_1776788811412.png";
-const rakhi1 = "@assets/image_1776788817244.png";
-const rakhi2 = "@assets/image_1776788825797.png";
-const maghi1 = "@assets/image_1776788831894.png";
-const maghi2 = "@assets/image_1776788840602.png";
-const karva1 = "@assets/image_1776788847901.png";
-const karva2 = "@assets/image_1776788856768.png";
-const golden1 = "@assets/image_1776788865143.png";
-const golden2 = "@assets/image_1776788870905.png";
-const golden3 = "@assets/image_1776788878018.png";
-const jallian1 = "@assets/image_1776788887081.png";
-const jallian2 = "@assets/image_1776788895857.png";
-const jallian3 = "@assets/image_1776788902350.png";
-const wagah1 = "@assets/image_1776788909064.png";
-const wagah2 = "@assets/image_1776788916164.png";
-const wagah3 = "@assets/image_1776789530181.png";
-const wagah4 = "@assets/image_1776789548589.png";
-const qila1 = "@assets/image_1776789554420.png";
-const qila2 = "@assets/image_1776789558971.png";
-const qila3 = "@assets/image_1776789565292.png";
-const ranjit1 = "@assets/image_1776789575242.png";
-const ranjit2 = "@assets/image_1776789580153.png";
-const ranjit3 = "@assets/image_1776789590790.png";
-const gobindgarh1 = "@assets/image_1776789610085.png";
-const gobindgarh2 = "@assets/image_1776789615338.png";
-const anandpur1 = "@assets/image_1776789624415.png";
-const anandpur2 = "@assets/image_1776789631296.png";
-const partition1 = "@assets/image_1776789638782.png";
-const partition2 = "@assets/download_1777100508255.png";
-const partition3 = "@assets/download_1777100514323.png";
-const guru1 = "@assets/download_1777100516025.png";
-const guru2 = "@assets/download_1777100518481.png";
-const guru3 = "@assets/download_1777100520664.png";
-const durgiana1 = "@assets/download_1777100523842.png";
-const durgiana2 = "@assets/image_1777102241686.png";
-const durgiana3 = "@assets/image_1777102257711.png";
-const akaltakht1 = "@assets/download_1777100525385.png";
-const akaltakht2 = "@assets/download_1777100526870.png";
-const akaltakht3 = "@assets/download_1777100529380.png";
-const jang1 = "@assets/download_1777100531237.png";
-const jang2 = "@assets/download_1777100532535.png";
-const jang3 = "@assets/download_1777100537305.png";
-const gJutti = "@assets/image_1777100917162.png";
-const gBhangra = "@assets/image_1777100921467.png";
-const gPhulkari = "@assets/image_1777100927953.png";
-const gGiddha = "@assets/image_1777100932602.png";
-const gFields1 = "@assets/image_1777100937948.png";
-const gFields2 = "@assets/image_1777100946447.png";
-const gSarson = "@assets/image_1777100950953.png";
-const gKulcha = "@assets/image_1777100955650.png";
-const gLassi = "@assets/image_1777100960783.png";
-const gAlooparatha = "@assets/image_1777100965689.png";
-const gBharwamirch = "@assets/image_1777100975810.png";
-const gButterchicken = "@assets/image_1777100982364.png";
-const gCholebhature = "@assets/image_1777100987731.png";
-const gDalmakhni = "@assets/image_1777100994118.png";
-const gThali = "@assets/image_1777101000988.png";
-const gFishfry = "@assets/image_1777101005896.png";
-const gParandha = "@assets/image_1777101012951.png";
+import assamMap from "https://i.postimg.cc/DZ3fnFJR/image.png";
+const bihu1 = "https://i.postimg.cc/g2fmHdDh/image.png";
+const bihu2 = "https://i.postimg.cc/kG1d6dGv/image.png";
+const bihu3 = "https://i.postimg.cc/bvcf2gyR/image.png";
+const bihu4 = "https://i.postimg.cc/63ckgNdv/image.png";
+const bihu5 = "https://i.postimg.cc/GtSZ3Jg8/image.png";
+const mela1 = "https://i.postimg.cc/dtpzz6yY/image.png";
+const mela2 = "https://i.postimg.cc/fLzFxg6R/image.png";
+const mela3 = "https://i.postimg.cc/44FM9PwG/image.png";
+const mela4 = "https://i.postimg.cc/dtbxW0b1/image.png";
+const mela5 = "https://i.postimg.cc/Bvg7QBXW/image.png";
+const ali1 = "https://i.postimg.cc/DZpC1fQZ/image.png";
+const ali2 = "https://i.postimg.cc/59G700N7/image.png";
+const ali3 = "https://i.postimg.cc/8C1w3ftG/image.png";
+const ali4 = "https://i.postimg.cc/MTgFhKnF/image.png";
+const ali5 = "https://i.postimg.cc/15hdBXhV/image.png";
+const bai1 = "https://i.postimg.cc/6pz1Bh7Z/image.png";
+const bai2 = "https://i.postimg.cc/RhrggsYG/image.png";
+const bai3 = "https://i.postimg.cc/GhCMYfGv/image.png";
+const bai4 = "https://i.postimg.cc/g2M4Ck5L/image.png";
+const me1 = "https://i.postimg.cc/Bvkpv7JZ/image.png";
+const me2 = "https://i.postimg.cc/7hMnmx0T/image.png";
+const me3 = "https://i.postimg.cc/65chZpBm/image.png";
+const me4 = "https://i.postimg.cc/QM9gvg1w/image.png";
+const me5 = "https://i.postimg.cc/fLYcRwH1/image.png";
+const majuli1 = "https://i.postimg.cc/jj7NMxY8/image.png";
+const majuli2 = "https://i.postimg.cc/pTQjtsT1/image.png";
+const majuli3 = "https://i.postimg.cc/25R38nPp/image.png";
+const majuli4 = "https://i.postimg.cc/NFMjPDrR/image.png";
+const jon1 = "https://i.postimg.cc/85n7GxGX/image.png";
+const jon2 = "https://i.postimg.cc/HWRzHkpY/image.png";
+const jon3 = "https://i.postimg.cc/RFq15j8j/image.png";
+const jon4 = "https://i.postimg.cc/9X6dKgpC/image.png";
+const deh1 = "https://i.postimg.cc/7ZVSCHrj/image.png";
+const deh2 = "https://i.postimg.cc/259vw06J/image.png";
+const deh3 = "https://i.postimg.cc/LXqP0jg5/image.png";
+const deh4 = "https://i.postimg.cc/MKJBdMWg/image.png";
+const Karam1 = "https://i.postimg.cc/ZqQB30sK/image.png";
+const Karam2 = "https://i.postimg.cc/135fjDLy/image.png";
+const Karam3 = "https://i.postimg.cc/TP52z000/image.png";
+const tea1 = "https://i.postimg.cc/DfxVcsdc/image.png";
+const tea2 = "https://i.postimg.cc/BbVVfTMY/image.png";
+const tea3 = "https://i.postimg.cc/YCcdNqVL/image.png";
+const tea4 = "https://i.postimg.cc/FKNGqCht/image.png";
+const tea5 = "https://i.postimg.cc/ZY2Ggm2b/image.png";
+const kama1 = "https://i.postimg.cc/DZFZ1sQB/image.png";
+const park1 = "https://i.postimg.cc/7htZvRvY/image.png";
+const manas1 = "https://i.postimg.cc/kXZgfLF8/image.png";
+const manas2 = "https://i.postimg.cc/Lsk445dt/image.png";
+const manas3 = "https://i.postimg.cc/nz0H7Wh4/image.png";
+const temp1 = "https://i.postimg.cc/XN1jYtPh/image.png";
+const majuli1 = "https://i.postimg.cc/Fst9S09W/image.png";
+const majuli2 = "https://i.postimg.cc/VNHwkCGJ/image.png";
+const rang1 = "https://i.postimg.cc/nrqf2wHM/image.png";
+const rang2 = "https://i.postimg.cc/jdrb2KXh/image.png";
+const tal1 = "https://i.postimg.cc/2S0R0Wfg/image.png";
+const tal2 = "https://i.postimg.cc/2S0R0Wfg/image.png";
+const siva1 = "https://i.postimg.cc/ydSM6rSz/image.png";
+const siva2 = "https://i.postimg.cc/sxYb7QcW/image.png";
+const agni = "https://i.postimg.cc/28YsmGkt/image.png";
+const mahab1 = "https://i.postimg.cc/SxT36pWT/image.png";
+const mahab2 = "https://i.postimg.cc/qRnFHh97/image.png";
+const haf1 = "https://i.postimg.cc/1RGdWFGD/image.png";
+const haf2 = "https://i.postimg.cc/gk4TpPBm/image.png";
+const surya1 = "https://i.postimg.cc/Qdtnxn23/image.png";
+const satra1 = "https://i.postimg.cc/hjFCs4hZ/image.png";
+const satra2 = "https://i.postimg.cc/9QrJjw9j/image.png";
+const gAssamTea = "https://i.postimg.cc/HxjNZvt2/image.png";
+const gKhar = "https://i.postimg.cc/MHQFxcNX/image.png";
+const gMasorTenga = "https://i.postimg.cc/mZvnjw1C/image.png";
+const gPitha = "https://i.postimg.cc/sgyNdgJL/image.png";
+const gDuckMeatCurry = "https://i.postimg.cc/HnDtw6vr/image.png";
+const gAlooPitika = "https://i.postimg.cc/jjB6T8bc/image.png";
+const gXaakBhaji = "https://i.postimg.cc/9XdP3tN2/image.png";
+const gBambooPickle = "https://i.postimg.cc/SNm6m2w8/image.png";
+const gJolpan = "https://i.postimg.cc/m2VQkZ42/image.png";
+const gPayas = "https://i.postimg.cc/bJXnWsxZ/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -739,15 +738,7 @@ const festivals = [
       'Me-Dam-Me-Phi is an important traditional festival of the Tai-Ahom community in Assam. It is celebrated to honour ancestors and to seek their blessings for the welfare, peace, and prosperity of the family and community. The words of the festival itself show its meaning: “Me” means offerings, “Dam” means ancestors, and “Phi” means gods. This makes the festival a sacred ritual of remembrance and gratitude, where the Ahom people pray for the souls of their forefathers and express respect for their heritage. It is usually observed on January 31 every year and is recognized as a significant cultural and religious occasion in Assam. The festival is especially important because it preserves the ancient beliefs, customs, and identity of the Ahom community. During Me-Dam-Me-Phi, people gather at temples or community places to offer food, prayers, and rituals to the ancestors and deities. Traditional ceremonies are performed with devotion, and in many places the community also organizes cultural programs, feasts, and meetings. The festival brings people together and strengthens unity among the Tai-Ahom people. It is not only a religious observance but also a reminder of the community’s history, values, and respect for the dead. Through this festival, the Ahoms continue to keep their ancestral traditions alive and pass them on to younger generations.',
     images: [me1,me2,me3,me4,me5],
     source: "happenings.lpu,bananivista,thehillstimes,guwahatiplus",
-  },
-  {
-    name: "Dance Festival, Mamallapuram",
-    tagline: "Set before an open-air stage created 13 centuries ago.",
-    description:
-      "Dance Festival, Mamallapuram, which is set before an open air stage, created 13 centuries ago the incredible monolithic rock sculptures of the Pallavas, next to the sea in this ancient city of Mamallapuram. Bharatha Natyam, Kuchipudi, Kathakali, and Odissi are some dance forms presented by the very best exponents of the art besides folk dances. The Mamallapuram Dance Festival is organised by the Department of Tourism, Tamil Nadu, and is a 30-day festival held annually between December and January. Professional classical dance artists from all around the nation come together for this grand event to showcase their mesmerising performances in traditional dance forms like Bharathanattiyam, Kuchipudi, Kathakali, Mohini Attam, Assami Dance, Odissi, and Kathak. Also, folk dancers add to the festival's vibrant atmosphere with their spirited performances.Every year, the picturesque shore town of Mamallapuram hosts the “Indian Dance Festival” - A Festival of Our Culture and Tradition. The venue for the Mamallapuram- Indian Dance Festival is the front lawn of the Shore Temple. The artists perform on an open-air stage, which provides the finest ambience for the dancers to perform their best during the festival. Some of the most prominent classical dancers in the country perform at the event. This event is a vivid reminder of the ancient connection between people and the arts. This festival not only provides an amazing chance to become acquainted with many traditional dance styles of India, but it also serves as a networking opportunity for artists, dancers, musicians, and theatre professionals. The spectacular architecture, historic ambience, and enthralling performances entice tourists from all over the world to experience the festival.",
-    images: [dance1, dance2],
-    source: "(src: utsav.gov.in, Wikipedia)",
-  },
+  },,
   {
     name: "Majuli Raas Mahotsav",
     description:
@@ -866,7 +857,7 @@ const historicalPlaces = [
     name: "Sri Surya Pahar",
     description:
       "Sri Surya Pahar is one of the most important historical and archaeological sites in Assam. It is located near the town of Goalpara on a scenic hill surrounded by natural beauty and greenery. The name “Sri Surya Pahar” means “Hill of the Sun,” and it is believed that the place was once an important center for sun worship in ancient times. The site is famous for its ancient rock-cut sculptures, temples, caves, and inscriptions that reflect the rich cultural and religious history of Assam. Historians believe that the monuments at Sri Surya Pahar were built between the 8th and 12th centuries during the rule of different regional dynasties. Sri Surya Pahar is unique because it represents the coexistence of three major religions — Hinduism, Buddhism, and Jainism. Archaeologists have discovered many stone carvings and remains related to these religions, showing that the place was once a major spiritual and cultural center. One of the most famous attractions of the site is the large number of Shiva Lingas carved on rocks. According to local belief, there were originally 99999 Shiva Lingas at the site, and one more was needed to complete one lakh. The hill also contains beautiful carvings of Hindu gods and goddesses such as Surya, Vishnu, and Durga. Apart from Hindu sculptures, several Buddhist stupas and Jain statues have also been found here, proving the religious harmony that existed in ancient Assam. The caves and stone carvings display excellent artistic and architectural skills of ancient craftsmen. Sri Surya Pahar is maintained by the Archaeological Survey of India because of its historical importance. Tourists, historians, archaeologists, and pilgrims visit the site to explore its ancient remains and peaceful atmosphere. The hilltop offers beautiful views of the surrounding landscape and creates a calm environment for visitors. The site is also important for studying the history and development of religion and art in Northeast India. Today, Sri Surya Pahar stands as a symbol of Assam’s rich archaeological heritage, religious harmony, and ancient civilization.",
-    images: [surya1,surya2],
+    images: [surya1],
     source: "(src: TripAdvisor)",
   },
   {
