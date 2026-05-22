@@ -8,13 +8,43 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import hpMap from "@assets/hpMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+import hpMap from "https://i.postimg.cc/fRf2CQYN/image.png";
+const kullu1 = "https://i.postimg.cc/wv7w9tZv/image.png";
+const kullu2 = "https://i.postimg.cc/Y0F8m5pk/image.png";
+const mandi1 = "https://i.postimg.cc/02gVqyfm/image.png";
+const mandi2 = "https://i.postimg.cc/htssxbqX/image.png";
+const losar1 = "https://i.postimg.cc/ZRBx1GvN/image.png";
+const losar2 = "https://i.postimg.cc/Xq9cv98v/image.png";
+const minjair1 = "https://i.postimg.cc/jdQ40Q2f/image.png";
+const minjair2 = "https://i.postimg.cc/Bnm5tSxj/image.png";
+const doongri1 = "https://i.postimg.cc/fbFxj8qJ/image.png";
+const doongri2 = "https://i.postimg.cc/9XyGZtd3/image.png";
+const doongri3 = "https://i.postimg.cc/9FVypRbx/image.png";
+const lavi1 = "https://i.postimg.cc/Mp3RqsSf/image.png";
+const lavi2 = "https://i.postimg.cc/KYKTznGC/image.png";
+const lavi3 = "https://i.postimg.cc/GpZysH9k/image.png";
+const kangra1 = "https://i.postimg.cc/SsCzLkMq/image.png";
+const kangra2 = "https://i.postimg.cc/kMNbBMC9/image.png";
+const niwas1 = "https://i.postimg.cc/qMj6xmzN/image.png";
+const niwas2 = "https://i.postimg.cc/MpLchv7R/image.png";
+const amsrur1 = "https://i.postimg.cc/CKfZYSJf/image.png";
+const masrur2 = "https://i.postimg.cc/FRy7dpMH/image.png";
+const tabo1 = "https://i.postimg.cc/PfMCd6by/image.png";
+const tabo2 = "https://i.postimg.cc/sgbXTbzw/image.png";
+const tabo3 = "https://i.postimg.cc/kGMXVmNv/image.png";
+const baijinath1 = "https://i.postimg.cc/Y0SMrxkN/image.png";
+const baijinath2 = "https://i.postimg.cc/wjNHjMKh/image.png";
+const naggar1 = "https://i.postimg.cc/pTWtCBmB/image.png";
+const naggar2 = "https://i.postimg.cc/7YF8d4C1/image.png";
+const naggar3 = "https://i.postimg.cc/25xs1B0g/image.png";
+const gDham = "https://i.postimg.cc/rFxM8z25/image.png";
+const gSidu = "https://i.postimg.cc/0Qh1v1Wb/image.png";
+const gPattuShawl = "https://i.postimg.cc/zBb40Pzm/image.png";
+const gKulluCap = "https://i.postimg.cc/7hSdyGJV/image.png";
+const gKinnauriWeave = "https://i.postimg.cc/52sG1MjM/image.png";
+const gChambaRumal = "https://i.postimg.cc/x8VpgfpQ/image.png";
+const gKangraPainting = "https://i.postimg.cc/YCCndyRh/image.png";
+const gNarasinga = "https://i.postimg.cc/Yqb8Lz7r/image.png";
 
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
