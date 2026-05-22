@@ -9,12 +9,38 @@ import {
   ZoomIn,
 } from "lucide-react";
 import bengalMap from "@assets/bengalMap.jpg";
-const holamoh1 = "";
-const holamoh2 = "";
-const holamoh3 = "";
-const holamoh4 = "";
-const gurupurab1 = "";
-const gurupurab2 = "";
+const Durga1 = "https://i.postimg.cc/XqgcWzTm/image.png";
+const rash = "https://i.postimg.cc/4NBbFjvT/image.png";
+const Ganga1 = "https://i.postimg.cc/HxDQymmq/image.png";
+const Bish1 = "https://i.postimg.cc/kMyxBLp2/image.png";
+const victorial1 = "https://i.postimg.cc/X7LS1NDK/image.png";
+const hazarduari1 = "https://i.postimg.cc/KYK6YPcs/image.png";
+const shaheedi1 = "https://i.postimg.cc/HntKN33Y/image.png";
+const howrah1 = "https://i.postimg.cc/8zc3yR6Y/image.png";
+const dakshineshwar1 = "https://i.postimg.cc/cHR5KTpw/image.png";
+const dhr1 = "https://i.postimg.cc/zXXPBC0z/image.png";
+const santiniketan1 = "https://i.postimg.cc/qRT1dyN6/image.png";
+const rasmancha1 = "https://i.postimg.cc/qv6whjnT/image.png";
+const cooch1 = "https://i.postimg.cc/QCngVTd5/image.png";
+const sunderban1 = "https://i.postimg.cc/nLt4sZpS/image.png";
+const wChhau = "https://i.postimg.cc/43tcZ0cz/image.png";
+const wBaul = "https://i.postimg.cc/fLf0S0Bd/image.png";
+const wGambhira = "https://i.postimg.cc/y6nZVcDQ/image.png";
+const wSanthali = "https://i.postimg.cc/pX65jvYy/image.png";
+const wRaibenshe = "https://i.postimg.cc/0Ng6tC4y/image.png";
+const wJhumur = "https://i.postimg.cc/j5tDTStb/image.png";
+const wIlish = "https://i.postimg.cc/zX63Bj8w/image.png";
+const wChingri = "https://i.postimg.cc/MG8T0pcR/image.png";
+const wMacherJhol = "https://i.postimg.cc/4dWxTvWy/image.png";
+const wAlooPosto = "https://i.postimg.cc/mZ6gXwz2/image.png";
+const wShukto = "https://i.postimg.cc/rFBFcw9c/image.png";
+const wStreetFood = "https://i.postimg.cc/63btPWQD/image.png";
+const wTrain = "https://i.postimg.cc/XY63mDnQ/image.png";
+const wKumortuli = "https://i.postimg.cc/9fJh4my3/image.png";
+const wJewellery = "https://i.postimg.cc/RC3Wzyzt/image.png";
+const wKalighat = "https://i.postimg.cc/qRNv4hWk/image.png";
+const wAttire = "https://i.postimg.cc/tgMV3jjb/image.png";
+const wBridal = "https://i.postimg.cc/02YmLFp0/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
@@ -771,4 +797,11 @@ const artGallery = [
   { title: "Darjeeling Toy Train", emoji: "🚂", color: "#1A5276", desc: "UNESCO heritage narrow-gauge mountain railway", image: wTrain },
   { title: "Kumortuli", emoji: "🏺", color: "#E8A020", desc: "Famous potters' quarter crafting Durga Puja idols", image: wKumortuli },
   { title: "Bengali Jewellery", emoji: "💍", color: "#76448A", desc: "Exquisite traditional gold jewellery of Bengal", image: wJewellery },
+  { title: "Kalighat Painting", emoji: "🎨", color: "#C0392B", desc: "Traditional scroll painting from Kalighat, Kolkata", image: wKalighat },
+  { title: "Bengali Saree & Attire", emoji: "🥻", color: "#8E44AD", desc: "Elegant white and red Bengali traditional dress", image: wAttire },
+  { title: "Bengali Bridal Look", emoji: "👰", color: "#E8A020", desc: "Iconic bridal makeup with shankha pola and alta", image: wBridal },
 ];
+
+
+
+
