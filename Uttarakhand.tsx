@@ -8,7 +8,7 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import punjabMap from "@assets/punjabMap.jpg";
+import uttarakhandMap from "@assets/punjabMap.jpg";
 import lohri1 from "@assets/image_1776788355951.png";
 import lohri2 from "@assets/image_1776788364481.png";
 import lohri3 from "@assets/image_1776788370635.png";
@@ -416,7 +416,7 @@ function HistoricalPlaceCard({
 }
 
 /* ─── Main page ──────────────────────────────────────────────────────────── */
-export default function PunjabPage() {
+export default function UttarakhandPage() {
   const [, setLocation] = useLocation();
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
     null,
@@ -462,13 +462,13 @@ export default function PunjabPage() {
                 className="text-5xl md:text-7xl font-bold text-white mb-3"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
-                Punjab
+                Uttarakhand
               </h1>
               <p
                 className="text-white/80 text-xl italic"
                 style={{ fontFamily: "'Lora', serif" }}
               >
-                The Bread Basket of India
+                Dev Bhoomi — The Land of Gods
               </p>
             </div>
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl border border-white/20 p-5 min-w-[220px]">
@@ -477,12 +477,12 @@ export default function PunjabPage() {
               </h3>
               <div className="space-y-2">
                 {[
-                  { label: "Capital", value: "Chandigarh" },
-                  { label: "Population", value: "2.77 Crore" },
-                  { label: "Area", value: "50,362 sq km" },
-                  { label: "Founded", value: "1 November 1966" },
-                  { label: "Language", value: "Punjabi" },
-                  { label: "Districts", value: "23 Districts" },
+                  { label: "Capital", value: "Dehradun" },
+                  { label: "Population", value: "1.01 Crore" },
+                  { label: "Area", value: "53,483 sq km" },
+                  { label: "Founded", value: "9 November 2000" },
+                  { label: "Language", value: "Hindi, Garhwali, Kumaoni" },
+                  { label: "Districts", value: "13 Districts" },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-start gap-2">
                     <MapPin className="w-3.5 h-3.5 text-white/60 mt-0.5 flex-shrink-0" />
@@ -502,32 +502,32 @@ export default function PunjabPage() {
 
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
         {/* Capital */}
-        <Section title="Capital — Chandigarh" icon="🏛️">
+        <Section title="Capital — Dehradun" icon="🏛️">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl p-6 border border-red-100 dark:border-red-900/30 text-center">
             <div className="text-5xl mb-3">🌆</div>
             <h3
               className="text-2xl font-bold text-foreground mb-1"
               style={{ fontFamily: "'Cinzel', serif" }}
             >
-              Chandigarh
+              Dehradun
             </h3>
             <p className="text-muted-foreground text-sm">
-              Capital of Punjab — City Beautiful
+              Capital of Uttarakhand - The heart of Garhwal
             </p>
           </div>
         </Section>
 
         {/* Map of Tamil Nadu — click to enlarge */}
-        <Section title="Map of Punjab" icon="🗺️">
+        <Section title="Map of Uttarakhand" icon="🗺️">
           <div className="flex flex-col items-center gap-3">
             <div
               className="relative group cursor-zoom-in rounded-2xl overflow-hidden border-2 border-border shadow-md hover:shadow-xl transition-shadow"
               style={{ maxWidth: 520 }}
-              onClick={() => openLightbox(tnMap, "Map of Tamil Nadu")}
+              onClick={() => openLightbox(uttarakhandMap, "Map of Tamil Nadu")}
             >
               <img
-                src={punjabMap}
-                alt="Map of Punjab"
+                src={uttarakhandMap}
+                alt="Map of Uttarakhand"
                 className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center">
@@ -550,31 +550,31 @@ export default function PunjabPage() {
             style={{ fontFamily: "'Lora', serif", textAlign: "justify" }}
           >
             <p className="text-foreground">
-              Punjab is a state in northwestern India. Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states and union territories of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, Rajasthan to the southwest, Jammu and Kashmir to the north and Chandigarh — which is also its state capital that it shares with the neighbouring state of Haryana — to the east. To the west, it shares an international border with the identically named Pakistani province of Punjab. The state covers an area of 50,362 square kilometres (19,445 square miles), which is 1.53% of India's total geographical area.
+             Uttarakhand , also known as Uttaranchal , is a sate in northern India. The state is bordered by Himachal Pradesh to the northwest, Tibet to the north, Nepal to the east and Uttar Pradesh to the south. Uttarakhand has a total area of 53,483 km2 (20,650 sq mi), equal to 1.6% of the total area of India. Dehradun serves as the state winter capital, with Bhararisain being the summer capital and Nainital being the judicial capital. The state is divided into two divisions, Garhwal and Kumaon, with a total of 13 districts. The forest cover in the state is 45.4% of the state's geographical area. The cultivable area is 16% of the total geographical area. 
             </p>
             <p className="text-foreground">
-              Punjabi, written in the Gurmukhi script, is the most widely spoken and the official language of the state. The main ethnic group are the Punjabis, with Sikhs (57.7%) and Hindus (38.5%) forming the dominant religious groups. Three of the five traditional Punjab rivers — the Sutlej, Beas, and Ravi — flow through the state.
+             The two major rivers of the state, the Ganges and its tributary Yamuna, originate from the Gangotri and Yamunotri glaciers respectively. Ranked 6th among the Top 10 Greenest States in India with Best AQI. 
             </p>
             <p className="text-foreground">
-              Punjab was enriched during the height of the Vedic period, but declined in predominance with the rise of the Mahajanapadas. The region formed the frontier of initial empires during antiquity including Alexander's and the Maurya empires. It was subsequently conquered by the Kushan Empire, Gupta Empire, and then Harsha's Empire. Punjab came under Muslim rule c. 1000 CE, and was part of the Delhi Sultanate and the Mughal Empire.
+              Uttarakhand's history dates back to prehistoric times, with archaeological evidence showcasing human habitation. It was part of the ancient Kuru and the Panchal kingdoms during the Vedic age, and later saw the rise of dynasties like the Kunindas and influence of Buddhism as evidenced by Ashokan edicts. Though primarily driven by agriculture and hydropower, the state's economy is now dominated by the service industry. The service sector comprises primarily travel, tourism, and hotel industry. The Gross State Domestic Product (GSDP) of Uttarakhand is ₹3.78 lakh crore . The state contributes five seats to the lower house Lok Sabha  and three seats to the upper house Rajya Sabha.
             </p>
             <p className="text-foreground">
-              Sikhism, based on the teachings of Sikh Gurus, emerged between the 15th and 17th centuries. Conflicts between the Mughals and the later Sikh Gurus precipitated a militarisation of the Sikhs, resulting in the formation of a confederacy after the weakening of the Mughal Empire, which competed for control with the larger Durrani Empire. This confederacy was united in 1801 by Maharaja Ranjit Singh, forming the Sikh Empire.
+              Inhabitants of the state are called either Garhwali or Kumaoni depending on their region of origin. Hinduism is practised by more than three-fourths of the population, with Islam being the next-largest religious group. Hindi is the most widely spoken language and is also the official language of the state, along with native regional languages include Garhwali, Jaunsari, Rongpo, Bhotia, Gurjari and Kumaoni. The state is often referred to as the "Devabhumi", due to its religious significance and numerous Hindu temples and pilgrimage centres found throughout the state. Along with several historical, natural and religious tourist destinations, including Char Dham, Haridwar, Rishikesh, Panch Kedar, Himalayas, and Sapta Badri. Uttarakhand is also home to two World Heritage sites.
             </p>
             <p className="text-foreground">
-              The Punjab region is noted as the site of one of the earliest urban societies, the Indus Valley Civilisation that flourished from about 3000 B.C. and declined rapidly 1,000 years later, following the Indo-Aryan migrations that overran the region in waves between 1500 and 500 B.C. The rise of kingdoms and dynasties in Punjab is chronicled in the ancient Hindu epics, particularly the Mahabharata. The epic battles described in the Mahabharata are chronicled as being fought in what is now the state of Haryana and historic Punjab. The Gandharas, Kambojas, Trigartas, Andhra, Pauravas, Bahlikas (Bactrian settlers of the Punjab), Yaudheyas, and others sided with the Kauravas in the great battle fought at Kurukshetra. The bulk of the Rigveda was composed in the Punjab region between circa 1500 and 1200 BC.
+              A major section of the people in Uttarakhand are Hindus. However, the state maintains a secular ambience with significant number of people belonging to other faiths like Islam, Sikhism, Buddhism and Christianity. According to the census conducted in 2011, there were Hinduism about 82.97% of the total population of Uttarakhand, whereas people following Islam were 13.95% and those following Sikhism were 2.34%, Christianity (0.37%), Buddhism (0.15%), and Jainism (0.09%).
             </p>
             <p className="text-foreground">
-              A significant event in the late 15th century Punjab was the formation of Sikhism by Guru Nanak. The hymns composed by Guru Nanak were later collected in the Guru Granth Sahib, the central religious scripture of the Sikhs. The religion developed and evolved in times of religious persecution, gaining converts from both Hinduism and Islam. Mughal rulers of India tortured and executed two of the Sikh gurus—Guru Arjan (1563–1605) and Guru Tegh Bahadur (1621–1675)—after they refused to convert to Islam. The persecution of Sikhs triggered the founding of the Khalsa by Guru Gobind Singh in 1699 as an order to protect the freedom of conscience and religion, with members expressing the qualities of a Sant-Sipāhī ('saint-soldier').
+              The land of Uttarakhand is full of artisans and variety of art and craft. Both the rural and urban people indulge in producing/manufacturing some incredible crafts that are worth witnessing. Woodwork is a significant art form that the locals of Uttarakhand practise, apart from it, paintings from Garhwal School of Paintings and murals like Aipan demonstrate skills of the natives. The Ringaal Handicraft that is practised by a backward community named the same, is quite appreciable. The Rambaan Handicraft done by using Jute and Hemp also reflects the rich art and craft of Uttarakhand. Apart from it the woollen knitted wear and embroidered cushion covers, carpets, bedsheets and curtains by the rural women or urban women groups are a must buy from Uttarakhand. The candle making skills in the state are also at par excellence, there is an entire market in Nainital that is dedicated to this art. 
             </p>
             <p className="text-foreground">
-              The Sikh Empire spanned a total of over 200,000 sq mi (520,000 km2) at its zenith. After Ranjit Singh's death in 1839, the empire was severely weakened by internal divisions and political mismanagement. This opportunity was used by the East India Company to launch the First and Second Anglo-Sikh Wars. The country was finally annexed and dissolved at the end of the Second Anglo-Sikh War in 1849 into separate princely states and the province of Punjab. Eventually, a Lieutenant Governorship was established in Lahore as a direct representative of the Crown.
+              The lifestyle in Uttarakhand is heterogenous and one can mark the difference between the urban and rural life in the state. Since Uttarakhand comprises of both hilly and plain terrains that eventually demarcate the lifestyle in the state, and then there are areas in the hill that are remote and difficult to access, where obviously the way of life is entirely different. 
             </p>
             <p className="text-foreground italic text-primary font-medium">
-              It is regarded as the "Land of Five Rivers" and is known as the "Granary of India" due to its high agricultural fertility. It is widely celebrated as the sword arm of India and a land of brave warriors, holding a reputation for a vibrant culture, energetic music (bhangra), and immense hospitality.
+              Uttarakhand is largely dependent on its agriculture for the revenue. Basmati rice, wheat, soybeans, groundnuts, coarse cereals, pulses, and oil seeds are the most widely grown crops in the state. There are also fruits like apples, oranges, pears, peaches, litchis, and plums that are widely grown in the state and bring a good amount of revenue
             </p>
             <p className="text-xs text-muted-foreground">
-              (src: govt of Punjab, mapsofindia.com)
+              (src: mapsofindia.com)
             </p>
           </div>
         </Section>
@@ -608,7 +608,7 @@ export default function PunjabPage() {
         </Section>
 
         {/* Facts */}
-        <Section title="Facts about Tamil Nadu" icon="💡">
+        <Section title="Facts about Uttarakhand" icon="💡">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {facts.map((fact, i) => (
               <div
@@ -630,7 +630,7 @@ export default function PunjabPage() {
         {/* Art Gallery */}
         <Section title="Art Gallery" icon="🎨">
           <p className="text-muted-foreground text-sm mb-4">
-            Scroll horizontally to explore Tamil Nadu's iconic foods, crafts,
+            Scroll horizontally to explore Uttarakhand's iconic foods, crafts,
             dance, and traditions.
           </p>
           <div className="overflow-x-auto pb-4">
@@ -721,323 +721,202 @@ export default function PunjabPage() {
 
 const festivals = [
   {
-    name: "Lohri",
+    name: "Ganga Aarti",
     tagline: "The Harvest Festival of Punjab",
     description:
-      "Lohri is a midwinter folk and harvest festival that marks the passing of the winter solstice and the end of winter. It is a traditional welcome of longer days and the sun's journey to the Northern Hemisphere. It is one of the Indian harvest festivals observed on or near Makar Sankranti (in the month of Magha in the Indian calendar) and falls on the night before Maghi (in the month of Magh in the Punjabi calendar) which commonly falls on 13 January every year. A popular folklore in the Punjab region links Lohri to the tale of Dulla Bhatti. The central theme of many Lohri songs is the legend of Dulla Bhatti (Rai Abdullah Bhatti) whose father was a zamindar who lived in Punjab during the reign of Mughal Emperor Akbar. He was regarded as a hero in Punjab, for rescuing girls from being forcibly taken to be sold in slave markets of the Middle East. Among those he saved were two girls Sundri and Mundri, who gradually became a theme of Punjabi folklore. As a part of Lohri celebrations, children go around homes singing the traditional folk songs of Lohri with the 'Dulla Bhatti' name included. One person sings, while others end each line with a loud 'Ho!' sung in unison. After the song ends, the adult of the home is expected to give snacks and money to the singing troupe of youngsters. Lohri also marks the beginning of the harvest season and sunny days. The festival is celebrated by lighting bonfires, eating festive food, dancing and collecting gifts. In houses that have recently had a marriage or childbirth, Lohri celebrations will reach a higher pitch of excitement. In Punjab, people wear their brightest clothes and come to dance the bhangra and giddha to the beat of the dhol. Punjabi songs are sung, and everybody rejoices. Sarson da saag with makki di roti is usually served as the main course at a Lohri dinner. Lohri holds great importance for farmers. The bonfire is lit at sunset in the main village square. People toss sesame seeds, jaggery, sugar-candy and rewaries on the bonfire, sit around it, sing and dance till the fire dies out. Some people perform a prayer and go around the fire. This is to show respect to the natural element of fire, a tradition common in winter solstice celebrations. It is traditional to offer guests til, gajak, jaggery, peanuts and puffed rice or popcorn. Milk and water are also poured around the bonfire by Hindus to thank the Sun God and seek his continued protection.",
-    images: [lohri1, lohri2, lohri3, lohri4],
-    source: "(src: Wikipedia, Getty images)",
+      "Har Ki Pauri is a sacred ghat on the banks of the Ganges River in the Hindu holy city of Haridwar, in the Indian state of Uttarakhand. It is believed to be the place where the Ganges leaves the mountains and enters the plains. Vishnu is believed to have visited the Brahmakund in Har Ki Pauri in the Vedic times. The name Har Ki Pauri translates to "the feet of Vishnu" (Hari). Har Ki Pauri is also an important pilgrimage site for religious festivals like the Kumbha Mela, which takes place every twelve years, the Ardh Kumbh Mela, which takes place every six years and the Punjabi festival of Vaisakhi, a harvest festival that occurs every April, The ghat is located on the west bank of Ganga canal through which the Ganga is diverted just to the north. King Vikramaditya is said to have built it in 1st century BC in the memory of his brother, Bharthari who had come to meditate here on the bank of the Ganges. An area within Har Ki Pauri, where the evening Ganga Aarti takes places and which is considered most sacred is known as Brahmakund  It is considered to be the spot where the drops of Amrit fell over from the sky, while being carried in a pitcher by the celestial bird, Garuda after the Samudra Manthan.In 1819 the ghat was described as a narrow passage. During the Kumbh mela festival in 1819, 430 people died from crush injuries that resulted from thousands of people pushing to get to the Ganges to bathe. As a result, the ghat was expanded to 100 feet (30 metres) and 60 steps were added by the British government. The extension of the ghats took place in 1938 (done by Hargyan Singh Katara, a Zamindar from Agra in Uttar Pradesh), and then again in 1986. It's landmark clock tower was erected in 1938. Each evening at sunset, the priests of Har ki Pauri perform the – Ganga Aarti – over an old tradition. [ Lights are set on the water to drift downstream. A large number of people gather on both banks of the ganga river to sing Ganga Aarti praises. At that time the priests hold large Fire Bowls in their hands, rungs bells at the temples situated at the ghat and chants are chanted by the priests. People flick Diya (made of leaves and flowers) into the river Ganges as a symbol of hopes and wishes. However, on some special cases, like on the occurrence of eclipses, the time of the Ganga Aarti is be altered accordingly Every year generally on the night of Dussehra the waters in the Ganga Canal in Rishav Haridwar are partially dried to do the job of cleaning the riverbed and undertake the repairing of the ghats. The waters are generally restored on the night of Diwali. But the Ganga Aarti is held every day as usual. It is believed that Maa Ganga visits her paternal house on the day of Dussehra and returns on the day of Bhai Dooj or Bhai Phota
+",
+    images: [gan1],
+    source: "(src:Holidify )",
   },
   {
-    name: "Baisakhi",
+    name: "Kumbh Mela",
     tagline:
       "Spring harvest festival of Punjab",
     description:
-      "Also called Mesadi or Basoa, marks the first day of the month of Vaisakh and is traditionally celebrated annually on 13 April or 14 April. It is seen as a spring harvest celebration primarily in Punjab and Northern India. Whilst it is culturally significant in many parts of India as a festival of harvest, Vaisakhi is also the date for the Indian Solar New Year. Historically, the festival of Vaisakhi was north India’s most important annual market. Although Vaisakhi began as a grain harvest festival for Hindus and its observance predates the creation of Sikhism, it gained historical association with the Sikhs following the inauguration of the Khalsa. People start the day with a holy bath in rivers, followed by special prayers and kirtans (hymns) at Gurdwaras. Key festivities include Nagar Kirtan processions, vibrant Bhangra/Giddha dances, and community feasts (langar). For Sikhs, in addition to its significance as the harvest festival, during which Sikhs hold kirtans, visit local gurdwaras, community fairs, hold nagar kirtan processions, raise the Nishan Sahib flag, and gather to socialize and share festive foods, Vaisakhi observes major events in the history of Sikhism and the Indian subcontinent that happened in the Punjab region. Vaisakhi as a major Sikh festival marks the birth of the Khalsa order by Guru Gobind Singh, the tenth Guru of Sikhism, on 13 April 1699. Later, Ranjit Singh was proclaimed as Maharaja of the Sikh Empire on 12 April 1801 (to coincide with Vaisakhi), creating a unified political state. Vaisakhi was also the day when British Indian Army officer Reginald Dyer ordered his troops to shoot into a protesting crowd in Amritsar, an event which would come to be known the Jallianwala Bagh massacre; the massacre proved influential to the history of the Indian independence movement.",
-    images: [baisakhi1, baisakhi2],
-    source: "(src: Wikipedia)",
+      "Kumbh Mela is a Hindu pilgrimage, celebrated every four or twelve years, correlated with the partial or full revolution of Jupiter. These are held at four locations–Prayagraj, Haridwar, Nashik, and Ujjain, with varying time intervals. As per the Puranas, these sites are considered to have received the drops of the divine nectar during the Samudra Manthana . The Kumbh Mela lasts between one and three months, with the Amavasya day attracting the largest crowds. The festival attracts millions of people, with the largest gathering recorded at Prayag. About 660 million attended the Kumbh Mela in 2025,  and 200 million in 2019, making it one of the largest gatherings in the world. It has been inscribed on the UNESCO Representative List of Intangible Cultural Heritage of Humanity. The Kumbh Mela is observed cycle at each site approximately once every 12 yearsbased on the Hindu luni-solar calendar and the relative positions of Jupiter, the Sun, and the Moon. As per Hindu astrology, specific alignments of the Jupiter, the Sun, and the Moon only occur at the four Kumbh locations in a 12-year cycle. The Prayag and Haridwar festivals are held with a six year gap in between, and feature a Maha (major) and Ardha (half) Kumbh Melas. The Kumbh Melas at Ujjain and Nashik are observed in the same year or one year apart, typically about three years after the Prayag Kumbh Mela. The festival is held at the confluence of major rivers, and people take a ritual dip in the waters, believed to be a means of prāyaścitta (atonement) for the past mistakes, and cleansing of their sins. Various fairs, educational events, religious discourses, mass gatherings of monks, and entertainment are also conducted during the festivities. Before 1858, the name "Kumbh" was applied only to the 12th occurrence of an annual mela in Haridwar during the Vaishakha month. As mentioned in Hindu texts such as Ramcharitmanas, an annual Magh Mela was held in Prayag during the month of Pausha. The Haridwar mela had seen clashes between rival groups in the past, which had resulted in multiple deaths in 1796. After the Indian Rebellion of 1857 had been suppressed by the British Raj, the Pragwals (traditional priest castes) in Allahabad proposed the idea of an organised pilgrimage at Prayag under the surveillance of the British. The first Kumbh Mela at Prayag was organised in 1870 In other parts of India, similar but smaller community pilgrimage and bathing festivals are held. These Magha or Makar melas that have been called Kumbh Mela include those held in Kumbakonam, Kurukshetra, Panauti, Rajim, and Sonipat. These are also generally held at water bodies with various time intervals, and attracts a large gathering. For example, the Mahamaham is held in Kumbakonam once every twelve years, at the Mahamaham tank, near the Kaveri river. 
+",
+    images: [ku],
+    source: "(src:India Today)",
   },
   {
-    name: "Hola Mohalla",
+    name: "Phool Dei",
     tagline:
       "Commemorates the martial spirit of the Sikh community.",
     description:
-      "It is also called Hola, is a three-day long Sikh festival which normally falls in March. It takes place on the second day of the lunar month of Chett, usually a day after the Hindu spring festival Holi, but sometimes coincides with it. Hola Mohalla is a big festive event for Sikhs around the world. The fair held during Holi and Hola at Anandpur Sahib is traditionally a three-day event but participants attend Anandpur Sahib for a week, camping out and enjoying various displays of fighting prowess and bravery, and listening to kirtan, music and poetry. For meals, which is an integral part of the Sikh institution (Gurdwara), visitors sit together in Pangats (Queues) and eat lacto-vegetarian food of the Langars. The event concludes on the day of Hola Mohalla with a long, 'military-style' procession near Takht Kesgarh Sahib, one of the five seats of temporal authority (referred as 'Panj Takht') of the Sikhs. Guru Gobind Singh, the tenth Sikh Guru built upon the story of Prahlad and founded the festival of Hola Mohalla.  Guru Gobind Singh summoned his followers to attend Anandpur on Holi when he introduced a new rally in 1680 to coincide with Holi where his followers could practice manoeuvres and combat training. However, Guru Gobind Singh organised the first procession accompanied by drums in Anandpur on 22 February 1701 A.D. The new tradition of overseeing mock battles and poetry contests at Lohgarh Fort has since spread from the town of Anandpur Sahib to nearby Kiratpur Sahib and the foothills of the Shivaliks, and to other Gurdwaras around the world. The Guru made Hola Mahalla an occasion for the Sikhs to demonstrate their martial skills in simulated battles. This was probably done to forestall a grimmer struggle against the imperial power and channeling people's energy into a more useful activity. Hola Mahalla became an annual event held in an open ground near Holgarh, a fort across the rivulet Charan Ganga, northwest of Anandpur sahib. The popularity of this festival may be judged from the fact that out of five Sikh public holidays requested by the Khalsa Diwan, of Lahore in 1889, the Government approved only two - Hola Mahalla and the birth anniversary of Guru Nanak. Hola Mahalla is presently the biggest festival at Anandpur. The Nihang are the members of the Khalsa Army known for their distinctive blue traditional robes and dumala, which are often embellished. They are prominent at the Hola Mahalla festival.",
-    images: [holamoh1, holamoh2, holamoh3, holamoh4],
-    source: "(src: wikipedia)",
+      "Phool Dei festival of Uttarakhand is a propitious society celebration which respects the spring season in the state. The celebration is praised on the primary day of the Hindu month, Chaitra. Phool Dei is about blossoms and springtime. In a few places, the celebration is praised as jubilee and the festival continues for multi month. The term 'Dei' alludes to a formal pudding which is the key sustenance in this celebration that is produced using jaggery. White flour and curd are likewise offered to everybody.Young ladies assemble and go to each house in their town/towns with plates loaded with rice, jaggery, coconut, green leaves, and blossoms. In addition, these young ladies set forward their desires for the success and prosperity of family units while singing Phool Dei, Chamma Dei, Deno Dwar, Bhur Bhakar. The wishing and gift part likewise incorporate putting blooms and rice on the doorsteps of the houses by the young ladies. Individuals of town sing and move on their people melodies to commend the celebration of spring alongside trading wishes for prosperity and success of their family and relatives.Phool Dei festival is commended on the primary day of the period of Chaitra in mid March. On this day, young ladies direct the vast majority of the functions. In a few places this celebration is commended during the time with the appearance of spring. Amid this celebration young ladies go to every one of the houses in the muhalla or the town with plates brimming with rice, jaggery, coconut, green leaves and blooms. They offer their great wishes for the success of the family unit and are given gifts and introduces (desserts, gur, cash and so on) consequently.speciality of the Festival After festivals of Basant in numerous parts of the nation comes an exceptionally uncommon festivals in Uttarakhand to stamp the principal day of the long stretch of Chaitra. This is the celebration known as Phool Dei festival of Uttarakhand. It's being commended in the slopes and dales of the state on Tuesday. In nowadays of environmental change and a dangerous atmospheric devation, such celebrations associated with the core of nature have obtained new centrality and ought to be saved and esteemed.There is something exceptionally captivating and special about this celebration of blooms and springtime. On this day, young ladies complete the vast majority of the ceremonies and they are the most enthusiastic members. In a few places however, this celebration resembles a jubilee and the festivals go ahead consistently. Dei, an extraordinary formal pudding made of Jaggery (gur), white flour and curd is offered to everybody. young ladies go to each house in their town with plates brimming with rice, jaggery, coconut, green leaves and blossoms.
+",
+    images: [pho1],
+    source: "(src:Tour My India)",
   },
   {
-    name: "Gurupurab (Guru Nanak Jayanti)",
+    name: "Harela",
     tagline:
       "Celebrates the birth of the first Sikh guru, Guru Nanak",
     description:
-      "One of the most celebrated and important Sikh gurus and the founder of Sikhism, Guru Nanak is highly revered by the Sikh community. This is one of the most sacred festivals in Sikhism, or Sikhi. The festivities in the Sikh religion revolve around the anniversaries of the 10 Sikh Gurus. These Gurus were responsible for shaping the beliefs of the Sikhs. Their birthdays, known as Gurpurab, are occasions for celebration and prayer among the Sikhs. Guru Nanak, the founder of Sikhism, was born on Puranmashi of Kattak in 1469, according to the Vikram Samvat calendar in Rai-Bhoi-di Talwandi in the present Shekhupura District of Pakistan, now Nankana Sahib. It is a Gazetted holiday in India. The celebrations usually commence with Prabhat Pheris. Prabhat Pheris are early morning processions that begin at the Gurudwaras and proceed around the localities singing hymns. Generally, two days before the birthday, Akhand Path (a forty-eight-hour non-stop reading of the Guru Granth Sahib, the holy book of the Sikhs) is held in the Gurdwaras. The day prior to the birthday, a procession, referred to as Nagarkirtan, is organised. This procession is led by the Panj Pyaras (Five Beloved Ones).They head the procession carrying the Sikh flag, known as the Nishan Sahib and the Palki (Palanquin) of Guru Granth Sahib. They are followed by teams of singers singing hymns and devotees sing the chorus. There are brass bands playing different tunes and 'Gatka' teams display their swordsmanship through various martial arts and as mock battles using traditional weapons. The procession pours into the streets of the town. The passage is covered with banners and gates are decorated flags and flowers, for this special occasion. The leaders spreading the message of Guru Nanak. On the day of the Gurpurab, the celebrations commence/begin early in the morning at about 4 to 5 a.m. This time of the day is referred to as Amrit Vela. The congregation starts singing Gurbani at about 1:20 a.m., which is the actual time of birth of Guru Nanak. The celebrations culminate at around 2 a.m. The festival promotes equality, selfless service (seva), and devotion, marked by Nagar Kirtan processions and Langar. Also commemorates his teachings of 'Ik Onkar' (one God), universal brotherhood, and equality. There is also Akhand Path: 48-hour continuous reading of the Guru Granth Sahib in Gurdwaras.",
-    images: [gurupurab1, gurupurab2, gurupurab3],
-    source: "(src: wikipedia.com, www.sikhpa.com)",
+      "Harela is a Hindu festival celebrated in the Indian state of Uttarakhand and mainly in Mahasu region of Himachal Pradesh. This festival is very popular in the Kumaon region of Uttarakhand, and is celebrated by the name Harela. This name is used in some places of Garhwal but, it is not commonly used, as the festival is celebrated as Mol-Sankranti or as Rai-Sagrān .It is called Hariyali/Rihyali in Kangra, Shimla and Sirmaur districts, and Dakhrain in Jubbal and Kinnaur district of Himachal Pradesh. This festival is celebrated on the first day of Shravan-Maas , as per the Hindu Luni-Solar calendar. This festival marks the onset of the Rainy-Season. They pray for a good harvest and prosperity. Harela means "Day of Green", and Agriculture-based communities in the region consider it highly auspicious, as it marks the beginning of the sowing cycle in their fields. Multiple Kauthigs/Thols/Melas Harela has a great significance in Kumaon. This symbolizes a new harvest and the rainy season. It has become a common practice to attribute the slogan of – "Save The Environment" to Harela. Schools in Uttarakhand often encourage their students to plant saplings either at home, school or with the support of local officials. In Kumaun, the two celebrations during Navrati – first during Chaitra Navrati in the month of Chaitra, and second during Sharad Navratri in the month of Ashwin, is also considered to be connected to Harela. This is followed by Bhaitauli or Bhitauli wherein gifts are given to girls of the family. The Shravan Harela is celebrated as the first day of the Hindu calendar month of Shravan .Ten days before the due date, 5 or 7 types of seeds are sown in buckets by the head of every family. Water is then sprinkled over them. After the due time, but before the actual celebration, a mock wedding is done by young ones. It is also marked by playing 'Gedi'. It is a game where small children mount on bamboo sticks and walk around farms. The harvested herbs are taken as God's blessings. Elders of the home put harela on the heads of others, touching the harela from their head to feet. A blessing verse is also chanted while putting harela. This is the symbol for the rainy season and the new harvest. People also eat the seeds of the new harvest after heating them. People meet their relatives, and enjoy the festival. Some people also sow the seeds of new plants in the soil or fields and join their hands in the form of 'Pranam' for saving the environment. Harela symbolizes the new harvest of the rainy season every year. are also organized at this festival.",
+    images: [har1],
+    source: "(src: wikipedia.com)",
   },
   {
-    name: "Teej (Teeyan)",
+    name: "Kandali Festival",
     tagline:
       "Celebrates the onset of monsoon",
     description:
-      "It is a festival celebrated throughout Punjab which is dedicated to the onset of the monsoon and focuses on daughters sisters, and mothers. The festival is celebrated during the monsoon season from the third day of the lunar month of Sawan on the bright half, up to the full moon of Sawan (about 13 days), by women. Married women go to their maternal house to participate in the festivities. In the past, it was traditional for women to spend the whole month of Sawan with their parents. Whether or not a married woman goes to her parents, brothers take a gift set to their sisters called a 'sandhara'. A sandhara includes a Punjabi Suit/sari, laddoo, bangles, mehndi (henna) and a swing.",
-    images: [teej1, teej2, teej3],
-    source: "(src: wikipedia)",
+      "The festivals celebrated in the Kumaon region of Uttarakhand have their own charm and spell over its tourists. Talking about one such festival that is celebrated in the Pithoragarh District is Kangdali. This festival falls between the months of August and October and is celebrated in the Chaundas Valley every 12 years along with the blooming of the Kangdali plant. The ones who anticipate for this auspicious festival the most are the Rung Tribals of Pithoragarh District. This local festival was last held in 2011 where the tribes commemorate the defeat of Zorawar Singh's army which attacked the area in the late 19th Century.One may find several mythologies that follow the celebration of this propitious festival. The one that is popularly heard and enacted in the festival is that when the villages nearby Pithoragarh were being robbed by the soldiers who were on their way adjacent to the Kali River, they found a rescue spot in the Kangdali plants. When the women belonging to the village tried to repel the soldiers, the same plants ended up being destroyed and uprooted. The rituals that are followed in the festival are that the women start the cavalcade where they uproot the plants grown over the period with rills along with men and children carrying swords. The plants are taken back home as the mars of war. A festival with such a great history is incomplete without the spellbinding sound of folk music and dance, and hence the tribes perform their special dance upon the destructions of the plants blossoming every 12 years in the area. Travellers from across the country are accompanied by the locals from other villages to make the festival more extravagant and to keep traditions and customs together for the coming ages. Kangdali Festival is one of the important festivals of Kumaon Region and is celebrated once every 12 years in the Pithoragarh District.The women of the Rung Tribals of Chaundas Valley begin the procession where they uproot the plants with rills followed by the men and children carrying their swords.The uprooted plants are taken back as the mars of the war.The villagers celebrate by enjoying to the folk music and performing a special dance upon destructions of the plants blossoming every 12 years.",
+    images: [kd],
+    source: "(src: Tour my India)",
   },
   {
-    name: "Bandi chorr divas",
+    name: "Hilljatra",
     tagline: "Celebrated alongside Diwali to commemorate the release ofthe sixth Guru, Guru Hargobind Sahib Ji.",
     description:
-      "Also known as Bandi Chhor Dihara, is a Sikh celebration of Diwali commemorating the day when the sixth Guru of Sikhs, Guru Hargobind were released from Gwalior Fort, whom Sikhs believe also freed fifty-two Rajput rajas of the Hill Chieftainships alongside him, who had been imprisoned by Mughal Emperor Jahangir. The Bandi Chhor Divas is celebrated by the lighting up of homes and Gurdwaras, celebratory processions (nagar kirtan) and langar (community kitchen). It is an important Sikh celebration along with Vaisakhi, Hola Mohalla and Gurpurab. It is one of three Sikh celebrations still calculated using the traditional Bikrami calendar, alongside Vaisakhi and Guru Nanak Gurpurab. Bandi Chhor Divas was celebrated when Guru Hargobind was released from Gwalior prison with 52 prisoners and princes holding on to his robe or cape with 52 ropes. The guru led all 52 innocent rulers to safety without any signs of war or battle. In addition to Nagar keertan (a street procession) and an Akhand paath (a continuous reading of Guru Granth Sahib), Bandi Chhor (Shodh) Divas is celebrated with a fireworks display. The Sri Harmandir Sahib, as well as the whole complex, is festooned with thousands of shimmering lights. The gurdwara organizes continuous kirtan singing and special musicians. Sikhs consider this occasion as an important time to visit Gurdwaras and spend time with their families.",
-    images: [bandi1, bandi2],
-    source: "(src: utsav.gov.in, Wikipedia)",
+      "Hilljatra is amongst the traditional festivals celebrated in the state of Uttarakhand, especially in Pithoragarh district of Kumaon Region. The festival is celebrated mainly by the people associated with farming in the state. The origin of this festival is believed to be from the Sorar Region of West Nepal to the Sor Valley and was initially introduced in Kumaour village. Later, it was also observed by the people of Bajethi and other villages of Pithoragarh district. Along with that, Kanalichhina and Askot regions also accepted the festival as 'Hiran Chital' with some modifications. During the festival, a white-clothed deer is worshipped as a regional god. The festivity takes place in three phase, and in the first phase sacrifice of goat is made with all the rituals, whereas in the second phase, dramas are performed for public and in the third and final phase, songs are sung and dance is performed.This festival in Uttarakhand is celebrated in the remembrance of Champawat Rulers as it is connected with their victory. However, the major connection of the festival is with the plantation of paddy along with agricultural and pastoral labourers of the rainy season. Another belief behind this festival is that Chand Dynasty King Kuru once went to Sorar to participate in Hilljatra Festival and sacrificed a buffalo with horns covering the neck. This made the people happy and they decided to bestow the King with gifts. The King Kuru then decided to introduce the festival in Sor Valley and asked for four masks; Halwaha, two bullocks, one implement - the Nepali plough, and Lakhiabhoot as a gift. Thus, the festival of Hilljatra was introduced in the state of Uttarakhand.",
+    images: [hill1],
+    source: "(src: Wikipedia)",
   },
   {
-    name: "Shaheedi Divas",
+    name: "Janopunya & Bagwal fair",
     tagline:
       "Also known as Guru Tegh Bahadur martyrdom",
     description:
-      "Guru Tegh bahadur was the ninth of ten gurus who founded the Sikh religion and was the leader of Sikhs from 1665 until his beheading in 1675. He was born in Amritsar, Punjab, India in 1621 and was the youngest son of Guru Hargobind, the sixth Sikh guru. Considered a principled and fearless warrior, he was a learned spiritual scholar and a poet whose 115 hymns are included in the Guru Granth Sahib, which is the main text of Sikhism. He was the founder of Anandpur Sahib in 1664. Guru Tegh Bahadur was executed on the orders of Aurangzeb, the sixth Mughal emperor, in Delhi, India. Sikh holy premises Gurudwara Sis Ganj Sahib and Gurdwara Rakab Ganj Sahib in Delhi mark the places of execution and cremation of Guru Tegh Bahadur. His day of martyrdom (Shaheedi Divas) is commemorated in India every year on 24 November. Devotees hold special Diwans (congregations) and read from the Guru Granth Sahib. Prayers are offered at Delhi’s Gurudwara Sis Ganj Sahib (site of execution) and Gurudwara Rakab Ganj Sahib (site of cremation). The celebrations include Nagar Kirtans (street processions), Langar (community meals), and kirtan singing, particularly the 'Bachittar Natak' composed by his son, Guru Gobind Singh.",
-    images: [shaheedi1],
-    source: "(src: wikipedia)",
-  },
-  {
-    name: "Raksha Bandhan",
-    tagline: "Also called as Rakhri / Rakhrya",
-    description:
-      "It is celebrated on the Shravan Purnima (full moon) day, strengthening sibling bonds through the tying of a sacred thread. Sisters tie a Rakhri (thread) on their brothers' wrists, praying for long life and well-being, while brothers offer gifts and protection. Historically, the term "Rakhi" was used by the Sikh Khalsa Army to symbolize their promise to protect farmers and their lands. Sisters may travel to their natal homes (Pehka) to celebrate. The festival is marked by sweets, new clothes, and family gatherings. An annual fair called Rakhar Punya is held at Baba Bakala in the district of Amritsar on the occasion of Raksha Bandhan. This fair has a connection with an important event in the history of the Sikh faith. It is at this holy shrine at Baba Bakala that the famous trader Makhan Shah Lubana declared from the rooftop that he had finally found the true Guru. Guru Harkrishn while on his deathbed in Delhi clumsily uttered “Baba Bakale”. The Sikhs of the time interpreted that the Guru had predicted that his successor would be found in Baba Bakale which was earlier known as Bakkan-Wala. The trader Makhan Shah Lubana made efforts to find the true Guru as he wanted to keep his promise to donate 500 dinars to the true Guru for saving his life from the great storm. His trick to find the true Guru at Baba Bakale worked. He then started shouting from the rooftop 'Guru Ladho Rae', meaning the Guru has been found. This historic event made Baba Bakala a place of pilgrimage for the Sikhs from across the globe. And, it also made Baba Bakala the venue of the annual fair of Rakhar Punya on the festival of Raksha Bandhan. The fair brings people of diverse faiths and religions from across the country together.",
-    images: [rakhi1, rakhi2],
-    source: "(sec: Wikipedia)",
-  },
-  {
-    name: "Maghi",
-    tagline: "Indian harvest festival celebrated on winter solstice",
-    description:
-      "Maghi is a Punjabi cultural festival, the Indian harvest festival celebrated on winter solstice. Maghi falls on the first day of the month of Magh and is celebrated in Punjab, Haryana, Jammu and Himachal Pradesh. It follows on the heels of the mid-winter festival of Lohri which is marked by bonfires in North Indian fields and yards. The next morning is seen as an auspicious occasion for ritual bathing in ponds and rivers. In the ancient Indian epic the Mahabharata, it was on Maghi (Makar Sankranti) that Bhishma attained mukti (liberation) after having heard discourses about the mysteries of life and death since Kartik Purnima during the Mahabharata War. For Sikhs it is a community gathering to commemorate martyrdom of forty Sikhs (Chalis Mukte) who once had deserted the tenth and last human Guru of Sikhism, Guru Gobind Singh at Anandpur Sahib, but later rejoined the Guru and died while fighting the Mughal Empire army led by Wazir Khan in 1705. Sikhs make a pilgrimage to the site of the war, and take a holy dip in the sacred water pond of Gurdwara Sri Tootti Ganddi Sahib in Muktsar. A fair (mela) is held at Muktsar every year and called the Mela Maghi which is held in memory of the forty Sikh martyrs. Before this tradition started to commemorate the Sikh martyrs who gave their lives to protect the tenth Guru, the festival was observed and mentioned by Guru Amar Das, the third Guru of Sikhism. In Punjab, Maghi is celebrated by eating kheer such as rauh di kheer which is an old dish where rice is cooked in sugarcane juice. The dish is prepared in the evening before Maghi and is kept to cool. It is served cold next morning on Maghi with red-chili mixed curd. In some parts of Punjab, India, it is also traditional practice to eat khichdi mixed with lentils, consume raw sugarcane and jaggery, Fairs are held at many places in Punjab on Maghi. Maghi is observed across Punjab as - The beginning of the new agricultural year; A time for settling land leases and accounts; A marker of seasonal transition and renewed labour.",
-    images: [maghi1, maghi2],
-    source: "(src: wikipedia, incredibleindia.com)",
-  },
-  {
-    name: "Karva Chauth",
-    tagline: "Encapsulates the essence of Indian marital bonds",
-    description:
-      "It is a prominent, one-day festival where married women fast from sunrise to moonrise, praying for their husbands' longevity and prosperity. Traditions include pre-dawn sargi (meals), applying mehndi, dressing in red/bridal attire, listening to Katha, and breaking the fast by viewing the moon through a sieve. The day begins before dawn with a traditional meal sent by the mother-in-law, called Sargi, typically including pheni (vermicelli), sweets, fruits, and dry fruits. Women observe Strict, water-less (nir-jala) fast for the whole day starting after dawn till the moon is observed. Women dress in traditional, often bridal, red outfits, apply intricate mehndi (henna), and wear red glass bangles. In the evening, women gather to hear the traditional Karva Chauth story (Katha). They exchange baya (gifts, sweets, and pottery) with their mothers-in-law. The fast is broken at night after viewing the moon and the husband through a sieve (channi), offering water (Arghya) to the moon.",
-    images: [karva1, karva2],
-    source: "(src: wikipedia)",
-  },
-  {
-    name: "",
-    tagline: "",
-    description:
-      "Other Important festivals that are celebrated in Punjab are – Krishna Janmashtami, Mahashivratri, Sanjhi, Ram Navami, Dussehra, Diwali.",
-    images: [],
-    source: "",
+      "Devidhura is a small village in Champawat district of Uttarakhand. The nearest rail-head, Kathgodam station in 100 odd kilometers and can be reached via bus or sharing taxi in 4-5 hrs.On the Poornima(full moon day) of Shravan month of Hindu Calender, when the entire nation is celebrating the festival of Brothers & Sisters, Raksha Bandhan, people here in Devidhura celebrate the festival of Bagwal in which they pelt stones at each other to make them bleed to please their local deity, Maa Varahi Devi.According to locals, people used to do Nar Bali(Human Male Sacrifice) in ancient times to please their Goddess. One day a woman denies to give her only grandson for the Bali. Then Goddess appeared in the dream of the temple's priest and ask if people can offer blood equivalent of one adult then she can relinquish the Bali. Since then people gather here in the compound of Maa Varahi Temple in Devidhura and pelt stones on each other to shed the required amount of blood. Bagwal is played between four different groups of people. These groups are called "Khams". These Khams are- Lamgariya Kham, Valig kham, Chamyal Kham and Garahwal Kham. Only people of these Khams can take part in this Bagwal . At around 12:30-1 pm one by one all the four Khams enter the compound and do the Parikrama of the compound with the Jai Kara. After each Kham has done the parikrama , each Kham place themselves to each corner of the compound and on the signal of Shankh(Conch Horn) Sound given by the priest of the temple they start the fight by throwing stones and fruits on other people, while some people also bring a wooden shield known as Farra locally to protect themselves. Then the Priest again give signal by blowing Shankh to stop the fight. Fighters of each Kham then hug each other and then with the sound of the "Jai Maa Varahi" bagwal fights end.",
+    images: [jan1],
+    source: "(src: The Times of India)",
   },
 ];
 
 const historicalPlaces = [
   {
-    name: "Golden Temple",
+    name: "Badrinath",
     description:
-      "The Golden Temple / Sri Harmandir Sahib is a Gurdwara located in Amritsar, Punjab. It is the pre-eminent spiritual site of Sikhism and is one of its holiest sites, alongside the Gurdwara Darbar Sahib in Kartarpur and the Gurdwara Janam Asthan in Nankana Sahib, both in Punjab, Pakistan. The sarovar (holy pool) on the site of the gurdwara was completed by the fourth Sikh Guru, Guru Ram Das, in 1577. In 1604, Guru Arjan, the fifth Sikh Guru, placed a copy of the Adi Granth in the Golden Temple and played a prominent role in its development. The gurdwara was repeatedly rebuilt by the Sikhs after they became a target of persecution and was destroyed several times by the Mughal and invading Afghan armies. Maharaja Ranjit Singh, after founding the Sikh Empire, rebuilt it in marble and copper in 1809, and overlaid the sanctum with 24-karat gold leaf in 1830. This has led to the name the Golden Temple. Over 500 kg of gold was used during its 19th-century restoration and subsequent renovations in the 1990s. In 1984, Prime Minister Indira Gandhi sent in the Indian Army as part of Operation Blue Star, leading to the deaths of thousands of soldiers, militants and civilians, as well as causing significant damage to the gurdwara and the destruction of the nearby Akal Takht — the prime seat of authority for the Sikhs. The gurdwara complex was again rebuilt after the 1984 attack. The Golden Temple is an open house of worship for all people, from all walks of life and faiths. It has a square plan with four entrances, and a circumambulation path around the pool. The four entrances of the gurdwara symbolise the Sikh belief in equality and the Sikh view that people from all groups, castes and ethnicities are welcome at their holy place. Harmandir Sahib complex has a langar, a community-run free kitchen and dining hall. It is attached to the east side of the courtyard near the Dukh Bhanjani Ber, outside of the entrance. Food is served here to all visitors who want it, regardless of faith, gender or economic background. Vegetarian food is served and all people eat together as equals. Everyone sits on the floor in rows, which is called sangat. The meal is served by volunteers as part of their kar seva ethos. Over 100,000 meals are served at the langar every day. The gurdwara complex has been nominated as a UNESCO World Heritage Site, and its application is pending on the tentative list of UNESCO.",
-    images: [golden1, golden2, golden3],
-    source: "(src: Wikipedia, tripadvisor)",
+      "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath. Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November. It is one of the most visited pilgrimage centers of India, having recorded 2.8 million (28 lakh) visits in just 2 months in 2022. It is one of the Char Dham pilgrimage sites. The image of the presiding deity worshipped in the temple is a 1 ft (0.30 m), the black granite deity of Vishnu in the form of Badrinarayan. The deity is considered by many Hindus to be one of eight svayam vyakta kshetras, or self-manifested deities of Vishnu. The temple was included in the Uttar Pradesh state government Act No. 30/1948 as Act no. 16,1939, which later came to be known as "Shri Badarinath and Shri Kedarnath Mandir Act". The committee nominated by the state government administers both the temples and has seventeen members on its board.Devotees at the Badrinath Temple in October 2022The temple is mentioned in ancient religious texts like Vishnu Purana and Skanda Purana. It is glorified in the Naalayira Divya Prabandham, an early medieval Tamil canon of the Alvar saints from the 6th–9th centuries CE.According to local tradition, the image of Badrinarayan was first served by Narada; later when the region became Buddhist, the Buddhists had Badrinarayan removed from the temple and thrown into the Tapt Kund. Later, Adi Shankara expelled all the Buddhists in the region, recovered Badrinarayan from the Tapt Kund, and reestablished the temple with the help of the Parmar ruler king Kanak Pal. The hereditary successors of the king governed the temple and endowed villages to meet its expenses. The income from a set of villages on the route to the temple was used to feed and accommodate pilgrims. The Parmar rulers held the title "Bolanda Badrinath", meaning speaking Badrinath. They had other titles, including Shri 108 Basdrishcharyaparayan Garharaj Mahimahendra, Dharmabibhab, and Dharamarakshak Sigamani. According to another traditional story, Badrinarayan was removed from the temple and put into the Tapt Kund by the pujari who was forced to close the temple due to lack of pilgrims and revenue. When Ramanuja was in the Pandukeshwar temple, the Garhwali god Ghanta Karna possessed a person and told Ramanuja, who promptly went to Badrinath and reinstalled the deity. The throne of Badrinath was named after the presiding deity; the king enjoyed ritual obeisance by the devotees before proceeding to the shrine. The practice was continued until the late 19th century. During the 16th century, the King of Garhwal moved the murti to the present temple. When the state of Garhwal was divided, the Badrinath temple came under British rule but the king of Garhwal continued as the chairman of the management committee. The selection of priest is done after consultation between Garhwal and Travancore royal families. According to the Chaurasi Baithak ,Vallabha visited the Badrinath temple on a fasting day and sought fruit, but finding none Badrinath ordered him to break the fasting rules and eat grain. There exists a baithak of Vallabha at the foot of the temple hill. Tulsidas praises Nara-Narayana and Badarikashrama in his Vinaya Patrika The temple has undergone several major renovations due to its age and damage by an avalanche. In the 17th century, the temple was expanded by the Kings of Garhwal. After significant damage during the great 1803 Garhwal earthquake, it was largely rebuilt by the King of Jaipur. It was still under renovation as late as the 1870s but these were completed by the time of the First World War. At that time, the town was still small, consisting of only the 20-odd huts housing the temple's staff, but the number of pilgrims was usually between seven and ten thousand. The Kumbh Mela festival held every twelve years raised the number of visitors to 50,000. The temple also enjoyed revenue from the rents owed to it by various villages bequeathed by various rajas. During 2006, the state government announced the area around Badrinath as a no construction zone to curb illegal encroachment. ",
+    images: [ba1],
+    source: "(src:Travel Vaidya)",
   },
   {
-    name: "Jallianwala Bagh",
+    name: "Kedarnath",
     description:
-      "It is a historic garden and memorial of national importance close to the Golden Temple complex in Amritsar, Punjab, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that took place on the site on the festival of Baisakhi Day, 13 April 1919. The 7-acre (28,000 m2) site houses a museum, gallery and several memorial structures. The Bagh was founded by Sardar Himmat Singh Bains, Jagirdar of Alawalpur, Dhogri and other villages in the area, as well as additional villages in Gurdaspur, Multan, Kohat, and Peshawar amounting to an annual income of RS 3,00,000. Jallianwala Bagh Massacare - In 1919, in response to excluding Mahatma Gandhi from visiting Punjab, the secret deportation of Saifuddin Kitchlew and Satyapal on 10 April and the reactions to the Rowlatt Act, Punjab had witnessed attempts of Indians to gather and protest. On the morning of Baisakhi, 13 April 1919, to the sound of military drums by the cities town criers, Punjab Brigadier General R.E.H. Dyer's new rules were proclaimed. He had placed restrictions on leaving the city without a permit, banned all 'processions of any kind' and any congregation of more than four people, and announced around the city that 'any person found in the streets after 8 pm will be shot'. The announcements came at a time of noise and unusual heat, and missed key locations around the city, so that they were not widely disseminated. Dyer was subsequently informed at 12.40 pm that day that a political gathering was to be held at Jallianwala Bagh. By the time Dyer arrived with 90 Sikh, Gurkha, Baloch, Rajput troops from 2-9th Gurkhas, the 54th Sikhs and the 59th Sind Rifles, there was a crowd of 20,000; a mix of speakers, listeners, picnic-makers, men, women and children of all ages, including Hindus, Sikhs, Muslims and Christians. Dyer then ordered his troops to fire at the crowds. Approximately 1,650 rounds were fired and the number, killing and injuring many; the numbers are disputed.",
-    images: [jallian1, jallian2, jallian3],
+      "Kedarnath Temple is a Hindu Temple, one of the twelve Jyotirlinga of Siva. The temple is located on the Garhwal Himalayan range near the Mandakini river, in the state of Uttarakhand, India. Due to extreme weather conditions, the temple is open to the general public only between the months of April (Akshaya Tritiya) and November (Karthika Purnamie, the autumn full moon). During the winters, the vigraha (deity) of the temple is carried down to Ukhimath to be worshiped for the next six months. Kedaranth seen as a homogeneous form of Śiva, the 'Lord of Kedaranth the historical name of the region.The temple is not directly accessible by road and has to be reached by a 17 kilometres (11 mi) uphill trek from Gaurikuṇḍa. According to Hindu legends, the temple was initially built by the Pāṇḍavas, and is one of the twelve Jyotirlingas, the holiest Hindu shrines of Śiva. The Pāṇḍava were supposed to have pleased Śiva by doing penance in Kedarnath. The temple is one of the four major sites in India's Chota Char Dham pilgrimage of Northern Himalayas and is the first of the panca Kedara pilgrimage sites. This temple is the highest among the 12 Jyotirlingas. It is one of the 275 paadal petra sthalams expounded in the Tevaram his temple is sung of by Tirugnāṇasambandar, Appar, Sundarar and Sekkizhar in their  Tevaram texts. Kedarnath was the worst affected area during the 2013 flash flood in North India. The temple complex, surrounding areas, and Kedarnath town suffered extensive damage, but the temple structure did not suffer any major damage. A large rock among the debris acted as a barrier, protecting the temple from the flood. At a height of 3,583 m (11,755 ft), 223 km (139 mi) from Rishikesh, on the shores of Mandakini river, a tributary of Ganga, is a stone edifice of unknown date. One of the earliest references to Kedarnath occurs in the Skanda Purana (c. 7th-8th century), which contains a story describing the origin of the Ganges river. The text names Kedar (Kedarnath) as the place where Shiva released the holy water from his matted hair.According to the hagiographies based on Madhava's Sankshepa-shankara-vijaya, the 8th century philosopher Adi Shankara died at the mountains near Kedarnath; although other hagiographies, based on Anandagiri's Prachina-Shankara-Vijaya, state that he died at Kanchipuram. The ruins of a monument marking the purported death place of Shankara are located at Kedarnath. Kedarnath was definitely a prominent pilgrimage centre by the 12th century, when it is mentioned in Kritya Kalpataru written by the Gahadavala minister Bhatta Lakshmidhara. Adi Shankara was believed to have revived this temple, along with Badrinath and other temples of Uttarakhand; he is believed to have attained Mahasamadhi at Kedarnath.",
+    images: [ked],
     source: "(src: wikipedia)",
   },
   {
-    name: "Wagh Border",
+    name: "Gangotri",
     description:
-      "The ceremony at the Attari–Wagah border is a daily ceremony that the security forces of India (Border Security Force) and Pakistan (Pakistan Rangers) have jointly followed since 1959. The drill is characterized by elaborate and rapid dance-like manoeuvres and raising legs as high as possible. It is symbolic of the brotherhood as well as the rivalry that these two nations share. The border troops exchange sweets with the opposing side during the Muslim holidays of Eid and Hindu holiday of Diwali. The flag lowering ceremony at the village of Wagah is held each evening immediately before sunset. The ceremony begins with battle calls from both sides in the form of loud screaming by the border guards. This is followed by a series of organized high kicks, stomps, and dance moves during which the opposing forces stare each other down. The event ends with a handshake of good faith being exchanged by the head guards along with the lowering of the flags. It has been a peaceful gathering with the exception of the 2014 Wagah border suicide attack claimed by three outlawed rival Islamist groups in which 60 people were killed and over 110 people were left injured. It has also been cancelled on occasion such as when Pakistan returned Wing Commander Abhinandan Varthaman back to India after his plane was shot down by the Pakistan Air Force (PAF) during the 2019 India–Pakistan standoff. It was also stalled for several days from 8 May 2025 due to the 2025 Pahalgam terrorist attack which killed 26 civilians.",
-    images: [wagah1, wagah2, wagah3, wagah4],
+      "Gangotri Temple, nestled in the serene town of Gangotri in Uttarkashi district of Uttarakhand, is one of the most revered shrines in India and an integral part of the Char Dham pilgrimage. Situated at an altitude of around 3,100 meters in the Garhwal Himalayas, the temple is dedicated to Goddess Ganga, the personification of the sacred river Ganges. According to Hindu mythology, it is believed that King Bhagirath performed penance here to bring the river Ganga down to earth to cleanse the sins of his ancestors. The temple, built in the early 18th century by Amar Singh Thapa, stands as a beautiful white granite structure surrounded by snow-clad peaks, lush deodar trees, and the gushing Bhagirathi River. The sanctum houses the idol of Goddess Ganga, which is carried back to Mukhba village during the harsh winter months when the temple remains closed due to heavy snowfall. The temple opens every year on Akshaya Tritiya in April–May and closes on Diwali in October–November, attracting thousands of devotees and tourists who seek spiritual solace and breathtaking natural beauty. The atmosphere around the temple is filled with chants, bells, and the sound of the river, creating a divine aura that leaves visitors mesmerized. Apart from its religious significance, Gangotri is also the gateway to several trekking routes, including the trek to Gaumukh, the origin of the Ganga, which lies about 19 kilometers away. Pilgrims often combine their visit with other Char Dham shrines—Yamunotri, Kedarnath, and Badrinath—making it a journey of immense spiritual importance. The temple not only symbolizes faith and devotion but also reflects the deep cultural and mythological heritage of India. Surrounded by pristine landscapes, Gangotri Temple offers a unique blend of spirituality and adventure, making it a must-visit destination for seekers of both divine blessings and Himalayan grandeur.",
+    images: [ganga],
     source: "(src: wikipedia)",
   },
   {
-    name: "Qila Mubarak",
+    name: "Yamunotri",
     description:
-      "Qila Mubarak is a fortress of Sikh architecture in Patiala, Punjab, India. It was the residential palace of the Maharaja of Patiala. Much of the fortress is closed-off to public access, including its Shish Mahal. However, there is public access to the Darbar Hall (now a museum), Sarad Khana, Jalau Khana, and cannon-barrels on-display. Qila Mubarak was first built as a 'Kachigarhi' (Mud fortress) by Sidhu Jat ruler Baba Ala Singh in 1763, who was the founder of the Patiala branch of the Phulkian dynasty. Later, it was reconstructed in baked bricks. It is said that the original fort created in 1763 was an extension built on top of an already existing Mughal fortress built by governor Hussain Khan in Patiala. The interior portion of Qila, which is known as Qila Androon is built by Maharaja Amar Singh. Qila Mubarak was first built as a 'Kachigarhi' (Mud fortress) by Sidhu Jat ruler Baba Ala Singh in 1763, who was the founder of the Patiala branch of the Phulkian dynasty. Later, it was reconstructed in baked bricks. It is said that the original fort created in 1763 was an extension built on top of an already existing Mughal fortress built by governor Hussain Khan in Patiala. The interior portion of Qila, which is known as Qila Androon is built by Maharaja Amar Singh.",
-    images: [qila1, qila2, qila3],
+      "Yamunotri, located in the Uttarkashi district of Uttarakhand, is one of the four sacred shrines of the Char Dham pilgrimage and holds immense spiritual significance for Hindus. Perched at an altitude of about 3,293 meters in the Garhwal Himalayas, Yamunotri is dedicated to Goddess Yamuna, the divine embodiment of the Yamuna River. According to Hindu mythology, Yamuna is the daughter of Surya, the Sun God, and the sister of Yama, the God of Death. It is believed that bathing in the holy waters of Yamunotri protects devotees from untimely death and grants liberation. The temple was originally constructed by Maharaja Pratap Shah of Tehri Garhwal and is a modest yet beautiful shrine surrounded by snow-covered peaks, dense forests, and the gushing Yamuna River. The idol of Goddess Yamuna, made of black marble, is enshrined in the sanctum. A unique feature of Yamunotri is its natural hot springs, especially the Surya Kund, where pilgrims cook rice and potatoes tied in cloth, which are later offered as prasad. Another sacred spot nearby is Divya Shila, a rock pillar worshipped before entering the temple. The temple opens every year on Akshaya Tritiya in April–May and closes on Diwali in October–November, as the region becomes inaccessible due to heavy snowfall. The trek to Yamunotri is itself a spiritual journey, with a 6-kilometer trail from Janki Chatti offering breathtaking views of the Himalayas, waterfalls, and lush valleys. Pilgrims often combine their visit to Yamunotri with the other Char Dham shrines—Gangotri, Kedarnath, and Badrinath—making it a vital part of the sacred circuit. Beyond its religious importance, Yamunotri captivates visitors with its pristine natural beauty, serene atmosphere, and the divine aura that surrounds the temple. It is not just a destination of faith but also a place where spirituality and nature blend seamlessly, offering peace, devotion, and a profound connection to the Himalayas.",
+    images: [yam1],
     source: "(src: wikipedia)",
   },
   {
-    name: "Maharaja Ranjit Singh War Museum",
+    name: "Rishikesh",
     description:
-      "The largest city in the state of Punjab, Ludhiana boasts of housing one of the most popular places to see in the state – Maharaja Ranjit Singh War Museum. Spreading across four acres in area, this museum came into existence in the year 1999. The Punjab Government constructed the museum as a gesture of tribute to the courageous soldiers who struggled and laid their lives during various wars and battles that have been fought so far. Keeping up the museum with the International standards was the prime focus of the Government of Punjab. A majestic statue of Maharaja Ranjit Singh sitting proudly on a throne welcomes you as you enter the museum. It has 12 galleries with exhibits of different divisions like the Ancient History Gallery, Post Independence History Gallery, War Hero Gallery, Air Force and Navy Gallery etc. The main hall displays pictures of the various Chakra winners, Chief Marshals, Generals and Admirals of Punjab. Two glorious lawns exhibit trophies of the Navy, Army and Air Force. A major attraction of this museum is the light and sound show which narrates the story of war of independence and the role of the gallant soldiers of Punjab in it. The show also creates a sense of nationalism among the people. You can also have a look at the number of battle tanks, Anti-aircraft guns, an old Sukhoi and an INS Vikrant model placed around the museum for the visitors to see. The Government of Punjab has been spending a good amount of money for the maintenance of the Maharaja Ranjit Singh War Museum to immortalize the memories of independence. This conscientious effort definitely calls for a visit to this honorable museum.",
-    images: [ranjit1, ranjit2, ranjit3],
-    source: "(src: wikipedia, Incredible India)",
+      "Rishikesh, often referred to as the “Yoga Capital of the World,” is a spiritual town located in the foothills of the Himalayas along the banks of the sacred Ganga River in Uttarakhand. Known for its serene atmosphere, ancient temples, and vibrant ashrams, Rishikesh attracts pilgrims, seekers, and travelers from across the globe. The town holds immense religious significance as it is believed that meditation and penance performed here lead to liberation. It is also the gateway to the Char Dham pilgrimage—Yamunotri, Gangotri, Kedarnath, and Badrinath—making it a vital stop for devotees. The iconic suspension bridges, Lakshman Jhula and Ram Jhula, are landmarks that connect the town across the river and are steeped in mythology, with legends linking them to the epic Ramayana. Rishikesh is also renowned for its yoga and meditation centers, where practitioners immerse themselves in spiritual learning and holistic healing. The annual International Yoga Festival draws participants from around the world, reinforcing its global reputation. Beyond spirituality, Rishikesh offers adventure activities such as river rafting, trekking, and camping, making it a unique blend of devotion and thrill. The evening Ganga Aarti at Triveni Ghat is a mesmerizing experience, with chants, lamps, and the flowing river creating a divine ambiance. The town is dotted with temples like Bharat Mandir, Neelkanth Mahadev, and Parmarth Niketan Ashram, each adding to its cultural richness. Vegetarianism is strictly observed here, and the town is free of alcohol, reflecting its sacred character. Rishikesh has also been a hub for saints, sages, and philosophers for centuries, and even the Beatles visited in the 1960s to learn meditation at the Maharishi Mahesh Yogi Ashram, which today stands as a popular attraction. Surrounded by lush hills, waterfalls, and the ever-flowing Ganga, Rishikesh offers a perfect retreat for those seeking peace, spirituality, and adventure. It is not just a destination but an experience that harmonizes body, mind, and soul, making it one of the most cherished places in Uttarakhand.",
+    images: [rish1],
+    source: "(src: Incredible India)",
   },
   {
-    name: "Gobindgarh Fort",
+    name: "Mussoorie",
     description:
-      "Gobindgarh Fort is a historic military fort located in the center of the city of Amritsar in the Indian state of Punjab. The Fort was until recently under the Indian Army, but was opened to the public on 10 February 2017. Today the fort is being developed as a museum and theme park, as a repository of Punjab’s history. Popularly known as the Bhangian da Killa (fort of the Bhangis) after its 18th- century founder belonging to Bhangi Misl of Dhillon Jats rulers. Maharaja Ranjit Singh renamed it in the early 19th-century after the 10th Sikh guru, Guru Gobind Singh. Gobindgarh Fort is located on the south west fringe of Amritsar, in a square pattern, with a perimeter of 1,000 m and made up entirely of bricks and lime. The fort had 25 cannons mounted on its ramparts and it remained with the Bhangi rulers till 1805. From the middle of the 19th century until Indian independence in 1947, it was occupied by the British army who made numerous defensive improvements to the fort to take account of technological advances in weaponry. The fort was originally built by Dhillon Jat Misldar (militia chief) Gujjar Singh Banghi of Bhangi Misl, the local chieftain in the 18th century. Bhangi Misl was conquered and enhanced in the early 19th century by Maharaja Ranjit Singh who renamed it after the 10th Sikh guru, Guru Gobind Singh. It is made of bricks and lime and is laid out in a square. Each of its corners has a parapet and two doors. It had 25 cannons mounted on its ramparts and has four bastions. The main entrance, Nalwa Gate, is named after Hari Singh Nalwa. Keller Gate is the back entrance. A tunnel runs towards Lahore. There were 25 cannons, originally, in the fort. The three bastions connected through a rampart depict positive values in the structure of a common thread. These include the spiritual basis for martial traditions, a multi-cultural ethos, progressive, creative and pragmatic perspective, resistance to tyranny and protection to weak.",
-    images: [gobindgarh1, gobindgarh2],
-    source: "(src: Wikipedia)",
+      "Mussoorie, fondly known as the “Queen of Hills,” is a charming hill station located in the Dehradun district of Uttarakhand. Nestled in the foothills of the Garhwal Himalayas at an altitude of about 2,000 meters, Mussoorie is a popular tourist destination that offers breathtaking views of the snow-clad Himalayan ranges and the sprawling Doon Valley. Established during the British era in 1823, the town still retains its colonial charm with old churches, heritage buildings, and quaint streets. The Mall Road, lined with shops, cafes, and restaurants, is the heart of Mussoorie and a favorite spot for visitors to stroll and soak in the lively atmosphere. Landmarks such as Gun Hill, the second-highest point in Mussoorie, provide panoramic views of the surrounding mountains, while Kempty Falls, located a short drive away, is a picturesque waterfall that attracts families and nature lovers alike. Mussoorie is also home to Lal Tibba, the highest point in the town, offering stunning vistas of peaks like Kedarnath and Badrinath on clear days. The town is dotted with lush gardens, colonial-era schools, and scenic walking trails that make it a perfect retreat for relaxation and rejuvenation. Beyond its natural beauty, Mussoorie has a rich cultural and literary heritage, being the home of renowned author Ruskin Bond, whose stories capture the essence of life in the hills. The pleasant climate, cool breeze, and misty mornings make Mussoorie an ideal getaway throughout the year, especially during summer when it serves as a refreshing escape from the heat of the plains. With its blend of scenic landscapes, historical charm, and vibrant local culture, Mussoorie continues to enchant travelers, offering them a delightful mix of tranquility, adventure, and nostalgia in the lap of the Himalayas.",
+    images: [mus1],
+    source: "(src:Char Dham Yatra)",
   },
   {
-    name: "Anandpur Sahib",
+    name: "Patal Bhuvaneshwar",
     description:
-      "Anandpur Sahib, also referred simply as Anandpur (lit. 'city of bliss'), is a city on the edge of the Shivalik Hills, in the Rupnagar district (Ropar) of Punjab, India. Located near the Sutlej River, the city is one of the most sacred religious places in Sikhism, being the place where the last two Sikh Gurus, Guru Tegh Bahadur and Guru Gobind Singh, lived. It is also the place where Guru Gobind Singh founded the Khalsa Panth in 1699. The city is home to Takhat Sri Kesgarh Sahib, the third of the five Takhts in Sikhism. The town was founded by the ninth Sikh guru, Guru Tegh Bahadur. The city is a pilgrimage site in Sikhism. It is the venue of the largest annual Sikh gathering and festivities during the Hola Mohalla in the spring season. Anandpur Sahib was founded in June 1665 by the ninth Sikh Guru, Guru Tegh Bahadur. Gurinder Singh Mann states that Guru Tegh Bahadur established Anandpur in 1684. He previously lived in Kiratpur, but given the disputes with Ram Rai – the elder son of Guru Har Rai and other sects of Sikhism, he moved to village in Makhoval. He named it Chakk Nanaki after his mother, and became a prominent Dharamshal (Gurdwara plus self-sufficient village), consisting of tent encampments, vernacular clay/adobe straw-thatched round hutments (Bunga) and small orchards and gardens in between the heavily forested hilly area and besides a stream and waterfall, (located in the area currently marked by Gurdwara Bhora Sahib). In 1675, Guru Tegh Bahadur was tortured and beheaded for refusing to convert to Islam under the orders of the Mughal Emperor Aurangzeb, a martyrdom that led Sikhs to rename the town to Anandpur and crown his son Gobind Das as per his orders (also known as Gobind Rai) as his successor and famous as Guru Gobind Singh. On the Vaisakhi day of 1699, the Guru sent out invitations across the land to distant and nearby Sikh congregations to convene at Anandpur for the upcoming festival. It was normal for the Guru to celebrate Vaisakhi at Anandpur with Sikh congregations annually but this time much more importance was placed on attendance than usual and more stringently. Guru Gobind Singh founded the Khalsa Panth in Anandpur on the day of the 1699 Vaisakhi festival after an elaborate ceremony and gathered a large armed militia.",
-    images: [anandpur1, anandpur2],
-    source: "(src: Wikipedia)",
-  },
-  {
-    name: "Partition Museum",
-    description:
-      "The Partition Museum is a public museum located in the town hall of Amritsar, Punjab, India. The museum aims to become the central repository of stories, materials, and documents related to the post-partition riots that followed the division of British India into two independent dominions: India and Pakistan. The museum also focuses on the history of the “anti-colonial movement, the Jallianwala Bagh massacre, the Komagata Maru incident, the All India Muslim League and the Indian National Congress, and the journey of resilience and recuperation for women”. The building wherein the museum is located in Amritsar was also “once the British headquarters and a jail”. The museum was inaugurated on 25 August 2017. In 1947, British India was divided into India and Pakistan. The partition lines, drawn on a map by the British lawyer Cyril Radcliffe, divided the province of Punjab and Bengal into two parts on the basis of religion. As a result, millions of people found themselves on the wrong side of the border overnight. According to various estimates, more than 800,000 Muslims, Hindus, and Sikhs were killed in the riots that followed the partition between August 1947 to January 1948. Additionally, more than 1,400,000 people became refugees. The Government of Punjab founded this museum with The Arts and Cultural Heritage Trust of the United Kingdom as a way to memorialize those who were affected by the partition. Therefore, the museum documents the catastrophic history of migration, loss of life and livelihood through testimonies of the first-generation partition survivors and their lived experiences. Based on extensive oral testimonies from individuals who witnessed the partition, the experiences of their family members, and material memories (the various objects that individuals managed to migrate with - be it jewelleries, clothes, or cooking utensils), the museum provides a platform for the younger generations to know the aftermath of what has been dubbed as one of the cataclysmic events in the recent history of the Indian subcontinent.",
-    images: [partition1, partition2, partition3],
-    source: "(src: Wikipedia)",
-  },
-  {
-    name: "Guru ke Mahal",
-    description:
-      "Nestled in the heart of Amritsar, just a short distance from the iconic Golden Temple lies Gurudwara Guru Ka Mahal – a treasure trove of Sikh history and spiritual significance. Step inside this revered shrine and embark on a journey through the lives of the Gurus. Built in 1573 AD by Guru Ram Das Ji, the fourth Sikh Guru, Gurudwara Guru Ka Mahal, was originally a humble dwelling. This historic site served not only as the residence of Guru Ram Das Ji, the founder of Amritsar but also witnessed several pivotal moments in Sikh history. Here, Guru Arjan Dev Ji, the fifth Guru, was married and later appointed as the spiritual leader. This very place also holds the distinction of being the birthplace of Baba Atal Rai and Guru Tegh Bahadur Ji, the ninth Guru. Over time, the residence was expanded and transformed into the revered Gurudwara we see today, a testament to the enduring legacy of the Gurus. More than just a historical site, Gurudwara Guru Ka Mahal is a vibrant hub of faith and community. Observe the daily rituals, or join in the special divan (religious gatherings) and langar (community kitchen) held on the first Sunday of every Bikrami month. The gurudwara also commemorates the birth anniversary of Guru Tegh Bahadur Ji with great enthusiasm on Baisakhi, a lively harvest festival. These community activities make the gurudwara a place of shared faith and celebration, fostering a sense of belonging and unity.",
-    images: [guru1, guru2, guru3],
-    source: "(src: Wikipedia, NDTV)",
-  },
-  {
-    name: "Shri Durgiana Temple",
-    description:
-      "Durgiana Temple or Shri Durgiana Mandir is a Hindu temple situated in the city of Amritsar in Punjab, India. Though a Hindu temple, its architecture is similar to the Sikh Harmandir Sahib (Golden Temple). The temple derives its name from the Goddess Durga, the chief Goddess who is worshipped here. Murtis of Lakshmi and Vishnu are also located and worshipped in the temple. Although it is believed that Durgiana Mandir was built in 1921, the temple existed before it was rebuilt in 1921. It is confirmed by record in Amritsar District Gazetteer of 1893, which spoke about the Durgiana Sarovar and "Devi dwara" surrounding it which was visited by Hindu pilgrims. The architecture of Sri Durgiana Temple is similar to Shri Harmandir Sahib. It was built in 1921 by Guru Harsai Mal Kapoor in the architectural style of the Sikh Shri Harmandir Sahib (Golden Temple). Harsai Mal was a descendant of Prithi Chand and hence Guru Ram Das. The grandchildren of Harsai Mal Kapoor is currently living in amritsar and one of caretakers of the idol of Harsai mal Kapoor. The temple is built in the middle of a sacred lake, which measures 160 metres (520 ft) × 130 metres (430 ft). Its dome and canopies are similar to that of the Golden temple of Sikh religion, also located in Amritsar. A bridge provides the approach to the temple. The dome of the temple is gilded. Marble is used extensively in the temple's features. The dome is illuminated with colourful lights. The temple is sometimes called Silver temple because of its large exquisitely designed silver doors. It has a rich collection of Hindu scriptures. The temple complex also has some historic subsidiary temples such as Seetla Mata and Bara Hanuman.",
-    images: [durgiana1, durgiana2, durgiana3],
-    source: "(src: wikipedia, shri durgiana tirth(amitsar))",
-  },
-  {
-    name: "Sri Akal Takht Sahib",
-    description:
-      "Akal Takht means ‘Throne of the Timeless’, also historically known as ‘Akal Bunga’, is the most prominent of the five takhts (seats of authority) of the Sikhs. Located within the Darbar Sahib (Golden Temple) complex in Amritsar, Punjab, India, it was established by Guru Hargobind in 1606 as a place to uphold justice and address temporal matters. The Akal Takht represents the highest seat of earthly authority for the Khalsa, the collective body of initiated Sikhs and serves as the official seat of the jathedar, the supreme spokesperson and head of the Sikhs worldwide. The position of the jathedar is currently disputed between two factions. The Shiromani Gurdwara Parbandhak Committee (SGPC) appointed Giani Kuldip Singh Gargaj as the acting jathedar in 2025. However, the Sarbat Khalsa, organised by several Sikh organisations in 2015, had earlier declared Jagtar Singh Hawara as the jathedar. Originally known as the Akal Bunga,[7] the building directly opposite the Harmandir Sahib was founded by the sixth Sikh Guru, Guru Hargobind, as a symbol of political sovereignty, and where the spiritual and temporal concerns of the Sikh people could be addressed. Along with Baba Buddha and Bhai Gurdas, the sixth Sikh Guru built a 9-foot-high concrete slab. When Guru Hargobind revealed the platform on 15 June 1606, he put on two swords: one indicated his spiritual authority (piri) and the other, his temporal authority (miri). According to Kanwarjit Singh Kang, the platform raised by Guru Hargobind was built in 1609, a later dating.",
-    images: [akaltakht1, akaltakht2, akaltakht3],
-    source: "(src: wikipedia)",
-  },
-  {
-    name: "Jang-e-aazadi memorial",
-    description:
-      "Jang-e-Azadi Memorial (lit. 'Battle for Freedom Memorial') is a memorial and museum in Kartarpur town (near the city of Jalandhar) in Jalandhar district of Punjab, India, in memory of contribution and sacrifices made by the Punjabi community in Indian independence movement. The memorial was built over an area of 25 acres at the cost of ₹300 crore. Punjab chief minister Parkash Singh Badal laid the foundation stone of the Jang-e-Azadi memorial on 19 October 2014, and actual work started on 26 March 2015. A committee of historians, journalists and intellectuals was constituted to finalize the action plan and concept of the memorial to be built up.",
-    images: [jang1, jang2, jang3],
+      "Patal Bhuvaneshwar, located in the Pithoragarh district of Uttarakhand, is a mystical cave temple that holds immense religious and spiritual significance. Situated at an altitude of about 1,350 meters in the Kumaon Himalayas, this ancient site is dedicated to Lord Shiva and is believed to be as sacred as the Char Dham shrines. The cave, which extends about 160 meters in length and 90 feet deep, is a natural wonder filled with stalactites and stalagmites that form fascinating shapes resembling various deities and mythological symbols. According to legend, Adi Shankaracharya discovered this cave in the 8th century, and it has since been revered as a place where the divine presence of 33 crore Hindu gods and goddesses resides. Inside the cave, devotees can witness formations that are said to represent Lord Shiva’s matted locks, Sheshnag, Kalabhairav, and even the tongue of Goddess Kali. The atmosphere within is mystical, with narrow passages, dimly lit interiors, and the echo of chants creating a deeply spiritual experience. The cave is also believed to be the site where the Pandavas from the Mahabharata performed penance and where several mythological events took place. Managed by priests of the Bhandari family for generations, the temple continues to be a living symbol of faith and devotion. The journey to Patal Bhuvaneshwar itself is enchanting, surrounded by dense forests of deodar and pine, offering breathtaking views of the majestic Himalayas. Unlike other temples, this shrine is unique because it is not just a place of worship but also a natural marvel that blends geology with mythology. Pilgrims visiting here often feel a profound connection to the divine, as the cave is said to represent the very womb of Mother Earth. Patal Bhuvaneshwar is thus not only a destination of religious importance but also a site that showcases the mystical charm and cultural richness of Uttarakhand, making it a must-visit for seekers of spirituality and wonder.",
+    images: [pa],
     source: "(src: Wikipedia)",
   },
 ];
 
 const facts = [
-  "It is the 19th-largest Indian state by area out of 28 Indian states.",
-  "Punjab is the 16th-largest Indian state by population, comprising 23 districts.",
-  "At present, the economy of Punjab is the 15th-largest state economy in India with ₹8.02 trillion (US$95 billion) in gross domestic product and a per capita GDP of ₹264,000 (US$3,100), ranking 17th among Indian states.",
-  "It is the ninth-highest ranking among Indian states in human development index.",
-  "Punjabi is the native and sole official language of Punjab and, as of the 2011 census, was spoken as a first language by 24.9 million people, or roughly 90% of the state's population.[2] Hindi is spoken by 2.18 million, or 7.9% of the population, Bagri has 234,000 speakers (or 0.8%), while the remaining 413,000 (or 1.5%) spoke other languages.",
-  "The largest cultivated crop is wheat. Other important crops are rice, cotton, sugarcane, pearl millet, maize, barley and fruit.",
-  "Punjab makes up for about 15–20% of India's wheat production, around 12% of its rice production, and around 5% of its milk production, being known as India's breadbasket.",
-  "The state has been awarded the National Productivity Award for agriculture extension services for ten years, from 1991 to 1992 to 1998–99 and from 2001 to 2003–04.",
-  "The city of Amritsar is home to the craft of brass and copper metalwork done by the Thatheras of Jandiala Guru, which is enlisted on the UNESCO's List of Intangible Cultural Heritage.",
-  "Punjab, known as the 'Land of Five Rivers' (Sutlej, Beas, Ravi, Chenab, and Jhelum).",
-  "Chandigarh is the joint capital of Punjab and Haryana.",
-  "Kapurthala is known for its historic, European-style architecture, often referred to as the 'Paris of Punjab'.",
-  "The city of Ludhiana is a major hub for the bicycle industry and is often called the 'Manchester of India'.",
-  "The Harike Wetland is a significant Ramsar site, providing a home to many bird species, including the endangered Siberian crane.",
-  "In the Rig-Veda, Punjab was referred to as Sapta Sindhu (Land of Seven Rivers).",
+  "Uttarakhand is known as the 'Land of Gods' because of its many famous temples and pilgrimage sites.",
+  "The capital cities of Uttarakhand are Dehradun (winter) and Gairsain (summer).",
+  "The state was formed on 9 November 2000 after separating from Uttar Pradesh.",
+  "Kedarnath Temple and Badrinath Temple are among the most important Hindu pilgrimage sites in India.",
+  "Uttarakhand is home to part of the Himalayas and has many snow-covered peaks.",
+  "The famous Ganges river originates from the Gangotri Glacier in Uttarakhand.",
+  "Jim Corbett National Park is India's oldest national park and is famous for Bengal tigers.",
 ];
-
 const artGallery = [
   {
-    title: "Jutti",
-    emoji: "🍛",
-    color: "#D4883A",
-    desc: "Traditional Footwear",
-    image: gJutti,
+    title: "Aipan Art",
+    emoji: "🎨",
+    color: "#C62828",
+    desc: "Traditional folk art made with rice paste on red ochre background, drawn during festivals and rituals",
+    image: gAipan,
   },
   {
-    title: "Bhangra",
-    emoji: "🍮",
-    color: "#F4A84A",
-    desc: "Folk Dance",
-    image: gBhangra,
+    title: "Ringal Craft",
+    emoji: "🪵",
+    color: "#2E7D32",
+    desc: "Intricate basketry and utility items woven from ringal bamboo by skilled artisans of the hills",
+    image: gRingal,
   },
   {
-    title: "Phulkari Dupatta",
-    emoji: "🍚",
-    color: "#E8733A",
-    desc: "Traditional wear",
-    image: gPhulkari,
-  },
-  {
-    title: "Giddha Dance",
-    emoji: "🌸",
-    color: "#F4D8E8",
-    desc: "A Folk dance",
-    image: gGiddha,
-  },
-  {
-    title: "Fields of Punjab",
-    emoji: "🥐",
-    color: "#F4E884",
-    desc: "",
-    image: gFields1,
-  },
-  {
-    title: "Fields of Punjab",
-    emoji: "🍨",
-    color: "#E8C8E8",
-    desc: "Cold dessert drink with milk, almond gum, ice cream",
-    image: gFields2,
-  },
-  {
-    title: "Sarson da saag, Makki di roti",
-    emoji: "🧈",
-    color: "#F8F0C4",
-    desc: "A traditional Punjabi dish featuring spiced mustard greens (saag) and flatbread made from maize flour (roti)",
-    image: gSarson,
-  },
-  {
-    title: "Amritsari Kulcha",
-    emoji: "🔮",
-    color: "#E8F4F8",
-    desc: "It is crisp as well as soft leavened bread which is stuffed with boiled and mashed potatoes and spices",
-    image: gKulcha,
-  },
-  {
-    title: "Amritsari lassi",
-    emoji: "🥭",
-    color: "#F8C840",
-    desc: "It is a thick, creamy, and refreshing yogurt-based drink from Punjab, served chilled, often garnished with saffron and chopped nuts",
-    image: gLassi,
-  },
-  {
-    title: "Aloo Paratha",
-    emoji: "🌿",
-    color: "#F4B830",
-    desc: "",
-    image: gAlooparatha,
-  },
-  {
-    title: "Bharwa Shimla Mirch",
-    emoji: "👕",
-    color: "#B4D8E8",
-    desc: "Consists of whole green bell peppers (capsicums) stuffed with a savory, spiced filling—commonly mashed potatoes (aloo), paneer, or minced meat—and then pan-fried or roasted until tender",
-    image: gBharwamirch,
-  },
-  {
-    title: "Butter Chicken",
-    emoji: "🥻",
-    color: "#D4A4E8",
-    desc: "",
-    image: gButterchicken,
-  },
-  {
-    title: "Chole Bhature",
-    emoji: "🧣",
-    color: "#E8A8C8",
-    desc: "",
-    image: gCholebhature,
-  },
-  {
-    title: "Dal Makhni",
-    emoji: "💃",
-    color: "#E88844",
-    desc: "Modern variation of traditional lentil dishes, it is made with urad dal (black beans) and other pulses, and includes butter and cream (makhani is a Punjabi word for butter",
-    image: gDalmakhni,
-  },
-  {
-    title: "Punjabi Thali",
-    emoji: "🥞",
-    color: "#F4E8C8",
-    desc: "",
-    image: gThali,
-  },
-  {
-    title: "Amritsari Fish Fry",
+    title: "Pahadi Cuisine",
     emoji: "🍲",
-    color: "#F4D89C",
-    desc: "",
-    image: gFishfry,
+    color: "#E65100",
+    desc: "Traditional mountain food including Kafuli, Chainsoo, and Mandua Ki Roti using local grains and greens",
+    image: gPahadiCuisine,
   },
   {
-    title: "Parandha",
-    emoji: "🥣",
-    color: "#D4884A",
-    desc: "It is a traditional hair accessory from Punjab—often made of silk threads, beads, and tassels—that is braided into the end of a long plait to add length, volume, and decoration. It acts as a colorful, decorative hair extension worn during weddings, festivals, and folk dances",
-    image: gParandha,
+    title: "Langvir Nritya",
+    emoji: "💃",
+    color: "#6A1B9A",
+    desc: "Acrobatic folk dance performed by men balancing on bamboo poles during fairs and festivals",
+    image: gLangvirNritya,
+  },
+  {
+    title: "Kedarnath Temple",
+    emoji: "🛕",
+    color: "#4E342E",
+    desc: "Ancient stone temple nestled in the Himalayas at 3,583 meters, one of the twelve sacred Jyotirlingas",
+    image: gKedarnath,
+  },
+  {
+    title: "Garhwali Painting",
+    emoji: "🖼️",
+    color: "#AD1457",
+    desc: "Classical miniature painting style from the Garhwal region depicting court life, nature, and mythology",
+    image: gGarhwaliPainting,
+  },
+  {
+    title: "Cholia Dance",
+    emoji: "🥁",
+    color: "#00695C",
+    desc: "Vigorous sword dance performed by Kumaoni warriors during weddings and festive processions",
+    image: gCholiaDance,
+  },
+  {
+    title: "Woollen Crafts",
+    emoji: "🧶",
+    color: "#1565C0",
+    desc: "Hand-woven shawls, carpets, and pankhi fans crafted from fine local wool using traditional looms",
+    image: gWoollenCrafts,
+  },
+  {
+    title: "Bal Mithai",
+    emoji: "🍬",
+    color: "#F9A825",
+    desc: "Iconic Kumaoni fudge made from roasted khoya coated with white sugar balls, a signature sweet of the hills",
+    image: gBalMithai,
+  },
+  {
+    title: "Jhora Dance",
+    emoji: "🎶",
+    color: "#37474F",
+    desc: "Communal circle dance performed by men and women together during harvest season and local celebrations",
+    image: gJhoraDance,
   },
 ];
+
