@@ -8,15 +8,72 @@ import {
   X,
   ZoomIn,
 } from "lucide-react";
-import mahaMap from "@assets/mahaMap.jpg";
-const gudi1 = "";
-const gudi2 = "";
-const ganesh1 = "";
-const ganesh2 = "";
-const ganesh3 = "";
-const nag1 = "";
-const nag2 = "";
+import mahaMap from "https://i.postimg.cc/qBXKTwQB/image.png";
 
+// Festivals
+const gudi1 = "https://i.postimg.cc/Xv4MTVv8/image.png";
+const gudi2 = "https://i.postimg.cc/rmZv0xNm/image.png";
+const ganesh1 = "https://i.postimg.cc/GtB6ktXg/image.png";
+const ganesh2 = "https://i.postimg.cc/QCRwSDPZ/image.png";
+const ganesh3 = "https://i.postimg.cc/1RTky0tx/image.png";
+const nag1 = "https://i.postimg.cc/pLM3F2z3/image.png";
+const nag2 = "https://i.postimg.cc/GpcNXqMQ/image.png";
+const makar1 = "https://i.postimg.cc/vDF2fzgt/image.png";
+const makar2 = "https://i.postimg.cc/Z5Z4hP70/image.png";
+const ashadi1 = "https://i.postimg.cc/pLZxV941/image.png";
+const ashadi2 = "https://i.postimg.cc/PqVjZgtm/image.png";
+const mangala1 = "https://i.postimg.cc/sXtCH5GV/image.png";
+const mangala2 = "https://i.postimg.cc/021qpdq0/image.png";
+const pola1 = "https://i.postimg.cc/0QKLSrWC/image.png";
+const pola2 = "https://i.postimg.cc/FHF8ZTCy/image.png";
+const shivaji1 = "https://i.postimg.cc/cJgD92RT/image.png";
+const shivaji2 = "https://i.postimg.cc/W1tSzCfS/image.png";
+const janmashtami1 = "https://i.postimg.cc/cHcfXBbX/image.png";
+const janmashtami2 = "https://i.postimg.cc/J0nHKVXF/image.png";
+const gauri1 = "https://i.postimg.cc/3R3t8NM4/image.png";
+const gauri2 = "https://i.postimg.cc/76Xmf4Dc/image.png";
+
+// Monuments / Historical Places
+const gateway1 = "https://i.postimg.cc/6q3zZPpL/image.png";
+const gateway2 = "https://i.postimg.cc/tRSBb9Bx/image.png";
+const ajanta1 = "https://i.postimg.cc/xTXtTBZ5/image.png";
+const ajanta2 = "https://i.postimg.cc/ZKXj9Vk1/image.png";
+const sindhu1 = "https://i.postimg.cc/3Jz9yn5G/image.png";
+const sindhu2 = "https://i.postimg.cc/t4PkFWpF/image.png";
+const shaniwar1 = "https://i.postimg.cc/R0LTDm3h/image.png";
+const shaniwar2 = "https://i.postimg.cc/QtNqLz5f/image.png";
+const csmt1 = "https://i.postimg.cc/prpYrnsy/image.png";
+const csmt2 = "https://i.postimg.cc/nVPG50Lj/image.png";
+const chand1 = "https://i.postimg.cc/02K0qDMq/image.png";
+const chand2 = "https://i.postimg.cc/rw6Cysxs/image.png";
+const pf1 = "https://i.postimg.cc/RZc1WmLg/image.png";
+const pf2 = "https://i.postimg.cc/tgp3PcBc/image.png";
+const rai1 = "https://i.postimg.cc/3w1gZZ6w/image.png";
+const rai2 = "https://i.postimg.cc/nL2v115d/image.png";
+const aga1 = "https://i.postimg.cc/zBPKsGqK/image.png";
+const aga2 = "https://i.postimg.cc/NGSRbFNH/image.png";
+const bibi1 = "https://i.postimg.cc/pLtzb7M5/image.png";
+const bibi2 = "https://i.postimg.cc/4xTVkMRP/image.png";
+
+// Art Gallery — Crafts
+const gWarliPainting = "https://i.postimg.cc/L8BfHTHF/image.png";
+const gPaithaniSaree = "https://i.postimg.cc/43fcn9dG/image.png";
+const gBidriware = "https://i.postimg.cc/KY0MT8k3/image.png";
+const gKolhapuriChappal = "https://i.postimg.cc/3wtvGx46/image.png";
+const gMiniaturePainting = "https://i.postimg.cc/QtPK6Yqx/image.png";
+const gDhokraCraft = "https://i.postimg.cc/NLv9tySK/image.png";
+
+// Art Gallery — Cuisines
+const gVadaPav = "https://i.postimg.cc/htq3jcdR/image.png";
+const gMaharashtrianThali = "https://i.postimg.cc/HLYZwzz2/image.png";
+const gPuranPoli = "https://i.postimg.cc/wv3wPBSL/image.png";
+const gMisalPav = "https://i.postimg.cc/bJMmjhPz/image.png";
+const gKothimbirVadi = "https://i.postimg.cc/9X6L8C1w/image.png";
+const gBakharwadi = "https://i.postimg.cc/htgpnskm/image.png";
+const gPithlaBhakri = "https://i.postimg.cc/Xv18wbpd/image.png";
+const gThaaliPeeth = "https://i.postimg.cc/Hxf9h90d/image.png";
+const gAluVadi = "https://i.postimg.cc/dQyBTgvY/image.png";
+const gVaranBhaat = "https://i.postimg.cc/TYvcjQ3v/image.png";
 
 /* ─── Lightbox ──────────────────────────────────────────────────────────── */
 function Lightbox({
